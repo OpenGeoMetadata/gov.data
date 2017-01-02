@@ -1,0 +1,244 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "2b121f65-ab7c-4f47-8345-f0c7edc824d8",
+  "metadata_created": "2013-03-15T22:29:10.577584",
+  "metadata_modified": "2015-04-09T22:52:54.513315",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "2b121f65-ab7c-4f47-8345-f0c7edc824d8",
+      "webstore_last_updated": null,
+      "id": "d711c563-bda1-416e-81de-ab88d93f0691",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "381",
+      "hash": "",
+      "description": "Idaho Bedrock Geology",
+      "format": "WMS",
+      "tracking_summary": {
+        "total": 25,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WMS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "AZGS_IDGS_Geology (WMS)",
+      "created": "2013-03-15T23:29:10.595941",
+      "url": "http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_IDGS_Geology/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "03a93eff-d89e-49eb-a2de-6dedab92592e",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2b121f65-ab7c-4f47-8345-f0c7edc824d8",
+      "webstore_last_updated": null,
+      "id": "ac15c779-7e5d-480c-9a9c-0e73f0b70ab9",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "381",
+      "hash": "",
+      "description": "Idaho Bedrock Geology",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 12,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WFS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "AZGS_IDGS_Geology_WFS (WFS)",
+      "created": "2013-03-15T23:29:10.595959",
+      "url": "http://services.azgs.az.gov/ArcGIS/rest/services/OneGeology/AZGS_IDGS_Geology_WFS/MapServer",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "03a93eff-d89e-49eb-a2de-6dedab92592e",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2b121f65-ab7c-4f47-8345-f0c7edc824d8",
+      "webstore_last_updated": null,
+      "id": "3e33be39-956e-40a0-a380-95583658179a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "381",
+      "hash": "",
+      "description": "Idaho Bedrock Geology",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 7,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "ESRI",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "AZGS_IDGS_Geology (ESRI Rest)",
+      "created": "2013-03-15T23:29:10.595966",
+      "url": "http://services.azgs.az.gov/ArcGIS/rest/services/OneGeology/AZGS_IDGS_Geology/MapServer",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "03a93eff-d89e-49eb-a2de-6dedab92592e",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 442,
+    "recent": 4
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The Arizona Geological Survey collates and serves geological information for Arizona and other states through its partnership with other state geological surveys.",
+    "created": "2013-03-14T03:44:43.328493",
+    "title": "Arizona Geological Survey",
+    "name": "azgs-az-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.50states.com/flag/image/nunst004.gif",
+    "revision_id": "61be6428-4398-4199-a336-f3cd1e956f9b",
+    "type": "organization",
+    "id": "f3f6e1d4-64fb-4a2f-b32c-9ac0b76fe4de",
+    "approval_status": "approved"
+  },
+  "name": "geologic-map-of-idaho-1-750000-scale",
+  "isopen": false,
+  "url": null,
+  "notes": "Geologic map of Idaho includes: map units contacts (lines), faults(lines), and map unit polygons. Geology compiled from more than 90 sources. Basement geology in central and north Idaho, compiled on Lambert conformal conic 1:750,000 base from 1976. Surficial geology for the entire state and bedrock and basement geology south of the Snake River and in southeast Idaho, compiled on shaded relief base derived from 10 m NED data. Downloadable Data not currently available. ",
+  "owner_org": "f3f6e1d4-64fb-4a2f-b32c-9ac0b76fe4de",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Arizona Geological Survey\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "metadata@azgs.az.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-117.242942"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2012-12-27T00:14:22Z"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2012-04-24T12:00:00\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-111.04306"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "49.001154"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "41.988336"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-117.242942, 41.988336], [-117.242942, 49.001154], [-111.04306, 49.001154], [-111.04306, 41.988336], [-117.242942, 41.988336]]]}"
+    },
+    {
+      "key": "guid",
+      "value": "66bb6bbde013946035700d274f0c8ac2"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "Geologic Map, Idaho, GIS Data, United States, Bedrock Geology, Basement Geology , Surficial geology , Geologic Unit Features, Geologic Contact Features, Fault Features, Idaho Geological Survey, Idaho Department of Water Resources"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "05d4809e-3121-4f59-95c2-8ade64a97f5d"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "f800beb8-4923-4e88-910f-1c6cf0078598"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "AASG geothermal data CSW"
+    }
+  ],
+  "title": "Geologic Map of Idaho 1:750,000-scale",
+  "revision_id": "e36b0c50-9a29-4fde-be07-ed403cdc7f30"
+}

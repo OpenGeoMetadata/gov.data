@@ -1,0 +1,199 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Data Exchange Administrator",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "ORDP.Data.Exchange@ssa.gov",
+  "num_tags": 7,
+  "id": "74246bbc-797d-4f24-ad75-61ec9f99719c",
+  "metadata_created": "2015-01-30T16:17:58.124414",
+  "metadata_modified": "2016-10-29T19:05:41.033741",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "agreement-workflow-tool",
+      "id": "5f2f1fc9-c076-4bcc-9bcc-e786ca545514",
+      "name": "agreement-workflow-tool"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "awt",
+      "id": "13dec54e-8d44-41cd-8400-094b31278b5e",
+      "name": "awt"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "cbsv",
+      "id": "77bdf265-b7bc-4012-b6f4-751427895180",
+      "name": "cbsv"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "dexi",
+      "id": "864d28fa-7454-4cd5-a2f6-1e7092e598da",
+      "name": "dexi"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ssa-1033",
+      "id": "6c4616df-eac9-4bba-9779-18b5f510e288",
+      "name": "ssa-1033"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ssa-1235",
+      "id": "0be3531a-2bc3-4514-a4da-8a53a82c9116",
+      "name": "ssa-1235"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ssa-40",
+      "id": "8cdffd6d-216f-47d0-8418-1e0738e11874",
+      "name": "ssa-40"
+    }
+  ],
+  "tracking_summary": {
+    "total": 19,
+    "recent": 3
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:35:25.934290",
+    "title": "Social Security Administration",
+    "name": "ssa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/ssa.png",
+    "revision_id": "1be01963-921d-432f-b56d-37fa76dfb0a1",
+    "type": "organization",
+    "id": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+    "approval_status": "approved"
+  },
+  "name": "agreement-workflow-tool-awt",
+  "isopen": true,
+  "url": null,
+  "notes": "The Agreement Workflow Tool (AWT) is a role-based Intranet application used for processing SSA's Reimbursable Agreements according to SSA's standards. AWT provides project coordinators with the functionality to create a cost estimate, SSA-1033, and store multiple versions for use in subsequent workflows. AWT also provides project coordinators with functionality to Create, Renew and Amend the SSA-1235 and SSA-40 Financial Documents. The application also provides functionality to generate agreement related reports, to search for an agreement, to view agreement history and to store agreement related documentation. AWT interfaces with  social SSN Verification (CBSV) to ensure that the external CBSV customers have active agreements with SSA. AWT also interfaces with the Data Exchange Inventory (DEXI) application to update the data exchange inventory information and provide SSA users with a link to the reimbursable agreement documentation.  AWT provides the Regional Office Data Exchange Coordinators (DECs) with the ability to create and modify tracking records for the non-reimbursable agreements between SSA and the States or State Agencies.  AWT is developed with ColdFusion and DB2. Users of AWT include DCS, DCO (including the Regional Offices), OGC, DCBFQM, OCO, and ODX.",
+  "owner_org": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Social Security Administration"
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "license",
+      "value": "https://www.ssa.gov/open/data/Restricted-Public-Licensing-Information.html"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "rights",
+      "value": "The data contained in this data exchange is restricted due to sensitivity and/or privacy issues.  If you would like more information on a data exchange with SSA please visit the following web site https://www.ssa.gov/dataexchange/."
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "R/P1D"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "016:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "016:00"
+      ]
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1D"
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "US-GOV-SSA-690"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "a0fe636b-6476-466c-ac21-e13f7d2fd5d1"
+    },
+    {
+      "key": "source_hash",
+      "value": "04b1b71de0292680afd1217fa7af53404d91fc9e"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "a0fe636b-6476-466c-ac21-e13f7d2fd5d1"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    }
+  ],
+  "title": "Agreement Workflow Tool (AWT)",
+  "revision_id": "902fba00-465c-496d-8a21-40ace3e53081"
+}

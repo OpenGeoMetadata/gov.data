@@ -1,0 +1,228 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "Doug Blankenship",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "dablank@sandia.gov",
+  "num_tags": 5,
+  "id": "596dcc9f-ee42-41b2-b9a1-7685813291b6",
+  "metadata_created": "2016-11-30T21:29:15.818850",
+  "metadata_modified": "2016-11-30T21:29:15.818850",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "596dcc9f-ee42-41b2-b9a1-7685813291b6",
+      "webstore_last_updated": null,
+      "id": "7cc28691-6744-46e6-ba26-e68d96afe9d9",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "ArcGIS data from the West Flank FORGE area",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "westflankarcgis.zip",
+      "created": "2016-11-30T16:29:16.048129",
+      "url": "http://gdr.openei.org/files/668/WestFlankArcGIS.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "4251fd55-7276-48bc-a68c-eaac023610b6",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "california",
+      "id": "56d81857-6614-483d-94cf-0603219a813a",
+      "name": "california"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "forge",
+      "id": "712b9477-e5bd-47ea-8261-335687d46f0e",
+      "name": "forge"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geologic-map",
+      "id": "660d26fc-1c23-441d-aa3e-04e755a6f30e",
+      "name": "geologic-map"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geothermal",
+      "id": "3f323051-fbd3-4715-bc13-e2fa5e65d369",
+      "name": "geothermal"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "west-flank",
+      "id": "78bb47a9-9c1c-4dd1-aa62-d9ca75995268",
+      "name": "west-flank"
+    }
+  ],
+  "tracking_summary": {
+    "total": 1,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "west-flank-coso-forge-arcgis-data",
+  "isopen": true,
+  "url": null,
+  "notes": "Geologic ArcGIS data of West Flank Coso, Ca FORGE site from a unpublished map by Rich Whitmarsh. The zip file includes a DEM, hillshade and four shapefiles of the general outlines of FORGE area.",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "issued",
+      "value": "2015-12-21"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "29d0a7ed0b76add6d7c5fcd09e371bd3cf72e858"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-117.96693583984,35.970452061344],[-117.70336513672,35.970452061344],[-117.70336513672,36.178239397416],[-117.96693583984,36.178239397416],[-117.96693583984,35.970452061344]]]}"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "format",
+      "value": "application/unknown"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:006"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://gdr.openei.org/submissions/668"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "092d197b-d0d9-4aab-b287-b873909e185b"
+    },
+    {
+      "key": "accessURL",
+      "value": "http://gdr.openei.org/files/668/WestFlankArcGIS.zip"
+    },
+    {
+      "key": "publisher",
+      "value": "Sandia National Laboratories"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "key": "modified",
+      "value": "2015-12-21"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/f0000000-e214-4c72-acd2-000000000668"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "092d197b-d0d9-4aab-b287-b873909e185b"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "West Flank Coso FORGE: ArcGIS data",
+  "revision_id": "4251fd55-7276-48bc-a68c-eaac023610b6"
+}

@@ -1,0 +1,235 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Paul Craven",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "paul.craven@opm.gov",
+  "num_tags": 7,
+  "id": "89a8914f-c4cd-44cc-b262-35fb02284b46",
+  "metadata_created": "2014-12-23T15:22:48.656985",
+  "metadata_modified": "2015-09-12T07:51:37.968343",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "89a8914f-c4cd-44cc-b262-35fb02284b46",
+      "webstore_last_updated": null,
+      "id": "d1d16e17-7ef2-48aa-bee7-d88272fe6cc9",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "API",
+      "tracking_summary": {
+        "total": 49,
+        "recent": 5
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "text/html",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-12-23T10:22:49.134099",
+      "url": "https://data.usajobs.gov/Rest",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "83a81f82-5194-4710-a1bc-fd19a192de6d",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "federal-employment",
+      "id": "1b95477a-489d-4d9b-9b02-0177b2f73d5c",
+      "name": "federal-employment"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "federal-jobs",
+      "id": "cd4c78b5-be52-4915-aa11-764a2cb8f888",
+      "name": "federal-jobs"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "government-employment",
+      "id": "b25583d4-5f64-4748-8c1d-2070bb9362a5",
+      "name": "government-employment"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "government-jobs",
+      "id": "defdda59-3761-4d7f-a182-8b51530c2c7e",
+      "name": "government-jobs"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "joa",
+      "id": "bed7793b-2ba2-47f6-8371-0253ebaffd68",
+      "name": "joa"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "job-opportunity-announcements",
+      "id": "5ada01fe-2bd1-4edb-9fa6-15e3583a1923",
+      "name": "job-opportunity-announcements"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "usajobs",
+      "id": "7c166a75-cdc4-47db-b5fb-3c623e78b70b",
+      "name": "usajobs"
+    }
+  ],
+  "tracking_summary": {
+    "total": 354,
+    "recent": 8
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:44:41.140577",
+    "title": "Office of Personnel Management",
+    "name": "opm-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/opm.png",
+    "revision_id": "f163115f-546e-493e-808d-10efcded0e06",
+    "type": "organization",
+    "id": "a3732ee6-6fb3-4e6b-a32d-0fcb01add7a4",
+    "approval_status": "approved"
+  },
+  "name": "usajobs-job-opportunity-announcements-joa-rest-api",
+  "isopen": true,
+  "url": null,
+  "notes": "This REST-based API is designed to support lightweight Federal Job Opportunity Announcement (JOA) content consumption by consumers. It is anticipated that this API will be leveraged by Commercial Job Boards, Mobile Applications and Social Media sites who desire to provide employment opportunities on their site. Typically in these commercial venues, the breadth of data presented to a user (job seeker) is much smaller than the detailed content provided on USAJOBS, as required by law.",
+  "owner_org": "a3732ee6-6fb3-4e6b-a32d-0fcb01add7a4",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "U.S. Office of Personnel Management"
+    },
+    {
+      "key": "identifier",
+      "value": "OPM-USAJOBS-0002"
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "131df510-7857-4801-8853-31047743b5c7"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "source_hash",
+      "value": "d89f1ea7a0019a462c7a380fc384f961ed7ae05a"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2014"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "OPM JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "theme",
+      "value": [
+        "API"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "027:00"
+      ]
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "027:009"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c805bd1e-e76c-4687-b80c-68284ac23763"
+    },
+    {
+      "key": "describedBy",
+      "value": "https://schemas.usajobs.gov"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c805bd1e-e76c-4687-b80c-68284ac23763"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "131df510-7857-4801-8853-31047743b5c7"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "OPM JSON"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "USAJOBS Job Opportunity Announcements (JOA) REST API",
+  "revision_id": "83a81f82-5194-4710-a1bc-fd19a192de6d"
+}

@@ -1,0 +1,235 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "Richard Zehner",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "rzehner@gdareno.com",
+  "num_tags": 6,
+  "id": "2d1e12b8-4249-43ce-803b-1cede44c34e9",
+  "metadata_created": "2016-11-30T21:30:01.940735",
+  "metadata_modified": "2016-11-30T21:30:01.940735",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "2d1e12b8-4249-43ce-803b-1cede44c34e9",
+      "webstore_last_updated": null,
+      "id": "7cd3065a-0b4b-41ff-93cb-d1fd978541d6",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Spatial analysis of CIRES ASTER and LANDSAT data.",
+      "format": "PDF",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/pdf",
+      "cache_url": null,
+      "name": "satellitespatialstatisticsmemo.pdf",
+      "created": "2016-11-30T16:30:02.171895",
+      "url": "http://gdr.openei.org/files/339/SatelliteSpatialStatisticsMemo.pdf",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "f7a933a7-4927-4d03-aef7-f72f94f0c9c2",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "aster",
+      "id": "6cd40cb4-a14c-4270-8b9f-550de9828472",
+      "name": "aster"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "colorado",
+      "id": "e7376c2e-a2cf-4d85-8f2f-0d09e6a35f48",
+      "name": "colorado"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geothermal",
+      "id": "3f323051-fbd3-4715-bc13-e2fa5e65d369",
+      "name": "geothermal"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "landsat",
+      "id": "5746711f-3b99-48ef-aa6f-84dcbd89c036",
+      "name": "landsat"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "remote-sensing",
+      "id": "6d180b70-95cc-4bb3-a94a-ca9170f4345a",
+      "name": "remote-sensing"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "thermal-infrared",
+      "id": "25b494bc-f7a0-4a91-9c40-0ed482c923d0",
+      "name": "thermal-infrared"
+    }
+  ],
+  "tracking_summary": {
+    "total": 0,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "spatial-analysis-of-cires-aster-and-landsat-thermal-infrared-anomalies-b2bc8",
+  "isopen": true,
+  "url": null,
+  "notes": "CIRES provided Project EE0002828 with polygon shapefiles showing areas of anomalously warm ground, derived from ASTER and LANDSAT remotely sensed thermal infrared imagery. Partly from these anomalies, and partly through other evidence layers, CIRES came up with 'polygons' representing areas prospective for geothermal development. Many of the anomalies are much larger and of different shapes than typical geothermal outflow zones, and many occur on ridgetops or other places geothermal systems typically do not form.This might indicate that the thermal anomalies are mostly solar (not geothermal) in nature.\n\nThe purpose of this analysis is to construct some spatial statistics to help understand the viability of the CIRES target model. In this model, ground thermal anomalies in Colorado are detected using either ASTER or LANDSAT thermal infrared spectral bands (among others). Those areas above some anomaly threshold (1 and 2 standard deviations) were then designated as ‘anomalous.’ One way to test the viability of their model would be to examine the area spatial statistics make use of the relative area of anomaly versus the total area, and the relative proportion of overlap between ASTER and LANDSAT data. If the area considered to be anomalous is large compared to the total area, then the infrared imagery would be a “blunt tool” for finding geothermal systems: the search is confined to too large an area. If there is disagreement between the areas found to be anomalous by ASTER and the areas found to be anomalous by LANDSAT, then the technique might not be robust. \n\nTo do this, ESRI Spatial Analyst was used to convert all of the anomaly shapefiles into ESRI grids with a 100m cell size. The the total area of the target polygons as well as the areas of ASTER and LANDSAT anomaly were calculated. Finally, the area of overlap between the ASTER and LANDSAT anomalies in a given polygon area was calculated.\n\n",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "issued",
+      "value": "2011-05-26"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "1641076278aa1ebe1f6fe8e7fe0e75eddea22976"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-108.752153125,36.967672123864],[-104.17095546875,36.967672123864],[-104.17095546875,41.008303547852],[-108.752153125,41.008303547852],[-108.752153125,36.967672123864]]]}"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "format",
+      "value": "application/unknown"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:006"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://gdr.openei.org/submissions/339"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "901869d2-cc55-4ef2-8a9b-017ef325cef0"
+    },
+    {
+      "key": "accessURL",
+      "value": "http://gdr.openei.org/files/339/SatelliteSpatialStatisticsMemo.pdf"
+    },
+    {
+      "key": "publisher",
+      "value": "Flint Geothermal, LLC"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "key": "modified",
+      "value": "2011-05-26"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/f0000000-e214-4c72-acd2-000000000339"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "901869d2-cc55-4ef2-8a9b-017ef325cef0"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "Spatial Analysis of CIRES ASTER and LANDSAT thermal infrared anomalies",
+  "revision_id": "f7a933a7-4927-4d03-aef7-f72f94f0c9c2"
+}

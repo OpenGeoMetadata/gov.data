@@ -1,0 +1,187 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "abc7a54b-2dd1-476f-9265-51ed3e52d51e",
+  "metadata_created": "2016-04-18T19:46:59.909689",
+  "metadata_modified": "2016-04-18T19:46:59.909689",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "abc7a54b-2dd1-476f-9265-51ed3e52d51e",
+      "webstore_last_updated": null,
+      "id": "5f6eb356-68e4-4d18-86dd-dfe7385aa8c2",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "None",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "http",
+      "created": "2016-04-18T15:46:59.965885",
+      "url": "http://aviationweather.gov/wifs",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "b2b7466b-b565-4e13-a379-2f83c7b09d6c",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 3,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "world-area-forecast-system-wafsf7f61",
+  "isopen": false,
+  "url": null,
+  "notes": "The World Area Forecast System (WAFS) is a worldwide system by which world area forecast centers provide aeronautical meteorological en-route forecasts in uniform standardized formats.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "360"
+    },
+    {
+      "key": "contact-email",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": "eng"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "0"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2014-06-23"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"creation\", \"value\": \"2015-11-23\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "90"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "None"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "-90"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "operational"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[0.0, -90.0], [360.0, -90.0], [360.0, 90.0], [0.0, 90.0], [0.0, -90.0]]]}"
+    },
+    {
+      "key": "guid",
+      "value": "urn:fdc:www.ncep.noaa.gov:Dataset:WAFS-UKMET-MAX-WIND:Metadata"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "wind_speed, doc/noaa/nws/toc/nwstg, maximum wind height, wafs, geopotential height, none, wind speed/wind direction, y[huv]x[cdefghijklm]96 egrr, maximum wind level, world area forecast system, geopotential_height, doc/noaa/nws/ncep/awc"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "fcb5a8d1-7b30-478b-b446-9c62596fd2d7"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "World Area Forecast System (WAFS)",
+  "revision_id": "b2b7466b-b565-4e13-a379-2f83c7b09d6c"
+}

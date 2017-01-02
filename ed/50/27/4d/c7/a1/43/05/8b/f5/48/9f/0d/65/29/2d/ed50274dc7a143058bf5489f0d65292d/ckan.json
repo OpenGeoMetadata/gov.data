@@ -1,0 +1,226 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "ed50274d-c7a1-4305-8bf5-489f0d65292d",
+  "metadata_created": "2015-09-27T00:28:32.466221",
+  "metadata_modified": "2016-07-19T01:51:46.008221",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "ed50274d-c7a1-4305-8bf5-489f0d65292d",
+      "webstore_last_updated": null,
+      "id": "74591791-38fa-4cce-ae81-72e17097994a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "b6b65027-9ea8-44a6-8de8-6f5120054dce",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-07-18T21:51:46.102816",
+      "url": "https://coast.noaa.gov/htdata/raster2/elevation/California_IfSAR_DEM_2002_244",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "ed50274d-c7a1-4305-8bf5-489f0d65292d",
+      "webstore_last_updated": null,
+      "id": "c7e77130-0a65-441a-b6c2-2885dd188a91",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "b6b65027-9ea8-44a6-8de8-6f5120054dce",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-07-18T21:51:46.102844",
+      "url": "https://coast.noaa.gov/dataviewer/#/lidar/search/where:ID=244",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 50,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "2002-2003-ifsar-data-for-southern-california-digital-elevation-model-navd88",
+  "isopen": false,
+  "url": null,
+  "notes": "This metadata document describes the collection and processing of topographic elevation point data derived from Interferometric Synthetic Aperture Radar (IfSAR) measurement for coastal Southern California. Collection consists of topographic elevations from the California counties of Santa Barbara, Ventura, Los Angeles, Orange, and San Diego, and the hydrologic units within those counties that drain to the Pacific Ocean along with offshore islands within the Channel Islands. The resulting data available for download, include the Digital Elevation Model (DEM), and the Raw magnitude radar reflectance data. Height Variance data is available upon request from NOAA OCM. The elevation data is first surface return (vegetation is in the dataset) X-band IfSAR with three meter point spacing and approximately one meter vertical accuracy in non-vegetated areas. The elevation data is available in NAVD88 vertical datum.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-115.973179"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "33.631677"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "32.489551"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-118.00415, 32.489551], [-115.973179, 32.489551], [-115.973179, 33.631677], [-118.00415, 33.631677], [-118.00415, 32.489551]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: These data depict the heights at the time of the survey and are only accurate for that time. Users should be aware that temporal changes may have occurred since this data set was collected and some parts of this data may no longer represent actual surface conditions. Users should not use this data for critical applications without a full awareness of its limitations. Not intended for legal use.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2002-01-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "coastal.info@noaa.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-118.00415"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-07-14"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2004-01-01\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Any conclusions drawn from analysis of this information are not the responsibility of NOAA, the Office for Coastal Management or its partners.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"NOAA Office for Coastal Management\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2003-01-01"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "ca, radar, coastal, digital elevation model (dem), united states of america (usa), height variance data, los angeles county, santa barbara county, dsm, orange county, ventura county, raw magnitude radar imagery (mag), elevation, mapping, interferometric synthetic aperture radar (ifsar), ifsar, california, interferometric, channel islands, san diego county, bathymetry/topography, geosar"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "ba656911-2616-4cb6-8d60-f9c3ea9575f8"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "2002/2003 IfSAR data for Southern California: Digital Elevation Model (NAVD88)",
+  "revision_id": "1dc345a3-ac95-47c5-87bc-f6b34cd0f44c"
+}

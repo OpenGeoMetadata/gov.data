@@ -1,0 +1,242 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Chandler Becker",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "chandler.becker@nist.gov",
+  "num_tags": 9,
+  "id": "05d6f7fd-f48f-46ec-a59e-1130ebf4b333",
+  "metadata_created": "2016-01-29T13:51:51.836876",
+  "metadata_modified": "2016-10-07T22:14:18.122462",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "05d6f7fd-f48f-46ec-a59e-1130ebf4b333",
+      "webstore_last_updated": null,
+      "id": "ab29041e-02b7-4a87-b82d-ece38e92aab3",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 37,
+        "recent": 2
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "text/html",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-02-26T09:15:41.777435",
+      "url": "http://www.ctcms.nist.gov/potentials",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "03de4aad-abd6-483f-a080-3129759ab24d",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "force-fields",
+      "id": "d9f2908d-6fa4-4ba3-b93c-2367c442550a",
+      "name": "force-fields"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "integrated-computational-materials-engineering",
+      "id": "d4767ea7-4cf9-4841-9503-5b650d629317",
+      "name": "integrated-computational-materials-engineering"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "interatomic-potentials",
+      "id": "0c96fee8-b428-4719-a8b0-1457f9d44bb3",
+      "name": "interatomic-potentials"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "materials",
+      "id": "fffb6469-4ee3-4316-a0f8-b5630e6c3510",
+      "name": "materials"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "materials-genome-initiative",
+      "id": "f56dc694-5070-4c24-b6ce-fb635d7deefd",
+      "name": "materials-genome-initiative"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "materials-modeling",
+      "id": "7c2f9e61-b067-4fad-8152-a545804a60ac",
+      "name": "materials-modeling"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "materials-science",
+      "id": "e1113b84-7047-4a48-a76c-98154a160833",
+      "name": "materials-science"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "molecular-dynamics",
+      "id": "860a61c5-efa8-40e0-bd6e-ad95eae8faae",
+      "name": "molecular-dynamics"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "molecular-simulation",
+      "id": "c648ff69-6b18-4cb9-b04b-f8d4d4fc544c",
+      "name": "molecular-simulation"
+    }
+  ],
+  "tracking_summary": {
+    "total": 47,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:37:59.153068",
+    "title": "Department of Commerce",
+    "name": "doc-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.vos.noaa.gov/MWL/aug_10/Images/doc_logo_xparent.png",
+    "revision_id": "44c851b9-8872-497a-8a13-2f06740b7ffb",
+    "type": "organization",
+    "id": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+    "approval_status": "approved"
+  },
+  "name": "nist-interatomic-potentials-repository",
+  "isopen": true,
+  "url": null,
+  "notes": "This repository provides a source for interatomic potentials (force fields) and evaluation tools to help researchers obtain interatomic models and judge their quality and applicability. Users are encouraged to download interatomic potentials, and developers are welcome to contribute potentials for inclusion. The potentials provided have been submitted or vetted by their developers and appropriate references are provided. While many potentials are metallic and of the embedded-atom (EAM) form, other classes of potentials (e.g., MEAM, Reax, etc.) and materials are welcome. These could include semiconductors, polymers, and/or materials like carbides.  If you do not find the element or alloy potential you are seeking, send an email to Chandler.Becker@nist.gov, and we may be able to help. This site reflects what has been submitted, so it is not a complete survey of interatomic potentials for any or all systems. Here is a list of recent requests for potentials. http://www.ctcms.nist.gov/potentials/requests.html If you find this website useful, including using potentials you downloaded, please cite this project in addition to the proper interatomic potential reference: C.A. Becker,'Atomistic simulations for engineering: Potentials and challenges,' in Tools, Models, Databases and Simulation Tools Developed and Needed to Realize the Vision of ICME, ASM (2011). http://www.ctcms.nist.gov/potentials Please note that, due to the wide range of interatomic potential functions and formats, It is the user's responsibility to check that the interatomic potentials produce expected results.",
+  "owner_org": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "National Institute of Standards and Technology"
+    },
+    {
+      "key": "landingPage",
+      "value": "http://www.ctcms.nist.gov/potentials"
+    },
+    {
+      "key": "license",
+      "value": "http://www.nist.gov/open/license.cfm"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2014-03-05"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "language",
+      "value": [
+        "en"
+      ]
+    },
+    {
+      "key": "identifier",
+      "value": "EBC9DB05EDF05B0EE043065706812DF87"
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "006:55"
+      ]
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "006:052"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c47f681e-694f-48ea-bb46-eee6390a8e68"
+    },
+    {
+      "key": "source_hash",
+      "value": "a2ad9184543dffb001fa5c36070899a458ac827d"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c47f681e-694f-48ea-bb46-eee6390a8e68"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    }
+  ],
+  "title": "NIST Interatomic Potentials Repository",
+  "revision_id": "a1bfea08-7dd8-4b30-ab7e-f8d741b91d4a"
+}

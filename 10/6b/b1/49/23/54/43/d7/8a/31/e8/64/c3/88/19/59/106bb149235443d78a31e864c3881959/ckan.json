@@ -1,0 +1,388 @@
+{
+  "license_title": "Other (Public Domain)",
+  "maintainer": "Mark Elbert",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "data@eia.gov",
+  "num_tags": 23,
+  "id": "106bb149-2354-43d7-8a31-e864c3881959",
+  "metadata_created": "2014-11-20T17:37:39.503329",
+  "metadata_modified": "2016-07-26T05:50:57.776679",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "106bb149-2354-43d7-8a31-e864c3881959",
+      "webstore_last_updated": null,
+      "id": "d60444b7-daed-48ee-b3ed-34d3fa1ad9b8",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "API",
+      "tracking_summary": {
+        "total": 13,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "",
+      "cache_url": null,
+      "name": "STEO API",
+      "created": "2014-11-20T12:37:43.049223",
+      "url": "http://api.eia.gov/category/?api_key=YOUR_API_KEY_HERE&category_id=829714",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "d9047d4d-2c70-4f19-9081-efd1eb6af4c9",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "106bb149-2354-43d7-8a31-e864c3881959",
+      "webstore_last_updated": null,
+      "id": "e3e7ed8f-8dbf-451a-aef3-d4293308a816",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "API",
+      "tracking_summary": {
+        "total": 8,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "",
+      "cache_url": null,
+      "name": "API Web Page",
+      "created": "2015-08-18T05:01:48.091917",
+      "url": "http://www.eia.gov/beta/api/qb.cfm?category=829714",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 1,
+      "revision_id": "45dbe9f3-1e24-4ce6-ad4e-c94b4284c486",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "biofuels",
+      "id": "36c5936e-449c-4432-96f8-7cd1323e902a",
+      "name": "biofuels"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "carbon-dioxide-emissions",
+      "id": "f3f9f9e9-e219-4e32-9f98-214efbeafaf6",
+      "name": "carbon-dioxide-emissions"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "consumption",
+      "id": "076e00c1-745c-4788-a6c9-3a8631b159f1",
+      "name": "consumption"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "cooling-degree-days",
+      "id": "b615326e-eca5-4274-9685-64777ac5046b",
+      "name": "cooling-degree-days"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "economies",
+      "id": "4d6a2fb9-8934-4680-9b5e-6a8e29815bd9",
+      "name": "economies"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "export",
+      "id": "b4ac07af-8331-4ef8-a64a-829b3753c718",
+      "name": "export"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "forecast",
+      "id": "578091ac-2787-4bd9-9ed0-7b2ae57eb02c",
+      "name": "forecast"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "fuel-consumption",
+      "id": "08014eca-38e8-46c5-a208-e967137e8297",
+      "name": "fuel-consumption"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "fuel-cost",
+      "id": "7e1d832d-6c5f-4a1c-a8d9-8d7e6ec6c99a",
+      "name": "fuel-cost"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "generation",
+      "id": "c16de3d0-2bf2-4065-a55a-36a0807c7320",
+      "name": "generation"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "heating-degree-days",
+      "id": "1249f49c-9f21-42d4-87a0-8168e3651448",
+      "name": "heating-degree-days"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "import",
+      "id": "857d5663-3238-453f-9252-0d0ba3273cdf",
+      "name": "import"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "inventory",
+      "id": "5153ff55-b4fc-4edf-a2de-9e91ad0d9216",
+      "name": "inventory"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "macroeconomic-price-indices",
+      "id": "f790ae87-bc8c-4c81-9283-c4a7aa0fba07",
+      "name": "macroeconomic-price-indices"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "market-indicators",
+      "id": "37c34c57-395e-4cbf-9647-e430319ccf0b",
+      "name": "market-indicators"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "opec-surplus-production-capacity",
+      "id": "c92e6002-316a-48d6-87ba-9a99b2a295d4",
+      "name": "opec-surplus-production-capacity"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "price",
+      "id": "69afcd09-3d30-42dd-92f0-636e59a63169",
+      "name": "price"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "production",
+      "id": "b4c04329-0c10-4237-9fd1-e4584f18fba7",
+      "name": "production"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "projection",
+      "id": "ed599130-c8b8-4934-9455-63534b3ec107",
+      "name": "projection"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "refining",
+      "id": "146c6438-24ff-4d84-a388-5c3c1cccc00f",
+      "name": "refining"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "residential-customers",
+      "id": "0f879b82-1ec0-474d-a7dd-19b2ab92a446",
+      "name": "residential-customers"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "residential-usage",
+      "id": "64fcfb95-53a0-4e7c-85e6-3a4c5763c9a0",
+      "name": "residential-usage"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "weather",
+      "id": "5018d3b3-3c20-4b18-84f6-e2e69ce8bd4e",
+      "name": "weather"
+    }
+  ],
+  "tracking_summary": {
+    "total": 63,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "short-term-energy-outlook-application-programming-interface-api",
+  "isopen": true,
+  "url": null,
+  "notes": "The API provides data back to 1990 and projections annually, monthly, and quarterly for 18 months.  Summarizes the outlook for demand, supply and prices for petroleum, natural gas, electricity and coal as well as projections of carbon dioxide emissions from the production of fossil fuels, and a discussion of price forecast uncertainty.  Users of the EIA API are required to obtain an API Key via this registration form: http://www.eia.gov/beta/api/register.cfm",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "a6b572d48e009b14ac54790bc196c643a1fb6ff1"
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "energy"
+      ]
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:022"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://www.eia.gov/forecasts/steo/index.cfm"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d59acb58-fdd1-4e62-a93e-77c276bb4479"
+    },
+    {
+      "key": "publisher",
+      "value": "U.S. Energy Information Administration"
+    },
+    {
+      "key": "license",
+      "value": "http://creativecommons.org/publicdomain/mark/1.0/other-pd"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "rights",
+      "value": "The EIA API is offered as a free public service, although registration is required."
+    },
+    {
+      "key": "modified",
+      "value": "2014-09-09"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1M"
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "DOE-019-5566437856"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d59acb58-fdd1-4e62-a93e-77c276bb4479"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "title": "Short-Term Energy Outlook Application Programming Interface (API)",
+  "revision_id": "dccc7edd-7f4b-482f-a98f-94718338fcd3"
+}

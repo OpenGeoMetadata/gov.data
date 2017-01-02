@@ -1,0 +1,218 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Elizabeth Foughty",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "elizabeth.a.foughty@nasa.gov",
+  "num_tags": 3,
+  "id": "998cbe6d-9bad-422c-b086-64afabb0f0fd",
+  "metadata_created": "2016-02-26T22:02:09.501111",
+  "metadata_modified": "2016-05-06T08:19:06.793108",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "998cbe6d-9bad-422c-b086-64afabb0f0fd",
+      "webstore_last_updated": null,
+      "id": "1f48fbc9-261c-43c4-87cd-d151474d70b0",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "PROBABILITY CALIBRATION BY THE MINIMUM AND MAXIMUM PROBABILITY SCORES IN ONE-CLASS BAYES LEARNING FOR ANOMALY DETECTION",
+      "format": "PDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/pdf",
+      "cache_url": null,
+      "name": "Paper 13 .pdf",
+      "created": "2016-02-26T17:02:09.798539",
+      "url": "https://c3.nasa.gov/dashlink/static/media/publication/Paper_13_.pdf",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "a255aa73-1114-4af3-9557-dd8f68847a36",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ames",
+      "id": "26409e70-decd-4cc6-9beb-904602430852",
+      "name": "ames"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "dashlink",
+      "id": "4377f23e-7f40-493e-82fd-834ccb75e9ba",
+      "name": "dashlink"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "nasa",
+      "id": "34817959-c506-4bfe-b8fd-330f550970e4",
+      "name": "nasa"
+    }
+  ],
+  "tracking_summary": {
+    "total": 1,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "probability-calibration-by-the-minimum-and-maximum-probability-scores-in-one-class-bayes-l",
+  "isopen": true,
+  "url": null,
+  "notes": "PROBABILITY CALIBRATION BY THE MINIMUM AND MAXIMUM PROBABILITY\r\nSCORES IN ONE-CLASS BAYES LEARNING FOR ANOMALY DETECTION\r\n\r\nGUICHONG LI, NATHALIE JAPKOWICZ, IAN HOFFMAN, R. KURT UNGAR\r\n\r\nABSTRACT. One-class Bayes learning such as one-class Naïve Bayes and one-class Bayesian\r\nNetwork employs Bayes learning to build a classifier on the positive class only for discriminating\r\nthe positive class and the negative class. It has been applied to anomaly detection for identifying\r\nabnormal behaviors that deviate from normal behaviors. Because one-class Bayes classifiers can\r\nproduce probability score, which can be used for defining anomaly score for anomaly detection,\r\nthey are preferable in many practical applications as compared with other one-class learning\r\ntechniques. However, previously proposed one-class Bayes classifiers might suffer from poor\r\nprobability estimation when the negative training examples are unavailable. In this paper, we\r\npropose a new method to improve the probability estimation. The improved one-class Bayes\r\nclassifiers can exhibits high performance as compared with previously proposed one-class Bayes\r\nclassifiers according to our empirical results.",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "issued",
+      "value": "2010-10-13T14:54:20"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "4d196b3fd878ecbc8a421b9b5fcf6b2b1845663c"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:029"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "https://c3.nasa.gov/dashlink/resources/235/"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "074a5917-a4f8-47f4-84cf-a9e46d890141"
+    },
+    {
+      "key": "publisher",
+      "value": "Dashlink"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "56cf5b00a759fdadc44e5659"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "U.S. Government > National Aeronautics and Space Administration > Dashlink"
+    },
+    {
+      "key": "modified",
+      "value": "2010-10-13T14:54:33"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "irregular"
+    },
+    {
+      "key": "identifier",
+      "value": "DASHLINK_235"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "074a5917-a4f8-47f4-84cf-a9e46d890141"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "PROBABILITY CALIBRATION BY THE MINIMUM AND MAXIMUM PROBABILITY SCORES IN ONE-CLASS BAYES LEARNING FOR ANOMALY DETECTION",
+  "revision_id": "a255aa73-1114-4af3-9557-dd8f68847a36"
+}

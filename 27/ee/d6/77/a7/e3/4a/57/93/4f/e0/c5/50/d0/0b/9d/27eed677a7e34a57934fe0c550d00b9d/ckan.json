@@ -1,0 +1,228 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "Kurt Feigl",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "feigl@wisc.edu",
+  "num_tags": 5,
+  "id": "27eed677-a7e3-4a57-934f-e0c550d00b9d",
+  "metadata_created": "2016-11-30T21:28:46.991411",
+  "metadata_modified": "2016-11-30T21:28:46.991411",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "27eed677-a7e3-4a57-934f-e0c550d00b9d",
+      "webstore_last_updated": null,
+      "id": "60a3b64b-acb5-403f-8c2a-216259b6fdd8",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Three-component nodal seismometer data from 238 stations of two swept-frequency source sweeps of a vibe truck operating in P-wave vibrational mode.",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "sweep-sample.zip",
+      "created": "2016-11-30T16:28:47.325534",
+      "url": "http://gdr.openei.org/files/851/SWEEP_Sample.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "860acef5-9b5a-4a03-89a1-1de8ff64c0cb",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "active-source-seismics",
+      "id": "d2adca1c-cdc7-425e-b3ac-8ecf718850a2",
+      "name": "active-source-seismics"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "brady-hot-springs-geothermal-field",
+      "id": "9c9a11f7-2609-49de-a193-132d70df1c68",
+      "name": "brady-hot-springs-geothermal-field"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geothermal",
+      "id": "3f323051-fbd3-4715-bc13-e2fa5e65d369",
+      "name": "geothermal"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "nevada",
+      "id": "ec8c7b6b-4081-43bb-9c5f-35cbe53dd3b8",
+      "name": "nevada"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "swept-frequency-source",
+      "id": "aa312c81-d4ec-4b01-baf3-e7c11cec046a",
+      "name": "swept-frequency-source"
+    }
+  ],
+  "tracking_summary": {
+    "total": 0,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "porotomo-subtask-6-3-nodal-seismometer-active-source-data-sample-912e9",
+  "isopen": true,
+  "url": null,
+  "notes": "This data is in sac format and includes recordings of two active source events from 238 three-component nodal seismometers deployed at Bradys Hot Springs geothermal field as part of the PoroTomo project.\n\nThe source was a viberoseis truck operating in P-wave vibrational mode and generating a swept-frequency signal. The files are 33 seconds long starting 4 seconds before each sweep was initiated. There is some overlap in the file times.\n\nSee Metadata submissions for metadata on the vibroseis source and instrument array.",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "issued",
+      "value": "2016-03-25"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "71740c74d71fa1cc1aa8469ea25af46df079b110"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-119.2167,39.5883],[-118.8167,39.5883],[-118.8167,39.9883],[-119.2167,39.9883],[-119.2167,39.5883]]]}"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "format",
+      "value": "application/unknown"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:006"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://gdr.openei.org/submissions/851"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "3158c30c-eaa6-4451-85c6-dbb20c777c69"
+    },
+    {
+      "key": "accessURL",
+      "value": "http://gdr.openei.org/files/851/SWEEP_Sample.zip"
+    },
+    {
+      "key": "publisher",
+      "value": "University of Wisconsin"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "key": "modified",
+      "value": "2016-03-25"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/f0000000-e214-4c72-acd2-000000000851"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "3158c30c-eaa6-4451-85c6-dbb20c777c69"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "PoroTomo Subtask 6.3 Nodal Seismometer Active Source Data Sample",
+  "revision_id": "860acef5-9b5a-4a03-89a1-1de8ff64c0cb"
+}

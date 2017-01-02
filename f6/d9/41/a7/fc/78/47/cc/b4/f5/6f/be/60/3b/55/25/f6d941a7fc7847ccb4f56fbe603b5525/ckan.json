@@ -1,0 +1,237 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "f6d941a7-fc78-47cc-b4f5-6fbe603b5525",
+  "metadata_created": "2015-09-27T03:20:18.786586",
+  "metadata_modified": "2016-01-02T11:56:49.655328",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "f6d941a7-fc78-47cc-b4f5-6fbe603b5525",
+      "webstore_last_updated": null,
+      "id": "b3d2b19f-9b41-4dae-9aef-f4181747afc1",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 30,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "9c2e6e79-1114-4c97-9c36-4f979e304ea1",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Esri Rest API Endpoint",
+      "created": "2016-01-02T06:56:49.727627",
+      "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_CoastalFloodHazardComposite/MapServer",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f6d941a7-fc78-47cc-b4f5-6fbe603b5525",
+      "webstore_last_updated": null,
+      "id": "268d1aa0-fbfe-4964-a8d1-730bc6277fb0",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 232,
+        "recent": 13
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "9c2e6e79-1114-4c97-9c36-4f979e304ea1",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-01-02T06:56:49.727656",
+      "url": "https://coast.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 135,
+    "recent": 3
+  },
+  "groups": [
+    {
+      "display_name": "Climate",
+      "description": "",
+      "image_display_url": "",
+      "title": "Climate",
+      "id": "aa0c01c9-d292-4dc1-8fec-b10c1bb629a9",
+      "name": "climate5434"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "coastal-flood-hazard-composite-layer-for-the-coastal-flood-exposure-mapper",
+  "isopen": false,
+  "url": null,
+  "notes": "This is a map service for the Coastal Flood Hazard Composite dataset. This dataset was created by combining hazard zones from the following datasets: FEMA V zones, FEMA A zones, FEMA shaded X zones, NOAA OCM Flood Frequency zones, NOAA OCM potential sea level rise inundation of 3 ft above current Mean Higher High Water (MHHW), and SLOSH MOMs for category 3 hurricanes. This dataset was created to support the National Oceanic and Atmospheric Administration Office for Coastal Management's Coastal Flood Exposure Mapper application. The purpose of the online mapping tool is to provide coastal managers, planners, and stakeholders a preliminary look at exposures to coastal flooding hazards. The Mapper is a screening-level tool that uses nationally consistent data sets and analyses. Data and maps provided can be used at several scales to help communities initiate resilience planning efforts. Currently the extent of this dataset covers U. S. coastal areas along the Gulf of Mexico and Atlantic coasts. This is a cached map service. Tiles have been cached down to Level ID 15 (1:18,055).",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-71.4"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "41.3"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "38.5"
+    },
+    {
+      "key": "__category_tag_aa0c01c9-d292-4dc1-8fec-b10c1bb629a9",
+      "value": "[\"Human Health\",\"Coastal Flooding\"]"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-75.9, 38.5], [-71.4, 38.5], [-71.4, 41.3], [-75.9, 41.3], [-75.9, 38.5]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "underDevelopment"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: The dataset should be used only as a screening-level tool for management decisions. As with all remotely sensed data, all features should be verified with a site visit. The dataset is provided \\\"as is,\\\" without warranty to its performance, merchantable state, or fitness for any particular purpose. The entire risk associated with the results and performance of this dataset is assumed by the user. This dataset should be used strictly as a planning reference and not for navigation, permitting, or other legal purposes.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2008-01-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "coastal.info@noaa.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-75.9"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2015-12-18"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2013-01-01\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "irregular"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Any conclusions drawn from the analysis of this information are not the responsibility of the Office for Coastal Management or its partners.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"NOAA Office for Coastal Management\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2013-01-01"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "sea level rise, gulf of mexico coastal counties, shoreline, inundation, united states, hurricanes, atlantic coastal counties, flooding"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "4baa9a48-bb39-4fae-8a06-894924440abd"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Coastal Flood Hazard Composite Layer for the Coastal Flood Exposure Mapper",
+  "revision_id": "f20efd81-41ad-4bed-b582-dabe0053e66c"
+}

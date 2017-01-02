@@ -1,0 +1,218 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "f0cf67c7-4c9a-4b3b-a943-d3f18142e588",
+  "metadata_created": "2015-04-25T12:23:05.188032",
+  "metadata_modified": "2016-03-04T20:47:55.696766",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "f0cf67c7-4c9a-4b3b-a943-d3f18142e588",
+      "webstore_last_updated": null,
+      "id": "62bade7d-2672-4981-8298-883a1527448d",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 202,
+        "recent": 5
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "800da1c2-b420-4c9b-a835-0db4180fe956",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-03-04T15:47:55.793410",
+      "url": "http://bios.dfg.ca.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0cf67c7-4c9a-4b3b-a943-d3f18142e588",
+      "webstore_last_updated": null,
+      "id": "966c7c41-f561-426e-bb48-78e455087c4c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "ds358.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "800da1c2-b420-4c9b-a835-0db4180fe956",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2016-03-04T15:47:55.793438",
+      "url": "ftp://ftp.dfg.ca.gov/BDB/GIS/BIOS/Public_Datasets/300_399/ds358.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 21,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-19T14:05:26.054173",
+    "title": "State of California",
+    "name": "ca-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.ca.gov/images/template2012/header_ca.gov.png",
+    "revision_id": "ad94cda4-9394-44d0-9c37-573dc3c47c9a",
+    "type": "organization",
+    "id": "467d900f-8a42-452d-9906-6610dd1a767f",
+    "approval_status": "approved"
+  },
+  "name": "sensitive-sites-ospr-ds358a2417",
+  "isopen": false,
+  "url": null,
+  "notes": "The data was created by reviewing the information contained in the Site Summaries. If the Site Summary contained a latitude/longitude of the location, the ArcView Geotools extension was used to create the point shp file. If the coordinate was not know, the tool was used to identify the coordinate by selecting the location from a georeferenced USGS quad map. The extents were identified from the Site Summary and each extents was copied from the 24K Coast shp file or from the Delta Shp file. The Xtools extension was used to cut and copy each segment to the extents shp file.",
+  "owner_org": "467d900f-8a42-452d-9906-6610dd1a767f",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"California Department of Fish and Wildlife, Office of Spill Prevention and Response, GIS Unit\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "greg.ewing@wildlife.ca.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-124.503762"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-02-29"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-116.718332"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "42.036813"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "32.522844"
+    },
+    {
+      "key": "licence",
+      "value": "[\" \"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "underDevelopment"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-124.503762, 32.522844], [-116.718332, 32.522844], [-116.718332, 42.036813], [-124.503762, 42.036813], [-124.503762, 32.522844]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "tags",
+      "value": "shoreline, coast, area contingency plan, field biologist, california, department of fish and wildlife, shoreline protection, acp, office of spill prevention and response, sensitive sites"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "a70b492c-3072-4750-900c-4f7bac443ddb"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "bf0e0f99-7417-42e4-a627-e94c49cb4159"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "State of California Geoportal"
+    }
+  ],
+  "title": "Sensitive Sites - OSPR [ds358]",
+  "revision_id": "85038542-0d84-4155-9612-6ab50288dfd2"
+}

@@ -1,0 +1,486 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "Nicholas Langle",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "nicholas.langle@nrel.gov",
+  "num_tags": 16,
+  "id": "578a8d3d-9965-4e70-bf65-6e98bf8b1c3c",
+  "metadata_created": "2015-02-23T20:19:08.321754",
+  "metadata_modified": "2015-11-17T09:38:10.168912",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "578a8d3d-9965-4e70-bf65-6e98bf8b1c3c",
+      "webstore_last_updated": null,
+      "id": "3ae8d37d-7bdd-4241-8b9e-2f6f49aaa1e0",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Full 2011 Technical Report from EPRI",
+      "format": "PDF",
+      "tracking_summary": {
+        "total": 11,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/pdf",
+      "cache_url": null,
+      "name": "Mapping and Assessment of the United States Ocean Wave Energy Resource",
+      "created": "2015-02-23T15:19:09.082164",
+      "url": "http://en.openei.org/doe-opendata/dataset/a16535af-8db3-413c-87fd-f6759c5511f7/resource/0e7d5654-e2c3-4831-a28a-41cdda47c447/download/mappingandassessmentoftheusoceanwaveenergyresource.pdf",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "3bf21423-e771-4fbe-b23d-6ef82c0a69cb",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "578a8d3d-9965-4e70-bf65-6e98bf8b1c3c",
+      "webstore_last_updated": null,
+      "id": "4af54b51-b69c-421f-9f2b-b512ac7d6103",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "The zip contains numerous CSV files, split into regions.  Spatial resolution for some records may be different for the regions containing Alaska and Puerto Rico.\r\n\r\n###Attributes include:###\r\n\r\n* hwd - hindcast wave direction\r\n* ssh - significant wave height\r\n* wef - wave energy flux\r\n* wep - wave energy period\r\n\r\n###Header###\r\nThe files may not contain a header.  If the header is missing, the column names are as follows:\r\n\r\n1. Latitude\r\n2. Longitude\r\n3. Grid Cell Depth\r\n4. Avg. January values for attribute\r\n5. Avg. February values for attribute\r\n6. Avg. March values for attribute\r\n7. Avg. April values for attribute\r\n8. Avg. May values for attribute\r\n9. Avg. June values for attribute\r\n10. Avg. July values for attribute\r\n11. Avg. August values for attribute\r\n12. Avg. September values for attribute\r\n13. Avg. October values for attribute\r\n14. Avg. November values for attribute\r\n15. Avg. December values for attribute\r\n16. Avg. Annual values for attribute",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "CSV files by region",
+      "created": "2015-02-23T15:19:09.082187",
+      "url": "http://en.openei.org/doe-opendata/dataset/a16535af-8db3-413c-87fd-f6759c5511f7/resource/49df907b-5737-4436-bd7a-e9eedf0fd84a/download/wavedata.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 1,
+      "revision_id": "3bf21423-e771-4fbe-b23d-6ef82c0a69cb",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "578a8d3d-9965-4e70-bf65-6e98bf8b1c3c",
+      "webstore_last_updated": null,
+      "id": "e7a71295-a147-4676-acdc-afa4aa4edd77",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "GIS shapefile of wave power density geospatial data",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "Wave Power Density Shapefile",
+      "created": "2015-02-23T15:19:09.082195",
+      "url": "http://en.openei.org/doe-opendata/dataset/a16535af-8db3-413c-87fd-f6759c5511f7/resource/e1b3dcc3-9056-4a90-a3cd-35ec1292c10c/download/wavepowerdensity.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 2,
+      "revision_id": "3bf21423-e771-4fbe-b23d-6ef82c0a69cb",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "578a8d3d-9965-4e70-bf65-6e98bf8b1c3c",
+      "webstore_last_updated": null,
+      "id": "22dc426a-d860-4f71-9ebe-688734055490",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "GIS shapefile of wave energy period geospatial data",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "Wave Energy Period Shapefile",
+      "created": "2015-02-23T15:19:09.082201",
+      "url": "http://en.openei.org/doe-opendata/dataset/a16535af-8db3-413c-87fd-f6759c5511f7/resource/8ba9e426-594c-4c90-81f1-b9d9a91b9034/download/waveenergyperiod.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 3,
+      "revision_id": "3bf21423-e771-4fbe-b23d-6ef82c0a69cb",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "578a8d3d-9965-4e70-bf65-6e98bf8b1c3c",
+      "webstore_last_updated": null,
+      "id": "038a723b-950f-4472-89ee-c25615297ad0",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "GIS shapefile of significant wave height geospatial data",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 10,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "Significant Wave Height Shapefile",
+      "created": "2015-02-23T15:19:09.082208",
+      "url": "http://en.openei.org/doe-opendata/dataset/a16535af-8db3-413c-87fd-f6759c5511f7/resource/7234ee10-b222-4a6f-a338-e0d7ac3b2532/download/wavesignificantheight.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 4,
+      "revision_id": "3bf21423-e771-4fbe-b23d-6ef82c0a69cb",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "578a8d3d-9965-4e70-bf65-6e98bf8b1c3c",
+      "webstore_last_updated": null,
+      "id": "7d61f5bc-0491-4ae0-a9a9-ab50950592b7",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "GIS shapefile of wave hindcast direction geospatial data",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "Wave Hindcast Direction Shapefile",
+      "created": "2015-02-23T15:19:09.082214",
+      "url": "http://en.openei.org/doe-opendata/dataset/a16535af-8db3-413c-87fd-f6759c5511f7/resource/a9582f3f-51bf-4cac-8185-4ac04f338589/download/wavehindcastdirection.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 5,
+      "revision_id": "3bf21423-e771-4fbe-b23d-6ef82c0a69cb",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "578a8d3d-9965-4e70-bf65-6e98bf8b1c3c",
+      "webstore_last_updated": null,
+      "id": "264367dd-80b1-4a1e-afe2-8a9fe7f5bd89",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "GIS shapefile of wave study depth geospatial data",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "Wave Study Depth Shapefile",
+      "created": "2015-02-23T15:19:09.082220",
+      "url": "http://en.openei.org/doe-opendata/dataset/a16535af-8db3-413c-87fd-f6759c5511f7/resource/8a65319b-ee6c-4edc-84fb-b05f5f324730/download/wavedepth.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 6,
+      "revision_id": "3bf21423-e771-4fbe-b23d-6ef82c0a69cb",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "578a8d3d-9965-4e70-bf65-6e98bf8b1c3c",
+      "webstore_last_updated": null,
+      "id": "74543800-7314-4097-919b-f3acfc624a2d",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "NREL's available GIS data resources for Marine & Hydrokinetic data",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 5,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/html",
+      "cache_url": null,
+      "name": "Marine & Hydrokinetic Data on NREL.gov",
+      "created": "2015-02-23T15:19:09.082227",
+      "url": "http://www.nrel.gov/gis/data_mhk.html",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 7,
+      "revision_id": "3bf21423-e771-4fbe-b23d-6ef82c0a69cb",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 8,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "energy",
+      "id": "b778e6f8-a8f8-4ad6-968b-e9789c6afe2d",
+      "name": "energy"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "energy-assessment",
+      "id": "375692d3-760e-4aeb-8231-6eb8d79c945f",
+      "name": "energy-assessment"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "epri",
+      "id": "25ce5c73-71bd-4138-a502-741c21384ec9",
+      "name": "epri"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "gis",
+      "id": "3dc0c789-3e0c-4755-8418-1f1a0b82a70b",
+      "name": "gis"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "gis-data",
+      "id": "83f885eb-2ed0-4cb5-8abd-2a9f166f0709",
+      "name": "gis-data"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "marine-and-hydrokinetic",
+      "id": "6f43c6f5-5df0-4cfa-9f09-b4335b216244",
+      "name": "marine-and-hydrokinetic"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "mhk",
+      "id": "a4efdc0e-8038-4a07-a08f-df8d5df9657c",
+      "name": "mhk"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "nrel",
+      "id": "a92a3ab2-47b3-4a47-a58f-b95cec6360e1",
+      "name": "nrel"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ocean",
+      "id": "8f38c56a-1dff-4dbc-9504-af259fc42e1a",
+      "name": "ocean"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "puerto-rico",
+      "id": "144a05f6-9c17-4f9e-9ac1-479fd73f4375",
+      "name": "puerto-rico"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "shapefile",
+      "id": "c93a711f-def1-45a7-b1de-ca2bd28188dc",
+      "name": "shapefile"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "united-states",
+      "id": "acc24ea3-fd32-44ce-ac48-a508c4b6bd76",
+      "name": "united-states"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "virginia-tech",
+      "id": "7390b3ac-12d9-4f3c-afd0-76017794fee5",
+      "name": "virginia-tech"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "water",
+      "id": "0626f657-5e47-4974-b0e5-6746d14f372c",
+      "name": "water"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "wave-energy",
+      "id": "2d23f43a-ef81-4d6a-a4f4-962b5c194511",
+      "name": "wave-energy"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "wave-power-density",
+      "id": "653dc45a-f6fe-467d-95c2-d9300cf6a11a",
+      "name": "wave-power-density"
+    }
+  ],
+  "tracking_summary": {
+    "total": 123,
+    "recent": 3
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "nrel-wave-energy-assessment-for-the-united-states-and-puerto-rico",
+  "isopen": true,
+  "url": null,
+  "notes": "This dataset estimates the naturally available and technically recoverable U.S. wave energy resources, using a 51-month Wavewatch III hindcast database developed especially for this study by National Oceanographic and Atmospheric Administration's (NOAA's) National Centers for Environmental Prediction.  For total resource estimation, wave power density in terms of kilowatts per meter is aggregated across a unit diameter circle.  This approach is fully consistent with accepted global practice and includes the resource made available by the lateral transfer of wave energy along wave crests, which enables densities within a few kilometers of a linear array, even for fixed terminator devices.\r\n\r\n###Source###\r\nThe Wave Energy Resource Assessment project is a joint venture between [NREL](http://www.nrel.gov/), [EPRI](http://my.epri.com/portal/server.pt?), and [Virginia Tech](http://www.vt.edu/). EPRI is the prime contractor, Virginia Tech is responsible for development of the models and estimating the wave resource, and NREL serves as an independent validator and also develops the final GIS-based display of the data.\r\n\r\n###Geographic Range###\r\nUS coastline, including AK, HI and Puerto Rico, out to 50 nautical miles.\r\n\r\n###Grid Properties###\r\nGrids are derived from WaveWatch III grids. Near the coast of the lower 48 and HI, grids are squares, 4 minutes by 4 minutes (15 per degree).\r\nFor the Alaska grids AK and BS, the grid is 4 minutes of latitude by 8 minutes of longitude (15 per deg by 7.5 per deg).\r\n\r\n*Exception*: The area in the Bering Sea around the Pribilof (St Paul and St George) Islands is 10 min lat by 15 min lon. Limits: 55.666 to 58.000 N, -172.000 to - 168.000 E, 17 cols, 15 rows.\r\n\r\nFarther offshore, the grid is 10 min by 10 min. (only seen in WM and PR)\r\n\r\nThe 10 min by 10 min grid appears near the edge of a few grids: \r\n\r\n* SW corner of WM (off Mexican coast) \r\n* SE corner of WM (deep water) \r\n* PR - around edges (far from PR and US territory)\r\n\r\n###Bathymetric Impacts on Resource Assessment###\r\nBathymetric effects are known to have a large effect on wave characteristics at depths shallower than approximately 20m (~65 ft) on the Atlantic coast and 50 m (~160 ft) on the Pacific coast. A variance between depths exists due to the feature differences for each continental shelf.  The methodology used in this resource assessment precludes providing site-specific information to such developers. Reliable site-specific information in shallow waters can only be produced using results from models with higher spatial resolution that include shallow-water physics. The wave resource assessment group acknowledges that its results will not be accurate in the shallower waters of the inner continental shelf.  These shallow water regions are located within the dark gray boundaries on the map.\r\n\r\nData that are undefined or unrepresentable are indicated by NaN values in the CSV and as a -9999 value in the shapefile tables.\r\n\r\n###License Info###\r\n* Please cite Virginia Tech for data and modeling\r\n* Please cite NREL for GIS files\r\n\r\nDISCLAIMER NOTICE\r\nThis GIS data was developed by the National Renewable Energy Laboratory (\"NREL\"), which is operated by the Alliance for Sustainable Energy, LLC for the U.S. Department of Energy (\"DOE\"). The user is granted the right, without any fee or cost, to use, copy, modify, alter, enhance and distribute this data for any purpose whatsoever, provided that this entire notice appears in all copies of the data. Further, the user of this data agrees to credit NREL in any publications or software that incorporate or use the data.\r\n\r\nAccess to and use of the GIS data shall further impose the following obligations on the User. The names DOE/NREL may not be used in any advertising or publicity to endorse or promote any product or commercial entity using or incorporating the GIS data unless specific written authorization is obtained from DOE/NREL. The User also understands that DOE/NREL shall not be obligated to provide updates, support, consulting, training or assistance of any kind whatsoever with regard to the use of the GIS data.\r\n\r\nTHE GIS DATA IS PROVIDED \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL DOE/NREL BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER, INCLUDING BUT NOT LIMITED TO CLAIMS ASSOCIATED WITH THE LOSS OF DATA OR PROFITS, WHICH MAY RESULT FROM AN ACTION IN CONTRACT, NEGLIGENCE OR OTHER TORTIOUS CLAIM THAT ARISES OUT OF OR IN CONNECTION WITH THE ACCESS OR USE OF THE GIS DATA.\r\n\r\nThe User acknowledges that access to the GIS data is subject to U.S. Export laws and regulations and any use or transfer of the GIS data must be authorized under those regulations. The User shall not use, distribute, transfer, or transmit GIS data or any products incorporating the GIS data except in compliance with U.S. export regulations. If requested by DOE/NREL, the User agrees to sign written assurances and other export-related documentation as may be required to comply with U.S. export regulations.",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "accessURL",
+      "value": "http://en.openei.org/doe-opendata/dataset/a16535af-8db3-413c-87fd-f6759c5511f7/resource/49df907b-5737-4436-bd7a-e9eedf0fd84a/download/wavedata.zip"
+    },
+    {
+      "key": "publisher",
+      "value": "National Renewable Energy Laboratory"
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/a16535af-8db3-413c-87fd-f6759c5511f7"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "format",
+      "value": "application/unknown"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2015-10-13T16:00:33Z"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-166.95000000000005,21.9367907559428],[-64.82322500000004,21.9367907559428],[-64.82322500000004,71.30184049306683],[-166.95000000000005,71.30184049306683],[-166.95000000000005,21.9367907559428]]]}"
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "b2d326a7-fb3f-41e0-8d87-882dc82d91b7"
+    },
+    {
+      "key": "source_hash",
+      "value": "0755ff690c4534dc81776010f6fba1eef22f1b9b"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "b2d326a7-fb3f-41e0-8d87-882dc82d91b7"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "NREL Wave Energy Assessment for the United States and Puerto Rico",
+  "revision_id": "cf7cd070-9deb-464f-95d3-8d9272ed15c4"
+}

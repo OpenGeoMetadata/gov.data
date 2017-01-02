@@ -1,0 +1,237 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "b4b86b8b-b1b2-4bb1-b372-770a9367589a",
+  "metadata_created": "2016-07-04T21:17:20.776369",
+  "metadata_modified": "2016-07-04T21:17:20.776369",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "b4b86b8b-b1b2-4bb1-b372-770a9367589a",
+      "webstore_last_updated": null,
+      "id": "4dd4a215-3820-4b29-bc3a-3c0598cca33c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Information about the dataset",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Cite URL",
+      "created": "2016-07-04T17:17:20.916347",
+      "url": "http://www.esrl.noaa.gov/psd/data/gridded/data.hadcrut4.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "aa7ec41a-0e51-4a47-967b-ce36962d5546",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b4b86b8b-b1b2-4bb1-b372-770a9367589a",
+      "webstore_last_updated": null,
+      "id": "07ccdd0f-23b4-41aa-b91e-13dead465f7f",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Thredds Data server.  Allows http, opendap, and possibly WCS and WMS downaloads.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Thredds Server",
+      "created": "2016-07-04T17:17:20.916382",
+      "url": "http://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/cru/catalog.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "aa7ec41a-0e51-4a47-967b-ce36962d5546",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b4b86b8b-b1b2-4bb1-b372-770a9367589a",
+      "webstore_last_updated": null,
+      "id": "a4f3043c-c007-4920-82a0-7010537a041c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "FTP server.",
+      "format": "NETCDF4_CLASSIC",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FTP server",
+      "created": "2016-07-04T17:17:20.916391",
+      "url": "ftp://ftp.cdc.noaa.gov/Datasets/cru",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "aa7ec41a-0e51-4a47-967b-ce36962d5546",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 6,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "hadcrut4",
+  "isopen": false,
+  "url": null,
+  "notes": "The gridded data are a blend of the CRUTEM4 land-surface air temperature dataset and the HadSST3 sea-surface temperature (SST) dataset. The dataset is presented as an ensemble of 100 dataset realisations that sample the distribution of uncertainty in the global temperature record given current understanding of non-climatic factors affecting near-surface temperature observations. This ensemble approach allows characterisation of spatially and temporally correlated uncertainty structure in the gridded data, for example arising from uncertainties in methods used to account for changes in SST measurement practices, homogenisation of land station records and the potential impacts of urbanisation. The HadCRUT4 data are neither interpolated nor variance adjusted.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "temporal-extent-begin",
+      "value": "1850-01-01"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2014-07-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "webmaster.psd@noaa.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "metadata-date",
+      "value": "2014-07-01"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"lastUpdate\", \"value\": \"2014-07-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"\", \"roles\": [\"custodian\"]}]"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://www.esrl.noaa.gov/psd/mddb2/browseGraphics/HadCRUT4.png"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "ongoing"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.esrl.psd.dataset.HadCRUT4"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "tags",
+      "value": "hadcrut4: median surface air temperature monthly median anomaly from 100 ensemble members, hadcrut4: median surface air temperature monthly median anomaly error from 100 ensemble members"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "957256af-5696-4ba2-a55d-109c8ae250e5"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "HadCRUT4",
+  "revision_id": "aa7ec41a-0e51-4a47-967b-ce36962d5546"
+}

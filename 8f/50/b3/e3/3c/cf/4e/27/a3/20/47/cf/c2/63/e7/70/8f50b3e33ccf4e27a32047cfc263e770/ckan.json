@@ -1,0 +1,230 @@
+{
+  "license_title": "Other (Public Domain)",
+  "maintainer": "Mark Elbert",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "data@eia.gov",
+  "num_tags": 6,
+  "id": "8f50b3e3-3ccf-4e27-a320-47cfc263e770",
+  "metadata_created": "2016-03-09T22:08:19.764938",
+  "metadata_modified": "2016-11-30T11:55:06.024232",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "api",
+      "id": "8cfc9370-39f5-46d7-b990-ae2801f9048c",
+      "name": "api"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "biodiesel-consumption",
+      "id": "53532665-52b0-4bb1-92cc-7b5d36dd675a",
+      "name": "biodiesel-consumption"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "biodiesel-production",
+      "id": "93c73131-8db2-4bf1-ac61-6ac9e7da6b5a",
+      "name": "biodiesel-production"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "global-data",
+      "id": "b37d71ab-eaaa-4157-8aef-3c960e185be4",
+      "name": "global-data"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "international-data",
+      "id": "ea9d2bb2-75a0-4ddb-9aa6-51ba98a0eb03",
+      "name": "international-data"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "world-data",
+      "id": "210edc2d-4674-4349-8cc8-c5764d9df282",
+      "name": "world-data"
+    }
+  ],
+  "tracking_summary": {
+    "total": 34,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "international-energy-data-alternative-energy",
+  "isopen": true,
+  "url": null,
+  "notes": "This API provides international data on alternative energy such as biodiesel production and consumption. Data organized by country. Users of the EIA API are required to obtain an API Key via this registration form: http://www.eia.gov/beta/api/register.cfm",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "collection_metadata",
+      "value": "true"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://www.eia.gov/tools/glossary/index.cfm?id=petroleum"
+      ]
+    },
+    {
+      "key": "source_hash",
+      "value": "a66202b84313d4ea63d8dbd74263eb3716f4ee7f"
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "temporal",
+      "value": "1980/2013"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "energy"
+      ]
+    },
+    {
+      "key": "spatial",
+      "value": "Global"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:022"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://www.eia.gov/beta/international/"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "4e0c7007-1700-4017-8f03-169a563f6bb6"
+    },
+    {
+      "key": "publisher",
+      "value": "U.S. Energy Information Administration"
+    },
+    {
+      "key": "license",
+      "value": "http://creativecommons.org/publicdomain/mark/1.0/other-pd"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "rights",
+      "value": "The EIA API is offered as a free public service, although registration is required."
+    },
+    {
+      "key": "modified",
+      "value": "2016-02-17"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1Y"
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "DOE-019-IEDAE-Collection1"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "4e0c7007-1700-4017-8f03-169a563f6bb6"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "title": "International Energy Data - Alternative Energy",
+  "revision_id": "0f893281-b2b6-470a-b703-a356a61a7eb0"
+}

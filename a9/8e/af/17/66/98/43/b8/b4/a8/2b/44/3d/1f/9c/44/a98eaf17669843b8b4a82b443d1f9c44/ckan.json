@@ -1,0 +1,218 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "a98eaf17-6698-43b8-b4a8-2b443d1f9c44",
+  "metadata_created": "2015-04-25T12:21:43.656817",
+  "metadata_modified": "2016-09-09T22:49:28.116742",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "a98eaf17-6698-43b8-b4a8-2b443d1f9c44",
+      "webstore_last_updated": null,
+      "id": "9db3fbf8-1eba-4cd4-b540-ed0713453848",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 161,
+        "recent": 3
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "b1ae6aa0-07e6-4b5d-bade-59b346d762b4",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-09-09T18:49:28.304242",
+      "url": "http://bios.dfg.ca.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "a98eaf17-6698-43b8-b4a8-2b443d1f9c44",
+      "webstore_last_updated": null,
+      "id": "0ed64369-5509-4fa9-aa00-b0a1f07a6746",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "ds1031.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "b1ae6aa0-07e6-4b5d-bade-59b346d762b4",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2016-09-09T18:49:28.304269",
+      "url": "ftp://ftp.dfg.ca.gov/BDB/GIS/BIOS/Public_Datasets/ds1031.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 7,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-19T14:05:26.054173",
+    "title": "State of California",
+    "name": "ca-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.ca.gov/images/template2012/header_ca.gov.png",
+    "revision_id": "ad94cda4-9394-44d0-9c37-573dc3c47c9a",
+    "type": "organization",
+    "id": "467d900f-8a42-452d-9906-6610dd1a767f",
+    "approval_status": "approved"
+  },
+  "name": "black-tailed-jackrabbit-habitat-model-for-nsnf-connectivity-cdfw-ds1031",
+  "isopen": false,
+  "url": null,
+  "notes": "The Maxent modeling algorithm was used to build the species distribution model at 270 m spatial resolution using species occurrence points and environmental layers as predictors (Phillips et al. 2006). Species occurrence points were primarily obtained from CNDDB (California Natural Diversity Database) and other CDFW sources, GBIF (Global Biodiversity Information Facility), PRBO (Point Blue Conservation Science) and Arctos museum databases. Vegetation, distance to water, elevation, and bioclimatic variables (Franklin et al. 2013) were used as predictor variables. The models were run at 270 m spatial resolution with five replications using cross-validation as a method of sample evaluation. Cross-validation involved the partitioning of the sample data into n subsets, fitting the models to n-1subsets, and testing the model on the one subset not used in fitting the model. Initial model runs showed that our models converged around 2,000 iterations and for this reason we ran all models with 2,500 maximum iterations. Maxent was implemented in R using the ‘dismo’package (Hijmans et al. 2011). Model evaluation was carried out using the ‘PresenceAbsence’package in R (Freeman and Moisen 2008). We used AUC as a metric to evaluate model performance. The package also computes threshold values using several accuracy metrics to translate predicted probability maps into binary suitable and unsuitable habitats. We selected the MeanProb, a threshold set based on the mean predicted probability of species occurrences. The output from Maxent are grid datasets in a multiband ‘tif’format with one band for each replication. We averaged the five replicated maps and created a mean grid for each species. The grid was then symbolized to represent low (threshold-50), medium (50-75) and high (75-100) habitat suitability, with pixel values that are below the threshold excluded. Models were reviewed by CDFW species experts; please review the use limitations.For more information see the project report at [https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=85358].",
+  "owner_org": "467d900f-8a42-452d-9906-6610dd1a767f",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"California Department of Fish and Wildlife, Data and Technology Division, Biogeographic Data Branch\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "Melanie.Gogol-Prokurat@Wildlife.ca.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-122.596817"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-09-02"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2014-06-17\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-119.537973"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "40.993156"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "36.781231"
+    },
+    {
+      "key": "licence",
+      "value": "[\" \"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-122.596817, 36.781231], [-119.537973, 36.781231], [-119.537973, 40.993156], [-122.596817, 40.993156], [-122.596817, 36.781231]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: The user accepts sole responsibility for the correct interpretation of this report and the correct use of its accompanying data sets in environmental documents. The northern Sierra Nevada foothills wildlife connectivity project habitat data delineates area likely important to the selected focal species. It is a decision-support tool to be refined by field work and expert knowledge. DO NOT assume that areas predicted as low, medium or high habitat represents the likelihood of the focal species being present or that areas below the predicted threshold are unimportant to wildlife populations or movements.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "tags",
+      "value": "lepus californicus, black-tailed jackrabbit, california, habitat modeling, northern sierra nevada foohills, connectivity modeling,"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "a8330583-2b08-48e3-bea2-a2dd67af2b37"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "bf0e0f99-7417-42e4-a627-e94c49cb4159"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "State of California Geoportal"
+    }
+  ],
+  "title": "Black-tailed Jackrabbit Habitat Model for NSNF Connectivity - CDFW [ds1031]",
+  "revision_id": "b1ae6aa0-07e6-4b5d-bade-59b346d762b4"
+}

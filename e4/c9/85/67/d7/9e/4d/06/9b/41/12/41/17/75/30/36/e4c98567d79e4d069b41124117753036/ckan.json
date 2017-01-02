@@ -1,0 +1,226 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "e4c98567-d79e-4d06-9b41-124117753036",
+  "metadata_created": "2015-09-27T00:02:20.931269",
+  "metadata_modified": "2015-09-27T00:02:20.931269",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "e4c98567-d79e-4d06-9b41-124117753036",
+      "webstore_last_updated": null,
+      "id": "0aab02cb-3be3-48df-b266-ae75ff184219",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "finddata.html",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 924,
+        "recent": 13
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "91c62457-eebb-43c1-a526-2894a0572ec6",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-09-26T20:02:20.963990",
+      "url": "http://estuarinebathymetry.noaa.gov/finddata.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "e4c98567-d79e-4d06-9b41-124117753036",
+      "webstore_last_updated": null,
+      "id": "85856e5e-62dc-4a33-a75a-74442c7dae4b",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 271,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "91c62457-eebb-43c1-a526-2894a0572ec6",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-09-26T20:02:20.964013",
+      "url": "http://estuarinebathymetry.noaa.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 8,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "atchafalaya-bay-la-g220-bathymetric-digital-elevationmodel-30-meter-resolution-derived-from-sou",
+  "isopen": false,
+  "url": null,
+  "notes": "Bathymetry for Atchafalaya Bay was derived from eleven surveys containing127,192 soundings. No surveys were omitted. The average separationbetween soundings was 130 meters. The surveys dated from 1934 and 1935. Therange of soundings for the eleven surveys was 0.9 meters to -39.0 metersat mean low water. Mean high water values between 0.4 and 0.6 meters wereassigned to the shoreline. Twelve points from three surveys were foundthat were not consistent with the surrounding data. These points wereremoved prior to tinning. DEM grid values outside the shoreline (onland) were assigned null values (-32676).Atchafalaya Bay has twenty-six 7.5 minute DEMs and a single onedegree DEM. The 1 degree DEMs were generated from the higherresolution 7.5 minute DEMs which covered the estuary. A DigitalElevation Model (DEM) contains a series of elevations ordered fromsouth to north with the order of the columns from west to east. TheDEM is formatted as one ASCII header record (A- record), followed bya series of profile records (B- records) each of which include ashort B-record header followed by a series of ASCII integerelevations (typically in units of 1 centimeter) per each profile.The last physical record of the DEM is an accuracy record(C-record).The 7.5-minute DEM (30- by 30-m data spacing) is cast on theUniversal Transverse Mercator (UTM) projection. It provides coveragein 7.5- by 7.5-minute blocks. Each product provides the samecoverage as a standard USGS 7.5-minute quadrangle but the DEMcontains over edge data. Coverage is available for many estuaries ofthe contiguous United States but is not complete.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-90.881945\n"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "30.134050\n"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "29.179320\n"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-92.218647, 29.17932], [-90.881945, 29.17932], [-90.881945, 30.13405], [-92.218647, 30.13405], [-92.218647, 29.17932]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: Not to be used for Navigation.Acknowledgment of the National Oceanic and AtmosphericAdministration- Nation Ocean Service would be appreciated in productsderived from these data.The datum for these bathymetric DEMs is not the same as that used bythe US Geological survey (USGS) for land based DEMs which results ina discontinuity if the two datasets are merged together. Moreover,the shoreline for the USGS DEMs is indeterminate and not the same asthat used for the Bathymetric DEMs. The data within the bathymetry file is floating point. When using the data within a GIS care must be taken to ensure that the data are being read as floating point and not integer data.\", \"Access Constraints: none\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "1934-01-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "robert.wilson@noaa.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-92.218647\n"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2006-07-31"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"1998-06-06\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "irregular"
+    },
+    {
+      "key": "licence",
+      "value": "[\"These data were prepared by an agency of theUnited States Government. Neither the United States Government norany agency thereof, nor any of their employees, make any warranty,expressed or implied, or assumes any legal liability orresponsibility for the accuracy, completeness, or usefulness of anyinformation, apparatus, product, or process disclosed in this report,or represents that its use would not infringe privately owned rights.Reference therein to any specific commercial product, process, orservice by trade name, trademark, manufacturer, or otherwise does notnecessarily constitute or imply its endorsement, recommendation, orfavoring by the United States Government or any agency thereof. Anyviews and opinions of authors expressed herein do not necessarilystate or reflect those of the United States Government or any agencythereof. Although all data have been used by NOAA, no warranty,expressed or implied, is made by NOAA as to the accuracy of the dataand/or related materials. The act of distribution shall notconstitute any such warranty, and no responsibility is assumed byNOAA in the use of these data or related materials.\\n\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"National Oceanic and Atmospheric Administration(NOAA), National Ocean Service (NOS), Special Projects (SP)\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "1935-01-01"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "digital bathymetric model, elevation, digital terrain model, estuary, estuarine bathymetry, digital elevation model, altitude, height, united states, marine navigation, depth, dem, bathymetry, hydrographic survey, louisiana, atchafalaya bay, la"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "3ee0a7d2-743c-4d56-a790-8b3774d8aa46"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Atchafalaya Bay, LA (G220) Bathymetric Digital ElevationModel (30 meter resolution) Derived From Source Hydrographic SurveySoundings Collected by NOAA",
+  "revision_id": "91c62457-eebb-43c1-a526-2894a0572ec6"
+}

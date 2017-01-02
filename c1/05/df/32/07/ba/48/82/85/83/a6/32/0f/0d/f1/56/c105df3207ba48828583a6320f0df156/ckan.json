@@ -1,0 +1,232 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "John Falker",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "jfalker@nasa.gov",
+  "num_tags": 3,
+  "id": "c105df32-07ba-4882-8583-a6320f0df156",
+  "metadata_created": "2015-04-09T18:56:40.292664",
+  "metadata_modified": "2015-07-08T19:30:03.148277",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "c105df32-07ba-4882-8583-a6320f0df156",
+      "webstore_last_updated": null,
+      "id": "ce75d63d-8a55-4534-8476-531582039d2f",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "XML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/xml",
+      "cache_url": null,
+      "name": "XML File",
+      "created": "2015-04-09T14:56:40.439413",
+      "url": "http://techport.nasa.gov/xml-api/14372",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "a9cdd0a2-6b8e-4526-9a86-ca0314ae5dcf",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "completed",
+      "id": "5e4de852-789d-47bf-af3b-ba9a0dd8d489",
+      "name": "completed"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "goddard-space-flight-center",
+      "id": "a6e15e1e-9ab2-40d4-9937-8becdc2c6938",
+      "name": "goddard-space-flight-center"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "project",
+      "id": "24471320-3e5c-42b5-a078-8e48e70e2ac4",
+      "name": "project"
+    }
+  ],
+  "tracking_summary": {
+    "total": 30,
+    "recent": 3
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "development-of-breakthrough-technology-for-spaceflight-microwave-radiometers-rfi-noise-det",
+  "isopen": true,
+  "url": null,
+  "notes": "&lt;p&gt;Microwave active/passive radiometer is the premier instrument for remote sensing of Earth. However, it carries the price of non-linear response by its horn-receiver sensor and the radiometer operational frequency band of interest is overlapping with man-made radio-frequency interference sources (RFI). The state-of-the-art RFI detection and mitigation is paramount and it encompasses a variety of on-board instrumentation analog techniques, as well as on-board and ground digital data processing, employing dozens of &lt;em&gt;RFI detection and mitigation &lt;/em&gt;computational algorithms (&lt;strong&gt;RFI-DM&lt;/strong&gt;). For example, advanced algorithms for the Soil Moisture Active/Passive Mission (SMAP) microwave radiometer are run on the SMAP science data system ground support equipment which complements the on-board processing of sub-sampled bands and computation of data moments. For SMAP high-resolution mode of 3 km with a radiometric accuracy of 0.4 dB in order to meet the mission&amp;rsquo;s science requirements, the RFI poses a significant error source for that measurement, as an interference-to-signal ratio of 10 dB may use the entire error budget.&amp;nbsp; SMAP&amp;#39;s RFI-DM is an integral part of its single radiometer instrument system and is using a &lt;em&gt;two-fold RFI-DM strategy&lt;/em&gt; &amp;ndash; on-board analog RF sub-channeling and on-board and ground RFI-DM computational techniques that detect and mitigate many RFI types. &lt;em&gt;However, there remains an area of highly non-linear RFI noise not covered by these state-of-the-art&lt;/em&gt;. Furthermore, future Earth and planetary radiometers will carry arrays of receivers and require new technologies for RFI detection and mitigation. For example, the ESA&amp;rsquo;s Earth Explorer soil moisture and ocean salinity (SMOS) mission payload instrument, Microwave Imaging Radiometer using Aperture Synthesis, consists of 69 individual radiometer receivers. By the means of interferometry the measurements from all the receivers are combined and an image from the target is obtained. &lt;em&gt;The RFI-DM for radiometric images is in embryonic state.&lt;/em&gt; &lt;em&gt;The task is to find significantly advanced miniaturized engineering solutions for the RFI-DM problem.&lt;/em&gt; The recently developed NASA Goddard technologies &amp;ndash; the Hilbert-Huang Transform Real-Time Data Processing System (HHT-DPS-RT) for 1-D (HHT1) and 2-D (HHT2), can be further researched and developed for &lt;em&gt;detecting and mitigating RFI noise in highly non-linear regions and for&amp;nbsp; image radiometers&lt;/em&gt;. Research and development of &lt;em&gt;a consolidated beyond-frontier reference RFI-DM HHT-based technology (RFI-DM-HHT) &lt;/em&gt;would simplify on-board RF signal processing and &lt;em&gt;significantly improve efficiency and capability of RFI-DM on-board processing system&lt;/em&gt;. It will, as well, enhance ground systems data processing in RFI detection and mitigation domain by &lt;em&gt;an order of magnitude and reduce the RFI-DM system overall&amp;nbsp; cost. &lt;/em&gt;&lt;strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Our RFI-DM-HHT research and development goal is based on our recent research and development of the HHT1 and the HHT2 (IRAD-FY2010, IRAD-FY2011 &amp;ndash; NASA patents pending) and will focus on two components:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;1.1&lt;/strong&gt; We propose to research and develop&amp;nbsp; the &lt;em&gt;RFI-DM-HHT&lt;/em&gt; &amp;ndash; a novel technology for spaceflight microwave radiometers&amp;rsquo; RFI noise detection and mitigation based on the Hilbert-Huang Transform Real-Time Data Processing System. &lt;em&gt;This technology covers the state-of-the-art and allows an order of magnitude reduction in complexity&lt;/em&gt; &lt;em&gt;of on-board analog signal sampling&lt;/em&gt; for separating RF signal into multiple bins, since HHT1 does it automatically in digital domain by extracting IMFs of different scales from the non-linear and non&amp;ndash;stationary composite signal. FFT and other transforms for such work are not suitable since received RF signal is non-linear and non-stationary, for which the HHT has an advantageous ability.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;1.2&lt;/strong&gt; The state-of-the-art is based on on-board sub-channeling and on the ground computation of &amp;ldquo;kurtosis&amp;rdquo; for pulsed RFI, thresholding, reference lookup tables and statistical analysis of raw count moments. The RFI-DM-HHT may deliver an effective natural decomposition of antenna signal into a specified&amp;nbsp; number of IMFs instead of on-board RF analog hardware to filter signal into selected sub-bands, followed by extensive ground processing, as posted in 1.1. &amp;nbsp;&lt;em&gt;The RFI-DM-HHT will be further developed beyond the-sate-of-the-art to mitigate RFI sources not covered by the-state-of-the-art&lt;/em&gt; and mitigate new RFI sources. It will also be developed for &lt;em&gt;RFI detection in image radiometers that is presently non-existent&lt;/em&gt;. &lt;em&gt;These breakthrough RFI-DM-HHT technologies are all long-term new business return opportunities for GSFC&lt;/em&gt; &lt;em&gt;and deliver significant enhancements in the RFI detection and mitigation domain.&lt;strong&gt; &amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "issued",
+      "value": "2012-10-01T00:00:00Z"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://techport.nasa.gov/home",
+        "http://techport.nasa.gov/doc/home/TechPort_Advanced_Search.pdf",
+        "http://techport.nasa.gov/fetchFile?objectId=6561",
+        "http://techport.nasa.gov/fetchFile?objectId=3456",
+        "http://techport.nasa.gov/fetchFile?objectId=3447",
+        "http://techport.nasa.gov/fetchFile?objectId=6584",
+        "http://techport.nasa.gov/fetchFile?objectId=6560",
+        "http://techport.nasa.gov/fetchFile?objectId=3448"
+      ]
+    },
+    {
+      "key": "source_hash",
+      "value": "0584fb3cc80e66d7cbfd4dde34931edd75e7d6c9"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "temporal",
+      "value": "2012-10-01T00:00:00Z/2013-09-01T00:00:00Z"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://techport.nasa.gov/view/14372"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "6ab0983b-d7c2-4f53-a1c3-e2d186bf5779"
+    },
+    {
+      "key": "publisher",
+      "value": "Space Technology Mission Directorate"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "55942a89c63a7fe59b4982d9"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "National Aeronautics and Space Administration > Space Technology Mission Directorate"
+    },
+    {
+      "key": "modified",
+      "value": "2015-03-12"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "TECHPORT_14372"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "6ab0983b-d7c2-4f53-a1c3-e2d186bf5779"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "Development of Breakthrough Technology for Spaceflight Microwave Radiometers? RFI Noise Detection and Mitigation Based on the HHT2 Project",
+  "revision_id": "ee73f294-63be-4996-a192-b42ac352902b"
+}

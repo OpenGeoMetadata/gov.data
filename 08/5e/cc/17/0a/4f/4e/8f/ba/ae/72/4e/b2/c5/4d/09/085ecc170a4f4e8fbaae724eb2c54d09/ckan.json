@@ -1,0 +1,207 @@
+{
+  "license_title": "Creative Commons CCZero",
+  "maintainer": "Anderson Hoke",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "anderson.hoke@colorado.edu",
+  "num_tags": 3,
+  "id": "085ecc17-0a4f-4e8f-baae-724eb2c54d09",
+  "metadata_created": "2015-02-23T20:22:25.436323",
+  "metadata_modified": "2015-11-17T09:37:58.268814",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "085ecc17-0a4f-4e8f-baae-724eb2c54d09",
+      "webstore_last_updated": null,
+      "id": "35f55299-601f-49ec-a529-feb7bd62feb6",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "application/unknown",
+      "tracking_summary": {
+        "total": 133,
+        "recent": 2
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-11-17T04:37:58.361262",
+      "url": "http://www.nrel.gov",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "45c1dcff-45f2-4417-a11a-e2106e977a7e",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "distribution-modeling",
+      "id": "9f33dd46-f840-4527-9532-464961f70340",
+      "name": "distribution-modeling"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "scaled-randomized-load-data",
+      "id": "90dcc6f8-d665-43ea-a8d1-7df61d4fd2b6",
+      "name": "scaled-randomized-load-data"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "taxonomy-feeders",
+      "id": "47b1b495-b6a6-4c54-8a53-94e475febd38",
+      "name": "taxonomy-feeders"
+    }
+  ],
+  "tracking_summary": {
+    "total": 331,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-zero",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "randomized-hourly-load-data-for-use-with-taxonomy-distribution-feeders-88065",
+  "isopen": true,
+  "url": null,
+  "notes": "This dataset was developed by NREL's distributed energy systems integration group as part of a study on high penetrations of distributed solar PV [1]. It consists of hourly load data in CSV format for use with the PNNL taxonomy of distribution feeders [2].  These feeders were developed in the open source GridLAB-D modelling language [3].  In this dataset each of the load points in the taxonomy feeders is populated with hourly averaged load data from a utility in the feeder’s geographical region, scaled and randomized to emulate real load profiles.  For more information on the scaling and randomization process, see [1]. \r\n\r\nThe taxonomy feeders are statistically representative of the various types of distribution feeders found in five geographical regions of the U.S.  Efforts are underway (possibly complete) to translate these feeders into the OpenDSS modelling language. \r\n\r\nThis data set consists of one large CSV file for each feeder.  Within each CSV, each column represents one load bus on the feeder.  The header row lists the name of the load bus.  The subsequent 8760 rows represent the loads for each hour of the year.  The loads were scaled and randomized using a Python script, so each load series represents only one of many possible randomizations.  In the header row, \"rl\" = residential load and \"cl\" = commercial load.  Commercial loads are followed by a phase letter (A, B, or C).  For regions 1-3, the data is from 2009.  For regions 4-5, the data is from 2000.\r\n\r\nFor use in GridLAB-D, each column will need to be separated into its own CSV file without a header.  The load value goes in the second column, and corresponding datetime values go in the first column, as shown in the sample file, sample_individual_load_file.csv.  Only the first value in the time column needs to written as an absolute time; subsequent times may be written in relative format (i.e. \"+1h\", as in the sample).  The load should be written in P+Qj format, as seen in the sample CSV, in units of Watts (W) and Volt-amps reactive (VAr).  This dataset was derived from metered load data and hence includes only real power; reactive power can be generated by assuming an appropriate power factor.  These loads were used with GridLAB-D version 2.2.\r\n\r\n[Browse files](http://en.openei.org/datasets/files/968/pub/) in this dataset, accessible as individual files and as a single ZIP file.  This dataset is approximately 242MB compressed or 475MB uncompressed.\r\n\r\nFor questions about this dataset, contact andy.hoke@nrel.gov. \r\n\r\nIf you find this dataset useful, please mention NREL and cite [1] in your work.\r\n\r\nReferences:\r\n\r\n[1] A. Hoke, R. Butler, J. Hambrick, and B. Kroposki, “Steady-State Analysis of Maximum Photovoltaic Penetration Levels on Typical Distribution Feeders,”  IEEE Transactions on Sustainable Energy, April 2013, available at http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6357275 .\r\n\r\n[2] K. Schneider, D. P. Chassin, R. Pratt, D. Engel, and S. Thompson, “Modern Grid Initiative Distribution Taxonomy Final Report”, PNNL, Nov. 2008. Accessed April 27, 2012: http://www.gridlabd.org/models/feeders/taxonomy of prototypical feeders.pdf\r\n\r\n[3] K. Schneider, D. Chassin, Y. Pratt, and J. C. Fuller, “Distribution power flow for smart grid technologies”, IEEE/PES Power Systems Conference and Exposition, Seattle, WA, Mar. 2009, pp. 1-7, 15-18.",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "accessURL",
+      "value": "http://www.nrel.gov"
+    },
+    {
+      "key": "publisher",
+      "value": "National Renewable Energy Laboratory"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "format",
+      "value": "application/unknown"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2015-11-05T22:25:40Z"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:000"
+      ]
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/632aeb10-f19d-4554-99ee-cde22ef1ab0d"
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "landingPage",
+      "value": "http://www.nrel.gov"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "3df09765-b572-407b-8847-33d268e4c786"
+    },
+    {
+      "key": "source_hash",
+      "value": "6127fec66cf804e9233dea790f3227e98eed9e6d"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "3df09765-b572-407b-8847-33d268e4c786"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-zero",
+  "title": "Randomized Hourly Load Data for use with Taxonomy Distribution Feeders",
+  "revision_id": "fbc70600-c678-453a-9863-786793867bd1"
+}

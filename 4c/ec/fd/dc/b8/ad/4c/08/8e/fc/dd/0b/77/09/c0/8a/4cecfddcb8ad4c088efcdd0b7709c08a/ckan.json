@@ -1,0 +1,240 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Jack Bates",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "Jack.Bates@va.gov",
+  "num_tags": 9,
+  "id": "4cecfddc-b8ad-4c08-8efc-dd0b7709c08a",
+  "metadata_created": "2016-02-20T15:07:51.327942",
+  "metadata_modified": "2016-02-20T15:07:51.327942",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "abandonment-rate",
+      "id": "04f4c755-9c4e-4326-8fed-c03880c8c21d",
+      "name": "abandonment-rate"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "administrative-data-repository-availability",
+      "id": "7292f765-b33f-49bb-a241-846c8c643f11",
+      "name": "administrative-data-repository-availability"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "exchange-availability",
+      "id": "31683456-7b61-429e-925c-15e61eb359f4",
+      "name": "exchange-availability"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "it",
+      "id": "7efc4e73-4491-4e62-836b-238a23d3c11f",
+      "name": "it"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "it-dashboard",
+      "id": "7b4f6ed1-b4ee-42c7-98c6-776448afa06d",
+      "name": "it-dashboard"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "service-level-agreement-dashboard",
+      "id": "fd2bdc4d-5abd-4cb0-a6b4-c242deba9074",
+      "name": "service-level-agreement-dashboard"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "sla",
+      "id": "c84c35b8-89aa-4cd6-a8bd-7a49f7ed2f6e",
+      "name": "sla"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "va",
+      "id": "5c740e0c-4cbe-421a-a4d4-b0c59ba3986b",
+      "name": "va"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "vitria-interface-engine-availability",
+      "id": "e1853cce-ff1d-4ba9-a542-3c84e3bc7109",
+      "name": "vitria-interface-engine-availability"
+    }
+  ],
+  "tracking_summary": {
+    "total": 51,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:11.529883",
+    "title": "Department of Veterans Affairs",
+    "name": "va-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/va.png",
+    "revision_id": "7c651ccc-eb67-439e-82dd-1ae7fff33f63",
+    "type": "organization",
+    "id": "ff9ae098-eccc-41d8-bfcd-5e8ed047db05",
+    "approval_status": "approved"
+  },
+  "name": "it-performance-dashboard-service-level-agreement-sla-dashboard",
+  "isopen": true,
+  "url": null,
+  "notes": "The IT Performance Dashboard is a trusted source for IT performance information across VA. This is available only on the VA intranet.  The dashboard is a collection of information from Regions, VISNs, Facilities, and other VA offices across a range of departments within the Office of Information & Technology (OIT)ï¿½from Product Development and Information Security to Human Resources to Finance. It presents often-complex information in easy-to-understand dashboard reports.\r\nCurrently, you can see performance reports relating to Customer Service, Service Level Agreements (SLAs), Systems, Monthly Performance Reports (MPR), IT Assets and Debt Score, Human Resources, and Network/Security. There is also a Facility CIO Center tab where you can see Quarterly Performance Reviews, an OIT Daily Brief tab where you can access OIT Daily Brief Reports, and a Product Delivery tab that takes you to the PMAS Dashboard. As the IT Performance Dashboard continues to evolve, you will be able to see a broader range of performance information ï¿½ including custom reports, upon request.\r\nThis page displays the Service Level Agreement (SLA) Reports on the IT Dashboard:\r\nï¿½\tAdministrative Data Repository Availability:  This report displays the percentage of total monthly availability for the ADR system. The ADR system is the primary My HealtheVet (MHV) data store that serves as the authoritative source for MHV application demographic, identity management, and eligibility/enrollment information for all clinical patients and administrative staff.\r\nï¿½\tAbandonment Rate:  This report captures and reflects the percentage of callers that disconnect the call before having their call answered. Clicking on any of the lines on the chart denoting Regions will enable the user to drill down and view the Campus level data.\r\nï¿½\tExchange Availability:  This report provides server availability for all the Exchange servers. Clicking on any of the lines on the chart denoting Regions will enable the user to drill down and view the server level data. In April-May 2014, we (ITPD team) discovered three servers in VISN 9 that were reporting less than 50% availability. We looked into these servers with the Exchange team and learned that they were not configured properly for SCOM. The Exchange team has resolved the issue as of April 20th and these servers are now reporting as they should. If you have questions please do not hesitate to contact us.\r\nï¿½\tVitria Interface Engine Availability:  This report displays the percentage of total monthly availability for the enterprise VIE, which is used for the reliable and timely transmission of data between VistA and other systems.",
+  "owner_org": "ff9ae098-eccc-41d8-bfcd-5e8ed047db05",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "e868f753-9395-4666-a30c-219334a64c6b"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "be8104ae06eb62181f641191e4262aa904873607"
+    },
+    {
+      "key": "accessLevel",
+      "value": "non-public"
+    },
+    {
+      "key": "temporal",
+      "value": "2013-08-01/2020-08-31"
+    },
+    {
+      "key": "spatial",
+      "value": "VA Enterprise Wide"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "describedBy",
+      "value": "http://vaww.itdashboard.cdw.portal.va.gov/Pages/newGlossary.aspx?link=Glossary"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "VA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "029:078"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "029:40"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://vaww.itdashboard.cdw.portal.va.gov/Pages/SLAsDashboard.aspx"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "f69fa021-82bc-4ea7-97fe-5c78e0a3b18a"
+    },
+    {
+      "key": "publisher",
+      "value": "Department of Veterans Affairs"
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "rights",
+      "value": "The IT Dashboard is only available on the VA Intranet site and  is only accessible by VA employees who have a LAN account."
+    },
+    {
+      "key": "modified",
+      "value": "2015-05-06"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/PT1S"
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "VA-OIT-SDE-02"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "f69fa021-82bc-4ea7-97fe-5c78e0a3b18a"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "e868f753-9395-4666-a30c-219334a64c6b"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "VA JSON"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "IT Performance Dashboard:  Service Level Agreement (SLA) Dashboard",
+  "revision_id": "8097337c-cd71-4575-8e7f-316c06457a06"
+}

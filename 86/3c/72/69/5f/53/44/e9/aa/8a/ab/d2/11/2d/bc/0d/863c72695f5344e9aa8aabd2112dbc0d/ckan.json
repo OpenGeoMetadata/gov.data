@@ -1,0 +1,218 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "Richard Easterbrook",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "richard_easterbrook@fws.gov",
+  "num_tags": 3,
+  "id": "863c7269-5f53-44e9-aa8a-abd2112dbc0d",
+  "metadata_created": "2016-07-27T23:05:04.700601",
+  "metadata_modified": "2016-07-27T23:05:04.700601",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "863c7269-5f53-44e9-aa8a-abd2112dbc0d",
+      "webstore_last_updated": null,
+      "id": "69cf7809-d869-440e-b98c-425a71050a78",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Results of SLAMM model application for Big Branch Marsh NWR 2012",
+      "format": "PDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/pdf",
+      "cache_url": null,
+      "name": "SLAMM_Big_Branch_Marsh_NWR.pdf",
+      "created": "2016-07-27T19:05:04.833134",
+      "url": "https://ecos.fws.gov/ServCat/DownloadFile/55258?Reference=54658",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "61f26d86-72fd-4992-9f75-42d1d3e7da22",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "general-air-and-climate-weather-and-climate-climate-change",
+      "id": "57b92406-9a1b-4755-85c5-880b3272e8be",
+      "name": "general-air-and-climate-weather-and-climate-climate-change"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "general-biology-communities-and-ecosystems-wetland",
+      "id": "e3a89f07-0a20-453b-a253-ecd5d446b4f4",
+      "name": "general-biology-communities-and-ecosystems-wetland"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "slamm-models",
+      "id": "2f63dd76-44b8-424f-ab59-f1e4abfbaec1",
+      "name": "slamm-models"
+    }
+  ],
+  "tracking_summary": {
+    "total": 3,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:48.890979",
+    "title": "US Fish and Wildlife Service, Department of the Interior",
+    "name": "fws-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://upload.wikimedia.org/wikipedia/commons/0/0c/US-FishAndWildlifeService-Logo.svg",
+    "revision_id": "353573b3-02ba-4e95-a876-828e8972ac08",
+    "type": "organization",
+    "id": "4d7ad1cd-3641-420b-8116-e4082f49cd44",
+    "approval_status": "approved"
+  },
+  "name": "application-of-the-sea-level-affecting-marshes-model-slamm-6-to-big-branch-marsh-nwr",
+  "isopen": false,
+  "url": null,
+  "notes": "Model SummaryChanges in tidal marsh area and habitat type in response to sea-level rise were modeled using the Sea Level Affecting Marshes Model (SLAMM 6) that accounts for the dominant processes involved in wetland conversion and shoreline modifications during long-term sea level rise (Park et al. 1989; www.warrenpinnacle.com/prof/SLAMM).Successive versions of the model have been used to estimate the impacts of sea level rise on the coasts of the U.S. (Titus et al. 1991; Lee et al. 1992; Park et al. 1993; Galbraith et al. 2002; National Wildlife Federation & Florida Wildlife Federation 2006; Glick et al. 2007; Craft et al. 2009).Within SLAMM, there are five primary processes that affect wetland fate under different scenarios of sea-level rise:• Inundation: The rise of water levels and the salt boundary are tracked by reducing elevations of each cell as sea levels rise, thus keeping mean tide level (MTL) constant at zero. The effects on each cell are calculated based on the minimum elevation and slope of that cell.• Erosion: Erosion is triggered based on a threshold of maximum fetch and the proximity of the marsh to estuarine water or open ocean. When these conditions are met, horizontal erosion occurs at a rate based on site- specific data.• Overwash: Barrier islands of under 500 meters (m) width are assumed to undergo overwash during each specified interval for large storms. Beach migration and transport of sediments are calculated.• Saturation: Coastal swamps and fresh marshes can migrate onto adjacent uplands as a response of the fresh water table to rising sea level close to the coast.Application of the Sea-Level Affecting Marshes Model (SLAMM 6) to Big Branch Marsh NWRPrepared for USFWS 2 Warren Pinnacle Consulting, Inc.• Accretion: Sea level rise is offset by sedimentation and vertical accretion using average or site-specific values for each wetland category. Accretion rates may be spatially variable within a given model domain and can be specified to respond to feedbacks such as frequency of flooding.SLAMM Version 6.0 was developed in 2008/2009 and is based on SLAMM 5. SLAMM 6.0 provides backwards compatibility to SLAMM 5, that is, SLAMM 5 results can be replicated in SLAMM 6. However, SLAMM 6 also provides several optional capabilities.• Accretion Feedback Component: Feedbacks based on wetland elevation, distance to channel, and salinity may be specified. Accretion feedbacks were applied in this simulation.• Salinity Model: Multiple time-variable freshwater flows may be specified. Salinity is estimated and mapped at MLLW, MHHW, and MTL. Habitat switching may be specified as a function of salinity. This optional sub-model is not utilized in USFWS simulations.• Integrated Elevation Analysis: SLAMM will summarize site-specific categorized elevation ranges for wetlands as derived from LiDAR data or other high-resolution data sets. This functionality is used in USFWS simulations to test the SLAMM conceptual model at each site. The causes of any discrepancies are then tracked down and reported on within the model application report.• Flexible Elevation Ranges for land categories: If site-specific data indicate that wetland elevation ranges are outside of SLAMM defaults, a different range may be specified within the interface. In USFWS simulations, the use of values outside of SLAMM defaults is rarely utilized. If such a change is made, the change and the reason for it are fully documented within the model application reports.• Many other graphic user interface and memory management improvements are also part of the new version including an updated Technical Documentation, and context sensitive help files.For a thorough accounting of SLAMM model processes and the underlying assumptions and equations, please see the SLAMM 6.0 Technical Documentation (Clough et al. 2010). This document is available at http://warrenpinnacle.com/prof/SLAMMAll model results are subject to uncertainty due to limitations in input data, incomplete k",
+  "owner_org": "4d7ad1cd-3641-420b-8116-e4082f49cd44",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "269d76fb-fa7e-49d2-a6bb-3a9e3f1bee70"
+    },
+    {
+      "key": "issued",
+      "value": "2012-01-20"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "references",
+      "value": [
+        "https://ecos.fws.gov/ServCat/Reference/Profile/54658"
+      ]
+    },
+    {
+      "key": "source_hash",
+      "value": "9ad46e71f86470c8320bf09e7f48e7ae92adff18"
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Unpublished Report"
+      ]
+    },
+    {
+      "key": "spatial",
+      "value": "-90.0182,30.17953,-89.6908,30.33668"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "010:094",
+        "010:028"
+      ]
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "fwsjson"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "010:18"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "https://ecos.fws.gov/ServCat/Reference/Profile/54658"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "624e0055-7e89-4580-936d-f12562eb2c3b"
+    },
+    {
+      "key": "publisher",
+      "value": "Fish and Wildlife Service"
+    },
+    {
+      "key": "rights",
+      "value": "The information resource is proprietary and/or copyrighted.  Access to this information by the public is very limited. Please contact the associated Point of Contact regarding additional use constraints and requirements for obtaining the information."
+    },
+    {
+      "key": "modified",
+      "value": "2012-01-20"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "catalog_@id",
+      "value": "C:\\Program Files (x86)\\FWS\\DataStore\\Application\\OpenData\\FWS_ServCat_v1_1.json"
+    },
+    {
+      "key": "identifier",
+      "value": "FWS_ServCat_54658"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "624e0055-7e89-4580-936d-f12562eb2c3b"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "269d76fb-fa7e-49d2-a6bb-3a9e3f1bee70"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "fwsjson"
+    }
+  ],
+  "title": "Application of the Sea-Level Affecting Marshes Model (SLAMM 6) to Big Branch Marsh NWR",
+  "revision_id": "61f26d86-72fd-4992-9f75-42d1d3e7da22"
+}

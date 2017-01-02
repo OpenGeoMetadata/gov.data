@@ -1,0 +1,350 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "",
+  "num_tags": 0,
+  "id": "6f1c638f-88ac-4f42-acbb-d36040362662",
+  "metadata_created": "2013-11-08T17:54:25.308818",
+  "metadata_modified": "2015-11-02T20:42:12.513741",
+  "author": "",
+  "author_email": "",
+  "state": "active",
+  "version": null,
+  "creator_user_id": "67999",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "6f1c638f-88ac-4f42-acbb-d36040362662",
+      "webstore_last_updated": null,
+      "id": "cf1a2f43-701a-4319-86aa-c3e7a366861c",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "A map service on the www depicting aerial retardant avoidance areas for hydrographic feature data. Aerial retardant avoidance area for hydrographic feature data are based on high resolution National Hydrographic Dataset (NHD) produced by USGS and available from the USFS Enterprise Data Warehouse. Forests and/or regions have had the opportunity to modify the default NHD water representation (300ft buffer from all water features) for their areas of interest to accurately represent aerial fire retardant avoidance areas as described in the 2011 Record of Decision for the Nationwide Aerial Application of Fire Retardant on National Forest System Land EIS. These changes have been integrated into this dataset depicting aerial fire retardant avoidance areas for hydrographic features.The following process was used to develop the hydrographic areas to be avoided by aerial fire retardant. Using the FCODE attribute, streams/rivers/waterbodies are categorized into perennial and intermittent/ephemeral types. Linear features (streams & rivers) FCODES 46003 and 46006 and polygonal features (lakes and other waterbody) FCODES 39001, 39005, 39006, 43612, 43614, 46601 are considered intermittentt/ephemeral features. All other FCODES are considered to be perennial features. Underground and covered water features (e.g., pipelines) are excluded. Initially, all intermittent/ephemeral and perennial features were buffered by 300 feet by the Forest/Region units. Subsequently, Forest/Region units may have extended these buffers locally based on their requirements. The resulting avoidance areas may have overlapping features due to the buffering processes.The National Hydrography Dataset (NHD) is a feature-based database that interconnects and uniquely identifies the stream segments or reaches that make up the nation's surface water drainage system. NHD data was originally developed at 1:100,000-scale and exists at that scale for the whole country. This high-resolution NHD, generally developed at 1:24,000/1:12,000 scale, adds detail to the original 1:100,000-scale NHD. (Data for Alaska, Puerto Rico and the Virgin Islands was developed at high-resolution, not 1:100,000 scale.) Local resolution NHD is being developed where partners and data exist. The NHD contains reach codes for networked features, flow direction, names, and centerline representations for areal water bodies. Reaches are also defined on waterbodies and the approximate shorelines of the Great Lakes, the Atlantic and Pacific Oceans and the Gulf of Mexico. The NHD also incorporates the National Spatial Data Infrastructure framework criteria established by the Federal Geographic Data Committee.",
+      "format": "ArcGIS Map Service",
+      "tracking_summary": {
+        "total": 4,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "U.S. Forest Service Aerial Fire Retardant Hydrographic Avoidance Areas: Aquatic",
+      "created": "2015-07-31T18:24:18.084233",
+      "url": "http://apps.fs.usda.gov/ArcX/rest/services/EDW/EDW_AerialFireRetardantHydrographicAvoidanceAreas_01/MapServer",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "7432abbd-d610-4a2d-b138-7ecb2470a696",
+      "resource_type": "file"
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "6f1c638f-88ac-4f42-acbb-d36040362662",
+      "webstore_last_updated": null,
+      "id": "6e2016e2-c920-4085-a867-c31c0448afbf",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "ArcGIS Online Map Preview",
+      "format": "ArcGIS Map Preview",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "U.S. Forest Service Aerial Fire Retardant Hydrographic Avoidance Areas: Aquatic",
+      "created": "2015-06-24T15:15:49.030317",
+      "url": "http://usfs.maps.arcgis.com/home/webmap/viewer.html?services=8270d5f7b73b4d19b9df49bfaaa70044",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 1,
+      "revision_id": "b3d1467c-3bb4-4cd9-8769-618615b171b6",
+      "resource_type": "file"
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "6f1c638f-88ac-4f42-acbb-d36040362662",
+      "webstore_last_updated": null,
+      "id": "2c4be790-63ed-44a9-afff-fe1941baf2d7",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "ArcGIS Feature Service",
+      "format": "arcgis feature service",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "U.S. Forest Service Aerial Fire Retardant Hydrographic Avoidance Areas: Aquatic",
+      "created": "2015-11-02T15:37:48.530506",
+      "url": "http://apps.fs.usda.gov/arcx/rest/services/EDW_FEATURE/EDW_AerialFireRetardantHydrographicAvoidanceAreas_01/FeatureServer",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 2,
+      "revision_id": "644718c6-cbf1-41f5-9d19-df6d5f9c31f9",
+      "resource_type": "file"
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "6f1c638f-88ac-4f42-acbb-d36040362662",
+      "webstore_last_updated": null,
+      "id": "e8513b85-5bde-4348-94f4-215865939130",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Link to API",
+      "format": "api",
+      "tracking_summary": {
+        "total": 4,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "API",
+      "created": "2015-11-02T15:38:48.824892",
+      "url": "http://apps.fs.usda.gov/ArcX/rest/services/EDW/EDW_AerialFireRetardantHydrographicAvoidanceAreas_01/MapServer",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 3,
+      "revision_id": "0acebd3c-9f3e-49cf-a2ca-fa332626c4d4",
+      "resource_type": "file"
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "6f1c638f-88ac-4f42-acbb-d36040362662",
+      "webstore_last_updated": null,
+      "id": "5674855e-1303-444d-9ec1-8fde210df61b",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "S_R01.AFRAA_Hydro.xml",
+      "format": "XML",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Metadata",
+      "created": "2015-11-02T15:39:43.525604",
+      "url": "http://data.fs.usda.gov/geodata/edw/edw_resources/meta/S_R01.AFRAA_Hydro.xml",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 4,
+      "revision_id": "d9d64a80-5d01-41a1-bfc9-10cd8a67036e",
+      "resource_type": "file"
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "6f1c638f-88ac-4f42-acbb-d36040362662",
+      "webstore_last_updated": null,
+      "id": "d8783464-363d-4041-aec6-bf21c8d07be7",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "S_R01.AFRAA_Hydro.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Shapefile",
+      "created": "2015-11-02T15:40:30.118798",
+      "url": "http://data.fs.usda.gov/geodata/edw/edw_resources/shp/S_R01.AFRAA_Hydro.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 5,
+      "revision_id": "6cde9e03-1506-474c-8516-1dc49b3a5d7f",
+      "resource_type": "file"
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "6f1c638f-88ac-4f42-acbb-d36040362662",
+      "webstore_last_updated": null,
+      "id": "637c6b7a-07ff-47d3-9706-c87faf110525",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "S_R01.AFRAA_Hydro.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ESRI geodatabase XML",
+      "created": "2015-11-02T15:41:20.478602",
+      "url": "http://data.fs.usda.gov/geodata/edw/edw_resources/fc/S_R01.AFRAA_Hydro.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 6,
+      "revision_id": "4157bae2-ec3c-4dcd-9254-5d4b1e6b53c0",
+      "resource_type": "file"
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "6f1c638f-88ac-4f42-acbb-d36040362662",
+      "webstore_last_updated": null,
+      "id": "af1c2a1e-23db-4290-8c1a-14e259c12090",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Link to generate KML",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "KML",
+      "created": "2015-11-02T15:42:12.770782",
+      "url": "http://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_AerialFireRetardantHydrographicAvoidanceAreas_01/MapServer/generateKml",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 7,
+      "revision_id": "7be33f9e-0a6c-4d7e-a27e-fe295e5d281d",
+      "resource_type": "file"
+    }
+  ],
+  "num_resources": 8,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 197,
+    "recent": 1
+  },
+  "groups": [
+    {
+      "display_name": "Disasters",
+      "description": "Disaster Topic for Data.gov",
+      "image_display_url": "",
+      "title": "Disasters",
+      "id": "72886f47-5994-4ca9-82ba-4a75987250a9",
+      "name": "disasters"
+    }
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:45.351405",
+    "title": "US Forest Service, Department of Agriculture",
+    "name": "fs-fed-us",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.data.gov/app/uploads/2014/07/Forest_Service_Logo.png",
+    "revision_id": "2560634b-6ef2-4505-8ad4-af0ebf818db7",
+    "type": "organization",
+    "id": "d4258583-d8ab-4f7a-9c23-4f1a442f69b9",
+    "approval_status": "approved"
+  },
+  "name": "us-forest-service-aerial-fire-retardant-hydrographic-avoidance-areas-aquatic",
+  "isopen": true,
+  "url": null,
+  "notes": "A map services on the www depicting aerial retardant avoidance areas for hydrographic feature data. Aerial retardant avoidance area for hydrographic feature data are based on high resolution National Hydrographic Dataset (NHD) produced by USGS and available from the USFS Enterprise Data Warehouse. Forests and/or regions have had the opportunity to modify the default NHD water representation (300ft buffer from all water features) for their areas of interest to accurately represent aerial fire retardant avoidance areas as described in the 2011 Record of Decision for the Nationwide Aerial Application of Fire Retardant on National Forest System Land EIS. These changes have been integrated into this dataset depicting aerial fire retardant avoidance areas for hydrographic features.The following process was used to develop the hydrographic areas to be avoided by aerial fire retardant. Using the FCODE attribute, streams/rivers/waterbodies are categorized into perennial and intermittent/ephemeral types. Linear features (streams  rivers) FCODES 46003 and 46006 and polygonal features (lakes and other waterbody) FCODES 39001, 39005, 39006, 43612, 43614, 46601 are considered intermittentt/ephemeral features. All other FCODES are considered to be perennial features. Underground and covered water features (e.g., pipelines) are exlcuded. Initially, all intermittent/ephemeral and perennial features were buffered by 300 feet by the Forest/Region units. Subsequently, Forest/Region units may have extended these buffers locally based on their requirements. The resulting avoidance areas may have overlapping features due to the buffering processes.The National Hydrography Dataset (NHD) is a feature-based database that interconnects and uniquely identifies the stream segments or reaches that make up the nation's surface water drainage system. NHD data was originally developed at 1:100,000-scale and exists at that scale for the whole country. This high-resolution NHD, generally developed at 1:24,000/1:12,000 scale, adds detail to the original 1:100,000-scale NHD. (Data for Alaska, Puerto Rico and the Virgin Islands was developed at high-resolution, not 1:100,000 scale.) Local resolution NHD is being developed where partners and data exist. The NHD contains reach codes for networked features, flow direction, names, and centerline representations for areal water bodies. Reaches are also defined on waterbodies and the approximate shorelines of the Great Lakes, the Atlantic and Pacific Oceans and the Gulf of Mexico. The NHD also incorporates the National Spatial Data Infrastructure framework criteria established by the Federal Geographic Data Committee.",
+  "owner_org": "d4258583-d8ab-4f7a-9c23-4f1a442f69b9",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "U.S. Forest Service"
+    },
+    {
+      "key": "contact-name",
+      "value": "Dave Green"
+    },
+    {
+      "key": "contact-email",
+      "value": "data@fs.fed.us"
+    },
+    {
+      "key": "__category_tag_72886f47-5994-4ca9-82ba-4a75987250a9",
+      "value": "[\"Volcano\",\"Landslide and Debris Flow\"]"
+    },
+    {
+      "key": "resource-type",
+      "value": "Map service"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "Current"
+    },
+    {
+      "key": "program_code",
+      "value": "005:000"
+    },
+    {
+      "key": "metadata_source",
+      "value": "arcgis"
+    },
+    {
+      "key": "public_access_level",
+      "value": "public"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-124.4162, 18.2446], [-124.4162, 49.0011], [-65.7087, 49.0011], [-65.7087, 18.2446], [-124.4162, 18.2446]]]}"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "guid",
+      "value": "8270d5f7b73b4d19b9df49bfaaa70044"
+    },
+    {
+      "key": "bureau_code",
+      "value": "005:96"
+    },
+    {
+      "key": "tags",
+      "value": "USFS,FS,AFRAA,hydro,aerial,fire,retardant,avoidance"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "15b7b7d2-d4f2-41c6-9f97-80ed0635723c"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "acb74aa9-7592-4b8f-bf7e-6309f640cef2"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "USFS AGOL"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "US Forest Service Aerial Fire Retardant Hydrographic Avoidance Areas: Aquatic",
+  "revision_id": "b604a2bc-8fc4-46d8-9456-1cbe0c1fbaef"
+}

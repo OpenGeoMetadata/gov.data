@@ -1,0 +1,232 @@
+{
+  "license_title": "Creative Commons CCZero",
+  "maintainer": "Stacey Campbell",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "Stacey.Campbell@va.gov",
+  "num_tags": 9,
+  "id": "4ce3fd3b-ca57-42a9-b3fd-3e5aec25af4b",
+  "metadata_created": "2015-02-26T17:07:07.701942",
+  "metadata_modified": "2015-10-08T21:50:26.552395",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "appointment",
+      "id": "913da9ef-bba5-46a3-8c9d-57c817a2cf84",
+      "name": "appointment"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "clinic",
+      "id": "c5b5388d-6e63-4a08-96c5-a6e1a4b968b0",
+      "name": "clinic"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "patient",
+      "id": "84651278-c505-44da-a3b6-6115676c70ff",
+      "name": "patient"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "schedule",
+      "id": "fe81e1e7-52b8-45a8-95a2-caa2d44f2e4e",
+      "name": "schedule"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "time",
+      "id": "a55864a0-a635-4e98-b655-33f13fe1831c",
+      "name": "time"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "utilization",
+      "id": "9dbbdd58-187c-4455-b4a1-4907b34097ac",
+      "name": "utilization"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "va",
+      "id": "5c740e0c-4cbe-421a-a4d4-b0c59ba3986b",
+      "name": "va"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "veteran",
+      "id": "7561bea1-6f6c-4e42-96cc-7a5271ea4f8c",
+      "name": "veteran"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "wait",
+      "id": "f6dbe496-4498-4bb8-add7-bb46f5723929",
+      "name": "wait"
+    }
+  ],
+  "tracking_summary": {
+    "total": 123,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-zero",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:11.529883",
+    "title": "Department of Veterans Affairs",
+    "name": "va-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/va.png",
+    "revision_id": "7c651ccc-eb67-439e-82dd-1ae7fff33f63",
+    "type": "organization",
+    "id": "ff9ae098-eccc-41d8-bfcd-5e8ed047db05",
+    "approval_status": "approved"
+  },
+  "name": "vha-support-service-center-patient-appointment",
+  "isopen": true,
+  "url": null,
+  "notes": "Patient appointment information is obtained from the Veterans Health Information Systems and Technology Architecture Scheduling module.  The Patient Appointment Information application gathers appointment data to be loaded into a national database for statistical reporting. Patient appointments are scanned from September 1, 2002 to the present, and appointment data meeting specified criteria are transmitted to the Austin Information Technology Center Patient Appointment Information Transmission (PAIT) national database.  Subsequent transmissions (bi-monthly) update PAIT bi-monthly via Health Level Seven message transmissions through Vitria Interface Engine (VIE) connections. A Statistical Analysis Software (SAS) program in Austin utilizes PAIT data to create a bi-monthly SAS dataset on the Austin mainframe.  This additional data is used to supplement the existing Clinic Appointment Wait Time and Clinic Utilization extracts created by the Veterans Health Administration Support Service Center (VSSC).",
+  "owner_org": "ff9ae098-eccc-41d8-bfcd-5e8ed047db05",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "e868f753-9395-4666-a30c-219334a64c6b"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2013-12-30"
+    },
+    {
+      "key": "source_hash",
+      "value": "36f24cd3dabba82487a4c6a313533e2683bbeaee"
+    },
+    {
+      "key": "temporal",
+      "value": "2004-01-01/2014-12-31"
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "VA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "029:041"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "029:15"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "non-public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "6d1235a8-fd5e-4a08-85a3-1a8ca823b2f5"
+    },
+    {
+      "key": "publisher",
+      "value": "Department of Veterans Affairs"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "key": "rights",
+      "value": "Health Insurance Portability and Accountability Act, protected health information."
+    },
+    {
+      "key": "systemOfRecords",
+      "value": "http://www.gpo.gov/fdsys/pkg/FR-2012-05-11/pdf/2012-11487.pdf"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "VA-VHA-OIA-051"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "6d1235a8-fd5e-4a08-85a3-1a8ca823b2f5"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "e868f753-9395-4666-a30c-219334a64c6b"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "VA JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-zero",
+  "title": "VHA Support Service Center Patient Appointment",
+  "revision_id": "019c7663-6ac6-4182-9fa0-06162a1a5f2e"
+}

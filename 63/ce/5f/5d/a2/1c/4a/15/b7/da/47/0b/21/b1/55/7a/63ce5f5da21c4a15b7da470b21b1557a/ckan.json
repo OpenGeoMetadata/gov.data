@@ -1,0 +1,246 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "Climate Prediction Center, NOAA",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "George.Fulwood@noaa.gov",
+  "num_tags": 5,
+  "id": "63ce5f5d-a21c-4a15-b7da-470b21b1557a",
+  "metadata_created": "2016-01-29T13:44:43.414958",
+  "metadata_modified": "2016-02-26T22:16:24.973366",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "63ce5f5d-a21c-4a15-b7da-470b21b1557a",
+      "webstore_last_updated": null,
+      "id": "e1da4edd-31de-4d42-a132-aede19605c48",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "wctytemp.txt",
+      "format": "TXT",
+      "tracking_summary": {
+        "total": 12,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "text/plain",
+      "cache_url": null,
+      "name": "Text File",
+      "created": "2016-01-29T08:44:43.588871",
+      "url": "ftp://ftp.cpc.ncep.noaa.gov/htdocs/products/analysis_monitoring/cdus/prcp_temp_tables/wctytemp.txt",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "de23a130-feef-4fc7-bcea-80c5e02e3b17",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "63ce5f5d-a21c-4a15-b7da-470b21b1557a",
+      "webstore_last_updated": null,
+      "id": "7faebc1e-4ab6-417d-96f3-68f538757539",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "wctytemp.txt",
+      "format": "TXT",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "text/plain",
+      "cache_url": null,
+      "name": "Text File",
+      "created": "2016-01-29T08:44:43.588927",
+      "url": "http://www.cpc.ncep.noaa.gov/products/analysis_monitoring/cdus/prcp_temp_tables/wctytemp.txt",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 1,
+      "revision_id": "de23a130-feef-4fc7-bcea-80c5e02e3b17",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "atmosphere-temperature-air-temperature",
+      "id": "73e0a61a-42ba-4720-9785-810be9aacdcf",
+      "name": "atmosphere-temperature-air-temperature"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "climatologymeteorologyatmosphere",
+      "id": "9532b448-3317-4140-a142-a0ad50f49916",
+      "name": "climatologymeteorologyatmosphere"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geographic-region-united-states",
+      "id": "9ea68485-f6ac-4a3d-80f0-99508631837e",
+      "name": "geographic-region-united-states"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "vertical-location-boundary-layer",
+      "id": "aba11b87-7c2d-4564-8537-f0a3c657f323",
+      "name": "vertical-location-boundary-layer"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "weekly-temperature",
+      "id": "55d644dc-a523-416d-84fa-5bfb0ab360c1",
+      "name": "weekly-temperature"
+    }
+  ],
+  "tracking_summary": {
+    "total": 2,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:37:59.153068",
+    "title": "Department of Commerce",
+    "name": "doc-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.vos.noaa.gov/MWL/aug_10/Images/doc_logo_xparent.png",
+    "revision_id": "44c851b9-8872-497a-8a13-2f06740b7ffb",
+    "type": "organization",
+    "id": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+    "approval_status": "approved"
+  },
+  "name": "climate-prediction-center-cpc-weekly-u-s-selected-cities-temperature-summary-374db",
+  "isopen": false,
+  "url": null,
+  "notes": "Weekly U.S. reported temperature summaries in degrees Fahrenheit generated from the GTS metar(hourly) and synoptic(6-hourly)observations for selected cities based on the Weekly Weather and Crop Bulletin station list",
+  "owner_org": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Climate Prediction Center, NOAA (Point of Contact)"
+    },
+    {
+      "key": "identifier",
+      "value": "gov.noaa.cpc:CPC-TEMP-WKLY-TS-v1981"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "temporal",
+      "value": "1981-01-01T00:00:00/2014-08-25T10:50:53.460000-04:00"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "1981-03-01"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "000:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "006:48"
+      ]
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1W"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-170.0, 19.0], [-65.0, 19.0], [-65.0, 71.5], [-170.0, 71.5], [-170.0, 19.0]]]}"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d0cff655-524c-402b-87bd-7937cea8e3c8"
+    },
+    {
+      "key": "source_hash",
+      "value": "5029cdfe04bdd0da0a073a45e5b9298afd2b6cbf"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d0cff655-524c-402b-87bd-7937cea8e3c8"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    }
+  ],
+  "title": "Climate Prediction Center (CPC) Weekly U.S. Selected Cities Temperature Summary",
+  "revision_id": "de23a130-feef-4fc7-bcea-80c5e02e3b17"
+}

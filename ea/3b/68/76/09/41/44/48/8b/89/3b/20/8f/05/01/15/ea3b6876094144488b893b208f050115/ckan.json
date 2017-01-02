@@ -1,0 +1,196 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "ea3b6876-0941-4448-8b89-3b208f050115",
+  "metadata_created": "2014-10-31T12:57:32.263711",
+  "metadata_modified": "2014-10-31T12:57:32.263711",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "ea3b6876-0941-4448-8b89-3b208f050115",
+      "webstore_last_updated": null,
+      "id": "0ab66d2d-9635-4723-b6fa-428a47fa44e6",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "TGRSHP (compressed)",
+      "tracking_summary": {
+        "total": 4,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "1109961a-aa30-44dc-84c8-fc5e339162ee",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-10-31T08:57:33.663679",
+      "url": "http://www2.census.gov/geo/tiger/TIGER2014/LINEARWATER",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 39,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The Census Bureau's mission is to serve as the leading source of quality data about the nation's people and economy. We honor privacy, protect confidentiality, share our expertise globally, and conduct our work openly. We are guided on this mission by scientific objectivity, our strong and capable workforce, our devotion to research-based innovation, and our abiding commitment to our customers.",
+    "created": "2013-03-14T03:44:46.743070",
+    "title": "US Census Bureau, Department of Commerce",
+    "name": "census-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.census.gov/main/img/home/CensusLogo-white.png",
+    "revision_id": "0995f525-d563-4254-a535-af5b926fe663",
+    "type": "organization",
+    "id": "31c49abe-512a-412a-9cc7-5b2601325d6b",
+    "approval_status": "approved"
+  },
+  "name": "tiger-line-shapefile-2014-series-information-file-for-the-linear-hydrography-county-b",
+  "isopen": false,
+  "url": null,
+  "notes": " Linear\n               Water Features includes single-line drainage water features and artificial path\n               features that run through double-line drainage features such as rivers and streams,\n               and serve as a linear representation of these features. The artificial path features\n               may correspond to those in the USGS National Hydrographic Dataset (NHD). However, in\n               many cases the features do not match NHD equivalent feature and will not carry the\n               NHD metadata codes. These features have a MAF/TIGER Feature Classification Code\n               (MTFCC) beginning with an \"H\" to indicate the super class of Hydrographic Features.\n            ",
+  "owner_org": "31c49abe-512a-412a-9cc7-5b2601325d6b",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "179.859681"
+    },
+    {
+      "key": "collection_metadata",
+      "value": "true"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "71.441059"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-179.231086, -14.601813], [179.859681, -14.601813], [179.859681, 71.441059], [-179.231086, 71.441059], [-179.231086, -14.601813]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Access Constraints: None\", \"Use Constraints:\\n                     The TIGER/Line Shapefile products are not copyrighted however TIGER/Line and\\n                     Census TIGER are registered trademarks of the U.S. Census Bureau. These\\n                     products are free to use in a product or publication, however acknowledgment\\n                     must be given to the U.S. Census Bureau as the source. The horizontal spatial\\n                     accuracy information present in these files is provided for the purposes of\\n                     statistical analysis and census operations only. No warranty, expressed or\\n                     implied is made with regard to the accuracy of the spatial accuracy, and no\\n                     liability is assumed by the U.S. Government in general or the U.S. Census\\n                     Bureau, specifically as to the spatial or attribute accuracy of the data. The\\n                     TIGER/Line Shapefiles may not be suitable for high-precision measurement\\n                     applications such as engineering problems, property transfers, or other uses\\n                     that might require highly accurate measurements of the earth's\\n                     surface. Coordinates in the TIGER/Line shapefiles have six implied decimal\\n                     places, but the positional accuracy of these coordinates is not as great as the\\n                     six decimal places suggest.\", \"Distribution\\n                     Liability: No warranty, expressed or implied is made with regard to the\\n                     accuracy of these data, and no liability is assumed by the U.S. Government in\\n                     general or the U.S. Census Bureau in specific as to the spatial or attribute\\n                     accuracy of the data. The act of distribution shall not constitute any such\\n                     warranty and no responsibility is assumed by the U.S. government in the use of\\n                     these files. The boundary information in the TIGER/Line Shapefiles is for\\n                     statistical data collection and tabulation purposes only; their depiction and\\n                     designation for statistical purposes do not constitute a determination of\\n                     jurisdictional authority or rights of ownership or entitlement and they are not\\n                     legal land descriptions.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2013-06"
+    },
+    {
+      "key": "contact-email",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-179.231086"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2014-06-01"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2014\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2014-05"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "-14.601813"
+    },
+    {
+      "key": "tags",
+      "value": "inlandwaters, hydrography, u.s., linearfeature, county or equivalent entity"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d62ce085-85f6-4097-a77f-71ad811d4a17"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "dd9a68b9-a8e3-4af8-b20c-4d6608965ab7"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "2014 Linear Hydrography"
+    }
+  ],
+  "title": "TIGER/Line\n                     Shapefile, 2014, Series Information File for the Linear Hydrography County-based Shapefiles",
+  "revision_id": "1109961a-aa30-44dc-84c8-fc5e339162ee"
+}

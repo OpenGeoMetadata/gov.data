@@ -1,0 +1,227 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "<Nobody>",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 7,
+  "id": "b886c2c6-285c-4678-b41d-c6992ba7d8df",
+  "metadata_created": "2016-01-28T07:20:11.774702",
+  "metadata_modified": "2016-01-28T07:20:11.774702",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "b886c2c6-285c-4678-b41d-c6992ba7d8df",
+      "webstore_last_updated": null,
+      "id": "04561499-ec6b-438c-aeac-1b9d4ebf7746",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "XML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/xml",
+      "cache_url": null,
+      "name": "XML File",
+      "created": "2016-01-28T02:20:12.155481",
+      "url": "https://data.cityofchicago.org/download/fxnt-b8ay/application/xml",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "514a4d30-3cc1-4995-a1e7-8768739d72d4",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "bus",
+      "id": "d7e6b84a-aaea-444c-99df-0eb0fd86927d",
+      "name": "bus"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "cta",
+      "id": "14fc3e0c-b00f-47ae-8281-814ccf3a4c96",
+      "name": "cta"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "deprecated",
+      "id": "0854dc4e-3973-4dc6-9a43-0a4138654f87",
+      "name": "deprecated"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "gis",
+      "id": "3dc0c789-3e0c-4755-8418-1f1a0b82a70b",
+      "name": "gis"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "kml",
+      "id": "5c2e94ca-1bbc-4db6-bbc4-fef55a514bfa",
+      "name": "kml"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "public-transit",
+      "id": "e227c608-33e8-4dcc-a61f-4c88071f26d8",
+      "name": "public-transit"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "sustainability",
+      "id": "9c9af354-e8b1-408c-acac-e041b458c47a",
+      "name": "sustainability"
+    }
+  ],
+  "tracking_summary": {
+    "total": 2,
+    "recent": 0
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2014-04-16T13:27:34.042027",
+    "title": "City of Chicago",
+    "name": "city-of-chicago",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "",
+    "revision_id": "2355fd63-2123-4dc7-b177-e959631cf360",
+    "type": "organization",
+    "id": "86c0c3d9-3826-47ab-a773-6924b858dd04",
+    "approval_status": "approved"
+  },
+  "name": "cta-bus-stops-kml-deprecated-february-2015",
+  "isopen": false,
+  "url": null,
+  "notes": "OUTDATED, HISTORICAL VERSION -- Point data representing over 11,000 CTA bus stops. The Stop ID is used to get Bus Tracker information. Current stops (coded as 1 in status field), Flag Stops – status 2,  and stops both Temporarily in Service (Status 5) or Out of service (Status 6) are included. To view or use these files, special GIS software, such as Google Earth, is required.",
+  "owner_org": "86c0c3d9-3826-47ab-a773-6924b858dd04",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "data.cityofchicago.org"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "added36a-9183-4385-a0e5-dd478946b24c"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "issued",
+      "value": "2011-08-11"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2015-02-05"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Chicago JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Transportation"
+      ]
+    },
+    {
+      "key": "catalog_@id",
+      "value": "https://data.cityofchicago.org/data.json"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "https://data.cityofchicago.org/api/views/fxnt-b8ay"
+    },
+    {
+      "key": "landingPage",
+      "value": "https://data.cityofchicago.org/d/fxnt-b8ay"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "b3fba30a-8571-4df6-8e53-3e1444613726"
+    },
+    {
+      "key": "source_hash",
+      "value": "2bd450d8b955f3a39d5024ec00aca7138b7c4075"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "b3fba30a-8571-4df6-8e53-3e1444613726"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "added36a-9183-4385-a0e5-dd478946b24c"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Chicago JSON"
+    }
+  ],
+  "title": "CTA - Bus Stops - KML (Deprecated February 2015)",
+  "revision_id": "514a4d30-3cc1-4995-a1e7-8768739d72d4"
+}

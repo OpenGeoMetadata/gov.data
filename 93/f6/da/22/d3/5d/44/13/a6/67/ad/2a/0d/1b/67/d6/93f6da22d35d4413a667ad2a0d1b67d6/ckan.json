@@ -1,0 +1,627 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "93f6da22-d35d-4413-a667-ad2a0d1b67d6",
+  "metadata_created": "2015-09-26T20:21:01.417282",
+  "metadata_modified": "2016-10-19T18:41:07.049659",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "93f6da22-d35d-4413-a667-ad2a0d1b67d6",
+      "webstore_last_updated": null,
+      "id": "55b92e0f-5153-4b3a-aadd-032f05651084",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard LAS html interface for selecting data from this dataset. ",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "LAS",
+      "created": "2016-10-19T14:41:07.906779",
+      "url": "http://ferret.pmel.noaa.gov/geoideLAS/getUI.do?data_url=http://www.ngdc.noaa.gov/thredds/dodsC/dem/panama_city_fl_1-3_arc-second_mhw_netcdf.nc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "03e50615-0d28-45b0-9064-4b1131031a2f",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "93f6da22-d35d-4413-a667-ad2a0d1b67d6",
+      "webstore_last_updated": null,
+      "id": "8c6029f4-ca58-4c77-92ac-05b798c72dc2",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard ERDDAP html interface for selecting data from this dataset. ",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ERDDAP",
+      "created": "2016-10-19T14:41:07.906813",
+      "url": "http://upwell.pfeg.noaa.gov/erddap/search/index.html?searchFor=http://www.ngdc.noaa.gov/thredds/dodsC/dem/panama_city_fl_1-3_arc-second_mhw_netcdf.nc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "03e50615-0d28-45b0-9064-4b1131031a2f",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "93f6da22-d35d-4413-a667-ad2a0d1b67d6",
+      "webstore_last_updated": null,
+      "id": "f1a65682-4edb-4c6b-8d5f-a525fa9b737f",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard OPeNDAP html interface for selecting data from this dataset. Change the extension to .info for a description of the dataset.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "File Information",
+      "created": "2016-10-19T14:41:07.906824",
+      "url": "http://www.ngdc.noaa.gov/thredds/dodsC/dem/panama_city_fl_1-3_arc-second_mhw_netcdf.nc.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "03e50615-0d28-45b0-9064-4b1131031a2f",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "93f6da22-d35d-4413-a667-ad2a0d1b67d6",
+      "webstore_last_updated": null,
+      "id": "e1a6dc7a-8996-47a8-bb43-efc5750ee379",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "mapDigital",
+      "hash": "",
+      "description": "This URL provides an NCDC climate and weather toolkit view of an OPeNDAP resource.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Viewer Information",
+      "created": "2016-10-19T14:41:07.906832",
+      "url": "http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://www.ngdc.noaa.gov/thredds/dodsC/dem/panama_city_fl_1-3_arc-second_mhw_netcdf.nc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 3,
+      "revision_id": "03e50615-0d28-45b0-9064-4b1131031a2f",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "93f6da22-d35d-4413-a667-ad2a0d1b67d6",
+      "webstore_last_updated": null,
+      "id": "b011e167-0584-4804-a10b-858265a6fd8d",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": " Visualize with Live Access Server",
+      "created": "2016-10-19T14:41:07.906839",
+      "url": "http://ferret.pmel.noaa.gov/geoideLAS/getUI.do?data_url=http://www.ngdc.noaa.gov/thredds/dodsC/dem/panama_city_fl_1-3_arc-second_mhw_netcdf.nc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 4,
+      "revision_id": "03e50615-0d28-45b0-9064-4b1131031a2f",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "93f6da22-d35d-4413-a667-ad2a0d1b67d6",
+      "webstore_last_updated": null,
+      "id": "11c12c30-bfa4-43ef-a7a5-4eda99faff5c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": " Visualize with ERDDAP",
+      "created": "2016-10-19T14:41:07.906846",
+      "url": "http://upwell.pfeg.noaa.gov/erddap/search/index.html?searchFor=http://www.ngdc.noaa.gov/thredds/dodsC/dem/panama_city_fl_1-3_arc-second_mhw_netcdf.nc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 5,
+      "revision_id": "03e50615-0d28-45b0-9064-4b1131031a2f",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "93f6da22-d35d-4413-a667-ad2a0d1b67d6",
+      "webstore_last_updated": null,
+      "id": "0f02adc4-e67d-4646-a5c9-9704f2d913cd",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": " Weather and Climate Toolkit",
+      "created": "2016-10-19T14:41:07.906853",
+      "url": "http://www.ncdc.noaa.gov/oa/wct/wct-jnlp.php?singlefile=http://www.ngdc.noaa.gov/thredds/dodsC/dem/panama_city_fl_1-3_arc-second_mhw_netcdf.nc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 6,
+      "revision_id": "03e50615-0d28-45b0-9064-4b1131031a2f",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "93f6da22-d35d-4413-a667-ad2a0d1b67d6",
+      "webstore_last_updated": null,
+      "id": "ec1cf815-100c-4728-b9c6-9e9998ea9e78",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "revision_id": "03e50615-0d28-45b0-9064-4b1131031a2f",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T14:41:07.906860",
+      "url": "http://www.ngdc.noaa.gov/mgg/coastal/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 7,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "93f6da22-d35d-4413-a667-ad2a0d1b67d6",
+      "webstore_last_updated": null,
+      "id": "a7768ad4-0809-472f-87e3-6ec3017aaab4",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "The UAF project is providing this catalog as a public service to aid in the discovery and access of scientific data.  The UAF is not responsible for the content of the data and all questions regarding the data should be directed to the office where the data reside.",
+      "format": "",
+      "tracking_summary": {
+        "total": 18,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTPS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA GEO-IDE",
+      "created": "2016-10-19T14:41:07.906867",
+      "url": "https://geo-ide.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 8,
+      "revision_id": "03e50615-0d28-45b0-9064-4b1131031a2f",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "93f6da22-d35d-4413-a667-ad2a0d1b67d6",
+      "webstore_last_updated": null,
+      "id": "8f28483c-7a26-4fd7-83aa-7651bf82445b",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "revision_id": "03e50615-0d28-45b0-9064-4b1131031a2f",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T14:41:07.906874",
+      "url": "http://www.ngdc.noaa.gov/mgg/coastal/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 9,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "93f6da22-d35d-4413-a667-ad2a0d1b67d6",
+      "webstore_last_updated": null,
+      "id": "6291d944-fc2d-45fb-9a93-f559d26236d8",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "revision_id": "03e50615-0d28-45b0-9064-4b1131031a2f",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T14:41:07.906880",
+      "url": "http://www.ngdc.noaa.gov/mgg/coastal/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 10,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "93f6da22-d35d-4413-a667-ad2a0d1b67d6",
+      "webstore_last_updated": null,
+      "id": "d9fd3a0d-9cb0-4a71-900d-82e81991cf09",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "THREDDS OPeNDAP",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OPeNDAP:OPeNDAP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OPeNDAP",
+      "created": "2016-10-19T14:41:07.906887",
+      "url": "http://www.ngdc.noaa.gov/thredds/dodsC/dem/panama_city_fl_1-3_arc-second_mhw_netcdf.nc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 11,
+      "revision_id": "03e50615-0d28-45b0-9064-4b1131031a2f",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "93f6da22-d35d-4413-a667-ad2a0d1b67d6",
+      "webstore_last_updated": null,
+      "id": "4f40c336-7322-4c2f-a6c2-aeb20cdf44de",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "revision_id": "03e50615-0d28-45b0-9064-4b1131031a2f",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T14:41:07.906894",
+      "url": "http://www.ngdc.noaa.gov/mgg/coastal/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 12,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "93f6da22-d35d-4413-a667-ad2a0d1b67d6",
+      "webstore_last_updated": null,
+      "id": "be00958a-0808-40e1-a1ef-84638143c8c9",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Open Geospatial Consortium Web Coverage Service (WCS)",
+      "format": "WCS",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WCS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OGC-WCS",
+      "created": "2016-10-19T14:41:07.906901",
+      "url": "http://www.ngdc.noaa.gov/thredds/wcs/dem/panama_city_fl_1-3_arc-second_mhw_netcdf.nc?service=WCS&version=1.0.0&request=GetCapabilities",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 13,
+      "revision_id": "03e50615-0d28-45b0-9064-4b1131031a2f",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "93f6da22-d35d-4413-a667-ad2a0d1b67d6",
+      "webstore_last_updated": null,
+      "id": "02746ab8-c221-483b-8e8e-22cfd636e723",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "revision_id": "03e50615-0d28-45b0-9064-4b1131031a2f",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T14:41:07.906908",
+      "url": "http://www.ngdc.noaa.gov/mgg/coastal/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 14,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "93f6da22-d35d-4413-a667-ad2a0d1b67d6",
+      "webstore_last_updated": null,
+      "id": "a71b43ed-6eee-4fc0-927d-cd3b686af66f",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Open Geospatial Consortium Web Map Service (WMS)",
+      "format": "WMS",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WMS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OGC-WMS",
+      "created": "2016-10-19T14:41:07.906915",
+      "url": "http://www.ngdc.noaa.gov/thredds/wms/dem/panama_city_fl_1-3_arc-second_mhw_netcdf.nc?service=WMS&version=1.3.0&request=GetCapabilities",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 15,
+      "revision_id": "03e50615-0d28-45b0-9064-4b1131031a2f",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 16,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 8,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "panama-city-fl-1-3-arc-second-mhw-netcdf-grd",
+  "isopen": false,
+  "url": null,
+  "notes": "NGDC builds and distributes high-resolution, coastal digital elevation models (DEMs) that integrate ocean bathymetry and land topography to support NOAA's mission to understand and predict changes in Earth's environment, and conserve and manage coastal and marine resources to meet our Nation's economic, social, and environmental needs. They can be used for modeling of coastal processes (tsunami inundation, storm surge, sea-level rise, contaminant dispersal, etc.), ecosystems management and habitat research, coastal and marine spatial planning, and hazard mitigation and community preparedness.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"\", \"roles\": [\"pointOfContact\"]}, {\"name\": \"The Unified Access Framework (UAF)\", \"roles\": [\"custodian\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "barry.eakins@noaa.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": "eng"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-86.0999999999997"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-10-13"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"revision\", \"value\": \"2011-11-17T08:14:27Z\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-85.2000000000249"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "30.4999999999737"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[{\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}, {\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}, {\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "29.5500000000003"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-86.1, 29.55], [-85.2, 29.55], [-85.2, 30.5], [-86.1, 30.5], [-86.1, 29.55]]]}"
+    },
+    {
+      "key": "guid",
+      "value": "demDatasetScan.panama_city_fl_1-3_arc-second_mhw_netcdf.nc"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": "THREDDS OPeNDAP"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "the unified access framework: a geo-ide project to integrate scientific data management and access, unified access framework (uaf), national geophysical data center (ngdc)"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "09206c72-78e2-4077-a184-cd764a5fd50f"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "panama_city_fl_1-3_arc-second_mhw_netcdf.grd",
+  "revision_id": "f6e66d8e-7bda-4f62-a2df-cef1fbc6244b"
+}

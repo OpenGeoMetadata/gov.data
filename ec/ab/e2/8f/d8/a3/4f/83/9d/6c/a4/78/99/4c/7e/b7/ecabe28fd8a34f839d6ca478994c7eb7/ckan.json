@@ -1,0 +1,195 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "ecabe28f-d8a3-4f83-9d6c-a478994c7eb7",
+  "metadata_created": "2013-06-12T18:01:19.329068",
+  "metadata_modified": "2015-04-10T01:58:16.181645",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "ecabe28f-d8a3-4f83-9d6c-a478994c7eb7",
+      "webstore_last_updated": null,
+      "id": "26d9a962-d910-439a-a054-0839e115c112",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "ssislink.html",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 4,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "e12c9eec-6b3d-4231-9fa7-5e927c7e3946",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2013-06-12T14:01:19.602491",
+      "url": "http://www.lmic.state.mn.us/chouse/ssislink.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 25,
+    "recent": 3
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:47.372413",
+    "title": "State of Minnesota",
+    "name": "state-mn-us",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://mn.gov/portal/images/mn_header_mn-logo.png",
+    "revision_id": "018d8409-7698-467f-8dc2-c58188806480",
+    "type": "organization",
+    "id": "24298fe4-ee0d-43ae-af51-81ae5f5c6165",
+    "approval_status": "approved"
+  },
+  "name": "soils-derived-from-soil-survey-information-system-ssis-selected-minnesota-counties",
+  "isopen": false,
+  "url": null,
+  "notes": "The original data was created from Natural Resource Conservation Service (NRCS, formerly SCS) county soil survey maps using the University of Minnesota's Soil Survey Information System (SSIS). SSIS is a non-GIS computer program originally created in the mid-to-late 1970s, that displays soil information on a section-by-section basis, along with associated soil unit attributes. SSIS data quality varies considerably since the software and methods of creating the data evolved over time. Earlier methods assumed that each public land survey section was a perfect one mile square, an assumption that created georeferencing problems later on. Many of the SSIS files were then converted to EPPL7 raster GIS format with 5 meter by 5 meter grid cells, using 1:24,000-scale section corners to establish the geo-referencing. Finally, the sections were combined into larger files; in most cases, each larger file covers one public land survey township. Most of the EPPL7 files have been converted to ARC/INFO coverages, either by the University of Minnesota or by the Land Management Information Center. Note: the GIS data sets do not include soil unit attributes found in the tables in the printed soil surveys.",
+  "owner_org": "24298fe4-ee0d-43ae-af51-81ae5f5c6165",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Minnesota Land Management Information Center (LMIC)\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "ftp://ftp.lmic.state.mn.us/pub/data/phys_biol/soils/soilssis.gif"
+    },
+    {
+      "key": "contact-email",
+      "value": "clearing.house@state.mn.us"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-97.5"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2007-04-11"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-89.0"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "49.5"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "43.5"
+    },
+    {
+      "key": "licence",
+      "value": "[\"DISTRIBUTION LIABILITY STATEMENT\\nFor data or maps delivered online or by physical media by\\nthe Land Management Information Center \\n\\nLimitations: Although extensive effort has been made to produce error-free and complete data, all geographic information has limitations due to the scale, resolution, date and interpretation of the original source materials. Users should consult available data documentation (metadata) for this particular data to determine limitations and the precision to which the data depict distance, direction, location or other geographic characteristics. Data may be subject to change without prior notification.\\n\\nNo warranty: Data is provided as is, without any warranty whatsoever, including but not limited to any warranty as to performance, merchantability, or fitness for any particular purpose.\\n\\nLiability: The entire risk as to the results of the use of this data is assumed by the user. LMIC is not responsible for any interpretation or conclusions made by those who acquire or use it. LMIC shall not be liable for any direct, indirect, special, incidental, compensatory or consequential damages or third-party claims resulting from the use of this data, even if LMIC has been advised of the possibility of such potential loss or damage. In states that do not allow the exclusion or limitation of incidental or consequential damages, this data may not be used.\\n\\nRedistribution conditions: In obtaining this data from LMIC, it is understood that individuals or organizations have the right to use it for any internal purpose. If data is modified, changes should be documented in a metadata record that should accompany all redistributed data. If data is transmitted or provided in any form to another user, the data MUST be accompanied by a copy of this disclaimer and all documentation provided with the original data set, including the full metadata record.\\n\\nData delivered on electronic media: If data has been requested from LMIC on magnetic media, CD or any other physical media, LMIC will deliver it in the computer-readable format agreed upon with the requestor. LMIC will re-issue data if it is unreadable by correctly adjusted computer input devices or when the media is delivered in a damaged condition. Requests for re-issue of this digital data product must be made within 30 days of the date shipped from LMIC.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-97.5, 43.5], [-89.0, 43.5], [-89.0, 49.5], [-97.5, 49.5], [-97.5, 43.5]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: Redistribution conditions: In obtaining this data from LMIC, it is understood that individuals or organizations have the right to use it for any internal purpose. If data is modified, changes should be documented in a metadata record that should accompany all redistributed data. If data is transmitted or provided in any form to another user, the data MUST be accompanied by a copy of this disclaimer and all documentation provided with the original data set, including the full metadata record.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "tags",
+      "value": ""
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "1c478fea-0ea9-45f7-b140-079982755d49"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "526b774b-2dbe-4b61-91f5-8e3e020b9bce"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Minnesota Geospatial Information Office"
+    }
+  ],
+  "title": "Soils Derived from Soil Survey Information System (SSIS), Selected Minnesota Counties",
+  "revision_id": "7be39bd2-47eb-488f-8556-6b67c9e471fe"
+}

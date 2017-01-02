@@ -1,0 +1,196 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "c743e6bc-ce04-4fa8-a0b0-dde21b3545ec",
+  "metadata_created": "2015-09-26T21:42:22.031501",
+  "metadata_modified": "2016-03-28T20:24:16.152898",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "c743e6bc-ce04-4fa8-a0b0-dde21b3545ec",
+      "webstore_last_updated": null,
+      "id": "78dd7662-87ff-4150-8ab0-d47c373db7c4",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "5c83862e-3df9-41ef-a482-480facd2ad3e",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-03-28T16:24:16.222089",
+      "url": "https://coastalscience.noaa.gov/projects/detail?key=205",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 1,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "slope-of-the-slope-derivative-surface-used-to-characterize-the-complexity-of-the-seafloor-aroun",
+  "isopen": false,
+  "url": null,
+  "notes": "Slope of slope was calculated from the bathymetry surface for each raster cell by applying the ArcGIS Spatial Analyst 'Slope' Tool to a previously created slope raster. Slope of slope describes the maximum rate of change of slope (in degrees of degrees) within a square 3x3 cell neighborhood. The slope of slope metric has been found to be important in predicting the distribution and abundance of fish and corals (Pittman et al., 2009). Consequently, the 2x2 meter resolution slope of slope GeoTIFF was exported and added as a new map layer to aid in benthic habitat classification. Acoustic imagery was acquired for the VICRNM on two separate missions onboard the NOAA ship, Nancy Foster. The first mission took place from 2/18/04 to 3/5/04. The second mission took place from 2/1/05 to 2/12/05. On both missions, seafloor depths between 14 to 55 m were mapped using a RESON SeaBat 8101 ER (240 kHz) MBES sensor. This pole-mounted system measured water depths across a 150 degree swath consisting of 101 individual 1.5 degree x 1.5 degree beams. The beams to the port and starboard of nadir (i.e., directly underneath the ship) overlapped adjacent survey lines by approximately 10 m. The vessel survey speed was between 5 and 8 kn. In 2004, the ship's location was determined by a Trimble DSM 132 DGPS system, which provided a RTCM differential data stream from the U.S. Coast Guard Continually Operating Reference Station (CORS) at Port Isabel, Puerto Rico. Gyro, heave, pitch and roll correctors were acquired using an Ixsea Octans gyrocompass. In 2005, the ship's positioning and orientation were determined by the Applanix POS/MV 320 V4, which is a GPS aided Inertial Motion Unit (IMU) providing measurements of roll, pitch and heading. The POS/MV obtained its positions from two dual frequency Trimble Zephyr GPS antennae. An auxiliary Trimble DSM 132 DGPS system provided a RTCM differential data stream from the U.S. Coast Guard CORS at Port Isabel, Puerto Rico. For both years, CTD (conductivity, temperature and depth) measurements were taken approximately every 4 hours using a Seabird Electronics SBE-19 to correct for the changing sound velocities in the water column. In 2004, raw data were logged in .xtf (extended triton format) using Triton ISIS software 6.2. In 2005, raw data were logged in .gsf (generic sensor format) using SAIC ISS 2000 software. Data from 2004 were referenced to the WGS84 UTM 20 N horizontal coordinate system, and data from 2005 were referenced to the NAD83 UTM 20 N horizontal coordinate system. Data from both projects were referenced to the Mean Lower Low Water (MLLW) vertical tidal coordinate system. The 2004 and 2005 MBES bathymetric data were both corrected for sensor offsets, latency, roll, pitch, yaw, static draft, the changing speed of sound in the water column and the influence of tides in CARIS Hips & Sips 5.3 and 5.4, respectively. The 2004 data was then binned to create a 1 x 1 m raster surface, and the 2005 data was binned to a create 2 x 2 m raster surface. After these final surfaces were created, the datum for the 2004 bathymetric surfaces was transformed from WGS84 to NAD83 using the \"Project Raster\" function in ArcGIS 9.1. The 2004 surface was transformed so that it would have the same datum as the 2005 surface. The 2004 bathymetric surface was then down sampled from 1 x 1 to 2 x 2 m using the \"Resample\" function in ArcGIS 9.1. The 2004 surface was resampled so it would have the same spatial resolution as the 2005 surface. Having the same coordinate systems and spatial resolutions, the final 2004 and 2005 bathymetry rasters were then merged using the Raster Calculator function \"Merge\" in ArcGIS's Spatial Analyst Extension to create a seamless bathymetry surface for the entire VICRNM area south of St. John. For a complete description of the data acquisition and processing parameters, please see the data acquisition and processing reports (DAPRs) for projects: NF-04-06-VI and NF-05-05-VI (Monaco & Rooney, 2004; Battista & Lazar, 2005).",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "\n          -64.652198\n        "
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "\n          18.313215\n        "
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "\n          18.158064\n        "
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-64.98711, 18.158064], [-64.652198, 18.158064], [-64.652198, 18.313215], [-64.98711, 18.313215], [-64.98711, 18.158064]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: Note: NOT TO BE USED FOR NAVIGATION. These data were prepared by an agency of the United States Government. Neither the United States Government nor any agency thereof, nor any of their employees, make any warranty, expressed or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed in this report, or represents that its use would not infringe privately owned rights. Reference therein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or imply its endorsement, recommendation, or favoring by the United States Government or any agency thereof. Any views and opinions of authors expressed herein do not necessarily state or reflect those of the United States Government or any agency thereof. Although all data have been used by NOAA, no warranty, expressed or implied, is made by NOAA as to the accuracy of the data and/or related materials. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by NOAA in the use of these data or related materials.\", \"Access Constraints: Please cite any use of this data.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2004-02-18"
+    },
+    {
+      "key": "contact-email",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "\n          -64.987110\n        "
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-03-22"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2009-01-01\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"\\n      These data were prepared by an agency of the United States Government. Neither the United States Government nor any agency thereof, nor any of their employees, make any warranty, expressed or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed in this report, or represents that its use would not infringe privately owned rights. Reference therein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or imply its endorsement, recommendation, or favoring by the United States Government or any agency thereof. Any views and opinions of authors expressed herein do not necessarily state or reflect those of the United States Government or any agency thereof. Although all data have been used by NOAA, no warranty, expressed or implied, is made by NOAA as to the accuracy of the data and/or related materials. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by NOAA in the use of these data or related materials.\\n    \"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Center for Coastal Monitoring and Assessment (CCMA), Biogeography Branch\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2005-02-12"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "biogeography, habitat, aquatic habitat, noaa, nancy foster, benthic, earth science, gis, geographic information, nf-04-06, st. john, iocm, benthic habitat, habitats, integrated ocean and coastal mapping, reson 8101 er, 2004, swmb, reef, bathymetry, seafloor, nps, us virgin islands, raster, multibeam, biosphere, mbes, coral, slope of slope, viis, vicr, nf-05-05, virgin islands coral reef national monument, 2005, sonar, usvi, vicrnm"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "a6dcd3d0-ce80-4eca-8eb0-019ae57a5622"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Slope of the Slope Derivative Surface used to characterize the complexity of the seafloor around St. John, USVI",
+  "revision_id": "aa30230e-0726-42dd-9ad5-ec35216d44b8"
+}

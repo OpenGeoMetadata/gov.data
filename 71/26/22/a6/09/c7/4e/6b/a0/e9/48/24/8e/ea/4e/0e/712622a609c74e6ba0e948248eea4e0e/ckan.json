@@ -1,0 +1,186 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "712622a6-09c7-4e6b-a0e9-48248eea4e0e",
+  "metadata_created": "2013-03-16T00:29:30.172028",
+  "metadata_modified": "2015-04-09T21:50:28.011247",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "712622a6-09c7-4e6b-a0e9-48248eea4e0e",
+      "webstore_last_updated": null,
+      "id": "b31b9aee-9d00-4e22-a973-edd22a20a5f4",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "375",
+      "hash": "",
+      "description": "heatpumpfacility0.6.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Zipped Excel file workbook for Heat Pump Facility Content Model v0.6",
+      "created": "2013-03-16T01:29:30.188761",
+      "url": "http://repository.stategeothermaldata.org/metadata/record/98ddf901b9782a25982e01af3b0eed59/file/heatpumpfacility0.6.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "07061c52-6699-4aa5-a85f-5b57eef2dbf5",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 22,
+    "recent": 1
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The Arizona Geological Survey collates and serves geological information for Arizona and other states through its partnership with other state geological surveys.",
+    "created": "2013-03-14T03:44:43.328493",
+    "title": "Arizona Geological Survey",
+    "name": "azgs-az-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.50states.com/flag/image/nunst004.gif",
+    "revision_id": "61be6428-4398-4199-a336-f3cd1e956f9b",
+    "type": "organization",
+    "id": "f3f6e1d4-64fb-4a2f-b32c-9ac0b76fe4de",
+    "approval_status": "approved"
+  },
+  "name": "aasg-geothermal-data-heat-pump-facility-content-model",
+  "isopen": false,
+  "url": null,
+  "notes": "This spreadsheet defines the schema used for the interchange of heat pump facility observation results by the AASG geothermal data project for the National Geothermal Data System.   The FacilityURI for a particular site is the cross-referencing link (foreign key) used to associate the record, temperature measurements, and other information from a particular facility. At minimum the data will report FacilityURI, FacilityName, Label, FacilityOwner, FacilityStatus, SystemType, HeatExchangeSystem, DateInstalled, HeatApplication, County, State, LatDegree, LongDegree, SRS, LocationUncertaintyStatement, FluidType, PipeDiameter_in, PipeMaterial, FacilityContact, Source and UpdateTimeStamp.",
+  "owner_org": "f3f6e1d4-64fb-4a2f-b32c-9ac0b76fe4de",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"No Organization Name Was Given\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "No email Was Given"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-127.002"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2013-02-27T16:58:51Z"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2012-03-21T12:00:00\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-57.2168"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "49.8051"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "24.4807"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-127.002, 24.4807], [-127.002, 49.8051], [-57.2168, 49.8051], [-57.2168, 24.4807], [-127.002, 24.4807]]]}"
+    },
+    {
+      "key": "guid",
+      "value": "98ddf901b9782a25982e01af3b0eed59"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "data delivery, Geothermal, ground source heat pump, heat pump, space heating, Temperature, template, well, North America, United States, AASG Geothermal Data Project, Downloadable Files"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "ea1fcf86-f323-4a43-9e40-2af1811488ad"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "f800beb8-4923-4e88-910f-1c6cf0078598"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "AASG geothermal data CSW"
+    }
+  ],
+  "title": "AASG Geothermal Data:  Heat Pump Facility Content Model",
+  "revision_id": "fbd05ff0-e67b-4724-83af-5b1465402864"
+}

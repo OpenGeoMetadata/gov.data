@@ -1,0 +1,218 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "12be790f-8d77-4c49-a7c0-9153b1a1fd96",
+  "metadata_created": "2015-04-25T12:22:24.386352",
+  "metadata_modified": "2016-03-04T20:46:23.574665",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "12be790f-8d77-4c49-a7c0-9153b1a1fd96",
+      "webstore_last_updated": null,
+      "id": "ac9e2d28-f824-49d7-badb-2b2b0366b428",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "ds457.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 4,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "de6b2a90-968a-4e2d-bc27-1be57ef85568",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2016-03-04T15:46:23.728381",
+      "url": "ftp://ftp.dfg.ca.gov/BDB/GIS/BIOS/Public_Datasets/400_499/ds457.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "12be790f-8d77-4c49-a7c0-9153b1a1fd96",
+      "webstore_last_updated": null,
+      "id": "298d2405-e8ca-4bdc-a2ff-96407fd3e110",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 202,
+        "recent": 5
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "de6b2a90-968a-4e2d-bc27-1be57ef85568",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-03-04T15:46:23.728436",
+      "url": "http://bios.dfg.ca.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 11,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-19T14:05:26.054173",
+    "title": "State of California",
+    "name": "ca-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.ca.gov/images/template2012/header_ca.gov.png",
+    "revision_id": "ad94cda4-9394-44d0-9c37-573dc3c47c9a",
+    "type": "organization",
+    "id": "467d900f-8a42-452d-9906-6610dd1a767f",
+    "approval_status": "approved"
+  },
+  "name": "california-gnatcatcher-observations-2004-2009-ds457c42e5",
+  "isopen": false,
+  "url": null,
+  "notes": "In southern California, the coastal California gnatcatcher (CAGN) has become both the flagship species and an umbrella species identified with conservation, where the goal is to have persistent populations maintained within a preserve system. Estimating gnatcatcher distribution and abundance is important to these planning efforts, as well as for maintaining this species. Estimates of these parameters are used to establish baseline numbers to assess direct loss, identify areas for conservation and to track regional gnatcatcher population trends. In 2002 the Carlsbad Fish and Wildlife Office (CFWO) conducted a region-wide survey for CAGN across its range in Orange and San Diego Counties in attempt to obtain estimates for the percent area occupied and abundance of CAGN on lands held in the public trust (see ds196). The results of this study were used to develop a monitoring program of CAGN population trends. In 2004, monitoring addressed presence/absence and abundance of CAGN on MSCP preserved lands and provided an initial estimate of CAGN population trends. In addition, the study collected baseline data to monitor the recovery of CAGN populations that were impacted by the fires in 2004 (Winchell and Doherty 2005). In 2007, the CFWO received funding from SANDAG to conduct the first comprehensive survey county-wide for CAGN. The study area in 2007 was strictly limited to lands within San Diego County currently regulated as preserve lands under an approved Habitat Conservation Plan, other public lands, Marine Corps Air Station Miramar and Naval Weapons Station Fallbrook. Marine Corps Base Camp Pendleton was not included because of logistical considerations. Additionally, private lands and tribal lands were excluded from the 2007 study. In 2009, the same protocol was used but different sampling points were surveyed due to changes in land access and the 2007 fires. This dataset was compiled as part of the Southern California Data Integration Project and presents the results of the 2004, 2007 and 2009 CAGN monitoring efforts. For the 2004 monitoring season, a GIS coverage of MSCP lands was combined with polygons described as CAGN habitat by the TAIC model (TAIC 2002). Points from a 600-m by 600-m fishnet grid were dropped on top of these areas, centered on a random point and rotated by random number of degrees. Areas with habitat access were then queried out from this coverage and the survey sample points were then randomly selected from the final fishnode coverage. In order to determine which survey points were in burn areas, a coverage of the 2003 Cedar Fire burn area was joined to the survey points fishnode coverage. In 2007, the fishnet grid was overlaid on a GIS map of San Diego County and merged with a land ownership layer as well as with the grid layer of the TAIC model. Coverage data of the 2003 fires was also merged with the grid layer. Survey points were randomly selected from this layer where habitat access was identified as \"Yes\". Points were placed 600-m apart to avoid double counting birds. For the 2009 surveys, the 2007 fire data was incorporated into the GIS analysis in order to exclude sampling points that fell within habitats burned in 2007. In addition, land access data was updated to reflect changes in site access since 2007. In 2004, surveys were conducted between March 14 and April 19 and in 2007, surveys were conducted between April 3 and June 8. In 2009, surveys were conducted between April 13 and June 18, 2009 with an additional survey conducted on August 24, 2009. Surveys ranged from 5-8 days apart. In 2004, a total of 224 sampling points were surveyed and in 2007, a total of 409 sampling points were surveyed (Winchell and Doherty 2005). In 2009, 443 sampling points were surveyed. At the beginning of a survey, environmental data were recorded using a Kestral. Surveys were conducted over six 3-minute sampling periods. A call back tape was played during the last 3-minute period. The exact time (min and sec) of detection, distance and angle to each CAGN was recorded for each 3-minute period. In 2007, incidental observations of CAGN seen or heard on the way to the survey point or during set up where also recorded, these observations were noted as survey elapsed time of 0:00. During the survey observers visually tracked birds to help control for double counting, and any points of confusion were noted. Whenever possible, age (adult or juvenile) and sex of the bird were noted. REFERENCES Technology Associates International Corporation. 2002. California gnatcatcher habitat evaluation model for USFWS. Digital Data. USFWS Office. Carlsbad CA. Winchell, C. and P. Doherty. 2005. Estimation of California Gnatcatcher Pair Abundance and Occupancy Rates. Report Prepared for: California Department of Fish and Game, December 2005.",
+  "owner_org": "467d900f-8a42-452d-9906-6610dd1a767f",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Fish and Wildlife Service, Carlsbad Fish and Wildlife Office\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "clark_winchell@fws.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-117.356470"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-03-02"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2010-01-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-116.744479"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "33.392108"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "32.528057"
+    },
+    {
+      "key": "licence",
+      "value": "[\"See access and use constraints information.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-117.35647, 32.528057], [-116.744479, 32.528057], [-116.744479, 33.392108], [-117.35647, 33.392108], [-117.35647, 32.528057]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: Recommended Citation: U.S. Fish and Wildlife Service. (2010). USFWS_CAGNsurveys [ds457]. Digital Data. Biogeographic Information and Observation System (BIOS). Retrieved on DATE from http://bios.dfg.ca.gov.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "tags",
+      "value": "abundance, monitoring, multiple species conservation program, california gnatcatcher, san diego county"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "4e406893-e4cf-4b6f-8a54-536c2b2628c7"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "bf0e0f99-7417-42e4-a627-e94c49cb4159"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "State of California Geoportal"
+    }
+  ],
+  "title": "California Gnatcatcher Observations, 2004 - 2009 [ds457]",
+  "revision_id": "de6b2a90-968a-4e2d-bc27-1be57ef85568"
+}

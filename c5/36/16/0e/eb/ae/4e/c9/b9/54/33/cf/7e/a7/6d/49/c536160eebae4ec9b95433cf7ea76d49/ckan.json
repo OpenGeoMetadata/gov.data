@@ -1,0 +1,232 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Paul Mexcur",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "hq-techport@mail.nasa.gov",
+  "num_tags": 3,
+  "id": "c536160e-ebae-4ec9-b954-33cf7ea76d49",
+  "metadata_created": "2015-04-09T19:08:22.920502",
+  "metadata_modified": "2015-07-08T19:38:12.303314",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "c536160e-ebae-4ec9-b954-33cf7ea76d49",
+      "webstore_last_updated": null,
+      "id": "4f66ef34-264d-4549-8eda-c4901d40dc09",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "XML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/xml",
+      "cache_url": null,
+      "name": "XML File",
+      "created": "2015-04-09T15:08:22.987143",
+      "url": "http://techport.nasa.gov/xml-api/7126",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "9a688906-78f3-40ac-874b-106defbab3c0",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "completed",
+      "id": "5e4de852-789d-47bf-af3b-ba9a0dd8d489",
+      "name": "completed"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "marshall-space-flight-center",
+      "id": "3436400c-994c-488e-b053-48f88dc93106",
+      "name": "marshall-space-flight-center"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "project",
+      "id": "24471320-3e5c-42b5-a078-8e48e70e2ac4",
+      "name": "project"
+    }
+  ],
+  "tracking_summary": {
+    "total": 6,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "time-stepped-amp-discrete-event-simulations-of-electromagnetic-propulsion-systems-project-a2376",
+  "isopen": true,
+  "url": null,
+  "notes": "The existing plasma codes are ill suited for modeling of mixed\nresolution problems, such as the plasma sail, where the system under\nstudy comprises subsystems with diverse modeling paradigms (e.g., fluid,\nkinetic) at differing levels of temporal and spatial resolution. Such\ncomplex systems are not unique to propulsion studies, but are commonly\nencountered in wide variety of fields.  In Phase I, we were able to\ndevelop and successfully test the core technology for multi-resolution\nmodeling within two distinct computational paradigms. By introducing a\ntemporal mesh, we successfully overcame a major obstacle in the use of\ntime-stepped simulations for multi-resolution problems. However, even\nmore significant is our finding that discrete event simulation\nmethodology works quite well for many-body systems such as plasmas with\nseveral orders of magnitude performance advantage over equivalent\ntime-stepped simulations. The importance of this result cannot be\noverstated as it will have immediate repercussions in all fields where\ntime-stepped modeling are currently used. Using these early versions of\nour code, we were able to address a number of outstanding issues in\nregards to the feasibility of plasma sails. Our objectives for Phase II\nare (i) to fully develop the codes, (ii) address the issues regarding\nthe feasibility of plasma sails such as expansion of the magnetic bubble\nby the plasma source and the resulting drop-off of the magnetic field\nstrength with radial distance, and (iii) prepare plans for marketing our\ntechnology in Phase III.",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "issued",
+      "value": "2002-09-01T00:00:00Z"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://techport.nasa.gov/home",
+        "http://techport.nasa.gov/doc/home/TechPort_Advanced_Search.pdf",
+        "http://techport.nasa.gov/fetchFile?objectId=6561",
+        "http://techport.nasa.gov/fetchFile?objectId=3456",
+        "http://techport.nasa.gov/fetchFile?objectId=3447",
+        "http://techport.nasa.gov/fetchFile?objectId=6584",
+        "http://techport.nasa.gov/fetchFile?objectId=6560",
+        "http://techport.nasa.gov/fetchFile?objectId=3448"
+      ]
+    },
+    {
+      "key": "source_hash",
+      "value": "7202c00e0847aeea8b48b32482f97e48d7be6573"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "temporal",
+      "value": "2002-09-01T00:00:00Z/2002-09-01T00:00:00Z"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:027"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://techport.nasa.gov/view/7126"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "281644b6-09e2-45df-9a18-9755698398db"
+    },
+    {
+      "key": "publisher",
+      "value": "Space Technology Mission Directorate"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "55942a99c63a7fe59b499029"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "National Aeronautics and Space Administration > Space Technology Mission Directorate"
+    },
+    {
+      "key": "modified",
+      "value": "2015-03-12"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "TECHPORT_7126"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "281644b6-09e2-45df-9a18-9755698398db"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "Time-stepped &amp; discrete-event simulations of electromagnetic propulsion systems Project",
+  "revision_id": "3efd903f-f493-45b7-808e-a6998f83fafc"
+}

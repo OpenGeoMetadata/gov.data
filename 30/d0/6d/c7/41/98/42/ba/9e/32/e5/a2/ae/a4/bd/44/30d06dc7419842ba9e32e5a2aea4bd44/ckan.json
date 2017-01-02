@@ -1,0 +1,244 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "30d06dc7-4198-42ba-9e32-e5a2aea4bd44",
+  "metadata_created": "2013-03-16T00:20:16.809082",
+  "metadata_modified": "2015-04-10T02:38:54.693860",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "30d06dc7-4198-42ba-9e32-e5a2aea4bd44",
+      "webstore_last_updated": null,
+      "id": "c2a51e94-54ae-4416-b0b3-1f7e3475925c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "381",
+      "hash": "",
+      "description": "",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "ESRI",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Service Description",
+      "created": "2013-03-16T01:20:16.827752",
+      "url": "http://web2.nbmg.unr.edu/ArcGIS/rest/services/WY_data/WYBoreholeTemperatures/MapServer",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "006d82e8-7db2-40ef-9c4b-2ae601164506",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "30d06dc7-4198-42ba-9e32-e5a2aea4bd44",
+      "webstore_last_updated": null,
+      "id": "2e55c5c0-44bc-49c4-ac8f-65dc08bd236c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "375",
+      "hash": "",
+      "description": "",
+      "format": "WMS",
+      "tracking_summary": {
+        "total": 8,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Downloadable File",
+      "created": "2013-03-16T01:20:16.827771",
+      "url": "http://web2.nbmg.unr.edu/ArcGIS/services/WY_data/WYBoreholeTemperatures/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "006d82e8-7db2-40ef-9c4b-2ae601164506",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "30d06dc7-4198-42ba-9e32-e5a2aea4bd44",
+      "webstore_last_updated": null,
+      "id": "a3724a7a-439c-4083-b034-3951f689d636",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "381",
+      "hash": "",
+      "description": "",
+      "format": "WFS",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WFS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Service Description",
+      "created": "2013-03-16T01:20:16.827777",
+      "url": "http://web2.nbmg.unr.edu/ArcGIS/services/WY_data/WYBoreholeTemperatures/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "006d82e8-7db2-40ef-9c4b-2ae601164506",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 40,
+    "recent": 2
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The Arizona Geological Survey collates and serves geological information for Arizona and other states through its partnership with other state geological surveys.",
+    "created": "2013-03-14T03:44:43.328493",
+    "title": "Arizona Geological Survey",
+    "name": "azgs-az-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.50states.com/flag/image/nunst004.gif",
+    "revision_id": "61be6428-4398-4199-a336-f3cd1e956f9b",
+    "type": "organization",
+    "id": "f3f6e1d4-64fb-4a2f-b32c-9ac0b76fe4de",
+    "approval_status": "approved"
+  },
+  "name": "wyoming-borehole-temperature-observations",
+  "isopen": false,
+  "url": null,
+  "notes": "This dataset contains borehole temperature observation data compiled by the Wyoming Geological Survey, and published as a Web feature service for the National Geothermal Data System. This dataset includes data from both year 1 and year 3 submissions, from both the Wyoming Geological Survey and data from an AAPG publication compiled by Richard W. Davis.  See author information (below) for details.  Fields in the Borehole Temperature Observation Content Model will become XML elements in interchange documents for WMS simple features provided by a node in the USGIN network. Each feature includes a label, drilled depth (if available), measured temperature and source. The dataset is spatially referenced to EPSG: 4326 (for interoperability). The data contained in the submitted dataset is available as an Excel Spreadsheet, ESRI service, WMS and WFS service. Link to Borehole Temperature Observation Content Model: <html>http://stategeothermaldata.org/data_delivery/content_models/borehole_temperature_observation<html>.",
+  "owner_org": "f3f6e1d4-64fb-4a2f-b32c-9ac0b76fe4de",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Arizona Geological Survey\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "celia.coleman@azgs.az.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-111.533203125"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2013-03-12T16:08:22Z"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2013-02-28T00:00:00\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-104.10644531249"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "45.058001435398"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "41.013065787006"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-111.533203125, 41.013065787], [-111.533203125, 45.0580014354], [-104.106445312, 45.0580014354], [-104.106445312, 41.013065787], [-111.533203125, 41.013065787]]]}"
+    },
+    {
+      "key": "guid",
+      "value": "dc2950e94fd12022579c7307b63b689b"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "united states, geothermal, bottom hole temperature, borehole temperature, wyoming, Wyoming, Wyoming State Geological Survey, Borehole Temperature Observations, Downloadable Files, ESRI Services, WFS Services, WMS Services"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "be38088b-f326-4990-bbc1-7372d8d5d156"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "f800beb8-4923-4e88-910f-1c6cf0078598"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "AASG geothermal data CSW"
+    }
+  ],
+  "title": "Wyoming Borehole Temperature Observations",
+  "revision_id": "e0168210-5b2d-4cc4-bc10-6bf6e061cef6"
+}

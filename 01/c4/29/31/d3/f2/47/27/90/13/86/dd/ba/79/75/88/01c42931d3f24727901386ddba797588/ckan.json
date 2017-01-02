@@ -1,0 +1,174 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "01c42931-d3f2-4727-9013-86ddba797588",
+  "metadata_created": "2015-11-27T21:16:38.583259",
+  "metadata_modified": "2015-11-27T21:16:38.583259",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 7,
+    "recent": 0
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:47.372413",
+    "title": "State of Minnesota",
+    "name": "state-mn-us",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://mn.gov/portal/images/mn_header_mn-logo.png",
+    "revision_id": "018d8409-7698-467f-8dc2-c58188806480",
+    "type": "organization",
+    "id": "24298fe4-ee0d-43ae-af51-81ae5f5c6165",
+    "approval_status": "approved"
+  },
+  "name": "electric-transmission-lines-and-substations-60-kilovolt-and-greater-minnesota-2007",
+  "isopen": false,
+  "url": null,
+  "notes": "The electric transmission network information consists of transmission lines, with associated substations, designed to handle 60 Kilovolts or greater. Note that the data does not have network connectivity. A statewide map in PDF format is available online. For security reasons, MnGeo is not permitted to post the GIS data online. The existing distribution policy for Electric Transmission Lines and Substation GIS data is being reviewed by the state's Department of Commerce and the Homeland Security and Emergency Management division of the state's Department of Public Safety. As soon as an updated policy is available, this documentation will be updated. The Minnesota Electric Transmission Mapping Project has developed two geographic information system data sets: electric transmission lines and substations. This metadata record describes both data sets. Each utility company was mailed a request for the facility information which they could provide in either digital or paper form. The responses varied significantly in quality and quantity. In addition, the companies expressed concerns about providing the information because of security concerns. Data users are strongly encouraged to read the data quality section of this documentation. The dataset was last updated in 2007 -- most changes were to improve the positional accuracy of lines and substations from the 2003 dataset, and several new lines were added in the southern and western areas of the state. Most of the attributes from the 2003 dataset were deleted since most of them were blank and since security concerns persist about whether any detailed attributes should be released. The Minnesota Electric Transmission Mapping Project is a collaborative effort between the Environmental Quality Board, MnGeo (formerly the Land Management Information Center or LMIC) and the Minnesota Department of Commerce.",
+  "owner_org": "24298fe4-ee0d-43ae-af51-81ae5f5c6165",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-90.290680"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "48.814113"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://www.gda.state.mn.us/maps/ElecTran07.pdf"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "43.280315"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-97.20066, 43.280315], [-90.29068, 43.280315], [-90.29068, 48.814113], [-97.20066, 48.814113], [-97.20066, 43.280315]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: The use policy is under review.\", \"Access Constraints: There are no access constraints to view or download the map at: http://www.gda.state.mn.us/maps/ElecTran07.pdf Due to security concerns, the GIS data is not available online. The distribution policy is under review.\"]"
+    },
+    {
+      "key": "contact-email",
+      "value": "gisinfo.mngeo@state.mn.us"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-97.200660"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2014-04-07"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2008-06-20\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "Statewide map showing transmission lines and substation locations."
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "irregular"
+    },
+    {
+      "key": "licence",
+      "value": "[\"MnGeo's general data disclaimer is online: http://www.mngeo.state.mn.us/chouse/disclaimer.html\\n\\nThe distribution policy for the GIS data is under review.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Minnesota Geospatial Information Office (MnGeo)\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": ""
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "5e0782ae-2d5a-4957-8703-1dc0754fe034"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "526b774b-2dbe-4b61-91f5-8e3e020b9bce"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Minnesota Geospatial Information Office"
+    }
+  ],
+  "title": "Electric Transmission Lines and Substations, 60 Kilovolt and Greater, Minnesota, 2007",
+  "revision_id": "72318ba1-0ad9-4d7e-ad32-7f760e3cb5ac"
+}

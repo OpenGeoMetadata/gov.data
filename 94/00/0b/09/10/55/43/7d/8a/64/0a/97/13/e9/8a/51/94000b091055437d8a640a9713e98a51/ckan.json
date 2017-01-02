@@ -1,0 +1,192 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Nikunj Oza",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "Nikunj.C.Oza@nasa.gov",
+  "num_tags": 3,
+  "id": "94000b09-1055-437d-8a64-0a9713e98a51",
+  "metadata_created": "2016-02-26T22:01:51.321000",
+  "metadata_modified": "2016-10-22T16:44:06.372567",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ames",
+      "id": "26409e70-decd-4cc6-9beb-904602430852",
+      "name": "ames"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "dashlink",
+      "id": "4377f23e-7f40-493e-82fd-834ccb75e9ba",
+      "name": "dashlink"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "nasa",
+      "id": "34817959-c506-4bfe-b8fd-330f550970e4",
+      "name": "nasa"
+    }
+  ],
+  "tracking_summary": {
+    "total": 43,
+    "recent": 8
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "c-mapss-aircraft-engine-simulator-data",
+  "isopen": true,
+  "url": null,
+  "notes": " **SPECIAL NOTE:**\r\n      C-MAPSS and C-MAPSS40K ARE CURRENTLY UNAVAILABLE FOR DOWNLOAD. Glenn Research Center management is reviewing the availability requirements for these software packages. We are working with Center management to get the review completed and issues resolved in a timely manner. We will post updates on this website when the issues are resolved. We apologize for any inconvenience. Please contact Jonathan Litt, jonathan.s.litt@nasa.gov, if you have any questions in the meantime.\r\n\r\n**Subject Area:**\r\n    Engine Health\r\n\r\n**Description:**\r\n    This data set was generated with the C-MAPSS simulator. C-MAPSS stands for 'Commercial Modular Aero-Propulsion System Simulation' and it is a tool for the simulation of realistic large commercial turbofan engine data. Each flight is a combination of a series of flight conditions with a reasonable linear transition period to allow the engine to change from one flight condition to the next. The flight conditions are arranged to cover a typical ascent from sea level to 35K ft and descent back down to sea level. The fault was injected at a given time in one of the flights and persists throughout the remaining flights, effectively increasing the age of the engine. The intent is to identify which flight and when in the flight the fault occurred.\r\n\r\n**How Data Was Acquired:**\r\n    The data provided is from a high fidelity system level engine simulation designed to simulate nominal and fault engine degradation over a series of flights. The simulated data was created with a Matlab Simulink tool called C-MAPSS.\r\n\r\n**Sample Rates and Parameter Description:**\r\n    The flights are full flight recordings sampled at 1 Hz and consist of 30 engine and flight condition parameters. Each flight contains 7 unique flight conditions for an approximately 90 min flight including ascent to cruise at 35K ft and descent back to sea level. The parameters for each flight are the flight conditions, health indicators, measurement temperatures and pressure measurements.\r\n\r\n**Faults/Anomalies:**\r\n    Faults arose from the inlet engine fan, the low pressure compressor, the high pressure compressor, the high pressure turbine and the low pressure turbine.",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "issued",
+      "value": "2010-09-22T09:14:22"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "42148328a0686752211d63843d4a967923957584"
+    },
+    {
+      "key": "accessLevel",
+      "value": "non-public"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:029"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://www.grc.nasa.gov/WWW/cdtb/software/mapss.html"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "b0e074f0-d1fa-4b04-833e-ff99529fc08c"
+    },
+    {
+      "key": "publisher",
+      "value": "Dashlink"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "56cf5b00a759fdadc44e5610"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "U.S. Government > National Aeronautics and Space Administration > Dashlink"
+    },
+    {
+      "key": "modified",
+      "value": "2016-10-20T11:46:58"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "irregular"
+    },
+    {
+      "key": "identifier",
+      "value": "DASHLINK_140"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "b0e074f0-d1fa-4b04-833e-ff99529fc08c"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "C-MAPSS Aircraft Engine Simulator Data",
+  "revision_id": "3b2fe1d5-6644-40a3-89f2-5752c21ce2a9"
+}

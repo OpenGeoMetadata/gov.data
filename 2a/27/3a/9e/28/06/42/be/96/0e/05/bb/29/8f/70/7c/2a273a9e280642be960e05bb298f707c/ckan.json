@@ -1,0 +1,601 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "2a273a9e-2806-42be-960e-05bb298f707c",
+  "metadata_created": "2015-09-26T20:35:18.169938",
+  "metadata_modified": "2016-09-12T22:08:39.695649",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "2a273a9e-2806-42be-960e-05bb298f707c",
+      "webstore_last_updated": null,
+      "id": "1e90ef6d-0cc5-4273-b33a-350417a43c4a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Navigate directly to the URL for data access and direct download.",
+      "format": "Originator data format",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "HTTP",
+      "created": "2016-09-12T18:08:39.933110",
+      "url": "https://data.nodc.noaa.gov/ncep/rofs/200405/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "51f4f43e-8bd4-4f59-88c7-591c54764983",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2a273a9e-2806-42be-960e-05bb298f707c",
+      "webstore_last_updated": null,
+      "id": "3ac4dbb0-e146-45ef-a086-571d14bd91b6",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Navigate directly to the URL for a descriptive web page with download links.",
+      "format": "Originator data format",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Descriptive Information",
+      "created": "2016-09-12T18:08:39.933134",
+      "url": "https://accession.nodc.noaa.gov/0002150",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "51f4f43e-8bd4-4f59-88c7-591c54764983",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2a273a9e-2806-42be-960e-05bb298f707c",
+      "webstore_last_updated": null,
+      "id": "9c9de097-5593-425d-9eee-f90df3783498",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "These data are available through a variety of services via a THREDDS (Thematic Real-time Environmental Distributed Data Services) Data Server (TDS). Depending on the dataset, the TDS can provide WMS, WCS, DAP, HTTP, and other data access and metadata services as well. For more information on the TDS, see http://www.unidata.ucar.edu/software/thredds/current/tds/.",
+      "format": "Originator data format",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "THREDDS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "THREDDS",
+      "created": "2016-09-12T18:08:39.933165",
+      "url": "https://data.nodc.noaa.gov/thredds/catalog/ncep/rofs/200405/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "51f4f43e-8bd4-4f59-88c7-591c54764983",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2a273a9e-2806-42be-960e-05bb298f707c",
+      "webstore_last_updated": null,
+      "id": "bd818220-bc71-4be6-b01a-32556a301421",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "These data are available through the Data Access Protocol (DAP) via an OPeNDAP Hyrax server. For a listing of OPeNDAP clients which may be used to access OPeNDAP-enabled data sets, please see the OPeNDAP website at http://opendap.org/.",
+      "format": "Originator data format",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "DAP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OPeNDAP",
+      "created": "2016-09-12T18:08:39.933179",
+      "url": "https://data.nodc.noaa.gov/opendap/ncep/rofs/200405/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 3,
+      "revision_id": "51f4f43e-8bd4-4f59-88c7-591c54764983",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2a273a9e-2806-42be-960e-05bb298f707c",
+      "webstore_last_updated": null,
+      "id": "941dc372-30b8-4e34-adfb-b3f950c76a89",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Navigate directly to the URL for a descriptive web page with download links.",
+      "format": "Originator data format",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Descriptive Information",
+      "created": "2016-09-12T18:08:39.933187",
+      "url": "https://accession.nodc.noaa.gov/oas/2150",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 4,
+      "revision_id": "51f4f43e-8bd4-4f59-88c7-591c54764983",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2a273a9e-2806-42be-960e-05bb298f707c",
+      "webstore_last_updated": null,
+      "id": "a0c5bb39-f9fb-4810-aad8-3853b212dfad",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Navigate directly to the URL for data access and direct download.",
+      "format": "Originator data format",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "HTTP",
+      "created": "2016-09-12T18:08:39.933194",
+      "url": "https://accession.nodc.noaa.gov/download/2150",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 5,
+      "revision_id": "51f4f43e-8bd4-4f59-88c7-591c54764983",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2a273a9e-2806-42be-960e-05bb298f707c",
+      "webstore_last_updated": null,
+      "id": "69e31069-4253-4f44-b60e-7e0832a18a63",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "These data are available through the File Transfer Protocol (FTP). You may use any FTP client to download these data.",
+      "format": "Originator data format",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "FTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FTP",
+      "created": "2016-09-12T18:08:39.933201",
+      "url": "ftp://ftp.nodc.noaa.gov/nodc/archive/arc0006/0002150/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 6,
+      "revision_id": "51f4f43e-8bd4-4f59-88c7-591c54764983",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2a273a9e-2806-42be-960e-05bb298f707c",
+      "webstore_last_updated": null,
+      "id": "f37f70d1-35b4-4ad6-8337-0ae475cc7f1a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Main NCEI website providing links to access data and data services.",
+      "format": "",
+      "tracking_summary": {
+        "total": 51,
+        "recent": 8
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA National Centers for Environmental Information website",
+      "created": "2016-09-12T18:08:39.933208",
+      "url": "https://www.ncei.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 7,
+      "revision_id": "51f4f43e-8bd4-4f59-88c7-591c54764983",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2a273a9e-2806-42be-960e-05bb298f707c",
+      "webstore_last_updated": null,
+      "id": "1b27ecea-add4-474f-a333-0028b5283ce1",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Main NODC website providing links to access data and data services.",
+      "format": "",
+      "tracking_summary": {
+        "total": 7,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA National Oceanographic Data Center website",
+      "created": "2016-09-12T18:08:39.933215",
+      "url": "https://www.nodc.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 8,
+      "revision_id": "51f4f43e-8bd4-4f59-88c7-591c54764983",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2a273a9e-2806-42be-960e-05bb298f707c",
+      "webstore_last_updated": null,
+      "id": "f67759d5-a302-45bc-ac94-4f6283e06653",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Institution web page",
+      "format": "",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "US DOC; NOAA; NWS; National Centers for Environmental Prediction (NCEP) website",
+      "created": "2016-09-12T18:08:39.933223",
+      "url": "http://www.ncep.noaa.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 9,
+      "revision_id": "51f4f43e-8bd4-4f59-88c7-591c54764983",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2a273a9e-2806-42be-960e-05bb298f707c",
+      "webstore_last_updated": null,
+      "id": "877c3e28-562c-4591-97a8-13c79afa021e",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Main NCEI website providing links to access data and data services.",
+      "format": "",
+      "tracking_summary": {
+        "total": 51,
+        "recent": 8
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA National Centers for Environmental Information website",
+      "created": "2016-09-12T18:08:39.933229",
+      "url": "https://www.ncei.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 10,
+      "revision_id": "51f4f43e-8bd4-4f59-88c7-591c54764983",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2a273a9e-2806-42be-960e-05bb298f707c",
+      "webstore_last_updated": null,
+      "id": "fc525bb8-d942-4c8f-b936-0601a1b2329b",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-09-12T18:08:39.933236",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 11,
+      "revision_id": "51f4f43e-8bd4-4f59-88c7-591c54764983",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2a273a9e-2806-42be-960e-05bb298f707c",
+      "webstore_last_updated": null,
+      "id": "ae1e08e9-05c9-4819-ad56-39893d098039",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-09-12T18:08:39.933243",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 12,
+      "revision_id": "51f4f43e-8bd4-4f59-88c7-591c54764983",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2a273a9e-2806-42be-960e-05bb298f707c",
+      "webstore_last_updated": null,
+      "id": "99d06a5a-aa00-4fdd-a9cc-fecf9201bedb",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-09-12T18:08:39.933250",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 13,
+      "revision_id": "51f4f43e-8bd4-4f59-88c7-591c54764983",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2a273a9e-2806-42be-960e-05bb298f707c",
+      "webstore_last_updated": null,
+      "id": "10680030-3fb7-4c69-ad93-812b42a05a11",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-09-12T18:08:39.933257",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 14,
+      "revision_id": "51f4f43e-8bd4-4f59-88c7-591c54764983",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 15,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 0,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "national-centers-for-environmental-prediction-ncep-regional-ocean-forecast-system-rofs-model-ou36ea7",
+  "isopen": false,
+  "url": null,
+  "notes": "The Regional Ocean Forecast System (ROFS) has been developed jointly by the Ocean Modeling Branch of the National Weather Service's Environmental Modeling Center, the National Ocean Service's Coast Survey Development Lab, Princeton University, and Naval Oceanographic Office (NAVOCEANO). ROFS is based on a hydrodynamic, three-dimensional ocean circulation model (Princeton Ocean Model) which simulates temperature, salinity, surface elevation, and currents for a region off the U.S. East Coast from ~30 to 47N and out to 50W. The model is driven at the ocean surface boundary by heat, moisture, and momentum fluxes provided by NCEP's Eta mesoscale atmospheric forecast model. The ocean model is driven along its open (that is, southern and eastern) boundaries by climatological estimates of temperature, salinity, and transport. The spatial resolution of the model varies from approximately 20km offshore to about 10km nearshore. The coastal boundary corresponds to the location of the 10m isobath. In the vertical, an 18-layer sigma (terrain-following) coordinate system is used with at least half the layers concentrated in the upper 100m. Tidal forcing is included in the model.\n\nThe forecast cycle generates regional ocean forecasts out to 48 hours. Surface forcing is obtained from the 3-hourly surface fields from NCEP's Eta mesoscale atmospheric prediction model. [This abstract was obtained from the ROFS website at http://polar.wwb.noaa.gov/cofs/Description.html#OM on June 23, 2004.]",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-50"
+    },
+    {
+      "key": "resource-type",
+      "value": "model"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "47"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.nodc:0002150"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "27"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-81.0, 27.0], [-50.0, 27.0], [-50.0, 47.0], [-81.0, 47.0], [-81.0, 27.0]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Cite as: US DOC; NOAA; NWS; National Centers for Environmental Prediction (2015). National Centers for Environmental Prediction (NCEP) Regional Ocean Forecast System (ROFS) model output from 2004-05 (NODC Accession 0002150). Version 1.1. National Oceanographic Data Center, NOAA. Dataset. [access date]\", \"NOAA and NCEI cannot provide any warranty as to the accuracy, reliability, or completeness of furnished data. Users assume responsibility to determine the usability of these data. The user is responsible for the results of any application of this data for other than its intended purpose.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2004-05-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "NCEI.Info@noaa.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-81"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2015-01-09T19:02:11"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2015-01-09\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"accessLevel: Public\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2004-05-31"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": "eng"
+    },
+    {
+      "key": "tags",
+      "value": "doc/noaa/nws/ncep, ocean temperature, noaa, ocean circulation, doc/noaa/nesdis/ncei, ocean, national oceanographic data center, nesdis, noaa, u.s. department of commerce, earth science, national centers for environmental prediction, national weather service, noaa, u.s. department of commerce, oceanography, government agencies-u.s. federal agencies, atlantic ocean, national centers for environmental information, nesdis, noaa, u.s. department of commerce, ocean currents, north atlantic ocean, oceans, sea surface temperature, http://www.ncep.noaa.gov/, salinity/density, doc/noaa/nesdis/nodc, doc, salinity"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "701251f5-d972-49cc-844e-ca7e5180ff89"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "National Centers for Environmental Prediction (NCEP) Regional Ocean Forecast System (ROFS) model output from 2004-05 (NODC Accession 0002150)",
+  "revision_id": "7cad0353-d294-48bb-975b-62e0406f435e"
+}

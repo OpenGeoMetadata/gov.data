@@ -1,0 +1,53 @@
+{
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "revision_timestamp": null,
+  "frequency": "MANUAL",
+  "id": "a093f275-00b0-4209-9d87-fb939ffff26b",
+  "metadata_created": "2016-05-06T17:14:27.254548",
+  "metadata_modified": "2016-05-06T17:14:27.254548",
+  "title": "2016_zcta510_500",
+  "state": "active",
+  "creator_user_id": "65349",
+  "config": "{\"validator_profiles\": [\"iso19139ngdc\"], \"private_datasets\": false}",
+  "resources": [
+
+  ],
+  "tags": [
+
+  ],
+  "source_type": "waf",
+  "tracking_summary": {
+    "total": 3,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "relationships_as_subject": [
+
+  ],
+  "name": "2016-zcta510-500",
+  "url": "http://meta.geo.census.gov/data/existing/decennial/GEO/CPMB/boundary/2016gz/zcta510_500/",
+  "type": "harvest",
+  "notes": "\r\n\r\nZIP Code Tabulation Areas (ZCTAs) are approximate area representations of U.S. Postal Service (USPS) ZIP Code service areas that the Census Bureau creates to present statistical data for each decennial census. The Census Bureau delineates ZCTA boundaries for the United States, Puerto Rico, American Samoa, Guam, the Commonwealth of the Northern Mariana Islands, and the U.S. Virgin Islands once each decade following the decennial census. Data users should not use ZCTAs to identify the official USPS ZIP Code for mail delivery. The USPS makes periodic changes to ZIP Codes to support more efficient mail delivery.\r\n\r\nThe Census Bureau uses tabulation blocks as the basis for defining each ZCTA. Tabulation blocks are assigned to a ZCTA based on the most frequently occurring ZIP Code for the addresses contained within that block. The most frequently occurring ZIP Code also becomes the five-digit numeric code of the ZCTA. These codes may contain leading zeros.\r\n\r\nBlocks that do not contain addresses but are surrounded by a single ZCTA (enclaves) are assigned to the surrounding ZCTA. Because the Census Bureau only uses the most frequently occurring ZIP Code to assign blocks, a ZCTA may not exist for every USPS ZIP Code. Some ZIP Codes may not have a matching ZCTA because too few addresses were associated with the specific ZIP Code or the ZIP Code was not the most frequently occurring ZIP Code within any of the blocks where it exists.\r\n\r\nThe generalized ZCTA boundaries in this file are based on those delineated following the 2010 Census.",
+  "owner_org": "31c49abe-512a-412a-9cc7-5b2601325d6b",
+  "private_datasets": false,
+  "organization": {
+    "description": "The Census Bureau's mission is to serve as the leading source of quality data about the nation's people and economy. We honor privacy, protect confidentiality, share our expertise globally, and conduct our work openly. We are guided on this mission by scientific objectivity, our strong and capable workforce, our devotion to research-based innovation, and our abiding commitment to our customers.",
+    "created": "2013-03-14T03:44:46.743070",
+    "title": "US Census Bureau, Department of Commerce",
+    "name": "census-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.census.gov/main/img/home/CensusLogo-white.png",
+    "revision_id": "0995f525-d563-4254-a535-af5b926fe663",
+    "type": "organization",
+    "id": "31c49abe-512a-412a-9cc7-5b2601325d6b",
+    "approval_status": "approved"
+  },
+  "revision_id": "9420e2ac-59f8-46e5-a085-cb7d3fd5ed89",
+  "validator_profiles": "iso19139ngdc"
+}

@@ -1,0 +1,151 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "NLRB-1954",
+  "metadata_created": "2013-05-18T09:49:14.045789",
+  "metadata_modified": "2014-01-12T07:24:47.169669",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "NLRB-1954",
+      "webstore_last_updated": null,
+      "id": "557512c6-50cd-41ab-a8b8-357e6e5db94e",
+      "size": null,
+      "size_text": "5.42",
+      "state": "active",
+      "hash": "",
+      "description": "R_2005.zip",
+      "format": "ZIP/XML",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 2
+      },
+      "last_modified": null,
+      "url_type": null,
+      "revision_id": "be9291ed-7bf7-4e62-b5e8-ce0d29fe2c05",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2013-05-18T11:49:14.105224",
+      "url": "http://www.nlrb.gov/nlrb/datagov/R_2005.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 18,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:34:57.222528",
+    "title": "National Labor Relations Board",
+    "name": "nlrb-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.nlrb.gov/sites/all/themes/nlrb/images/nlrb-masthead-logo.png",
+    "revision_id": "993e8730-a5b1-4612-865f-311fafafce4e",
+    "type": "organization",
+    "id": "e17e9b2b-e10a-4be3-91f9-cf148595287e",
+    "approval_status": "approved"
+  },
+  "name": "nlrb-cats-final-r-case-data-in-xml-2005",
+  "isopen": false,
+  "url": null,
+  "notes": "NLRB R-Case (Elections) data from CATS (Case Activity Tracking System) for the period of 01/01/2005 through 12/31/2005.\r\rThis dataset represents all data that is disclosable under FOIA, for a single calendar year, as obtained from the Agency's Case Activity Tracking System (CATS).  Please be aware that from April 2011 through September 9, 2011, the NLRB implemented a new case management system (NxGen) that replaced CATS.  This was an ongoing process, and each month, from April through September, additional regions migrated to NxGen, with the data for those regions being retained solely in NxGen.  Accordingly, for cases that did not close before a region migrated to NxGen, any information regarding subsequent actions or dispositions that occurred after the region migrated to NxGen was not captured in CATS.  Thus, this is the most complete information available from CATS.\r \rThis supersedes any previous XML data publication by the NLRB on Data.Gov, as significant data review and cleanup was performed in CATS prior to the migration to NxGen.  This also represents the final posting of the bulk-data (aka \"Data Dump\") from CATS.\r\rThere are some known closing-date errors in this data, reflecting data-entry mistakes within CATS that have been identified and corrected within NxGen.  This data has not been corrected within CATS since CATS is no longer the system of record for this Agency.  Therefore, if any case shows a closing date beyond 09/30/2011, you can find the corrected closing date on http://www.nlrb.gov, under \"Cases & Decisions,\" \"Case Search.\"\r",
+  "owner_org": "e17e9b2b-e10a-4be3-91f9-cf148595287e",
+  "extras": [
+    {
+      "key": "data-quality",
+      "value": "TRUE"
+    },
+    {
+      "key": "contact-email",
+      "value": "mark.jeweler@nlrb.gov"
+    },
+    {
+      "key": "data-dictiionary",
+      "value": "http://www.nlrb.gov/nlrb/datagov/XSD-Set.zip"
+    },
+    {
+      "key": "issued",
+      "value": "2/19/2010"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "01/01/2005-12/31/2005"
+    },
+    {
+      "key": "spatial-text",
+      "value": "United States (including Alaska; Hawaii; Puerto Rico)"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Section 12. Labor Force, Employment, and Earnings"
+      ]
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://www.nlrb.gov/nlrb/datagov/FinalFOIA-Yearly_README.pdf"
+      ]
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "One-Time"
+    },
+    {
+      "key": "metadata-date",
+      "value": "4/10/2013"
+    },
+    {
+      "key": "access-level",
+      "value": "public"
+    },
+    {
+      "key": "granularity",
+      "value": "City"
+    },
+    {
+      "key": "metadata-source",
+      "value": "dms"
+    },
+    {
+      "key": "tags",
+      "value": "{Case,Labor,Election,R-Case,NLRB,Union,Representation,Organizing,\"Labor Organization\",\"National Labor Relations Act\",NLRA,\"Union Security Clause\"}"
+    }
+  ],
+  "title": "NLRB CATS Final R-Case Data in XML - 2005",
+  "revision_id": "f622efc8-e4e7-44c5-ad74-3f629298837c"
+}

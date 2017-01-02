@@ -1,0 +1,183 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "Donald Long",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "dlong01@fs.fed.us",
+  "num_tags": 4,
+  "id": "2acf9767-8660-4c0f-b43c-23dd3507f031",
+  "metadata_created": "2015-01-15T22:11:43.088025",
+  "metadata_modified": "2015-09-18T16:30:35.831927",
+  "author": "Donald Long",
+  "author_email": "dlong01@fs.fed.us",
+  "state": "active",
+  "version": null,
+  "creator_user_id": "144231",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "2acf9767-8660-4c0f-b43c-23dd3507f031",
+      "webstore_last_updated": null,
+      "id": "e631b73d-b4e4-4e1e-8822-d0bc7c8b4ec7",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "The Forest Canopy Cover (CC) layer describes the percent cover of the tree canopy in a stand. Specifically, canopy cover describes the vertical projection of the tree canopy onto an imaginary horizontal surface representing the ground's surface. CC is generated using a predictive modeling approach that relates Landsat imagery and spatially explicit biophysical gradients to calculated values of average canopy cover from field training sites and digital orthophoto quadrangles. CC supplies information to fire behavior models to determine surface fuel shading for calculating dead fuel moisture and for calculating wind reductions. ",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 5,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "LANDFIRE Forest Canopy Cover",
+      "created": "2015-01-15T17:13:23.178154",
+      "url": "http://www.landfire.gov/NationalProductDescriptions6.php",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "6703591c-eafd-4b5c-a718-8f8f30fc2ca4",
+      "resource_type": "file"
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2acf9767-8660-4c0f-b43c-23dd3507f031",
+      "webstore_last_updated": null,
+      "id": "c21b58f9-37e8-4579-954e-940cbb88fd5f",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "The Forest Canopy Height (CH) layer describes the average height of the top of the vegetated canopy and is provided for forested areas only. CH measurement units are meters * 10. CH is generated using a predictive modeling approach that relates Landsat imagery and spatially explicit biophysical gradients to calculated values of average dominant height from field training sites. CH supplies information to fire behavior models to determine the probability of crown fire ignition, calculate wind reductions, and compute the volume of crown fuel. ",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "LANDFIRE Forest Canopy Height",
+      "created": "2015-01-15T17:17:23.503107",
+      "url": "http://www.landfire.gov/NationalProductDescriptions5.php",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 1,
+      "revision_id": "49c3bc37-d384-4002-b300-1bad73d26f56",
+      "resource_type": "file"
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "Canopy Fuel",
+      "id": "00abb2bb-8408-49ce-ac99-bea35df91962",
+      "name": "Canopy Fuel"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "Land Use Land Cover Theme",
+      "id": "035b41a9-c659-481b-a5d0-febc5a10a9cc",
+      "name": "Land Use Land Cover Theme"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "NGDA",
+      "id": "22b46b09-bdef-48bc-b827-9134e6f85749",
+      "name": "NGDA"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "USFS",
+      "id": "52eb8066-5fc3-4202-8ee4-005fde1ab0a9",
+      "name": "USFS"
+    }
+  ],
+  "tracking_summary": {
+    "total": 34,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:45.351405",
+    "title": "US Forest Service, Department of Agriculture",
+    "name": "fs-fed-us",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.data.gov/app/uploads/2014/07/Forest_Service_Logo.png",
+    "revision_id": "2560634b-6ef2-4505-8ad4-af0ebf818db7",
+    "type": "organization",
+    "id": "d4258583-d8ab-4f7a-9c23-4f1a442f69b9",
+    "approval_status": "approved"
+  },
+  "name": "us-forest-service-landfire-canopy-fuel",
+  "isopen": false,
+  "url": null,
+  "notes": "LANDFIRE canopy fuel data describe the composition and characteristics of wildland surface fuel and can be implemented within models to predict wildland fire behavior and effects. LANDFIRE fuel products are useful for strategic fuel treatment prioritization and tactical assessment of fire behavior and effects. They provide consistent fuel data to support fire planning, analysis, and budgeting to evaluate fire management alternatives supplement strategic and tactical planning for fire operations. ",
+  "owner_org": "d4258583-d8ab-4f7a-9c23-4f1a442f69b9",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "donald long"
+    },
+    {
+      "key": "contact-name",
+      "value": "Don Long"
+    },
+    {
+      "key": "contact-email",
+      "value": "dlong01@fs.fed.us"
+    },
+    {
+      "key": "public_access_level",
+      "value": "public"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2013-03-31"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "2013-03-31"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "Theme",
+      "value": "NGDA, National Geospatial Data Asset, Land Use Land Cover Theme"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "bureau_code",
+      "value": "005:96"
+    },
+    {
+      "key": "program_code",
+      "value": "005:000"
+    }
+  ],
+  "title": "US Forest Service LANDFIRE Canopy Fuel",
+  "revision_id": "00ae1bb0-b0c5-441b-ac01-1c9df866ad17"
+}

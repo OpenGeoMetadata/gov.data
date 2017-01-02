@@ -1,0 +1,210 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Thomas Colson",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "GRSM_Resource_Management@nps.gov",
+  "num_tags": 10,
+  "id": "497ae0e3-1dbb-45ce-b532-b1465b3bcfef",
+  "metadata_created": "2015-07-18T18:26:30.089372",
+  "metadata_modified": "2015-07-18T18:29:48.474778",
+  "author": "Thomas Colson",
+  "author_email": "GRSM_Resource_Management@nps.gov",
+  "state": "active",
+  "version": null,
+  "creator_user_id": "77931",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "497ae0e3-1dbb-45ce-b532-b1465b3bcfef",
+      "webstore_last_updated": null,
+      "id": "ef15d55b-0224-4b05-bf0a-d34da14a981b",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Park Hydro Plus is a value-added attribution of data produced by Great Smoky Mountains National Park and published by the USGS NHD. Not to be confused with the USGS NHD Plus Dataset, the park has published these data as an interim while the NHD Plus \"catches up\" with recently-updated NHD Stream Data within the park footprint. These data have been attributed in the following way: Strahler Stream Order: In the Strahler method, all links without any tributaries are assigned an order of 1 and are referred to as first order.The stream order increases when streams of the same order intersect. Therefore, the intersection of two first-order links will create a second-order link, the intersection of two second-order links will create a third-order link, and so on. The intersection of two links of different orders, however, will not result in an increase in order. For example, the intersection of a first-order and second-order link will not create a third-order link but will retain the order of the highest ordered link. If the node is a leaf (has no children), its Strahler number is one. If the node has one child with Strahler number i, and all other children have Strahler numbers less than i, then the Strahler number of the node is i again. If the node has two or more children with Strahler number i, and no children with greater number, then the Strahler number of the node is i + 1. The Strahler number of a tree is the number of its root node. Algorithmically, these numbers may be assigned by performing a depth-first search and assigning each node's number in postorder. The same numbers may also be generated via a pruning process in which the tree is simplified in a sequence of stages, where in each stage one removes all leaf nodes and all of the paths of degree-one nodes leading to leaves: the Strahler number of a node is the stage at which it would be removed by this process, and the Strahler number of a tree is the number of stages required to remove all of its nodes. Another equivalent definition of the Strahler number of a tree is that it is the height of the largest complete binary tree that can be homeomorphically embedded into the given tree; the Strahler number of a node in a tree is similarly the height of the largest complete binary tree that can be embedded below that node. Any node with Strahler number i must have at least two descendants with Strahler number i − 1, at least four descendants with Strahler number i − 2, etc., and at least 2i − 1 leaf descendants. Therefore, in a tree with n nodes, the largest possible Strahler number is log2 n. However, unless the tree forms a complete binary tree its Strahler number will be less than this bound. In an n-node binary tree, chosen uniformly at random among all possible binary trees, the expected index of the root is with high probability very close to log4. Sinuosity: A river’s sinuosity is its tendency to move back and forth across its floodplain, in an S-shaped pattern, over time. As the stream meanders across the flood plain, it may leave behind scars of where the river channel once was. A stream that doesn't meander at all has a sinuosity of 1. The more meanders in a stream, the closer the sinuosity value will get to 0. For single-thread stream channels, the sinuosity index is calculated for each reach using its two endpoints (Upstream point A, Downstream point B). The ratio of the sinuous length tho the straight-line distance is Channel Sinuosity value for the reach. The sinuous length is measured down the centerline of the channel. Divide the sinuous length by the straight-line distance between the same two points. Sinuosity values range from 1 to 4 (or so). A completely straight channel will have a sinuosity of 1. Channels with ratios ~1.5 are called sinuous channels. Channels with higher ratios are called meandering channels. Values are commonly reported to two decimal places, but there’s no firm rule. This is a very large dataset and can take some time to load in your map!",
+      "format": "ArcGIS Online REST Endpoint",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "GRSM_HYDRO_PLUS (FeatureServer)",
+      "created": "2015-07-18T14:28:04.724458",
+      "url": "http://services1.arcgis.com/fBc8EJBxQRMcHlei/ArcGIS/rest/services/GRSM_HYDRO_PLUS/FeatureServer",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "52b9c517-f3df-4cd5-abe7-18601bcf571e",
+      "resource_type": "file"
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "497ae0e3-1dbb-45ce-b532-b1465b3bcfef",
+      "webstore_last_updated": null,
+      "id": "aac5a182-9162-49f5-92d5-a385ab0272ad",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Park Hydro Plus is a value-added attribution of data produced by Great Smoky Mountains National Park and published by the USGS NHD. Not to be confused with the USGS NHD Plus Dataset, the park has published these data as an interim while the NHD Plus \"catches up\" with recently-updated NHD Stream Data within the park footprint. These data have been attributed in the following way: \r\n\r\nStrahler Stream Order: \r\n\r\nIn the Strahler method, all links without any tributaries are assigned an order of 1 and are referred to as first order.The stream order increases when streams of the same order intersect. Therefore, the intersection of two first-order links will create a second-order link, the intersection of two second-order links will create a third-order link, and so on. The intersection of two links of different orders, however, will not result in an increase in order. For example, the intersection of a first-order and second-order link will not create a third-order link but will retain the order of the highest ordered link. If the node is a leaf (has no children), its Strahler number is one. If the node has one child with Strahler number i, and all other children have Strahler numbers less than i, then the Strahler number of the node is i again. If the node has two or more children with Strahler number i, and no children with greater number, then the Strahler number of the node is i + 1. The Strahler number of a tree is the number of its root node. Algorithmically, these numbers may be assigned by performing a depth-first search and assigning each node's number in postorder. The same numbers may also be generated via a pruning process in which the tree is simplified in a sequence of stages, where in each stage one removes all leaf nodes and all of the paths of degree-one nodes leading to leaves: the Strahler number of a node is the stage at which it would be removed by this process, and the Strahler number of a tree is the number of stages required to remove all of its nodes. Another equivalent definition of the Strahler number of a tree is that it is the height of the largest complete binary tree that can be homeomorphically embedded into the given tree; the Strahler number of a node in a tree is similarly the height of the largest complete binary tree that can be embedded below that node. Any node with Strahler number i must have at least two descendants with Strahler number i − 1, at least four descendants with Strahler number i − 2, etc., and at least 2i − 1 leaf descendants. Therefore, in a tree with n nodes, the largest possible Strahler number is log2 n. However, unless the tree forms a complete binary tree its Strahler number will be less than this bound. In an n-node binary tree, chosen uniformly at random among all possible binary trees, the expected index of the root is with high probability very close to log4. \r\n\r\nSinuosity: \r\n\r\n A river’s sinuosity is its tendency to move back and forth across its floodplain, in an S-shaped pattern, over time. As the stream meanders across the flood plain, it may leave behind scars of where the river channel once was. A stream that doesn't meander at all has a sinuosity of 1. The more meanders in a stream, the closer the sinuosity value will get to 0. For single-thread stream channels, the sinuosity index is calculated for each reach using its two endpoints (Upstream point A, Downstream point B). The ratio of the sinuous length tho the straight-line distance is Channel Sinuosity value for the reach. The sinuous length is measured down the centerline of the channel. Divide the sinuous length by the straight-line distance between the same two points. Sinuosity values range from 1 to 4 (or so). A completely straight channel will have a sinuosity of 1. Channels with ratios ~1.5 are called sinuous channels. Channels with higher ratios are called meandering channels. Values are commonly reported to two decimal places, but there’s no firm rule. This is a very large dataset and can take some time to load in your map!",
+      "format": "ArcGIS Online Item Description",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Great Smoky Mountains National Park Hydro Plus",
+      "created": "2015-07-18T14:28:34.658014",
+      "url": "http://nps.maps.arcgis.com/home/item.html?id=c4d5a0e0f2464441a642748edf7d4a45",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 1,
+      "revision_id": "27c3dab8-2395-45c7-a6ec-29c0db5efeac",
+      "resource_type": "file"
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "497ae0e3-1dbb-45ce-b532-b1465b3bcfef",
+      "webstore_last_updated": null,
+      "id": "0322aac9-bff5-43e2-8057-dc438b059805",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "GRSM_HYDRO_PLUS/",
+      "format": "JSON",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "GRSM_HYDRO_PLUS/",
+      "created": "2015-07-18T14:29:34.115791",
+      "url": "http://services1.arcgis.com/fBc8EJBxQRMcHlei/ArcGIS/rest/services/GRSM_HYDRO_PLUS/FeatureServer/0/query?where=OBJECTID+IS+NOT+NULL&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&distance=&units=esriSRUnit_Meter&outFields=*&returnGeometry=true&maxAllowableOffset=&geometryPrecision=&outSR=&returnIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnDistinctValues=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&quantizationParameters=&f=pgeojson&token=",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 2,
+      "revision_id": "8aa2553d-43cb-4fc6-af74-d58184bcba80",
+      "resource_type": "file"
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "GRSM",
+      "id": "c50f7ca6-b850-445b-96e4-83a171932267",
+      "name": "GRSM"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "Great Smoky Mountains National Park",
+      "id": "592d7b76-f434-4e96-a89b-21bbb9f57a4f",
+      "name": "Great Smoky Mountains National Park"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "Hydrology",
+      "id": "d16fc418-6ebc-4daa-858f-2426f7de6a2e",
+      "name": "Hydrology"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "NHD",
+      "id": "7195e15c-c8fa-41b8-bd48-5a48645a3144",
+      "name": "NHD"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "NPS",
+      "id": "3938162a-abfc-4536-8eee-1ea31fcc9789",
+      "name": "NPS"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "National Park Service",
+      "id": "69948395-febe-4d0a-868a-7b438ee7055d",
+      "name": "National Park Service"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "River Order",
+      "id": "f7b956c5-1df8-4d23-a6bf-91d20c5a687d",
+      "name": "River Order"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "Sinuosity",
+      "id": "84102bde-1322-42ca-931e-5e75d491b125",
+      "name": "Sinuosity"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "Stream and River Channel Characteristics",
+      "id": "c3dd7331-d3e1-4d27-a50e-15a19a86f5d2",
+      "name": "Stream and River Channel Characteristics"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "Streams",
+      "id": "4e34d0f5-e654-4271-9eff-c237001949f0",
+      "name": "Streams"
+    }
+  ],
+  "tracking_summary": {
+    "total": 14,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:47.247431",
+    "title": "National Park Service, Department of the Interior",
+    "name": "nps-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/nps.png",
+    "revision_id": "c01136dc-911c-4651-92b7-36046d755b81",
+    "type": "organization",
+    "id": "ffbc26a5-1ae8-4c8c-ac45-e5b76fc6486a",
+    "approval_status": "approved"
+  },
+  "name": "great-smoky-mountains-national-park-hydro-plus",
+  "isopen": true,
+  "url": null,
+  "notes": "Park Hydro Plus is a value-added attribution of data produced by Great Smoky Mountains National Park and published by the USGS NHD. Not to be confused with the USGS NHD Plus Dataset, the park has published these data as an interim while the NHD Plus \"catches up\" with recently-updated NHD Stream Data within the park footprint. These data have been attributed in the following way: \r\n\r\nStrahler Stream Order: \r\n\r\nIn the Strahler method, all links without any tributaries are assigned an order of 1 and are referred to as first order.The stream order increases when streams of the same order intersect. Therefore, the intersection of two first-order links will create a second-order link, the intersection of two second-order links will create a third-order link, and so on. The intersection of two links of different orders, however, will not result in an increase in order. For example, the intersection of a first-order and second-order link will not create a third-order link but will retain the order of the highest ordered link. If the node is a leaf (has no children), its Strahler number is one. If the node has one child with Strahler number i, and all other children have Strahler numbers less than i, then the Strahler number of the node is i again. If the node has two or more children with Strahler number i, and no children with greater number, then the Strahler number of the node is i + 1. The Strahler number of a tree is the number of its root node. Algorithmically, these numbers may be assigned by performing a depth-first search and assigning each node's number in postorder. The same numbers may also be generated via a pruning process in which the tree is simplified in a sequence of stages, where in each stage one removes all leaf nodes and all of the paths of degree-one nodes leading to leaves: the Strahler number of a node is the stage at which it would be removed by this process, and the Strahler number of a tree is the number of stages required to remove all of its nodes. Another equivalent definition of the Strahler number of a tree is that it is the height of the largest complete binary tree that can be homeomorphically embedded into the given tree; the Strahler number of a node in a tree is similarly the height of the largest complete binary tree that can be embedded below that node. Any node with Strahler number i must have at least two descendants with Strahler number i − 1, at least four descendants with Strahler number i − 2, etc., and at least 2i − 1 leaf descendants. Therefore, in a tree with n nodes, the largest possible Strahler number is log2 n. However, unless the tree forms a complete binary tree its Strahler number will be less than this bound. In an n-node binary tree, chosen uniformly at random among all possible binary trees, the expected index of the root is with high probability very close to log4. \r\n\r\nSinuosity: \r\n\r\n A river’s sinuosity is its tendency to move back and forth across its floodplain, in an S-shaped pattern, over time. As the stream meanders across the flood plain, it may leave behind scars of where the river channel once was. A stream that doesn't meander at all has a sinuosity of 1. The more meanders in a stream, the closer the sinuosity value will get to 0. For single-thread stream channels, the sinuosity index is calculated for each reach using its two endpoints (Upstream point A, Downstream point B). The ratio of the sinuous length tho the straight-line distance is Channel Sinuosity value for the reach. The sinuous length is measured down the centerline of the channel. Divide the sinuous length by the straight-line distance between the same two points. Sinuosity values range from 1 to 4 (or so). A completely straight channel will have a sinuosity of 1. Channels with ratios ~1.5 are called sinuous channels. Channels with higher ratios are called meandering channels. Values are commonly reported to two decimal places, but there’s no firm rule. This is a very large dataset and can take some time to load in your map!",
+  "owner_org": "ffbc26a5-1ae8-4c8c-ac45-e5b76fc6486a",
+  "extras": [
+
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "Great Smoky Mountains National Park Hydro Plus",
+  "revision_id": "a742c7fc-16a5-4ab8-877a-ad4ec0fff5fb"
+}

@@ -1,0 +1,816 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "14784173-4c9c-48ed-a32a-2bc28728270c",
+  "metadata_created": "2016-02-22T18:49:17.666194",
+  "metadata_modified": "2016-10-04T04:04:53.800945",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "14784173-4c9c-48ed-a32a-2bc28728270c",
+      "webstore_last_updated": null,
+      "id": "8a54bdad-a9c8-4ab7-96ed-c80fed585299",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Navigate directly to the URL for a descriptive web page with download links.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Descriptive Information",
+      "created": "2016-10-04T00:04:55.752362",
+      "url": "https://doi.org/10.7289/V5QZ27ZG",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "03454bff-6db3-40b9-9a9a-a6dce5eb9ee0",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "14784173-4c9c-48ed-a32a-2bc28728270c",
+      "webstore_last_updated": null,
+      "id": "7b8707af-b8a6-4d75-91ac-ea8ec0af8115",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Navigate directly to the Live Access Server (LAS) URL for data access and direct download.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "LAS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "LAS",
+      "created": "2016-10-04T00:04:55.752404",
+      "url": "http://data.nodc.noaa.gov/las/getUI.do?dsid=id-67042d68f2&varid=Baseflow-id-67042d68f2&auto=true",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "03454bff-6db3-40b9-9a9a-a6dce5eb9ee0",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "14784173-4c9c-48ed-a32a-2bc28728270c",
+      "webstore_last_updated": null,
+      "id": "9c81ea0a-a5aa-47d6-838f-7038d8fd578f",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "These data are available through a variety of services via a THREDDS (Thematic Real-time Environmental Distributed Data Services) Data Server (TDS). Depending on the dataset, the TDS can provide WMS, WCS, DAP, HTTP, and other data access and metadata services as well. For more information on the TDS, see http://www.unidata.ucar.edu/software/thredds/current/tds/.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "THREDDS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "THREDDS",
+      "created": "2016-10-04T00:04:55.752419",
+      "url": "https://data.nodc.noaa.gov/thredds/catalog/livnehmodel/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "03454bff-6db3-40b9-9a9a-a6dce5eb9ee0",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "14784173-4c9c-48ed-a32a-2bc28728270c",
+      "webstore_last_updated": null,
+      "id": "c1ec1d6b-daf4-4c1a-b851-6571a597bb96",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "These data are available through the Data Access Protocol (DAP) via an OPeNDAP Hyrax server. For a listing of OPeNDAP clients which may be used to access OPeNDAP-enabled data sets, please see the OPeNDAP website at http://opendap.org/.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "DAP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OPeNDAP",
+      "created": "2016-10-04T00:04:55.752427",
+      "url": "https://data.nodc.noaa.gov/opendap/livnehmodel/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 3,
+      "revision_id": "03454bff-6db3-40b9-9a9a-a6dce5eb9ee0",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "14784173-4c9c-48ed-a32a-2bc28728270c",
+      "webstore_last_updated": null,
+      "id": "78b432d3-1e2c-4fae-8242-69274f903bd8",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Navigate directly to the URL for data access and direct download.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "HTTP",
+      "created": "2016-10-04T00:04:55.752435",
+      "url": "https://data.nodc.noaa.gov/livnehmodel/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 4,
+      "revision_id": "03454bff-6db3-40b9-9a9a-a6dce5eb9ee0",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "14784173-4c9c-48ed-a32a-2bc28728270c",
+      "webstore_last_updated": null,
+      "id": "e4eea7a7-e747-47a5-82e0-cc79c236ef3b",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "These data are available through the File Transfer Protocol (FTP). You may use any FTP client to download these data.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "FTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FTP",
+      "created": "2016-10-04T00:04:55.752453",
+      "url": "ftp://ftp.nodc.noaa.gov/pub/data.nodc/livnehmodel/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 5,
+      "revision_id": "03454bff-6db3-40b9-9a9a-a6dce5eb9ee0",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "14784173-4c9c-48ed-a32a-2bc28728270c",
+      "webstore_last_updated": null,
+      "id": "bc914774-6709-4587-975c-c9b98a754f1b",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Main NCEI website providing links to access data and data services.",
+      "format": "",
+      "tracking_summary": {
+        "total": 51,
+        "recent": 8
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA National Centers for Environmental Information website",
+      "created": "2016-10-04T00:04:55.752461",
+      "url": "https://www.ncei.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 6,
+      "revision_id": "03454bff-6db3-40b9-9a9a-a6dce5eb9ee0",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "14784173-4c9c-48ed-a32a-2bc28728270c",
+      "webstore_last_updated": null,
+      "id": "e1f141de-2d90-4322-893f-010c89cfc67d",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Institution web page",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "University of Colorado at Boulder; Cooperative Institute for Research In Environmental Sciences (CIRES) website",
+      "created": "2016-10-04T00:04:55.752469",
+      "url": "http://cires.colorado.edu/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 7,
+      "revision_id": "03454bff-6db3-40b9-9a9a-a6dce5eb9ee0",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "14784173-4c9c-48ed-a32a-2bc28728270c",
+      "webstore_last_updated": null,
+      "id": "62b78f5c-7117-4a94-9d6b-e6e80ffe1deb",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Institution web page",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "University of Colorado at Boulder; Cooperative Institute for Research In Environmental Sciences (CIRES) website",
+      "created": "2016-10-04T00:04:55.752477",
+      "url": "http://cires.colorado.edu/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 8,
+      "revision_id": "03454bff-6db3-40b9-9a9a-a6dce5eb9ee0",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "14784173-4c9c-48ed-a32a-2bc28728270c",
+      "webstore_last_updated": null,
+      "id": "ef9557bb-a410-41f7-a91a-817a6c8dc1e9",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Institution web page",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "University of Colorado at Boulder; Cooperative Institute for Research In Environmental Sciences (CIRES) website",
+      "created": "2016-10-04T00:04:55.752485",
+      "url": "http://cires.colorado.edu/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 9,
+      "revision_id": "03454bff-6db3-40b9-9a9a-a6dce5eb9ee0",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "14784173-4c9c-48ed-a32a-2bc28728270c",
+      "webstore_last_updated": null,
+      "id": "cbbbbf3e-b4f8-4cb2-8b46-5fcd83f23561",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Institution web page",
+      "format": "",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ASU School of Earth & Space Exploration website",
+      "created": "2016-10-04T00:04:55.752492",
+      "url": "http://sese.asu.edu/earth-space-contact",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 10,
+      "revision_id": "03454bff-6db3-40b9-9a9a-a6dce5eb9ee0",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "14784173-4c9c-48ed-a32a-2bc28728270c",
+      "webstore_last_updated": null,
+      "id": "76ca8009-aff2-43f8-b38d-23abc69c31bf",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Institution web page",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "SIO Climate, Atmospheric Science and Physical Oceanography Department website",
+      "created": "2016-10-04T00:04:55.752500",
+      "url": "https://scripps.ucsd.edu/caspo",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 11,
+      "revision_id": "03454bff-6db3-40b9-9a9a-a6dce5eb9ee0",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "14784173-4c9c-48ed-a32a-2bc28728270c",
+      "webstore_last_updated": null,
+      "id": "dde8b28d-fc98-4cd6-8ebe-07281e8c9af7",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Institution web page",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Biological Systems Engineering Department website",
+      "created": "2016-10-04T00:04:55.752508",
+      "url": "http://bse.unl.edu/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 12,
+      "revision_id": "03454bff-6db3-40b9-9a9a-a6dce5eb9ee0",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "14784173-4c9c-48ed-a32a-2bc28728270c",
+      "webstore_last_updated": null,
+      "id": "7d06a6a1-cb2a-44eb-a1a5-8e9ec1ea7ede",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Institution web page",
+      "format": "",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ASU School of Earth & Space Exploration website",
+      "created": "2016-10-04T00:04:55.752516",
+      "url": "http://sese.asu.edu/earth-space-contact",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 13,
+      "revision_id": "03454bff-6db3-40b9-9a9a-a6dce5eb9ee0",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "14784173-4c9c-48ed-a32a-2bc28728270c",
+      "webstore_last_updated": null,
+      "id": "4569c874-cbdd-4dec-965b-470f9f569d8e",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Institution web page",
+      "format": "",
+      "tracking_summary": {
+        "total": 22,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "US National Climatic Data Center website",
+      "created": "2016-10-04T00:04:55.752523",
+      "url": "http://www.ncdc.noaa.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 14,
+      "revision_id": "03454bff-6db3-40b9-9a9a-a6dce5eb9ee0",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "14784173-4c9c-48ed-a32a-2bc28728270c",
+      "webstore_last_updated": null,
+      "id": "151b9fb1-bf2d-47a2-982b-cecdda2ee84a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Institution web page",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "SIO Climate, Atmospheric Science and Physical Oceanography Department website",
+      "created": "2016-10-04T00:04:55.752531",
+      "url": "https://scripps.ucsd.edu/caspo",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 15,
+      "revision_id": "03454bff-6db3-40b9-9a9a-a6dce5eb9ee0",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "14784173-4c9c-48ed-a32a-2bc28728270c",
+      "webstore_last_updated": null,
+      "id": "ce8b95d0-dd91-4656-8ddb-42ce4617a8c2",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Main NCEI website providing links to access data and data services.",
+      "format": "",
+      "tracking_summary": {
+        "total": 51,
+        "recent": 8
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA National Centers for Environmental Information website",
+      "created": "2016-10-04T00:04:55.752538",
+      "url": "https://www.ncei.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 16,
+      "revision_id": "03454bff-6db3-40b9-9a9a-a6dce5eb9ee0",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "14784173-4c9c-48ed-a32a-2bc28728270c",
+      "webstore_last_updated": null,
+      "id": "14df9073-a362-46e1-b204-b18444b06231",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-10-04T00:04:55.752546",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 17,
+      "revision_id": "03454bff-6db3-40b9-9a9a-a6dce5eb9ee0",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "14784173-4c9c-48ed-a32a-2bc28728270c",
+      "webstore_last_updated": null,
+      "id": "b9f44433-a06c-4dc4-ae92-45f33aef1d66",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-10-04T00:04:55.752554",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 18,
+      "revision_id": "03454bff-6db3-40b9-9a9a-a6dce5eb9ee0",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "14784173-4c9c-48ed-a32a-2bc28728270c",
+      "webstore_last_updated": null,
+      "id": "f95584bb-a607-4de2-8113-fb415d18f0c7",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-10-04T00:04:55.752562",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 19,
+      "revision_id": "03454bff-6db3-40b9-9a9a-a6dce5eb9ee0",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "14784173-4c9c-48ed-a32a-2bc28728270c",
+      "webstore_last_updated": null,
+      "id": "36e725cb-0127-4991-aebe-64d24b713084",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-10-04T00:04:55.752570",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 20,
+      "revision_id": "03454bff-6db3-40b9-9a9a-a6dce5eb9ee0",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "14784173-4c9c-48ed-a32a-2bc28728270c",
+      "webstore_last_updated": null,
+      "id": "dfb5c4e8-558b-4843-98ce-1171f1aba4c5",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Navigate directly to the URL for a descriptive web page with download links.",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Details",
+      "created": "2016-10-04T00:04:55.752577",
+      "url": "https://accession.nodc.noaa.gov/0129374",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 21,
+      "revision_id": "03454bff-6db3-40b9-9a9a-a6dce5eb9ee0",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 22,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 10,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "a-spatially-comprehensive-hydrologic-model-based-data-set-for-mexico-the-u-s-and-sout-1950-2013",
+  "isopen": false,
+  "url": null,
+  "notes": "A data set of simulated hydrologic fluxes and states from the Variable Infiltration Capacity (VIC) model, gridded to a 1/16 degree (~6km) resolution that spans the entire country of Mexico, the conterminous U.S. (CONUS), and regions of Canada south of 53 degrees N for the period 1950-2013. Because of the consistent gridding methodology, the current product reduces transboundary discontinuities making it suitable for estimating large-scale hydrologic phenomena.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-67"
+    },
+    {
+      "key": "resource-type",
+      "value": "series"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "53"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "PNG"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.nodc:Livneh-Model"
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "https://data.nodc.noaa.gov/cgi-bin/gfx?id=gov.noaa.nodc:Livneh-Model"
+    },
+    {
+      "key": "metadata-language",
+      "value": "eng"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-125.0, 14.66], [-67.0, 14.66], [-67.0, 53.0], [-125.0, 53.0], [-125.0, 14.66]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Cite as: Livneh, Ben; Bohn, Theodore J.; Pierce, David W.; Mu\\u00c3\\u00b1oz-Arriola, Francisco; Nijssen, Bart; Vose, Russell; Cayan, Daniel R.; Brekke, Levi (2015). A spatially comprehensive, hydrologic model-based data set for Mexico, the U.S., and southern Canada, 1950-2013. NOAA National Centers for Environmental Information. Dataset. doi:10.7289/V5QZ27ZG [access date]\", \"NOAA and NCEI cannot provide any warranty as to the accuracy, reliability, or completeness of furnished data. Users assume responsibility to determine the usability of these data. The user is responsible for the results of any application of this data for other than its intended purpose.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "1950-01-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "NCEI.Info@noaa.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-125"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-08-19T13:07:19"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2015-12-08\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "Preview graphic"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"accessLevel: Public\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2013-12-31"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "14.66"
+    },
+    {
+      "key": "tags",
+      "value": "cryosphere, mexico, canopy moisture, vic land surface model, total evapotranspiration, united states of america, noaa, north america, doc/noaa/oar, watershed characteristics, doc/noaa/nesdis/ncei, ocean heat budget, latent heat flux, surface water, national oceanographic data center, nesdis, noaa, u.s. department of commerce, continent, oceanic & atmospheric research, noaa, u.s. department of commerce, earth science, canada, pet for current vegetation, terrestrial hydrosphere indicators, oceanography, net upward sensible heat flux, sensible heat flux, earth science services, time axis, http://research.noaa.gov/, net heat flux into ground, models, land surface, latitude, potential evapotranspiration, snow water equivalent, national centers for environmental information, nesdis, noaa, u.s. department of commerce, pet for long reference crop (alfalfa), climate indicators, national climatic data center, nesdis, noaa, u.s. department of commerce, soil heat budget, oceans, http://www.ncdc.noaa.gov/, heat flux, net upward latent heat flux, hydrologic and terrestrial water cycle models, net radiation, doc/noaa/nesdis/ncdc, government agencies-u.s. federal agencies, baseflow, doc/noaa/nesdis/nodc, terrestrial hydrosphere, pet for short reference crop (grass), soil moisture/water content, soils, doc, surface runoff, longitude, generic, land surface/agriculture indicators, soil moisture, snow/ice, net downwelling radiation, ground heat flux, canopy water"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "4bfe43e7-94db-444a-8894-944c3da88ba9"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "A spatially comprehensive, hydrologic model-based data set for Mexico, the U.S., and southern Canada, 1950-2013",
+  "revision_id": "e4a07008-d428-491e-a534-87c5383f7ede"
+}

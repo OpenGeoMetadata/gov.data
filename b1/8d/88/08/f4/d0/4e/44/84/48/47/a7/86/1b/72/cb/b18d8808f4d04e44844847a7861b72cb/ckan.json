@@ -1,0 +1,174 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "b18d8808-f4d0-4e44-8448-47a7861b72cb",
+  "metadata_created": "2016-07-09T05:26:31.523237",
+  "metadata_modified": "2016-07-09T05:26:31.523237",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 9,
+    "recent": 1
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:41.302957",
+    "title": "Vermont Center for Geographic Information",
+    "name": "vcgi-org",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://vcgi.vermont.gov/sites/all/themes/vt_template/logo.png",
+    "revision_id": "c5dfbbb0-f1e0-4db6-b566-e932e1520060",
+    "type": "organization",
+    "id": "0c3a4ebc-9929-4f21-bdd0-76a35d52f57d",
+    "approval_status": "approved"
+  },
+  "name": "pilot-lidar-data-for-eastern-vermont-fy2014-usgs-contract-g10pc00026-task-order-number-g14-2014",
+  "isopen": false,
+  "url": null,
+  "notes": "Please note this is a Pilot Delivery. Geographic Extent: Eastern Vermont Area of Interest, covering approximately 2,533 square miles. Dataset Description: The Eastern, VT LiDAR project called for the Planning, Acquisition, processing and derivative products of LIDAR data to be collected at a nominal pulse spacing (NPS) of 0.7 meter. Project specifications are based on the U.S. Geological Survey National Geospatial Program Base LIDAR Specification, Version 1. The data was developed based on a horizontal projection/datum of Vermont State Plane coordinate System (FIPS 4400), NAD83, meters and vertical datum of NAVD1988 (GEOID12A), meters. LiDAR data was delivered in RAW flight line swath format, processed to create Classified LAS 1.2 Files formatted to 272 individual 1400m x 1400m pilot tiles, and corresponding 0.7 meter gridded Hydro Flattened Raster DEM Files tiled to the same 1400m x 1400m schema,tiled Intensity Images, Hydro-Flattening and Hydro-Enforcement Breaklines in ESRI Shapefile format, and 0.7 meter gridded Hydro-Flattening and Hydro-Enforcement Raster DEM Files. Ground Conditions: LiDAR collection began in Fall 2014, while no snow was on the ground and rivers were at or below normal levels. In order to post process the LiDAR data to meet task order specifications, Photo Science established a total of 71 ground control points and 85 QC points that were used to calibrate the LIDAR to known ground locations established throughout the Eastern, Vermont project area. Lot # 6 has 8 control points.",
+  "owner_org": "0c3a4ebc-9929-4f21-bdd0-76a35d52f57d",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-71.8644879876511"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "45.0201230175799"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "43.6967857551042"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-73.3313513541, 43.6967857551], [-71.8644879877, 43.6967857551], [-71.8644879877, 45.0201230176], [-73.3313513541, 45.0201230176], [-73.3313513541, 43.6967857551]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "underDevelopment"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None. However, users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no Longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of it's limitations. Acknowledgement of the U.S. Geological Survey would be appreciated for products derived from these data.\", \"Access Constraints: No restrictions apply to these data.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2014-11-08"
+    },
+    {
+      "key": "contact-email",
+      "value": "mshillenn@quantumspatial.com"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-73.3313513541072"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2015-04-30"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2014-08-29\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "licence",
+      "value": "[\" \"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Photo Science, A Quantum Spatial Company, Data Acquisition Department\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2015-01-01"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "caledonia county, franklin isle county, vermont, windsor island, hydrology, remote sensing, elevation data, lamoille county, essex county, lidar, washington island, addison county, chittenden county, rutland island, orange county, model, orleans island, grand isle county, las point cloud"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "516790f4-cf53-44c8-8b24-b98027d94af0"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "a0d2a02b-5473-48ce-816c-8c6c6f8fabdb"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "VT Center for Geographic Information, Inc."
+    }
+  ],
+  "title": "PILOT Lidar data for Eastern Vermont FY2014 USGS Contract: G10PC00026 Task Order Number: G14PD00971 VT_Eastern_2014",
+  "revision_id": "9b563d2a-738a-4b3c-8a37-c63f38388413"
+}

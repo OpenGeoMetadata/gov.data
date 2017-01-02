@@ -1,0 +1,241 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "<Nobody>",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 9,
+  "id": "7c5ad411-c65a-431a-9ae6-f55b5a83e0bd",
+  "metadata_created": "2016-09-20T04:25:47.969224",
+  "metadata_modified": "2016-10-19T11:47:01.256561",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "7c5ad411-c65a-431a-9ae6-f55b5a83e0bd",
+      "webstore_last_updated": null,
+      "id": "f9824535-9fa3-42a9-beac-3fa2cf4f78b3",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "text/html",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T07:47:01.646253",
+      "url": "http://iowadot.maps.arcgis.com/home/webmap/viewer.html?useExisting=1&layers=5d6c7d6963e549539ead6e50d89bdd08",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "72f3b216-0aa6-4f9e-8679-99284b3bb1c1",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "511",
+      "id": "9e596b15-1c3d-42e5-8f25-214d2d6dc71c",
+      "name": "511"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "iowa-department-of-transportation",
+      "id": "d77affe0-6191-48d2-8ef6-25f58de12e07",
+      "name": "iowa-department-of-transportation"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "iowa-dot",
+      "id": "96221b14-461e-428e-a36f-36f7767a52f6",
+      "name": "iowa-dot"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "operations",
+      "id": "3481b8fe-c16f-4d90-aff6-06fcbc293664",
+      "name": "operations"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "road-conditions",
+      "id": "40386fbb-4f10-43c0-9f13-942e1e29b349",
+      "name": "road-conditions"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "snow",
+      "id": "4452d3c9-4db7-49f5-b4da-17b2df9195ac",
+      "name": "snow"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "travel",
+      "id": "3a3f62aa-56e6-4ce6-9b1e-b9e649dc00c7",
+      "name": "travel"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "winter",
+      "id": "03629309-eab5-4fc1-889c-ab6a8ff6431c",
+      "name": "winter"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "winter-operations",
+      "id": "03e79e19-06cd-4ed4-aff6-9ab8acddfdc1",
+      "name": "winter-operations"
+    }
+  ],
+  "tracking_summary": {
+    "total": 3,
+    "recent": 1
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "State of Iowa ",
+    "created": "2016-03-17T16:44:22.168475",
+    "title": "State of Iowa",
+    "name": "state-of-iowa",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "",
+    "revision_id": "3a846db5-1199-4ae3-be25-2462585ceb59",
+    "type": "organization",
+    "id": "eafd323d-d9e7-463a-bcc8-e16ce00967e3",
+    "approval_status": "approved"
+  },
+  "name": "511-ia-road-conditions-fc",
+  "isopen": false,
+  "url": null,
+  "notes": "Iowa Winter Road Conditions. Conditions are updated every 5 minutes during the winter season (October 15 to April 15) and on an as-needed basis during the non-winter months. Layer and service is maintained by Iowa DOT GIS team on behalf of the Office of Traffic Operations.\r\n\r\nNote: This is an Esri Feature Collection which is different than an Esri Feature Service. Feature Collections allow for high-availability. There are unique characteristics that need to be considered when using this data type: 1) It is a file-based data type so there is no REST endpoint. However, there is JSON that can parsed out. See link at the bottom of this page.; 2) You cannot set a refresh interval in the map document, you must use the Info Summary Widget inside an application or hard-code the refresh in a custom application.; 3) The rotation setting gets wiped out each time the dataset is updated. When you add a feature collection to a new map, you will have to set the rotation. If you have an existing saved map this doesn’t apply to you.",
+  "owner_org": "eafd323d-d9e7-463a-bcc8-e16ce00967e3",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "data.iowa.gov"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "c5d6f12f-95f4-413f-bbac-9bbffd2df1aa"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "issued",
+      "value": "2016-09-16"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2016-10-18"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "IOWA Json file"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Transportation & Utilities"
+      ]
+    },
+    {
+      "key": "catalog_@id",
+      "value": "https://data.iowa.gov/data.json"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "https://data.iowa.gov/api/views/55zc-ayqw"
+    },
+    {
+      "key": "landingPage",
+      "value": "https://data.iowa.gov/d/55zc-ayqw"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "093fdfef-f94a-4a47-8b9b-682dfc5009bf"
+    },
+    {
+      "key": "source_hash",
+      "value": "f1518919cb5a6d98a4b9c664f65499f176364cfe"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "093fdfef-f94a-4a47-8b9b-682dfc5009bf"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "c5d6f12f-95f4-413f-bbac-9bbffd2df1aa"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "IOWA Json file"
+    }
+  ],
+  "title": "511 Iowa Road Conditions FC",
+  "revision_id": "72f3b216-0aa6-4f9e-8679-99284b3bb1c1"
+}

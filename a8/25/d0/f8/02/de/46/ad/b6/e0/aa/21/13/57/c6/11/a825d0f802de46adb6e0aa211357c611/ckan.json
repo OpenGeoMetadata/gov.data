@@ -1,0 +1,216 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "a825d0f8-02de-46ad-b6e0-aa211357c611",
+  "metadata_created": "2016-07-16T01:34:06.468459",
+  "metadata_modified": "2016-07-16T01:34:06.468459",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "a825d0f8-02de-46ad-b6e0-aa211357c611",
+      "webstore_last_updated": null,
+      "id": "70bfa404-df22-41ec-b964-35613eec42a2",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "ESRI GRID",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ESRI GRID",
+      "created": "2016-07-15T21:34:06.632685",
+      "url": "http://cloud.insideidaho.org/webApps/util/zip.ashx?fn=http://cloud.insideidaho.org/data/idl/safr/issues/I5_Water_Quality_Quantity",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "92c90426-55b0-47df-bd5d-6d91f2f09e67",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "a825d0f8-02de-46ad-b6e0-aa211357c611",
+      "webstore_last_updated": null,
+      "id": "62ad1598-e118-483f-818e-313d58ca64c2",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "I5_Relative_Potential_Benefit_to_Water_Quality_from_Forests_and_Canopy.pdf",
+      "format": "PDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Adobe Portable Document Format (.pdf)",
+      "created": "2016-07-15T21:34:06.632722",
+      "url": "http://cloud.insideidaho.org/data/idl/safr/issues/I5_Water_Quality_Quantity/I5_Relative_Potential_Benefit_to_Water_Quality_from_Forests_and_Canopy.pdf",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "92c90426-55b0-47df-bd5d-6d91f2f09e67",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 2,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The University of Idaho is a nationally-recognized research institution committed to student success and academic excellence that delivers one of the best educational values in the Pacific Northwest.",
+    "created": "2013-03-14T03:44:41.687651",
+    "title": "University of Idaho",
+    "name": "uidaho-edu",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://upload.wikimedia.org/wikipedia/en/thumb/4/44/University_of_Idaho_seal.svg/300px-University_of_Idaho_seal.svg.png",
+    "revision_id": "761955d7-9530-4622-8609-d0b01c78e177",
+    "type": "organization",
+    "id": "75e22a8a-da5f-46f3-93d8-924063a3703d",
+    "approval_status": "approved"
+  },
+  "name": "relative-potential-benefit-to-water-quality-from-forests-and-canopy",
+  "isopen": false,
+  "url": null,
+  "notes": "Issue: Relative Potential Benefit to Water Quality from Forests and Canopy The intent of this issue is to identify the areas of greatest need with respect to water quality and quantity, and where forests can have the greatest benefit. Data used: These three data layers informed this issue: 1. Public Drinking Water, comprised of: a. Source water delineations from Idaho Department of Environmental Quality's Source Water Protection program. (Note that these data are used with permission and not available for public release) b. Spokane Valley-Rathdrum Prairie (SVRP) Aquifer boundary for the Idaho portion of the aquifer from Idaho Department of Water Resources. Obtained from http://inside.uidaho.edu. The Source Water dataset delineation process \"establishes the physical area around a well or surface water intake that will become the focal point of a source water assessment. The process includes mapping the boundaries of the zone of contribution (e.g., the surface and subsurface areas contributing water to the well, or surface water intake) into time of travel zones (e.g., zones indicating the number of years necessary for a particle of water to reach a well or surface water intake). The size and shape of the source water assessment area depend on the delineation method used, local hydrogeology, and volume of water pumped from the well or surface water intake.\" (IDEQ 1999) Additional information on Idaho's Source Water Assessment Plan and Drinking Water Protection Program can be found at http://www.deq.state.id.us/water/prog_issues/source_water/protection.cfm. The boundary of the SVRP aquifer was added to the source water delineation to develop a public drinking water layer. This aquifer was added because it is both a sole source for drinking water for more than 500,000 people AND because it has no bedrock cap overlying it. Due to the latter attribute, it is the only designated Sensitive Resource aquifer in Idaho. This means it receives the highest level of protection, as activities over the aquifer can have a direct and relatively quick impact on water quality within the aquifer. Subwatersheds (Hydrologic Unit Code-or HUC-6th level) were flagged if a part of the aquifer or an area of source water delineation was within them. If the watershed was flagged it was classified with a value of 5. If not, it received a value of 0 indicating it does not contain either a part of the aquifer or an area of source water delineation. This was changed for draft two such that any sub-watershed containing a part of the aquifer or an areas of source water delineation was give a value of 1. All others were given a value of 0. 2. Priority Watersheds Priority watersheds are those containing an impaired stream or lake. Subwatersheds that contain an impaired lake or stream were originally classified with a value of 5. Subwatersheds that did not contain an impaired stream or lake are classified with a value of 0. This was changed for draft two such that any sub-watershed in which there is an impaired stream or lake was given a value of one. Those which did not were given a value of 0. Source data is the 303(d) list of all impaired waters in the state, per Section 303(d) of the Clean Water Act. These data are part of the 2008 303d/305b Integrated Report, collected and maintained by the Idaho Department of Environmental Quality, and are available for download on-line at: http://data.insideidaho.org/data/IDEQ/archive/streams305b2008_id_ideq.zip http://data.insideidaho.org/util/zip.ashx?fn=http://data.insideidaho.org/data/IDEQ/downdata/lakes305b2008_id_ideq.zip 3. Impervious Surfaces Impervious surfaces came from the National Land Cover Database (NLCD) 2001 imperviousness layer, produced through a cooperative project conducted by the Multi-Resolution Land Characteristics (MRLC) Consortium, a partnership of federal agencies (www.mrlc.gov). For a detailed definition and discussion on MRLC and the NLCD 2001 products, refer to http://www.mrlc.gov/mrlc2k.asp. The NLCD_2001_impervious layer was used where the percent of imperviousness of a 30 meter cell was converted to the impervious area and summed to a 6thorder HUC. Any HUC that had 2% or greater impervious surfaces was counted and given a value of 1. All others received a value of 0. 4. Areas with total Maximum Daily Load (TMDL) Plans Areas with TMDL's were derived from the 2008 303(d)-305(b) integrated water quality report by the Idaho Department of Environmental Quality. All sub-watersheds in which a TMDL plan was located received a value of 1, all others were given a value of 0. Issue Process: All four datasets were added together giving a range of scores of 0 through 4. The zero was dropped and the other scores were reclassified with scores of 2 - 5. IDEQ (Idaho Division of Environmental Quality) Ground Water Program, Idaho Source Water Assessment Plan, 1999, Boise, ID 200 p. http://www.deq.state.id.us/water/data_reports/source_water/swa_plan_1999.pdf IDEQ Surface Water: Integrated Â§303(d)/Â§305(b) Report http://www.deq.state.id.us/WATER/data_reports/surface_water/monitoring/integrated_report.cfm Idaho Statewide Assessment of Forest Resources document contains additional information and can be found at: http://www.idl.idaho.gov/bureau/ForestAssist/safr/final/061410-ID-SAFR-FINAL.pdf.",
+  "owner_org": "75e22a8a-da5f-46f3-93d8-924063a3703d",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Idaho Department of Lands\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "edeyoung@idl.idaho.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "\n-117.587000"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2011-04-13"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2009-09-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "\n-110.499273"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "\n49.071647"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "\n41.804514"
+    },
+    {
+      "key": "licence",
+      "value": "[\"None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the IDL would be appreciated.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "underDevelopment"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-117.587, 41.804514], [-110.499273, 41.804514], [-110.499273, 49.071647], [-117.587, 49.071647], [-117.587, 41.804514]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the IDL would be appreciated.\", \"Access Constraints: Public, Federal Goverment, Idaho State Government, IDL Authorized Users\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "tags",
+      "value": "state assessment, ground water, human impact, drinking water, statewide forest resource strategy, surface water, state assessment of forest resources, safr, sfrs"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "812b8459-747d-4d3d-9a2c-781137abef32"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "6d1998c4-ba28-47a6-9395-7413c0cc32ac"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Idaho Geospatial Data Clearinghouse"
+    }
+  ],
+  "title": "Relative Potential Benefit to Water Quality from Forests and Canopy",
+  "revision_id": "92c90426-55b0-47df-bd5d-6d91f2f09e67"
+}

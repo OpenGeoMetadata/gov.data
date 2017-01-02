@@ -1,0 +1,226 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Jamey Wood",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "jamey.wood@nrel.gov",
+  "num_tags": 6,
+  "id": "5c4e069a-cc6b-492e-bee0-145c7df4d03d",
+  "metadata_created": "2015-02-23T20:19:34.717779",
+  "metadata_modified": "2015-08-26T07:52:55.836631",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "5c4e069a-cc6b-492e-bee0-145c7df4d03d",
+      "webstore_last_updated": null,
+      "id": "0b3a97a8-5eca-4e24-beb2-71c888bd2f46",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "This ZIP file contains the 10km solar DNI data shapefile (.dbf, .prj, .sbn, .sbx, .shp, .shx) and metadata (.shp.xml), a .jpg map of the data and a disclaimer notice.",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 9,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "Continental U.S. DNI 10km Resolution 1998 to 2005",
+      "created": "2015-02-23T15:19:34.972298",
+      "url": "http://en.openei.org/doe-opendata/dataset/9b8b14de-7ee5-4b81-ae15-ffda854446dd/resource/ad3e809b-dfe0-4ff0-a421-0ba8cc484600/download/lower48dnihighresolution.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "aa85f985-e85d-4d6c-816d-8493b76f9656",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "dni",
+      "id": "9f8dacda-66ee-4bb0-87a5-bdefdad71f6a",
+      "name": "dni"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "gis",
+      "id": "3dc0c789-3e0c-4755-8418-1f1a0b82a70b",
+      "name": "gis"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "nrel",
+      "id": "a92a3ab2-47b3-4a47-a58f-b95cec6360e1",
+      "name": "nrel"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "shapefile",
+      "id": "c93a711f-def1-45a7-b1de-ca2bd28188dc",
+      "name": "shapefile"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "solar",
+      "id": "5ffaad45-7a76-49bd-ab23-df054be0d490",
+      "name": "solar"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "united-states",
+      "id": "acc24ea3-fd32-44ce-ac48-a508c4b6bd76",
+      "name": "united-states"
+    }
+  ],
+  "tracking_summary": {
+    "total": 33,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "nrel-gis-data-continental-united-states-direct-normal-solar-resource-10km-resolution-1998-",
+  "isopen": true,
+  "url": null,
+  "notes": "This data provides monthly average and annual average daily total solar resource averaged over surface cells of 0.1 degrees in both latitude and longitude, or about 10 km in size. This data was developed using the State University of New York/Albany satellite radiation model.  This model was developed by Dr. Richard Perez and collaborators at the National Renewable Energy Laboratory and other universities for the U.S. Department of Energy. Specific information about this model can be found in Perez, et al. (2002). This model uses hourly radiance images from geostationary weather satellites, daily snow cover data, and monthly averages of atmospheric water vapor, trace gases, and the amount of aerosols in the atmosphere to calculate the hourly total insolation (sun and sky) falling on a horizontal surface. Atmospheric water vapor, trace gases, and aerosols are derived from a variety of sources. A modified Bird model is used to calculate clear sky direct normal (DNI).  This is then adjusted as a function of the  ratio of clear sky global horizontal (GHI) and the model predicted GHI.   Where possible, existing ground measurement stations are used to validate the data. Nevertheless, there is uncertainty associated with the meteorological input to the model, since some of the input parameters are not available at a 10km resolution. As a result, it is believed that the modeled values are accurate to approximately 15% of a true measured value within the grid cell. Due to terrain effects and other microclimate influences, the local cloud cover can vary significantly even within a single grid cell. Furthermore, the uncertainty of the modeled estimates increase with distance from reliable measurement sources and with the complexity of the terrain.\r\n\r\n### License Info\r\nDISCLAIMER NOTICE\r\nThis GIS data was developed by the National Renewable Energy Laboratory (\"NREL\"), which is operated by the Alliance for Sustainable Energy, LLC for the U.S. Department of Energy (\"DOE\"). The user is granted the right, without any fee or cost, to use, copy, modify, alter, enhance and distribute this data for any purpose whatsoever, provided that this entire notice appears in all copies of the data. Further, the user of this data agrees to credit NREL in any publications or software that incorporate or use the data.\r\n\r\nAccess to and use of the GIS data shall further impose the following obligations on the User. The names DOE/NREL may not be used in any advertising or publicity to endorse or promote any product or commercial entity using or incorporating the GIS data unless specific written authorization is obtained from DOE/NREL. The User also understands that DOE/NREL shall not be obligated to provide updates, support, consulting, training or assistance of any kind whatsoever with regard to the use of the GIS data.\r\n\r\nTHE GIS DATA IS PROVIDED \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL DOE/NREL BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER, INCLUDING BUT NOT LIMITED TO CLAIMS ASSOCIATED WITH THE LOSS OF DATA OR PROFITS, WHICH MAY RESULT FROM AN ACTION IN CONTRACT, NEGLIGENCE OR OTHER TORTIOUS CLAIM THAT ARISES OUT OF OR IN CONNECTION WITH THE ACCESS OR USE OF THE GIS DATA.\r\n\r\nThe User acknowledges that access to the GIS data is subject to U.S. Export laws and regulations and any use or transfer of the GIS data must be authorized under those regulations. The User shall not use, distribute, transfer, or transmit GIS data or any products incorporating the GIS data except in compliance with U.S. export regulations. If requested by DOE/NREL, the User agrees to sign written assurances and other export-related documentation as may be required to comply with U.S. export regulations.",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "accessURL",
+      "value": "http://en.openei.org/doe-opendata/dataset/9b8b14de-7ee5-4b81-ae15-ffda854446dd/resource/ad3e809b-dfe0-4ff0-a421-0ba8cc484600/download/lower48dnihighresolution.zip"
+    },
+    {
+      "key": "publisher",
+      "value": "National Renewable Energy Laboratory"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "license",
+      "value": "http://www.opendefinition.org/licenses/odc-by"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "format",
+      "value": "application/unknown"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2015-08-21T20:51:06Z"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:000"
+      ]
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/9b8b14de-7ee5-4b81-ae15-ffda854446dd"
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "landingPage",
+      "value": "http://www.nrel.gov/gis/cfm/input.cfm"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d1f3d5fb-5a5d-4953-b07f-4a5f0eae40e7"
+    },
+    {
+      "key": "source_hash",
+      "value": "044800fc56314fa3beb709491e8b030776965bd1"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d1f3d5fb-5a5d-4953-b07f-4a5f0eae40e7"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "title": "NREL GIS Data: Continental United States Direct Normal Solar Resource 10km Resolution (1998 - 2005)",
+  "revision_id": "aa85f985-e85d-4d6c-816d-8493b76f9656"
+}

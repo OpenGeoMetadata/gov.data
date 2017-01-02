@@ -1,0 +1,346 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Christopher Leithiser",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "Chris.Leithiser@uspto.gov",
+  "num_tags": 17,
+  "id": "3479bdbb-3f7d-4904-ac5c-2c11393a04fe",
+  "metadata_created": "2015-05-20T21:04:21.816950",
+  "metadata_modified": "2016-08-03T19:40:39.865334",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "3479bdbb-3f7d-4904-ac5c-2c11393a04fe",
+      "webstore_last_updated": null,
+      "id": "345fc606-8832-479f-9d39-d698fef10325",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Reed Tech has begun crawling patent documents, including Image File Wrappers, from the USPTO's Public PAIR (Patent Application Information Retrieval) site. This crawl operates continually and will be retrieving both already-submitted documents and new documents as the USPTO makes them publicly available.\r\n\r\nExcept for repackaging into zip files, these documents are hosted by Reed Tech unchanged. A single zip file is created for each patent application. There is detailed documentation about the format as well as the overview below.\r\n\r\nHow to access PAIR data: To access a particular zipfile, replace APP_NUM in the following URL with an application number of interest:\r\nhttp://patents.reedtech.com/downloads/pair/APP_NUM.zip\r\nFor example: http://patents.reedtech.com/downloads/pair/12102391.zip \r\nOver 6,591,434 applications are available. Additional applications will be added regularly as the crawl progresses.\r\n\r\nOverview of zipfile contents: Each zipfile contains the following:\r\n•A README.txt file which indicates when the data was obtained. •Data files (.tsv), in tab-delimited text format, compatible with many spreadsheet programs. Each data file represents one tab from the PAIR interface: Address and Attorney/Agent, Application Data, Continuity Data, Foreign Priority, Image File Wrapper, Patent Term Adjustments / Extension History, Transaction History. ◦Data tables from the PAIR interface are organized in one of two ways: 1. Labels in the first column. (Example: Application Data tab.) The second column contains the corresponding value (example: Application number and 12/102,391). 2. Labels in the first row. (Example: Transaction History tab, with labels such as Date and Transaction Description.) Each subsequent row contains the corresponding values for one data item. (In the example, each row represents a single transaction.) ◦Some .tsv files contain more than one table, separated by a blank line. ◦The Image File Wrapper data file is put in a separate directory along with the additional content that it links to. An extra Filename column is added to the .tsv file to indicate the appropriate file for each item. •Image files (.pdf), in Adobe PDF format. This data is only available for patent applications which have an Image File Wrapper tab on the USPTO PAIR site.\r\n\r\nDisclaimer: No guarantees are made with respect to the completeness or accuracy of this data. In particular, the crawl may discover and retrieve additional documents over time, even for applications submitted long ago. Please visit the USPTO PAIR site for official, current, and complete information: http://portal.uspto.gov/pair/PublicPair (uses reCAPTCHA)",
+      "format": "PDF",
+      "tracking_summary": {
+        "total": 27,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/pdf",
+      "cache_url": null,
+      "name": "PUBLIC Patent Application Information Retrieval (PAIR) Extracts (2001 - Present)",
+      "created": "2015-05-20T17:04:22.195016",
+      "url": "http://patents.reedtech.com/Public-PAIR.php",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 1,
+      "revision_id": "552de3d2-1698-436c-bcb8-bcc0100caa78",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "address",
+      "id": "1ee2b00c-a95e-4853-b4dd-34087ad50e1c",
+      "name": "address"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "agent",
+      "id": "8dc9bb62-2dfa-4c0b-94b5-c5d11701f587",
+      "name": "agent"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "application",
+      "id": "55fa468b-32c3-423e-9005-534f13fa4394",
+      "name": "application"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "attorney",
+      "id": "82c11aba-6acc-4102-9023-dacc3759f170",
+      "name": "attorney"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "continuity-data",
+      "id": "958ba01b-a8cd-4ed2-9b2d-3828029fde13",
+      "name": "continuity-data"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "correspondence",
+      "id": "cf7dd1cb-19ac-4b56-94df-10bdfc76bed4",
+      "name": "correspondence"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "foreign-priority",
+      "id": "da2c649d-e1d3-4ac4-af09-f4df9a11d02d",
+      "name": "foreign-priority"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "grant",
+      "id": "9708d922-c3c4-41da-a1f9-29819b2d6756",
+      "name": "grant"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "image-file-wrapper",
+      "id": "a1f30e15-3769-423f-8224-0df4553c03b9",
+      "name": "image-file-wrapper"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "images",
+      "id": "dbb75b10-fe1e-4f6f-8402-1600f0c7e5c3",
+      "name": "images"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "palm",
+      "id": "3d46f3a9-5621-4139-97bb-d5607f727761",
+      "name": "palm"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "patent",
+      "id": "b62e6408-ccfc-4134-b526-e223d57222b0",
+      "name": "patent"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "patent-term-adjustments",
+      "id": "4787545d-b190-439e-b1e0-e4825f735c20",
+      "name": "patent-term-adjustments"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "pdf",
+      "id": "1d5fb9b4-3ece-4621-a658-4fa3165ea8fc",
+      "name": "pdf"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "status",
+      "id": "75602239-e6ff-4d35-bccc-47b1e35425ca",
+      "name": "status"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "transaction-history",
+      "id": "280c3ffd-9716-488d-b1aa-5a27784200bf",
+      "name": "transaction-history"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "uspto",
+      "id": "96ae3c22-0c8f-4d8b-b636-0a66a8fef227",
+      "name": "uspto"
+    }
+  ],
+  "tracking_summary": {
+    "total": 221,
+    "recent": 5
+  },
+  "groups": [
+    {
+      "display_name": "BusinessUSA",
+      "description": "",
+      "image_display_url": "",
+      "title": "BusinessUSA",
+      "id": "39a03cb4-bc85-455a-b19c-892c7e29e24b",
+      "name": "businessusa4208"
+    },
+    {
+      "display_name": "Energy",
+      "description": "",
+      "image_display_url": "",
+      "title": "Energy",
+      "id": "b6db7c5a-d306-4da5-a0cd-b4128e1322ce",
+      "name": "energy9485"
+    }
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:37:59.153068",
+    "title": "Department of Commerce",
+    "name": "doc-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.vos.noaa.gov/MWL/aug_10/Images/doc_logo_xparent.png",
+    "revision_id": "44c851b9-8872-497a-8a13-2f06740b7ffb",
+    "type": "organization",
+    "id": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+    "approval_status": "approved"
+  },
+  "name": "public-patent-application-information-retrieval-pair-extracts-2001-present",
+  "isopen": true,
+  "url": null,
+  "notes": "Reed Tech has begun crawling patent documents, including Image File Wrappers, from the USPTO's Public PAIR (Patent Application Information Retrieval) site. This crawl operates continually and will be retrieving both already-submitted documents and new documents as the USPTO makes them publicly available.\r\n\r\nExcept for repackaging into zip files, these documents are hosted by Reed Tech unchanged. A single zip file is created for each patent application. There is detailed documentation about the format as well as the overview below.\r\n\r\nHow to access PAIR data:\r\nTo access a particular zipfile, replace APP_NUM in the following URL with an application number of interest:  \r\nhttp://patents.reedtech.com/downloads/pair/APP_NUM.zip  \r\n  \r\nFor example: http://patents.reedtech.com/downloads/pair/12102391.zip                                                                                               \r\nOver 6,591,434 applications are available. Additional applications will be added regularly as the crawl progresses. \r\n\r\nOverview of zipfile contents:\r\nEach zipfile contains the following:  \r\n•A README.txt file which indicates when the data was obtained.\r\n•Data files (*.tsv), in tab-delimited text format, compatible with many spreadsheet programs. Each data file represents one tab from the PAIR interface: Address and Attorney/Agent, Application Data, Continuity Data, Foreign Priority, Image File Wrapper, Patent Term Adjustments / Extension History, Transaction History. \r\n◦Data tables from the PAIR interface are organized in one of two ways: \r\n1. Labels in the first column. (Example: Application Data tab.) The second column contains the corresponding value (example: Application number and 12/102,391).\r\n2. Labels in the first row. (Example: Transaction History tab, with labels such as Date and Transaction Description.) Each subsequent row contains the corresponding values for one data item. (In the example, each row represents a single transaction.) \r\n◦Some *.tsv files contain more than one table, separated by a blank line. \r\n◦The Image File Wrapper data file is put in a separate directory along with the additional content that it links to. An extra Filename column is added to the *.tsv file to indicate the appropriate file for each item.\r\n•Image files (*.pdf), in Adobe PDF format. This data is only available for patent applications which have an Image File Wrapper tab on the USPTO PAIR site. \r\n\r\nDisclaimer:\r\nNo guarantees are made with respect to the completeness or accuracy of this data. In particular, the crawl may discover and retrieve additional documents over time, even for applications submitted long ago. Please visit the USPTO PAIR site for official, current, and complete information:  http://portal.uspto.gov/pair/PublicPair  (uses reCAPTCHA)",
+  "owner_org": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "issued",
+      "value": "2010-10-01"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://patents.reedtech.com/Public-PAIR.php"
+      ]
+    },
+    {
+      "key": "source_hash",
+      "value": "715aa32ed85d0119a7cd04e0177dedd6797594ac"
+    },
+    {
+      "key": "temporal",
+      "value": "2001/2015"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Published Patent Application; Patent Grant"
+      ]
+    },
+    {
+      "key": "describedByType",
+      "value": "application/pdf"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "describedBy",
+      "value": "http://patents.reedtech.com/Public-PAIR.php"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "spatial",
+      "value": "Mailing Address"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "006:070"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "006:51"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "6791a959-8d0a-422f-9432-b2cef7f5bb68"
+    },
+    {
+      "key": "__category_tag_b6db7c5a-d306-4da5-a0cd-b4128e1322ce",
+      "value": "[\"Total Energy\"]"
+    },
+    {
+      "key": "publisher",
+      "value": "US Patent and Trademark Office, Department of Commerce"
+    },
+    {
+      "key": "license",
+      "value": "http://creativecommons.org/publicdomain/mark/1.0"
+    },
+    {
+      "key": "modified",
+      "value": "2015-03-19"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1D"
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "EIP-PUBPAIR-OL"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "6791a959-8d0a-422f-9432-b2cef7f5bb68"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    }
+  ],
+  "title": "PUBLIC Patent Application Information Retrieval (PAIR) Extracts (2001 - Present)",
+  "revision_id": "187ab92d-9b7b-458e-a5c0-b3a7774aea82"
+}

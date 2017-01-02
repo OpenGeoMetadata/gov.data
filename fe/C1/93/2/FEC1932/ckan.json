@@ -1,0 +1,176 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "FEC-1932",
+  "metadata_created": "2013-05-18T10:16:33.943137",
+  "metadata_modified": "2014-01-12T07:53:28.443060",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "FEC-1932",
+      "webstore_last_updated": null,
+      "id": "2ca23d97-fc29-4ee8-897d-e6b9a8087128",
+      "size": null,
+      "size_text": "0.2",
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "CSV",
+      "tracking_summary": {
+        "total": 12,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "revision_id": "9411edf0-abe4-4229-b876-018efdadd153",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Comma Separated Values File",
+      "created": "2013-05-18T12:16:33.983730",
+      "url": "http://www.fec.gov/data/AdminFine.do?Format=csv",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "FEC-1932",
+      "webstore_last_updated": null,
+      "id": "51bd494a-68a5-420d-a4fe-dd57871a37a5",
+      "size": null,
+      "size_text": "0.58",
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "XML",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "revision_id": "9411edf0-abe4-4229-b876-018efdadd153",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "XML File",
+      "created": "2013-05-18T12:16:33.983753",
+      "url": "http://www.fec.gov/data/AdminFine.do?Format=xml",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 102,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T12:12:53.982575",
+    "title": "Federal Election Commission",
+    "name": "fec-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://gsa.github.io/logo/fec.png",
+    "revision_id": "55e9fafd-7522-427a-8709-0824f5468cb9",
+    "type": "organization",
+    "id": "f27b2b21-8f0f-41a3-adf0-b75e6aa03996",
+    "approval_status": "approved"
+  },
+  "name": "fec-administrative-fines-file",
+  "isopen": false,
+  "url": null,
+  "notes": "A list of completed cases where committees have been penalized for failure to file required disclosure reports or for filing reports after the deadline",
+  "owner_org": "f27b2b21-8f0f-41a3-adf0-b75e6aa03996",
+  "extras": [
+    {
+      "key": "data-quality",
+      "value": "TRUE"
+    },
+    {
+      "key": "contact-email",
+      "value": "bbiersack@fec.gov"
+    },
+    {
+      "key": "data-dictiionary",
+      "value": "http://www.fec.gov/finance/disclosure/metadata/MetadataforAdministrativeFines.shtml"
+    },
+    {
+      "key": "issued",
+      "value": "29-Dec-2009"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "July 2000 to the present"
+    },
+    {
+      "key": "spatial-text",
+      "value": "n/a"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Section 7. Elections"
+      ]
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://www.fec.gov/finance/disclosure/metadata/MetadataforAdministrativeFines.shtml"
+      ]
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "File is updated once each day"
+    },
+    {
+      "key": "metadata-date",
+      "value": "04-Feb-2010"
+    },
+    {
+      "key": "access-level",
+      "value": "public"
+    },
+    {
+      "key": "metadata-source",
+      "value": "dms"
+    },
+    {
+      "key": "tags",
+      "value": "{\"Campaign Finance\",\"Political Contributions\",\"Campaign Receipts\",\"Campaign Money\",\"Congressional Campaign Finance\",\"Campaign Spending\",\"Political Action Committees\",\"Political Parties\"}"
+    }
+  ],
+  "title": "FEC Administrative Fines File",
+  "revision_id": "8d3396ae-8756-4fb6-b64b-5f45a0956d39"
+}

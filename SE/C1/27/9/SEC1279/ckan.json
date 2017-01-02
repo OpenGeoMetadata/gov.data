@@ -1,0 +1,150 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "SEC-1279",
+  "metadata_created": "2013-05-18T09:58:25.525730",
+  "metadata_modified": "2014-01-12T07:35:58.395173",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "SEC-1279",
+      "webstore_last_updated": null,
+      "id": "3643005b-e9d4-4d69-bbb5-5c86eda52011",
+      "size": null,
+      "size_text": "1M",
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "HTML, XML, PDF, XBRL",
+      "tracking_summary": {
+        "total": 87,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "revision_id": "d7cdec83-881c-40bb-94a9-c676097e7882",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2013-05-18T11:58:25.646254",
+      "url": "http://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 592,
+    "recent": 5
+  },
+  "groups": [
+    {
+      "display_name": "Finance",
+      "description": "",
+      "image_display_url": "",
+      "title": "Finance",
+      "id": "405b5dfb-24f8-4b77-9999-745076d64cb2",
+      "name": "finance3432"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:36:24.452421",
+    "title": "Securities and Exchange Commission",
+    "name": "sec-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "",
+    "revision_id": "3d18a742-824a-4d6f-8cc7-722a9c69328e",
+    "type": "organization",
+    "id": "41f1bf44-613f-410e-b350-b2535863e778",
+    "approval_status": "approved"
+  },
+  "name": "search-the-sec-website-for-the-latest-edgar-filings",
+  "isopen": false,
+  "url": null,
+  "notes": "This listing contains the most recent filings for the current official filing date (including filings made after the 5:30pm deadline on the previous filing day).  Filings may be made Monday through Friday (except US Federal holidays).",
+  "owner_org": "41f1bf44-613f-410e-b350-b2535863e778",
+  "extras": [
+    {
+      "key": "data-quality",
+      "value": "TRUE"
+    },
+    {
+      "key": "contact-email",
+      "value": "herouxr@sec.gov"
+    },
+    {
+      "key": "issued",
+      "value": "1996"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "All SEC EDGAR filings from the current day"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Section 24. Information and Communications"
+      ]
+    },
+    {
+      "key": "spatial-text",
+      "value": "All filings made with the SEC through EDGAR"
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://www.sec.gov/edgar/searchedgar/webusers.htm"
+      ]
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "Realtime for the day"
+    },
+    {
+      "key": "metadata-date",
+      "value": "Realtime"
+    },
+    {
+      "key": "access-level",
+      "value": "public"
+    },
+    {
+      "key": "metadata-source",
+      "value": "dms"
+    },
+    {
+      "key": "tags",
+      "value": "{\"Securities and Exchange Commission\",EDGAR,CIK,\"Central Index Key\",\"Standard Industrial Classification\",SIC,\"Financial Reporting\",data,filings,SEC}"
+    }
+  ],
+  "title": "Search the SEC website for the latest EDGAR filings",
+  "revision_id": "382ab080-36fc-4476-97a5-93827cc56db3"
+}

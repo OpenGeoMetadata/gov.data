@@ -1,0 +1,338 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "Eric Nelson",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "eric.nelson@nrel.gov",
+  "num_tags": 13,
+  "id": "3a2f0c93-01e2-4a57-8027-0dde9aeedc1e",
+  "metadata_created": "2016-11-30T21:28:42.385289",
+  "metadata_modified": "2016-11-30T21:28:42.385289",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "3a2f0c93-01e2-4a57-8027-0dde9aeedc1e",
+      "webstore_last_updated": null,
+      "id": "bf3611bc-8039-44c5-adde-9fe70e50d984",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "This document is a starting place for users that want to modify the MOIS_Gen3 software to meet their specific needs.  It describes the software architecture along with pointing out specific code sections that may be of interest",
+      "format": "PDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/pdf",
+      "cache_url": null,
+      "name": "mois software developer-s guide.pdf",
+      "created": "2016-11-30T16:28:42.891596",
+      "url": "http://mhkdr.openei.org/files/64/MOIS%20Software%20Developer%27s%20Guide.pdf",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "ec374bbd-436d-4e3d-821b-43f666810ba1",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "3a2f0c93-01e2-4a57-8027-0dde9aeedc1e",
+      "webstore_last_updated": null,
+      "id": "eb67908b-f5c2-4b72-af7c-84c1b5e7263c",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Document describes how to use the MOIS Gen3 software as developed.  It provides is a walk through of the host, RT, and FPGA code software as well as describing how to download the data files from the CompactRIO data acquisition controller.",
+      "format": "PDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/pdf",
+      "cache_url": null,
+      "name": "mois user guide.pdf",
+      "created": "2016-11-30T16:28:42.891625",
+      "url": "http://mhkdr.openei.org/files/64/MOIS%20User%20Guide.pdf",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 1,
+      "revision_id": "ec374bbd-436d-4e3d-821b-43f666810ba1",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "3a2f0c93-01e2-4a57-8027-0dde9aeedc1e",
+      "webstore_last_updated": null,
+      "id": "aec12061-f302-45f1-871a-682388d810da",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "The zip folder contains the complete software for the third generation of the Modular Ocean Instrumentation System, MOIS.  The software is developed in LabVIEW 2014 and this version or higher is necessary to open the LabVIEW project.  The software was written for the National Instruments cRIO 9068 controller.  It should run on other Compact RIO hardware.  Small changes may be necessary for the older PowerPC based cRIO systems.",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "mois gen3 labview source code.zip",
+      "created": "2016-11-30T16:28:42.891635",
+      "url": "http://mhkdr.openei.org/files/64/MOIS%20Gen3%20LabVIEW%20Source%20Code.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 2,
+      "revision_id": "ec374bbd-436d-4e3d-821b-43f666810ba1",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "crio",
+      "id": "857734fc-aa0d-44c3-a6f8-fbaacd7ef686",
+      "name": "crio"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "energy",
+      "id": "b778e6f8-a8f8-4ad6-968b-e9789c6afe2d",
+      "name": "energy"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "hydrokinetic",
+      "id": "87031483-72d6-457d-9dd2-3e403f2849aa",
+      "name": "hydrokinetic"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "instrumentation",
+      "id": "2b440a81-6f5a-4c96-9f85-961e81ddbc12",
+      "name": "instrumentation"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "labview",
+      "id": "78280f40-b9fd-4adb-9ca9-d9cb54a48b7b",
+      "name": "labview"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "marine",
+      "id": "f2ee2106-f44e-4421-ac64-6ed0f2451d6c",
+      "name": "marine"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "mhk",
+      "id": "a4efdc0e-8038-4a07-a08f-df8d5df9657c",
+      "name": "mhk"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "mois",
+      "id": "9b17f0c8-18a0-4a0c-93c1-eeaab3a7d503",
+      "name": "mois"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ocean",
+      "id": "8f38c56a-1dff-4dbc-9504-af259fc42e1a",
+      "name": "ocean"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "power",
+      "id": "eb008bfb-077a-445c-b461-3f704b8e22b1",
+      "name": "power"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "testing",
+      "id": "118e5b8e-6cb6-4b30-a3ab-48b52029064b",
+      "name": "testing"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "tidal",
+      "id": "c9916370-a72c-4f61-86dd-5410671252ed",
+      "name": "tidal"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "wec",
+      "id": "c325df01-e678-4d17-b549-f33f8b848ba4",
+      "name": "wec"
+    }
+  ],
+  "tracking_summary": {
+    "total": 1,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "modular-ocean-instrumentation-system-mois-labview-software-b2ec5",
+  "isopen": true,
+  "url": null,
+  "notes": "Software developed in LabVIEW for the Modular Ocean Instrumentation System is provided.  Two documents: MOIS User's Guide and MOIS Software Developer's Guide are included in the submission.  ",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "issued",
+      "value": "2015-12-03"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "6f574927cceb1591e8c0bea2fdfa7d87b73781af"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\":\"Polygon\",\"coordinates\":[[[178.9138625,15.348030666887],[-51.722225,15.348030666887],[-51.722225,69.409022910825],[178.9138625,69.409022910825],[178.9138625,15.348030666887]]]}"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "format",
+      "value": "application/unknown"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:009"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://mhkdr.openei.org/submissions/64"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "af78ea1a-baa8-48b6-a7b9-ee92e9049373"
+    },
+    {
+      "key": "accessURL",
+      "value": "http://mhkdr.openei.org/files/64/MOIS%20Gen3%20LabVIEW%20Source%20Code.zip"
+    },
+    {
+      "key": "publisher",
+      "value": "National Renewable Energy Laboratory"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "key": "modified",
+      "value": "2015-12-03"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/f0000000-e214-4a72-acd2-000000000064"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "af78ea1a-baa8-48b6-a7b9-ee92e9049373"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "Modular Ocean Instrumentation System (MOIS) LabVIEW Software",
+  "revision_id": "ec374bbd-436d-4e3d-821b-43f666810ba1"
+}

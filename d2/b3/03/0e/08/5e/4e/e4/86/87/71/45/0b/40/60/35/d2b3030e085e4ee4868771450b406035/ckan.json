@@ -1,0 +1,236 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "ROBERT MENEGHINI",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "robert.meneghini-1@nasa.gov",
+  "num_tags": 4,
+  "id": "d2b3030e-085e-4ee4-8687-71450b406035",
+  "metadata_created": "2015-07-08T20:12:55.795779",
+  "metadata_modified": "2016-05-06T08:07:41.754852",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "d2b3030e-085e-4ee4-8687-71450b406035",
+      "webstore_last_updated": null,
+      "id": "6ac8d2ef-e3b1-4d93-8d03-48b12b28d16d",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "GPM_2ADPR.V03",
+      "format": "BIN",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/octet-stream",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-07-08T16:12:55.933855",
+      "url": "ftp://gpm1.gesdisc.eosdis.nasa.gov/data/s4pa/GPM/GPM_L2/GPM_2ADPR.V03/",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "f6962430-e9d1-4f92-be3e-f1f66af987b0",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "atmosphere",
+      "id": "104e93c2-cbec-435b-b3ba-0d6385114d41",
+      "name": "atmosphere"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "atmospheric-water-vapor",
+      "id": "42dbfe72-40a6-4cb0-b5af-648e6dd3e250",
+      "name": "atmospheric-water-vapor"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "earth-science",
+      "id": "f28006f8-df78-4700-b72f-f4a19628ba67",
+      "name": "earth-science"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "precipitation",
+      "id": "5d53ad2b-1c83-4470-90e4-a5029dd6e211",
+      "name": "precipitation"
+    }
+  ],
+  "tracking_summary": {
+    "total": 4,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "gpm-dpr-level-2a-dpr-ironment-v03-gpm-2adpr-v03",
+  "isopen": true,
+  "url": null,
+  "notes": "2ADPR provides single- and dual-frequency-derived precipitation estimates from the Ku and Ka radars of the Dual-Frequency Precipitation Radar (DPR) on the core GPM spacecraft. The output consists of three main classes of precipitation products: those derived from the Ku-band frequency over a wide swath (245 km), those derived from the Ka-band frequency over a narrow swath (125 km), and those derived from the dual-frequency data over the narrow swath. The Ka-band results are further divided into the standard and high-sensitivity estimates. In the standard sensitivity mode, the fields of view within the inner swath are matched to those of the Ku-band. Data from these matched-beam Ku- and Ka-band fields of view are used to derive the dual-frequency precipitation products. The retrievals are performed at each radar range bin along the slant path of the radar instrument field of view (IFOV).\n\t\n\tThe dual-frequency retrieval benefits from having co-aligned measurements at Ku- and Ka-bands. Data from these measurements are used to infer properties of the particle size distribution, which are expected to lead to improved estimates of rainfall rate and equivalent liquid water content. Dual-frequency data are expected to improve the capability to discriminate among water, ice, and mixed-phase hydrometeors as a function of height. This capability is particularly important in convective storms where a bright-band signature, associated with mixed-phase hydrometeors, is usually not detectable. In addition, the different attenuation rates of the Ku- and Ka-bands allow differential attenuation techniques to be used to estimate the path integrated attenuation. The high-sensitivity Ka-band channel is expected to have 6 dB greater sensitivity than the Ku- and standard Ka-band channels and to provide enhanced detection capabilities at the light rainfall rates.\n\t\n\tABSTRACT",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "collection_metadata",
+      "value": "true"
+    },
+    {
+      "key": "issued",
+      "value": "2014-06-11T00:00:00.000Z"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "77dffca00406b81a41402d7ba08c453645f19294"
+    },
+    {
+      "key": "temporal",
+      "value": "R/2014-02-01T00:00:00Z/P1Y"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "geospatial"
+      ]
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:001"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "647bfbc5-0421-4636-8398-dfc06398a734"
+    },
+    {
+      "key": "publisher",
+      "value": "GESDISC"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "55942aadc63a7fe59b49a01d"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "U.S. Government > National Aeronautics and Space Administration > GESDISC"
+    },
+    {
+      "key": "modified",
+      "value": "2015-01-21T00:00:00.000Z"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "C215233228-GSFCS4PA"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "647bfbc5-0421-4636-8398-dfc06398a734"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "GPM, DPR Level 2A DPR ironment V03 (GPM_2ADPR) V03",
+  "revision_id": "f6962430-e9d1-4f92-be3e-f1f66af987b0"
+}

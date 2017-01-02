@@ -1,0 +1,286 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Devin Ure",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "devin.ure@dot.gov",
+  "num_tags": 9,
+  "id": "c11d4e9f-9b97-4886-948f-a9bf0118a930",
+  "metadata_created": "2016-05-25T00:43:08.453363",
+  "metadata_modified": "2016-05-25T00:43:08.453363",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "actual-balance",
+      "id": "a59e8a8d-b0b1-46c8-8491-4459e8379d80",
+      "name": "actual-balance"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "budget-balance",
+      "id": "b218cf85-dade-4cb7-9b28-9a40375fd385",
+      "name": "budget-balance"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "chart-of-accounts",
+      "id": "7d67aa4b-36fc-46e8-ab5e-ea049d51917c",
+      "name": "chart-of-accounts"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "encumbrance-balance",
+      "id": "453a43ac-4303-4a78-81f7-2ce4823a5958",
+      "name": "encumbrance-balance"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "event-time-stamps",
+      "id": "7028ce5c-d4ec-4755-88ed-66002d60e35a",
+      "name": "event-time-stamps"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "journal-entry",
+      "id": "b0b0df2b-58e2-4886-ac12-d0bce9107ed7",
+      "name": "journal-entry"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ledger-relationships",
+      "id": "4c8e8a27-bd1b-4670-a234-3f42b5d5108b",
+      "name": "ledger-relationships"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "united-states-standard-general-ledger",
+      "id": "0f030b5c-038f-4f08-a395-dcb57d33ce86",
+      "name": "united-states-standard-general-ledger"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ussgl",
+      "id": "446bdf9f-c5d4-4ce8-b478-c1576e5eab94",
+      "name": "ussgl"
+    }
+  ],
+  "tracking_summary": {
+    "total": 9,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:46:56.521190",
+    "title": "Department of Transportation",
+    "name": "dot-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://upload.wikimedia.org/wikipedia/commons/8/81/US_DOT_Triskelion.png",
+    "revision_id": "684c8481-4ae2-46b0-a083-b392eea15130",
+    "type": "organization",
+    "id": "fc5cb2c1-d0b0-482a-8a52-7d42ea186ae1",
+    "approval_status": "approved"
+  },
+  "name": "delphi-general-ledger",
+  "isopen": true,
+  "url": null,
+  "notes": "Delphi general ledger contains the following data elements, but is not limited to the United States Standard General Ledger (USSGL) chart of accounts, stores actual, budget, and encumbrance balances for detail and summary accounts, event time stamps, stores journal entry source names and descriptions, and stores the relationships between ledgers.",
+  "owner_org": "fc5cb2c1-d0b0-482a-8a52-7d42ea186ae1",
+  "extras": [
+    {
+      "key": "confidentiality",
+      "value": false
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "a400d398-0d24-4940-b8b3-6573a1670b01"
+    },
+    {
+      "key": "issued",
+      "value": "2014-12-29"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "category",
+      "value": "Raw data"
+    },
+    {
+      "key": "source_hash",
+      "value": "bb8daee1aab6bee6c2092b062912162790a57f41"
+    },
+    {
+      "key": "QualityResponsibleAgency",
+      "value": "Office of the Secretary of Transportation"
+    },
+    {
+      "key": "temporal",
+      "value": "R/2014-12-29/P1Y"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Transportation"
+      ]
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "021:058"
+      ]
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "subagency",
+      "value": "Office of the Secretary of Transportation"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "primaryITInvestmentUII",
+      "value": "021-105731835"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "DOT JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "phone",
+      "value": "202-366-9646"
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "021:04"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "non-public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "85053913-5711-47ec-8ee2-6e73909288b7"
+    },
+    {
+      "key": "publisher",
+      "value": "Office of the Secretary of Transportation"
+    },
+    {
+      "key": "organizationName",
+      "value": "Department of Transportation / Office of the Secretary of Transportation"
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "rights",
+      "value": "The data set contains controlled unclassified procurement information, confidential business information, and information protected by statute or regulation."
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "U.S. Government > Department of Transportation > Office of the Secretary of Transportation"
+    },
+    {
+      "key": "guidelineCompliance",
+      "value": false
+    },
+    {
+      "key": "modified",
+      "value": "2015-08-10"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "catalog_@id",
+      "value": "https://www.dot.gov/data.json"
+    },
+    {
+      "key": "categoryDesignation",
+      "value": "Research"
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1Y"
+    },
+    {
+      "key": "numberOfDatasets",
+      "value": 1
+    },
+    {
+      "key": "additionalMetadata",
+      "value": "N/A"
+    },
+    {
+      "key": "identifier",
+      "value": "736.0"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "85053913-5711-47ec-8ee2-6e73909288b7"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "a400d398-0d24-4940-b8b3-6573a1670b01"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "DOT JSON"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "Delphi General Ledger",
+  "revision_id": "e863a53d-7958-44d7-89d8-cf3651f4f8e2"
+}

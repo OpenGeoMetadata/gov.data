@@ -1,0 +1,206 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "<Nobody>",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "marycatherine.snyder@seattle.gov",
+  "num_tags": 4,
+  "id": "3842d723-6879-475a-bf9b-4425782101f5",
+  "metadata_created": "2016-03-10T07:12:49.815789",
+  "metadata_modified": "2016-03-10T07:12:49.815789",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "3842d723-6879-475a-bf9b-4425782101f5",
+      "webstore_last_updated": null,
+      "id": "04cebd9a-8de0-4be6-af68-2a834a6415e2",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "appinfo.htm",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 15,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "text/html",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-03-10T02:12:50.213159",
+      "url": "http://wwwqa.seattle.gov/transportation/parking/appinfo.htm",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "0f9d217b-cc47-4bd1-9dff-e64eca9cc0ba",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "paid",
+      "id": "bc7282d9-1619-4f65-8cb4-7537152062b0",
+      "name": "paid"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "parking",
+      "id": "0664c3b4-a4fa-497f-94b8-8791084df1b4",
+      "name": "parking"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "seattle",
+      "id": "dd4b1597-1f90-4e1f-ab4e-6770e5cfff36",
+      "name": "seattle"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "transaction",
+      "id": "90694e2f-6ef8-4a37-8e3c-f17087578e5e",
+      "name": "transaction"
+    }
+  ],
+  "tracking_summary": {
+    "total": 45,
+    "recent": 2
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2014-04-16T13:32:08.875275",
+    "title": "City of Seattle",
+    "name": "city-of-seattle",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "",
+    "revision_id": "70b5c1a8-4609-4540-afe0-d77be68314fd",
+    "type": "organization",
+    "id": "5107fb38-f013-41bc-b6d9-80e63c333796",
+    "approval_status": "approved"
+  },
+  "name": "seattle-parking-transactions",
+  "isopen": false,
+  "url": null,
+  "notes": "This parking transaction data set results from transactions at parking pay stations for paid street parking within city limits and transactions from the City’s mobile payment vendor, called PayByPhone. The dataset is downloaded nightly with the prior days’ paid parking transaction data. SDOT has transaction records back to January 2012.",
+  "owner_org": "5107fb38-f013-41bc-b6d9-80e63c333796",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "data.seattle.gov"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "ce6dc3d2-9d16-4e25-837e-2789a33416fc"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "issued",
+      "value": "2015-10-23"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2015-10-26"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Seattle JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Transportation"
+      ]
+    },
+    {
+      "key": "catalog_@id",
+      "value": "https://data.seattle.gov/data.json"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "https://data.seattle.gov/api/views/updn-y53g"
+    },
+    {
+      "key": "landingPage",
+      "value": "https://data.seattle.gov/d/updn-y53g"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "baa6087b-a595-42c9-ad9a-4fd6b785e284"
+    },
+    {
+      "key": "source_hash",
+      "value": "a05d0aaa19c39373f2a02ed7b130fb05eee4f2b7"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "baa6087b-a595-42c9-ad9a-4fd6b785e284"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "ce6dc3d2-9d16-4e25-837e-2789a33416fc"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Seattle JSON"
+    }
+  ],
+  "title": "Seattle Parking Transactions",
+  "revision_id": "0f9d217b-cc47-4bd1-9dff-e64eca9cc0ba"
+}

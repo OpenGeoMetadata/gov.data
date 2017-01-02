@@ -1,0 +1,642 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "b194d6f1-07f2-4e38-9b1b-d4ec155b04d9",
+  "metadata_created": "2016-03-28T18:42:32.558306",
+  "metadata_modified": "2016-10-04T01:13:36.959968",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "b194d6f1-07f2-4e38-9b1b-d4ec155b04d9",
+      "webstore_last_updated": null,
+      "id": "c6c0ade6-3167-44a2-ac1c-582386a27a8e",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Navigate directly to the URL for data access and direct download.",
+      "format": "Originator data format",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "HTTP",
+      "created": "2016-10-03T21:13:37.308078",
+      "url": "https://data.nodc.noaa.gov/ioos/ngdac/2014/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "3ec6fd93-227a-4b76-bb08-a253b07a2889",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b194d6f1-07f2-4e38-9b1b-d4ec155b04d9",
+      "webstore_last_updated": null,
+      "id": "fc9310d0-190c-4edc-b9cf-4d2058c4bf9c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Navigate directly to the URL for a descriptive web page with download links.",
+      "format": "Originator data format",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Descriptive Information",
+      "created": "2016-10-03T21:13:37.308104",
+      "url": "https://accession.nodc.noaa.gov/0145662",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "3ec6fd93-227a-4b76-bb08-a253b07a2889",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b194d6f1-07f2-4e38-9b1b-d4ec155b04d9",
+      "webstore_last_updated": null,
+      "id": "f689d1c3-19db-4b2e-a237-58fc7a222409",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "These data are available through a variety of services via a THREDDS (Thematic Real-time Environmental Distributed Data Services) Data Server (TDS). Depending on the dataset, the TDS can provide WMS, WCS, DAP, HTTP, and other data access and metadata services as well. For more information on the TDS, see http://www.unidata.ucar.edu/software/thredds/current/tds/.",
+      "format": "Originator data format",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "THREDDS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "THREDDS",
+      "created": "2016-10-03T21:13:37.308114",
+      "url": "https://data.nodc.noaa.gov/thredds/catalog/ioos/ngdac/2014/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "3ec6fd93-227a-4b76-bb08-a253b07a2889",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b194d6f1-07f2-4e38-9b1b-d4ec155b04d9",
+      "webstore_last_updated": null,
+      "id": "8257f652-5f07-4fdc-aadf-cf3c2ec10655",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "These data are available through the Data Access Protocol (DAP) via an OPeNDAP Hyrax server. For a listing of OPeNDAP clients which may be used to access OPeNDAP-enabled data sets, please see the OPeNDAP website at http://opendap.org/.",
+      "format": "Originator data format",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "DAP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OPeNDAP",
+      "created": "2016-10-03T21:13:37.308122",
+      "url": "https://data.nodc.noaa.gov/opendap/ioos/ngdac/2014/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 3,
+      "revision_id": "3ec6fd93-227a-4b76-bb08-a253b07a2889",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b194d6f1-07f2-4e38-9b1b-d4ec155b04d9",
+      "webstore_last_updated": null,
+      "id": "213f551f-e810-4ef1-b3c9-4b947f4a5053",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Navigate directly to the URL for a descriptive web page with download links.",
+      "format": "Originator data format",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Descriptive Information",
+      "created": "2016-10-03T21:13:37.308129",
+      "url": "https://accession.nodc.noaa.gov/oas/145662",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 4,
+      "revision_id": "3ec6fd93-227a-4b76-bb08-a253b07a2889",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b194d6f1-07f2-4e38-9b1b-d4ec155b04d9",
+      "webstore_last_updated": null,
+      "id": "5ea196f0-eb92-4524-a026-1cc1b34ac6b8",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Navigate directly to the URL for data access and direct download.",
+      "format": "Originator data format",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "HTTP",
+      "created": "2016-10-03T21:13:37.308136",
+      "url": "https://accession.nodc.noaa.gov/download/145662",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 5,
+      "revision_id": "3ec6fd93-227a-4b76-bb08-a253b07a2889",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b194d6f1-07f2-4e38-9b1b-d4ec155b04d9",
+      "webstore_last_updated": null,
+      "id": "0b32d530-9af1-417c-808f-339f8a201a14",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "These data are available through the File Transfer Protocol (FTP). You may use any FTP client to download these data.",
+      "format": "Originator data format",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "FTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FTP",
+      "created": "2016-10-03T21:13:37.308143",
+      "url": "ftp://ftp.nodc.noaa.gov/nodc/archive/arc0088/0145662/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 6,
+      "revision_id": "3ec6fd93-227a-4b76-bb08-a253b07a2889",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b194d6f1-07f2-4e38-9b1b-d4ec155b04d9",
+      "webstore_last_updated": null,
+      "id": "8d973710-8863-4b12-9f13-e8a7c0db4a27",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Main NCEI website providing links to access data and data services.",
+      "format": "",
+      "tracking_summary": {
+        "total": 51,
+        "recent": 8
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA National Centers for Environmental Information website",
+      "created": "2016-10-03T21:13:37.308150",
+      "url": "https://www.ncei.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 7,
+      "revision_id": "3ec6fd93-227a-4b76-bb08-a253b07a2889",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b194d6f1-07f2-4e38-9b1b-d4ec155b04d9",
+      "webstore_last_updated": null,
+      "id": "9ea46873-b28d-4e63-9ca5-c0daac339081",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Institution web page",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Integrated Ocean Observing System Program website",
+      "created": "2016-10-03T21:13:37.308158",
+      "url": "http://www.ioos.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 8,
+      "revision_id": "3ec6fd93-227a-4b76-bb08-a253b07a2889",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b194d6f1-07f2-4e38-9b1b-d4ec155b04d9",
+      "webstore_last_updated": null,
+      "id": "d90b1f00-b57e-4731-a5bb-7bd746baa40a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Main NCEI website providing links to access data and data services.",
+      "format": "",
+      "tracking_summary": {
+        "total": 51,
+        "recent": 8
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA National Centers for Environmental Information website",
+      "created": "2016-10-03T21:13:37.308165",
+      "url": "https://www.ncei.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 9,
+      "revision_id": "3ec6fd93-227a-4b76-bb08-a253b07a2889",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b194d6f1-07f2-4e38-9b1b-d4ec155b04d9",
+      "webstore_last_updated": null,
+      "id": "6fc88cce-c174-4eae-8fcb-bdd09124e38d",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-10-03T21:13:37.308171",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 10,
+      "revision_id": "3ec6fd93-227a-4b76-bb08-a253b07a2889",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b194d6f1-07f2-4e38-9b1b-d4ec155b04d9",
+      "webstore_last_updated": null,
+      "id": "849c14c9-26b2-40c8-b3b3-2d37ddbc3abd",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-10-03T21:13:37.308179",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 11,
+      "revision_id": "3ec6fd93-227a-4b76-bb08-a253b07a2889",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b194d6f1-07f2-4e38-9b1b-d4ec155b04d9",
+      "webstore_last_updated": null,
+      "id": "7f0efca8-9900-49dd-94ee-6fd38a955b00",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-10-03T21:13:37.308186",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 12,
+      "revision_id": "3ec6fd93-227a-4b76-bb08-a253b07a2889",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b194d6f1-07f2-4e38-9b1b-d4ec155b04d9",
+      "webstore_last_updated": null,
+      "id": "9f53a8e9-f517-41cb-8a2e-865c09a36265",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-10-03T21:13:37.308193",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 13,
+      "revision_id": "3ec6fd93-227a-4b76-bb08-a253b07a2889",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b194d6f1-07f2-4e38-9b1b-d4ec155b04d9",
+      "webstore_last_updated": null,
+      "id": "5d86c7b0-bd6c-4d01-b12d-8bce2d0f6dd3",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-10-03T21:13:37.308200",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 14,
+      "revision_id": "3ec6fd93-227a-4b76-bb08-a253b07a2889",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b194d6f1-07f2-4e38-9b1b-d4ec155b04d9",
+      "webstore_last_updated": null,
+      "id": "d2794021-541f-4eb4-bac2-ee0187647e1c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-10-03T21:13:37.308207",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 15,
+      "revision_id": "3ec6fd93-227a-4b76-bb08-a253b07a2889",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 16,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 2,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "physical-trajectory-profile-data-from-glider-ru28-deployed-by-rutgers-the-state-university-of-n7494b",
+  "isopen": false,
+  "url": null,
+  "notes": "Deployment to measure dissolved oxygen levels in the shallow coastal waters of New Jersey.\n\nThe National Centers for Environmental Information (NCEI) received the data in this archival package from the Integrated Ocean Observing System's National Glider Data Assembly Center (IOOS NGDAC). The IOOS NGDAC received the data in one or more netCDF files comprising an entire glider deployment. The data are measurements of physical oceanographic properties such as temperature, salinity, conductivity, and density. The IOOS NGDAC checked the files for compliance to their netCDF file convention, aggregated the files into a single netCDF file, and then submitted the file to NCEI for long-term preservation.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-73.844"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "40.3718"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "PNG"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.nodc:0145662"
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://data.nodc.noaa.gov/cgi-bin/gfx?id=gov.noaa.nodc:0145662"
+    },
+    {
+      "key": "metadata-language",
+      "value": "eng"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-74.7801, 38.8289], [-73.844, 38.8289], [-73.844, 40.3718], [-74.7801, 40.3718], [-74.7801, 38.8289]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Cite as: US DOC; NOAA; NOS; Integrated Ocean Observing System Program (2016). Physical trajectory profile data from glider ru28 deployed by Rutgers, the State University of New Jersey in the Mid-Atlantic Bight from 2014-07-17 to 2014-08-06 (NCEI Accession 0145662). Version 1.1. NOAA National Centers for Environmental Information. Dataset. [access date]\", \"NOAA and NCEI cannot provide any warranty as to the accuracy, reliability, or completeness of furnished data. Users assume responsibility to determine the usability of these data. The user is responsible for the results of any application of this data for other than its intended purpose.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2014-07-17"
+    },
+    {
+      "key": "contact-email",
+      "value": "NCEI.Info@noaa.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-74.7801"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-04-17T13:45:26"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2016-03-22\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "Preview graphic"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"accessLevel: Public\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2014-08-06"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "38.8289"
+    },
+    {
+      "key": "tags",
+      "value": "ocean temperature, atmosphere, http://rucool.marine.rutgers.edu/, sea_water_pressure, integrated ocean observing system, noaa, ocean circulation, sea_water_density, doc/noaa/nesdis/ncei, ocean, national oceanographic data center, nesdis, noaa, u.s. department of commerce, earth science, ctd, oceanography, density, atmospheric pressure, in situ/laboratory instruments, g - i, 4801505, water temperature, eastward_sea_water_velocity, latitude, conductivity, conductivity, temperature, depth, sea_water_salinity, atlantic ocean, national centers for environmental information, nesdis, noaa, u.s. department of commerce, ocean currents, integrated ocean observing system, noaa, u.s. department of commerce, north atlantic ocean, oceans, ioos, northward_sea_water_velocity, profilers/sounders, government agencies-u.s. federal agencies, doc/noaa/nesdis/nodc, salinity/density, sea_water_temperature, doc, longitude, salinity, rutgers/imcs/cool, academic, depth, time, hydrostatic pressure, sea_water_electrical_conductivity, seabird gpctd, coastal ocean observation lab, institute of marine and coastal sciences, rutgers university"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "ba8657c6-0544-49e3-9276-5ecf9ac14d31"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Physical trajectory profile data from glider ru28 deployed by Rutgers, the State University of New Jersey in the Mid-Atlantic Bight from 2014-07-17 to 2014-08-06 (NCEI Accession 0145662)",
+  "revision_id": "aedfc659-c2ac-4d27-b71f-a77929db26b4"
+}

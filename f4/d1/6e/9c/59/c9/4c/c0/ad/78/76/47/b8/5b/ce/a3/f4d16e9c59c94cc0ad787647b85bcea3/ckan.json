@@ -1,0 +1,135 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Ian Serguson",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "ian.serguson@dot.gov",
+  "num_tags": 5,
+  "id": "f4d16e9c-59c9-4cc0-ad78-7647b85bcea3",
+  "metadata_created": "2016-05-26T09:47:36.340930",
+  "metadata_modified": "2016-05-26T09:47:36.340930",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "f4d16e9c-59c9-4cc0-ad78-7647b85bcea3",
+      "webstore_last_updated": null,
+      "id": "1f35111e-8d52-44f8-b7b4-1fad8559bd3e",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/html",
+      "cache_url": null,
+      "name": "Web Tool",
+      "created": "2016-05-26T05:47:36.583744",
+      "url": "http://greatlakes-seaway.com/R2/jsp/R2.jsp?language=E&loc=EV00.jsp",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "4d1b73f9-8fd7-4d15-9cbe-61bd27680640",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "environment",
+      "id": "99c1dc8a-2ada-4fd3-a140-6f13fad78962",
+      "name": "environment"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "locks",
+      "id": "7dc91f40-c7e0-4bad-93c5-dce77f30b0e5",
+      "name": "locks"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "operations",
+      "id": "3481b8fe-c16f-4d90-aff6-06fcbc293664",
+      "name": "operations"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "seaway",
+      "id": "c359892c-4766-49c9-9cca-b9dfc54c0d0a",
+      "name": "seaway"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "water-level",
+      "id": "c79b08ee-1861-49a7-98e9-c75d75ac4518",
+      "name": "water-level"
+    }
+  ],
+  "tracking_summary": {
+    "total": 3,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:46:56.521190",
+    "title": "Department of Transportation",
+    "name": "dot-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://upload.wikimedia.org/wikipedia/commons/8/81/US_DOT_Triskelion.png",
+    "revision_id": "684c8481-4ae2-46b0-a083-b392eea15130",
+    "type": "organization",
+    "id": "fc5cb2c1-d0b0-482a-8a52-7d42ea186ae1",
+    "approval_status": "approved"
+  },
+  "name": "water-levels-and-environmental-data-web-tool-c45f4",
+  "isopen": true,
+  "url": null,
+  "notes": "Data are provided for locks, locations, and sectors of the seaway. Data include short name, date/time stamp of the information, and water levels & temperatures, wind speed, wind direction, air temperature, etc.",
+  "owner_org": "fc5cb2c1-d0b0-482a-8a52-7d42ea186ae1",
+  "extras": [
+    {
+      "key": "extras_rollup",
+      "value": "{\"confidentiality\": true, \"harvest_source_id\": \"a400d398-0d24-4940-b8b3-6573a1670b01\", \"catalog_@context\": \"https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld\", \"issued\": \"2014-11-06\", \"resource-type\": \"Dataset\", \"analysisUnit\": \"Lock\", \"references\": [\"http://greatlakes-seaway.com/R2/jsp/R2.jsp?language=E&loc=EV00.jsp\"], \"source_hash\": \"42ea0022f09f322068af5505d70d63d48f403902\", \"agencyDataSeriesURL\": \"http://greatlakes-seaway.com/R2/jsp/R2.jsp?language=E&loc=EV00.jsp\", \"QualityResponsibleAgency\": \"Saint Lawrence Seaway Development Corporation\", \"collection_package_id\": \"cc95a2ed-6ba5-48bf-b3b7-67cab005b8af\", \"bibliographicCitation\": \"http://greatlakes-seaway.com/R2/jsp/R2.jsp?language=E&loc=EV00.jsp\", \"temporal\": \"R/2014-11-06/P1D\", \"theme\": [\"Transportation\"], \"agencyProgramURL\": \"http://greatlakes-seaway.com/en/commercial/index.html\", \"spatial\": \"Point\", \"programCode\": [\"021:051\"], \"describedBy\": \"http://greatlakes-seaway.com/R2/jsp/R2.jsp?language=E&loc=EV00.jsp\", \"subagency\": \"Saint Lawrence Seaway Development Corporation\", \"catalog_conformsTo\": \"https://project-open-data.cio.gov/v1.1/schema\", \"category\": \"Tool\", \"catalog_describedBy\": \"https://project-open-data.cio.gov/v1.1/schema/catalog.json\", \"harvest_source_title\": \"DOT JSON\", \"source_schema_version\": \"1.1\", \"phone\": \"202-366-6510\", \"bureauCode\": [\"021:40\"], \"accessLevel\": \"public\", \"harvest_object_id\": \"7481b087-ba8d-4fdd-920b-5504c23f1d2a\", \"dictionaryList\": \"http://greatlakes-seaway.com/R2/jsp/R2.jsp?language=E&loc=EV00.jsp\", \"publisher\": \"Saint Lawrence Seaway Development Corporation\", \"organizationName\": \"Department of Transportation / Saint Lawrence Seaway Development Corporation\", \"language\": [\"en-US\"], \"license\": \"https://project-open-data.cio.gov/unknown-license\", \"publisher_hierarchy\": \"U.S. Government > Department of Transportation > Saint Lawrence Seaway Development Corporation\", \"guidelineCompliance\": true, \"modified\": \"2014-11-07\", \"source_datajson_identifier\": true, \"catalog_@id\": \"https://www.dot.gov/data.json\", \"categoryDesignation\": \"Administrative\", \"accrualPeriodicity\": \"R/P1D\", \"numberOfDatasets\": 1, \"dataQuality\": true, \"additionalMetadata\": \"N/A\", \"identifier\": \"136.2\"}"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "7481b087-ba8d-4fdd-920b-5504c23f1d2a"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "a400d398-0d24-4940-b8b3-6573a1670b01"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "DOT JSON"
+    }
+  ],
+  "title": "Water Levels and Environmental Data - Web Tool",
+  "revision_id": "4d1b73f9-8fd7-4d15-9cbe-61bd27680640"
+}

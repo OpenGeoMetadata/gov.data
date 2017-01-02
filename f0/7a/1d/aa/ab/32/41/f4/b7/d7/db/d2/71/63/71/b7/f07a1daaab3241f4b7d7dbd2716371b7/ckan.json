@@ -1,0 +1,210 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "Donald Long",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "dlong01@fs.fed.us",
+  "num_tags": 3,
+  "id": "f07a1daa-ab32-41f4-b7d7-dbd2716371b7",
+  "metadata_created": "2014-11-05T15:20:26.929362",
+  "metadata_modified": "2016-10-20T16:59:31.761213",
+  "author": "Donald Long",
+  "author_email": "dlong01@fs.fed.us",
+  "state": "active",
+  "version": null,
+  "creator_user_id": "144231",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "f07a1daa-ab32-41f4-b7d7-dbd2716371b7",
+      "webstore_last_updated": null,
+      "id": "1f37ea69-26be-40e5-a208-e30b2c56fb5f",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "The Existing Vegetation Type (EVT) layer represents the species composition currently present at a given site. Vegetation map units are primarily derived from NatureServe's Ecological Systems classification, which is a nationally consistent set of mid-scale ecological units. Additional units are derived from NLCD, National Vegetation Classification Standard (NVCS) Alliances, and LANDFIRE specific types. EVTs are mapped using decision tree models, field data, Landsat imagery, elevation, and biophysical gradient data. Decision tree models are developed separately for each of the three lifeforms -tree, shrub, and herbaceous and are then used to generate lifeform specific EVT layers. LANDFIRE uses EVT in several subsequent layers, including the development of the fuel layers. ",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 21,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "LANDFIRE Existing Vegetation Type",
+      "created": "2014-11-05T10:23:01.214542",
+      "url": "http://www.landfire.gov/NationalProductDescriptions21.php",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "76159766-4cf2-44cc-8bb3-cce61212fb67",
+      "resource_type": "file"
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f07a1daa-ab32-41f4-b7d7-dbd2716371b7",
+      "webstore_last_updated": null,
+      "id": "37b742fe-209b-4f10-b411-295313c2edcd",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "The Existing Vegetation Cover (EVC) layer represents the vertically projected percent cover of the live canopy layer for a 30-m grid cell. EVC is generated separately for tree, shrub and herbaceous cover lifeforms using training data and other layers. Percentage tree, shrub, and herbaceous canopy cover training data are generated using plot-level ground-based visual assessments. Once the training data are developed, relationships are then established separately for each lifeform between the training data and combination of Landsat, elevation, and ancillary data. Each of the derived data layers (tree, shrub, herbaceous) has a potential range from 0-100 percent which are merged into a single composite EVC layer. LANDFIRE uses EVC in several subsequent layers, including the development of the fuel layers. ",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 12,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "LANDFIRE Existing Vegetation Cover",
+      "created": "2014-11-05T10:30:12.368128",
+      "url": "http://www.landfire.gov/NationalProductDescriptions23.php",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 1,
+      "revision_id": "3f241bcf-c512-4b6a-b3c0-169aa25206c3",
+      "resource_type": "file"
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f07a1daa-ab32-41f4-b7d7-dbd2716371b7",
+      "webstore_last_updated": null,
+      "id": "f6d5d234-2174-4ee6-a001-2a57ae41aa6c",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "The Existing Vegetation Height (EVH) layer represents the average height of the dominant vegetation for a 30-m grid cell. Canopy height is generated separately for tree, shrub and herbaceous lifeforms using training data and other layers. EVH is determined by the average height weighted by species cover and based on the existing vegetation type (EVT) lifeform. Decision tree models using field reference data and Landsat, elevation, and ancillary data are developed separately for each lifeform. Decision tree relationships are used to generate lifeform specific height class layers, which are merged into a single composite EVH layer. LANDFIRE uses EVH in several subsequent layers, including the development of the fuel layers. ",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 5,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "LANDFIRE Existing Vegetation Height",
+      "created": "2014-11-05T10:40:29.113785",
+      "url": "http://www.landfire.gov/NationalProductDescriptions22.php",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 2,
+      "revision_id": "3389243f-598f-44b2-b672-8432b819f01b",
+      "resource_type": "file"
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "Land Use Land Cover Theme",
+      "id": "035b41a9-c659-481b-a5d0-febc5a10a9cc",
+      "name": "Land Use Land Cover Theme"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "NGDA",
+      "id": "22b46b09-bdef-48bc-b827-9134e6f85749",
+      "name": "NGDA"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "existing vegetation",
+      "id": "57552af4-2fdf-4408-a751-8ba715703ae7",
+      "name": "existing vegetation"
+    }
+  ],
+  "tracking_summary": {
+    "total": 127,
+    "recent": 1
+  },
+  "groups": [
+    {
+      "display_name": "Ecosystems",
+      "description": "Ecosystems Community",
+      "image_display_url": "",
+      "title": "Ecosystems",
+      "id": "3b2f2e70-3e81-4aa7-8305-a534cd6af6c8",
+      "name": "ecosystems0617"
+    }
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:45.351405",
+    "title": "US Forest Service, Department of Agriculture",
+    "name": "fs-fed-us",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.data.gov/app/uploads/2014/07/Forest_Service_Logo.png",
+    "revision_id": "2560634b-6ef2-4505-8ad4-af0ebf818db7",
+    "type": "organization",
+    "id": "d4258583-d8ab-4f7a-9c23-4f1a442f69b9",
+    "approval_status": "approved"
+  },
+  "name": "us-forest-service-landfire-existing-vegetation",
+  "isopen": false,
+  "url": null,
+  "notes": "LANDFIRE Existing Vegetation is mapped using predictive landscape models based on extensive field-referenced data, satellite imagery and biophysical gradient layers using classification and regression trees. LANDFIRE uses vegetation products to create fuel and fire regimes data. Most vegetation products use NatureServe's Ecological Systems classification, meeting the requirement that map units be identifiable, scalable, and model-able. The NatureServe Explorer provides descriptions for each ecological system including species, distribution and classification information. Three main elements comprise LANDFIRE Existing Vegetation. Existing Vegetation Type (EVT) characterizes the types and complexes of plant communities on the landscape, Existing Vegetation Cover (EVC) is the vertically projected percent cover of the live canopy layer for a specific area for a specific life-form, and Existing Vegetation Height (EVH) is the average height of the dominant vegetation. \r\nExisting Vegetation Type, Cover, and Height agree by life-form for every pixel. Use existing vegetation layers together for a more complete representation of the vegetated landscape.",
+  "owner_org": "d4258583-d8ab-4f7a-9c23-4f1a442f69b9",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "Donald Long"
+    },
+    {
+      "key": "contact-name",
+      "value": "Don Long"
+    },
+    {
+      "key": "contact-email",
+      "value": "dlong01@fs.fed.us"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2013-03-31"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "current"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "Theme",
+      "value": "NGDA, National Geospatial Data Asset, Land Use Land Cover Theme"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "__category_tag_3b2f2e70-3e81-4aa7-8305-a534cd6af6c8",
+      "value": "[\"Ecosystems\",\"Fire Regimes\"]"
+    },
+    {
+      "key": "bureau_code",
+      "value": "005:96"
+    },
+    {
+      "key": "program_code",
+      "value": "005:000"
+    }
+  ],
+  "title": "US Forest Service LANDFIRE Existing Vegetation",
+  "revision_id": "00be939e-575b-40ed-bdcd-aad47a8c5722"
+}

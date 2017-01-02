@@ -1,0 +1,178 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Data Administrator",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "da.mailbox@ssa.gov",
+  "num_tags": 5,
+  "id": "95d84efe-2e91-4698-9c63-dbb998d63ab0",
+  "metadata_created": "2015-02-28T17:14:33.471032",
+  "metadata_modified": "2016-12-01T20:58:45.453913",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "allocation",
+      "id": "10b51321-9e10-49d9-a6ae-c4844d949519",
+      "name": "allocation"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "field-office",
+      "id": "6138b4fc-e69c-4a18-aa6b-98d1c6db099a",
+      "name": "field-office"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "staging",
+      "id": "01dd97b8-6dd7-4a2e-9939-9230b6b1a769",
+      "name": "staging"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "time",
+      "id": "a55864a0-a635-4e98-b655-33f13fe1831c",
+      "name": "time"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "warehouse",
+      "id": "206038e2-8bb1-476e-b458-7dfd100aabc2",
+      "name": "warehouse"
+    }
+  ],
+  "tracking_summary": {
+    "total": 12,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:35:25.934290",
+    "title": "Social Security Administration",
+    "name": "ssa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/ssa.png",
+    "revision_id": "1be01963-921d-432f-b56d-37fa76dfb0a1",
+    "type": "organization",
+    "id": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+    "approval_status": "approved"
+  },
+  "name": "time-allocation-warehouse-staging-instance",
+  "isopen": true,
+  "url": null,
+  "notes": "Staging Instance to meet business demand for time allocation information at the field office level.",
+  "owner_org": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Social Security Administration"
+    },
+    {
+      "key": "accessLevel",
+      "value": "non-public"
+    },
+    {
+      "key": "license",
+      "value": "https://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "rights",
+      "value": "The publishing of the data asset cannot be done due to one or more of the following reasons: contains personal identifying information, contains federal tax information, contains sensitive information, or a data assessment has not been completed."
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2016-11-30"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "016:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "016:00"
+      ]
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "US-GOV-SSA-206"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "13a54e9a-3407-4359-beb9-d8c25246961d"
+    },
+    {
+      "key": "source_hash",
+      "value": "395d991472b71d3a97fed31ed14c95061b0db070"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "13a54e9a-3407-4359-beb9-d8c25246961d"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "Time Allocation Warehouse Staging Instance",
+  "revision_id": "808fcafb-d091-4f52-a8b5-043f08467a03"
+}

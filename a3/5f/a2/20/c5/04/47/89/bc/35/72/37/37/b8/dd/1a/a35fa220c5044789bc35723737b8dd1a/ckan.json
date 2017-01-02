@@ -1,0 +1,244 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "a35fa220-c504-4789-bc35-723737b8dd1a",
+  "metadata_created": "2013-03-16T00:40:27.299097",
+  "metadata_modified": "2015-04-10T00:01:30.761702",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "a35fa220-c504-4789-bc35-723737b8dd1a",
+      "webstore_last_updated": null,
+      "id": "21704bf8-b970-4d13-a9d5-ee314ae97044",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "381",
+      "hash": "",
+      "description": "",
+      "format": "WMS",
+      "tracking_summary": {
+        "total": 5,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WMS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Service Description",
+      "created": "2013-03-16T01:40:27.317063",
+      "url": "http://services.azgs.az.gov/ArcGIS/services/aasggeothermal/OKBoreholeLithIntervals/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "15a5ba5f-905d-4ca7-87d1-f523d46d5cd8",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "a35fa220-c504-4789-bc35-723737b8dd1a",
+      "webstore_last_updated": null,
+      "id": "ca8183f4-42cb-4be0-b094-66e32ca21464",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "381",
+      "hash": "",
+      "description": "",
+      "format": "WFS",
+      "tracking_summary": {
+        "total": 7,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WFS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Service Description",
+      "created": "2013-03-16T01:40:27.317082",
+      "url": "http://services.azgs.az.gov/ArcGIS/services/aasggeothermal/OKBoreholeLithIntervals/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "15a5ba5f-905d-4ca7-87d1-f523d46d5cd8",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "a35fa220-c504-4789-bc35-723737b8dd1a",
+      "webstore_last_updated": null,
+      "id": "5fba9434-3863-42f6-832d-df959f048c9f",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "381",
+      "hash": "",
+      "description": "",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "ESRI",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Service Description",
+      "created": "2013-03-16T01:40:27.317089",
+      "url": "http://services.azgs.az.gov/ArcGIS/rest/services/aasggeothermal/OKBoreholeLithIntervals/MapServer",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "15a5ba5f-905d-4ca7-87d1-f523d46d5cd8",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 85,
+    "recent": 0
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The Arizona Geological Survey collates and serves geological information for Arizona and other states through its partnership with other state geological surveys.",
+    "created": "2013-03-14T03:44:43.328493",
+    "title": "Arizona Geological Survey",
+    "name": "azgs-az-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.50states.com/flag/image/nunst004.gif",
+    "revision_id": "61be6428-4398-4199-a336-f3cd1e956f9b",
+    "type": "organization",
+    "id": "f3f6e1d4-64fb-4a2f-b32c-9ac0b76fe4de",
+    "approval_status": "approved"
+  },
+  "name": "oklahoma-borehole-lithology-intervals",
+  "isopen": false,
+  "url": null,
+  "notes": "This dataset contains data related to borehole lithology intervals for boreholes in the state of Oklahoma, obtained by the AASG for the National Geothermal Data System. The data is available in the following formats: web feature service, web map service, ESRI service and spreadsheet format.",
+  "owner_org": "f3f6e1d4-64fb-4a2f-b32c-9ac0b76fe4de",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Arizona Geological Survey\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "metadata@azgs.az.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-100.283203125"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2012-10-04T17:28:11Z"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2012-01-01T00:00:00\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-94.042968749996"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "37.439974052271"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "33.651208299205"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-100.283203125, 33.6512082992], [-100.283203125, 37.4399740523], [-94.04296875, 37.4399740523], [-94.04296875, 33.6512082992], [-100.283203125, 33.6512082992]]]}"
+    },
+    {
+      "key": "guid",
+      "value": "b99f8f8e3a7d798d77d4c343bd103913"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "Borehole, Lithology, Oklahoma , Geothermal, Intervals, Oklahoma, WMS Services, WFS Services, ESRI Services, Borehole Lithology Intervals, Oklahoma Geological Survey"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d1c591ec-eb6a-4e7b-9d15-16b913af5fac"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "f800beb8-4923-4e88-910f-1c6cf0078598"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "AASG geothermal data CSW"
+    }
+  ],
+  "title": "Oklahoma Borehole Lithology Intervals",
+  "revision_id": "3ebbec53-ea62-48b3-9939-48317d1dc5de"
+}

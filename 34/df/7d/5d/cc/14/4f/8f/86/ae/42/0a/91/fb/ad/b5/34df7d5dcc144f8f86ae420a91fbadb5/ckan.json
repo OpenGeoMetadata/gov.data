@@ -1,0 +1,54 @@
+{
+  "collection_metadata_url": "http://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2016/ParentFiles/SeriesCollection_tl_2016_featnames.dbf.iso.xml",
+  "private": false,
+  "revision_timestamp": null,
+  "frequency": "MANUAL",
+  "id": "34df7d5d-cc14-4f8f-86ae-420a91fbadb5",
+  "metadata_created": "2016-10-05T13:35:10.528192",
+  "metadata_modified": "2016-10-05T13:35:10.528192",
+  "title": "2016_featnames",
+  "state": "active",
+  "relationships_as_object": [
+
+  ],
+  "creator_user_id": "65349",
+  "config": "{\"collection_metadata_url\": \"http://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2016/ParentFiles/SeriesCollection_tl_2016_featnames.dbf.iso.xml\", \"validator_profiles\": [\"iso19139ngdc\"], \"private_datasets\": false}",
+  "resources": [
+
+  ],
+  "tags": [
+
+  ],
+  "source_type": "waf-collection",
+  "tracking_summary": {
+    "total": 0,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "relationships_as_subject": [
+
+  ],
+  "name": "2016-featnames",
+  "url": "http://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2016/featnames/",
+  "type": "harvest",
+  "notes": " The Feature Names Relationship File (FEATNAMES.dbf) contains a record for each feature name and any attributes associated with it.  Each feature name can be linked to the corresponding edges that make up that feature in the All Lines Shapefile (EDGES.shp), where applicable to the corresponding address range or ranges in the Address Ranges Relationship File (ADDR.dbf), or to both files.  Although this file includes feature names for all linear features, not just road features, the primary purpose of this relationship file is to identify all street names associated with each address range.  An edge can have several feature names; an address range located on an edge can be associated with one or any combination of the available feature names (an address range can be linked to multiple feature names).  The address range is identified by the address range identifier (ARID) attribute, which can be used to link to the Address Ranges Relationship File (ADDR.dbf).  The linear feature is identified by the linear feature identifier (LINEARID) attribute,  which can be used to relate the address range back to the name attributes of the feature in the Feature Names Relationship File or to the feature record in the Primary Roads, Primary and Secondary Roads, or All Roads Shapefiles. The edge to which a feature name applies can be determined by linking the feature name record to the All Lines Shapefile (EDGES.shp) using the permanent edge identifier (TLID) attribute.  The address range identifier(s) (ARID) for a specific linear feature can be found by using the linear feature identifier (LINEARID) from the Feature Names Relationship File (FEATNAMES.dbf) through the Address Range / Feature Name Relationship File (ADDRFN.dbf).  \r\n",
+  "owner_org": "31c49abe-512a-412a-9cc7-5b2601325d6b",
+  "private_datasets": false,
+  "organization": {
+    "description": "The Census Bureau's mission is to serve as the leading source of quality data about the nation's people and economy. We honor privacy, protect confidentiality, share our expertise globally, and conduct our work openly. We are guided on this mission by scientific objectivity, our strong and capable workforce, our devotion to research-based innovation, and our abiding commitment to our customers.",
+    "created": "2013-03-14T03:44:46.743070",
+    "title": "US Census Bureau, Department of Commerce",
+    "name": "census-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.census.gov/main/img/home/CensusLogo-white.png",
+    "revision_id": "0995f525-d563-4254-a535-af5b926fe663",
+    "type": "organization",
+    "id": "31c49abe-512a-412a-9cc7-5b2601325d6b",
+    "approval_status": "approved"
+  },
+  "revision_id": "698159c9-b8f4-416b-a2ba-bc5a49df230d",
+  "validator_profiles": "iso19139ngdc"
+}

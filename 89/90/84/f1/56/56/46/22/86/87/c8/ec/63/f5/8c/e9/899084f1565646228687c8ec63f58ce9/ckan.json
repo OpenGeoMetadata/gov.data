@@ -1,0 +1,258 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "899084f1-5656-4622-8687-c8ec63f58ce9",
+  "metadata_created": "2013-03-15T21:29:40.798469",
+  "metadata_modified": "2014-11-17T21:14:15.906649",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "899084f1-5656-4622-8687-c8ec63f58ce9",
+      "webstore_last_updated": null,
+      "id": "16526ace-aa61-470b-84f8-304b0c65d542",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "Multiple parts with the same base name and different extensions",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 8,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Shape",
+      "created": "2014-11-17T16:14:15.992396",
+      "url": "http://water.usgs.gov/GIS/dsdl/OFR2006-1308_Drainage_Basin_shape.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "1d8dbea4-ef9d-4bee-ab3b-c136a22c555f",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "899084f1-5656-4622-8687-c8ec63f58ce9",
+      "webstore_last_updated": null,
+      "id": "40520005-dfa4-4fe6-b7bd-d65f8b7d8457",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "access database with spatial properties",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "geodatabase",
+      "created": "2014-11-17T16:14:15.992425",
+      "url": "http://water.usgs.gov/GIS/dsdl/OFR2006-1308_Drainage_Basin_GDB.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "1d8dbea4-ef9d-4bee-ab3b-c136a22c555f",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "899084f1-5656-4622-8687-c8ec63f58ce9",
+      "webstore_last_updated": null,
+      "id": "90022f99-8b4b-4795-b1af-d2b202d7a854",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Shape",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "1d8dbea4-ef9d-4bee-ab3b-c136a22c555f",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-11-17T16:14:15.992439",
+      "url": "http://water.usgs.gov/lookup/getspatial?ofr2006-1308_Drainage_Basin",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 149,
+    "recent": 4
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "drainage-basin-delineations-for-selected-usgs-streamflow-gaging-stations-in-virginia-drainage-b",
+  "isopen": false,
+  "url": null,
+  "notes": "The Drainage_Basin polygon feature class was created as a digital representation of drainage basins for more than 1,650 continuous-record streamflow-gaging stations, partial record streamflow-gaging stations of the U.S. Geological Survey (USGS), and other watercourse locations of interest. The Drainage_Basin polygon feature class replaces the drainage basins previously derived through planimetric methods on paper maps, and provides a digital representation that previously was unavailable. The dataset will be used for the update and publication of drainage areas to all USGS stations in Virginia. This dataset represents historical flow patterns and avoids anthropogenic changes to flow when possible. The Drainage_Basin polygon feature class has a unique format with cascading, or stacked, polygons. In a coverage format, to calculate the drainage area of a large basin containing multiple sub-basins, the area from multiple polygons would be summed. However, within the Drainage_Basin polygon feature class, one polygon is used to store the entire drainage area to each USGS station. Because geodatabases and shapefiles are able to store multiple copies of the same geometry, the Drainage_Basin polygon feature class can hold polygons that are stacked. During the digitizing and editing phases topology rules were utilized to ensure that stacked linework was identical. Each polygon in Drainage_Basin has a value within the Station_number field. Most values represent USGS station number found in the National Water Information System (NWIS) database http://waterdata.usgs.gov/nwis. The station locations stored within NWIS represent the locations of monitoring equipment maintained by the USGS. During the delineation process, these locations were used as reference points to the downstream end of a drainage basin, but usually were not the outlet point. For this reason, the point locations are not contained in this dataset. Most are available through NWIS by searching for the station number.",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-75.383351"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "39.561497"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "BMP"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://water.usgs.gov/GIS/browse/VA_Drainage_Basins.bmp"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "36.057696"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-83.550878, 36.057696], [-75.383351, 36.057696], [-75.383351, 39.561497], [-83.550878, 39.561497], [-83.550878, 36.057696]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: This dataset represents drainage divides and drainage basins above specified locations for continuous-record streamflow-gaging stations, partial record streamflow-gaging stations of the U.S. Geological Survey, and other watercourse locations of interest. The dataset is not intended to serve as a comprehensive watershed dataset for Virginia, and only represents USGS areas of study and data collection in Virginia and surrounding areas.\", \"Access Constraints: none\"]"
+    },
+    {
+      "key": "contact-email",
+      "value": "jkrstoli@usgs.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-83.550878"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2006-03-30"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"9999-01-01\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "Each drainage basin colored with a unique value renderer. State borders on top."
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although this data set has been used by the U.S. Geological Survey, U.S. Department of the Interior, no warranty expressed or implied is made by the U.S. Geological Survey as to the accuracy of the data and related materials. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the U.S. Geological Survey in the use of this data, software, or related materials. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Geological Survey\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "inlandwaters, north carolina, tennessee, west virginia, virginia, watershed, drainage area, drainage divide, drainage basin, gaging station, maryland"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "6e0c75c9-f43b-4acd-adb5-f7ff669670a2"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "e11eb0c1-b794-4812-9369-1bd7306336cd"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Water NSDI Node Spatial Datasets"
+    }
+  ],
+  "title": "Drainage basin delineations for selected USGS streamflow-gaging stations in Virginia (Drainage_Basin)",
+  "revision_id": "427588bf-7145-48ee-b7b6-41e89df42e72"
+}

@@ -1,0 +1,216 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "cbc999ee-2f3c-4788-b187-4dc40173c2fa",
+  "metadata_created": "2016-07-16T01:34:53.183612",
+  "metadata_modified": "2016-07-16T01:34:53.183612",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "cbc999ee-2f3c-4788-b187-4dc40173c2fa",
+      "webstore_last_updated": null,
+      "id": "caccb1aa-5361-4e4f-98b1-753d71ee087c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "ESRI GRID",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ESRI GRID",
+      "created": "2016-07-15T21:34:53.268214",
+      "url": "http://cloud.insideidaho.org/webApps/util/zip.ashx?fn=http://cloud.insideidaho.org/data/idl/safr/issues/I6_Air_Quality",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "1952bb91-327e-469f-a3e8-20219b73b2fb",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "cbc999ee-2f3c-4788-b187-4dc40173c2fa",
+      "webstore_last_updated": null,
+      "id": "9ccd8e61-6229-4fdb-9b5c-5a669778c461",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "I6_Relative_Potential_Benefit_to_Air_Quality_from_Forests_and_Canopy.pdf",
+      "format": "PDF",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Adobe Portable Document Format (.pdf)",
+      "created": "2016-07-15T21:34:53.268245",
+      "url": "http://cloud.insideidaho.org/data/idl/safr/issues/I6_Air_Quality/I6_Relative_Potential_Benefit_to_Air_Quality_from_Forests_and_Canopy.pdf",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "1952bb91-327e-469f-a3e8-20219b73b2fb",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 5,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The University of Idaho is a nationally-recognized research institution committed to student success and academic excellence that delivers one of the best educational values in the Pacific Northwest.",
+    "created": "2013-03-14T03:44:41.687651",
+    "title": "University of Idaho",
+    "name": "uidaho-edu",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://upload.wikimedia.org/wikipedia/en/thumb/4/44/University_of_Idaho_seal.svg/300px-University_of_Idaho_seal.svg.png",
+    "revision_id": "761955d7-9530-4622-8609-d0b01c78e177",
+    "type": "organization",
+    "id": "75e22a8a-da5f-46f3-93d8-924063a3703d",
+    "approval_status": "approved"
+  },
+  "name": "relative-potential-benefit-to-air-quality-from-forests-and-canopy",
+  "isopen": false,
+  "url": null,
+  "notes": "Issue: Relative Potential Benefit to Air Quality from Forests and Canopy The intent of this issue is to: Identify are the areas of greatest need with respect to air quality and where forests can have the greatest benefit. Air Quality was addressed with the following data layers: 1. Non-attainment areas Non-attainment areas were obtained from the Idaho Department of Environmental Quality. These are areas within Idaho where air pollution levels persistently exceed the national ambient air quality standards may be designated \"nonattainment.\" EPA considers any geographic area that meets or has pollutant levels below the NAAQS an attainment area. Under ideal circumstances, all of Idaho would be classified as 'attainment'. An area with persistent high pollutant levels is designated a nonattainment area. This means that the area has violated federal health-based standards for outdoor air pollution. Each nonattainment area is declared for a specific pollutant. This means that the same area could be 'attainment' for one pollutant, but 'nonattainment' for a different pollutant. Nonattainment areas for different pollutants may overlap each other or share common boundaries. This layer was used to select all the HUC6 watersheds that contained non-attainment areas. HUC6 watersheds that contained a non-attainment area were given a value of 5 and HUC6 watersheds that did not contain a non-attainment area were given a value of 0. 2. Fire Impact Zones The Fire Impact Zones came from the Montana / Idaho Airshed Group. http://www.smokemu.org/index.php Air Impact Zones are areas where smoke is likely to be a problem because of local topography, meteorology, and areas with existing air quality problems which smoke will exacerbate, or other factors. http://www.fs.fed.us/r1/fire/nrcc/smoke_web_pages/AS-IZ_Map.pdf The air impact zones were given a value of 5 and other areas with no air impact zone were given a value of 0. Impervious surfaces and Canopy came from the National Land Cover Database (NLCD) 2001 imperviousness layer that was produced through a cooperative project conducted by the Multi-Resolution Land Characteristics (MRLC) Consortium. The MRLC Consortium is a partnership of federal agencies www.mrlc.gov. For a detailed definition and discussion on MRLC and the NLCD 2001 products, refer to http://www.mrlc.gov/mrlc2k.asp. 3. NLCD 2001 Impervious Surfaces The NLCD_2001_impervious layer was classified on the percent imperviousness value by natural breaks into 5 classes and weighted as follows: Class %_Impervious Weight 0 0-6 0 1 7-17 1 2 18-30 2 3 31-46 3 4 47-65 4 5 66-100 5 The Impervious surface weight was lowered by the mean percent canopy cover weight 4. NLCD 2001 Canopy Cover The NLCD_2001_canopy layer was classified on the percent canopy cover value. A neighborhood mean canopy cover was created from the canopy cover by taking the mean value of the 25 (5 by 5) neighboring cells for every cell. The mean canopy cover value is a measure of the canopy cover surrounding impervious areas. The mean canopy cover was grouped by natural breaks into 5 classes and weighted as follows: Class Mean %_Canopy Weight 1 0-17.43 0 2 17.43-38.35 1 3 38.50-59.27 1 4 59.27-78.69 2 5 78.69-100 3 Issue Process: This map is created additively from areas that did not attain air quality standards, smoke impact zones, and impervious surfaces. The additive result was reclassified into 5 classes based natural breaks giving resulting values of 0 to 5. Idaho Statewide Assessment of Forest Resources document contains additional information and can be found at: http://www.idl.idaho.gov/bureau/ForestAssist/safr/final/061410-ID-SAFR-FINAL.pdf.",
+  "owner_org": "75e22a8a-da5f-46f3-93d8-924063a3703d",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Idaho Department of Lands\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "edeyoung@idl.idaho.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "\n-117.531769"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2011-04-13"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2009-06-17\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "\n-110.655331"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "\n49.039274"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "\n41.946096"
+    },
+    {
+      "key": "licence",
+      "value": "[\"None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the IDL would be appreciated.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-117.531769, 41.946096], [-110.655331, 41.946096], [-110.655331, 49.039274], [-117.531769, 49.039274], [-117.531769, 41.946096]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the IDL would be appreciated.\", \"Access Constraints: Public, Federal Goverment, Idaho State Government, IDL Authorized Users\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "tags",
+      "value": "air quality, state assessment, statewide forest resource strategy, state assessment of forest resources, safr, sfrs, idaho"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "1d7e7579-1e70-404d-8629-af713f3d7f63"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "6d1998c4-ba28-47a6-9395-7413c0cc32ac"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Idaho Geospatial Data Clearinghouse"
+    }
+  ],
+  "title": "Relative Potential Benefit to Air Quality from Forests and Canopy",
+  "revision_id": "1952bb91-327e-469f-a3e8-20219b73b2fb"
+}

@@ -1,0 +1,248 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "8d344f0d-0f69-4b4f-bf86-3320a914b50d",
+  "metadata_created": "2013-03-15T21:23:26.923300",
+  "metadata_modified": "2014-11-17T21:12:27.117696",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "8d344f0d-0f69-4b4f-bf86-3320a914b50d",
+      "webstore_last_updated": null,
+      "id": "278e87e7-6aa3-4abe-a952-b8564ceb72c0",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "index.html",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 13,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "2ae03083-5374-4e95-b7c2-642d08964687",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-11-17T16:12:27.381048",
+      "url": "http://water.usgs.gov/GIS/dsdl/ds412/index.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "8d344f0d-0f69-4b4f-bf86-3320a914b50d",
+      "webstore_last_updated": null,
+      "id": "454d79f8-bcdb-480b-96ea-89378e8a611d",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "SHP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "2ae03083-5374-4e95-b7c2-642d08964687",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-11-17T16:12:27.381081",
+      "url": "http://water.usgs.gov/lookup/getspatial?ds412_syntheticperennialstreams",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "8d344f0d-0f69-4b4f-bf86-3320a914b50d",
+      "webstore_last_updated": null,
+      "id": "af35e457-bd5e-433b-8468-b97cfb0a2a2a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "SHP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "2ae03083-5374-4e95-b7c2-642d08964687",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-11-17T16:12:27.381089",
+      "url": "http://pubs.usgs.gov/ds/412/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 25,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "estimated-perennial-streams-in-idaho",
+  "isopen": false,
+  "url": null,
+  "notes": "Perennial streams in Idaho have been modeled using regression equations for 7-day, 2-year low flows (7Q2) described in Wood and others (2009, U.S. Geological Survey Scientific Investigations Report 2009-5015). The model produces \"synthetic\" streams based on 10-meter resolution digitial elevation models that have been processed to agree closely with 1:24,000-scale National Hydrography Dataset flowlines. Lines having attribute PerCode = 1 represent model grid cells having 7Q2 flow estimates between 0.1 cubic feet per second (ft3/s) and 0.1 minus the standard error for the applicable regional regression equation. Lines having attribute PerCode = 2 represent model grid cells having 7Q2 flow estimates between 0.1 ft3/s and 0.1 plus the standard error for the applicable regional regression equation. Lines having attribute PerCode = 3 represent model grid cells having 7Q2 flow estimates greater than 0.1 ft3/s plus the standard error for the applicable regional regression equation. These three categories of lines indicate approximate levels of uncertainty in the model results, with lines having PerCode = 1 representing the most uncertainty, and lines having PerCode = 3 representing the least uncertainty with respect to representing a perennial stream.",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Geological Survey\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "http://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+ds412_syntheticperennialstreams"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "\n-118.566350"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2008-05-31"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2009-01-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "\n-110.219926"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "\n49.048670"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "\n41.088104"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although these data have been used by the U.S.\\nGeological Survey, U.S. Department of the Interior, no warranty\\nexpressed or implied is made by the U.S. Geological Survey as to the\\naccuracy of the data. The act of distribution shall not constitute any\\nsuch warranty, and no responsibility is assumed by the U.S. Geological\\nSurvey in the use of these data, software, or related materials.  \\n\\nThe use of firm, trade, or brand names in this report is for\\nidentification purposes only and does not constitute endorsement by the\\nU.S. Geological Survey. The names mentioned in this document may be\\ntrademarks or registered trademarks of their respective trademark\\nowners.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-118.56635, 41.088104], [-110.219926, 41.088104], [-110.219926, 49.04867], [-118.56635, 49.04867], [-118.56635, 41.088104]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "tags",
+      "value": "united states, inlandwaters, hydrography, united states of america, idaho id, north america, perennial streams"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "83bcef59-0e3b-473a-8544-2ffc7170bbce"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "e11eb0c1-b794-4812-9369-1bd7306336cd"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Water NSDI Node Spatial Datasets"
+    }
+  ],
+  "title": "Estimated Perennial Streams in Idaho",
+  "revision_id": "886d53a8-b814-4a4e-8d32-6fdea6edeb85"
+}

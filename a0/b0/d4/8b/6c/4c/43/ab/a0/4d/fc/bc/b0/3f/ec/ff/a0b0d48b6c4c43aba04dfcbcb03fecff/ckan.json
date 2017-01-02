@@ -1,0 +1,239 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "Climate Prediction Center, NOAA",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "Melissa.Ou@noaa.gov",
+  "num_tags": 8,
+  "id": "a0b0d48b-6c4c-43ab-a04d-fcbcb03fecff",
+  "metadata_created": "2016-01-29T13:44:44.420667",
+  "metadata_modified": "2016-02-26T22:16:25.075723",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "a0b0d48b-6c4c-43ab-a04d-fcbcb03fecff",
+      "webstore_last_updated": null,
+      "id": "354693fb-d274-4b79-9228-8e678eceec07",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "ecca.php",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 23,
+        "recent": 3
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "text/html",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-01-29T08:44:44.585234",
+      "url": "http://www.cpc.ncep.noaa.gov/products/predictions/long_range/ecca.php",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "54ff7ea0-dd25-4408-8ac2-fea5bb896033",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "atmosphere-atmospheric-temperature-temperature-anomalies",
+      "id": "e66c7c8f-081a-4588-810c-789c7be1e989",
+      "name": "atmosphere-atmospheric-temperature-temperature-anomalies"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "climatologymeteorologyatmosphere",
+      "id": "9532b448-3317-4140-a142-a0ad50f49916",
+      "name": "climatologymeteorologyatmosphere"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "continent-north-america-united-states-of-america",
+      "id": "fba5f0dd-bc32-45d5-9194-6f31bcc2590c",
+      "name": "continent-north-america-united-states-of-america"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "seasonal-outlook",
+      "id": "cb63af18-711e-493e-a24d-41107ad7a734",
+      "name": "seasonal-outlook"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "statistical-outlook",
+      "id": "7a994925-6ec0-46dd-908e-0a5e2674d3fc",
+      "name": "statistical-outlook"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "temperature",
+      "id": "43703fee-ad58-4a94-aef7-4e903e93eb62",
+      "name": "temperature"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "temperature-anomalies",
+      "id": "cea18ec4-c450-4e20-970f-d416a40e5323",
+      "name": "temperature-anomalies"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "vertical-location-land-surface",
+      "id": "e7b449b0-e9ce-4cad-979e-538d16b498ae",
+      "name": "vertical-location-land-surface"
+    }
+  ],
+  "tracking_summary": {
+    "total": 14,
+    "recent": 4
+  },
+  "groups": [
+
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:37:59.153068",
+    "title": "Department of Commerce",
+    "name": "doc-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.vos.noaa.gov/MWL/aug_10/Images/doc_logo_xparent.png",
+    "revision_id": "44c851b9-8872-497a-8a13-2f06740b7ffb",
+    "type": "organization",
+    "id": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+    "approval_status": "approved"
+  },
+  "name": "climate-prediction-centercpcensemble-canonical-correlation-analysis-forecast-of-temperatur",
+  "isopen": false,
+  "url": null,
+  "notes": "The Ensemble Canonical Correlation Analysis (ECCA) temperature forecast is a 90-day (seasonal) outlook of US surface temperature anomalies. The ECCA uses Canonical Correlation Analysis (CCA), an empirical statistical method that finds patterns of predictors (variables used to make the prediction) and predictands (variables to be predicted) that maximize the correlation between them. The most recent available predictor data for different atmospheric/oceanic variables are projected onto the loading patterns to create forecasts. The ensemble refers to forecasts produced by using each predictor separately to create a forecast. The final forecast is an equally weighted average of the ensemble of forecasts. The model is trained from 1953 to the year before the present year to create the loading patterns. The available forecasts are rotated, meaning that only the most recently created forecasts are available. Previously made forecasts are not archived. For each produced forecast, 13 different leads (0.5 months with increment of 1 month) for subsequent leads of forecasts are created (each with a different valid date).",
+  "owner_org": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Climate Prediction Center, NOAA (Point of Contact)"
+    },
+    {
+      "key": "identifier",
+      "value": "gov.noaa.cpc:CPC-TEMP-MLY-ECCAT-v2003"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "temporal",
+      "value": "2003-01-01T00:00:00/2014-08-25T10:50:12.570000-04:00"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2003-01-01"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "000:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "006:48"
+      ]
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1M"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-125.0, 25.0], [-65.0, 25.0], [-65.0, 50.0], [-125.0, 50.0], [-125.0, 25.0]]]}"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "1462b56b-1fce-410c-ad7c-6fb3bc588e32"
+    },
+    {
+      "key": "source_hash",
+      "value": "ec823d13aed761fad7676223f43dc12d1fe9829d"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "1462b56b-1fce-410c-ad7c-6fb3bc588e32"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    }
+  ],
+  "title": "Climate Prediction Center(CPC)Ensemble Canonical Correlation Analysis Forecast of Temperature",
+  "revision_id": "54ff7ea0-dd25-4408-8ac2-fea5bb896033"
+}

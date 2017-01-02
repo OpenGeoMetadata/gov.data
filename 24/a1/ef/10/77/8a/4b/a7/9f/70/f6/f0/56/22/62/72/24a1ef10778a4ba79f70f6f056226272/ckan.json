@@ -1,0 +1,235 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "Khalid Hussein",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "Khalid.Hussein@colorado.edu",
+  "num_tags": 6,
+  "id": "24a1ef10-778a-4ba7-9f70-f6f056226272",
+  "metadata_created": "2016-11-30T21:30:05.577740",
+  "metadata_modified": "2016-11-30T21:30:05.577740",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "24a1ef10-778a-4ba7-9f70-f6f056226272",
+      "webstore_last_updated": null,
+      "id": "f7ab516e-6867-4061-b277-8d8d3a7d147c",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Citation Information:\nOriginator:\nEarth Science &Observation Center (ESOC), CIRES, University of Colorado at Boulder\nPublication Date:\n2012\nTitle:\nVery Warm Modeled Temperature Chaffee\nEdition:\nFirst\nNote: This “Weakly Anomalous to Anomalous Surface Temperature” dataset differs from the “Anomalous Surface Temperature” dataset for this county (another remotely sensed CIRES product) by showing areas of modeled temperatures between 1σ and 2σ above the mean, as opposed to the greater than 2σ temperatures contained in the “Anomalous Surface Temperature” dataset.\nPublication Information:\nPublication Place:\nEarth Science & Observation Center, Cooperative Institute for Research in Environmental Science (CIRES), University of Colorado, Boulder\nPublisher:\nEarth Science &Observation Center (ESOC), CIRES, University of Colorado at Boulder\nDescription:\nThis layer contains areas of anomalous surface temperature in Chaffee County identified from ASTER thermal data and spatial based insolation model. The temperature is calculated using the Emissivity Normalization Algorithm that separate temperature from emissivity. The incoming solar radiation was calculated using spatial based insolation model developed by Fu and Rich (1999). Then the temperature due to solar radiation was calculated using emissivity derived from ASTER data. The residual temperature, i.e. temperature due to solar radiation subtracted from ASTER temperature was used to identify thermally anomalous areas. Areas that had temperature greater than 2σ were considered ASTER modeled very warm surface exposures (thermal anomalies)\nSpatial Domain:\nExtent:\nTop:\n4333432.368072 m\nLeft:\n366907.700763 m\nRight:\n452457.816015 m\nBottom:\n4208271.566715 m\nContact Information:\nContact Organization:\nEarth Science &Observation Center (ESOC), CIRES, University of Colorado at Boulder\nContact Person:\nKhalid Hussein\nAddress:\nCIRES, Ekeley Building\nEarth Science & Observation Center (ESOC)\n216 UCB\nCity:\nBoulder\nState:\nCO\nPostal Code:\n80309-0216\nCountry:\nUSA\nContact Telephone:\n303-492-6782\nSpatial Reference Information:\nCoordinate System:\nUniversal Transverse Mercator (UTM) WGS’1984 Zone 13N\nFalse Easting:\n500000.00000000\nFalse Northing:\n0.00000000\nCentral Meridian:\n-105.00000000\nScale Factor:\n0.99960000\nLatitude of Origin:\n0.00000000\nLinear Unit:\nMeter\nDatum:\nWorld Geodetic System ’1984 (WGS ’1984)\nPrime Meridian:\nGreenwich\nAngular Unit:\nDegree\nDigital Form:\nFormat Name:\nShape file",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "warm modeled temperature chaffee.zip",
+      "created": "2016-11-30T16:30:05.777510",
+      "url": "http://gdr.openei.org/files/313/Warm%20Modeled%20Temperature%20Chaffee.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "dda827c6-772b-4e54-b0d6-67af7dc4fa3c",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "aster",
+      "id": "6cd40cb4-a14c-4270-8b9f-550de9828472",
+      "name": "aster"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "chaffee-county",
+      "id": "4423d7a2-fa4a-45ac-81f3-d6cfdeb95849",
+      "name": "chaffee-county"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "colorado",
+      "id": "e7376c2e-a2cf-4d85-8f2f-0d09e6a35f48",
+      "name": "colorado"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geothermal",
+      "id": "3f323051-fbd3-4715-bc13-e2fa5e65d369",
+      "name": "geothermal"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "remote-sensing",
+      "id": "6d180b70-95cc-4bb3-a94a-ca9170f4345a",
+      "name": "remote-sensing"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "thermal-infrared",
+      "id": "25b494bc-f7a0-4a91-9c40-0ed482c923d0",
+      "name": "thermal-infrared"
+    }
+  ],
+  "tracking_summary": {
+    "total": 0,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "areas-of-weakly-anomalous-to-anomalous-surface-temperature-in-chaffee-county-colorado-as-i-6e5f8",
+  "isopen": true,
+  "url": null,
+  "notes": "Citation Information:\nOriginator:\nEarth Science &Observation Center (ESOC), CIRES, University of Colorado at Boulder\nPublication Date:\n2012\nTitle:\nVery Warm Modeled Temperature Chaffee\nEdition:\nFirst\nNote: This “Weakly Anomalous to Anomalous Surface Temperature” dataset differs from the “Anomalous Surface Temperature” dataset for this county (another remotely sensed CIRES product) by showing areas of modeled temperatures between 1σ and 2σ above the mean, as opposed to the greater than 2σ temperatures contained in the “Anomalous Surface Temperature” dataset.\nPublication Information:\nPublication Place:\nEarth Science & Observation Center, Cooperative Institute for Research in Environmental Science (CIRES), University of Colorado, Boulder\nPublisher:\nEarth Science &Observation Center (ESOC), CIRES, University of Colorado at Boulder\nDescription:\nThis layer contains areas of anomalous surface temperature in Chaffee County identified from ASTER thermal data and spatial based insolation model. The temperature is calculated using the Emissivity Normalization Algorithm that separate temperature from emissivity. The incoming solar radiation was calculated using spatial based insolation model developed by Fu and Rich (1999). Then the temperature due to solar radiation was calculated using emissivity derived from ASTER data. The residual temperature, i.e. temperature due to solar radiation subtracted from ASTER temperature was used to identify thermally anomalous areas. Areas that had temperature greater than 2σ were considered ASTER modeled very warm surface exposures (thermal anomalies)\nSpatial Domain:\nExtent:\nTop:\n4333432.368072 m\nLeft:\n366907.700763 m\nRight:\n452457.816015 m\nBottom:\n4208271.566715 m\nContact Information:\nContact Organization:\nEarth Science &Observation Center (ESOC), CIRES, University of Colorado at Boulder\nContact Person:\nKhalid Hussein\nAddress:\nCIRES, Ekeley Building\nEarth Science & Observation Center (ESOC)\n216 UCB\nCity:\nBoulder\nState:\nCO\nPostal Code:\n80309-0216\nCountry:\nUSA\nContact Telephone:\n303-492-6782\nSpatial Reference Information:\nCoordinate System:\nUniversal Transverse Mercator (UTM) WGS’1984 Zone 13N\nFalse Easting:\n500000.00000000\nFalse Northing:\n0.00000000\nCentral Meridian:\n-105.00000000\nScale Factor:\n0.99960000\nLatitude of Origin:\n0.00000000\nLinear Unit:\nMeter\nDatum:\nWorld Geodetic System ’1984 (WGS ’1984)\nPrime Meridian:\nGreenwich\nAngular Unit:\nDegree\nDigital Form:\nFormat Name:\nShape file",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "issued",
+      "value": "2012-02-01"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "630f94d2091c88c6e7c67be5cf735362f39ea1ed"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-107.5656296875,37.283016383063],[-104.8521078125,37.283016383063],[-104.8521078125,39.295415290912],[-107.5656296875,39.295415290912],[-107.5656296875,37.283016383063]]]}"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "format",
+      "value": "application/unknown"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:006"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://gdr.openei.org/submissions/313"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d61fb674-cdf5-4a67-967a-22730cca5ae2"
+    },
+    {
+      "key": "accessURL",
+      "value": "http://gdr.openei.org/files/313/Warm%20Modeled%20Temperature%20Chaffee.zip"
+    },
+    {
+      "key": "publisher",
+      "value": "Flint Geothermal, LLC"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "key": "modified",
+      "value": "2012-02-01"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/f0000000-e214-4c72-acd2-000000000313"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d61fb674-cdf5-4a67-967a-22730cca5ae2"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "Areas of Weakly Anomalous to Anomalous Surface Temperature in Chaffee County, Colorado, as Identified from ASTER Thermal Data",
+  "revision_id": "dda827c6-772b-4e54-b0d6-67af7dc4fa3c"
+}

@@ -1,0 +1,237 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "1a8a123f-28a0-46c1-b33b-84602b11ecf5",
+  "metadata_created": "2016-07-04T21:16:53.631179",
+  "metadata_modified": "2016-07-04T21:16:53.631179",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "1a8a123f-28a0-46c1-b33b-84602b11ecf5",
+      "webstore_last_updated": null,
+      "id": "198b7bbe-c83e-42fc-b644-9b3cc09ef944",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Information about the dataset",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Cite URL",
+      "created": "2016-07-04T17:16:54.266084",
+      "url": "http://www.esrl.noaa.gov/psd/data/gridded/data.20thCentReanalysis.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "be100932-5a8b-411c-b9f6-d30da9102618",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "1a8a123f-28a0-46c1-b33b-84602b11ecf5",
+      "webstore_last_updated": null,
+      "id": "aff5cbc1-2894-4ef1-9ae2-142f02569062",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Thredds Data server.  Allows http, opendap, and possibly WCS and WMS downaloads.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Thredds Server",
+      "created": "2016-07-04T17:16:54.266117",
+      "url": "http://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/20thC_ReanV2/catalog.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "be100932-5a8b-411c-b9f6-d30da9102618",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "1a8a123f-28a0-46c1-b33b-84602b11ecf5",
+      "webstore_last_updated": null,
+      "id": "05bb1bc1-bb99-4087-9c9c-4219f2f619d1",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "FTP server.",
+      "format": "NETCDF4_CLASSIC",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FTP server",
+      "created": "2016-07-04T17:16:54.266127",
+      "url": "ftp://ftp.cdc.noaa.gov/Datasets/20thC_ReanV2",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "be100932-5a8b-411c-b9f6-d30da9102618",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 6,
+    "recent": 3
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "noaa-cires-20th-century-reanalysis-v2",
+  "isopen": false,
+  "url": null,
+  "notes": "The 20th Century Reanalysis version 2 (20CRV2)is an effort led by PSD and the CIRES at the University of Colorado to produce a reanalysis dataset spanning the entire twentieth century, assimilating only surface observations of synoptic pressure, monthly sea surface temperature and sea ice distribution.  V1 was initially completed as a test from 1950-1958. V2 covers the period from 1871-2012 . The model used is a 2008 experimental, reduced-resolution version of the NCEP Global Forecast System (GFS2008ex). Briefly, that model has a spatial resolution of nearly 200-km on an irregular Gaussian grid in the horizontal (corresponding to a spherical harmonic representation of model fields truncated at total wavenumber 62, T62). In the vertical, we use finite differencing of 28 levels. The model has a complete suite of physical parameterizations as described in Kanamitsu et al. (1991) with updates detailed in Moorthi et al. (2001). Additional updates to these parameterizations are described in Saha et al. [Need YEAR] and include revised solar radiation transfer, boundary layer vertical diffusion, cumulus convection, and gravity wave drag parameterizations. In addition, the cloud liquid water is a prognostic quantity with a simple cloud microphysics parameterization. The radiation interacts with a fractional cloud cover that is diagnostically determined by the predicted cloud liquid water. The radiation also interacts with stratospheric ozone that is determined prognostically. The GFS2008ex also includes the radiative effects of historical time-varying CO2 concentrations, volcanic aerosol and solar variations using the longwave radiation model of Mlawer et al. (1997) and shortwave radiation model of Hou et al. (2002).  Pressure observations are from the International Surface Pressure Databank station component version 2. It is run as an 56 member forecast ensemble. The boundary forcing is taken from the HadISST 1.1 (time-evolving sea-surface temperature  and sea-ice).  The model is run using 9 hour integrations of the ensemble members.\r\n\r\nA subset of the model variables are output every 6 hours. Additional variables are available every 3 hours. In addition to the subdaily values, the dataset also includes daily and monthly average values. In addition to the mean values, standard deviations of the 56 ensemble members are also provided for the subdaily and monthly average output. Subdaily, daily, and monthly long terms means of both the model means and standard deviations are also provided (1981-2010). Output includes 2D and 3D variables. The 3D atmospheric variables are on 24 pressure levels extending from 1000mb to 10mb. Soil moisture is provided on 4? levels. The horizontal resolution of the 2D and 3D variables are about 2 degrees latitude by 2 degrees longitude. Individual ensemble members are available via the NERSC interface http://portal.nersc.gov/project/20C_Reanalysis/.\r\n\r\nAll data are in netCDF4 format. Total 20CRV2 data volume at ESRL is approximately 4TB. In general, data is divided into annual files (except for monthly values). The files are available via FTP and OPEnDAP (THREDDS) and a selection of plotting and analysis tools.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "temporal-extent-begin",
+      "value": "1871-01-01"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2012-12-31"
+    },
+    {
+      "key": "contact-email",
+      "value": "webmaster.psd@noaa.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "metadata-date",
+      "value": "2012-12-31"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"lastUpdate\", \"value\": \"2012-12-31\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"\", \"roles\": [\"custodian\"]}]"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://www.esrl.noaa.gov/psd/mddb2/browseGraphics/NOAA-CIRES_20th_Century_Reanalysis_(V2).png"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "ongoing"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.esrl.psd.dataset.NOAA-CIRES_20th_Century_Reanalysis_V2"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "tags",
+      "value": "daily total cloud cover spread, daily mean 3-hourly upward longwave radiation flux at nominal top of atmosphere, daily boundary layer cloud cover spread, daily minimum temperature spread at 2 m, daily u-wind, daily cloud water for entire atmosphere, daily momentum flux, u-component at surface, daily maximum temperature spread at 2 m, daily upward solar radiation flux spread at nominal top of atmosphere, daily v wind, daily middle cloud cover spread, daily storm surface runoff at surface, daily air temperature spread at sigma level 0.995, daily air temperature spread at tropopause, daily geopotential heights spread at tropopause, daily upward solar radiation flux at nominal top of atmosphere, daily ice thickness spread at surface, daily potential evaporation rate spread at surface, daily top cloud cover, time-invariant soil type (zobler) gaussian grid, daily precipitable water for entire atmosphere, daily total cloud cover, daily u-wind at tropopause, daily pressure spread at tropopause, daily v-wind spread on pressure levels, daily momentum flux spread, v-component at surface, daily pressure spread at surface, daily geopotential heights on pressure levels, daily relative humidity spread on pressure levels, daily cloud work function, daily soil moisture content at surface, daily sensible heat net flux spread at surface, daily height of pressure boundary layer, daily soil moisture content spread at surface, daily snow cover spread at surface, daily omega on pressure levels, daily upward longwave radiation flux at surface, daily geopotential heights at tropopause, daily relative humidity spread at sigma level 0.995, daily upward solar radiation flux at surface, daily volumetric soil moisture spread, daily precipitation rate spread at surface, daily potential evaporation rate at surface, daily storm surface runoff spread at surface, daily u-wind spread, daily relative humidity on pressure levels, daily maximum temperature at 2 m, daily cape spread, daily albedo at surface, daily mean 3-hourly upward solar radiation flux at nominal top of atmosphere, daily downward longwave radiation flux spread at surface, daily pressure at tropopause, daily momentum flux spread, u-component at surface, daily air temperature at tropopause, daily liquid volumetric soil moisture (non-frozen) fraction spread, daily meridional gravity wave stress at surface, daily ground heat flux at surface, daily cloud water spread for entire atmosphere, daily v wind spread, time-invariant land-sea mask gaussian grid, daily convective precipitation rate, daily water equiv. of accum. snow depth at surface, daily potential temperature at sigma level 0.995, daily ice concentration at surface, daily upward longwave radiation flux at nominal top of atmosphere, daily air temperature at surface, daily total columnar ozone spread, daily snow depth at surface, daily air temperature at 2 m, daily snow depth spread at surface, daily precipitable water spread for entire atmosphere, daily air temperature spread at surface, daily omega spread on pressure levels, daily minimum temperature at 2 m, daily transpiration spread at surface, daily latent heat net flux at surface, daily albedo spread at surface, daily precipitation rate at surface, daily u-wind spread at tropopause, daily geopotential heights spread on pressure levels, daily height spread of pressure boundary layer, daily downward solar radiation flux spread at surface, daily air temperature spread at 2 m, daily v-wind on pressure levels, daily pressure spread at mean sea level, daily 3-hourly minimum temperature at 2 m, daily relative humidity at sigma level 0.995, daily specific humidity spread on pressure levels, daily mean 6-hourly geopotential heights spread on pressure levels, daily ground heat flux spread at surface, daily u-wind spread at sigma level 0.995, daily water runoff spread at surface, daily convective cloud cover spread, daily low cloud cover spread, daily v-wind spread at sigma level 0.995, daily convective precipitation rate spread, daily u-wind at sigma level 0.995, daily v-wind at sigma level 0.995, daily sensible heat net flux at surface, daily u-wind on pressure levels, daily mean 6-hourly u-wind spread on pressure levels, daily cloud work function spread, daily pressure at mean sea level, daily upward solar radiation flux spread at surface, daily latent heat net flux spread at surface, daily pressure at surface, daily air temperature spread on pressure levels, daily momentum flux, v-component at surface, daily specific humidity spread at 2 m, daily mean 3-hourly air temperature at 2 m, daily top cloud cover spread, daily snow cover at surface, daily 3-hourly maximum temperature at 2 m, daily water equiv. of accum. snow depth spread at surface, daily ice thickness at surface, daily v-wind at tropopause, daily soil temperature spread, daily omega spread at sigma level 0.995, daily cin spread, time-invariant vegetation type (as in sib) gaussian grid, daily soil temperature, daily zonal gravity wave stress at surface, daily middle cloud cover, daily upward longwave radiation flux spread at surface, daily total columnar ozone, daily air temperature at sigma level 0.995, daily potential temperature spread at sigma level 0.995, daily meridional gravity wave stress spread at surface, daily low cloud cover, daily air temperature on pressure levels, daily omega at sigma level 0.995, daily v-wind spread at tropopause, daily u-wind spread on pressure levels, daily cape, daily liquid volumetric soil moisture (non-frozen) fraction, daily downward solar radiation flux at surface, daily zonal gravity wave stress spread at surface, daily transpiration at surface, daily upward longwave radiation flux spread at nominal top of atmosphere, daily specific humidity on pressure levels, daily downward longwave radiation flux at surface, geopotential height at surface gaussian grid, daily specific humidity at 2 m, daily water runoff at surface, daily volumetric soil moisture, daily convective cloud cover, daily boundary layer cloud cover"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "cb5eac00-e5f9-4386-bb07-94d8a34cccc1"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "NOAA-CIRES 20th Century Reanalysis (V2)",
+  "revision_id": "be100932-5a8b-411c-b9f6-d30da9102618"
+}

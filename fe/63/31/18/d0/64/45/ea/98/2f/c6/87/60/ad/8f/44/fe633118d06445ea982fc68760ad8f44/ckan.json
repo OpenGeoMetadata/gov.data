@@ -1,0 +1,195 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "fe633118-d064-45ea-982f-c68760ad8f44",
+  "metadata_created": "2013-03-14T19:21:54.884973",
+  "metadata_modified": "2015-04-09T22:09:20.987762",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "fe633118-d064-45ea-982f-c68760ad8f44",
+      "webstore_last_updated": null,
+      "id": "d9a7dbe9-5e1b-4cc8-ab67-f0f46cee6660",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "inventory.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 53,
+        "recent": 5
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "5c5bbd42-0852-421a-b775-467cac6bc480",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2013-03-14T20:21:54.898144",
+      "url": "http://www.ehib.org/projects/ehss01/data/water/tables2010/inventory.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 198,
+    "recent": 9
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "Dedicated to optimizing the health and well-being of the people in California.",
+    "created": "2013-03-14T03:44:40.684995",
+    "title": "California Environmental Health Tracking Program",
+    "name": "cdph-ca-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.cdph.ca.gov/Style%20Library/images/heading_department.gif",
+    "revision_id": "2e6d9df7-d76d-49fe-9ae7-a29b5858a6ec",
+    "type": "organization",
+    "id": "4336fab3-e059-47af-aebe-f02711676b7b",
+    "approval_status": "approved"
+  },
+  "name": "california-community-water-systems-inventory-dataset-2010",
+  "isopen": false,
+  "url": null,
+  "notes": "This data set contains information about all Community Water Systems in California. Data are derived from California Office of Drinking Water (ODW) Water Quality Monitoring Database (WQMD, also know as Water Quality Inventory or WQI) and Permits, Inspection, Compliance, Monitoring, and Enforcement (PICME) database. The data set contains one record for each Community Water System (CWS) and includes additional detail about how many retail connections and how many people are served by each CWS.",
+  "owner_org": "4336fab3-e059-47af-aebe-f02711676b7b",
+  "extras": [
+    {
+      "key": "temporal-extent-begin",
+      "value": "1999-01-01T"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2008-12-31T"
+    },
+    {
+      "key": "contact-email",
+      "value": "data@cehtp.org"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-124.409721"
+    },
+    {
+      "key": "metadata-date",
+      "value": "9999-01-01"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2010-05-04\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-114.131208"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "42.009521999999997"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "32.53416"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"CDPH/EHIB\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-124.409721, 32.53416], [-124.409721, 42.009522], [-114.131208, 42.009522], [-114.131208, 32.53416], [-124.409721, 32.53416]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: The principal county and city served variables designate the principal county or city which the community water system serves; Multiple CWS can serve the same county or city and multiple counties or cities can be served by a single CWS. Use of the principal county or city served variables to link drinking water data to health outcomes or other data at the county or city level is not appropriate in all cases.\", \"Access Constraints: none\"]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "TWO TIMES PER YEAR"
+    },
+    {
+      "key": "tags",
+      "value": "hazard"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "73e3ffc9-b5a3-421d-96d7-9f3bcf9578b9"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "d8a7c4e9-17a8-402b-9a3f-7fc39f54c301"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "CEHTP Metadata Repository"
+    }
+  ],
+  "title": "California community water systems inventory dataset, 2010",
+  "revision_id": "f71f2c42-8e48-4b94-bdcb-b826ffea4ede"
+}

@@ -1,0 +1,567 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "Legacy Management, Technical Data Manager",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "gis@lm.doe.gov",
+  "num_tags": 46,
+  "id": "028ec315-8374-40ed-804b-8391f0ebd52b",
+  "metadata_created": "2016-03-13T22:41:11.441975",
+  "metadata_modified": "2016-03-13T22:41:11.441975",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "028ec315-8374-40ed-804b-8391f0ebd52b",
+      "webstore_last_updated": null,
+      "id": "055f1031-7453-45f7-bc8e-90283dc9f6c7",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "REST API to allow querying of LM data",
+      "format": "API",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "REST API",
+      "created": "2016-03-13T18:41:14.992271",
+      "url": "http://gems.lm.doe.gov/arcgis/rest/services/GEMS_EXT/LMSites_GWh/MapServer",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "4e0e40b3-9cb6-422c-9152-dae4188771cf",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "028ec315-8374-40ed-804b-8391f0ebd52b",
+      "webstore_last_updated": null,
+      "id": "99be5731-62bf-4e00-80a4-8e45a678d533",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Graphical interface for viewing LM spatial data",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 16,
+        "recent": 2
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Website",
+      "created": "2016-03-13T18:41:14.992302",
+      "url": "http://gems.lm.doe.gov",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 1,
+      "revision_id": "4e0e40b3-9cb6-422c-9152-dae4188771cf",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "028ec315-8374-40ed-804b-8391f0ebd52b",
+      "webstore_last_updated": null,
+      "id": "556db235-7b34-41c2-bf44-77143f386412",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Legacy Management Sites information in json format",
+      "format": "JSON",
+      "tracking_summary": {
+        "total": 7,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/json",
+      "cache_url": null,
+      "name": "download json",
+      "created": "2016-03-13T18:41:14.992311",
+      "url": "http://gems.lm.doe.gov/arcgis/rest/services/GEMS_EXT/LMSites_GWh/MapServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=pjson",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 2,
+      "revision_id": "4e0e40b3-9cb6-422c-9152-dae4188771cf",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "blue-book",
+      "id": "dac6704b-1355-44b7-b6bd-3d2c6fa1b30e",
+      "name": "blue-book"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "category-i",
+      "id": "42c80bbf-7bac-4a2a-9136-589a17228df7",
+      "name": "category-i"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "category-ii",
+      "id": "8082a8b3-cacf-43fc-9bf1-e37960e40981",
+      "name": "category-ii"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "category-iii",
+      "id": "9f8a8069-1e27-4435-8a4c-7a5edb63f351",
+      "name": "category-iii"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "cercla",
+      "id": "3148b610-25ef-4f89-b03c-38184d13d82d",
+      "name": "cercla"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "cold-war",
+      "id": "2103ac38-571c-4d64-8912-96ed1e687e4a",
+      "name": "cold-war"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "compensation-and-liability",
+      "id": "f879bc1e-2818-4e9b-a6cd-fcd846d56176",
+      "name": "compensation-and-liability"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "comprehensive-environmental-response",
+      "id": "e72d5998-1713-4715-9b48-cb67c95aac3e",
+      "name": "comprehensive-environmental-response"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "d-and-d",
+      "id": "4714522b-976d-463c-9c68-ab668c7ebd2f",
+      "name": "d-and-d"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "decontamination-and-decommissioning",
+      "id": "cf2cddf1-d0d0-4a52-a178-2b959103742b",
+      "name": "decontamination-and-decommissioning"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "disposal-site",
+      "id": "36a39cd0-1c56-472d-a765-eea0839d4687",
+      "name": "disposal-site"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "doe",
+      "id": "e4d4d19f-ac39-4a45-9c2e-e2f5c7378c13",
+      "name": "doe"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "em",
+      "id": "c4d7d64b-4303-47de-8e9b-a22beea4c583",
+      "name": "em"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "environmental",
+      "id": "4fef157e-a20d-4ced-acaf-34361bfb3a4c",
+      "name": "environmental"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "fact-sheet",
+      "id": "9402abb6-e331-45b7-b673-af08c82965e8",
+      "name": "fact-sheet"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "formerly-utilized-sites-remedial-action-program",
+      "id": "e906fb87-3c02-48a0-b6b3-04590a71a6a4",
+      "name": "formerly-utilized-sites-remedial-action-program"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "fusrap",
+      "id": "f507df76-bb96-40ef-9426-706143d210bb",
+      "name": "fusrap"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "gems",
+      "id": "5c64d96a-c7d1-4f0d-8ddb-68e18f2939bf",
+      "name": "gems"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geospatial-environment-mappings-system",
+      "id": "8daee852-e384-4016-82e6-648494a89566",
+      "name": "geospatial-environment-mappings-system"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "human-health",
+      "id": "b3bdd125-1674-4269-a23e-11ba9c528f5e",
+      "name": "human-health"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ics",
+      "id": "94da3644-1634-4f73-93a0-198497b87fbd",
+      "name": "ics"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "institutional-controls",
+      "id": "8f7ecde9-4835-42f5-896f-d17f64d37430",
+      "name": "institutional-controls"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "legacy-management",
+      "id": "de4d1d30-8764-4d21-86a3-b9b1a8a166e7",
+      "name": "legacy-management"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "lm",
+      "id": "b28699fd-3935-4acb-a4f1-3a47ae45bf7e",
+      "name": "lm"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "lm-sites",
+      "id": "ae30a2a0-26c2-4759-b63c-f8621ef060e1",
+      "name": "lm-sites"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "lm-sites-map",
+      "id": "02ddd0ec-1b55-4bda-a116-f368a1718d5c",
+      "name": "lm-sites-map"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "long-term-surveillance-and-maintenance",
+      "id": "0eeed6b7-bf45-498a-8253-ed3e674d1f9e",
+      "name": "long-term-surveillance-and-maintenance"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "lts-and-m",
+      "id": "e54e915c-c7bd-4c76-af17-e961e4a576f7",
+      "name": "lts-and-m"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "nrc",
+      "id": "be16f3cb-71a7-45d5-a188-a56fe8e40fcf",
+      "name": "nrc"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "office-of-environmental-management",
+      "id": "15277e0b-8fa1-46a8-953c-c58b0efcc8eb",
+      "name": "office-of-environmental-management"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "post-closure",
+      "id": "0f83ad16-092a-44e4-b820-e84ea7f592c3",
+      "name": "post-closure"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "processing-site",
+      "id": "57aad0be-8393-4b04-970c-8ee7153b9065",
+      "name": "processing-site"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "rcra",
+      "id": "46925249-00e5-42f9-8516-3350166c4cf1",
+      "name": "rcra"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "regulatory-drivers",
+      "id": "0579adf0-621d-4897-b6ca-b609bd459e79",
+      "name": "regulatory-drivers"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "resource-conservation-and-recovery-act",
+      "id": "658c12f0-a3d2-4100-8777-93b565f0f944",
+      "name": "resource-conservation-and-recovery-act"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "site-management-guide",
+      "id": "c5ae8981-36c9-4bb9-9c8a-015511be05ab",
+      "name": "site-management-guide"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "site-transition",
+      "id": "7a691860-9d00-4d2d-a41f-caf450d1251a",
+      "name": "site-transition"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "sites",
+      "id": "668c6b20-ad41-4a97-a7cf-e1c9f1bc39fb",
+      "name": "sites"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "title-i",
+      "id": "3fb07faa-9a30-4583-95ce-72fe09e58658",
+      "name": "title-i"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "title-ii",
+      "id": "5def9ded-048c-4f51-80e3-73fb19489ecd",
+      "name": "title-ii"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "u-s-army-corps-of-engineers",
+      "id": "9b03d0a7-69cc-46f2-8291-b5cbd4442747",
+      "name": "u-s-army-corps-of-engineers"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "u-s-department-of-energy",
+      "id": "18c37d7f-e191-4905-b382-8cb5427c4952",
+      "name": "u-s-department-of-energy"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "u-s-nuclear-regulatory-commission",
+      "id": "5186b695-f0b6-4dde-9096-f297426dc2d5",
+      "name": "u-s-nuclear-regulatory-commission"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "umtrca",
+      "id": "f0146aa8-62d2-4b60-a103-e73e4dd82c59",
+      "name": "umtrca"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "uranium-mill-tailings-radiation-control-act",
+      "id": "23a551ea-2818-4dc2-8c30-ba2f9eb6a9b9",
+      "name": "uranium-mill-tailings-radiation-control-act"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "usace",
+      "id": "4ba0fb25-40ef-4704-9892-66521ac54a0a",
+      "name": "usace"
+    }
+  ],
+  "tracking_summary": {
+    "total": 42,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "doe-legacy-management-sites",
+  "isopen": true,
+  "url": null,
+  "notes": "Each point is a representation of an U.S. Department of Energy Office of Legacy Management (LM) site. The coordinates of each site point are either the location of a site monument, the centroid of the site boundary, or a general location of the site. This dataset is automatic synchronized with the LM environmental database on a weekly basis. The location and attributes of each site are maintained within the LM environmental database.",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "c4541011d3b99b10dbe408dbe763167f3768fa0f"
+    },
+    {
+      "key": "temporal",
+      "value": "1982-01-01/2015-12-09"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "geospatial"
+      ]
+    },
+    {
+      "key": "spatial",
+      "value": "-165.765589,18.213480,179.179778,68.106924"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:052"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:10"
+      ]
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "0fea7043-368d-484c-9d74-34d1ed88997f"
+    },
+    {
+      "key": "publisher",
+      "value": "Department of Energy Office of Legacy Management, Technical Data Manager"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "key": "modified",
+      "value": "2015-12-09"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "DOE-LM-0000001"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "0fea7043-368d-484c-9d74-34d1ed88997f"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "DOE Legacy Management Sites",
+  "revision_id": "4e0e40b3-9cb6-422c-9152-dae4188771cf"
+}

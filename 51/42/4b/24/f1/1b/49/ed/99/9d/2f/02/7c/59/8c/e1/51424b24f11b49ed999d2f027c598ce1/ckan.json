@@ -1,0 +1,241 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "ANDREY SAVTCHENKO",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "Andrey.Savtchenko@nasa.gov",
+  "num_tags": 3,
+  "id": "51424b24-f11b-49ed-999d-2f027c598ce1",
+  "metadata_created": "2014-10-08T03:03:13.923368",
+  "metadata_modified": "2016-05-06T07:53:52.309047",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "51424b24-f11b-49ed-999d-2f027c598ce1",
+      "webstore_last_updated": null,
+      "id": "2c80a24b-8b35-413a-8ef2-4779c560512d",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "BIN",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/octet-stream",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-07-08T15:05:40.930442",
+      "url": "http://mirador.gsfc.nasa.gov/cgi-bin/mirador/collectionlist.pl?keyword=ACOS_L2S",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "a33c9cbb-fe03-413a-8a27-5939d0671c32",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "atmosphere",
+      "id": "104e93c2-cbec-435b-b3ba-0d6385114d41",
+      "name": "atmosphere"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "atmospheric-chemistry",
+      "id": "036ab82d-b9cb-4566-b5cc-ac19561cae92",
+      "name": "atmospheric-chemistry"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "earth-science",
+      "id": "f28006f8-df78-4700-b72f-f4a19628ba67",
+      "name": "earth-science"
+    }
+  ],
+  "tracking_summary": {
+    "total": 42,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "acos-gosat-tanso-fts-level-2-full-physics-standard-product-v2-9",
+  "isopen": true,
+  "url": null,
+  "notes": "This data set contains Carbon Dioxide (CO2) column averaged dry air mole fraction for all soundings for which retrieval was attempted. These are the highest-level products made available by the ACOS Project, from algorithm build version 2.9\n   \nThe GOSAT team at JAXA produces GOSAT TANSO-FTS Level 1B (L1B) data products for internal use and for distribution to collaborative partners, such as ESA and NASA.  These calibrated products are augmented by the ACOS Project with additional geolocation information and further corrections. These ACOS Level 1B products (with calibrated radiances and geolocation) are the input to the ACOS Level 2 production process.\n   \nEven though the GES DISC is not publicly distributing Level 1B ACOS products, it should be known that changes in this version are affecting both Level 1B and Level 2 data. An important enhancement in Level1B will address the degradation in the number of quality-passed soundings in v2.8.\n\nElimination of many systematic biases, and better agreement with TCCON (Total Carbon Column Observing Network), is expected in Level 2 retrievals. The key changes to the L2 algorithm include scaling the O2-A band spectroscopy (reducing XCO2 bias by 4 or 5 ppm); using interpolation with the instrument lineshape [ ILS ] (reducing XCO2 bias by 1.5 ppm); and fitting a zero level offset to the A-band.\n\nUsers have to also carefully familiarize themselves with the disclaimer in the new documentation. An important element to note are the updates on data screening. Although a Master Quality Flag is provided in the data product, further analysis of a larger set of data has allowed the science team to provide an updated set of screening criteria. These are listed in the data user's guide, and are recommended instead of the Master Quality Flag.\n\nLastly, users should continue to carefully observe and weigh information from three important flags:\n\n    sounding_qual_flag - quality of input data provided to the retrieval processing\n\n    outcome_flag - retrieval quality based upon certain internal thresholds (not thoroughly evaluated)\n\n    master_quality_flag - four possible values: \"Good\", \"Caution\" and \"Bad\", and \"Failed\", as determined from other flags in the L2 product\n\nThe short name for this data type is ACOS_L2S.",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "collection_metadata",
+      "value": "true"
+    },
+    {
+      "key": "issued",
+      "value": "2011-10-31T00:00:00.000Z"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "cb0c53553ae6c622edbc5df3f1eecff659d916c3"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "temporal",
+      "value": "R/2009-04-05T00:00:00Z/P1Y"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "geospatial"
+      ]
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:001"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "landingPage",
+      "value": "http://reverb.echo.nasa.gov/reverb?selected=C194792973-GSFCS4PA"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "5ea6aa90-bd11-4886-bfe7-cba5febf5ec3"
+    },
+    {
+      "key": "publisher",
+      "value": "GESDISC"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "55942a58c63a7fe59b495ab1"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "rights",
+      "value": " This product have full public access "
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "U.S. Government > National Aeronautics and Space Administration > GESDISC"
+    },
+    {
+      "key": "modified",
+      "value": "2011-12-07T00:00:00.000Z"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "irregular"
+    },
+    {
+      "key": "identifier",
+      "value": "C194792973-GSFCS4PA"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "5ea6aa90-bd11-4886-bfe7-cba5febf5ec3"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "ACOS GOSAT/TANSO-FTS Level 2 Full Physics Standard Product V2.9",
+  "revision_id": "71e11f72-71fd-421b-87ab-8a706a979231"
+}

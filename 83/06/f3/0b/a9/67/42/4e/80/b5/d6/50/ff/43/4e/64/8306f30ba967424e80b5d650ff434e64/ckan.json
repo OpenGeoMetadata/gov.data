@@ -1,0 +1,212 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Jennifer Holland",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "geo.geography@census.gov",
+  "num_tags": 2,
+  "id": "8306f30b-a967-424e-80b5-d650ff434e64",
+  "metadata_created": "2015-05-20T21:03:54.566493",
+  "metadata_modified": "2015-09-17T06:58:34.476805",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "8306f30b-a967-424e-80b5-d650ff434e64",
+      "webstore_last_updated": null,
+      "id": "9b2dcf26-e972-437e-8fdd-bb4ec5275f03",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "comp-sub.html",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/html",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-05-20T17:03:54.754092",
+      "url": "https://www.census.gov/geo/maps-data/data/comp-sub.html",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "6c468ffa-b1ee-4cbd-9e9d-cd7337ce6161",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "comparability-file",
+      "id": "4d6a5db2-dec3-492d-87b7-003fbb334da5",
+      "name": "comparability-file"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "county-subdivisions",
+      "id": "4fa76cd1-52be-4f53-aad1-19fa798ff28e",
+      "name": "county-subdivisions"
+    }
+  ],
+  "tracking_summary": {
+    "total": 11,
+    "recent": 1
+  },
+  "groups": [
+    {
+      "display_name": "AAPI",
+      "description": "Asian Americans and Pacific Islanders",
+      "image_display_url": "",
+      "title": "AAPI",
+      "id": "9a350fa9-bc49-43d4-8e77-270b9714976d",
+      "name": "aapi0916"
+    }
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:37:59.153068",
+    "title": "Department of Commerce",
+    "name": "doc-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.vos.noaa.gov/MWL/aug_10/Images/doc_logo_xparent.png",
+    "revision_id": "44c851b9-8872-497a-8a13-2f06740b7ffb",
+    "type": "organization",
+    "id": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+    "approval_status": "approved"
+  },
+  "name": "geographic-comparability-file-2010-census-to-census-2000-county-subdivisions",
+  "isopen": true,
+  "url": null,
+  "notes": "The geographic comparability file provides a simple relationship between each 2010 Census county subdivision and its comparable Census 2000 county subdivision (if comparability exists) with an additional comments section to describe more detailed changes.  For the vast majority of records, there is a one-to-one relationship between a 2010 Census county subdivision and a Census 2000 county subdivision, although names and codes may have changed between censuses.  Where a 2010 Census record has no comparable Census 2000 county subdivision information, it is the result of new subdivisions being created from existing areas or the 2010 Census county subdivisions have changed so dramatically as to preclude any comparability.",
+  "owner_org": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "issued",
+      "value": "2011-05-05"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "__category_tag_9a350fa9-bc49-43d4-8e77-270b9714976d",
+      "value": "[\"State\",\"Wyoming\",\"Nebraska\",\"County\"]"
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://www.census.gov/geo/www/relate/rel_blk.html"
+      ]
+    },
+    {
+      "key": "source_hash",
+      "value": "bcceaf0f6093e114f705e3bf15c028430564602a"
+    },
+    {
+      "key": "spatial",
+      "value": "United States, Puerto Rico, US Possessions"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "006:010"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "006:07"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "8bc4bd0e-0dce-4301-85da-fc4dce94ee81"
+    },
+    {
+      "key": "publisher",
+      "value": "US Census Bureau, Department of Commerce"
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "modified",
+      "value": "2011-05-05"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "DOC-5458"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "8bc4bd0e-0dce-4301-85da-fc4dce94ee81"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "Geographic Comparability File 2010 Census to Census 2000 County Subdivisions",
+  "revision_id": "6c468ffa-b1ee-4cbd-9e9d-cd7337ce6161"
+}

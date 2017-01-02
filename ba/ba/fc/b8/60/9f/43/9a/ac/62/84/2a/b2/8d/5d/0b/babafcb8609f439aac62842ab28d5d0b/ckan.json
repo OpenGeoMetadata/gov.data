@@ -1,0 +1,160 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Data Exchange Administrator",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "ORDP.Data.Exchange@ssa.gov",
+  "num_tags": 2,
+  "id": "babafcb8-609f-439a-ac62-842ab28d5d0b",
+  "metadata_created": "2015-01-30T16:17:49.717599",
+  "metadata_modified": "2016-12-01T20:59:05.918153",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "dxqm",
+      "id": "3a32405e-815c-438f-a4b7-b6702f69fd7d",
+      "name": "dxqm"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "tcvq",
+      "id": "a9d69f57-0158-4532-863c-d7c12a67c81d",
+      "name": "tcvq"
+    }
+  ],
+  "tracking_summary": {
+    "total": 618,
+    "recent": 9
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:35:25.934290",
+    "title": "Social Security Administration",
+    "name": "ssa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/ssa.png",
+    "revision_id": "1be01963-921d-432f-b56d-37fa76dfb0a1",
+    "type": "organization",
+    "id": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+    "approval_status": "approved"
+  },
+  "name": "treasury-check-verification-query-tcvq",
+  "isopen": true,
+  "url": null,
+  "notes": "The TCVQ system determines the SSN of an individual whose check has been returned to a local field office. The FO is able to request this information via the TCVQ located on the DXQM. SSNs were removed from the SSA checks in early 2004.",
+  "owner_org": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Social Security Administration"
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "license",
+      "value": "https://www.ssa.gov/open/data/Restricted-Public-Licensing-Information.html"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "rights",
+      "value": "The data contained in this data exchange is restricted due to sensitivity and/or privacy issues.  If you would like more information on a data exchange with SSA please visit the following web site https://www.ssa.gov/dataexchange/."
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2016-11-30"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "016:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "016:00"
+      ]
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "US-GOV-SSA-656"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "2aad4698-58d8-4172-8c67-67d3b4f9bd44"
+    },
+    {
+      "key": "source_hash",
+      "value": "63781ec46953491465734ccc112bb2c2c59e7c88"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "2aad4698-58d8-4172-8c67-67d3b4f9bd44"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    }
+  ],
+  "title": "Treasury Check Verification Query (TCVQ)",
+  "revision_id": "ff8bd97d-8440-4913-9f1a-b2c0710664b9"
+}

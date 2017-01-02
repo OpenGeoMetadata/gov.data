@@ -1,0 +1,218 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "MARK SCHWABACHER",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "mark.a.schwabacher@nasa.gov",
+  "num_tags": 3,
+  "id": "32cf6c26-8203-4855-8866-7a4366aec5f9",
+  "metadata_created": "2016-02-26T22:03:28.644185",
+  "metadata_modified": "2016-05-06T08:20:02.351894",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "32cf6c26-8203-4855-8866-7a4366aec5f9",
+      "webstore_last_updated": null,
+      "id": "aee2a08c-c5bf-4755-8d2f-86fbafca6c57",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "IMS JACIC.pdf",
+      "format": "PDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/pdf",
+      "cache_url": null,
+      "name": "IMS JACIC.pdf",
+      "created": "2016-02-26T17:03:28.810692",
+      "url": "https://c3.nasa.gov/dashlink/static/media/publication/IMS_JACIC.pdf",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "ba2a27c6-de02-45c1-a72b-7947f216df8f",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ames",
+      "id": "26409e70-decd-4cc6-9beb-904602430852",
+      "name": "ames"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "dashlink",
+      "id": "4377f23e-7f40-493e-82fd-834ccb75e9ba",
+      "name": "dashlink"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "nasa",
+      "id": "34817959-c506-4bfe-b8fd-330f550970e4",
+      "name": "nasa"
+    }
+  ],
+  "tracking_summary": {
+    "total": 3,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "general-purpose-data-driven-system-monitoring-for-space-operations",
+  "isopen": true,
+  "url": null,
+  "notes": "Modern space propulsion and exploration system designs are becoming increasingly\r\nsophisticated and complex. Determining the health state of these systems using traditional methods is becoming more difficult as the number of sensors and component interactions grows. Data-driven monitoring techniques have been developed to address these issues by\r\nanalyzing system operations data to automatically characterize normal system behavior. The Inductive Monitoring System is a data-driven system health monitoring software tool that has been successfully applied to several aerospace applications. Inductive Monitoring System uses a data mining technique called clustering to analyze archived system data and characterize\r\nnormal interactions between parameters. This characterization, or model, of nominal operation is stored in a knowledge base that can be used for real-time system monitoring or\r\nfor analysis of archived events. Ongoing and developing Inductive Monitoring System space operations applications include International Space Station flight control, spacecraft vehicle\r\nsystem health management, launch vehicle ground operations, and fleet supportability. As a common thread of discussion this paper will employ the evolution of the Inductive Monitoring\r\nSystem data-driven technique as related to several Integrated Systems Health Management elements. Thematically, the projects listed will be used as case studies. The maturation of Inductive Monitoring System via projects where it has been deployed or is currently being\r\nintegrated to aid in fault detection will be described. The paper will also explain how Inductive Monitoring System can be used to complement a suite of other Integrated System Health Management tools, providing initial fault detection support for diagnosis and recovery.",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "issued",
+      "value": "2013-02-01T13:25:49"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "ec393a70a1d841e230700c6cb85e7a088ff31c22"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:029"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "https://c3.nasa.gov/dashlink/resources/669/"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c277345e-f216-4b7a-a0ca-4619a88c028f"
+    },
+    {
+      "key": "publisher",
+      "value": "Dashlink"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "56cf5b00a759fdadc44e576d"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "U.S. Government > National Aeronautics and Space Administration > Dashlink"
+    },
+    {
+      "key": "modified",
+      "value": "2013-02-01T13:29:18"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "irregular"
+    },
+    {
+      "key": "identifier",
+      "value": "DASHLINK_669"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c277345e-f216-4b7a-a0ca-4619a88c028f"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "General Purpose Data-Driven System Monitoring for Space Operations",
+  "revision_id": "ba2a27c6-de02-45c1-a72b-7947f216df8f"
+}

@@ -1,0 +1,135 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "Maria  Nadal",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "maria.nadal@nist.gov",
+  "num_tags": 0,
+  "id": "81f5ec54-ebe6-4ce5-bf4f-fab991dd62cd",
+  "metadata_created": "2015-10-15T06:04:19.968177",
+  "metadata_modified": "2015-10-15T06:04:19.968177",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 5,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The Federal Laboratory Consortium for Technology Transfer (FLC) is the nationwide network of federal laboratories that provides the forum to develop strategies and opportunities for linking laboratory mission technologies and expertise with the marketplace.",
+    "created": "2015-10-13T18:12:21.453690",
+    "title": "Federal Laboratory Consortium",
+    "name": "federal-laboratory-consortium",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://secure.federallabs.org/images/flc-header.jpg",
+    "revision_id": "d7189270-0164-45b0-a835-a49617d382ef",
+    "type": "organization",
+    "id": "e21b7304-5ac3-4f0a-9a0f-25a8a6ab04be",
+    "approval_status": "approved"
+  },
+  "name": "five-axis-goniometer-for-brdf-measurements",
+  "isopen": false,
+  "url": null,
+  "notes": " Manufacturers are creating pigments with new and unique appearance attributes. For example, gonioapparent materials such as metallic and pearlescent coatings exhibit differences in their perceived color with changes in the illumination or viewing angle, or both. These coatings are very important to the generation of many unique effects used in the printing of currency, formulation of cosmetics, and application of paint to automobiles. The continued appeal of these novel materials to consumers will ensure that they will attract an increasingly larger fraction of the color pigment market. These gonioapparent properties require exceptional processing conditions and characterization methods, which are different from the traditional single-geometry methods. The necessary set of measurement geometries is determined by the complexity of the scattering mechanisms present in these coatings. The successful use of these special-effect paints requires repeated measurements of the optical reflectance properties of the coatings as a function of incident and viewing angle to ensure that the paint application is performed correctly, is reproducible between manufacturing plants, is consistent over time, and can be replicated during a repair. The five-axis goniometer at NIST can measure the spectral reflectance of colored samples over a wide range of illumination and viewing angles. This capability is important for the colorimetric characterization of complex surfaces, such as gonioapparent coatings or retroreflective surfaces. The illumination is provided by a monochromator with a spectral resolution of 0.05 nm between 360 nm and 780 nm. The sample can be moved about 3 different axes, allowing illumination and viewing for any direction within the hemisphere about the sample, including grazing angles, with accuracy better than 0.01&amp;#176; for each axis. The fundamental quantity for bi-directional reflectance measurements is the bi-directional reflectance distribution function (BRDF), from which the reflectance factor and color values can be calculated. The absolute BRDF is calculated from measurements of the incident and the reflected radiant fluxes obtain by rotating the detector arm. Three detection systems have been implemented on the receiver arm of the five-axis goniometer. The first system is a single element silicon diode combined with monochromatic illumination. An aperture at a precise distance defines the collected solid angle. An off-axis parabolic mirror focuses the flux collected from a wide field on the sample area onto the detector area. The detector consists of a temperature-controlled silicon photodiode. The transimpedance amplifier in the detector operates over gain settings ranging from 10 2 V/A to 10 10 V/A. The modulated signal received by the radiometer is converted to a dc signal and is digitized by a lock-in amplifier. To validate the single element Si photodiode detection system, a comparison with the NIST Spectral Tri-function Reference Reflectometer (STARR) has been carried out. STARR is the national reference instrument for spectral bi-directional reflectance measurements of spectrally neutral, non-fluorescent samples at room temperature. The in-plane BRDF of SP01 has been measured on both instruments at &amp;#955; = 550 nm with unpolarized light for three different directions of illumination (0&amp;#176;, 30&amp;#176; and 60&amp;#176;) and reflective directions from -80&amp;#176; to 80&amp;#176; at 5&amp;#176; increments. The two instruments agree within 0.5 % in the region where each instrument has an uncertainty smaller than 0.2 %. A second system, a fiber-coupled CCD array spectrometer with a white illumination source, has been added to the goniospectrometer. Unlike the first system, the array spectrometer measures the entire spectrum simultaneously, dramatically decreasing the acquisition time. The third system, a CCD imaging camera used with white light or monochromatic illumination, has been added to the detection capabilities. The imaging capabilities will allow the development of metrics to describe visual aspects that are currently judged by human observers in the manufacturing process. An example is distinctiveness of image (DOI) for various types of paints.  ",
+  "owner_org": "e21b7304-5ac3-4f0a-9a0f-25a8a6ab04be",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Federal Laboratory Consortium"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "5859cfed-553c-48de-a478-b67b5225f6fc"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "4d50d839-46a1-470c-9e41-708bd65aef8e"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Federal Laboratory Consortium Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": " https://flcbusiness.federallabs.org/app/facility-page?id=5752"
+    },
+    {
+      "key": "sizeSqft",
+      "value": "0"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "repPhone",
+      "value": "301-975-4632"
+    },
+    {
+      "key": "flcBusinessUrl",
+      "value": "https://flcbusiness.federallabs.org/app/facility-page?id=5752"
+    },
+    {
+      "key": "source_hash",
+      "value": "f88a6dacf04fe45b04efcdcdb708f6a71f4c9bfd"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "4d50d839-46a1-470c-9e41-708bd65aef8e"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "5859cfed-553c-48de-a478-b67b5225f6fc"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Federal Laboratory Consortium Data.json"
+    }
+  ],
+  "title": "Five-axis goniometer for BRDF measurements",
+  "revision_id": "f7f69db3-bc13-407a-81ab-c0cd0486efeb"
+}

@@ -1,0 +1,500 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "60730cda-6966-4b73-aba6-34a5212412c2",
+  "metadata_created": "2016-11-23T04:53:43.828917",
+  "metadata_modified": "2016-12-07T06:44:00.079040",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "60730cda-6966-4b73-aba6-34a5212412c2",
+      "webstore_last_updated": null,
+      "id": "bfd08cdb-719c-4012-a3fa-b91d45303fe4",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "This ASCII text file describes the model data release. This file also includes the description of the model output files and instructions on how to run the models contained in this data release.",
+      "format": "TXT",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "readme.txt",
+      "created": "2016-12-07T01:44:01.134340",
+      "url": "https://water.usgs.gov/GIS/dsdl/gwmodels/WGNHS2016-Dane_County/readme.txt",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "302996aa-5030-41ce-a730-0347e6d2c262",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "60730cda-6966-4b73-aba6-34a5212412c2",
+      "webstore_last_updated": null,
+      "id": "aa27c59c-4bfb-43b1-98c9-02d03074931e",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "This ASCII text file defines the four corners of the model domain in decimal degrees.",
+      "format": "TXT",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "modelgeoref.txt",
+      "created": "2016-12-07T01:44:01.134363",
+      "url": "https://water.usgs.gov/GIS/dsdl/gwmodels/WGNHS2016-Dane_County/modelgeoref.txt",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "302996aa-5030-41ce-a730-0347e6d2c262",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "60730cda-6966-4b73-aba6-34a5212412c2",
+      "webstore_last_updated": null,
+      "id": "35c959f5-5f8d-43b3-9f3c-40155064fd47",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "ZIP file containing a pdf of the WGNHS Dane County groundwater flow model report and an excel spreadsheet of the appendices.",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ancillary.zip",
+      "created": "2016-12-07T01:44:01.134371",
+      "url": "https://water.usgs.gov/GIS/dsdl/gwmodels/WGNHS2016-Dane_County/ancillary.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "302996aa-5030-41ce-a730-0347e6d2c262",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "60730cda-6966-4b73-aba6-34a5212412c2",
+      "webstore_last_updated": null,
+      "id": "f8f1d06d-6c7a-4bfa-ba54-3583a7615f83",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "ZIP file containing the MODFLOW-NWT executable that was used to run the simulations in the study.",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "bin.zip",
+      "created": "2016-12-07T01:44:01.134379",
+      "url": "https://water.usgs.gov/GIS/dsdl/gwmodels/WGNHS2016-Dane_County/bin.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 3,
+      "revision_id": "302996aa-5030-41ce-a730-0347e6d2c262",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "60730cda-6966-4b73-aba6-34a5212412c2",
+      "webstore_last_updated": null,
+      "id": "3a414270-ed33-427e-9283-9b2520614f3d",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "ZIP file containing a shapefile which defines the maximum extent and active area of the MODFLOW-NWT model domain (WGNHS2016-DaneCounty.shp)",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "georef.zip",
+      "created": "2016-12-07T01:44:01.134386",
+      "url": "https://water.usgs.gov/GIS/dsdl/gwmodels/WGNHS2016-Dane_County/georef.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 4,
+      "revision_id": "302996aa-5030-41ce-a730-0347e6d2c262",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "60730cda-6966-4b73-aba6-34a5212412c2",
+      "webstore_last_updated": null,
+      "id": "e5f9eb7c-11ba-4e1e-8806-44c09ec20b92",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "This ZIP file contains the input files for the two Dane County models (steady-state and transient).",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "model.zip",
+      "created": "2016-12-07T01:44:01.134393",
+      "url": "https://water.usgs.gov/GIS/dsdl/gwmodels/WGNHS2016-Dane_County/model.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 5,
+      "revision_id": "302996aa-5030-41ce-a730-0347e6d2c262",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "60730cda-6966-4b73-aba6-34a5212412c2",
+      "webstore_last_updated": null,
+      "id": "d5772c3a-dbb0-47ee-b096-ed7e854bc809",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "ZIP file containing all model output files.",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "output.zip",
+      "created": "2016-12-07T01:44:01.134400",
+      "url": "https://water.usgs.gov/GIS/dsdl/gwmodels/WGNHS2016-Dane_County/output.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 6,
+      "revision_id": "302996aa-5030-41ce-a730-0347e6d2c262",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "60730cda-6966-4b73-aba6-34a5212412c2",
+      "webstore_last_updated": null,
+      "id": "853d3e42-57a4-4448-a6df-364a8dae1b33",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "ZIP file containing Source files for MODFLOW-NWT code that was used to run the simulations in this study.",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "source.zip",
+      "created": "2016-12-07T01:44:01.134407",
+      "url": "https://water.usgs.gov/GIS/dsdl/gwmodels/WGNHS2016-Dane_County/source.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 7,
+      "revision_id": "302996aa-5030-41ce-a730-0347e6d2c262",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "60730cda-6966-4b73-aba6-34a5212412c2",
+      "webstore_last_updated": null,
+      "id": "1a39c689-07d5-4363-8771-b350e0659476",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 5,
+        "recent": 5
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "302996aa-5030-41ce-a730-0347e6d2c262",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-12-07T01:44:01.134414",
+      "url": "http://dx.doi.org/10.5066/F7K64G6Z",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 8,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "60730cda-6966-4b73-aba6-34a5212412c2",
+      "webstore_last_updated": null,
+      "id": "2d119d5b-7a73-4895-98ea-4f2ea46ceb2f",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "WGNHS_B110-report.pdf",
+      "format": "PDF",
+      "tracking_summary": {
+        "total": 4,
+        "recent": 4
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "302996aa-5030-41ce-a730-0347e6d2c262",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "PDF File",
+      "created": "2016-12-07T01:44:01.134421",
+      "url": "https://water.usgs.gov/GIS/dsdl/gwmodels/WGNHS2016-Dane_County/WGNHS_B110-report.pdf",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 9,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "60730cda-6966-4b73-aba6-34a5212412c2",
+      "webstore_last_updated": null,
+      "id": "c409acf6-472d-4ed5-a3ba-1f02b5823a6e",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "WGNHS B110-appendices.xlsx",
+      "format": "OpenXML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "302996aa-5030-41ce-a730-0347e6d2c262",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OpenXML",
+      "created": "2016-12-07T01:44:01.134429",
+      "url": "https://water.usgs.gov/GIS/dsdl/gwmodels/WGNHS2016-Dane_County/WGNHS B110-appendices.xlsx",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 10,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 11,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 36,
+    "recent": 35
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "modflow-nwt-2016-groundwater-flow-model-for-dane-county-wisconsin",
+  "isopen": false,
+  "url": null,
+  "notes": "A new groundwater flow model was created for Dane County, Wisconsin, to replace an earlier model developed in the 1990s by the Wisconsin Geological and Natural History Survey (WGNHS) and the U.S. Geological Survey (USGS). This modeling study was conducted cooperatively by the WGNHS, the Capital Area Regional Planning Commission, and the USGS. Although the overall conceptual model of the groundwater system remains largely unchanged, the incorporation of newly acquired, high-quality datasets, recent research findings, and improved modeling and calibration techniques have led to the development of a much more detailed and sophisticated model representation of the groundwater system. The new model is three-dimensional and transient, and conceptualizes the countyâs hydrogeology as a 12-layer system including all major unlithified and bedrock hydrostratigraphic units and two high-conductivity horizontal fracture zones.",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-88.768818"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "43.490146"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "jpg"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "https://water.usgs.gov/GIS/browse/WGNHS2016-DaneCountyThumbnail.jpg"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-89.956524, 42.763264], [-88.768818, 42.763264], [-88.768818, 43.490146], [-89.956524, 43.490146], [-89.956524, 42.763264]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: none\", \"Access Constraints: None. Acknowledgement of the Wisconsin Geological and Natural History Survey and the U.S. Geological Survey and would be appreciated in products derived from this data release.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2006-01-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "rjhunt@usgs.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-89.956524"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-08-14"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2016-01-01\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "Image of the model domain and active area of the model."
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "licence",
+      "value": "[\"The data have been approved for release by the U.S. Geological Survey (USGS). Although the data have been subjected to rigorous review and are substantially complete, the USGS reserves the right to revise the data pursuant to further analysis and review. Furthermore, the data are released on the condition that neither the USGS nor the U.S. Government shall be held liable for any damages resulting from authorized or unauthorized use. Although the data, software, and related material have been processed successfully on a computer system at the USGS, no warranty expressed or implied is made regarding the display or utility of the data on any other system, or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. \\n\\t\\t\\nThe USGS or the U.S. Government shall not be held liable for improper or incorrect use of the data described and/or contained herein. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Geological Survey\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2012-07-18"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "42.763264"
+    },
+    {
+      "key": "tags",
+      "value": "ancell group, mnw2, springs, sfr2, soil-water-balance code, groundwater model, eau claire formation, jordan formation, modflow-nwt, wisconsin, usgsgroundwatermodel, tunnel city group, sinnipee group, wonewoc formation, inlandwaters, prairie du chien group, pest, groundwater, st. lawrence formation, mount simon formation, lak3, dane county"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "dd4081ce-34f7-4fe4-8fe0-a49de51e2d82"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "e11eb0c1-b794-4812-9369-1bd7306336cd"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Water NSDI Node Spatial Datasets"
+    }
+  ],
+  "title": "MODFLOW-NWT 2016 groundwater flow model for Dane County, Wisconsin",
+  "revision_id": "66ebbb8d-70bc-4090-8a32-71681d72aa58"
+}

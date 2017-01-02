@@ -1,0 +1,320 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "606af156-917c-40dc-bc14-9fa17f1c7dcb",
+  "metadata_created": "2016-12-05T16:29:28.032929",
+  "metadata_modified": "2016-12-05T16:29:28.032929",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "606af156-917c-40dc-bc14-9fa17f1c7dcb",
+      "webstore_last_updated": null,
+      "id": "ed6ade9e-534c-40f7-99ae-9ef75e7fcf36",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "This will direct you to the OBIS-USA web site. Select Participants and Datasets from the panel on the left. Explore the table of dataset information to find the dataset of interest. Click on the Dataset Code (blue text) on the left for a brief summary of metadata. Or click on the \"Go\" button on the right for a Dataset Detail screen where you will see a map of dataset contents, and tabs for options to Get Data, see Metadata, or use the Data Dashboard for that dataset.",
+      "format": "Text",
+      "tracking_summary": {
+        "total": 35,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Text",
+      "created": "2016-12-05T11:29:28.272544",
+      "url": "http://www.usgs.gov/obis-usa",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "df24e824-33c9-453c-9bf1-f17bd048a675",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "606af156-917c-40dc-bc14-9fa17f1c7dcb",
+      "webstore_last_updated": null,
+      "id": "90799923-6961-401e-beb0-b4c44f8667d5",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "ERDDAP is NOAA's Environmental Research Division Data Access Program. ERDDAP enables users to query scientific data by flexible parameters and obtain output in many formats. OBIS-USA uses the tabledap component of ERDDAP to access Darwin-Core-type tabular spatial data; tabledap is a superset of the OPeNDAP DAP constraint protocol.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 30,
+        "recent": 3
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ERDDAP",
+      "created": "2016-12-05T11:29:28.272587",
+      "url": "http://www1.usgs.gov/erddap/tabledap/AllMBG.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "df24e824-33c9-453c-9bf1-f17bd048a675",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "606af156-917c-40dc-bc14-9fa17f1c7dcb",
+      "webstore_last_updated": null,
+      "id": "8ff92538-7729-4825-9b2a-81660220fea6",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "ESRI REST Service with access to Darwin-Core-type point data",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 19,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ESRI REST Service",
+      "created": "2016-12-05T11:29:28.272597",
+      "url": "http://gis1.usgs.gov/arcgis/rest/services/OBISUSA/OBIS_USA_All_Marine_Biogeographic_Records/MapServer",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "df24e824-33c9-453c-9bf1-f17bd048a675",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "606af156-917c-40dc-bc14-9fa17f1c7dcb",
+      "webstore_last_updated": null,
+      "id": "94e40d6f-f61a-4b95-9eda-235e8e1a085f",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "OGC compliant Web Mapping Service (WMS)",
+      "format": "WMS",
+      "tracking_summary": {
+        "total": 10,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OGC WMS",
+      "created": "2016-12-05T11:29:28.272605",
+      "url": "http://gis1.usgs.gov/arcgis/services/OBISUSA/OBIS_USA_All_Marine_Biogeographic_Records/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 3,
+      "revision_id": "df24e824-33c9-453c-9bf1-f17bd048a675",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "606af156-917c-40dc-bc14-9fa17f1c7dcb",
+      "webstore_last_updated": null,
+      "id": "8bebeb0c-5169-4e3c-9881-88810688d83c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 35,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "df24e824-33c9-453c-9bf1-f17bd048a675",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-12-05T11:29:28.272614",
+      "url": "http://www.usgs.gov/obis-usa",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 4,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 5,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 1,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "ocean-biogeographic-information-system-obis-usa-dataset-collection",
+  "isopen": false,
+  "url": null,
+  "notes": "OBIS-USA provides aggregated, interoperable biogeographic data collected primarily from U.S. waters and oceanic regions--the Arctic, the Atlantic and Pacific oceans, the Caribbean Sea, Gulf of Mexico and the Great Lakes. It provides access to datasets from state and federal agencies as well as educational and research institutions. OBIS-USA handles both specimen-based data and survey results. Survey data come from recovered archives and current research activities. The datasets document where and when species were observed or collected, bringing together marine biogeographic data that are spatially, taxonomically, and temporally comprehensive. The public OBIS-USA site (http://www.usgs.gov/obis-usa) provides actual data contents as well as summary data about what is contained in each dataset to assist users in evaluating suitability for use. Current functionality allows the user to locate, view, and aggregate the datasets and FGDC compliant metadata as well as to view and search the taxonomic, geographic, and temporal extent. To promote data interoperability, the data are available in accordance with the marine-focused implementation of the Darwin Core data standard. In addition to basic download functions (tab-delimited), OBIS-USA offers web services for query flexibility and a wide range of output formats, such as kml, NetCDF, MATLAB, json, and graph or map output, to enable diverse types of scientific and geospatial data use and analysis platforms and products. OBIS-USA's two web services (ERDDAP and GeoServer) enable integration of OBIS-USA biogeographic data with other data types, such as seafloor geology, physical oceanography, water chemistry, and climate data. The NOAA Environmental Research Division Data Access Program(ERRDDAP) enables users to query scientific data by flexible parameters and obtain output in many formats. Access can be found at http://www1.usgs.gov/erddap/tabledap/AllMBG.html . OBIS-USA uses the tabledap component of ERDDAP to access Darwin-Core-type tabular spatial data; tabledap is a superset of the OPeNDAP DAP constraint protocol. OBIS-USA offers an ESRI REST Service with access to Darwin-Core-type point data at http://gis1.usgs.gov/arcgis/rest/services/OBISUSA/OBIS_USA_All_Marine_Biogeographic_Records/MapServer/ and an OGC compliant Web Mapping Service (wms) http://gis1.usgs.gov/arcgis/services/OBISUSA/OBIS_USA_All_Marine_Biogeographic_Records/MapServer/WMSServer?request=GetCapabilities&service=WMS. OBIS-USA and collaborators are further deploying the Darwin Core standard to capture richer information, such as absence and abundance, observations on effort, individual tracking, and more advanced biogeography capabilities. Data are accepted into OBIS-USA from the data originator or holder, minimizing the burden on the participant. OBIS-USA works with data providers to understand the best process to transfer the data, review the data prior to their release, gather comprehensive metadata, and then allow public access to this information. Becoming part of the OBIS-USA network is intended to have tangible benefits for participants, for example, freeing the participant from responding to requests for data and alleviating security concerns since users do not directly access the participant's computers.",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "180"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "90"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "PNG"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://www.usgs.gov/obis-usa/images/OBIS%20dashboard.png"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "-90"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-180.0, -90.0], [180.0, -90.0], [180.0, 90.0], [-180.0, 90.0], [-180.0, -90.0]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: Prior to use of these records in any analysis or report, OBIS-USA must be notified and, if used, the provenance of the original data must be acknowledged. Acknowledge the use of specific records from data providers and acknowledge the use of the OBIS-USA facility. Recognize the limitations of data in OBIS-USA.\", \"Access Constraints: To view constraints placed on data, please see Policies and Disclaimer section (from the panel on the left) on OBIS-USA web site at http://www.usgs.gov/obis-usa.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "1611-01-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "obis-usa@usgs.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-180"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2015-05-19"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2015-01-01\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "Image depicting Data Search and Access abilities offered by OBIS-USA. Webpage: http://www.usgs.gov/obis-usa/data_search_and_access.html"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"OBIS-USA renders information prepared by contributors accessible through dynamic on-line publication. It does not peer-review the quality of the data provided. However, it is confident that the data are the best available in electronic form. OBIS-USA does not own or try to control or limit the use of any data or products accessible through its website. Accordingly, it does not take responsibility for the quality of such data or products, or the use that people may make of them.  <p>Users must recognize that the analysis and interpretation of data requires background knowledge and expertise about marine biodiversity (including ecosystems and taxonomy). Users should be aware of possible errors in the use of species names, geo-referencing, data handing, and mapping. Users should crosscheck their results for possible errors, and qualify their interpretation of any results accordingly. Appropriate caution is thus necessary in the interpretation of results derived from OBIS-USA.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Geological Survey\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "pacific ocean, south atlantic bight, protected species, norton sound, north america, commericial leases, bay of fundy, birds, biological production, aquatic ecosystems, bering sea, yucatan channel, reptiles, puget sound, kuskokwim bay, benthic ecosystems, plants, animal and plant census, zooplankton, phytoplankton, cruise ships, gulf of maine, census of marine life, gulf of california, nekton, gulf of alaska, biota, invasive species, shelikof strait, biogeography, habitat, vertebrates, southern ocean, reef habitat, straits of florida, canada, marine animals, microbes, benthic habitat, ecosystem functions, coastal habitat, ocean biogeographic information system, decomposers, biology, estuarine ecosystems, invertebrates, sea birds, arctic ocean, aquatic biology, algae, shellfish, wildlife, biodiversity, harvesting living resources, cook inlet, plankton, marine mammals, sea turtles, kotzebue sound, united states, plants (organisms), reef ecosystems, endemic species, wind energy production, fishery resources, producers (organisms), biological productivity, bristol bay, macroinvertebrates, mammals, migratory species, great lakes, ecosystem diversity, abundance, flora, offshore oil and gas production, consumers (organisms), marine ecosystems, marine protected areas (mpas), distributions, native species, chukchi sea, fisheries management, nonindigenous species, caribbean sea, gulf of mexico, vegetation, pelagic habitat, beaufort sea, fishes, obis, atlantic ocean, marine biology, species diversity, coral reefs, sargasso sea, bering strait, benthos"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "95c67acb-9fcc-47a9-b618-982e9a7e4463"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "b828fa22-ca9c-469f-a95e-cc37a3c81570"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "USGS Core Science Analytics and Synthesis"
+    }
+  ],
+  "title": "Ocean Biogeographic Information System (OBIS) - USA Dataset Collection",
+  "revision_id": "df24e824-33c9-453c-9bf1-f17bd048a675"
+}

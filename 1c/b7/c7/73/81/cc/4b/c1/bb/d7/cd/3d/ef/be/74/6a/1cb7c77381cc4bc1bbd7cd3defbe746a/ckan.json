@@ -1,0 +1,237 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "1cb7c773-81cc-4bc1-bbd7-cd3defbe746a",
+  "metadata_created": "2016-07-04T21:17:23.071930",
+  "metadata_modified": "2016-07-04T21:17:23.071930",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "1cb7c773-81cc-4bc1-bbd7-cd3defbe746a",
+      "webstore_last_updated": null,
+      "id": "760ebbc1-1e86-4439-b227-fc418e9eca5c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Information about the dataset",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Cite URL",
+      "created": "2016-07-04T17:17:23.208214",
+      "url": "http://wwwt.emc.ncep.noaa.gov/mmb/rreanl/index.htmlhttp://www.esrl.noaa.gov/psd/data/gridded/data.narr.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "660d9cfb-3bbd-4690-abfc-a158a0da2628",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "1cb7c773-81cc-4bc1-bbd7-cd3defbe746a",
+      "webstore_last_updated": null,
+      "id": "5279f4cb-1ed4-4f9e-bd81-c36d30feafd9",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Thredds Data server.  Allows http, opendap, and possibly WCS and WMS downaloads.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Thredds Server",
+      "created": "2016-07-04T17:17:23.208253",
+      "url": "http://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/NARR/catalog.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "660d9cfb-3bbd-4690-abfc-a158a0da2628",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "1cb7c773-81cc-4bc1-bbd7-cd3defbe746a",
+      "webstore_last_updated": null,
+      "id": "1d9ff93e-02b1-438e-969c-7868583ddfb4",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "FTP server.",
+      "format": "NETCDF3_CLASSIC",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FTP server",
+      "created": "2016-07-04T17:17:23.208262",
+      "url": "ftp://ftp.cdc.noaa.gov/Datasets/NARR",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "660d9cfb-3bbd-4690-abfc-a158a0da2628",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 5,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "ncep-north-american-regional-reanalysis-narr",
+  "isopen": false,
+  "url": null,
+  "notes": "The NARR dataset is an extension of the NCEP Global Reanalysis which is run over the North American Region. The NARR model uses the very high resolution NCEP Eta Model (32km/45 layer) together with the Regional Data Assimilation System (RDAS) which, significantly, assimilates precipitation along with other variables. Data is output 4-8 times daily. Daily and Monthly values are available. The datasets starts in 1979.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "temporal-extent-begin",
+      "value": "1979-01-01"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2015-12-31"
+    },
+    {
+      "key": "contact-email",
+      "value": "webmaster.psd@noaa.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "metadata-date",
+      "value": "2015-12-31"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"lastUpdate\", \"value\": \"2015-12-31\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"\", \"roles\": [\"custodian\"]}]"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://www.esrl.noaa.gov/psd/mddb2/browseGraphics/NCEP_North_American_Regional_Reanalysis_(NARR).png"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "ongoing"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.esrl.psd.dataset.NCEP_North_American_Regional_Reanalysis_NARR"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "tags",
+      "value": "daily albedo at surface, daily snow phase-change heat at surface, daily water vapor meridional flux accumulation at entire atmosphere considered as a single layer, daily accumulated potential evaporation at surface, daily downward shortwave radiation flux at surface, daily omega on pressure levels, 3-hourly soil moisture parameter canopy conductance at surface, daily pressure vertical velocity, 3-hourly high cloud area fraction, daily water condensate zonal flux accumulation at entire atmosphere considered as a single layer, monthly subsurface runoff (baseflow), daily accumulated convective precipitation at surface, 3-hourly water condensate zonal flux accumulation at entire atmosphere considered as a single layer, 3-hourly pressure at mean sea level, 3-hourly water vapor meridional flux accumulation at entire atmosphere considered as a single layer, daily convective inhibition at surface, 3-hourly water condensate added by precip. assimilation accumulation at entire atmosphere considered as a single layer, 3-hourly precipitable water for entire atmosphere, 3-hourly horizontal moisture divergence, 3-hourly convective inhibition at surface, 3-hourly categorical ice pellets at surface, 3-hourly canopy conductance at surface, monthly average total precipitation at surface, 3-hourly storm relative helicity, 3-hourly tropopause pressure, 3-hourly vertical speed shear, daily moisture availability, daily precipitable water for entire atmosphere, daily water condensate meridional flux accumulation at entire atmosphere considered as a single layer, daily categorical snow at surface, 3-hourly volumetric soil moisture (frozen + liquid) fraction, daily vegetation at surface, daily temperature parameter canopy conductance at surface, 3-hourly air temperature on pressure levels, 3-hourly visibility, daily latent heat flux at surface, 3-hourly planetary boundary layer height, daily geopotential heights on pressure levels, monthly accumulated convective precipitation at surface, 3-hourly water condensate flux convergence accumulation at entire atmosphere considered as a single layer, daily turbulent kinetic energy on pressure levels, daily mean of non-convective cloud cover at entire atmosphere considered as a single layer, 3-hourly best (4-layer) lifted index, daily tropopause pressure, 3-hourly u-wind on pressure levels, 3-hourly precipitation rate at surface, 3-hourly surface runoff (non-infiltrating), 3-hourly forecast of total cloud cover at entire atmosphere considered as a single layer, daily u-wind at 10 m, daily forecast of total cloud cover at entire atmosphere considered as a single layer, daily snow cover at surface, 3-hourly upward shortwave radiation flux, 3-hourly pressure vertical velocity, 3-hourly turbulent kinetic energy on pressure levels, daily potential temperature, daily sensible heat flux at surface, 3-hourly blackadar's mixing length scale, 3-hourly mean sea level (eta model) pressure, 3-hourly sensible heat flux at surface, 3-hourly air temperature at 2 m, 3-hourly dew point temperature at 2m, daily surface runoff (non-infiltrating), daily v-wind at 10 m, 3-hourly moisture availability, 3-hourly albedo at surface, 3-hourly solar parameter canopy conductance at surface, 3-hourly v-wind on pressure levels, 3-hourly accumulated snow at surface, 3-hourly upward shortwave radiation flux at surface, daily high cloud area fraction, 3-hourly water condensate meridional flux accumulation at entire atmosphere considered as a single layer, monthly wind speed at 10 m, daily upward shortwave radiation flux at surface, daily specific humidity at 2m, 3-hourly upward longwave radiation flux at surface, daily ground heat flux at surface, 3-hourly pressure at surface, daily vertical speed shear, 3-hourly snow melt, 3-hourly snow cover at surface, daily convective available potential energy at surface, daily accumulated total precipitation at surface, daily horizontal moisture divergence, 3-hourly categorical snow at surface, daily soil moisture content, 3-hourly soil temperature, daily relative humidity at 2m, 3-hourly relative humidity at 2m, daily blackadar's mixing length scale, 3-hourly mean of convective cloud cover at entire atmosphere considered as a single layer, daily air temperature at surface, 3-hourly vegetation at surface, daily solar parameter canopy conductance at surface, 3-hourly geopotential height, daily soil moisture parameter canopy conductance at surface, daily storm relative helicity, monthly wind speed on pressure levels, daily air temperature at 2 m, daily accumulated snow at surface, 3-hourly water vapor added by precip. assimilation accumulation at entire atmosphere considered as a single layer, daily upward longwave radiation flux at surface, daily accumulated total evaporation at surface, daily subsurface runoff (baseflow), daily air temperature on pressure levels, daily precipitation rate at surface, 3-hourly accumulated potential evaporation at surface, 3-hourly water vapor flux convergence accumulation at entire atmosphere considered as a single layer, 3-hourly upward longwave radiation flux, daily snow depth at surface, 3-hourly categorical rain at surface, 3-hourly convective available potential energy at surface, daily geopotential height, 3-hourly u-wind at 10 m, 3-hourly medium cloud area fraction, daily u-wind on pressure levels, daily v-wind on pressure levels, 3-hourly accumulated convective precipitation at surface, daily dew point temperature at 2m, 3-hourly turbulent kinetic energy, daily medium cloud area fraction, daily humidity parameter canopy conductance at surface, daily categorical rain at surface, 3-hourly soil moisture content, daily water condensate flux convergence accumulation at entire atmosphere considered as a single layer, daily upward longwave radiation flux, 3-hourly specific humidity at 2m, 3-hourly plant canopy water at surface, monthly vegetation at surface, 3-hourly humidity parameter canopy conductance at surface, daily visibility, 3-hourly downward shortwave radiation flux at surface, daily pressure at mean sea level, 3-hourly latent heat flux at surface, daily pressure at surface, 3-hourly specific humidity on pressure levels, 3-hourly liquid volumetric soil moisture (non-frozen) fraction, 3-hourly omega on pressure levels, 3-hourly v-component of storm motion, daily planetary boundary layer height, 3-hourly accumulated total precipitation at surface, 3-hourly snow depth at surface, 3-hourly v-wind at 10 m, 3-hourly accumulated total evaporation at surface, daily mean of convective cloud cover at entire atmosphere considered as a single layer, 3-hourly temperature parameter canopy conductance at surface, daily water condensate added by precip. assimilation accumulation at entire atmosphere considered as a single layer, daily categorical freezing rain at surface, daily soil temperature, daily best (4-layer) lifted index, daily snow melt, 3-hourly categorical freezing rain at surface, daily water vapor added by precip. assimilation accumulation at entire atmosphere considered as a single layer, 3-hourly subsurface runoff (baseflow), daily turbulent kinetic energy, daily low cloud area fraction, daily u-component of storm motion, daily upward shortwave radiation flux, 3-hourly water vapor zonal flux accumulation at entire atmosphere considered as a single layer, daily water vapor flux convergence accumulation at entire atmosphere considered as a single layer, 3-hourly potential temperature at surface, 3-hourly u-component of storm motion, 3-hourly downward longwave radiation flux at surface, daily plant canopy water at surface, daily potential temperature at surface, daily mean sea level (eta model) pressure, daily liquid volumetric soil moisture (non-frozen) fraction, daily canopy conductance at surface, 3-hourly low cloud area fraction, 3-hourly geopotential heights on pressure levels, 3-hourly ground heat flux at surface, daily v-component of storm motion, daily water vapor zonal flux accumulation at entire atmosphere considered as a single layer, 3-hourly mean of non-convective cloud cover at entire atmosphere considered as a single layer, daily volumetric soil moisture (frozen + liquid) fraction, 3-hourly snow phase-change heat at surface, daily specific humidity on pressure levels, daily downward longwave radiation flux at surface, 3-hourly air temperature at surface, 3-hourly potential temperature, daily categorical ice pellets at surface"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "5834743a-e39e-4871-9453-ba095d9f5eea"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "NCEP North American Regional Reanalysis (NARR)",
+  "revision_id": "660d9cfb-3bbd-4690-abfc-a158a0da2628"
+}

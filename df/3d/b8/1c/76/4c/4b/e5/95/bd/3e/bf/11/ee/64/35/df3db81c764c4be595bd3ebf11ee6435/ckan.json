@@ -1,0 +1,191 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "df3db81c-764c-4be5-95bd-3ebf11ee6435",
+  "metadata_created": "2013-03-28T01:13:53.825982",
+  "metadata_modified": "2015-04-09T22:46:41.863883",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "df3db81c-764c-4be5-95bd-3ebf11ee6435",
+      "webstore_last_updated": null,
+      "id": "74d35e17-ade6-4702-88a1-bd5150a1c2cf",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 1167,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "dab2bf2c-9eb8-4bd7-b95c-dc86222e2d10",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2013-03-28T02:13:53.847139",
+      "url": "http://deli.dnr.state.mn.us",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 164,
+    "recent": 3
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:37.617845",
+    "title": "Minnesota Department of Natural Resources",
+    "name": "dnr-state-mn-us",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.naturalinnovations.org/eeresourceguide/images/mn_dnr_logo.gif",
+    "revision_id": "a4813d04-e782-48ad-bd72-dd87a4899e84",
+    "type": "organization",
+    "id": "6bfa9b1b-ca6e-471f-aaef-ca8f2c26769b",
+    "approval_status": "approved"
+  },
+  "name": "fema-dfirm-base-flood-elevations",
+  "isopen": false,
+  "url": null,
+  "notes": "The Base Flood Elevation (BFE) table is required for any digital data where BFE lines will be shown on the corresponding Flood Insurance Rate Map (FIRM). Normally, if there are any riverine AE zones, BFE lines are required. The BFE table contains information about the BFEs within a study area. A spatial file with locational information also corresponds with this data table. BFE lines indicate the rounded whole-foot water-surface elevation of the 1-percent-annual-chance flood. The spatial elements representing BFE features are lines extending from Special Flood Hazard Area (SFHA) boundary to SFHA boundary. The BFE lines will have no visible gaps or overshoots between the SFHA boundary and the end of the BFE line at the publication scale of the DFIRM. However, the ends of the BFE lines are not necessarily snapped precisely to the SFHA boundary. Each BFE is represented by a single line. While BFE lines are depicted as wavy lines on the hardcopy FIRM, they should be primarily straight lines in the spatial data, although they may bend consistent with procedures described in Volume 1 of these Guidelines.",
+  "owner_org": "6bfa9b1b-ca6e-471f-aaef-ca8f2c26769b",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Federal Emergency Management Agency\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "www.fema.gov/msc"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-96.5"
+    },
+    {
+      "key": "metadata-date",
+      "value": "9999-01-01"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"9999-01-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-89"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "49.5"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "43"
+    },
+    {
+      "key": "licence",
+      "value": "[\"The Minnesota Department of Natural Resources makes no representation or warranties, express or implied, with respect to the reuse of data provided herewith, regardless of its format or the means of its transmission. There is no guarantee or representation to the user as to the accuracy, currency, suitability, or reliability of this data for any purpose. The user accepts the data as is, and assumes all risks associated with its use. By accepting this data, the user agrees not to transmit this data or provide access to it or any part of it to another party unless the user shall include with the data a copy of this disclaimer. The Minnesota Department of Natural Resources assumes no responsibility for actual or consequential damage incurred as a result of any user reliance on this data.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-96.5, 43.0], [-96.5, 49.5], [-89.0, 49.5], [-89.0, 43.0], [-96.5, 43.0]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: Acknowledgment of FEMA would be appreciated in products derived from these data. No warranty expressed or implied is made by FEMA regarding the utility of the data on any other system nor shall the act of distribution constitute any such warranty. Internal DNR use is unrestricted. External use is constrained by the standard, general DNR GIS Data License Agreement. For the purposes of the NFIP, changes to the flood risk information published by FEMA may only be performed by FEMA and through the mechanisms established in the NFIP regulation (44 CFR Parts 59-78). These digital data are produced in conjunction with the hardcopy FIRMs and generally match the hardcopy map exactly. However the hardcopy flood maps and flood profiles are the authoritative documents for the NFIP. Acknowledgement of FEMA would be appreciated in products derived from these data.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://jmaps.dnr.state.mn.us/gis/dp_datasample.jsp?mpid=39000425&ptid=2&fcid=2&lname=FEMA DFIRM Base Flood Elevations"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "tags",
+      "value": "FEMA flood hazard zone DFIRM database DFIRM Special Flood Hazard Area Digital Flood Insurance Rate Map Flooding Base Flood Elevation SFHA Flood Insurance Rate Map Floodway "
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "1c7793b1-b0de-4af0-ac3f-064ac2a6166c"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "5546934e-bbe0-4cff-8926-e70aebfc97cb"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Minnesota DNR"
+    }
+  ],
+  "title": "FEMA DFIRM Base Flood Elevations",
+  "revision_id": "d43145ba-ea97-477a-a579-541033642854"
+}

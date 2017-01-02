@@ -1,0 +1,627 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "97cd039e-d1b9-4bcf-8e37-7a71f8a6c3d5",
+  "metadata_created": "2015-09-26T20:28:33.208225",
+  "metadata_modified": "2016-10-19T18:46:21.228872",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "97cd039e-d1b9-4bcf-8e37-7a71f8a6c3d5",
+      "webstore_last_updated": null,
+      "id": "430cbbe7-ce0f-48d2-a242-0615e259ee4a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard LAS html interface for selecting data from this dataset. ",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "LAS",
+      "created": "2016-10-19T14:46:21.998243",
+      "url": "http://ferret.pmel.noaa.gov/geoideLAS/getUI.do?data_url=http://www.ngdc.noaa.gov/thredds/dodsC/dem/chignik_ak_1s.nc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "79be44ec-41f2-4f65-8902-538597d9808e",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "97cd039e-d1b9-4bcf-8e37-7a71f8a6c3d5",
+      "webstore_last_updated": null,
+      "id": "5ae4ba38-8497-4d8f-b486-1fbc73d3e59f",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard ERDDAP html interface for selecting data from this dataset. ",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ERDDAP",
+      "created": "2016-10-19T14:46:21.998283",
+      "url": "http://upwell.pfeg.noaa.gov/erddap/search/index.html?searchFor=http://www.ngdc.noaa.gov/thredds/dodsC/dem/chignik_ak_1s.nc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "79be44ec-41f2-4f65-8902-538597d9808e",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "97cd039e-d1b9-4bcf-8e37-7a71f8a6c3d5",
+      "webstore_last_updated": null,
+      "id": "ccbf5b3d-e39a-4749-a88a-716922bdcda5",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard OPeNDAP html interface for selecting data from this dataset. Change the extension to .info for a description of the dataset.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "File Information",
+      "created": "2016-10-19T14:46:21.998292",
+      "url": "http://www.ngdc.noaa.gov/thredds/dodsC/dem/chignik_ak_1s.nc.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "79be44ec-41f2-4f65-8902-538597d9808e",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "97cd039e-d1b9-4bcf-8e37-7a71f8a6c3d5",
+      "webstore_last_updated": null,
+      "id": "5a3eaca9-9bc8-4c6a-ac89-47710fd7158a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "mapDigital",
+      "hash": "",
+      "description": "This URL provides an NCDC climate and weather toolkit view of an OPeNDAP resource.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Viewer Information",
+      "created": "2016-10-19T14:46:21.998303",
+      "url": "http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://www.ngdc.noaa.gov/thredds/dodsC/dem/chignik_ak_1s.nc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 3,
+      "revision_id": "79be44ec-41f2-4f65-8902-538597d9808e",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "97cd039e-d1b9-4bcf-8e37-7a71f8a6c3d5",
+      "webstore_last_updated": null,
+      "id": "f3e93121-7038-405f-87e9-ce1253ce2710",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": " Visualize with Live Access Server",
+      "created": "2016-10-19T14:46:21.998321",
+      "url": "http://ferret.pmel.noaa.gov/geoideLAS/getUI.do?data_url=http://www.ngdc.noaa.gov/thredds/dodsC/dem/chignik_ak_1s.nc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 4,
+      "revision_id": "79be44ec-41f2-4f65-8902-538597d9808e",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "97cd039e-d1b9-4bcf-8e37-7a71f8a6c3d5",
+      "webstore_last_updated": null,
+      "id": "c093138d-698b-4dc0-91cb-13d8886959ea",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": " Visualize with ERDDAP",
+      "created": "2016-10-19T14:46:21.998332",
+      "url": "http://upwell.pfeg.noaa.gov/erddap/search/index.html?searchFor=http://www.ngdc.noaa.gov/thredds/dodsC/dem/chignik_ak_1s.nc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 5,
+      "revision_id": "79be44ec-41f2-4f65-8902-538597d9808e",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "97cd039e-d1b9-4bcf-8e37-7a71f8a6c3d5",
+      "webstore_last_updated": null,
+      "id": "6c7b84af-8057-4306-a5ca-2f5175678960",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": " Weather and Climate Toolkit",
+      "created": "2016-10-19T14:46:21.998340",
+      "url": "http://www.ncdc.noaa.gov/oa/wct/wct-jnlp.php?singlefile=http://www.ngdc.noaa.gov/thredds/dodsC/dem/chignik_ak_1s.nc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 6,
+      "revision_id": "79be44ec-41f2-4f65-8902-538597d9808e",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "97cd039e-d1b9-4bcf-8e37-7a71f8a6c3d5",
+      "webstore_last_updated": null,
+      "id": "69840bb7-ecfe-4bf7-b7b1-ae473909ae41",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "revision_id": "79be44ec-41f2-4f65-8902-538597d9808e",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T14:46:21.998347",
+      "url": "http://www.ngdc.noaa.gov/mgg/coastal/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 7,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "97cd039e-d1b9-4bcf-8e37-7a71f8a6c3d5",
+      "webstore_last_updated": null,
+      "id": "9f6169e3-b11b-42df-82f9-3ec1f288c480",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "The UAF project is providing this catalog as a public service to aid in the discovery and access of scientific data.  The UAF is not responsible for the content of the data and all questions regarding the data should be directed to the office where the data reside.",
+      "format": "",
+      "tracking_summary": {
+        "total": 18,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTPS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA GEO-IDE",
+      "created": "2016-10-19T14:46:21.998355",
+      "url": "https://geo-ide.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 8,
+      "revision_id": "79be44ec-41f2-4f65-8902-538597d9808e",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "97cd039e-d1b9-4bcf-8e37-7a71f8a6c3d5",
+      "webstore_last_updated": null,
+      "id": "f6c1a2dc-7366-4a8f-8224-9bcf7f428fbd",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "revision_id": "79be44ec-41f2-4f65-8902-538597d9808e",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T14:46:21.998362",
+      "url": "http://www.ngdc.noaa.gov/mgg/coastal/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 9,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "97cd039e-d1b9-4bcf-8e37-7a71f8a6c3d5",
+      "webstore_last_updated": null,
+      "id": "2eb2d6fe-486a-4cd4-861a-c63237a91735",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "revision_id": "79be44ec-41f2-4f65-8902-538597d9808e",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T14:46:21.998369",
+      "url": "http://www.ngdc.noaa.gov/mgg/coastal/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 10,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "97cd039e-d1b9-4bcf-8e37-7a71f8a6c3d5",
+      "webstore_last_updated": null,
+      "id": "61d79856-8522-40a8-97bf-b2c6f8a4f163",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "THREDDS OPeNDAP",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OPeNDAP:OPeNDAP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OPeNDAP",
+      "created": "2016-10-19T14:46:21.998376",
+      "url": "http://www.ngdc.noaa.gov/thredds/dodsC/dem/chignik_ak_1s.nc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 11,
+      "revision_id": "79be44ec-41f2-4f65-8902-538597d9808e",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "97cd039e-d1b9-4bcf-8e37-7a71f8a6c3d5",
+      "webstore_last_updated": null,
+      "id": "31371d99-f803-483f-a184-7cf65fbfa82c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "revision_id": "79be44ec-41f2-4f65-8902-538597d9808e",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T14:46:21.998383",
+      "url": "http://www.ngdc.noaa.gov/mgg/coastal/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 12,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "97cd039e-d1b9-4bcf-8e37-7a71f8a6c3d5",
+      "webstore_last_updated": null,
+      "id": "8b72cd54-d8b8-49af-b8d3-c4c540a5a544",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Open Geospatial Consortium Web Coverage Service (WCS)",
+      "format": "WCS",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WCS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OGC-WCS",
+      "created": "2016-10-19T14:46:21.998391",
+      "url": "http://www.ngdc.noaa.gov/thredds/wcs/dem/chignik_ak_1s.nc?service=WCS&version=1.0.0&request=GetCapabilities",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 13,
+      "revision_id": "79be44ec-41f2-4f65-8902-538597d9808e",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "97cd039e-d1b9-4bcf-8e37-7a71f8a6c3d5",
+      "webstore_last_updated": null,
+      "id": "61737048-f6cd-425e-ab0f-91a4634cffe6",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "revision_id": "79be44ec-41f2-4f65-8902-538597d9808e",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T14:46:21.998398",
+      "url": "http://www.ngdc.noaa.gov/mgg/coastal/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 14,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "97cd039e-d1b9-4bcf-8e37-7a71f8a6c3d5",
+      "webstore_last_updated": null,
+      "id": "af252244-434d-4dff-b415-309a98e04c9f",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Open Geospatial Consortium Web Map Service (WMS)",
+      "format": "WMS",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WMS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OGC-WMS",
+      "created": "2016-10-19T14:46:21.998405",
+      "url": "http://www.ngdc.noaa.gov/thredds/wms/dem/chignik_ak_1s.nc?service=WMS&version=1.3.0&request=GetCapabilities",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 15,
+      "revision_id": "79be44ec-41f2-4f65-8902-538597d9808e",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 16,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 1,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "chignik-ak-1s-grd",
+  "isopen": false,
+  "url": null,
+  "notes": "NGDC builds and distributes high-resolution, coastal digital elevation models (DEMs) that integrate ocean bathymetry and land topography to support NOAA's mission to understand and predict changes in Earth's environment, and conserve and manage coastal and marine resources to meet our Nation's economic, social, and environmental needs. They can be used for modeling of coastal processes (tsunami inundation, storm surge, sea-level rise, contaminant dispersal, etc.), ecosystems management and habitat research, coastal and marine spatial planning, and hazard mitigation and community preparedness.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"\", \"roles\": [\"pointOfContact\"]}, {\"name\": \"The Unified Access Framework (UAF)\", \"roles\": [\"custodian\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "barry.eakins@noaa.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": "eng"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-159.26013888889"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-10-13"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"revision\", \"value\": \"2011-11-16T23:51:21Z\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-157.55986109750998"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "56.72013889633"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[{\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}, {\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}, {\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "55.78986111111"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-159.260138889, 55.7898611111], [-157.559861098, 55.7898611111], [-157.559861098, 56.7201388963], [-159.260138889, 56.7201388963], [-159.260138889, 55.7898611111]]]}"
+    },
+    {
+      "key": "guid",
+      "value": "demDatasetScan.chignik_ak_1s.nc"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": "THREDDS OPeNDAP"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "the unified access framework: a geo-ide project to integrate scientific data management and access, unified access framework (uaf), national geophysical data center (ngdc)"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "4c4a83c3-8dec-4313-8a07-43e951693df5"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "chignik_ak_1s.grd",
+  "revision_id": "2db33d44-f293-4a16-ae02-93ddc300c65e"
+}

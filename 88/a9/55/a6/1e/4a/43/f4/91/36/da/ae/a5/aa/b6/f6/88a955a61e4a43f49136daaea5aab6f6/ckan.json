@@ -1,0 +1,196 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "88a955a6-1e4a-43f4-9136-daaea5aab6f6",
+  "metadata_created": "2015-09-27T01:36:56.280284",
+  "metadata_modified": "2016-09-19T23:48:10.263383",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "88a955a6-1e4a-43f4-9136-daaea5aab6f6",
+      "webstore_last_updated": null,
+      "id": "25aa8342-db83-4384-84d4-1c498fb25e57",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "ocean_and_climate_change.php",
+      "format": "",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "fc83c5b9-daa9-494f-97c8-07084216c63c",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-09-19T19:48:10.377099",
+      "url": "https://www.pifsc.noaa.gov/cred/ocean_and_climate_change.php",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 0,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "cred-sea-surface-temperature-sst-buoy-amsm-tut-long-170-56225-lat-14-28368-wgs84-sensor-depth",
+  "isopen": false,
+  "url": null,
+  "notes": "Data from Coral Reef Ecosystem Division (CRED), NOAA Pacific Islands Fisheries Science Center (PIFSC) Sea Surface Temperature (SST) Buoys provide a time series of surface water temperature at coral reef sites. The SST buoy (Model SST-001, Sound Ocean Systems, Inc., www.soundocean.com) with external temperature recorder (Sea-Bird Model SBE39, Sea-Bird Electronics, Inc., www.seabird.com) telemeters a subset of the daily data in Near Real Time (NRT) via a Telonics ST-13 or ST-20 ARGOS PPT transmitter and internally records higher resolution temperature data from the SBE39, typically at a 600 second sampling interval for a duration of 2 years. This record refers to the internally recorded (high resolution in situ) SBE39 temperature data. When a SST buoy is recovered, a new one is typically deployed in the same place. Time series data combining multiple deployments from a given site may also be available. Please contact CRED with any questions. For program information see the web site https://www.pifsc.noaa.gov/cred/ocean_and_climate_change.php",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "\n          -170.56225\n        "
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "\n          -14.28356\n        "
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "\n          -14.28368\n        "
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-170.56241, -14.28368], [-170.56225, -14.28368], [-170.56225, -14.28356], [-170.56241, -14.28356], [-170.56241, -14.28368]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: These oceanographic data are PRELIMINARY data and have not been screened for accuracy. NOAA can not be held liable for use of these data in a manner other than for perusal of preliminary oceanographic data for scientific research on coral reefs ecosystems.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2008-02-23"
+    },
+    {
+      "key": "contact-email",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "\n          -170.56241\n        "
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-09-06"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2010-07-13\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "ASNEEDED"
+    },
+    {
+      "key": "licence",
+      "value": "[\"\\n      These oceanographic data are PRELIMINARY data and have not been screened for accuracy. NOAA can not be held liable for use of these data in a manner other than for perusal of preliminary oceanographic data for scientific research on coral reefs ecosystems. Disclaimer - NOAA makes no warranty regarding these data, expressed or implied, nor does the fact of distribution constitute such a warranty. NOAA and NODC cannot assume liability for any damages caused by any errors or omissions in these data, nor as a result of the failure of these data to function on a particular system.\\n    \"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Coral Reef Ecosystem Division (CRED), Pacific Islands Fisheries Science Center (PIFSC), National Marine Fisheries Service (NMFS), National Oceanic and Atmospheric Administration (NOAA)\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2009-04-20"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "ocean temperature, pacific ocean, sea-bird sbe39 temperature recorder, tutuila, upwelling, american samoa, ocean circulation, zoology, earth science, oceanography, in situ physical, reef assessment and monitoring program (ramp), coastal processes, country/territory, instrumented buoy, coral diseases, numeric data sets, tut_ocean_001, oceanographic, united states of america, oceans, bleaching, sea surface temperature, ocean basin, sea surface temperature (sst), water temperature, moored, biosphere, coral reefs, reef monitoring and assessment, mooring, corals, coral reef ecosystem division (cred), noaa pacific islands fisheries science center, tutuila, american samoa, aunu'u island (14s170w0035)"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "f49d691c-caf9-441b-89a6-fc5df63d36f4"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "CRED Sea Surface Temperature (SST) Buoy; AMSM, TUT; Long: -170.56225, Lat: -14.28368 (WGS84); Sensor Depth: 0.33m; Data Range: 20080223-20090420.",
+  "revision_id": "fc83c5b9-daa9-494f-97c8-07084216c63c"
+}

@@ -1,0 +1,336 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "7fd025d5-5b83-448e-8461-919ba24d57af",
+  "metadata_created": "2016-04-18T19:34:19.538562",
+  "metadata_modified": "2016-04-18T19:34:19.538562",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "7fd025d5-5b83-448e-8461-919ba24d57af",
+      "webstore_last_updated": null,
+      "id": "3674e578-0680-4762-9f27-673150d8e314",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "None",
+      "format": "",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ftp",
+      "created": "2016-04-18T15:34:19.655090",
+      "url": "ftp://tgftp.nws.noaa.gov/data/raw/ws/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "63b80e76-7c9c-4998-9760-da27ba1f014a",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7fd025d5-5b83-448e-8461-919ba24d57af",
+      "webstore_last_updated": null,
+      "id": "0bda1995-5b61-4cf2-ab64-ca77cb7441d0",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "None",
+      "format": "",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "http",
+      "created": "2016-04-18T15:34:19.655115",
+      "url": "http://weather.noaa.gov/pub/data/raw/ws/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "63b80e76-7c9c-4998-9760-da27ba1f014a",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7fd025d5-5b83-448e-8461-919ba24d57af",
+      "webstore_last_updated": null,
+      "id": "32ec0e51-6841-4c42-90e0-5bfb2e8b3362",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "None",
+      "format": "",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "AWC",
+      "created": "2016-04-18T15:34:19.655123",
+      "url": "http://www.aviationweather.gov/sigmet",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "63b80e76-7c9c-4998-9760-da27ba1f014a",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7fd025d5-5b83-448e-8461-919ba24d57af",
+      "webstore_last_updated": null,
+      "id": "c1f184dc-72a4-472b-b5be-a8e4cbc7bab4",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "A SIGMET is a concise description of the occurrence or expected occurrence of specified en route weather phenomena which is expected to affect the safety of aircraft operations. SIGMETs are intended for dissemination to all pilots in flight to enhance safety. SIGMETs will be issued by the responsible MWO as soon as is practical to alert operators and aircrews of hazardous en-route conditions.",
+      "format": "",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "SIGMET",
+      "created": "2016-04-18T15:34:19.655130",
+      "url": "http://www.aviationweather.gov/sigmet",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 3,
+      "revision_id": "63b80e76-7c9c-4998-9760-da27ba1f014a",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7fd025d5-5b83-448e-8461-919ba24d57af",
+      "webstore_last_updated": null,
+      "id": "9f440e6c-dd4a-4e01-912e-c011905d3b96",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "IWXXM-US was developed to support the encoding of US products (specifically, METAR, SPECI, TAF, and SIGMET) in XML. IWXXM-US builds directly off the work of the World Meteorological Organization (WMO) and the International Civil Aviation Organization (ICAO) that created data models and schemas for Aviation XML (AvXML). One of the packages within AvXML is named IWXXM, and this package supports the four products mentioned above.",
+      "format": "",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "IWXXM-US Overview",
+      "created": "2016-04-18T15:34:19.655137",
+      "url": "http://nws.weather.gov/schemas/IWXXM-US/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 4,
+      "revision_id": "63b80e76-7c9c-4998-9760-da27ba1f014a",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7fd025d5-5b83-448e-8461-919ba24d57af",
+      "webstore_last_updated": null,
+      "id": "28b15994-edbc-430f-b3a2-892191b7b904",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "A SIGMET is a concise description of the occurrence or expected occurrence of specified en route weather phenomena which is expected to affect the safety of aircraft operations. SIGMETs are intended for dissemination to all pilots in flight to enhance safety. SIGMETs will be issued by the responsible MWO as soon as is practical to alert operators and aircrews of hazardous en-route conditions.",
+      "format": "",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "SIGMET",
+      "created": "2016-04-18T15:34:19.655143",
+      "url": "http://www.aviationweather.gov/sigmet",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 5,
+      "revision_id": "63b80e76-7c9c-4998-9760-da27ba1f014a",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 6,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 6,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "sigmet",
+  "isopen": false,
+  "url": null,
+  "notes": "A SIGMET is a concise description of the occurrence or expected occurrence of specified en route weather phenomena which is expected to affect the safety of aircraft operations.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-65"
+    },
+    {
+      "key": "resource-type",
+      "value": "series"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "50"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": "urn:fdc:aviationweather.gov:Dataset:SIGMET:Metadata"
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "None"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "30"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-130.0, 30.0], [-65.0, 30.0], [-65.0, 50.0], [-130.0, 50.0], [-130.0, 30.0]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "onGoing"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "contact-email",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-130"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2015-04-13"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"creation\", \"value\": \"2011-11-11\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Disclaimer - While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "doc/noaa/nws/toc/nwstg, dust/ash/smoke, none, sigmet, duststorm, visibility_in_air, dust/ash advisories, riming, sandstorm, geopotential_height_at_volcanic_ash_cloud_top, w[csv]us0[1-6] kkci, accretion, visibility, turbulence, cloud droplet concentration/size, volcanic ash, doc/noaa/nws/ncep/awc"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "15fc5cfe-622f-4fa3-991e-512d67de422d"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "SIGMET",
+  "revision_id": "63b80e76-7c9c-4998-9760-da27ba1f014a"
+}

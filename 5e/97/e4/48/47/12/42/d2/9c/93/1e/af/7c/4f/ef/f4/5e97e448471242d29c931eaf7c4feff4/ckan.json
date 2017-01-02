@@ -1,0 +1,218 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "5e97e448-4712-42d2-9c93-1eaf7c4feff4",
+  "metadata_created": "2015-04-25T12:21:11.336232",
+  "metadata_modified": "2016-09-09T22:58:10.956698",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "5e97e448-4712-42d2-9c93-1eaf7c4feff4",
+      "webstore_last_updated": null,
+      "id": "7ce1bd0c-effb-454b-acca-8575cea668e2",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "ds340.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "148522e4-e871-428e-beb1-72e23e9912db",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2016-09-09T18:58:11.076019",
+      "url": "ftp://ftp.dfg.ca.gov/BDB/GIS/BIOS/Public_Datasets/300_399/ds340.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "5e97e448-4712-42d2-9c93-1eaf7c4feff4",
+      "webstore_last_updated": null,
+      "id": "be21771e-1f60-46ad-9498-e1b41102d51c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 202,
+        "recent": 5
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "148522e4-e871-428e-beb1-72e23e9912db",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-09-09T18:58:11.076061",
+      "url": "http://bios.dfg.ca.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 10,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-19T14:05:26.054173",
+    "title": "State of California",
+    "name": "ca-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.ca.gov/images/template2012/header_ca.gov.png",
+    "revision_id": "ad94cda4-9394-44d0-9c37-573dc3c47c9a",
+    "type": "organization",
+    "id": "467d900f-8a42-452d-9906-6610dd1a767f",
+    "approval_status": "approved"
+  },
+  "name": "winter-steelhead-distribution-ds340",
+  "isopen": false,
+  "url": null,
+  "notes": "Winter Steelhead Distribution June 2012 Version This dataset depicts observation-based stream-level geographic distribution of anadromous winter-run steelhead trout, Oncorhynchus mykiss irideus (O. mykiss), in California. It was developed for the express purpose of assisting with steelhead recovery planning efforts. The distributions reported in this dataset were derived from a subset of the data contained in the Aquatic Species Observation Database (ASOD), a Microsoft Access multi-species observation data capture application. ASOD is an ongoing project designed to capture as complete a set of statewide inland aquatic vertebrate species observation information as possible. Please note: A separate distribution is available for summer-run steelhead. Contact information is the same as for the above. ASOD Observation data were used to develop a network of stream segments. These lines are developed by \"tracing down\" from each observation to the sea using the flow properties of USGS National Hydrography Dataset (NHD) High Resolution hydrography. Lastly these lines, representing stream segments, were assigned a value of either Anad Present (Anadromous present). The end result (i.e., this layer) consists of a set of lines representing the distribution of steelhead based on observations in the Aquatic Species Observation Database. This dataset represents stream reaches that are known or believed to be used by steelhead based on steelhead observations. Thus, it contains only positive steelhead occurrences. The absence of distribution on a stream does not necessarily indicate that steelhead do not utilize that stream. Additionally, steelhead may not be found in all streams or reaches each year. This is due to natural variations in run size, water conditions, and other environmental factors. The information in this data set should be used as an indicator of steelhead presence/suspected presence at the time of the observation as indicated by the 'Late_Yr' (Latest Year) field attribute. The line features in the dataset may not represent the maximum extent of steelhead on a stream; rather it is important to note that this distribution most likely underestimates the actual distribution of steelhead. This distribution is based on observations found in the ASOD database. The individual observations may not have occurred at the upper extent of anadromous occupation. In addition, no attempt was made to capture every observation of O. mykiss and so it should not be assumed that this dataset is complete for each stream. The distribution dataset was built solely from the ASOD observational data. No additional data (habitat mapping, barriers data, gradient modeling, etc.) were utilized to either add to or validate the data. It is very possible that an anadromous observation in this dataset has been recorded above (upstream of) a barrier as identified in the Passage Assessment Database (PAD). In the near future, we hope to perform a comparative analysis between this dataset and the PAD to identify and resolve all such discrepancies. Such an analysis will add rigor to and help validate both datasets. This dataset has recently undergone a review. Data source contributors as well as CDFG fisheries biologists have been provided the opportunity to review and suggest edits or additions during a recent review. Data contributors were notified and invited to review and comment on the handling of the information that they provided. The distribution was then posted to an intranet mapping application and CDFG biologists were provided an opportunity to review and comment on the dataset. During this review, biologists were also encouraged to add new observation data. This resulting final distribution contains their suggestions and additions. Please refer to \"Use Constraints\" section below.",
+  "owner_org": "467d900f-8a42-452d-9906-6610dd1a767f",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"California Department of Fish and Game Northern Region Environmental Resources Information Services\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-124.502240"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-09-02"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2012-06-27\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-116.966292"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "42.098661"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "33.160824"
+    },
+    {
+      "key": "licence",
+      "value": "[\"See access and use constraints information.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "underDevelopment"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-124.50224, 33.160824], [-116.966292, 33.160824], [-116.966292, 42.098661], [-124.50224, 42.098661], [-124.50224, 33.160824]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: Please read the metadata document completely prior to use of this dataset. Examples of appropriate uses include: - steelhead recovery planning - Evaluation of future survey sites for steelhead - Validating steelhead distribution models Examples of inappropriate uses include: - Assuming absence of a point feature means that steelhead are not present in that stream. - Using this data to make parcel or ground level land use management decisions. - Using this dataset to prove or support non-existence of steelhead at any spatial scale. - Assuming that the point feature represents the maximum possible extent of steelhead range.\", \"Access Constraints: Made available with permission of California Department of Fish and Game/Northern Region/Environmental Resources Information Services (CDFG/NR/ERIS). This data is made available with the understanding that it shall be used exclusively by the obtainer or his/her authorized agents. Digital products may not be reproduced or redistributed in any form or by any means.\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "irregular"
+    },
+    {
+      "key": "tags",
+      "value": "central california coast, inlandwaters, species recovery, oncorhynchus mykiss irideus, recovery planning, northern california, environment, southern california coast, biota, south central california coast, california, threatened species, winter-run, salmonid, distribution, steelhead, central valley"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "bed4ebcf-142f-4b29-bc68-cb6a0b60ec25"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "bf0e0f99-7417-42e4-a627-e94c49cb4159"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "State of California Geoportal"
+    }
+  ],
+  "title": "Winter Steelhead Distribution [ds340]",
+  "revision_id": "7b03f7a1-3b53-401a-b0f2-58939ea168d4"
+}

@@ -1,0 +1,199 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "af82686a-29bf-49de-9fa4-ca5027325a9d",
+  "metadata_created": "2013-06-12T18:01:04.240943",
+  "metadata_modified": "2015-04-09T23:34:17.812549",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "af82686a-29bf-49de-9fa4-ca5027325a9d",
+      "webstore_last_updated": null,
+      "id": "2a4c2747-ca5f-4ded-810f-dd088530cda3",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "index.html",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 38,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "aa67bf51-c8a4-43e6-957d-4638f28937a2",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-05-02T16:06:41.241899",
+      "url": "http://www.dnr.state.mn.us/maps/mntopo/index.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 6,
+    "recent": 1
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:47.372413",
+    "title": "State of Minnesota",
+    "name": "state-mn-us",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://mn.gov/portal/images/mn_header_mn-logo.png",
+    "revision_id": "018d8409-7698-467f-8dc2-c58188806480",
+    "type": "organization",
+    "id": "24298fe4-ee0d-43ae-af51-81ae5f5c6165",
+    "approval_status": "approved"
+  },
+  "name": "lidar-elevation-chisago-county-minnesota-2007",
+  "isopen": false,
+  "url": null,
+  "notes": "The LiDAR data for Chisago County was collected under contract by Chisago County. Thus, the data format is not entirely consistent with some of the other LiDAR data collected by the State of Minnesota. Specifically, the Chisago County collect did not require classification of anything other than Bare Earth in the LiDAR LAS files, so there is not information on buildings, vegetation, or model key points. Breaklines captured as part of this effort are also a bit different. In Chisago County the breaklines are 3D Polyline features vs 3D Polygon features. They also include road centerlines, stream courses and other features that are not part of the Statewide collect specifications. LiDAR was classified and stereo-pairs were generated from LiDAR intensity data which were used to collect breaklines. A surface was generated from the bare earth LiDAR DTM (digital terrain model) and the collected breakline data to produce the contours and the DEMs. Tiling: Bare-earth and first-return LiDAR data in LAS format are divided into 5000' X 5000' sheet tiles named according to the Lower Left XY coordinate value. Five-foot posted raster bare-earth DEMs in ArcGrid format are divided into 5000' X 5000' sheet tiles. The contours are divided into township areas. Optimal Geomatics, Inc. collected and processed the LiDAR data, and authored the procedures quality control reports.",
+  "owner_org": "24298fe4-ee0d-43ae-af51-81ae5f5c6165",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-92.641809"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "45.732329"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "None available"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "45.294135"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-93.144138, 45.294135], [-92.641809, 45.294135], [-92.641809, 45.732329], [-93.144138, 45.732329], [-93.144138, 45.294135]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: The topographic data represents the results of data collection/processing for Chisago County and indicates the existing general conditions. As such, they are only valid for their intended use, content, time and accuracy specifications. The user is responsible for the results of any application of data other than its intended purposes.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "contact-email",
+      "value": "administration@co.chisago.mn.us"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-93.144138"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2014-04-28"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2008-01-01\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "unknown"
+    },
+    {
+      "key": "licence",
+      "value": "[\"1. Chisago County:  The digital vector data represents the results of data collection/processing for Chisago, MN and indicates the general conditions existing at the time of flight.  As such, it is only valid for its intended use, content, time and accuracy specifications.  The user is responsible for the results of any application of the data other than for its intended purpose.\\n\\n2. Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html \\n\\n3. MnGeo's data disclaimer is online: http://www.mngeo.state.mn.us/chouse/disclaimer.html\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Chisago County\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "Chisago County, Minnesota"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "49a9b8f5-dacf-4d74-92b8-dd3f08f7365e"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "526b774b-2dbe-4b61-91f5-8e3e020b9bce"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Minnesota Geospatial Information Office"
+    }
+  ],
+  "title": "LiDAR Elevation, Chisago County, Minnesota, 2007",
+  "revision_id": "3b4d668f-f66c-47af-a087-3bd11faa91a0"
+}

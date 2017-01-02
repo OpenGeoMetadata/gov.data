@@ -1,0 +1,263 @@
+{
+  "license_title": "Creative Commons CCZero",
+  "maintainer": "Office of Debt Management",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "debt.management@do.treas.gov",
+  "num_tags": 11,
+  "id": "3d3763d7-fe25-443a-9a1c-07eb75b20897",
+  "metadata_created": "2014-08-28T04:52:40.872997",
+  "metadata_modified": "2016-03-29T23:22:18.618699",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "3d3763d7-fe25-443a-9a1c-07eb75b20897",
+      "webstore_last_updated": null,
+      "id": "868dbee8-caf2-49ad-9b87-fde0552dd801",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 15,
+        "recent": 2
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "text/html",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-03-29T19:22:18.852455",
+      "url": "https://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/TextView.aspx?data=realyield",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "5539745a-0b06-4e3b-804b-a4961aa032dc",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "10-year",
+      "id": "a873cd37-8d1c-4d9c-8b29-92f062b1b1bb",
+      "name": "10-year"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "20-year",
+      "id": "ee93524b-1f8b-48db-a378-7f290760f3ea",
+      "name": "20-year"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "30-year",
+      "id": "e2779056-4d4e-42ea-95a3-41b9cec9a22c",
+      "name": "30-year"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "5-year",
+      "id": "97ea4ea2-5121-4d9c-9f37-52e54f70f78a",
+      "name": "5-year"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "7-year",
+      "id": "7d2c4c22-f0b5-474b-a69d-acf00b34dd42",
+      "name": "7-year"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "constant-maturity",
+      "id": "63eef618-e4ec-4198-9475-0e20205d2933",
+      "name": "constant-maturity"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "curve-rates",
+      "id": "2d1eae93-8eae-473a-a030-fda4ccb96c32",
+      "name": "curve-rates"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "fixed-maturity",
+      "id": "e8543c3a-9877-4cce-87da-78e5491b4dba",
+      "name": "fixed-maturity"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "r-cmts",
+      "id": "8a330f6f-de68-4134-a76b-c42c586d6e66",
+      "name": "r-cmts"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "real-yield",
+      "id": "87dbbb9c-26da-40eb-b585-36a1db2539ee",
+      "name": "real-yield"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "tips",
+      "id": "7493a357-2650-409f-a7cc-2eafc4ed6c78",
+      "name": "tips"
+    }
+  ],
+  "tracking_summary": {
+    "total": 261,
+    "recent": 9
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-zero",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:49:27.440302",
+    "title": "Department of the Treasury",
+    "name": "treasury-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/US-DeptOfTheTreasury-Seal.svg/200px-US-DeptOfTheTreasury-Seal.svg.png",
+    "revision_id": "ef51490d-b4af-4f85-b229-3136099b1b8a",
+    "type": "organization",
+    "id": "5a2fc6dd-f2cc-4bae-878b-c70576a26757",
+    "approval_status": "approved"
+  },
+  "name": "daily-treasury-real-yield-curve-rates",
+  "isopen": true,
+  "url": null,
+  "notes": "These rates are commonly referred to as \"Real Constant Maturity Treasury\" rates, or R-CMTs. Real yields on Treasury Inflation Protected Securities (TIPS) at \"constant maturity\" are interpolated by the U.S. Treasury from Treasury's daily real yield curve. These real market yields are calculated from composites of secondary market quotations obtained by the Federal Reserve Bank of New York. The real yield values are read from the real yield curve at fixed maturities, currently 5, 7, 10, 20, and 30 years. This method provides a real yield for a 10 year maturity, for example, even if no outstanding security has exactly 10 years remaining to maturity.  Dataset updated daily every weekday.",
+  "owner_org": "5a2fc6dd-f2cc-4bae-878b-c70576a26757",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Office of Debt Management"
+    },
+    {
+      "key": "identifier",
+      "value": "015-DO-036"
+    },
+    {
+      "key": "license",
+      "value": "http://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "de90314a-7c7d-4aff-bd84-87b134bba13d"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "issued",
+      "value": "2014-08-18T00:00:00"
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "Department of the Treasury > DO > Office of Debt Management"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2014-08-18"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Treasury JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "015:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "015:00"
+      ]
+    },
+    {
+      "key": "catalog_@id",
+      "value": "https://www.treasury.gov/data.json"
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1D"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "28541ecc-feb8-4fa8-8210-3f813b7eef56"
+    },
+    {
+      "key": "source_hash",
+      "value": "2cbbc29a2f3c81901d04051513e14f52a4b46de8"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "28541ecc-feb8-4fa8-8210-3f813b7eef56"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "de90314a-7c7d-4aff-bd84-87b134bba13d"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Treasury JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-zero",
+  "title": "Daily Treasury Real Yield Curve Rates",
+  "revision_id": "5539745a-0b06-4e3b-804b-a4961aa032dc"
+}

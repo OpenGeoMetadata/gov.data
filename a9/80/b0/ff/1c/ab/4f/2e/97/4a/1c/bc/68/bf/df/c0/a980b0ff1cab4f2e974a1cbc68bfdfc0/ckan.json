@@ -1,0 +1,179 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "Open Data (FEMA)",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "openfema@fema.dhs.gov",
+  "num_tags": 2,
+  "id": "a980b0ff-1cab-4f2e-974a-1cbc68bfdfc0",
+  "metadata_created": "2016-02-29T22:51:52.367416",
+  "metadata_modified": "2016-04-19T01:16:22.663032",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "a980b0ff-1cab-4f2e-974a-1cbc68bfdfc0",
+      "webstore_last_updated": null,
+      "id": "54c43978-5ff1-4e08-b216-dfede029ba45",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "API",
+      "tracking_summary": {
+        "total": 5,
+        "recent": 2
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-02-29T17:51:53.311584",
+      "url": "https://www.fema.gov/openfema-dataset-registration-intake-and-individuals-household-program-v1",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "fced252c-bb29-4103-8724-16c45b275814",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "disaster-assistance-type",
+      "id": "d799ab3a-e390-48e3-b312-d68571eb15f7",
+      "name": "disaster-assistance-type"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "individual-registrant",
+      "id": "f40f7721-148a-4fb7-a49f-aa09f37b3e51",
+      "name": "individual-registrant"
+    }
+  ],
+  "tracking_summary": {
+    "total": 24,
+    "recent": 6
+  },
+  "groups": [
+
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:49:45.283358",
+    "title": "Department of Homeland Security",
+    "name": "dhs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/dhs.png",
+    "revision_id": "fb44c14e-9b55-46b9-b355-d465242171bb",
+    "type": "organization",
+    "id": "05d603ec-9121-4f71-b09e-5d5b5a7efc64",
+    "approval_status": "approved"
+  },
+  "name": "fema-registration-intake-and-individuals-household-program-api",
+  "isopen": false,
+  "url": null,
+  "notes": "The dataset is composed of Registration Intake and Individuals and Households Program (IHP) Information from the Individual Assistance (IA) reporting authority where registration is valid. This dataset contains aggregated, non-PII data by generated FEMA's ECIM (Enterprise Coordination & Information Management) Reporting team to share data on registrations and Individuals and Households Program (IHP) for Hurricane Sandy, segmented by city for the state of New Jersey AND New York where registration is valid. ",
+  "owner_org": "05d603ec-9121-4f71-b09e-5d5b5a7efc64",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Federal Emergency Management Agency"
+    },
+    {
+      "key": "identifier",
+      "value": "2196"
+    },
+    {
+      "key": "accessLevelComment",
+      "value": ""
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "bd9faa28-bbb6-45f3-a4f0-d302a4a61802"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2016-02-26"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "DHS datajson source"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "024:009"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "024:70"
+      ]
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "9df77de5-aa17-4c4f-90cc-955a5b2c640e"
+    },
+    {
+      "key": "source_hash",
+      "value": "75d874ae3493f52e08d16eb1dac9dc31bd0e8ac4"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "9df77de5-aa17-4c4f-90cc-955a5b2c640e"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "bd9faa28-bbb6-45f3-a4f0-d302a4a61802"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "DHS datajson source"
+    }
+  ],
+  "title": "FEMA Registration Intake and Individuals Household Program - API",
+  "revision_id": "fbfce544-034c-40a9-b677-53ee2332724f"
+}

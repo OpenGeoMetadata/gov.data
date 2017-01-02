@@ -1,0 +1,238 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "d60dae23-597a-40cd-b841-fd635f2548d5",
+  "metadata_created": "2015-09-26T23:44:25.084893",
+  "metadata_modified": "2015-09-26T23:44:25.084893",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "d60dae23-597a-40cd-b841-fd635f2548d5",
+      "webstore_last_updated": null,
+      "id": "6c713857-847b-48c6-b85f-a7c48b9dbff4",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 1068,
+        "recent": 15
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "4fdf6a19-8a42-4827-b5a3-163f4741b14b",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-09-26T19:44:25.129160",
+      "url": "http://coast.noaa.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "d60dae23-597a-40cd-b841-fd635f2548d5",
+      "webstore_last_updated": null,
+      "id": "3ae6721d-08f8-451d-84e9-1944c9bf5327",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 1068,
+        "recent": 15
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "4fdf6a19-8a42-4827-b5a3-163f4741b14b",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-09-26T19:44:25.129182",
+      "url": "http://coast.noaa.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 10,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "2003-puget-sound-lidar-consortium-pslc-topographic-lidar-snohomish-county-washington64cc7",
+  "isopen": false,
+  "url": null,
+  "notes": "TerraPoint surveyed and created this data for the Puget Sound LiDAR Consortium under contract. The area surveyed is approximately 167 square miles and covers a northwest portion of Snohomish County, WA. All data was collected during ideal conditions (leaf-off). The LAS files were derived from all returns ASCII files contain the X,Y,Z values of all the LiDAR returns collected during the survey mission. The GPS time, classification, scan angle, intensity and return numbers of each point were preserved in the conversion from ASCII to LAS. The LAS files are classified into the following ASPRS classes: (1) Unclassified (2) Bare Earth. Ground and water points are included in Class 2 (Bare Earth). Futher details are available in the Process Steps below. The NOAA Coastal Services Center noticed that some intensity values are 0, so be aware before using the intensity information. This dataset was flown in 2003 with a 50% overlap between flight lines. Due to the overlap the nominal point spacing of the dataset is 1.0 meter.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-122.175578"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "48.300496"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "kmz"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.csc.maps:wa2003_pslc_snohomish_m1462"
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "ftp://ftp.csc.noaa.gov/pub/crs/beachmap/qa_docs/wa/pslc2003/wa2003_pslc_snohomish_footprint.kmz"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": "urn:ogc:def:crs:EPSG::4269"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-122.409833, 48.025012], [-122.175578, 48.025012], [-122.175578, 48.300496], [-122.409833, 48.300496], [-122.409833, 48.025012]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2003-04-02"
+    },
+    {
+      "key": "contact-email",
+      "value": "dmartinez@psrc.org"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-122.409833"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2013-04-25"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2013-03-01\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "This kmz file shows the extent of coverage for the 2003 PSLC Snohomish County, WA lidar data set."
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"These data depict the elevations at the time of the survey and are only accurate for that time. Users should be aware that\\n            temporal changes may have occurred since this data set was collected and some parts of this data may no longer represent actual surface\\n            conditions. Users should not use this data for critical applications without a full awareness of its limitations. Any conclusions drawn\\n            from analysis of this information are not the responsibility of NOAA or any of its partners. These data are NOT to be used for navigational purposes.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Puget Sound Lidar Consortium (PSLC)\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2003-04-12"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "48.025012"
+    },
+    {
+      "key": "tags",
+      "value": "elevation, remote sensing, washington, us, lidar, puget sound, snohomish county, topography/bathymetry, model, las"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "9dd1b93d-47f7-4f7a-949d-4a8d3949841d"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "2003 Puget Sound LiDAR Consortium (PSLC) Topographic LiDAR: Snohomish County, Washington",
+  "revision_id": "4fdf6a19-8a42-4827-b5a3-163f4741b14b"
+}

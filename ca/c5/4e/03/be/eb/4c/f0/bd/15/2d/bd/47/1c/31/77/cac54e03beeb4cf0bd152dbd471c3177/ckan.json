@@ -1,0 +1,259 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "cac54e03-beeb-4cf0-bd15-2dbd471c3177",
+  "metadata_created": "2014-09-29T16:09:39.783771",
+  "metadata_modified": "2016-10-10T20:15:33.960201",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "cac54e03-beeb-4cf0-bd15-2dbd471c3177",
+      "webstore_last_updated": null,
+      "id": "57c62e5f-00bf-4a26-965e-98adf456a153",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "gages_x010g.shp_nt00884.tar.gz",
+      "format": "TAR",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Shapefile",
+      "created": "2016-10-10T16:15:34.124913",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Small-scale/data/Hydrography/gages_x010g.shp_nt00884.tar.gz",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "3e8ef542-59c0-4353-8498-c448bc330fd9",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "cac54e03-beeb-4cf0-bd15-2dbd471c3177",
+      "webstore_last_updated": null,
+      "id": "5b152ca2-71b0-4adc-b567-87e10df86313",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 295,
+        "recent": 85
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "3e8ef542-59c0-4353-8498-c448bc330fd9",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-10T16:15:34.124953",
+      "url": "http://viewer.nationalmap.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "cac54e03-beeb-4cf0-bd15-2dbd471c3177",
+      "webstore_last_updated": null,
+      "id": "604a6b06-c669-41e2-be24-9969887e13a4",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 833,
+        "recent": 18
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "3e8ef542-59c0-4353-8498-c448bc330fd9",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-10T16:15:34.124962",
+      "url": "https://www.sciencebase.gov/catalog/item/532c5b23e4b0cd7393d07783",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 193,
+    "recent": 5
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "usgs-small-scale-dataset-streamflow-gaging-stations-of-the-united-states-201403-shapefile",
+  "isopen": false,
+  "url": null,
+  "notes": "This map layer shows selected streamflow gaging stations of the United States, Puerto Rico, and the U.S. Virgin Islands, in 2013. Gaging stations, or gages, measure the height (stage) and volume of flow at a point location on a water feature. Gages in this map layer were drawn from the National Hydrography Dataset Plus (NHDPlus) Version 1 Stream Gage Events, NHDPlus Version 2 National Data - Gage Locations, and from the National Water Information System (NWIS) Web Interface. The gage positions were adjusted (snapped) using ArcGIS so that the gages were located directly on streams in the National Atlas map layer, 1:1,000,000-Scale Streams of the United States. The gages and streams also share attributes that link them together.",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-65.47"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "70.67"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "PNG"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://prd-tnm.s3.amazonaws.com/StagedProducts/Small-scale/thumbnails/gages_x010g_shp.png"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "17.98"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-165.76, 17.98], [-65.47, 17.98], [-65.47, 70.67], [-165.76, 70.67], [-165.76, 17.98]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None. Acknowledgment of the National Atlas of the United States of America would be appreciated in products derived from these data.\", \"Access Constraints: None.\"]"
+    },
+    {
+      "key": "contact-email",
+      "value": "atlasmail@usgs.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-165.76"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-10-06"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2014-03-01\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "Thumbnail PNG image"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "irregular"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made by the U.S. Geological Survey regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty. No responsibility is assumed by the U.S. Geological Survey in the use of these data.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"National Atlas of the United States\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "united states, streamflow, small-scale datasets, hydrology, shapefile, national, us, stream gauge, water, downloadable data, small-scale datasets - hydrography, drainage, hydrography, national atlas of the united states, stream gage"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "1f419f3b-eaf5-426c-bc13-a76e1b41f751"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "cf7f76e0-15af-4e15-b348-16ba355fb194"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "The National Map Small-scale Downloadable Data"
+    }
+  ],
+  "title": "USGS Small-scale Dataset - Streamflow Gaging Stations of the United States 201403 Shapefile",
+  "revision_id": "80edadf2-1e3e-44c2-9cd9-d39dd209c667"
+}

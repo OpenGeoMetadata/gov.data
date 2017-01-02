@@ -1,0 +1,219 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "<Nobody>",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 6,
+  "id": "3ec92a1c-c64e-44a9-bd42-340228ff7cd8",
+  "metadata_created": "2016-06-02T07:19:37.483911",
+  "metadata_modified": "2016-06-02T07:19:37.483911",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "3ec92a1c-c64e-44a9-bd42-340228ff7cd8",
+      "webstore_last_updated": null,
+      "id": "975fbeb3-b416-4435-a0ad-61e84470895a",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "This data set features a hyperlink to the New York State Department of Transportation’s (NYSDOT) Traffic Data (TD) Viewer web page, which includes a link to the Traffic Data interactive map.  The Traffic Data Viewer is a geospatially based Geographic Information System (GIS) application for displaying data contained in the roadway inventory database.  The interactive map has five viewable data categories or ‘layers’. The five layers include:  Average Daily Traffic (ADT); Continuous Counts; Short Counts; Bridges; and Grade Crossings throughout New York State.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/html",
+      "cache_url": null,
+      "name": "NYS Traffic Data Viewer",
+      "created": "2016-06-02T03:19:38.173863",
+      "url": "https://www.dot.ny.gov/tdv",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "bd00a6ce-ad4a-4736-b72a-74d9ca9b728d",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "aadt",
+      "id": "52d9ff08-326f-43df-b5b8-312acf1b87b7",
+      "name": "aadt"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "bridges",
+      "id": "9aa0c19b-9899-4a8f-85ae-0e547d96fe9a",
+      "name": "bridges"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "grade-crossings",
+      "id": "7fec0259-6145-4fb4-ae01-58720f6dfc96",
+      "name": "grade-crossings"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "highways",
+      "id": "36fa71e2-b3b6-4c40-9467-180bd8c978c0",
+      "name": "highways"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "nhs",
+      "id": "605e4c1c-7228-43be-9c50-5cc849161c5c",
+      "name": "nhs"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "traffic-data",
+      "id": "852e5ab3-eaf9-4446-87f8-3f59fc802b5e",
+      "name": "traffic-data"
+    }
+  ],
+  "tracking_summary": {
+    "total": 24,
+    "recent": 3
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2014-04-16T13:29:38.527043",
+    "title": "State of New York",
+    "name": "state-of-new-york",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "",
+    "revision_id": "93d64e34-8ed6-4da6-a1b6-b571cea81060",
+    "type": "organization",
+    "id": "198d9a94-80ac-4c81-bec3-5c7783455f9c",
+    "approval_status": "approved"
+  },
+  "name": "nys-traffic-data-viewer",
+  "isopen": false,
+  "url": null,
+  "notes": "This data set features a hyperlink to the New York State Department of Transportation’s (NYSDOT) Traffic Data (TD) Viewer web page, which includes a link to the Traffic Data interactive map.  The Traffic Data Viewer is a geospatially based Geographic Information System (GIS) application for displaying data contained in the roadway inventory database.  The interactive map has five viewable data categories or ‘layers’. The five layers include:  Average Daily Traffic (ADT); Continuous Counts; Short Counts; Bridges; and Grade Crossings throughout New York State.",
+  "owner_org": "198d9a94-80ac-4c81-bec3-5c7783455f9c",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "data.ny.gov"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "fa29213f-b181-48b9-a38c-cef81efcea92"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "issued",
+      "value": "2016-02-23"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2016-05-31"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NY State JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Transportation"
+      ]
+    },
+    {
+      "key": "catalog_@id",
+      "value": "https://data.ny.gov/data.json"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "https://data.ny.gov/api/views/7wmy-q6mb"
+    },
+    {
+      "key": "landingPage",
+      "value": "https://data.ny.gov/d/7wmy-q6mb"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "31b41eed-e640-489f-9af8-447fb8bdcc68"
+    },
+    {
+      "key": "source_hash",
+      "value": "470d557fad2605bcce607b9eb6b21b829d762ea2"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "31b41eed-e640-489f-9af8-447fb8bdcc68"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "fa29213f-b181-48b9-a38c-cef81efcea92"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NY State JSON"
+    }
+  ],
+  "title": "NYS Traffic Data Viewer",
+  "revision_id": "bd00a6ce-ad4a-4736-b72a-74d9ca9b728d"
+}

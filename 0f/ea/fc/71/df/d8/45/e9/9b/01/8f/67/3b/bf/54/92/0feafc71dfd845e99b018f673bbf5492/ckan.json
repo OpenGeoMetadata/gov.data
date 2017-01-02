@@ -1,0 +1,214 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "Robert J. Mellors",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "mellors1@llnl.gov",
+  "num_tags": 3,
+  "id": "0feafc71-dfd8-45e9-9b01-8f673bbf5492",
+  "metadata_created": "2016-11-30T21:30:17.591042",
+  "metadata_modified": "2016-11-30T21:30:17.591042",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "0feafc71-dfd8-45e9-9b01-8f673bbf5492",
+      "webstore_last_updated": null,
+      "id": "fd4213da-2e0f-422e-8949-49e4282cefed",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "ASCII txt file of seismic velocities derived from ambient noise cross-correlation. Resolution decreases with depth. First line is header.",
+      "format": "TXT",
+      "tracking_summary": {
+        "total": 4,
+        "recent": 2
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/plain",
+      "cache_url": null,
+      "name": "prelim-brady-median-vpvsqs-model-ambient-noise.txt",
+      "created": "2016-11-30T16:30:17.827550",
+      "url": "http://gdr.openei.org/files/262/Prelim_Brady_median_VpVsQs_model_ambient_noise.txt",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "0591aede-8dbc-4e47-b08b-1fcaf56270ee",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "bradys",
+      "id": "7241c1b5-d91a-43e7-a2e6-26b914bb1770",
+      "name": "bradys"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "seismic",
+      "id": "ddcd2695-f722-4ace-8a56-8b8f4955137d",
+      "name": "seismic"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "velocity-model",
+      "id": "db0d2e7d-1443-42e0-a417-9d6a7c29a41a",
+      "name": "velocity-model"
+    }
+  ],
+  "tracking_summary": {
+    "total": 1,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "brady-1d-seismic-velocity-model-ambient-noise-prelim-ce186",
+  "isopen": true,
+  "url": null,
+  "notes": "Preliminary 1D seismic velocity model derived from ambient noise correlation. 28 Green's functions filtered between 4-10 Hz for Vp, Vs, and Qs were calculated. 1D model estimated for each path. The final model is a median of the individual models. Resolution is best for the top 1 km. Poorly constrained with increasing depth.",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "issued",
+      "value": "2013-10-25"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "f0861a882ceb6331645dc33adf319bccea0f8922"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-119.0267,39.7783],[-119.0067,39.7783],[-119.0067,39.7983],[-119.0267,39.7983],[-119.0267,39.7783]]]}"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "format",
+      "value": "application/unknown"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:006"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://gdr.openei.org/submissions/262"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "0438026e-f0e4-4639-871e-ddd8c44e26e1"
+    },
+    {
+      "key": "accessURL",
+      "value": "http://gdr.openei.org/files/262/Prelim_Brady_median_VpVsQs_model_ambient_noise.txt"
+    },
+    {
+      "key": "publisher",
+      "value": "Lawrence Livermore National Laboratory"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "key": "modified",
+      "value": "2013-10-25"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/f0000000-e214-4c72-acd2-000000000262"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "0438026e-f0e4-4639-871e-ddd8c44e26e1"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "Brady 1D seismic velocity model ambient noise prelim",
+  "revision_id": "0591aede-8dbc-4e47-b08b-1fcaf56270ee"
+}

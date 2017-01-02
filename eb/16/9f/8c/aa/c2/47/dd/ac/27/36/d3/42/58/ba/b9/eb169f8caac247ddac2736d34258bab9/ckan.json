@@ -1,0 +1,193 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Data Administrator",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "da.mailbox@ssa.gov",
+  "num_tags": 6,
+  "id": "eb169f8c-aac2-47dd-ac27-36d34258bab9",
+  "metadata_created": "2015-02-28T17:15:14.568022",
+  "metadata_modified": "2016-09-28T13:10:52.407529",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "closed-claims",
+      "id": "35d8ca54-2700-4f4a-adad-64e9c6922098",
+      "name": "closed-claims"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "closed-disability-claims",
+      "id": "8d39c0aa-fa81-47d4-b406-887e542cf787",
+      "name": "closed-disability-claims"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "disability",
+      "id": "80055016-9e0d-4502-8619-5d256a463ac8",
+      "name": "disability"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "oqr",
+      "id": "960c9015-ba89-4025-95bb-3830d956a4e8",
+      "name": "oqr"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "quality-assurance",
+      "id": "dbb0c5ee-10e5-435f-a705-b31c6c868dad",
+      "name": "quality-assurance"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "sampling",
+      "id": "0c131a01-d96d-4118-a2f8-b3ac5c0f75ec",
+      "name": "sampling"
+    }
+  ],
+  "tracking_summary": {
+    "total": 14,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:35:25.934290",
+    "title": "Social Security Administration",
+    "name": "ssa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/ssa.png",
+    "revision_id": "1be01963-921d-432f-b56d-37fa76dfb0a1",
+    "type": "organization",
+    "id": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+    "approval_status": "approved"
+  },
+  "name": "closed-claim-query-file",
+  "isopen": true,
+  "url": null,
+  "notes": "This file is used to hold information about disability claims that have been closed and have been selected for sampling.Sampling is the process whereby OQR reviews the claim and determines if the appropriate decision was rendered based upon the information present in the claim folder.",
+  "owner_org": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Social Security Administration"
+    },
+    {
+      "key": "accessLevel",
+      "value": "non-public"
+    },
+    {
+      "key": "license",
+      "value": "https://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "rights",
+      "value": "The publishing of the data asset cannot be done due to one or more of the following reasons: contains personal identifying information, contains federal tax information, contains sensitive information, or a data assessment has not been completed."
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "R/P1D"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "016:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "016:00"
+      ]
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1D"
+    },
+    {
+      "key": "spatial",
+      "value": "National"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "US-GOV-SSA-484"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "e8318644-2e60-48b0-8fca-5461ef8399e6"
+    },
+    {
+      "key": "source_hash",
+      "value": "52514c8b6a9902741b33e33bf79f0448ecdf2a64"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "e8318644-2e60-48b0-8fca-5461ef8399e6"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "Closed Claim Query File",
+  "revision_id": "971c202b-b108-4c78-8188-e925d55e6cb6"
+}

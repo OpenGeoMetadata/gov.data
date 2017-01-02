@@ -1,0 +1,248 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "<Nobody>",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 10,
+  "id": "03e47646-77ff-48cd-bd0c-b7b4e2935507",
+  "metadata_created": "2016-01-28T07:25:33.050690",
+  "metadata_modified": "2016-01-28T07:25:33.050690",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "03e47646-77ff-48cd-bd0c-b7b4e2935507",
+      "webstore_last_updated": null,
+      "id": "4233d39b-4b0e-450a-9059-1e433fe0571e",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2016-01-28T02:25:33.624735",
+      "url": "https://data.cityofnewyork.us/download/hnxz-kkn5/application/zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "815b7c7a-8f63-4600-a748-3692dc5d244c",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "buildings",
+      "id": "cd5af9d8-a6ae-4e09-9c25-a1441ab827aa",
+      "name": "buildings"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "canopy",
+      "id": "e5e55a75-26a8-4511-9d4c-ab761e16c949",
+      "name": "canopy"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "dpr",
+      "id": "0afb2ff0-8c63-4045-ac6a-06971cb3c224",
+      "name": "dpr"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "grass",
+      "id": "48382995-71d7-4ed6-95ca-cc0b26e0bacc",
+      "name": "grass"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "healthy-living",
+      "id": "6e1327e4-952b-4784-9b67-efc00330e467",
+      "name": "healthy-living"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "landcover",
+      "id": "f55aa5a6-ef5c-42a6-ba96-3c828e09d882",
+      "name": "landcover"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "paved",
+      "id": "d69de041-1c98-4376-8aab-0d200e4d598a",
+      "name": "paved"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "roads",
+      "id": "f63f94b6-e6a3-4af3-81da-b0c331f9470e",
+      "name": "roads"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "tree",
+      "id": "83e2d130-9e53-46a0-b710-5575642598b8",
+      "name": "tree"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "water",
+      "id": "0626f657-5e47-4974-b0e5-6746d14f372c",
+      "name": "water"
+    }
+  ],
+  "tracking_summary": {
+    "total": 5,
+    "recent": 1
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2014-04-16T13:28:34.570999",
+    "title": "City of New York",
+    "name": "city-of-new-york",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "",
+    "revision_id": "2d414259-f4eb-4403-8bec-7b6f2a01e455",
+    "type": "organization",
+    "id": "2cc8e4b4-0c38-4590-a002-bd0d74002dec",
+    "approval_status": "approved"
+  },
+  "name": "nyc-urban-tree-canopy-assessment-metrics-2010",
+  "isopen": false,
+  "url": null,
+  "notes": "Tree Canopy (TC) Assessment metrics for New York City.  This dataset consists of TC metrics summarized to several different sets of geographic base layers. The metrics presented in this table are based on 2010 high resolution land cover dataset.\r\n\r\nThe TC Assessment is a top-down approach to analyzing the forest.  Its purpose is to integrate high resolution land cover data with other GIS datasets to produce a set of detailed metrics on the forest that allow decision makers to know how much tree canopy currently exists (termed Existing TC) and amount of land where is it biophysically feasible to establish tree canopy on (termed Possible TC). \r\n\r\nExisting TC is determined by extracting all features classified as tree canopy from a high resolution land cover dataset.  Possible TC is determined by identifying land where canopy could possibly exist.  Possible TC in a GIS context is determined by overlaying high resolution land cover with cadastral and planimetric datasets to include building polygons and road polygons.  \r\n\r\nPossible TC is queried out from this overlay and consists of all land that was not existing canopy, not water, not a building, and not a road.  Possible TC is further divided into two subcategories:  Possible-impervious and Possible-vegetation.  Possible-impervious consists of all impervious land that, through modification, could support tree canopy.  Examples of such features are parking lots, driveways (through overhanging coverage) and playgrounds.  Possible-vegetation consists of all land that is low-lying vegetation, primarily grass or shrubs, which could conceivably be converted to support tree canopy.  Examples of such features include residential lawns and playing fields.  TC metrics do not serve to address the issues of where it is socially desirable or financially feasible to plant trees.  Rather, the TC metrics serve as the basis for beginning to form answers to these questions.   \r\n\r\nTC metrics are presented in the attribute table as both absolute area (in map units) and relative area (percentage of land area) per parcel.  For example, an Existing TC Area (TC_E_A) value of 13,677 and an Existing TC Percentage (TC_E_P) of 21.8 indicate that for the parcel in question the area of Existing TC is 13,677 (in map units) and 21.8% of that feature is tree canopy.   This assessment was completed by the University of Vermont's Spatial Analysis Laboratory with funding from National Urban and Community Forestry Advisory Council (NUCFAC) and the National Science Fundation (NSF) and in cooperation with the USDA Forest Service's Northern Research Station.\r\n\r\nThe TC Assessment protocols were developed by the USDA Forest Service's Northern Research Station and the University of Vermont's Spatial Analysis Laboratory in collaboration with the Maryland Department of Natural Resources.  TC assessments have been conducted for numerous communities throughout the U.S. where the results have been instrumental in helping to establishing TC goals.",
+  "owner_org": "2cc8e4b4-0c38-4590-a002-bd0d74002dec",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "data.cityofnewyork.us"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "50104281-92a3-4534-9d38-141bc82276c5"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "issued",
+      "value": "2012-06-28"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2014-09-05"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NYC JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Environment"
+      ]
+    },
+    {
+      "key": "catalog_@id",
+      "value": "https://data.cityofnewyork.us/data.json"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "https://data.cityofnewyork.us/api/views/hnxz-kkn5"
+    },
+    {
+      "key": "landingPage",
+      "value": "https://data.cityofnewyork.us/d/hnxz-kkn5"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "451d48e0-4124-495a-b3df-a31d896db48d"
+    },
+    {
+      "key": "source_hash",
+      "value": "27c45f3351b47dbb95c412d13dff476936065cb7"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "451d48e0-4124-495a-b3df-a31d896db48d"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "50104281-92a3-4534-9d38-141bc82276c5"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NYC JSON"
+    }
+  ],
+  "title": "NYC Urban Tree Canopy Assessment Metrics 2010",
+  "revision_id": "815b7c7a-8f63-4600-a748-3692dc5d244c"
+}

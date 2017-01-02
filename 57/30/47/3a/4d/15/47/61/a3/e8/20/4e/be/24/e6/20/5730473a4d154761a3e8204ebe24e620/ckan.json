@@ -1,0 +1,213 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Data Exchange Administrator",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "ORDP.Data.Exchange@ssa.gov",
+  "num_tags": 9,
+  "id": "5730473a-4d15-4761-a3e8-204ebe24e620",
+  "metadata_created": "2015-01-30T16:17:45.755247",
+  "metadata_modified": "2016-09-28T13:11:04.220434",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "annuitants",
+      "id": "439ba5ea-926e-497e-bca8-e4bf44f66193",
+      "name": "annuitants"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "csrs",
+      "id": "add9f934-5b3b-444f-acfc-2a4dbefd957f",
+      "name": "csrs"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "federal-employee-health-benefit-program",
+      "id": "9bdf2756-6387-4205-a65e-3a3bf298edeb",
+      "name": "federal-employee-health-benefit-program"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "fehbp",
+      "id": "fea1661d-3ed9-4786-811d-bae0cbeaa672",
+      "name": "fehbp"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "fers",
+      "id": "832e82bd-b28d-467a-b01a-f7f0c4c507ca",
+      "name": "fers"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "medicare",
+      "id": "74b5e161-50ea-4ed3-a1a3-583caaccae4d",
+      "name": "medicare"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "office-of-personnel-management",
+      "id": "1e0022d8-002e-4d1e-9250-2b1c90862f68",
+      "name": "office-of-personnel-management"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "opm",
+      "id": "2f2a0bf8-c80f-49d4-aa67-059b6f57f593",
+      "name": "opm"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "survivor-annuitants",
+      "id": "bcb4c6d9-4d3b-4fcf-b4b7-df434acd3bb4",
+      "name": "survivor-annuitants"
+    }
+  ],
+  "tracking_summary": {
+    "total": 46,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:35:25.934290",
+    "title": "Social Security Administration",
+    "name": "ssa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/ssa.png",
+    "revision_id": "1be01963-921d-432f-b56d-37fa76dfb0a1",
+    "type": "organization",
+    "id": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+    "approval_status": "approved"
+  },
+  "name": "office-of-personnel-management-opm-master-beneficiary-record-mbr-medicare-match",
+  "isopen": true,
+  "url": null,
+  "notes": "The purpose of this exchange of information is to assist OPM in identifying the number of CSRS and FERS annuitants, their spouses, and survivor annuitants who are current Federal Employee Health Benefit Program (FEHBP) as well as Medicare enrollees. The extracts and statistical reports that are created after the exchange will assist OPM in setting rates for health benefits plans and in coordinating benefits through the health benefits carriers who contract with OPM.",
+  "owner_org": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Social Security Administration"
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "license",
+      "value": "https://www.ssa.gov/open/data/Restricted-Public-Licensing-Information.html"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "rights",
+      "value": "The data contained in this data exchange is restricted due to sensitivity and/or privacy issues.  If you would like more information on a data exchange with SSA please visit the following web site https://www.ssa.gov/dataexchange/."
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "R/P1Y"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "016:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "016:00"
+      ]
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1Y"
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "US-GOV-SSA-640"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "20c5f57a-6c31-459f-bd1c-27482ca61178"
+    },
+    {
+      "key": "source_hash",
+      "value": "dae698f30b0e4c8bbe59219097fba36a1c065006"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "20c5f57a-6c31-459f-bd1c-27482ca61178"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    }
+  ],
+  "title": "Office of Personnel Management (OPM) / Master Beneficiary Record (MBR) Medicare Match",
+  "revision_id": "20f7e6e6-9616-4188-8f82-29758ce31db2"
+}

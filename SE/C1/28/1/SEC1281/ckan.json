@@ -1,0 +1,166 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "SEC-1281",
+  "metadata_created": "2013-05-18T10:26:27.129188",
+  "metadata_modified": "2014-01-12T08:02:35.549441",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "SEC-1281",
+      "webstore_last_updated": null,
+      "id": "72ec2079-94cf-4e25-afe4-488c238d6417",
+      "size": null,
+      "size_text": "1M",
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "HTML, ASCII, XML, XBRL, pdf",
+      "tracking_summary": {
+        "total": 76,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "revision_id": "33391b8d-46f2-4e46-b9b5-3db8adf359c3",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2013-05-18T12:26:27.150531",
+      "url": "http://www.sec.gov/cgi-bin/srch-edgar",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 497,
+    "recent": 6
+  },
+  "groups": [
+    {
+      "display_name": "Consumer",
+      "description": "",
+      "image_display_url": "",
+      "title": "Consumer",
+      "id": "3b4e71c5-3c3c-43af-a3ff-81694225e453",
+      "name": "consumer9350"
+    },
+    {
+      "display_name": "Finance",
+      "description": "",
+      "image_display_url": "",
+      "title": "Finance",
+      "id": "405b5dfb-24f8-4b77-9999-745076d64cb2",
+      "name": "finance3432"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:36:24.452421",
+    "title": "Securities and Exchange Commission",
+    "name": "sec-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "",
+    "revision_id": "3d18a742-824a-4d6f-8cc7-722a9c69328e",
+    "type": "organization",
+    "id": "41f1bf44-613f-410e-b350-b2535863e778",
+    "approval_status": "approved"
+  },
+  "name": "boolean-and-advanced-searching-for-edgar-data-on-wwwsecgov",
+  "isopen": false,
+  "url": null,
+  "notes": "This search allows users to enter complex boolean queries to access all but the most recent day's EDGAR filings on www.sec.gov.  Filings are from 1994 to present.",
+  "owner_org": "41f1bf44-613f-410e-b350-b2535863e778",
+  "extras": [
+    {
+      "key": "data-quality",
+      "value": "TRUE"
+    },
+    {
+      "key": "__category_tag_3b4e71c5-3c3c-43af-a3ff-81694225e453",
+      "value": "[\"Finance\"]"
+    },
+    {
+      "key": "contact-email",
+      "value": "herouxr@sec.gov"
+    },
+    {
+      "key": "data-dictiionary",
+      "value": "http://www.sec.gov/nb/fttdreport.pdf"
+    },
+    {
+      "key": "issued",
+      "value": "1996"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "1994 - Present"
+    },
+    {
+      "key": "spatial-text",
+      "value": "All SEC registrants"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Section 24. Information and Communications"
+      ]
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://www.sec.gov/info/edgar.shtml"
+      ]
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "RealTime"
+    },
+    {
+      "key": "metadata-date",
+      "value": "RealTime"
+    },
+    {
+      "key": "access-level",
+      "value": "public"
+    },
+    {
+      "key": "metadata-source",
+      "value": "dms"
+    },
+    {
+      "key": "tags",
+      "value": "{SEC,\"Securities and Exchange Commission\",EDGAR,\"Central Index Key\",CIK,\"Standard Industrial Classification\",SIC,Financial,\"Financial Reporting\",filings,\"quarterly reports\",\"annual reports\"}"
+    }
+  ],
+  "title": "Boolean and advanced searching for EDGAR data on www.sec.gov",
+  "revision_id": "b557f264-e8dc-4b36-ae83-8d25de42fbe0"
+}

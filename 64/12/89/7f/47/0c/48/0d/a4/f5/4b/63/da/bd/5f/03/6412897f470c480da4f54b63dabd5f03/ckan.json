@@ -1,0 +1,256 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "6412897f-470c-480d-a4f5-4b63dabd5f03",
+  "metadata_created": "2015-09-27T00:31:40.737485",
+  "metadata_modified": "2015-09-27T00:31:40.737485",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "6412897f-470c-480d-a4f5-4b63dabd5f03",
+      "webstore_last_updated": null,
+      "id": "fd4b6e94-3d1e-4a34-a067-e2f9e5a41a86",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "",
+      "format": "Raster Dataset",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "bc0a3583-674b-4f60-929a-1f13b3b6dcf0",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-09-26T20:31:40.780724",
+      "url": "http://coastalscience.noaa.gov/projects/detail?key=33",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "6412897f-470c-480d-a4f5-4b63dabd5f03",
+      "webstore_last_updated": null,
+      "id": "9de128ce-0ba0-4969-a2b5-b0ac9c914ad4",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "pca3_coralbay_resample_p3m_iso.html",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "bc0a3583-674b-4f60-929a-1f13b3b6dcf0",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-09-26T20:31:40.780747",
+      "url": "http://www.coris.noaa.gov/metadata/records/ISO/html/pca3_coralbay_resample_p3m_iso.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "6412897f-470c-480d-a4f5-4b63dabd5f03",
+      "webstore_last_updated": null,
+      "id": "f767ea40-9874-437a-8b03-b931f45a0b01",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "bc0a3583-674b-4f60-929a-1f13b3b6dcf0",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-09-26T20:31:40.780756",
+      "url": "http://coastalscience.noaa.gov/projects/detail?key=33",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 1,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "principal-component-surface-2011-for-coral-bay-st-john",
+  "isopen": false,
+  "url": null,
+  "notes": "This image represents a 0.3x0.3 meter principal component analysis (PCA) surface for areas inside Coral Bay, St. John in the U.S. Virgin Islands (USVI). It was created by integrating eight topographic complexity surfaces (mean depth, standard deviation of depth, curvature, plan curvature, profile curvature, rugosity, slope, and slope of slope). The eight complexity surfaces were rendered, stacked and exported to create one image with several different bands (each band representing a specific complexity surface). This stacked image was transformed into its first three principal components using the \"Principal Components Analysis\" function in ENVI 5.0. The transformation reduced the dimensionality of the dataset by removing information that correlated among the different bands (i.e., complexity surfaces). The resulting PCA GeoTIFF was created to aid in the classification of benthic habitat inside Coral Bay, St. John.The original bathymetric surface used to derive the tographic complexity surfaces and PCA was collected by Fugro LADS and funded by the National Oceanic &amp; Atmospheric Administration (NOAA). Bathymetry and reflectivity data were acquired between 1/29/2011 - 2/28/2011using a LADS (Laser Airborne Depth Sounder) Mark II Airborne System from altitudes between 1,200 and 2,200ft at ground speeds between 140 and 175 knots. The 900 Hertz Nd: YAG (neodymium-doped yttrium aluminum garnet) laser (1064 nm) acquired 3x3 meter spot spacing and 200% seabed coverage. Depths between 3 and 40 m were surveyed, producing a 3x3 m bathymetry and 3x3 m reflectivity surface. These surfaces were resampled to 0.3x0.3 m to match the spatial resolution of the orthophotos collected by the U.S. Army Corps of Engineers in 2012. Environmental factors such as wind strength and direction, cloud cover, water clarity and depth influenced the area of data acquisition on a daily basis. The data was processed using the LADS Mark II Ground System and data visualization, quality control and final products were created using CARIS HIPS and SIPS and CARIS BASE Editor. All users should individually evaluate the suitability of this data according to their own needs and standards.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-64.636705"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "18.366943"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": "corisid:6936"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "18.293283"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": "0"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-64.722747, 18.293283], [-64.636705, 18.293283], [-64.636705, 18.366943], [-64.722747, 18.366943], [-64.722747, 18.293283]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2011-01-29T00:00:00"
+    },
+    {
+      "key": "contact-email",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-64.722747"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2013-11-15"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2013-11-30\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "licence",
+      "value": "[\"NOT TO BE USED FOR NAVIGATION. Please cite the National Oceanic &amp; Atmospheric Administration (NOAA), National Centers for Coastal Ocean Science (NCCOS) in any use of this data.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"National Oceanic & Atmospheric Administration, National Centers For Coastal and Ocean Science, Center for Coastal Monitoring and Assessment\", \"roles\": [\"originator\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2011-02-28T00:00:00"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "atlantic ocean, geographic information, reef monitoring and assessment, coral bay (18n064w0067), country/territory, remote sensing, united states of america, corals, zoology, lidar, st. john, biosphere, aircraft, virgin islands, ocean basin, caribbean sea, january 29, 2011 - february 28, 2011, u. s. virgin islands, downloadable data, earth science"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "2bec8c2e-aa48-4869-b3b5-de1983a35591"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Principal Component Surface (2011) for Coral Bay, St. John",
+  "revision_id": "bc0a3583-674b-4f60-929a-1f13b3b6dcf0"
+}

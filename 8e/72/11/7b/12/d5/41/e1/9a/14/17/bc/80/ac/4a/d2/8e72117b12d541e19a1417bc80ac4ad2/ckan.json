@@ -1,0 +1,188 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "8e72117b-12d5-41e1-9a14-17bc80ac4ad2",
+  "metadata_created": "2013-03-26T02:06:14.103522",
+  "metadata_modified": "2013-05-17T00:00:00",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "8e72117b-12d5-41e1-9a14-17bc80ac4ad2",
+      "webstore_last_updated": null,
+      "id": "38ae3c7f-48db-4ca3-bbf6-66fdd8603d47",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "index.html",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 872,
+        "recent": 13
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "717a96cf-b26d-4482-96e6-816dab7c2cdc",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2013-03-26T03:06:14.120309",
+      "url": "http://www.csc.noaa.gov/digitalcoast/data/chartstopobathy/index.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 213,
+    "recent": 3
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-25T20:03:25.928202",
+    "title": "Army Corps of Engineers, Department of the Army, Department of Defense",
+    "name": "usace-army-mil",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.usace.army.mil/Portals/2/usace_logo.png",
+    "revision_id": "152d9357-b07e-402c-8a2f-63c0bbcd1377",
+    "type": "organization",
+    "id": "a67ead9d-a5aa-4e41-b75a-300e8533b45e",
+    "approval_status": "approved"
+  },
+  "name": "2012-post-superstorm-sandy-lidar-elevation-data-usace-national-coastal-mapping-program",
+  "isopen": false,
+  "url": null,
+  "notes": "These files contain classified topographic and bathymetric lidar data as unclassified valid topographic data (1), and valid topographic data classified as ground (2), Classes 1 and 2 are defined in accordance with the American Society for Photogrammetry and Remote Sensing (ASPRS) classification standards. These data were collected by the Coastal Zone Mapping and Imaging Lidar (CZMIL) system. CZMIL integrates a lidar sensor with topographic and bathymetric capabilities, a digital camera and a hyperspectral imager on a single remote sensing platform for use in coastal mapping and charting activities. Native lidar data is not generally in a format accessible to most Geographic Information Systems (GIS). Specialized in-house and commercial software packages are used to process the native lidar data into 3-dimensional positions that can be imported into GIS software for visualization and further analysis. Horizontal positions, provided in decimal degrees of latitude and longitude, are referenced to the North American Datum of 1983 (NAD83). Vertical positions are referenced to the NAD83 ellipsoid and provided in meters. The National Geodetic Survey's (NGS) GEOID12A model is used to transform the vertical positions from ellipsoid to orthometric heights referenced to the North American Vertical Datum of 1988 (NAVD88). The 3-D position data are sub-divided into a series of LAS files, each covering a USGS quarter quad. The file index is provided by the shape file, NY_NJ_Tiles_NAD83.shp, and the numbers used to identify files are in the \"Box\" field of the shape file. The LAS file naming convention is based on the year, effort, area name, \"Box,\" and the product type. An example file name is \"2012_PostSandy_NY_000486_GeoClassifiedLAS.las\", where 2012 is the year of data collection, PostSandy is the project under which data were collected, NY is the area of data collection, 000486 is the \"Box\" (quarter quad) number and \"GeoClassified.las\" is the product type. The format of the file is LAS version 1.2.",
+  "owner_org": "a67ead9d-a5aa-4e41-b75a-300e8533b45e",
+  "extras": [
+    {
+      "key": "temporal-extent-begin",
+      "value": "2012-11-16"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2012-11-16"
+    },
+    {
+      "key": "contact-email",
+      "value": "JALBTCX@usace.army.mil"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-74.562500"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2012-01-12"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-73.062500"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "41.062500"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "40.000000"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although these data have been processed successfully on a computer system at the US Army Corps of Engineers, no warranty expressed or implied is made by the US Army Corps of Engineers regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty. No responsibility is assumed by the US Army Corps of Engineers in the use of these data.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"DOD/USARMY/USACE/SAM/MOBILE/OPJ/JALBTCX\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-74.5625, 40.0], [-74.5625, 41.0625], [-73.0625, 41.0625], [-73.0625, 40.0], [-74.5625, 40.0]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: These data depict the heights at the time of the survey and are only accurate for that time. These data have been developed from the best available sources. Although efforts have been made to ensure that the data are accurate and reliable, errors and variable conditions originating from physical sources used to develop the data may be reflected in the data supplied. Users must be aware of these conditions and bear responsibility for the appropriate use of the information with respect to possible errors, scale, resolution, rectification, positional accuracy, development methodology, time period, environmental and climatic conditions and other circumstances specific to these data. The user is responsible for understanding the accuracy limitations of the data provided herein. The burden for determining fitness for use lies entirely with the user. The user should refer to the accompanying metadata notes for a description of the data and data development procedures. Acknowledgement of the Joint Airborne Lidar Bathymetry Technical Center of eXpertise (JALBTCX) would be appreciated in any publications or derived products.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "tags",
+      "value": "elevation, 006, oceans, 014, U.S. Army Corps of Engineers (USACE), Mobile District, Joint Airborne Lidar Bathymetry Technical Center of eXpertise (JALBTCX), Superstorm Sandy, Coastal Zone Mapping and Imaging Lidar (CZMIL), Topography, Bathymetry, LAS Point Cloud, EARTH SCIENCE > LAND SURFACE > TOPOGRAPHY> TERRAIN ELEVATION, EARTH SCIENCE > OCEANS >COASTAL PROCESSES > COASTAL ELEVATION, EARTH SCIENCE > OCEANS > BATHYMETRY/SEAFLOOR TOPOGRAPHY > SEAFLOOR TOPOGRAPHY, EARTH SCIENCE > OCEANS > BATHYMETRY/SEAFLOOR TOPOGRAPHY > BATHYMETRY, EARTH SCIENCE > OCEANS > COASTAL PROCESSES > COASTAL ELEVATION, EARTH SCIENCE > SOLID EARTH > GEOMORPHOLOGY > COASTAL LANDFORMS/PROCESSES, EARTH SCIENCE > HUMAN DIMENSIONS > ENVIRONMENTAL GOVERNANCE/MANAGEMENT > LAND MANAGEMENT > LAND USE/LAND COVER CLASSIFICATION, EARTH REMOTE SENSING INSTRUMENTS > ACTIVE REMOTE SENSING > ALTIMITERS > LIDAR/LASER ALTIMITERS > LIDAR ALTIMITERS > LIGHT DETECTION AND RANGING ALTIMITERS, AIRCRAFT, DOD/USARMY/USACE/SAM/MOBILE/OPJ/JALBTCX"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "6717d4c4-7c22-4d18-8c09-2b478c6b6ed4"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "d16fb018-24f9-4c88-8656-28082ef5d2fe"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "USACE National Coastal Mapping Program Metadata"
+    }
+  ],
+  "title": "2012 Post-Superstorm Sandy Lidar Elevation Data, USACE National Coastal Mapping Program",
+  "revision_id": "717a96cf-b26d-4482-96e6-816dab7c2cdc"
+}

@@ -1,0 +1,192 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Data Exchange Administrator",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "ORDP.Data.Exchange@ssa.gov",
+  "num_tags": 6,
+  "id": "a6774bda-e8d2-485f-9214-2a986c20f3ba",
+  "metadata_created": "2015-01-30T16:17:41.329066",
+  "metadata_modified": "2016-09-28T13:11:03.253974",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "enumeration-verification-system",
+      "id": "b7200471-dddd-4171-bd02-2d68c9e4799d",
+      "name": "enumeration-verification-system"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "evs",
+      "id": "01a06028-e5e6-4148-8800-49bfcd08396d",
+      "name": "evs"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "jups",
+      "id": "5cf671b6-7a4e-45d3-8517-5ca755cd6bf7",
+      "name": "jups"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "oeo",
+      "id": "dcd0a2d3-c049-4da4-9458-5b1820d6f549",
+      "name": "oeo"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "office-of-earnings-operations",
+      "id": "d7eab306-4adb-4bca-b168-5c42d1931a02",
+      "name": "office-of-earnings-operations"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "unverified-prisoner-system",
+      "id": "5ccdf001-6a07-4833-8140-7dd64f7441bc",
+      "name": "unverified-prisoner-system"
+    }
+  ],
+  "tracking_summary": {
+    "total": 54,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:35:25.934290",
+    "title": "Social Security Administration",
+    "name": "ssa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/ssa.png",
+    "revision_id": "1be01963-921d-432f-b56d-37fa76dfb0a1",
+    "type": "organization",
+    "id": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+    "approval_status": "approved"
+  },
+  "name": "unverified-prisoners-system-ups",
+  "isopen": true,
+  "url": null,
+  "notes": "UPS is an internal SSA system used by the Office of Earnings Operations (OEO) to track and resolve unverified prisoner and deportee records in an effort to find a match. Under federal law, individuals who are incarcerated or deported are not entitled or eligible to collect benefits under Social Security. In order to detect these individuals, prison facilities and Department of Homeland Security send SSA files containing the Names and SSNs of their inmate populations and deportees, respectively. The records are then verified through the Enumeration Verification System (EVS). Those that fail are processed through the Unverified Prisoner System where uSAsers will manually attempt to match the prisoner and deportee records.",
+  "owner_org": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Social Security Administration"
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "license",
+      "value": "https://www.ssa.gov/open/data/Restricted-Public-Licensing-Information.html"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "rights",
+      "value": "The data contained in this data exchange is restricted due to sensitivity and/or privacy issues.  If you would like more information on a data exchange with SSA please visit the following web site https://www.ssa.gov/dataexchange/."
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "R/P1D"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "016:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "016:00"
+      ]
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1D"
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "US-GOV-SSA-623"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "ab7a5284-45b4-4867-8a8d-c57a9e9c7495"
+    },
+    {
+      "key": "source_hash",
+      "value": "dbaff847b74f18819a85027cf865b61f2b1b192d"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "ab7a5284-45b4-4867-8a8d-c57a9e9c7495"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    }
+  ],
+  "title": "Unverified Prisoners System (UPS)",
+  "revision_id": "cc8e73d2-92b6-4d18-9d23-0f9e01d68e8b"
+}

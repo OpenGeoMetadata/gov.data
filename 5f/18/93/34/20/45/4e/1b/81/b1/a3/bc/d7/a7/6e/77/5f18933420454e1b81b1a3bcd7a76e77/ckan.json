@@ -1,0 +1,253 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Kenneth Kroenlein",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "kenneth.kroenlein@nist.gov",
+  "num_tags": 13,
+  "id": "5f189334-2045-4e1b-81b1-a3bcd7a76e77",
+  "metadata_created": "2016-01-29T13:52:45.329856",
+  "metadata_modified": "2016-10-07T22:14:28.008347",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "consistency-enforcement",
+      "id": "118f673e-8d27-4dac-bce4-9972fc416746",
+      "name": "consistency-enforcement"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "data-retrieval",
+      "id": "a0a7c720-a700-4115-93e2-8a1d3c9e8c4f",
+      "name": "data-retrieval"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "experimental-data",
+      "id": "5ec0f9bd-76a1-4a38-afe1-0e6e71ccee26",
+      "name": "experimental-data"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "fitting",
+      "id": "337f32d9-e344-4bc1-88f6-df8e4c70a269",
+      "name": "fitting"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "grouping",
+      "id": "edd632b7-4c93-43b8-aad4-aea48f5421c7",
+      "name": "grouping"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "normalization",
+      "id": "59c6d00a-4616-4f7c-a645-7292a44778bb",
+      "name": "normalization"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "prediction",
+      "id": "2582b3e3-066e-4935-afcd-a434c0c82771",
+      "name": "prediction"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "sorting",
+      "id": "b2e310df-16e6-43a4-a0e9-5c55d620e621",
+      "name": "sorting"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "thermochemical",
+      "id": "8321d60d-8289-48e5-b663-5bb14574b0d8",
+      "name": "thermochemical"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "thermodynamics",
+      "id": "0a998fed-3133-459f-acd6-22240746e732",
+      "name": "thermodynamics"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "thermodynamics-research-center",
+      "id": "27d49e5d-f9c9-4aec-a6fd-02def8a11ef8",
+      "name": "thermodynamics-research-center"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "thermoml",
+      "id": "c8321cb2-9666-486c-b446-6ef23dbf165a",
+      "name": "thermoml"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "thermophysical",
+      "id": "0194ee33-e2f0-4188-9a16-aad36c3d5ae8",
+      "name": "thermophysical"
+    }
+  ],
+  "tracking_summary": {
+    "total": 83,
+    "recent": 4
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:37:59.153068",
+    "title": "Department of Commerce",
+    "name": "doc-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.vos.noaa.gov/MWL/aug_10/Images/doc_logo_xparent.png",
+    "revision_id": "44c851b9-8872-497a-8a13-2f06740b7ffb",
+    "type": "organization",
+    "id": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+    "approval_status": "approved"
+  },
+  "name": "nist-thermodata-engine-version-8-0-pure-compounds-binary-mixtures-reactions-srd-103b",
+  "isopen": true,
+  "url": null,
+  "notes": "ThermoData Engine is the first product fully implementing all major principles of the concept of dynamic data evaluation formulated at NIST/TRC. This concept requires the development of large electronic databases capable of storing essentially all 'raw' experimental data known to date with detailed descriptions of relevant metadata and uncertainties. The combination of these databases with expert software designed to generate recommended data based on available 'raw' experimental data and their uncertainties leads to the possibility of producing data compilations automatically 'to order' forming a dynamic data infrastructure. The NIST/TRC SOURCE data archival system, currently containing more than 5.0 million experimental data points, is used in conjunction with ThermoData Engine as a comprehensive storage facility for experimental thermophysical and thermochemical property data. Currently, this database contains property data for more than 21,000 pure compounds, 42,500 binary mixtures, 11,500 ternary mixtures, and 6,000 chemical reactions. The scope of the NIST Standard Reference Database 103b is pure compounds, binary mixtures, ternary mixtures, and chemical reactions. The ThermoData Engine (TDE) software incorporates all major stages of the concept implementation, including data retrieval, grouping, normalization, sorting, consistency enforcement, fitting, and prediction for all major thermophysical properties (about 120 properties total) including density, vapor pressure, heat capacity, enthalpies of phase transitions, critical properties, melting and boiling points, etc. The ThermoData Engine fills the gaps in experimental data by the deployment of the automated group-contribution and corresponding-states property prediction, emphasizes enforcement of consistency between related properties, provides for flexibility in selection of default data models depending on the particular data scenario, incorporates a large variety of models for secondary fitting, and allows saving of critically evaluated data in the ThermoML format. TDE supports several equations of state for pure compounds and allows user to fit their parameters to experimental and predicted data. Enthalpies of formation are evaluated on the basis of stored experimental enthalpies of combustion and modified Benson group-contribution method. ThermoML output assures compatibility of the ThermoData Engine with any engineering application equipped with a ThermoML software 'reader'. Periodical Web updates of the local TDE-SOURCE database maintain its up-to-date status, providing new data to users of TDE soon after original publication in the literature. TDE provides access to single-phase thermodynamic and transport property data, VLE, LLE, and SLE data, and does automated evaluation of most of those properties. Certain properties such as densities, critical, and transport properties are described by special fitting equations; phase equilibria data are described by activity coefficient models selected by the user. UNIFAC predictions are generated for mixtures covered by the various versions of the UNIFAC method, including NIST-modified UNIFAC model. Phase diagrams, isotherms, and isobars based on those models can be calculated and drawn for the user'?¿s convenience. Proprietary data can be entered for inclusion in the evaluation, and the user can influence the evaluation process by changing relative data weights or by rejecting particular data sets. TDE is capable to evaluate thermophysical properties and their uncertainties for multi-component material streams. TDE supports evaluation of the thermodynamic properties of chemical reactions such as enthalpies, entropies, Gibbs free energies, and equilibrium constants based on available experimental data as well as group contribution methods. System Requirements: PC with Microsoft Windows XP, Windows Vista, Windows 7, or Windows Server 2003/2008/2012. At least 2 GB of memory is recommended.",
+  "owner_org": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "National Institute of Standards and Technology"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "license",
+      "value": "http://www.nist.gov/open/license.cfm"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "rights",
+      "value": "Access to SRD 103b is available for a fee. For more information please visit http://www.nist.gov/srd/nist103b.cfm"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2013-07-01"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "language",
+      "value": [
+        "en"
+      ]
+    },
+    {
+      "key": "identifier",
+      "value": "FDB5909746965200E043065706813E54158"
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "006:55"
+      ]
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://trc.nist.gov/TDE/Help/TDE103b/"
+      ]
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "006:052"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://www.nist.gov/srd/nist103b.cfm"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "b8c40248-5c96-4956-8cc8-afe071b4b39d"
+    },
+    {
+      "key": "source_hash",
+      "value": "3ff168a6b14ab50d89c71c3f28ca0aad1cebe4ec"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "b8c40248-5c96-4956-8cc8-afe071b4b39d"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    }
+  ],
+  "title": "NIST ThermoData Engine Version 8.0 - Pure Compounds, Binary Mixtures, Reactions - SRD 103b",
+  "revision_id": "72d36b97-6b11-4611-8951-96db3b37ff15"
+}

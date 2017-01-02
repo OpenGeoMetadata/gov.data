@@ -1,0 +1,263 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "Alain Bonneville",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "alain.bonneville@pnnl.gov",
+  "num_tags": 10,
+  "id": "96c82f96-b2cc-47ad-8c94-8e368d8d6780",
+  "metadata_created": "2016-11-30T21:29:06.848831",
+  "metadata_modified": "2016-11-30T21:29:06.848831",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "96c82f96-b2cc-47ad-8c94-8e368d8d6780",
+      "webstore_last_updated": null,
+      "id": "fb95e6be-58d6-42c5-8207-d63f442a495b",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Density values for Newberry Volcano derived from inversions of surface gravity recorded from Davenport-Newberry and Zonge Int'l ",
+      "format": "CSV",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/csv",
+      "cache_url": null,
+      "name": "newberrygravitydensity-allbodiesrev1.csv",
+      "created": "2016-11-30T16:29:07.194844",
+      "url": "http://gdr.openei.org/files/716/NewberryGravityDensity_AllBodiesrev1.csv",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "051c4456-3103-44fc-873d-c1d02880f559",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "density",
+      "id": "0d32c784-4eec-4f5e-888b-5e15a95e2657",
+      "name": "density"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "egs",
+      "id": "c15fbe98-8fd3-49f2-be3b-1229300241d0",
+      "name": "egs"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "enhanced-geothermal-system",
+      "id": "01996c99-3a12-4340-8299-8cf78bcba494",
+      "name": "enhanced-geothermal-system"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "forge",
+      "id": "712b9477-e5bd-47ea-8261-335687d46f0e",
+      "name": "forge"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geothermal",
+      "id": "3f323051-fbd3-4715-bc13-e2fa5e65d369",
+      "name": "geothermal"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "gravity",
+      "id": "1a0962cb-9d50-4e8e-b246-58ff98356a4e",
+      "name": "gravity"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "gravity-inversion",
+      "id": "83c5cb12-64ea-4db3-ae8e-431a083db211",
+      "name": "gravity-inversion"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "newberry",
+      "id": "1f328a4d-e7a9-4b60-92a6-cd4eded080af",
+      "name": "newberry"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "newgen",
+      "id": "c8bb2fa3-e14f-4baa-b866-6eb2db58dfda",
+      "name": "newgen"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "oregon",
+      "id": "a800ff17-05ea-4916-ac12-a3b085e6fef2",
+      "name": "oregon"
+    }
+  ],
+  "tracking_summary": {
+    "total": 1,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "forge-newberry-3d-gravity-density-model-for-newberry-volcano-882de",
+  "isopen": true,
+  "url": null,
+  "notes": "These data are Pacific Northwest National Lab inversions of an amalgamation of two  surface gravity datasets: Davenport-Newberry gravity collected prior to 2012 stimulations and Zonge International gravity collected for the project \"Novel use of 4D Monitoring Techniques to Improve Reservoir Longevity and Productivity in Enhanced Geothermal Systems\" in 2012. Inversions of surface gravity recover a 3D distribution of density contrast from which intrusive igneous bodies are identified. The data indicate a body name, body type, point type, UTM X and Y coordinates, Z data is specified as meters below sea level (negative values then indicate elevations above sea level), thickness of the body in meters, suscept, density anomaly in g/cc, background density in g/cc, and density in g/cc. \n\nThe model was created using a commercial gravity inversion software called ModelVision 12.0 (http://www.tensor-research.com.au/Geophysical-Products/ModelVision). The initial model is based on the seismic tomography interpretation (Beachly et al., 2012). All the gravity data used to constrain this model are on the GDR:  https://gdr.openei.org/submissions/760. ",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "issued",
+      "value": "2016-03-11"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "895df5e1955783aa47deaa1c699a4f9c11174991"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-121.4333333,43.51666667],[-121.0333333,43.51666667],[-121.0333333,43.91666667],[-121.4333333,43.91666667],[-121.4333333,43.51666667]]]}"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "format",
+      "value": "text/csv"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:006"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://gdr.openei.org/submissions/716"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d8c21956-424f-49da-8980-d751f45dbbd4"
+    },
+    {
+      "key": "accessURL",
+      "value": "http://gdr.openei.org/files/716/NewberryGravityDensity_AllBodiesrev1.csv"
+    },
+    {
+      "key": "publisher",
+      "value": "Pacific Northwest National Laboratory"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "key": "modified",
+      "value": "2016-03-11"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/f0000000-e214-4c72-acd2-000000000716"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d8c21956-424f-49da-8980-d751f45dbbd4"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "FORGE Newberry 3D Gravity Density Model for Newberry Volcano",
+  "revision_id": "051c4456-3103-44fc-873d-c1d02880f559"
+}

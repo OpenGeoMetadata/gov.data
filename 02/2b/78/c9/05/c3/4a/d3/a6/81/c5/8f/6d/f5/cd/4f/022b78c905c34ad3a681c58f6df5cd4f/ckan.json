@@ -1,0 +1,470 @@
+{
+  "license_title": "Creative Commons CCZero",
+  "maintainer": "Dave Green",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "data@fs.fed.us",
+  "num_tags": 8,
+  "id": "022b78c9-05c3-4ad3-a681-c58f6df5cd4f",
+  "metadata_created": "2015-06-18T02:12:59.747870",
+  "metadata_modified": "2016-10-18T14:01:50.422111",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "022b78c9-05c3-4ad3-a681-c58f6df5cd4f",
+      "webstore_last_updated": null,
+      "id": "7bea0d16-161a-4cec-afd8-a37ad055dc24",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "A map service on the www depicting Forest Service roads and trails that are designated for motor vehicle use under the official U.S. Government Code of Federal Regulations for identifying designated roads and trails (36 CFR 212.56). Road and Trail MVUM. The difference between MVUM_01 and MVUM_02 is that MVUM_02 has trails and roads in the MVUM Symbology group labeled while MVUM_01 does not. Additional roads, such as highways, county roads or public roads, are included for mapping purposes. This map service shows the specific types of motorized vehicles allowed on the designated routes and their seasons of use. Data used in this map service are designed to be consistent with the MVUM (Motor Vehicle Use Map). The road and trail data are compiled from the GIS Data Dictionary data and Infra tabular data that the U.S. Forest Service administrative units have prepared for the creation of their MVUMs. This data is published and refreshed on a unit by unit basis as needed and approved by the individual units in order to stay in sync and consistent with the published MVUMs. Only roads with the symbol value of 1,2,3, 4, 11, 12 are Forest Service System roads and contain data concerning their availability for OHV use. Only trails with the symbol value of 5-12, 16, 1. are Forest Service System trails and contain data concerning their availability for motorized use.",
+      "format": "ArcGIS Map Service",
+      "tracking_summary": {
+        "total": 26,
+        "recent": 3
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/html",
+      "cache_url": null,
+      "name": "US Forest Service Motor Vehicle Use Map: Roads and Trails (With Labels)",
+      "created": "2016-09-01T07:50:14.177945",
+      "url": "https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_MVUM_02/MapServer",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "2ccaf1f6-1cd8-4539-8a34-b917a60066af",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "022b78c9-05c3-4ad3-a681-c58f6df5cd4f",
+      "webstore_last_updated": null,
+      "id": "d7782986-5365-4a64-8114-3c79b4d35ed1",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Link to API",
+      "format": "API",
+      "tracking_summary": {
+        "total": 57,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "",
+      "cache_url": null,
+      "name": "API",
+      "created": "2015-08-18T04:59:19.768915",
+      "url": "http://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_MVUM_02/MapServer",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 1,
+      "revision_id": "b8a29b84-4fc7-4775-b844-5b3dac51dfc1",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "022b78c9-05c3-4ad3-a681-c58f6df5cd4f",
+      "webstore_last_updated": null,
+      "id": "7022d778-fcf5-4ad9-9ee3-8686212735d7",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "S_USA.Road_MVUM.xml",
+      "format": "XML",
+      "tracking_summary": {
+        "total": 38,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/xml",
+      "cache_url": null,
+      "name": "Metadata_Roads",
+      "created": "2015-08-18T04:59:19.768925",
+      "url": "http://data.fs.usda.gov/geodata/edw/edw_resources/meta/S_USA.Road_MVUM.xml",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 2,
+      "revision_id": "4c447717-8391-49ef-b1cd-cdd6de75d152",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "022b78c9-05c3-4ad3-a681-c58f6df5cd4f",
+      "webstore_last_updated": null,
+      "id": "1a47f61b-1447-4421-818a-a1f202514ae1",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "S_USA.Trail_MVUM.xml",
+      "format": "XML",
+      "tracking_summary": {
+        "total": 19,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/xml",
+      "cache_url": null,
+      "name": "Metadata_Trails",
+      "created": "2015-08-18T04:59:19.768933",
+      "url": "http://data.fs.usda.gov/geodata/edw/edw_resources/meta/S_USA.Trail_MVUM.xml",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 3,
+      "revision_id": "4c447717-8391-49ef-b1cd-cdd6de75d152",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "022b78c9-05c3-4ad3-a681-c58f6df5cd4f",
+      "webstore_last_updated": null,
+      "id": "e7f04546-7677-4d75-bc7f-933232c4eec4",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "S_USA.Road_MVUM.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 64,
+        "recent": 5
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "Shapefile_Roads",
+      "created": "2015-08-18T04:59:19.768941",
+      "url": "http://data.fs.usda.gov/geodata/edw/edw_resources/shp/S_USA.Road_MVUM.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 4,
+      "revision_id": "258148f8-26e9-45a3-9a9a-81b339c48e14",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "022b78c9-05c3-4ad3-a681-c58f6df5cd4f",
+      "webstore_last_updated": null,
+      "id": "92ec71c9-68e3-41ab-8066-d6aa3950845d",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "S_USA.Road_MVUM.gdb.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 21,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "ESRI geodatabase XML_Roads",
+      "created": "2015-08-18T04:59:19.768949",
+      "url": "http://data.fs.usda.gov/geodata/edw/edw_resources/fc/S_USA.Road_MVUM.gdb.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 5,
+      "revision_id": "258148f8-26e9-45a3-9a9a-81b339c48e14",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "022b78c9-05c3-4ad3-a681-c58f6df5cd4f",
+      "webstore_last_updated": null,
+      "id": "8807f0d3-dc6b-48dd-865d-3b42de27c53b",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "S_USA.Trail_MVUM.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 40,
+        "recent": 4
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "Shapefile_Trails",
+      "created": "2015-08-18T04:59:19.768956",
+      "url": "http://data.fs.usda.gov/geodata/edw/edw_resources/shp/S_USA.Trail_MVUM.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 6,
+      "revision_id": "258148f8-26e9-45a3-9a9a-81b339c48e14",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "022b78c9-05c3-4ad3-a681-c58f6df5cd4f",
+      "webstore_last_updated": null,
+      "id": "19f15e43-1b64-4f2a-a346-66733e96c509",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "S_USA.Trail_MVUM.gdb.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 13,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "ESRI geodatabase XML_Trails",
+      "created": "2015-08-18T04:59:19.768964",
+      "url": "http://data.fs.usda.gov/geodata/edw/edw_resources/fc/S_USA.Trail_MVUM.gdb.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 7,
+      "revision_id": "258148f8-26e9-45a3-9a9a-81b339c48e14",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "022b78c9-05c3-4ad3-a681-c58f6df5cd4f",
+      "webstore_last_updated": null,
+      "id": "c7ee13fe-074f-4774-a635-14b2cd3ac89f",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Link to generate KML",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 39,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/html",
+      "cache_url": null,
+      "name": "KML",
+      "created": "2015-08-18T04:59:19.768971",
+      "url": "http://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_MVUM_02/MapServer/generateKml",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 8,
+      "revision_id": "b8a29b84-4fc7-4775-b844-5b3dac51dfc1",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 9,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "forest-service",
+      "id": "a9b4853a-bccd-46db-8c9f-c6e1da7dcbab",
+      "name": "forest-service"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "mvum",
+      "id": "a56bbf8d-4b02-4db4-81b5-b842c7fca30b",
+      "name": "mvum"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "national-forest",
+      "id": "b36bcd86-621d-488c-b25e-14630396801b",
+      "name": "national-forest"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "road",
+      "id": "115daa3a-ac61-4a42-8c20-c1d89bf7024c",
+      "name": "road"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "roads",
+      "id": "f63f94b6-e6a3-4af3-81da-b0c331f9470e",
+      "name": "roads"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "trails",
+      "id": "4d97c517-17d8-45a1-83ce-9454b3dee5df",
+      "name": "trails"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "travel-management-rule",
+      "id": "48417ed8-7b95-4bcb-b5a9-e6a826c97081",
+      "name": "travel-management-rule"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "usfs",
+      "id": "b613afc7-89fd-4794-83c7-6bf9a13319fc",
+      "name": "usfs"
+    }
+  ],
+  "tracking_summary": {
+    "total": 515,
+    "recent": 16
+  },
+  "groups": [
+    {
+      "display_name": "Agriculture",
+      "description": "",
+      "image_display_url": "",
+      "title": "Agriculture",
+      "id": "008741df-42eb-48ba-9e87-f69eb6e7d321",
+      "name": "agriculture8571"
+    }
+  ],
+  "license_id": "cc-zero",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:48:54.524965",
+    "title": "Department of Agriculture",
+    "name": "usda-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.data.gov/app/uploads/2014/07/USDA_logo.png",
+    "revision_id": "9e003139-dbe7-4b48-a9fe-0ae8b4c122f2",
+    "type": "organization",
+    "id": "4ae51f6c-467a-4f9d-b40a-2c52e83c326a",
+    "approval_status": "approved"
+  },
+  "name": "us-forest-service-road-and-trail-mvum-with-labels-f3696",
+  "isopen": true,
+  "url": null,
+  "notes": "A map service on the www depicting Forest Service roads and trails that are designated for motor vehicle use under the official U.S. Government Code of Federal Regulations for identifying designated roads and trails (36 CFR 212.56). Road and Trail MVUM. Additional roads, such as highways, county roads or public roads, are included for mapping purposes. This map service shows the specific types of motorized vehicles allowed on the designated routes and their seasons of use. Data used in this map service are designed to be consistent with the MVUM (Motor Vehicle Use Map). The road and trail data are compiled from the GIS Data Dictionary data and Infra tabular data that the U.S. Forest Service administrative units have prepared for the creation of their MVUMs. This data is published and refreshed on a unit by unit basis as needed and approved by the individual units in order to stay in sync and consistent with the published MVUMs. Only roads with the symbol value of 1,2,3, 4, 11, 12 are Forest Service System roads and contain data concerning their availability for OHV use. Only trails with the symbol value of 5-12, 16, 1. are Forest Service System trails and contain data concerning their availability for motorized use.",
+  "owner_org": "4ae51f6c-467a-4f9d-b40a-2c52e83c326a",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "50ca39af-9ddb-466d-8cf3-84d67a204346"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "bb33d0c45b5a1348321a21d302ff997d9fd560b0"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "geospatial"
+      ]
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/data.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "USDA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "005:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "005:96"
+      ]
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d835c28c-f908-4611-839f-17e6d183091f"
+    },
+    {
+      "key": "publisher",
+      "value": "US Forest Service, Department of Agriculture"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "key": "rights",
+      "value": "Public"
+    },
+    {
+      "key": "modified",
+      "value": "2015-04-28"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/PT1S"
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "USDA-FS-00073"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d835c28c-f908-4611-839f-17e6d183091f"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "50ca39af-9ddb-466d-8cf3-84d67a204346"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "USDA JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-zero",
+  "title": "US Forest Service Motor Vehicle Use Map: Roads and Trails (With Labels)",
+  "revision_id": "31ad0fe8-dcce-4625-b0d5-da6a6bd6679e"
+}

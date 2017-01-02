@@ -1,0 +1,237 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "221c2bae-e8ae-42fd-9b6a-1a86930a273f",
+  "metadata_created": "2016-07-04T21:18:12.502369",
+  "metadata_modified": "2016-07-04T21:18:12.502369",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "221c2bae-e8ae-42fd-9b6a-1a86930a273f",
+      "webstore_last_updated": null,
+      "id": "41fbbe88-3727-46ca-980e-79eb5144b0c1",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Information about the dataset",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Cite URL",
+      "created": "2016-07-04T17:18:12.653637",
+      "url": "http://www.esrl.noaa.gov/psd/data/gridded/data.noaa.hrc.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "da7c2de7-19d7-4684-bbf8-864632043c4e",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "221c2bae-e8ae-42fd-9b6a-1a86930a273f",
+      "webstore_last_updated": null,
+      "id": "345b7cb1-5b11-4240-9266-9f4ca8dc762a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Thredds Data server.  Allows http, opendap, and possibly WCS and WMS downaloads.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Thredds Server",
+      "created": "2016-07-04T17:18:12.653667",
+      "url": "http://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/noaa_hrc//catalog.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "da7c2de7-19d7-4684-bbf8-864632043c4e",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "221c2bae-e8ae-42fd-9b6a-1a86930a273f",
+      "webstore_last_updated": null,
+      "id": "f2f09c78-1534-4672-bdcf-f725a68507e3",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "FTP server.",
+      "format": "NETCDF3_CLASSIC",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FTP server",
+      "created": "2016-07-04T17:18:12.653677",
+      "url": "ftp://ftp.cdc.noaa.gov/Datasets/noaa_hrc/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "da7c2de7-19d7-4684-bbf8-864632043c4e",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 3,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "noaa-highly-reflective-clouds",
+  "isopen": false,
+  "url": null,
+  "notes": "Subjectively identified areas of large-scale organized convection over the global tropics (25N-25S) have been gridded daily for a 15-year period from 1971 to 1988.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "temporal-extent-begin",
+      "value": "1971-01-01"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "1988-01-31"
+    },
+    {
+      "key": "contact-email",
+      "value": "webmaster.psd@noaa.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "metadata-date",
+      "value": "1988-01-31"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"lastUpdate\", \"value\": \"1988-01-31\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"\", \"roles\": [\"custodian\"]}]"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://www.esrl.noaa.gov/psd/mddb2/browseGraphics/NOAA_Highly_Reflective_Clouds.png"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "ongoing"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.esrl.psd.dataset.NOAA_Highly_Reflective_Clouds"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "tags",
+      "value": "highly reflective clouds daily values, highly reflective clouds monthly mean, highly reflective clouds monthly missing days, highly reflective clouds normalized monthly mean"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "60b9a199-6e6b-440a-8b39-ffde5a8c334a"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "NOAA Highly Reflective Clouds",
+  "revision_id": "da7c2de7-19d7-4684-bbf8-864632043c4e"
+}

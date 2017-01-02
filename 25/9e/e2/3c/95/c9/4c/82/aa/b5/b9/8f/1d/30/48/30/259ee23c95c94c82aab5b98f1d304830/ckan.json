@@ -1,0 +1,237 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "259ee23c-95c9-4c82-aab5-b98f1d304830",
+  "metadata_created": "2016-07-04T21:17:47.881587",
+  "metadata_modified": "2016-07-04T21:17:47.881587",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "259ee23c-95c9-4c82-aab5-b98f1d304830",
+      "webstore_last_updated": null,
+      "id": "0783d33f-e8b2-4141-9713-8f9e1ceafccb",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Information about the dataset",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Cite URL",
+      "created": "2016-07-04T17:17:48.040620",
+      "url": "http://www.esrl.noaa.gov/psd/data/gridded/data.crutem4.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "d201f283-4330-4424-bd90-4a2d3e0fbbb0",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "259ee23c-95c9-4c82-aab5-b98f1d304830",
+      "webstore_last_updated": null,
+      "id": "c320778f-ddcf-485d-aec2-5d389dc65a99",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Thredds Data server.  Allows http, opendap, and possibly WCS and WMS downaloads.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Thredds Server",
+      "created": "2016-07-04T17:17:48.040646",
+      "url": "http://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/cru/catalog.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "d201f283-4330-4424-bd90-4a2d3e0fbbb0",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "259ee23c-95c9-4c82-aab5-b98f1d304830",
+      "webstore_last_updated": null,
+      "id": "580cbf1b-a723-4c35-9407-c4466ef35dcf",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "FTP server.",
+      "format": "NETCDF3_CLASSIC",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FTP server",
+      "created": "2016-07-04T17:17:48.040654",
+      "url": "ftp://ftp.cdc.noaa.gov/Datasets/cru",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "d201f283-4330-4424-bd90-4a2d3e0fbbb0",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 2,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "crutem4",
+  "isopen": false,
+  "url": null,
+  "notes": "CRUTEM4 is a gridded dataset of global historical near-surface air temperature anomalies over land. Data are available for each month from January 1850 to present, on a 5 degree grid. .The gridded data are based on an archive of monthly mean temperatures provided by more than 5500 weather stations distributed around the world. Each station temperature is converted to an anomaly from the 1961-90 average temperature for that station, and each grid-box value is the mean of all the station anomalies within that grid box. As well as the mean anomaly, estimates are made of the uncertainties arising from thermometer accuracy, homogenisation, sampling grid boxes with a finite number of measurements available, large-scale biases such as urbanisation and estimation of regional averages with non-complete global measurement coverage.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "temporal-extent-begin",
+      "value": "1850-01-01"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2016-04-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "webmaster.psd@noaa.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-04-01"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"lastUpdate\", \"value\": \"2016-04-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"\", \"roles\": [\"custodian\"]}]"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://www.esrl.noaa.gov/psd/mddb2/browseGraphics/CRUTEM4.png"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "ongoing"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.esrl.psd.dataset.CRUTEM4"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "tags",
+      "value": "crutem4: surface air temperature monthly sampling error, crutem4: surface air temperature monthly station errors, crutem4: surface air temperature monthly number of observations, crutem4: surface air temperature monthly 97.5 bias anomaly, crutem4: surface air temperature monthly 2.5 bias anomaly, crutem4: surface air temperature monthly anomaly"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "2e70d860-0064-4acd-9d35-0eecfb1a03b3"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "CRUTEM4",
+  "revision_id": "d201f283-4330-4424-bd90-4a2d3e0fbbb0"
+}

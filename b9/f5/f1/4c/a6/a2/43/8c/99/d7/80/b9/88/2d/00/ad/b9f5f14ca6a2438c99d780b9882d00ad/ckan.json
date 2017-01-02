@@ -1,0 +1,485 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "b9f5f14c-a6a2-438c-99d7-80b9882d00ad",
+  "metadata_created": "2016-07-25T21:02:07.594734",
+  "metadata_modified": "2016-10-19T22:27:57.052816",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "b9f5f14c-a6a2-438c-99d7-80b9882d00ad",
+      "webstore_last_updated": null,
+      "id": "9ab82266-d0d0-43b8-b26c-fdaae4fa605a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard LAS html interface for selecting data from this dataset. ",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "LAS",
+      "created": "2016-10-19T18:27:57.329793",
+      "url": "http://ferret.pmel.noaa.gov/geoideLAS/getUI.do?data_url=http://edac-dap3.northerngulfinstitute.org/thredds/dodsC/ncom_fukushima_agg/Fukushima_best.ncd",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "51d99133-e731-467e-8634-3a91b9caf065",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9f5f14c-a6a2-438c-99d7-80b9882d00ad",
+      "webstore_last_updated": null,
+      "id": "180c7823-c5f6-4963-bc3d-3a8c7218ac53",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard ERDDAP html interface for selecting data from this dataset. ",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ERDDAP",
+      "created": "2016-10-19T18:27:57.329859",
+      "url": "http://upwell.pfeg.noaa.gov/erddap/search/index.html?searchFor=http://edac-dap3.northerngulfinstitute.org/thredds/dodsC/ncom_fukushima_agg/Fukushima_best.ncd",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "51d99133-e731-467e-8634-3a91b9caf065",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9f5f14c-a6a2-438c-99d7-80b9882d00ad",
+      "webstore_last_updated": null,
+      "id": "ea924bf8-6324-4ab5-885f-a9eac40bf998",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard OPeNDAP html interface for selecting data from this dataset. Change the extension to .info for a description of the dataset.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "File Information",
+      "created": "2016-10-19T18:27:57.329871",
+      "url": "http://edac-dap3.northerngulfinstitute.org/thredds/dodsC/ncom_fukushima_agg/Fukushima_best.ncd.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "51d99133-e731-467e-8634-3a91b9caf065",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9f5f14c-a6a2-438c-99d7-80b9882d00ad",
+      "webstore_last_updated": null,
+      "id": "1e6fcdbb-5b79-44be-961b-eacfe70f0dcb",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "mapDigital",
+      "hash": "",
+      "description": "This URL provides an NCDC climate and weather toolkit view of an OPeNDAP resource.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Viewer Information",
+      "created": "2016-10-19T18:27:57.329878",
+      "url": "http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://edac-dap3.northerngulfinstitute.org/thredds/dodsC/ncom_fukushima_agg/Fukushima_best.ncd",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 3,
+      "revision_id": "51d99133-e731-467e-8634-3a91b9caf065",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9f5f14c-a6a2-438c-99d7-80b9882d00ad",
+      "webstore_last_updated": null,
+      "id": "77a0ae37-e3b6-4033-aaa3-01aedebcf8ce",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": " Visualize with Live Access Server",
+      "created": "2016-10-19T18:27:57.329885",
+      "url": "http://ferret.pmel.noaa.gov/geoideLAS/getUI.do?data_url=http://edac-dap3.northerngulfinstitute.org/thredds/dodsC/ncom_fukushima_agg/Fukushima_best.ncd",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 4,
+      "revision_id": "51d99133-e731-467e-8634-3a91b9caf065",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9f5f14c-a6a2-438c-99d7-80b9882d00ad",
+      "webstore_last_updated": null,
+      "id": "7fe03339-a551-454c-9684-603e5c5e99b3",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": " Visualize with ERDDAP",
+      "created": "2016-10-19T18:27:57.329906",
+      "url": "http://upwell.pfeg.noaa.gov/erddap/search/index.html?searchFor=http://edac-dap3.northerngulfinstitute.org/thredds/dodsC/ncom_fukushima_agg/Fukushima_best.ncd",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 5,
+      "revision_id": "51d99133-e731-467e-8634-3a91b9caf065",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9f5f14c-a6a2-438c-99d7-80b9882d00ad",
+      "webstore_last_updated": null,
+      "id": "b58005ce-5496-4fed-9235-580af28050a9",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": " Weather and Climate Toolkit",
+      "created": "2016-10-19T18:27:57.329914",
+      "url": "http://www.ncdc.noaa.gov/oa/wct/wct-jnlp.php?singlefile=http://edac-dap3.northerngulfinstitute.org/thredds/dodsC/ncom_fukushima_agg/Fukushima_best.ncd",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 6,
+      "revision_id": "51d99133-e731-467e-8634-3a91b9caf065",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9f5f14c-a6a2-438c-99d7-80b9882d00ad",
+      "webstore_last_updated": null,
+      "id": "0569d8d9-7745-4981-99ba-c2c3add33ffd",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "The UAF project is providing this catalog as a public service to aid in the discovery and access of scientific data.  The UAF is not responsible for the content of the data and all questions regarding the data should be directed to the office where the data reside.",
+      "format": "",
+      "tracking_summary": {
+        "total": 18,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTPS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA GEO-IDE",
+      "created": "2016-10-19T18:27:57.329926",
+      "url": "https://geo-ide.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 7,
+      "revision_id": "51d99133-e731-467e-8634-3a91b9caf065",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9f5f14c-a6a2-438c-99d7-80b9882d00ad",
+      "webstore_last_updated": null,
+      "id": "63216d9c-ef4d-4a77-8a6e-3b319c07ddac",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "THREDDS OPeNDAP",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OPeNDAP:OPeNDAP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OPeNDAP",
+      "created": "2016-10-19T18:27:57.329945",
+      "url": "http://edac-dap3.northerngulfinstitute.org/thredds/dodsC/ncom_fukushima_agg/Fukushima_best.ncd",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 8,
+      "revision_id": "51d99133-e731-467e-8634-3a91b9caf065",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9f5f14c-a6a2-438c-99d7-80b9882d00ad",
+      "webstore_last_updated": null,
+      "id": "5ad20759-c73d-4569-bffa-d6a2293ca165",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Open Geospatial Consortium Web Coverage Service (WCS)",
+      "format": "WCS",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WCS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OGC-WCS",
+      "created": "2016-10-19T18:27:57.329963",
+      "url": "http://ferret.pmel.noaa.gov/geoide/wcs/ncom_fukushima_agg/Fukushima_best.ncd?service=WCS&version=1.0.0&request=GetCapabilities",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 9,
+      "revision_id": "51d99133-e731-467e-8634-3a91b9caf065",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9f5f14c-a6a2-438c-99d7-80b9882d00ad",
+      "webstore_last_updated": null,
+      "id": "9d623e7c-2fa3-40ab-8a72-0c456b10a206",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Open Geospatial Consortium Web Map Service (WMS)",
+      "format": "WMS",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WMS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OGC-WMS",
+      "created": "2016-10-19T18:27:57.329973",
+      "url": "http://edac-dap3.northerngulfinstitute.org/thredds/wms/ncom_fukushima_agg/Fukushima_best.ncd?service=WMS&version=1.3.0&request=GetCapabilities",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 10,
+      "revision_id": "51d99133-e731-467e-8634-3a91b9caf065",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 11,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 3,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "navo-ncom-relocatable-model-fukushima-regional-forecast",
+  "isopen": false,
+  "url": null,
+  "notes": "Preliminary NCOM Relocatable 1km forecast model for Fukushima Region. USERS ARE REMINDED TO USE THE FUKUSHIMA 1KM NCOM DATA WITH CAUTION.  THE MODEL WAS INITIATED ON 18 MARCH SO IT HAS NOT TOTALLY SPUN UP, NOR HAS IT BEEN FULLYEVALUATED FOR STRENGTHS AND WEAKNESSES.  THESE FORECASTS ARE BEING PROVIDED AS PRELIMINARY GUIDANCE TO SUPPORT EMERGENCY REQUESTS FOR HIGH-RESOLUTION OCEAN INFORMATION.  NAVOCEANO EXPECTS TO CONTINUE TO MAKE CHANGES AND IMPROVEMENTS OVER THE NEXT FEW WEEKS.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "144.99819946289062"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "39.9940071105957"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[{\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}, {\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}, {\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}]"
+    },
+    {
+      "key": "guid",
+      "value": "ncom_fukushima_agg.Fukushima_best.ncd"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "34.0"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[138.0, 34.0], [144.998199463, 34.0], [144.998199463, 39.9940071106], [138.0, 39.9940071106], [138.0, 34.0]]]}"
+    },
+    {
+      "key": "progress",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2011-03-10T00:00:00Z"
+    },
+    {
+      "key": "contact-email",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "138.0"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-10-13"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Naval Research Laboratory\", \"roles\": [\"pointOfContact\"]}, {\"name\": \"The Unified Access Framework (UAF)\", \"roles\": [\"custodian\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2011-12-17T00:00:00Z"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": "THREDDS OPeNDAP"
+    },
+    {
+      "key": "metadata-language",
+      "value": "eng"
+    },
+    {
+      "key": "tags",
+      "value": "longitude, the unified access framework: a geo-ide project to integrate scientific data management and access, unified access framework (uaf), forecast_reference_time, forecast_period, northward_sea_water_velocity, sea_water_salinity, eastward_sea_water_velocity, time, latitude, sea_water_temperature"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "fec4549e-3351-46ac-bb9b-83453b3f335f"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "NAVO NCOM Relocatable Model: Fukushima Regional Forecast",
+  "revision_id": "099bc04e-b1e8-473a-99e5-a3c6f6a93381"
+}

@@ -1,0 +1,237 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "9ee53572-3b4e-4861-85d9-43b1a9962d99",
+  "metadata_created": "2016-07-04T21:17:55.960347",
+  "metadata_modified": "2016-07-04T21:17:55.960347",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "9ee53572-3b4e-4861-85d9-43b1a9962d99",
+      "webstore_last_updated": null,
+      "id": "e6a07dc2-152b-4470-a861-02840b78e2d7",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Information about the dataset",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Cite URL",
+      "created": "2016-07-04T17:17:56.100421",
+      "url": "http://www.esrl.noaa.gov/psd/data/gridded/data.olrdcdr.interp.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "ffee6f4e-d9fb-4f58-a223-abd53b15ff36",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9ee53572-3b4e-4861-85d9-43b1a9962d99",
+      "webstore_last_updated": null,
+      "id": "b3fa9e87-38f5-405f-9d35-82b43cc58c31",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Thredds Data server.  Allows http, opendap, and possibly WCS and WMS downaloads.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Thredds Server",
+      "created": "2016-07-04T17:17:56.100443",
+      "url": "http://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/olrcdr//catalog.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "ffee6f4e-d9fb-4f58-a223-abd53b15ff36",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9ee53572-3b4e-4861-85d9-43b1a9962d99",
+      "webstore_last_updated": null,
+      "id": "9017bfd5-6cd4-4f96-aabd-8fef8c7acacb",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "FTP server.",
+      "format": "NETCDF4_CLASSIC",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FTP server",
+      "created": "2016-07-04T17:17:56.100452",
+      "url": "ftp://ftp.cdc.noaa.gov/Datasets/olrcdr/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "ffee6f4e-d9fb-4f58-a223-abd53b15ff36",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 2,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "outgoing-longwave-radiation-daily-climate-data-record-olr-daily-cdr",
+  "isopen": false,
+  "url": null,
+  "notes": "The product contains the 1-degree by 1-degree daily mean outgoing longwave radiation flux at the top of the atmosphere derived from HIRS radiance observations onboard NOAA TIROS-N series and MetOp satellites. The OLR retrieval uses multispectral regression models (Ellingson et al., 1989, Lee, 2014). The CDR processing includes HIRS radiance calibration, inter-satellite HIRS OLR calibration, normalization of geostationary-based  OLR retrieval to HIRS, and grid-based 7-day boxcar temporal integration assisted with Imager-based OLR derived from Gridsat CDR data (Lee, 2014).",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "temporal-extent-begin",
+      "value": "1979-01-01"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2012-12-31"
+    },
+    {
+      "key": "contact-email",
+      "value": "webmaster.psd@noaa.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "metadata-date",
+      "value": "2012-12-31"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"lastUpdate\", \"value\": \"2012-12-31\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"\", \"roles\": [\"custodian\"]}]"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://www.esrl.noaa.gov/psd/mddb2/browseGraphics/Outgoing_Longwave_Radiation_Daily_Climate_Data_Record_(OLR_Daily_CDR).png"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "ongoing"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.esrl.psd.dataset.Outgoing_Longwave_Radiation_Daily_Climate_Data_Record_OLR_Daily_CDR"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "tags",
+      "value": "monthly mean of outgoing longwave radiation"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "22aa740b-cd8f-4093-b05e-4d20d22d5b0e"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Outgoing Longwave Radiation Daily Climate Data Record (OLR Daily CDR)",
+  "revision_id": "ffee6f4e-d9fb-4f58-a223-abd53b15ff36"
+}

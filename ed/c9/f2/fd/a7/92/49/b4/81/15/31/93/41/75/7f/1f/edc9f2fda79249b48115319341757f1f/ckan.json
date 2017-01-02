@@ -1,0 +1,173 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "William Wallace",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "william.wallace@nist.gov",
+  "num_tags": 3,
+  "id": "edc9f2fd-a792-49b4-8115-319341757f1f",
+  "metadata_created": "2016-01-29T13:52:44.548549",
+  "metadata_modified": "2016-10-07T22:14:27.795520",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "maldi",
+      "id": "a23f0ed3-cfee-4f0c-9e8f-d04fe10dad3b",
+      "name": "maldi"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "mass-spectrometry",
+      "id": "c06b21bb-5e74-4e67-bddb-5a7541fcf6de",
+      "name": "mass-spectrometry"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "polymers",
+      "id": "f166d95e-3470-4a41-b368-74527b5d428f",
+      "name": "polymers"
+    }
+  ],
+  "tracking_summary": {
+    "total": 27,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:37:59.153068",
+    "title": "Department of Commerce",
+    "name": "doc-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.vos.noaa.gov/MWL/aug_10/Images/doc_logo_xparent.png",
+    "revision_id": "44c851b9-8872-497a-8a13-2f06740b7ffb",
+    "type": "organization",
+    "id": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+    "approval_status": "approved"
+  },
+  "name": "nist-synthetic-polymer-maldi-ms-methods-database-srd-172",
+  "isopen": true,
+  "url": null,
+  "notes": "This Standard Reference Database consists of methods for matrix-assisted laser desorption ionization (MALDI) mass spectrometry on a wide variety of synthetic polymers. The methods are taken from the peer-review scientific literature. The database covers the period from 1988, the year of Tanaka's first paper on the subject, through 2011. Each recipe comes with a literature citation and associated digital object identifier (DOI) when available. The database currently contains entries for over 1250 polymer/matrix combinations.   These methods have not necessarily been tested by the National Institute of Standards and Technology (NIST), nor does NIST claim the database to be a comprehensive list of all methods to be found in the open literature. This database is provided solely as a resource for the mass spectroscopy community.   All polymers are sorted into five main groups:  A - polymers containing carbon and hydrogen only   B - polymers containing carbon, hydrogen and oxygen (but not nitrogen)  C - polymers containing carbon, hydrogen, and nitrogen (oxygen may also be present)  D - polymers containing sulfur, phosphorous, or halides  E - polymers containing one or more of: silicon, germanium, tin, or metals   Within these groups, the polymers are further sorted into classes according to 'Glossary of Class Names of Polymers Based on Chemical Structure and Molecular Architecture (IUPAC Recommendations 2009)' Pure Appl. Chem., Vol. 81, No. 6, pp. 1131-1186, 2009. doi: http://dx.doi.org/10.1351/PAC-REC-08-01-30. Not every IUPAC class contains a MALDI recipe. This occurs for a number of reasons, but primarily because there are no published methods for many classes.   The database is organized by main chain chemistry. Copolymers can be found under all classes represented by repeat units in their main chain. End group and chair architecture information is available but not as a sortable field. There are entries for dendrimers, nanoparticles, polysaccharides, and homopolymer polypeptides, but the database has significantly less coverage in these areas. The database could be extended into these areas if there is significant community interest.   Chemical Abstracts Service (CAS) number are provided for all matrices having them. Links to the NIST Chemistry WebBook are available for all matrices having a WebBook entry. The WebBook provides thermophysical, structural, and spectroscopic information a wide variety of compounds.",
+  "owner_org": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "National Institute of Standards and Technology"
+    },
+    {
+      "key": "landingPage",
+      "value": "http://maldi.nist.gov/"
+    },
+    {
+      "key": "license",
+      "value": "http://www.nist.gov/open/license.cfm"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2013-01-01"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "language",
+      "value": [
+        "en"
+      ]
+    },
+    {
+      "key": "identifier",
+      "value": "FDB5909746925200E043065706813E54154"
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "006:55"
+      ]
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "006:052"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "741ab63c-82f5-4184-9de6-379a61688285"
+    },
+    {
+      "key": "source_hash",
+      "value": "fa61b9bd36abb1c211ff02087dfddaac95d404f6"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "741ab63c-82f5-4184-9de6-379a61688285"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    }
+  ],
+  "title": "NIST Synthetic Polymer MALDI MS Methods Database - SRD 172",
+  "revision_id": "40e537f2-93f4-40f0-b22a-b09da15d6b90"
+}

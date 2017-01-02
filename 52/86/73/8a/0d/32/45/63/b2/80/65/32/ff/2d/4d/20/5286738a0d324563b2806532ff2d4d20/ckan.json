@@ -1,0 +1,218 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "5286738a-0d32-4563-b280-6532ff2d4d20",
+  "metadata_created": "2013-03-14T19:47:02.535115",
+  "metadata_modified": "2013-05-17T00:00:00",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "5286738a-0d32-4563-b280-6532ff2d4d20",
+      "webstore_last_updated": null,
+      "id": "9ac55dff-01d3-4216-b547-2c90ac12acc8",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 295,
+        "recent": 8
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "7ea073cb-89d3-4edb-9cf9-8ca6ec8fd28b",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2013-03-14T20:47:02.557487",
+      "url": "http:\\\\www.kansasgis.org",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "5286738a-0d32-4563-b280-6532ff2d4d20",
+      "webstore_last_updated": null,
+      "id": "45cd4500-2246-4904-930f-3c80c2cf9ec9",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 185,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "7ea073cb-89d3-4edb-9cf9-8ca6ec8fd28b",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2013-03-14T20:47:02.557508",
+      "url": "http://www.kansasgis.org",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 28,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.184067",
+    "title": "Kansas Data Access and Support Center",
+    "name": "kgs-ku-edu",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.kansasgis.org/_style/img/banner.png",
+    "revision_id": "649a4ecd-dd72-4628-b80e-cea6a4f616d2",
+    "type": "organization",
+    "id": "56d45844-910f-4632-a4ff-bf5f0e6cb653",
+    "approval_status": "approved"
+  },
+  "name": "correctional-institutions",
+  "isopen": false,
+  "url": null,
+  "notes": "Jails and Prisons (Correctional Institutions) in Kansas The Jails and Prisons sub-layer is part of the Emergency Law Enforcement Sector and the Critical Infrastructure Category. A Jail or Prison consists of any facility or location where individuals are regularly and lawfully detained against their will. This includes Federal and State prisons, local jails, and juvenile detention facilities, as well as law enforcement temporary holding facilities. Work camps, including camps operated seasonally, are included if they otherwise meet the definition. A Federal Prison is a facility operated by the Federal Bureau of Prisons for the incarceration of individuals. A State Prison is a facility operated by a state, commonwealth, or territory of the US for the incarceration of individuals for a term usually longer than 1 year. A Juvenile Detention Facility is a facility for the incarceration of those who have not yet reached the age of majority (usually 18 years). A Local Jail is a locally administered facility that holds inmates beyond arraignment (usually 72 hours) and is staffed by municipal or county employees. A temporary holding facility, sometimes referred to as a \"police lock up\" or \"drunk tank\", is a facility used to detain people prior to arraignment. Locations that are administrative offices only are excluded from the dataset. This definition of Jails is consistent with that used by the Department of Justice (DOJ) in their \"National Jail Census\", with the exception of \"temporary holding facilities\", which the DOJ excludes. If the facility is enclosed with a fence, wall, or structure with a gate around the buildings only, the locations were depicted as ONENTITY at the entrance. If the facility's buildings are not enclosed, the locations were depicted as ONENTITY on the building or BLOCKFACE on the correct street segment. Personal homes, administrative offices and temporary locations are intended to be excluded from this dataset, but a few may be included. Personal homes of constables may exist due to the fact that many constables work out of their home. With the merge of the Law Enforcement and the Correctional Institutions datasets, the NAICS Descriptions were assigned based on the facility's main function, which were determined by the entity's name, facility type, web research and state supplied data. For records where the entity's name represents both datasets, the NAICS Description was assigned based on the specifications of the dataset the record is assigned to. text fields in this dataset have been set to all upper case to facilitate consistent database engine search results. All diacritics (e.g., the German umlaut or the Spanish tilde) have been replaced with their closest equivalent English character to facilitate use with database systems that may not support diacritics. The currentness of this dataset is indicated by the [CONTDATE] attribute. Based upon this attribute, the oldest record dates from 2006/06/27 and the newest record dates from 2008/03/06",
+  "owner_org": "56d45844-910f-4632-a4ff-bf5f0e6cb653",
+  "extras": [
+    {
+      "key": "temporal-extent-begin",
+      "value": "2006-06-27"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2008-03-06"
+    },
+    {
+      "key": "contact-email",
+      "value": "mthompson@tgstech.com"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-101.891711"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2009-10-07"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2008-04-07\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-94.622120"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "39.851558"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "36.997855"
+    },
+    {
+      "key": "licence",
+      "value": "[\"The State of Kansas Geographic Information Systems Core Database's digital data have been tested and their documentation carefully reviewed. However, the State of Kansas Geographic Information Systems Policy Board's Data Access and Support Center and its representatives make no warranty or representation, either expressed or implied, with respect to the digital data and their documentation, their quality, performance, merchantability, or fitness for a particular purpose. The digital data are distributed on \\\"as is\\\" basis, and the user assumes all risk to their quality, the results obtained from their use, and the performance of the data. In no event will the State of Kansas Geographic Information Systems Policy Board or its representatives be liable for any direct, indirect, special, incidental or consequential damages resulting from and defect in the State of Kansas Geographic Information Systems Core Database's digital data or in their documentation. This disclaimer of warranty is exlusive and in lieu of all others, oral or written, express or implied. No agent or employee is authorized to make any modification, extension, or addition to this warranty.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"TechniGraphics, Inc.\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-101.891711, 36.997855], [-101.891711, 39.851558], [-94.62212, 39.851558], [-94.62212, 36.997855], [-101.891711, 36.997855]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "unknown"
+    },
+    {
+      "key": "tags",
+      "value": "Jails, Prisons, Juvenile detention homes, structure"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "f40638e0-22ab-4c41-a4cc-b6115b408e7c"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "619e3d4a-0a81-4a85-a769-47b591108252"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Kansas Data Access and Support Center"
+    }
+  ],
+  "title": "Correctional Institutions",
+  "revision_id": "7ea073cb-89d3-4edb-9cf9-8ca6ec8fd28b"
+}

@@ -1,0 +1,164 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Data Administrator",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "da.mailbox@ssa.gov",
+  "num_tags": 3,
+  "id": "01b20b13-37fb-460a-bcb9-695158dca0fc",
+  "metadata_created": "2015-02-28T17:14:16.099494",
+  "metadata_modified": "2016-12-01T20:58:37.880561",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "employer",
+      "id": "84835912-7c13-450d-8a2b-00d2460f5098",
+      "name": "employer"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "erhf",
+      "id": "d4ec3bcd-5191-42e1-b4ec-524d1ea25c94",
+      "name": "erhf"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "report-level-wage-data",
+      "id": "9aab5ead-27a7-433a-9d71-d34383b0f63d",
+      "name": "report-level-wage-data"
+    }
+  ],
+  "tracking_summary": {
+    "total": 51,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:35:25.934290",
+    "title": "Social Security Administration",
+    "name": "ssa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/ssa.png",
+    "revision_id": "1be01963-921d-432f-b56d-37fa76dfb0a1",
+    "type": "organization",
+    "id": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+    "approval_status": "approved"
+  },
+  "name": "employer-report-history-file-erhf",
+  "isopen": true,
+  "url": null,
+  "notes": "This database contains Report Level Wage data, stored by EIN and Tax Year.  It supports the Employer side of the Annual Wage Reporting system.",
+  "owner_org": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Social Security Administration"
+    },
+    {
+      "key": "accessLevel",
+      "value": "non-public"
+    },
+    {
+      "key": "license",
+      "value": "https://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "rights",
+      "value": "The data asset contains Federal Tax Information (FTI) and cannot be provided to the public."
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2016-11-30"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "016:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "016:00"
+      ]
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "US-GOV-SSA-126"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "f2e69017-eb60-4563-a95c-bbef915d390c"
+    },
+    {
+      "key": "source_hash",
+      "value": "6c2322846196657355b7c1b7513e281279f71102"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "f2e69017-eb60-4563-a95c-bbef915d390c"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "Employer Report History File (ERHF)",
+  "revision_id": "4c5399d9-a346-4cc2-877a-ddce4d4e625d"
+}

@@ -1,0 +1,245 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "4881ecb8-5e1f-40c6-9fa6-5adac3c31651",
+  "metadata_created": "2016-04-18T19:51:27.968662",
+  "metadata_modified": "2016-04-18T19:51:27.968662",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "4881ecb8-5e1f-40c6-9fa6-5adac3c31651",
+      "webstore_last_updated": null,
+      "id": "6a44bad9-7d01-4398-980b-1192274fe20c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "None",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ftp",
+      "created": "2016-04-18T15:51:28.012262",
+      "url": "ftp://tgftp.nws.noaa.gov/SL.us008001/DC.avspt/DS.ncwf/PT.grid_DF.gr1/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "5cd0eab6-399c-47dc-be80-5b9000c6e751",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "4881ecb8-5e1f-40c6-9fa6-5adac3c31651",
+      "webstore_last_updated": null,
+      "id": "837f816d-d847-4f74-af71-11faaeeb4185",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "None",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "http",
+      "created": "2016-04-18T15:51:28.012284",
+      "url": "http://weather.noaa.gov/pub/SL.us008001/DC.avspt/DS.ncwf/PT.grid_DF.gr1/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "5cd0eab6-399c-47dc-be80-5b9000c6e751",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "4881ecb8-5e1f-40c6-9fa6-5adac3c31651",
+      "webstore_last_updated": null,
+      "id": "8aa84716-c1ca-4dad-9e4f-1ef251bf2826",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "None",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 4,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "AWC",
+      "created": "2016-04-18T15:51:28.012293",
+      "url": "http://www.aviationweather.gov/ncwf",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "5cd0eab6-399c-47dc-be80-5b9000c6e751",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 14,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "national-convective-weather-diagnostic",
+  "isopen": false,
+  "url": null,
+  "notes": "Current convective hazards identified by the National Convective Weather Detection algorithm. The National Convective Weather Diagnostic (NCWD) is an automatically generated convective product that provides current location of convective hazards. The product is created based on radar data, echo top mosaics, and lightning data.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-60.004"
+    },
+    {
+      "key": "contact-email",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": "eng"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-129.981"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2015-04-13"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"creation\", \"value\": \"2014-02-28\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "53.004"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "None"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "20.018"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "onGoing"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-129.981, 20.018], [-60.004, 20.018], [-60.004, 53.004], [-129.981, 53.004], [-129.981, 20.018]]]}"
+    },
+    {
+      "key": "guid",
+      "value": "urn:fdc:aviationweather.gov:Dataset:NCWD:Metadata"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "doc/noaa/nws/toc/nwstg, precipitating convective cloud systems, ncwd, ncwf, storms, none, lightning, zdia98 kkci, convection, forecast, doc/noaa/nws/ncep/awc"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "e24d2e6f-a37a-4046-ad10-5301f0097c52"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "National Convective Weather Diagnostic",
+  "revision_id": "5cd0eab6-399c-47dc-be80-5b9000c6e751"
+}

@@ -1,0 +1,216 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "7b02c849-0a8f-4b4f-afdc-57ffb23f5e7a",
+  "metadata_created": "2016-04-18T19:37:32.038774",
+  "metadata_modified": "2016-04-18T19:37:32.038774",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "7b02c849-0a8f-4b4f-afdc-57ffb23f5e7a",
+      "webstore_last_updated": null,
+      "id": "1e97b351-ce4d-4037-b493-9157ae5f88e3",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "None",
+      "format": "",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "MADIS",
+      "created": "2016-04-18T15:37:32.123097",
+      "url": "https://madis.ncep.noaa.gov/madis_api.shtml",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "b1f60ff1-2faf-41ac-995e-48df1f1abe8a",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7b02c849-0a8f-4b4f-afdc-57ffb23f5e7a",
+      "webstore_last_updated": null,
+      "id": "e507c302-23ac-4415-9712-2fce4325f8dd",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "USWX was developed to support the encoding aviation products in XML. USWX builds on the work of the World Meteorological Organization (WMO) and the International Civil Aviation Organization (ICAO) that created data models and schemas for Aviation XML (AvXML). USWX is designed to represent products that are specific to the United States airspace.",
+      "format": "",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "USWX Schema",
+      "created": "2016-04-18T15:37:32.123122",
+      "url": "http://nws.weather.gov/schemas/USWX/1.0/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "b1f60ff1-2faf-41ac-995e-48df1f1abe8a",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 6,
+    "recent": 3
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "madis-maritime-product",
+  "isopen": false,
+  "url": null,
+  "notes": "Martime data includes NOAA and Non-NOAA ship and buoy data that covers the globe. The Coastal-Marine Automated Network (C-MAN) a bouy network maintained by the National Data Bouy Center (NDBC) is also part of this network. MADIS has been collecting and archiving the Maritime data since July 1, 2001.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "180"
+    },
+    {
+      "key": "contact-email",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-180"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-02-18"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"creation\", \"value\": \"2016-02-26\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "series"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "90"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "None"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "-90"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-180.0, -90.0], [180.0, -90.0], [180.0, 90.0], [-180.0, 90.0], [-180.0, -90.0]]]}"
+    },
+    {
+      "key": "guid",
+      "value": "urn:fdc:ncep.noaa.gov:Dataset:MADIS:Maritime:Metadata"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "present weather, wind_direction, doc/noaa/ncep/nco, air_temperature, doc/noaa/nesdis/ncei, sea level pressure, wind direction, wind speed/wind direction, terrain elevation, sea_level_pressure, latitude, present_weather, elevation, station pressure, visibility, doc/noaa/oar/esrl/gsd, dewpoint_temperature, wind_gust, wind_speed, dew point temperature, none, wind speed, air temperature, longitude, wind gust"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "052c0234-aae2-4a52-aaea-186ceefe3a26"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "MADIS Maritime Product",
+  "revision_id": "b1f60ff1-2faf-41ac-995e-48df1f1abe8a"
+}

@@ -1,0 +1,237 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "6b933b7d-497a-462e-b2bf-a1e62a918caf",
+  "metadata_created": "2016-07-04T21:17:30.833981",
+  "metadata_modified": "2016-07-04T21:17:30.833981",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "6b933b7d-497a-462e-b2bf-a1e62a918caf",
+      "webstore_last_updated": null,
+      "id": "c160a162-ffb2-45c6-8380-a9f793276aed",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Information about the dataset",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Cite URL",
+      "created": "2016-07-04T17:17:30.996175",
+      "url": "http://www.ncdc.noaa.gov/data-access/marineocean-data/extended-reconstructed-sea-surface-temperature-ersst-v4 at NCDC and http://www.esrl.noaa.gov/psd/data/gridded/data.noaa.ersst.v4.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "fd9e855b-a6b2-4178-ac67-cfa070179be9",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "6b933b7d-497a-462e-b2bf-a1e62a918caf",
+      "webstore_last_updated": null,
+      "id": "eab13a03-22b9-436c-82cb-fdb87a30fc71",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Thredds Data server.  Allows http, opendap, and possibly WCS and WMS downaloads.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Thredds Server",
+      "created": "2016-07-04T17:17:30.996197",
+      "url": "http://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/noaa.ersst/catalog.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "fd9e855b-a6b2-4178-ac67-cfa070179be9",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "6b933b7d-497a-462e-b2bf-a1e62a918caf",
+      "webstore_last_updated": null,
+      "id": "f1c6c443-246e-42d5-be83-beed59b6f50e",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "FTP server.",
+      "format": "NETCDF4_CLASSIC",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FTP server",
+      "created": "2016-07-04T17:17:30.996205",
+      "url": "ftp://ftp.cdc.noaa.gov/Datasets/noaa.ersst",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "fd9e855b-a6b2-4178-ac67-cfa070179be9",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 3,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "extended-reconstructed-sea-surface-temperature-ersst-v4",
+  "isopen": false,
+  "url": null,
+  "notes": "In situ data: ICOADS2.5 before 2007 and NCEP in situ data from 2008 to present. Ice data: HadISST ice before 2010 and NCEP ice after 2010.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "temporal-extent-begin",
+      "value": "1854-01-01"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2016-05-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "webmaster.psd@noaa.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-05-01"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"lastUpdate\", \"value\": \"2016-05-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"\", \"roles\": [\"custodian\"]}]"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://www.esrl.noaa.gov/psd/mddb2/browseGraphics/Extended_Reconstructed_Sea_Surface_Temperature_(ERSST)_v4.png"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "ongoing"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.esrl.psd.dataset.Extended_Reconstructed_Sea_Surface_Temperature_ERSST_v4"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "tags",
+      "value": "monthly mean error estimate of sea surface temperature, monthly means of sea surface temperature"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "62c50abc-6e9c-4dd8-86c2-fdb7775bb192"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Extended Reconstructed Sea Surface Temperature (ERSST) v4",
+  "revision_id": "fd9e855b-a6b2-4178-ac67-cfa070179be9"
+}

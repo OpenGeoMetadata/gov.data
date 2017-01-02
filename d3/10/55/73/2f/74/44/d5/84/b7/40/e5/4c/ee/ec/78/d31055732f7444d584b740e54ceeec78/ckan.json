@@ -1,0 +1,240 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "WILLIAM OLSON",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "bill.olson@nasa.gov",
+  "num_tags": 4,
+  "id": "d3105573-2f74-44d5-84b7-40e54ceeec78",
+  "metadata_created": "2015-07-08T20:16:47.042695",
+  "metadata_modified": "2016-05-06T08:07:44.254691",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "d3105573-2f74-44d5-84b7-40e54ceeec78",
+      "webstore_last_updated": null,
+      "id": "4c2754d4-a0cc-446e-8913-68d67b5e57e1",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "GPM_3CMB.V03",
+      "format": "BIN",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/octet-stream",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-07-08T16:16:47.203986",
+      "url": "ftp://gpm1.gesdisc.eosdis.nasa.gov/data/s4pa/GPM/GPM_L3/GPM_3CMB.V03/",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "f5784691-1c49-404a-a011-b3752ebcdd4e",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "atmosphere",
+      "id": "104e93c2-cbec-435b-b3ba-0d6385114d41",
+      "name": "atmosphere"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "atmospheric-water-vapor",
+      "id": "42dbfe72-40a6-4cb0-b5af-648e6dd3e250",
+      "name": "atmospheric-water-vapor"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "earth-science",
+      "id": "f28006f8-df78-4700-b72f-f4a19628ba67",
+      "name": "earth-science"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "precipitation",
+      "id": "5d53ad2b-1c83-4470-90e4-a5029dd6e211",
+      "name": "precipitation"
+    }
+  ],
+  "tracking_summary": {
+    "total": 0,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "gpm-dpr-gmi-level-3-combined-monthly-precipitation-v03",
+  "isopen": true,
+  "url": null,
+  "notes": "There are uncertainties in the interpretation of data from any one of the instruments (KuPR, KaPR, and GMI). By using data from multiple instruments, further constraints on the solution of precipitation structure improve the final product.\n\t\n\tABSTRACTThe purpose of 3CMB is to give a daily and monthly accumulation of the 2BCMB precipitation product. The 3CMB product is a daily and monthly accumulation of the 2BCMB orbital combined product at two grid sizes, 5 x 5 degrees (G1) and 0.25 x 0.25 degrees (G2). Grid G1 contains the following physical measurements of general interest, among others. Grid G2 contains the same groups, but it is on the ltH x lnH grid and does not have the surface type (st) dimension or the histograms (see dimension definitions below). Below, conditional products represent means based upon precipitating areas only; unconditional products represent means for raining and non-raining areas combined. Probabilities represent the number of raining observations divided by the total number of raining and non-raining observations.\nprecipTotRate (Group in G1) – Conditional mean rate for all precipitation phases (ice, liquid, mixed-phase).\n• count (4-byte integer, array size: ltL x lnL x ns x hgt x rt x st): Count.\n• mean (4-byte float, array size: ltL x lnL x ns x hgt x rt x st): Mean, mm/h.\n• stdev (4-byte float, array size: ltL x lnL x ns x hgt x rt x st): Standard deviation for the monthly product. Mean of squares for the daily product, mm/h.\n• hist (4-byte integer, array size: ltL x lnL x ns x hgt x rt x st x bin): Histogram.\nprecipLiqRate (Group in G1) – Conditional mean rate for liquid precipitation.\n• count (4-byte integer, array size: ltL x lnL x ns x hgt x rt x st): Count.\n• mean (4-byte float, array size: ltL x lnL x ns x hgt x rt x st): Mean, mm/h.\n• stdev (4-byte float, array size: ltL x lnL x ns x hgt x rt x st): Standard deviation for the monthly product. Mean of squares for the daily product, mm/h.\n• hist (4-byte integer, array size: ltL x lnL x ns x hgt x rt x st x bin): Histogram.\nprecipTotWaterContent (Group in G1) – Conditional mean water content for all precipitation phases.\n• count (4-byte integer, array size: ltL x lnL x ns x hgt x rt x st): Count.\n• mean (4-byte float, array size: ltL x lnL x ns x hgt x rt x st): Mean, g/m3.\n• stdev (4-byte float, array size: ltL x lnL x ns x hgt x rt x st): Standard deviation for the monthly product. Mean of squares for the daily product, g/m3.\n• hist (4-byte integer, array size: ltL x lnL x ns x hgt x rt x st x bin): Histogram.\nprecipLiqWaterContent (Group in G1) – Conditional mean liquid water content.\n• count (4-byte integer, array size: ltL x lnL x ns x hgt x rt x st): Count.\n• mean (4-byte float, array size: ltL x lnL x ns x hgt x rt x st): Mean, g/m3.\n• stdev (4-byte float, array size: ltL x lnL x ns x hgt x rt x st): Standard deviation for the monthly product. Mean of squares for the daily product, g/m3.\n• hist (4-byte integer, array size: ltL x lnL x ns x hgt x rt x st x bin): Histogram.\nprecipTotDm (Group in G1) – Conditional mass-weighted mean particle diameter.\n• count (4-byte integer, array size: ltL x lnL x ns x hgt x rt x st): Count.\n• mean (4-byte float, array size: ltL x lnL x ns x hgt x rt x st): Mean, mm.\n• stdev (4-byte float, array size: ltL x lnL x ns x hgt x rt x st): Standard deviation for the monthly product. Mean of squares for the daily product, mm.\n• hist (4-byte integer, array size: ltL x lnL x ns x hgt x rt x st x bin): Histogram.\nprecipTotRateDiurnal (Group in G1) – Conditional mean total surface precipitation rate indexed by local time.\n• count (4-byte integer, array size: ltL x lnL x ns x st x tim): Count.\n• mean (4-byte float, array size: ltL x lnL x ns x st x tim): Mean, mm/h.\n• stdev (4-byte float, array size: ltL x lnL x ns x st x tim): Standard deviation for the monthly product. Mean of squares for the daily product, mm/h.\nsurfPrecipTotRateDiurnalAllObs (4-byte integer, array size: ltL x lnL x ns x st x tim): Number of ...",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "collection_metadata",
+      "value": "true"
+    },
+    {
+      "key": "issued",
+      "value": "2014-06-11T00:00:00.000Z"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "11c6840b8935722f8f42b593d65d7e72bd9daf4a"
+    },
+    {
+      "key": "temporal",
+      "value": "R/2014-02-01T00:00:00Z/P1Y"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "geospatial"
+      ]
+    },
+    {
+      "key": "spatial",
+      "value": "-180.0 -90.0 180.0 90.0"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:001"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "a4c8ab47-545f-4499-8510-5567aceb51f2"
+    },
+    {
+      "key": "publisher",
+      "value": "GESDISC"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "55942aadc63a7fe59b49a045"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "U.S. Government > National Aeronautics and Space Administration > GESDISC"
+    },
+    {
+      "key": "modified",
+      "value": "2015-01-21T00:00:00.000Z"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "C215280558-GSFCS4PA"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "a4c8ab47-545f-4499-8510-5567aceb51f2"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "GPM, DPR, GMI Level 3 Combined Monthly Precipitation V03",
+  "revision_id": "f5784691-1c49-404a-a011-b3752ebcdd4e"
+}

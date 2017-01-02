@@ -1,0 +1,221 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "James E. Faulds",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "jfaulds@unr.edu",
+  "num_tags": 4,
+  "id": "12d6f6fb-d522-48a4-98ac-672d69a90c8f",
+  "metadata_created": "2016-11-30T21:29:58.369757",
+  "metadata_modified": "2016-11-30T21:29:58.369757",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "12d6f6fb-d522-48a4-98ac-672d69a90c8f",
+      "webstore_last_updated": null,
+      "id": "1e0b0a1a-8bbd-447f-9f28-fabac23047d2",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Slip and dilation tendency for the McGinness Hills geothermal field was calculated based on the faults mapped McGinness Hills area (Siler 2012, unpublished). The McGinness Hills area lies in the Basin and Range Province, as such we applied a normal faulting stress regime to the McGinness area faults, with a minimum horizontal stress direction oriented 115, based on inspection of local and regional stress determinations, as explained above. Under these stress conditions north-northeast striking, steeply dipping fault segments have the highest dilation tendency, while north-northeast striking 60° dipping fault segments have the highest tendency to slip. The McGinness Hills geothermal system is characterized by a left-step in a north-northeast striking west-dipping fault system within a north northeast striking accommodation zone. As such, the normal faults that define these two structures are well oriented for both slip and dilation, including the west dipping faults that are exploited for both production and injection. Interestingly, although there is pressure communication between production and injection wells at McGinness Hills (B. Delwiche, personal comm.) the northwest striking fault, which creates hard linkage between the production and injection locations, is poorly oriented for both slip and dilation and therefore unlikely to host permeability.",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "mcginnesshills.zip",
+      "created": "2016-11-30T16:29:58.534889",
+      "url": "http://gdr.openei.org/files/367/McGinnessHills%20%281%29.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "55143930-3798-43e1-a9fd-c868b0bf4d2e",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "dilation-tendency",
+      "id": "72c42cdd-b3e8-486b-954d-a5d4e232b15f",
+      "name": "dilation-tendency"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geothermal",
+      "id": "3f323051-fbd3-4715-bc13-e2fa5e65d369",
+      "name": "geothermal"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "mcginness-hills-geothermal-area",
+      "id": "f2c86351-4f21-4669-bebb-3484ea949a09",
+      "name": "mcginness-hills-geothermal-area"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "slip-tendency",
+      "id": "7d67413a-5d16-4eb3-96f6-d199aa534f86",
+      "name": "slip-tendency"
+    }
+  ],
+  "tracking_summary": {
+    "total": 1,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "slip-and-dilation-tendency-anlysis-of-mcginness-hills-geothermal-area-25401",
+  "isopen": true,
+  "url": null,
+  "notes": "Slip and Dilation Tendency in focus areas\nCritically stressed fault segments have a relatively high likelihood of acting as fluid flow conduits (Sibson, 1994). As such, the tendency of a fault segment to slip (slip tendency; Ts; Morris et al., 1996) or to dilate (dilation tendency; Td; Ferrill et al., 1999) provides an indication of which faults or fault segments within a geothermal system are critically stressed and therefore likely to transmit geothermal fluids. The slip tendency of a surface is defined by the ratio of shear stress to normal stress on that surface:\nTs = τ / σn \t(Morris et al., 1996).\nDilation tendency is defined by the stress acting normal to a given surface:\nTd = (σ1-σn) / (σ1-σ3) \t(Ferrill et al., 1999). \nSlip and dilation were calculated using 3DStress (Southwest Research Institute).\nSlip and dilation tendency are both unitless ratios of the resolved stresses applied to the fault plane by ambient stress conditions. Values range from a maximum of 1, a fault plane ideally oriented to slip or dilate under ambient stress conditions to zero, a fault plane with no potential to slip or dilate. Slip and dilation tendency values were calculated for each fault in the focus study areas at, McGinness Hills, Neal Hot Springs, Patua, Salt Wells, San Emidio, and Tuscarora on fault traces. As dip is not well constrained or unknown for many faults mapped in within these we made these calculations using the dip for each fault that would yield the maximum slip tendency or dilation tendency. As such, these results should be viewed as maximum tendency of each fault to slip or dilate. The resulting along-fault and fault-to-fault variation in slip or dilation potential is a proxy for along fault and fault-to-fault variation in fluid flow conduit potential.\nStress Magnitudes and directions\nStress field variation within each focus area was approximated based on regional published data and the world stress database (Hickman et al., 2000; Hickman et al., 1998 Robertson-Tait et al., 2004; Hickman and Davatzes, 2010; Davatzes and Hickman, 2006; Blake and Davatzes 2011; Blake and Davatzes, 2012; Moeck et al., 2010; Moos and Ronne, 2010 and Reinecker et al., 2005) as well as local stress information if applicable. For faults within these focus systems we applied either a normal faulting stress regime where the vertical stress (sv) is larger than the maximum horizontal stress (shmax) which is larger than the minimum horizontal stress (sv>shmax>shmin) or strike-slip faulting stress regime where the maximum horizontal stress (shmax) is larger than the vertical stress (sv) which is larger than the minimum horizontal stress (shmax >sv>shmin) depending on the general tectonic province of the system. Based on visual inspection of the limited stress magnitude data in the Great Basin we used magnitudes such that shmin/shmax = .527 and shmin/sv= .46, which are consistent with complete and partial stress field determinations from Desert Peak, Coso, the Fallon area and Dixie valley (Hickman et al., 2000; Hickman et al., 1998 Robertson-Tait et al., 2004; Hickman and Davatzes, 2011; Davatzes and Hickman, 2006; Blake and Davatzes 2011; Blake and Davatzes, 2012). \n\nSlip and dilation tendency for the McGinness Hills geothermal field was calculated based on the faults mapped McGinness Hills area (Siler 2012, unpublished). The McGinness Hills area lies in the Basin and Range Province, as such we applied a normal faulting stress regime to the McGinness area faults, with a minimum horizontal stress direction oriented 115, based on inspection of local and regional stress determinations, as explained above. Under these stress conditions north-northeast striking, steeply dipping fault segments have the highest dilation tendency, while north-northeast striking 60° dipping fault segments have the highest tendency to slip. The McGinness Hills geothermal system is characterized by a left-step in a north-northeast striking west-dipping fault system within a north northeast striking accommodation zone. As such, the normal faults that define these two structures are well oriented for both slip and dilation, including the west dipping faults that are exploited for both production and injection. Interestingly, although there is pressure communication between production and injection wells at McGinness Hills (B. Delwiche, personal comm.) the northwest striking fault, which creates hard linkage between the production and injection locations, is poorly oriented for both slip and dilation and therefore unlikely to host permeability.",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "issued",
+      "value": "2013-12-31"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "4fd173cdbf167340caf5288f837600a882b91482"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-116.94520732422,39.538154664753],[-116.66790371094,39.538154664753],[-116.66790371094,39.82267553767],[-116.94520732422,39.82267553767],[-116.94520732422,39.538154664753]]]}"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "format",
+      "value": "application/unknown"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:006"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://gdr.openei.org/submissions/367"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "1da94ffb-2bd6-45bc-ad18-df0c9f946f16"
+    },
+    {
+      "key": "accessURL",
+      "value": "http://gdr.openei.org/files/367/McGinnessHills%20%281%29.zip"
+    },
+    {
+      "key": "publisher",
+      "value": "University of Nevada Reno"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "key": "modified",
+      "value": "2013-12-31"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/f0000000-e214-4c72-acd2-000000000367"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "1da94ffb-2bd6-45bc-ad18-df0c9f946f16"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "Slip and Dilation Tendency Anlysis of McGinness Hills Geothermal Area",
+  "revision_id": "55143930-3798-43e1-a9fd-c868b0bf4d2e"
+}

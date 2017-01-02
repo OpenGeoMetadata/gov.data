@@ -1,0 +1,199 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Data Exchange Administrator",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "ORDP.Data.Exchange@ssa.gov",
+  "num_tags": 7,
+  "id": "076c7aa8-39e0-41e7-a0e0-0b4074eb1080",
+  "metadata_created": "2015-01-30T16:17:51.678380",
+  "metadata_modified": "2016-09-28T13:11:04.920581",
+  "author": "",
+  "author_email": "",
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "csportun",
+      "id": "5f09d385-09d7-4368-b668-90f2b07f1b2f",
+      "name": "csportun"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "csretap",
+      "id": "5fd78bc5-7a6c-4d59-b05f-26b7a20cf819",
+      "name": "csretap"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "irs",
+      "id": "9069bef4-ce5a-4d40-8926-82f880b94b60",
+      "name": "irs"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "mbr",
+      "id": "80dae7b2-878c-4fbf-ad09-e2cd2eb7bc4d",
+      "name": "mbr"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "medicare",
+      "id": "74b5e161-50ea-4ed3-a1a3-583caaccae4d",
+      "name": "medicare"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "mefcms",
+      "id": "16cd6318-7673-401d-a1e1-1bf1dfd7dcf7",
+      "name": "mefcms"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "secondary-payer",
+      "id": "5d0ada16-c268-4eee-b886-386345055224",
+      "name": "secondary-payer"
+    }
+  ],
+  "tracking_summary": {
+    "total": 26,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:35:25.934290",
+    "title": "Social Security Administration",
+    "name": "ssa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/ssa.png",
+    "revision_id": "1be01963-921d-432f-b56d-37fa76dfb0a1",
+    "type": "organization",
+    "id": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+    "approval_status": "approved"
+  },
+  "name": "medicare-secondary-payer",
+  "isopen": true,
+  "url": null,
+  "notes": "The Medicare Secondary Payer project is an annual process which attempts to identify working Medicare beneficiaries and/or their spouses. The first stage of this process is to extract all of the Medicare beneficiaries from the MBR.  Prior to 2015, CSPOTRUN performed this function.  Beginning in 2015, CSRETAP accomplishes this. In this process two files are prepared. One file goes to the Internal Revenue Service (IRS) for a tax return search and the other file is used for the Master Earnings File (MEF) search. IRS searches their tax return database and identifies returns that have spouses identified and returns this information to SSA. This file is then run against the MEF to obtain any current employment information for the beneficiary or the spouse. This data is sent to CMS for their process to determine whether Medicare should be the secondary payer for hospital and doctors bills. They determine whether the beneficiary and/or spouse have current health insurance coverage from their employer.",
+  "owner_org": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Social Security Administration"
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "license",
+      "value": "https://www.ssa.gov/open/data/Restricted-Public-Licensing-Information.html"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "rights",
+      "value": "The data contained in this data exchange is restricted due to sensitivity and/or privacy issues.  If you would like more information on a data exchange with SSA please visit the following web site https://www.ssa.gov/dataexchange/."
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "R/P1Y"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "016:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "016:00"
+      ]
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1Y"
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "US-GOV-SSA-664"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c67ade85-0622-4f10-acd5-9cf4fba2cdd3"
+    },
+    {
+      "key": "source_hash",
+      "value": "95c2117ee776d6ec4d466bf48ac095da61cafb80"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c67ade85-0622-4f10-acd5-9cf4fba2cdd3"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    }
+  ],
+  "title": "Medicare Secondary Payer",
+  "revision_id": "a7bf8456-2ffa-44b8-84f4-eddf34ec445a"
+}

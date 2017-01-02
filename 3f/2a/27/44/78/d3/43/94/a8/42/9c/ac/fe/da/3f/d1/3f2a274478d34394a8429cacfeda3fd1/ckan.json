@@ -1,0 +1,196 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Health Data Initiative",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "CERPUF@cms.hhs.gov",
+  "num_tags": 2,
+  "id": "3f2a2744-78d3-4394-a842-9cacfeda3fd1",
+  "metadata_created": "2016-01-23T14:26:41.476604",
+  "metadata_modified": "2016-10-07T14:55:35.364263",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "3f2a2744-78d3-4394-a842-9cacfeda3fd1",
+      "webstore_last_updated": null,
+      "id": "759177aa-5c2b-408e-a14b-696fc6e3bef7",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "BSA_DME_Line_Items_PUF.html",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 4,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/unknown",
+      "cache_url": null,
+      "name": "html",
+      "created": "2016-04-08T19:18:43.823904",
+      "url": "http://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/BSAPUFS/BSA_DME_Line_Items_PUF.html",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "0c78f8fc-1594-4a09-9f45-93a297715bc8",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "durable-medical-equipment-dme",
+      "id": "1bae3ff6-7793-40e2-bae5-6eb5aa95b9c8",
+      "name": "durable-medical-equipment-dme"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "publically-available-data-file--for-download",
+      "id": "41ba8100-745e-49cd-b46d-236ea0bb101f",
+      "name": "publically-available-data-file--for-download"
+    }
+  ],
+  "tracking_summary": {
+    "total": 10,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-08-26T15:35:30.958442",
+    "title": "U.S. Department of Health & Human Services",
+    "name": "hhs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.healthdata.gov/sites/all/themes/hdtheme/logo-dark.png",
+    "revision_id": "eff89d9e-dc00-4101-bbd4-750e1adcc5bb",
+    "type": "organization",
+    "id": "3609164c-4c49-4a44-9179-23163027dc0a",
+    "approval_status": "approved"
+  },
+  "name": "basic-stand-alone-medicare-dme-line-items-puf-00c86",
+  "isopen": true,
+  "url": null,
+  "notes": "<p>This release contains the Basic Stand Alone (BSA) Durable Medical Equipment (DME) Line Items Public Use Files (PUF) with information from Medicare DME claims. The CMS BSA DME Line Items PUF is a line item level file in which each record is a line item of a DME claim incurred by a 5 percent sample of Medicare beneficiaries (each claim is comprised of up to 13 line item services). Some demographic and line item related variables are provided in this PUF. However, as beneficiary identities are not provided, it is not possible to link claims that belong to the same beneficiary in the CMS BSA DME Line Items PUF. It is also not possible to link line item services that belong to the same claim.</p>\n",
+  "owner_org": "3609164c-4c49-4a44-9179-23163027dc0a",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Centers for Medicare &amp; Medicaid Services"
+    },
+    {
+      "key": "identifier",
+      "value": "361"
+    },
+    {
+      "key": "license",
+      "value": "http://opendefinition.org/licenses/odc-odbl/"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "15c538b5-31a0-474e-8ba5-c85ee421cb4d"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "temporal",
+      "value": "2008-01-01T00:00:00-05:00/2010-12-31T00:00:00-05:00"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2016-07-22"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Healthdata.gov"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "language",
+      "value": [
+        "en"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "009:38"
+      ]
+    },
+    {
+      "key": "catalog_@id",
+      "value": "https://www.healthdata.gov/data.json"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "009:000"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "1bb29b3d-391d-4150-9196-f3e7ecc0f9d7"
+    },
+    {
+      "key": "source_hash",
+      "value": "e8fa773bfa963ce30eec4e41cc0af01dabc61fd2"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "1bb29b3d-391d-4150-9196-f3e7ecc0f9d7"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "15c538b5-31a0-474e-8ba5-c85ee421cb4d"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Healthdata.gov"
+    }
+  ],
+  "title": "Basic Stand Alone Medicare DME Line Items PUF",
+  "revision_id": "87f569df-d754-431a-879a-de3c502da828"
+}

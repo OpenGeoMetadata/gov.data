@@ -1,0 +1,186 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "a6fdeed3-cec4-4f3a-ba01-b81159eb6de7",
+  "metadata_created": "2013-03-15T22:24:42.152532",
+  "metadata_modified": "2015-04-09T21:50:22.702823",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "a6fdeed3-cec4-4f3a-ba01-b81159eb6de7",
+      "webstore_last_updated": null,
+      "id": "890e86e9-b80e-489d-a866-fab9e4264759",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "375",
+      "hash": "",
+      "description": "geothermalareatemplate.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Geothermal Area Content Model - PGD and Excel spreadsheet v0.5",
+      "created": "2013-03-15T23:24:42.170628",
+      "url": "http://repository.stategeothermaldata.org/metadata/record/98ddf901b9782a25982e01af3b0edc4e/file/geothermalareatemplate.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "087a4d31-3c57-4ea0-8fda-c7238d2d2bc3",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 25,
+    "recent": 1
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The Arizona Geological Survey collates and serves geological information for Arizona and other states through its partnership with other state geological surveys.",
+    "created": "2013-03-14T03:44:43.328493",
+    "title": "Arizona Geological Survey",
+    "name": "azgs-az-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.50states.com/flag/image/nunst004.gif",
+    "revision_id": "61be6428-4398-4199-a336-f3cd1e956f9b",
+    "type": "organization",
+    "id": "f3f6e1d4-64fb-4a2f-b32c-9ac0b76fe4de",
+    "approval_status": "approved"
+  },
+  "name": "aasg-geothermal-data-geothermal-area-content-model",
+  "isopen": false,
+  "url": null,
+  "notes": "The spreadsheet in this bundle contains the GeothermalAreaTemplate spreadsheet that specifies specifies content elements for an interchange format for geothermal area polygons, for low or high temperature geothermal fields.  A personal geodatabase/access database is also included and contains the attributes in this (Template) that will become XML elements in interchange documents for Web feature services, served by AASG geothermal data web services.  In the geothermal data system, geothermal area services may be used to discover resources.  The deliverable is the personal geodatabase.",
+  "owner_org": "f3f6e1d4-64fb-4a2f-b32c-9ac0b76fe4de",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"No Organization Name Was Given\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "No email Was Given"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-126.826"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2013-02-27T16:22:33Z"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2012-03-21T12:00:00\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-54.9316"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "49.6915"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "23.9999"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-126.826, 23.9999], [-126.826, 49.6915], [-54.9316, 49.6915], [-54.9316, 23.9999], [-126.826, 23.9999]]]}"
+    },
+    {
+      "key": "guid",
+      "value": "98ddf901b9782a25982e01af3b0edc4e"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "Content Model, data delivery, Geothermal, Geothermal area, Temperature, template, North America, United States, AASG Geothermal Data Project, Downloadable Files"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "0eb5b25a-2922-4d08-8b6e-701e6a099ba2"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "f800beb8-4923-4e88-910f-1c6cf0078598"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "AASG geothermal data CSW"
+    }
+  ],
+  "title": "AASG Geothermal Data:  Geothermal Area Content Model",
+  "revision_id": "855642ab-2fff-4b5e-b953-638f0b6f7bd7"
+}

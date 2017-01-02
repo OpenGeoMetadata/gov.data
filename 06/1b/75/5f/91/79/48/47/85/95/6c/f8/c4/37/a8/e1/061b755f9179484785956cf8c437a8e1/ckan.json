@@ -1,0 +1,211 @@
+{
+  "license_title": "Creative Commons CCZero",
+  "maintainer": "Sara Temlitz",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "sara.temlitz@med.va.gov",
+  "num_tags": 6,
+  "id": "061b755f-9179-4847-8595-6cf8c437a8e1",
+  "metadata_created": "2015-02-26T17:05:32.789181",
+  "metadata_modified": "2015-10-08T21:50:12.849565",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "identifier",
+      "id": "62cd5508-7ebd-4a20-8633-bf1746627e5f",
+      "name": "identifier"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "identity",
+      "id": "6b059ac1-910b-4dfc-952b-c431276a1492",
+      "name": "identity"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "patient",
+      "id": "84651278-c505-44da-a3b6-6115676c70ff",
+      "name": "patient"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "unique",
+      "id": "8ca23c66-bd35-4c45-b3c7-611f98608519",
+      "name": "unique"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "va",
+      "id": "5c740e0c-4cbe-421a-a4d4-b0c59ba3986b",
+      "name": "va"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "veteran",
+      "id": "7561bea1-6f6c-4e42-96cc-7a5271ea4f8c",
+      "name": "veteran"
+    }
+  ],
+  "tracking_summary": {
+    "total": 1136,
+    "recent": 33
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-zero",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:11.529883",
+    "title": "Department of Veterans Affairs",
+    "name": "va-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/va.png",
+    "revision_id": "7c651ccc-eb67-439e-82dd-1ae7fff33f63",
+    "type": "organization",
+    "id": "ff9ae098-eccc-41d8-bfcd-5e8ed047db05",
+    "approval_status": "approved"
+  },
+  "name": "master-veteran-index-mvi",
+  "isopen": true,
+  "url": null,
+  "notes": "As of June 28, 2010, the Master Veteran Index (MVI) database based on the enhanced Master Patient Index (MPI) is the authoritative identity service within the VA, establishing, maintaining and synchronizing identities for VA clients, Veterans and beneficiaries.  The MVI includes authoritative sources for health identity data and contains over 17 million patient entries populated from all VHA facilities nationwide.  The MVI provides the access point mechanism for linking patient's information to enable an enterprise-wide view of patient information, uniquely identifies all active patients who have been admitted, treated, or registered in any VHA facility, and assigns a unique identifier to the patient.  The MVI correlates a patient's identity across the enterprise, including all VistA systems and external systems, such as Department of Defense (DoD) and the Nationwide Health Information Network (NwHIN).  The MVI facilitates the sharing of health information, resulting in coordinated and integrated health care for Veterans.  New Information Technology systems must be interoperable with the MVI and legacy systems will establish integration by October 1, 2012.  The Healthcare Identity Management (HC IdM) Team within VHA's Data Quality Program is the steward of patient identity data, performing maintenance and support activities.",
+  "owner_org": "ff9ae098-eccc-41d8-bfcd-5e8ed047db05",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "e868f753-9395-4666-a30c-219334a64c6b"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2013-12-30"
+    },
+    {
+      "key": "source_hash",
+      "value": "1abdd84567fe64af275546693788ca292f7979e6"
+    },
+    {
+      "key": "temporal",
+      "value": "1999-01-01/2014-12-31"
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "VA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "029:041"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "029:15"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "non-public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "e76d028d-26aa-44f3-836b-e52d956520d8"
+    },
+    {
+      "key": "publisher",
+      "value": "Department of Veterans Affairs"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "key": "rights",
+      "value": "Health Insurance Portability and Accountability Act, protected health information."
+    },
+    {
+      "key": "systemOfRecords",
+      "value": "http://www.gpo.gov/fdsys/pkg/FR-2012-05-11/pdf/2012-11487.pdf"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "VA-VHA-OIA-010"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "e76d028d-26aa-44f3-836b-e52d956520d8"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "e868f753-9395-4666-a30c-219334a64c6b"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "VA JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-zero",
+  "title": "Master Veteran Index (MVI)",
+  "revision_id": "17bd338e-cf80-4a80-b09e-13a4aa56d040"
+}

@@ -1,0 +1,228 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "David Portnoy",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "david.portnoy@hhs.gov",
+  "num_tags": 6,
+  "id": "b121bef1-25c4-409e-95b7-67ba763fc1bb",
+  "metadata_created": "2015-06-19T02:49:17.753596",
+  "metadata_modified": "2016-10-08T14:53:37.668452",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "b121bef1-25c4-409e-95b7-67ba763fc1bb",
+      "webstore_last_updated": null,
+      "id": "87b01f85-10b4-4661-94fe-aba8957b1a15",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "BSA_PDE_PUF.html",
+      "format": "CSV",
+      "tracking_summary": {
+        "total": 18,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/unknown",
+      "cache_url": null,
+      "name": "CSV ",
+      "created": "2015-06-18T22:49:18.945406",
+      "url": "http://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/BSAPUFS/BSA_PDE_PUF.html",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "7f254bac-f32d-43fe-aa0c-9e0b9f5ba8c2",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "cms",
+      "id": "81527bce-4fe3-4e74-ab1b-35f4bca5f2f2",
+      "name": "cms"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ddod-use-case",
+      "id": "05a39b9b-81dc-4334-b66d-a77878b1a925",
+      "name": "ddod-use-case"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "drug-cost",
+      "id": "3366c8d8-2c20-4a28-9bc6-cbd76084c5ef",
+      "name": "drug-cost"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "drug-event-file",
+      "id": "1d250570-cd52-4f6b-a38c-c7025eac9b36",
+      "name": "drug-event-file"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "medicare-part-d",
+      "id": "03f3b943-2e63-44f0-af1c-49ad80fada23",
+      "name": "medicare-part-d"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "user-request",
+      "id": "2d97f669-f7df-4ce1-8204-16c8fe0db921",
+      "name": "user-request"
+    }
+  ],
+  "tracking_summary": {
+    "total": 50,
+    "recent": 3
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-08-26T15:35:30.958442",
+    "title": "U.S. Department of Health & Human Services",
+    "name": "hhs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.healthdata.gov/sites/all/themes/hdtheme/logo-dark.png",
+    "revision_id": "eff89d9e-dc00-4101-bbd4-750e1adcc5bb",
+    "type": "organization",
+    "id": "3609164c-4c49-4a44-9179-23163027dc0a",
+    "approval_status": "approved"
+  },
+  "name": "ddod-use-case-access-to-medicare-part-d-drug-event-file-pde-for-cost-transparency",
+  "isopen": true,
+  "url": null,
+  "notes": "<p><b>SUMMARY</b></p>\n<p>DDOD use case to request access to Medicare Part D Drug Event File (PDE) for cost transparency to pharmacies and patients.</p>\n<p><b>WHAT IS A USE CASE?</b></p>\n<p>A “Use Case” is a request that was made by the user community because there were no available datasets that met their particular needs.  If this use case is similar to your needs, we ask that you add your own requirements to the specifications section.</p>\n<p>The concept of a use case falls within the <a href=\"http://hhs.ddod.us \">Demand-Driven Open Data</a> (DDOD) program and gives you a formalized way to identify what data you need.  It’s for anyone in industry, research, media, nonprofits or other government agencies.  Each request becomes a DDOD use case, so that it can be prioritized and worked on.</p>\n<p>Use Cases also provide a wealth of insights about existing alternative datasets and tips for interpreting and manipulating data for specific purposes.</p>\n<p><b>PURPOSE</b></p>\n<p>The PDE data contain prescription drug costs and payment data that enable CMS to make payments to the plans and otherwise administer the Part D benefit. When a beneficiary fills a prescription under Medicare Part D, a prescription drug plan sponsor must submit a record to CMS. The PDE data are not the same as individual drug claim transactions but are extracts using CMS-defined standard fields.  The challenge is that this data is not available publicly, even with all PHI fields stripped out.  It resides in ResDAC/CCW, but has 1 year lag time and 3-4 months processing time.</p>\n<p><b>VALUE</b></p>\n<p>Central to operations for drug cost comparisons for use by pharmacists and consumers. Multiple companies are looking how to better manage costs.</p>\n<p><b>USE CASE SPECIFICATIONS &amp; SOLUTION</b></p>\n<p>Information about this use cases is maintained in a wiki: <a href=\"http://hhs.ddod.us/wiki/Use_Case_26:_Analyze_drug_cost_trends_from_filled_Medicare_Pard_D_prescriptions\">http://hhs.ddod.us/wiki/Use_Case_26:_Analyze_drug_cost_trends_from_fille...</a></p>\n<p>It serves as a knowledge base.</p>\n<p><b>USE CASE DISCUSSION FORUM</b></p>\n<p>All communications between Data Users, DDOD Administrators and Data Owners are logged as discussions within GitHub issues: <a href=\"https://github.com/demand-driven-open-data/ddod-intake/issues/26\">https://github.com/demand-driven-open-data/ddod-intake/issues/26</a></p>\n<p>It aims to provide complete transparency into the process and ensure the same message gets to all participants.</p>\n<p><b>CASE STATUS</b></p>\n<p>Open</p>\n",
+  "owner_org": "3609164c-4c49-4a44-9179-23163027dc0a",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Centers for Medicare &amp; Medicaid Services, Department of Health &amp; Human Services"
+    },
+    {
+      "key": "identifier",
+      "value": "92608043-d959-4ae3-be85-6b93b0c858e3"
+    },
+    {
+      "key": "license",
+      "value": "http://opendefinition.org/licenses/odc-odbl/"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "15c538b5-31a0-474e-8ba5-c85ee421cb4d"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "source_hash",
+      "value": "3e9746283643523259d1bbb8e505c29344d3c412"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2016-04-05"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Healthdata.gov"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "language",
+      "value": [
+        "en"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "009:38"
+      ]
+    },
+    {
+      "key": "catalog_@id",
+      "value": "https://www.healthdata.gov/data.json"
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1M"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "009:000"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "615586c8-1e1c-4487-b67f-3bc1b6b5d951"
+    },
+    {
+      "key": "describedBy",
+      "value": "https://www.ccwdata.org/cs/groups/public/documents/datadictionary/data_dict_pde.xls"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "615586c8-1e1c-4487-b67f-3bc1b6b5d951"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "15c538b5-31a0-474e-8ba5-c85ee421cb4d"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Healthdata.gov"
+    }
+  ],
+  "title": "#DDOD Use Case: Access to Medicare Part D Drug Event File (PDE) for cost transparency",
+  "revision_id": "705508e7-26ba-4f12-99f6-e02cf79fb118"
+}

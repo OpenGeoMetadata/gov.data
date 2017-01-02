@@ -1,0 +1,221 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "Khalid Hussein",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "Khalid.Hussein@colorado.edu",
+  "num_tags": 4,
+  "id": "3e11274e-42b4-4472-8c3c-fbfea945a830",
+  "metadata_created": "2016-11-30T21:30:06.694630",
+  "metadata_modified": "2016-11-30T21:30:06.694630",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "3e11274e-42b4-4472-8c3c-fbfea945a830",
+      "webstore_last_updated": null,
+      "id": "5dc920b3-31e6-4a6b-98ae-9454ccfec24e",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Citation Information:\nOriginator:\nEarth Science &Observation Center (ESOC), CIRES, University of Colorado at Boulder\nPublication Date:\n2012\nTitle:\nLandsat Thermal Anomalies Western\nEdition:\nFirst\nPublication Information:\nPublication Place:\nEarth Science & Observation Center, Cooperative Institute for Research in Environmental Science (CIRES), University of Colorado, Boulder\nPublisher:\nEarth Science &Observation Center (ESOC), CIRES, University of Colorado at Boulder\nDescription:\nThis layer contains the areas identified as areas of anomalous surface temperature from Landsat satellite imagery in Western Colorado. Data was obtained for two different dates. The digital numbers of each Landsat scene were converted to radiance and the temperature was calculated in degrees Kelvin and then converted to degrees Celsius for each land cover type using the emissivity of that cover type. And this process was repeated for each of the land cover types (open water, barren, deciduous forest and evergreen forest, mixed forest, shrub/scrub, grassland/herbaceous, pasture hay, and cultivated crops). The temperature of each pixel within each scene was calculated using the thermal band. In order to calculate the temperature an average emissivity value was used for each land cover type within each scene. The NLCD 2001 land cover classification raster data of the zones that cover Colorado were downloaded from USGS site and used to identify the land cover types within each scene. Areas that had temperature residual greater than 2σ, and areas with temperature equal to 1σ to 2σ, were considered Landsat modeled very warm and warm surface exposures (thermal anomalies), respectively\nSpatial Domain:\nExtent:\nTop:\n4546381.234113 m\nLeft:\n140556.857021 m\nRight:\n573390.000000 m\nBottom:\n4094583.641581 m\nContact Information:\nContact Organization:\nEarth Science &Observation Center (ESOC), CIRES, University of Colorado at Boulder\nContact Person:\nKhalid Hussein\nAddress:\nCIRES, Ekeley Building\nEarth Science & Observation Center (ESOC)\n216 UCB\nCity:\nBoulder\nState:\nCO\nPostal Code:\n80309-0216\nCountry:\nUSA\nContact Telephone:\n303-492-6782\nSpatial Reference Information:\nCoordinate System:\nUniversal Transverse Mercator (UTM) WGS’1984 Zone 13N\nFalse Easting:\n500000.00000000\nFalse Northing:\n0.00000000\nCentral Meridian:\n-105.00000000\nScale Factor:\n0.99960000\nLatitude of Origin:\n0.00000000\nLinear Unit:\nMeter\nDatum:\nWorld Geodetic System ’1984 (WGS ’1984)\nPrime Meridian:\nGreenwich\nAngular Unit:\nDegree\nDigital Form:\nFormat Name:\nShape file",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "landsat thermal anomalies wetern.zip",
+      "created": "2016-11-30T16:30:06.850189",
+      "url": "http://gdr.openei.org/files/302/Landsat%20Thermal%20Anomalies%20Wetern.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "dc9ee50d-cc4c-4a75-b361-c7b86e0c6078",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "aster",
+      "id": "6cd40cb4-a14c-4270-8b9f-550de9828472",
+      "name": "aster"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geothermal",
+      "id": "3f323051-fbd3-4715-bc13-e2fa5e65d369",
+      "name": "geothermal"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "landsat",
+      "id": "5746711f-3b99-48ef-aa6f-84dcbd89c036",
+      "name": "landsat"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "thermal-infrared",
+      "id": "25b494bc-f7a0-4a91-9c40-0ed482c923d0",
+      "name": "thermal-infrared"
+    }
+  ],
+  "tracking_summary": {
+    "total": 0,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "remotely-sensed-thermal-anomalies-in-western-colorado-03e52",
+  "isopen": true,
+  "url": null,
+  "notes": "Citation Information:\nOriginator:\nEarth Science &Observation Center (ESOC), CIRES, University of Colorado at Boulder\nPublication Date:\n2012\nTitle:\nLandsat Thermal Anomalies Western\nEdition:\nFirst\nPublication Information:\nPublication Place:\nEarth Science & Observation Center, Cooperative Institute for Research in Environmental Science (CIRES), University of Colorado, Boulder\nPublisher:\nEarth Science &Observation Center (ESOC), CIRES, University of Colorado at Boulder\nDescription:\nThis layer contains the areas identified as areas of anomalous surface temperature from Landsat satellite imagery in Western Colorado. Data was obtained for two different dates. The digital numbers of each Landsat scene were converted to radiance and the temperature was calculated in degrees Kelvin and then converted to degrees Celsius for each land cover type using the emissivity of that cover type. And this process was repeated for each of the land cover types (open water, barren, deciduous forest and evergreen forest, mixed forest, shrub/scrub, grassland/herbaceous, pasture hay, and cultivated crops). The temperature of each pixel within each scene was calculated using the thermal band. In order to calculate the temperature an average emissivity value was used for each land cover type within each scene. The NLCD 2001 land cover classification raster data of the zones that cover Colorado were downloaded from USGS site and used to identify the land cover types within each scene. Areas that had temperature residual greater than 2σ, and areas with temperature equal to 1σ to 2σ, were considered Landsat modeled very warm and warm surface exposures (thermal anomalies), respectively\nSpatial Domain:\nExtent:\nTop:\n4546381.234113 m\nLeft:\n140556.857021 m\nRight:\n573390.000000 m\nBottom:\n4094583.641581 m\nContact Information:\nContact Organization:\nEarth Science &Observation Center (ESOC), CIRES, University of Colorado at Boulder\nContact Person:\nKhalid Hussein\nAddress:\nCIRES, Ekeley Building\nEarth Science & Observation Center (ESOC)\n216 UCB\nCity:\nBoulder\nState:\nCO\nPostal Code:\n80309-0216\nCountry:\nUSA\nContact Telephone:\n303-492-6782\nSpatial Reference Information:\nCoordinate System:\nUniversal Transverse Mercator (UTM) WGS’1984 Zone 13N\nFalse Easting:\n500000.00000000\nFalse Northing:\n0.00000000\nCentral Meridian:\n-105.00000000\nScale Factor:\n0.99960000\nLatitude of Origin:\n0.00000000\nLinear Unit:\nMeter\nDatum:\nWorld Geodetic System ’1984 (WGS ’1984)\nPrime Meridian:\nGreenwich\nAngular Unit:\nDegree\nDigital Form:\nFormat Name:\nShape file",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "issued",
+      "value": "2012-02-01"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "7c31b949996c521eb682cee9c8fa964557ca7024"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-109.015825,36.897417334911],[-103.5337484375,36.897417334911],[-103.5337484375,40.941946633049],[-109.015825,40.941946633049],[-109.015825,36.897417334911]]]}"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "format",
+      "value": "application/unknown"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:006"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://gdr.openei.org/submissions/302"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "4d582aff-9282-4e1e-a372-d84603494b93"
+    },
+    {
+      "key": "accessURL",
+      "value": "http://gdr.openei.org/files/302/Landsat%20Thermal%20Anomalies%20Wetern.zip"
+    },
+    {
+      "key": "publisher",
+      "value": "Flint Geothermal, LLC"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "key": "modified",
+      "value": "2012-02-01"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/f0000000-e214-4c72-acd2-000000000302"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "4d582aff-9282-4e1e-a372-d84603494b93"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "Remotely Sensed Thermal Anomalies in western Colorado",
+  "revision_id": "dc9ee50d-cc4c-4a75-b361-c7b86e0c6078"
+}

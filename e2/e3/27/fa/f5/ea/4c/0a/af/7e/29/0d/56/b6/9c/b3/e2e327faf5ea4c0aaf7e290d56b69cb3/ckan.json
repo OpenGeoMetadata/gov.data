@@ -1,0 +1,238 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "e2e327fa-f5ea-4c0a-af7e-290d56b69cb3",
+  "metadata_created": "2015-09-27T02:47:30.314656",
+  "metadata_modified": "2015-09-27T02:47:30.314656",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "e2e327fa-f5ea-4c0a-af7e-290d56b69cb3",
+      "webstore_last_updated": null,
+      "id": "75f3a7fe-0565-4b3f-8960-dfe75e634682",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Binary data file",
+      "tracking_summary": {
+        "total": 4,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "2cd3662f-7966-4ef0-81c2-2e70f3a05aae",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-09-26T22:47:30.391258",
+      "url": "ftp://ftp.cpc.ncep.noaa.gov/precip/TRMM/gpi",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "e2e327fa-f5ea-4c0a-af7e-290d56b69cb3",
+      "webstore_last_updated": null,
+      "id": "762062b4-6418-44bc-95b7-bcad071585e2",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Binary data file",
+      "tracking_summary": {
+        "total": 4,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "2cd3662f-7966-4ef0-81c2-2e70f3a05aae",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-09-26T22:47:30.391283",
+      "url": "ftp://ftp.cpc.ncep.noaa.gov/precip/TRMM/gpi",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 10,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "climate-prediction-centercpcinfra-red-ir-0-5-degree-dataset",
+  "isopen": false,
+  "url": null,
+  "notes": "Climate Prediction Center 0.5 degree IR dataset was created from all available individual geostationary satellite data which have been merged to form nearly seamless global (60 degree N-60 degree S) IR brightness temperature product. The data are produced routinely for every half-hour since November 1998.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "179.5"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "59.5"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "GIF"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.cpc:CPC-IR-HRLY-IR-0.5deg-4km-v1998"
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://www.cpc.ncep.noaa.gov/products/global_precip/gif/global_1.gif"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-179.5, -59.5], [179.5, -59.5], [179.5, 59.5], [-179.5, 59.5], [-179.5, -59.5]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Access Constraints: None Use Constraints: Acknowledgment of the Data Originator when using the data item as a source. Distribution Liability: Refer the NOAA National Weather Service disclaimerhttp://www.weather.gov/disclaimer.php\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "1998-11-05"
+    },
+    {
+      "key": "contact-email",
+      "value": "Pingping.Xie@noaa.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-179.5"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2011-05-20"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"1998-11-05\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "Climate Prediction Center IR 0.5 deg resolution"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "unknown"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Climate Prediction Center, NOAA\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2014-08-25T10:50:25.371-04:00"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "-59.5"
+    },
+    {
+      "key": "tags",
+      "value": "brightness temperature, spectral/engineering, infrared wavelengths, vertical location, global, infrared, climatologymeteorologyatmosphere, geographic region, boundary layer, precipitation, earth science"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d68de835-3be0-4782-875b-6013c533b27d"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Climate Prediction Center(CPC)Infra-Red (IR) 0.5 degree Dataset",
+  "revision_id": "2cd3662f-7966-4ef0-81c2-2e70f3a05aae"
+}

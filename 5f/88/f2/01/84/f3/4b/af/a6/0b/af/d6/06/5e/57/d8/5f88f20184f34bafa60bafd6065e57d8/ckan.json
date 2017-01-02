@@ -1,0 +1,216 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "5f88f201-84f3-4baf-a60b-afd6065e57d8",
+  "metadata_created": "2016-07-16T01:34:18.402938",
+  "metadata_modified": "2016-07-16T01:34:18.402938",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "5f88f201-84f3-4baf-a60b-afd6065e57d8",
+      "webstore_last_updated": null,
+      "id": "30828730-8d98-4c3b-96b1-9fccb7e3bdba",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "ESRI GRID",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ESRI GRID",
+      "created": "2016-07-15T21:34:18.545186",
+      "url": "http://cloud.insideidaho.org/webApps/util/zip.ashx?fn=http://cloud.insideidaho.org/data/idl/safr/issues/I2_Forest_Health_Risks",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "fa2c0e97-7f6c-4632-8232-17900520bd66",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "5f88f201-84f3-4baf-a60b-afd6065e57d8",
+      "webstore_last_updated": null,
+      "id": "8aa5a22d-af6e-46cb-b375-fcb114aabd26",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "I2_Relative_Potential_Threats_to_Forest_Health_in_Idaho.pdf",
+      "format": "PDF",
+      "tracking_summary": {
+        "total": 9,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Adobe Portable Document Format (.pdf)",
+      "created": "2016-07-15T21:34:18.545208",
+      "url": "http://cloud.insideidaho.org/data/idl/safr/issues/I2_Forest_Health_Risks/I2_Relative_Potential_Threats_to_Forest_Health_in_Idaho.pdf",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "fa2c0e97-7f6c-4632-8232-17900520bd66",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 6,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The University of Idaho is a nationally-recognized research institution committed to student success and academic excellence that delivers one of the best educational values in the Pacific Northwest.",
+    "created": "2013-03-14T03:44:41.687651",
+    "title": "University of Idaho",
+    "name": "uidaho-edu",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://upload.wikimedia.org/wikipedia/en/thumb/4/44/University_of_Idaho_seal.svg/300px-University_of_Idaho_seal.svg.png",
+    "revision_id": "761955d7-9530-4622-8609-d0b01c78e177",
+    "type": "organization",
+    "id": "75e22a8a-da5f-46f3-93d8-924063a3703d",
+    "approval_status": "approved"
+  },
+  "name": "relative-potential-threats-to-forest-health",
+  "isopen": false,
+  "url": null,
+  "notes": "Issue: Relative Threats to Forest Health The intent of this issue is to: 1. Identify areas where invasive plants threaten forest health 2. Identify areas where damaging insects threaten forest health 3. Identify areas where disease threatens forest health 4. Identify areas where climate change may increase stress to forests Data used to build this layer came from four main categories as follows: 1. Mountain Pine Beetle, using 1990 - 2008 Forest Service aerial survey data (http://www.fs.usda.gov/detail/r1/forest-grasslandhealth/?cid=stelprdb5285985) and selecting out Mountain Pine Beetle (MPB) on lodgepole pine The polygons of MPB mortality on lodgepole pine for the years 1990 through 2008 were examined to see if direction and distances could be detected from one year to the next. While direction proved elusive, a mean spread distance of 2,314 meters was calculated. The polygons of MPB mortality for the above years were merged and dissolved into mortality centers, and buffered four times using the mean spread distance as the buffer. Then, the first buffer ring and the base polygon were removed as these comprise areas where the MPB has killed the suitable trees or where damage is likely done, but not yet visible. The resulting layer was converted to 30 m raster grid cells and reclassified. The data was further refined by applying a mask so that only areas of predicted infestation in lodgepole pine are shown. Since the areas represent probability of infestation, the closer they are to the original infestation, the greater the likelihood of infestation. The three remaining buffered rings around each polygon were given values of five, four and three as they radiated outward from the infestation. 2. Other Forest Health Issues: a. Other Forest Inspect Pests and Diseases, comprised of: i. Balsam Wooly Adelgid, using joint USDA Forest Service and Idaho Department of Lands joint Balsam Wooly Adelgid (BWA) ground survey data, and Hydrologic Unit code (HUC) 6th level (watersheds) (http://inside.uidaho.edu/) BWA can be a serious pest of subalpine fir, especially in areas where this is the primary forest species providing shade for streams. Loss of canopy in these areas can impact water quality and fish populations downstream. Due to the slow spread of BWA and the relatively small size of infestations, how best to express this issue was challenging. An annual rate of spread was determined, but it was small enough that affected areas would not have any real impact on the forest health risk issue. Instead, we took the location of infestations (point data) from on-the-ground joint Forest Service/IDL BWA delimiting surveys (years 2006 and 2007), and identified the 166 watersheds (6th order Hydrologic Unit Codes) in which they fell. These watersheds were converted to a 30 m raster grid and reclassified with a value of one if BWA is present, and zero if not. This serves more as an indicator that BWA is something to be aware of in these watersheds, but the value is low as it does not indicate the actual size and extent of infestations. ii. White Pine Blister Rust This layer was developed from 1) a potential vegetation layer and 2) a table delineating likelihood of Western White Pine. The U.S. Forest Service's Idaho Panhandle National Forest provided both datasets. The table was joined to the layer and the data reclassified into three classes. Per recommendation by Carol Randall, U.S. Forest Service Entomologist and Tom Eckberg, Idaho Department of Lands Forest Health Resource Specialist, excellent likelihood was assigned a value of five, good likelihood a value three, and poor or fair were assigned a value of zero. The objective of the layer is to identify probable areas of concern for Blister Rust, which parallels western white pine habitat. This layer will also serve as a proxy for root disease concerns. Areas that have been affected by blister rust and no longer have white pine now support grand fir and Douglas-fir, which are the most susceptible to root disease. iii. Tussock moths were identified as the most serious insect and disease threats to forest health on state and private forestlands. The most critical areas were identified using 1990 - 2008 Forest Service aerial survey data and historical refinements. (http://www.fs.fed.us/r1-r4/spf/fhp/aerial/gisdata.html) Tussock moth populations tend to be cyclic, building to significant levels in predictable locations every 8-12 years. Currently, we are in a population growth phase, and expect increased damage over the coming years. This Tussock Moth layer was developed by identifying the 6th level Hydrologic Unit Code (HUC) watersheds with tussock moth presence from aerial detection surveys and then rating them based on severity suggested by an entomologist team consisting of Carl Jorgensen (USFS), Tom Eckberg (IDL), and Carol Randall (USFS). Watersheds were converted to a 30 m raster grid and reclassified with one (low threat), three (moderate threat), and five (high threat) b. Terrestrial noxious weeds, consisting of: i. Idaho State Department of Agriculture (ISDA) listed terrestrial noxious weeds from March 2009 (http://inside.uidaho.edu/) ii. Weed presence in Idaho from the Bureau of Land Management (BLM) consolidated dataset from December 2005 (http://inside.uidaho.edu/) Includes data from the BLM Boise, Twin Falls, Idaho Falls and Coeur d'Alene Districts and the Idaho Department of Agriculture iii. Hydrologic Unit code (HUC) 6th level (watersheds) Process: The 2009 ISDA layer was combined with the 2005 BLM consolidated dataset to develop statewide coverage of noxious weeds in Idaho. All plants and weeds not listed on Idaho states 57 noxious weed list were removed from the list. A list of the 57 noxious weeds is located at: (http://www.idahoag.us/Categories/PlantsInsects/NoxiousWeeds/watchlist.php). This new dataset was converted into a 30 m resolution raster grid. Percent coverage of the noxious weeds within each 6th Level HUC were obtained taking the total count of noxious weed pixels, converting these pixels into area and dividing by total area of HUC. Percent coverage was then reclassified into three classes using equal interval, with values from zero to three. c. Climate change, consisting of: i. Current range (2000) and predicted habitat range in 2030 for Ponderosa Pine ii. Current range (2000) and predicted habitat range in 2030 for Lodgepole Pine iii. Current range (2000) and predicted habitat range in 2030 for Douglas Fir The three keystone indicator species were selected for this sub-issue by a subset of the Core Development Team working specifically on the Forest Health Risk issue. Climate shift data used for these three species was developed by Gerald Rehfeldt et al. Processes and assumption used in the modeling are described in the paper \"Empirical Analysis of Plant-Climate Relationships for the Western United States\" published in the International Journal of Plant Science, Volume 167(6) pages 1123-1150, in 2006. Process: We used current range of these three species and compared it with the predicted habitat range in 2030. For each species, where the habitat was the same in 2000 and 2030 a value of zero was given. Where the habitat changed from 2000 to 2030 a value of one was given. Habitat changes included both areas where the habitat moved into a new area that it did not occupy earlier and areas where the habitat would no longer occur. These areas represent potential areas of additional stress, but also identify areas where consideration of climate change impacts may help inform species selection when replanting is planned. The habitat change values for the three tree species were added together giving a climate change layer with values of zero - three. A value of zero indicates areas where the current and predicted habitat ranges for the three species did not change. A value of one indicates areas where one of the three species had a change in habitat, two indicates areas where two species had a change in habitat, and three indicates areas where three species had a change in habitat. These data received a lower overall potential score due to uncertainty in the data. Issue Process: Stakeholders noted that the Mountain Pine Bark Beetle (MPB) is the most serious pest problem in Idaho. For this reason, MPB was considered equal in importance to the combination of all other forest health sub-issues. These other datasets (sans MPB) were added together and stratified into five classes of relative risk (1-5) through natural breaks. The MPB data, classified as medium, high and very high risk (3-5) were then merged with this combination of the other datasets, with the highest value from either dataset used as the value for each cell (see table below). For example, an area that received a value of five for the combination of forest health risk threats OR a score of five from the MPB dataset received a score of five. This elevated the importance of MPB as on par with the combination of all others forest health threats. Forest Health professionals in FS Regions 1 & 4 and at the IDL concurred with this weighting, and felt the final map more closely reflected the National Forest Health Risk Map for Idaho. The sub-issues, and the maximum points assigned to each are shown in the following table. Balsam Wooly Adelgid 1 point White Pine Blister Rust / Root rot 5 points Tussock Moth 5 points Noxious weed presence 3 points Climate change 3 points TOTAL POSSIBLE 17 points The above sub-issues were classified into the following: Priority: Low Low-Moderate Moderate Moderate-High High 1 2 3 4 5 Mountain Pine Beetle 5 points The pine beetle was categorized into the following: Priority: Moderate Moderate-High High 3 4 5 The Mountain Pine Beetle and the above sub-issues were then combined with a MAX function. Idaho Statewide Assessment of Forest Resources document contains additional information and can be found at: http://cloud.insideidaho.org/data/idl/safr/reports/2_ID_SAFR_Final_061410.pdf.",
+  "owner_org": "75e22a8a-da5f-46f3-93d8-924063a3703d",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Idaho Department of Lands\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "edeyoung@idl.idaho.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "\n-117.531788"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2014-10-29"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2009-09-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "\n-110.655722"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "\n49.039544"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "\n41.946096"
+    },
+    {
+      "key": "licence",
+      "value": "[\"None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the IDL would be appreciated.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-117.531788, 41.946096], [-110.655722, 41.946096], [-110.655722, 49.039544], [-117.531788, 49.039544], [-117.531788, 41.946096]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the IDL would be appreciated.\", \"Access Constraints: Public, Federal Goverment, Idaho State Government, IDL Authorized Users\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "tags",
+      "value": "state assessment, climate risk, statewide forest resource strategy, state assessment of forest resources, safr, sfrs, idaho"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "b31778df-3a37-48f3-9c43-a2e430474f8d"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "6d1998c4-ba28-47a6-9395-7413c0cc32ac"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Idaho Geospatial Data Clearinghouse"
+    }
+  ],
+  "title": "Relative Potential Threats to Forest Health",
+  "revision_id": "fa2c0e97-7f6c-4632-8232-17900520bd66"
+}

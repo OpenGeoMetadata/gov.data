@@ -1,0 +1,196 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "e4540e59-71e5-48ef-a57a-8bb11b1b7474",
+  "metadata_created": "2014-10-29T13:39:31.138322",
+  "metadata_modified": "2014-10-29T13:39:31.138322",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "e4540e59-71e5-48ef-a57a-8bb11b1b7474",
+      "webstore_last_updated": null,
+      "id": "17dc0336-95db-4001-b5e1-95bac5c7f853",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "TGRSHP(compressed)",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "4283a6f1-5dae-4bc4-a702-0e69e4d98e47",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-10-29T09:39:31.523802",
+      "url": "http://www2.census.gov/geo/tiger/TIGER2014/FACESAL",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 16,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The Census Bureau's mission is to serve as the leading source of quality data about the nation's people and economy. We honor privacy, protect confidentiality, share our expertise globally, and conduct our work openly. We are guided on this mission by scientific objectivity, our strong and capable workforce, our devotion to research-based innovation, and our abiding commitment to our customers.",
+    "created": "2013-03-14T03:44:46.743070",
+    "title": "US Census Bureau, Department of Commerce",
+    "name": "census-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.census.gov/main/img/home/CensusLogo-white.png",
+    "revision_id": "0995f525-d563-4254-a535-af5b926fe663",
+    "type": "organization",
+    "id": "31c49abe-512a-412a-9cc7-5b2601325d6b",
+    "approval_status": "approved"
+  },
+  "name": "tiger-line-shapefile-2014-series-information-file-for-the-topological-faces-area-",
+  "isopen": false,
+  "url": null,
+  "notes": " The\n               Topological Faces / Area Landmark Relationship File (FACESAL.dbf) contains a record\n               for each face / area landmark relationship. Face refers to the areal (polygon)\n               topological primitives that make up MTDB. A face is bounded by one or more edges; its\n               boundary includes only the edges that separate it from other faces, not any interior\n               edges contained within the area of the face. The face to which a record in the\n               Topological Faces / Area Landmark Relationship File (FACESAL.dbf) applies can be\n               determined by linking to the Topological Faces Shapefile (FACES.shp) on the permanent\n               topological face identifier (TFID) attribute. The area landmark to which a record in\n               the Topological Faces / Area Landmark Relationship File (FACESAL.dbf) applies can be\n               determined by linking to the Area Landmark Shapefile (AREALM.shp) on the area\n               landmark identifier (AREAID) attribute. A face may be part of multiple area\n               landmarks. An area landmark may consist of multiple faces. ",
+  "owner_org": "31c49abe-512a-412a-9cc7-5b2601325d6b",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "179.859681"
+    },
+    {
+      "key": "collection_metadata",
+      "value": "true"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "71.441059"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-179.231086, -14.601813], [179.859681, -14.601813], [179.859681, 71.441059], [-179.231086, 71.441059], [-179.231086, -14.601813]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Access\\n                     Constraints: None\", \"Use Constraints:\\n                     The TIGER/Line Shapefile products are not copyrighted however TIGER/Line and\\n                     Census TIGER are registered trademarks of the U.S. Census Bureau. These\\n                     products are free to use in a product or publication, however acknowledgment\\n                     must be given to the U.S. Census Bureau as the source.\", \"Distribution\\n                     Liability: No warranty, expressed or implied is made with regard to the\\n                     accuracy of these data, and no liability is assumed by the U.S. Government in\\n                     general or the U.S. Census Bureau in specific as to the spatial or attribute\\n                     accuracy of the data. The act of distribution shall not constitute any such\\n                     warranty and no responsibility is assumed by the U.S. government in the use of\\n                     these files. The boundary information in the TIGER/Line Shapefiles is for\\n                     statistical data collection and tabulation purposes only; their depiction and\\n                     designation for statistical purposes do not constitute a determination of\\n                     jurisdictional authority or rights of ownership or entitlement and they are not\\n                     legal land descriptions.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2013-06"
+    },
+    {
+      "key": "contact-email",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-179.231086"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2014-06-01"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2014\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2014-05"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "-14.601813"
+    },
+    {
+      "key": "tags",
+      "value": "topological faces, state gnis code, state or equivalent entity, state fips code, boundaries, area landmark identifier, permanent face id, landmark, table, u.s."
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "a19c9ee0-7d97-4ad4-ac64-b46428dbaa03"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "5d9eef8f-0019-4fb8-984d-92a58ca91f1e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "2014 Topological Faces-Area Landmark State"
+    }
+  ],
+  "title": "TIGER/Line\n                     Shapefile, 2014, Series Information File for the Topological Faces-Area\n                     Landmark State-based Relationship Files",
+  "revision_id": "4283a6f1-5dae-4bc4-a702-0e69e4d98e47"
+}

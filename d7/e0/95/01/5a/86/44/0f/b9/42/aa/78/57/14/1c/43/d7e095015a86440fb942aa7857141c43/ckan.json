@@ -1,0 +1,235 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "Kurt Feigl",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "feigl@wisc.edu",
+  "num_tags": 6,
+  "id": "d7e09501-5a86-440f-b942-aa7857141c43",
+  "metadata_created": "2016-11-30T21:28:48.259355",
+  "metadata_modified": "2016-11-30T21:28:48.259355",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "d7e09501-5a86-440f-b942-aa7857141c43",
+      "webstore_last_updated": null,
+      "id": "79656839-6c54-4da9-bf05-685842fcbc0c",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Data from 238 three-component nodal seismometers of earthquake arrival.",
+      "format": "TAR",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "earthquake-nodal-data.tar",
+      "created": "2016-11-30T16:28:48.576286",
+      "url": "http://gdr.openei.org/files/846/Earthquake_Nodal_Data%20%281%29.tar",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "d1ff6bb8-a6a4-4c02-923f-2ae145450320",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "brady-geothermal-field",
+      "id": "4e31f5ac-27b2-4710-9431-15905327e667",
+      "name": "brady-geothermal-field"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "earthquake",
+      "id": "fa08c501-0142-4810-acce-836e6e43e640",
+      "name": "earthquake"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geothermal",
+      "id": "3f323051-fbd3-4715-bc13-e2fa5e65d369",
+      "name": "geothermal"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "nevada",
+      "id": "ec8c7b6b-4081-43bb-9c5f-35cbe53dd3b8",
+      "name": "nevada"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "passive-seismic",
+      "id": "f5513f4b-83b0-4808-8e63-4d7e67e4d574",
+      "name": "passive-seismic"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "porotomo",
+      "id": "72c57a7d-c24f-4709-bce1-94c5908d561d",
+      "name": "porotomo"
+    }
+  ],
+  "tracking_summary": {
+    "total": 1,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "porotomo-subtask-6-3-nodal-seismometer-earthquake-data-08f91",
+  "isopen": true,
+  "url": null,
+  "notes": "90-second records of data from 238 three-component nodal seismometer deployed at Bradys geothermal field. The time window catches an earthquake arrival.\n\nEarthquake data from USGS online catalog:\nMagnitude: 4.3 ml Â± 0.4\nLocation: 38.479Â°N 118.366Â°W Â± 0.7 km\nDepth: 9.9 km Â± 0.7\nDate and Time: 2016-03-21 07:37:10.535 UTC\nhttp://earthquake.usgs.gov/earthquakes/eventpage/nn00536374#executive",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "issued",
+      "value": "2016-03-21"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "f30fccf6916bb0ec76424a1f9f852eaced3e5938"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-119.2167,39.5883],[-118.8167,39.5883],[-118.8167,39.9883],[-119.2167,39.9883],[-119.2167,39.5883]]]}"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "format",
+      "value": "application/unknown"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:006"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://gdr.openei.org/submissions/846"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "71942463-9740-4712-967d-3dcba9e287d5"
+    },
+    {
+      "key": "accessURL",
+      "value": "http://gdr.openei.org/files/846/Earthquake_Nodal_Data%20%281%29.tar"
+    },
+    {
+      "key": "publisher",
+      "value": "University of Wisconsin"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "key": "modified",
+      "value": "2016-03-21"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/f0000000-e214-4c72-acd2-000000000846"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "71942463-9740-4712-967d-3dcba9e287d5"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "PoroTomo Subtask 6.3 Nodal Seismometer Earthquake Data",
+  "revision_id": "d1ff6bb8-a6a4-4c02-923f-2ae145450320"
+}

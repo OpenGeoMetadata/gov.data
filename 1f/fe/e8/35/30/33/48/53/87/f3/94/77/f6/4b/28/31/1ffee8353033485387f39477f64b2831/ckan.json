@@ -1,0 +1,326 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "Data Services Team",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "DataServices@trade.gov",
+  "num_tags": 17,
+  "id": "1ffee835-3033-4853-87f3-9477f64b2831",
+  "metadata_created": "2015-08-14T06:38:27.212808",
+  "metadata_modified": "2015-12-02T12:20:48.424260",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "1ffee835-3033-4853-87f3-9477f64b2831",
+      "webstore_last_updated": null,
+      "id": "83ae0428-65b7-432d-a814-079090a2b2cf",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "The Consolidated Screening List API consolidates eleven export screening lists of the Departments of Commerce, State and the Treasury into a single data feed as an aid to industry in conducting electronic screens of potential parties to regulated transactions.",
+      "format": "API",
+      "tracking_summary": {
+        "total": 42,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "",
+      "cache_url": null,
+      "name": "Consolidated Screening List",
+      "created": "2015-08-14T02:38:28.893669",
+      "url": "https://api.trade.gov/v2/consolidated_screening_list/search",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "14edcedc-1924-4407-af43-57f80671146c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "1ffee835-3033-4853-87f3-9477f64b2831",
+      "webstore_last_updated": null,
+      "id": "93de0ba8-c9a4-48af-965a-cbc24e2c4171",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "The Consolidated Screening List API consolidates eleven export screening lists of the Departments of Commerce, State and the Treasury into a single data feed as an aid to industry in conducting electronic screens of potential parties to regulated transactions.",
+      "format": "JSON",
+      "tracking_summary": {
+        "total": 40,
+        "recent": 2
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/json",
+      "cache_url": null,
+      "name": "Consolidated Screening List",
+      "created": "2015-08-14T02:38:28.893697",
+      "url": "http://developer.trade.gov/consolidated-screening-list.html",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 1,
+      "revision_id": "14edcedc-1924-4407-af43-57f80671146c",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "compliance",
+      "id": "48621cd4-a853-4e0c-85f3-77e7e3ff455b",
+      "name": "compliance"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "control",
+      "id": "0a08c7b7-d872-4d18-89fc-9a8db1b5249d",
+      "name": "control"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "denied-persons-list",
+      "id": "a7173d75-f9ca-494f-a592-6f4250183e1e",
+      "name": "denied-persons-list"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "enforcement",
+      "id": "23f73554-91be-4079-8ff9-485463fcc851",
+      "name": "enforcement"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "entity-list",
+      "id": "309fc458-eef5-4954-9306-24e368e8a450",
+      "name": "entity-list"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "export",
+      "id": "b4ac07af-8331-4ef8-a64a-829b3753c718",
+      "name": "export"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "export-compliance",
+      "id": "3a1a055c-ac6c-4b18-bdd9-ea6c201b6d81",
+      "name": "export-compliance"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "export-control",
+      "id": "db96026b-dda9-422f-9baa-2228253214dc",
+      "name": "export-control"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "foreign-sanctions-evaders",
+      "id": "ab65889c-72fd-406d-b6f6-ba249ac190f1",
+      "name": "foreign-sanctions-evaders"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "itar-debarred",
+      "id": "59ec6385-5d69-4c79-bd62-e70680015544",
+      "name": "itar-debarred"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "non-sdn-iranian-sanctions-act-list",
+      "id": "b24e65ee-c365-4777-a6a1-4804b525a046",
+      "name": "non-sdn-iranian-sanctions-act-list"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "nonproliferation-sanctions",
+      "id": "4ffbadb1-12a3-437a-be52-c44363b8d1cb",
+      "name": "nonproliferation-sanctions"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "palestinian-legislative-council-list",
+      "id": "db3d6c2e-2319-4551-88ef-02e49cbbf589",
+      "name": "palestinian-legislative-council-list"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "part-561-list",
+      "id": "d72e1d74-6719-46d6-818a-513377054ccd",
+      "name": "part-561-list"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "sectoral-sanctions-identifications-list",
+      "id": "6c078d02-f31c-48db-9b44-d0097f8d3ea2",
+      "name": "sectoral-sanctions-identifications-list"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "specially-designated-nationals",
+      "id": "9204332f-17c0-480b-b14e-315577593250",
+      "name": "specially-designated-nationals"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "unverified-list",
+      "id": "acace7b7-386c-4e52-86fa-ee8d70b33165",
+      "name": "unverified-list"
+    }
+  ],
+  "tracking_summary": {
+    "total": 168,
+    "recent": 5
+  },
+  "groups": [
+
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:37:59.153068",
+    "title": "Department of Commerce",
+    "name": "doc-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.vos.noaa.gov/MWL/aug_10/Images/doc_logo_xparent.png",
+    "revision_id": "44c851b9-8872-497a-8a13-2f06740b7ffb",
+    "type": "organization",
+    "id": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+    "approval_status": "approved"
+  },
+  "name": "consolidated-screening-list",
+  "isopen": false,
+  "url": null,
+  "notes": "The Consolidated Screening List API consolidates eleven export screening lists of the Departments of Commerce, State and the Treasury into a single data feed as an aid to industry in conducting electronic screens of potential parties to regulated transactions.",
+  "owner_org": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "International Trade Administration, Department of Commerce"
+    },
+    {
+      "key": "landingPage",
+      "value": "http://developer.trade.gov/consolidated-screening-list.html"
+    },
+    {
+      "key": "language",
+      "value": [
+        "us-EN"
+      ]
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2015-07-16"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "006:003"
+      ]
+    },
+    {
+      "key": "identifier",
+      "value": "ITA-0006"
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "006:25"
+      ]
+    },
+    {
+      "key": "references",
+      "value": [
+        "https://api.trade.gov/v2/consolidated_screening_list/search"
+      ]
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "66f26575-e6c4-4e36-9626-170742c22e62"
+    },
+    {
+      "key": "source_hash",
+      "value": "d88b6f07ec9daf8808a2bab61c475800e02a4bcd"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "66f26575-e6c4-4e36-9626-170742c22e62"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    }
+  ],
+  "title": "Consolidated Screening List",
+  "revision_id": "2ab3351e-b7f5-4bdd-99be-4390d4e3e9e9"
+}

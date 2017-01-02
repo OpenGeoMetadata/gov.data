@@ -1,0 +1,237 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "b91023a6-fdb6-42d6-910a-0aab6b909485",
+  "metadata_created": "2016-07-04T21:16:53.444513",
+  "metadata_modified": "2016-07-04T21:16:53.444513",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "b91023a6-fdb6-42d6-910a-0aab6b909485",
+      "webstore_last_updated": null,
+      "id": "999abd2d-a676-4de7-a775-409e27034d42",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Information about the dataset",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Cite URL",
+      "created": "2016-07-04T17:16:53.929149",
+      "url": "http://www.esrl.noaa.gov/psd/data/gridded/data.kaplan_sst.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "7df1b44a-5c5f-42e2-91c7-a72d246b8210",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b91023a6-fdb6-42d6-910a-0aab6b909485",
+      "webstore_last_updated": null,
+      "id": "680d1f23-7f64-40fd-9044-b654aed75a30",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Thredds Data server.  Allows http, opendap, and possibly WCS and WMS downaloads.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Thredds Server",
+      "created": "2016-07-04T17:16:53.929177",
+      "url": "http://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/kaplan_sst//catalog.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "7df1b44a-5c5f-42e2-91c7-a72d246b8210",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b91023a6-fdb6-42d6-910a-0aab6b909485",
+      "webstore_last_updated": null,
+      "id": "00088b5c-a948-47fe-b723-96efb245b744",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "FTP server.",
+      "format": "NETCDF4_CLASSIC",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FTP server",
+      "created": "2016-07-04T17:16:53.929186",
+      "url": "ftp://ftp.cdc.noaa.gov/Datasets/kaplan_sst/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "7df1b44a-5c5f-42e2-91c7-a72d246b8210",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 5,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "kaplan-extended-v2-sst-anomaly-data",
+  "isopen": false,
+  "url": null,
+  "notes": "Data is processed at Lamont-Doherty using a \r\noptimal analysis scheme. This dataset is different than previously archived version\r\nfrom Nov 1981 due to a different NCEP OI SST input data values\r\nURL is at IRI http://ingrid.ldeo.columbia.edu/SOURCES/.KAPLAN/.EXTENDED/.v2/\r\nprevious version V1 is available at /Datasets/kaplan_sst/V1/sst.mean.anom.v1.nc",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "temporal-extent-begin",
+      "value": "1856-01-01"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2016-05-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "webmaster.psd@noaa.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-05-01"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"lastUpdate\", \"value\": \"2016-05-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"\", \"roles\": [\"custodian\"]}]"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://www.esrl.noaa.gov/psd/mddb2/browseGraphics/Kaplan_Extended_V2_SST_anomaly_data.png"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "ongoing"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.esrl.psd.dataset.Kaplan_Extended_V2_SST_anomaly_data"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "tags",
+      "value": "monthly anomalies of sst"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "73d7560a-c976-47b2-80e0-28c049119b6d"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Kaplan Extended V2 SST anomaly data",
+  "revision_id": "7df1b44a-5c5f-42e2-91c7-a72d246b8210"
+}

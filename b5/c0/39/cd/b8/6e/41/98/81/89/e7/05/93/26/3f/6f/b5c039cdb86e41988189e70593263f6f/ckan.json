@@ -1,0 +1,194 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "b5c039cd-b86e-4198-8189-e70593263f6f",
+  "metadata_created": "2016-04-23T02:37:37.239256",
+  "metadata_modified": "2016-04-23T02:37:37.239256",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "b5c039cd-b86e-4198-8189-e70593263f6f",
+      "webstore_last_updated": null,
+      "id": "2fd45bc9-ec40-4e68-adce-bb2db3f94cb2",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "geospatial data",
+      "format": "SHP",
+      "tracking_summary": {
+        "total": 7,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "SHP",
+      "created": "2016-04-22T22:37:37.403107",
+      "url": "http://vcgi.vermont.gov/warehouse/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "92ba96c1-fe62-4f04-958d-9e293ea50476",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 15,
+    "recent": 2
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:41.302957",
+    "title": "Vermont Center for Geographic Information",
+    "name": "vcgi-org",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://vcgi.vermont.gov/sites/all/themes/vt_template/logo.png",
+    "revision_id": "c5dfbbb0-f1e0-4db6-b566-e932e1520060",
+    "type": "organization",
+    "id": "0c3a4ebc-9929-4f21-bdd0-76a35d52f57d",
+    "approval_status": "approved"
+  },
+  "name": "landlandcov-impervlcb2011",
+  "isopen": false,
+  "url": null,
+  "notes": "High-resolution impervious surfaces dataset for the Lake Champlain Basin, Vermont and New York. Two impervious classes were mapped: (1) Roads\\Railroads; and (2) Other Impervious. The latter category included parking lots, driveways, sidewalks, and buildings. Pertinent imagery could not be obtained for the Quebec portion of the Lake Champlain Basin, which was thus excluded from the final product. The primary source used to derive this impervious surfaces layer was 1-meter resolution National Agricultural Imagery Program (NAIP) data acquired in 2011. The NAIP datasets covering the study area were 4-band aerial imagery, meaning that they contained a Near Infrared band in addition to the visible bands (i.e., Red, Green, Blue). This band improved the utility of the imagery, permitting use of vegetation indices that rely on the Near Infrared and Red bands (e.g., Normalized Difference Vegetation Index). Ancillary data sources included various thematic vector GIS datasets, including the Lake Champlain Basin watershed boundary, lakes, stream centerlines, road centerlines, railroad centerlines, and building points. This impervious surfaces dataset is considered current as of 2011. Object-based image analysis techniques (OBIA) were used to extract impervious surfaces using the best available remotely-sensed and vector GIS datasets. OBIA systems work by grouping pixels into meaningful objects based on their spectral and spatial properties while taking into account boundaries imposed by existing vector datasets. Within the OBIA environment, a rule-based expert system was designed to effectively mimic the process of manual image analysis by incorporating the elements of image interpretation (color/tone, texture, pattern, location, size, and shape) into the classification process. A series of morphological procedures were used to ensure that the end product was both accurate and cartographically coherent. It is important to note that the mapping protocol described above was a \"top-down\" approach: impervious surfaces were mapped when they were visible in the available aerial imagery. In practical terms, impervious surfaces were not captured by the mapping process when they were obscured by tree canopy. Although this modeling limitation means that the total area of extant impervious surfaces would be underestimated in subsequent analyses, it also provides a better estimate of surfaces whose environmental effects are not mitigated by overhanging vegetation. Indeed, one of the well-known benefits of trees is that they absorb or slow rainwater before it hits the ground, so the top-down approach is a reasonable and effective method for mapping the impervious surfaces that most affect stormwater runoff volume. The draft impervious maps produced by automated feature extraction were extensively reviewed for accuracy, coherence, and aesthetic quality, and errors of omission and commission were fixed as necessary. Accuracy assessments were then conducted separately for the two sides of the Basin, indicating an overall accuracy of 99% for Vermont and 99% for New York. The overall accuracy for the combined area was also 99%. The user's accuracies for Roads/Railroads, Other Impervious, and Not Impervious were 98%, 98%, and 100% respectively.",
+  "owner_org": "0c3a4ebc-9929-4f21-bdd0-76a35d52f57d",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"VT Center for Geographic Information\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "info@vcgi.org"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-74.454908"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2014-02-05"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2014-02-05\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-72.154701"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "45.037760"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "43.225864"
+    },
+    {
+      "key": "licence",
+      "value": "[\"VCGI and the State of Vermont make no representations of any kind, including but not limited to the warranties of merchantability or fitness for a particular use, nor are any such warranties to be implied with respect to the data.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-74.454908, 43.225864], [-72.154701, 43.225864], [-72.154701, 45.03776], [-74.454908, 45.03776], [-74.454908, 43.225864]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None.\", \"Access Constraints: VCGI and the State of VT make no representations of any kind, including but not limited to the warranties of merchantability or fitness for a particular use, nor are any such warranties to be implied with respect to the data.\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "unknown"
+    },
+    {
+      "key": "tags",
+      "value": "parking lots, buildings, impervious surfaces, driveways, roads\\railroads"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "8fa022c2-4d0f-4bce-b669-4a3c6308789e"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "a0d2a02b-5473-48ce-816c-8c6c6f8fabdb"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "VT Center for Geographic Information, Inc."
+    }
+  ],
+  "title": "LandLandcov_IMPERVLCB2011",
+  "revision_id": "92ba96c1-fe62-4f04-958d-9e293ea50476"
+}

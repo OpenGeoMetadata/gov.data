@@ -1,0 +1,220 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Data Exchange Administrator",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "ORDP.Data.Exchange@ssa.gov",
+  "num_tags": 10,
+  "id": "5f76fc98-8e43-4129-b99f-99272b04750a",
+  "metadata_created": "2015-01-30T16:17:38.974726",
+  "metadata_modified": "2016-09-28T13:11:02.452685",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "aggregate-earnings-data",
+      "id": "5477982a-800c-4a7e-aedc-d059537c7c17",
+      "name": "aggregate-earnings-data"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "department-of-education",
+      "id": "e7908077-5f73-485b-a861-dd2ab3f139d4",
+      "name": "department-of-education"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "doed",
+      "id": "82ed00a1-80c9-4149-aac3-67e2b585a9b9",
+      "name": "doed"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "earn-master-earnings-file",
+      "id": "5dc135c6-7d7b-43a7-afb3-a98708cf65bc",
+      "name": "earn-master-earnings-file"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "earnings-coverage",
+      "id": "6ae1cbee-2433-4f0f-8c02-07e0ecbf3bb2",
+      "name": "earnings-coverage"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "enumeration-verification-system",
+      "id": "b7200471-dddd-4171-bd02-2d68c9e4799d",
+      "name": "enumeration-verification-system"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "evs",
+      "id": "01a06028-e5e6-4148-8800-49bfcd08396d",
+      "name": "evs"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "gainful-employment",
+      "id": "9ff0f910-39a8-4885-8489-f303e1eaadde",
+      "name": "gainful-employment"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ge",
+      "id": "82e11ce5-0309-4c7d-9e65-8ce6fade3b35",
+      "name": "ge"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "mef",
+      "id": "295eed79-b8af-4863-b4c8-57a57f5b0159",
+      "name": "mef"
+    }
+  ],
+  "tracking_summary": {
+    "total": 24,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:35:25.934290",
+    "title": "Social Security Administration",
+    "name": "ssa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/ssa.png",
+    "revision_id": "1be01963-921d-432f-b56d-37fa76dfb0a1",
+    "type": "organization",
+    "id": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+    "approval_status": "approved"
+  },
+  "name": "department-of-education-request-for-aggregate-earnings-data",
+  "isopen": true,
+  "url": null,
+  "notes": "The purpose of this exchange is to provide DoED with aggregate earnings data that will be used to measure compliance of Institutions of Higher Education with the Gainful Employment (GE) regulations effective July 1, 2012. SSA uses existing Enumeration Verification System (EVS) and Earnings Coverage (EARN) software to verify the SSN and extract earnings data from the Master Earnings File (MEF). A back-end program computes the mean and median income for each GE program and earnings report year and provide DoED with an output file containing aggregate data. DoED uses SSA data to compute a debt to income ratio.",
+  "owner_org": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Social Security Administration"
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "license",
+      "value": "https://www.ssa.gov/open/data/Restricted-Public-Licensing-Information.html"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "rights",
+      "value": "The data contained in this data exchange is restricted due to sensitivity and/or privacy issues.  If you would like more information on a data exchange with SSA please visit the following web site https://www.ssa.gov/dataexchange/."
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "R/P6M"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "016:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "016:00"
+      ]
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P6M"
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "US-GOV-SSA-614"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "62f25d56-6e7d-429e-b1d3-e1535eb6f4bd"
+    },
+    {
+      "key": "source_hash",
+      "value": "4fd59d394d3e0f88353c8ea5724568ef165274b9"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "62f25d56-6e7d-429e-b1d3-e1535eb6f4bd"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    }
+  ],
+  "title": "Department of Education Request for Aggregate Earnings Data",
+  "revision_id": "0daa8a4b-5bd1-4300-99e4-fa45171dcd08"
+}

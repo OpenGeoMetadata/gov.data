@@ -1,0 +1,253 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Thomas Hedberg",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "thomas.hedberg@nist.gov",
+  "num_tags": 5,
+  "id": "867edbbf-d16b-4a05-9eef-98755770edd2",
+  "metadata_created": "2016-11-05T23:45:42.705548",
+  "metadata_modified": "2016-11-05T23:45:42.705548",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "867edbbf-d16b-4a05-9eef-98755770edd2",
+      "webstore_last_updated": null,
+      "id": "38c1ead9-72ce-4a24-9d4c-ceefcfe7759a",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "Digital Object Identifier, a persistent identifier",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/html",
+      "cache_url": null,
+      "name": "DOI access for Digital Manufacturing Certificate Toolkit",
+      "created": "2016-11-05T19:45:43.751019",
+      "url": "http://doi.org/10.18434/T4P30K",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "8312873a-93bb-42c4-b519-f56c025836f8",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "867edbbf-d16b-4a05-9eef-98755770edd2",
+      "webstore_last_updated": null,
+      "id": "9a21f3cc-72a3-4e74-94e3-6b8119cb3e67",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Source code, executable, and sample files for the toolkit",
+      "format": "C# and ANTLR code of the toolkit",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/html",
+      "cache_url": null,
+      "name": "Digital Manufacturing Certificate Toolkit",
+      "created": "2016-11-05T19:45:43.751072",
+      "url": "https://github.com/usnistgov/DT4SM/tree/master/DMC-Toolkit",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 1,
+      "revision_id": "8312873a-93bb-42c4-b519-f56c025836f8",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "authentication",
+      "id": "cd02fd72-3190-4c47-a1c3-dbe28494a543",
+      "name": "authentication"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "authorization",
+      "id": "43951321-f13a-4ae0-bf74-a442b0b197fa",
+      "name": "authorization"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "model-based-enterprise-mbe",
+      "id": "e68b935a-dbc2-48da-a8b2-8385b04c7364",
+      "name": "model-based-enterprise-mbe"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "product-data-quality-pdq",
+      "id": "640205c6-c1dc-4e50-8b92-08866e5f06cc",
+      "name": "product-data-quality-pdq"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "trustworthiness",
+      "id": "0730475e-2e82-42dd-9e5d-b33e1b8f2a4b",
+      "name": "trustworthiness"
+    }
+  ],
+  "tracking_summary": {
+    "total": 3,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:37:59.153068",
+    "title": "Department of Commerce",
+    "name": "doc-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.vos.noaa.gov/MWL/aug_10/Images/doc_logo_xparent.png",
+    "revision_id": "44c851b9-8872-497a-8a13-2f06740b7ffb",
+    "type": "organization",
+    "id": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+    "approval_status": "approved"
+  },
+  "name": "digital-manufacturing-certificate-toolkit",
+  "isopen": true,
+  "url": null,
+  "notes": "The NIST Digital Manufacturing Certificate (DMC) Toolkit is a toolkit designed specifically to provide certification -- digital signature using software and hardware certificates, and verification -- of manufacturing related product data. In its first release, the DMC toolkit supports signature and validation of data in the following formats: ISO 10303-21 (STEP), ISO 6983 (G-code), ISO 32000 (PDF) and 14739 (PRC, aka 3D PDF), and Quality Information Framework (QIF). The software offers both the Toolkit as a C# API and a fully-functional demonstration application. A use case and detailed description of the technology is available in an article titled, \"Embedding X.509 Digital Certificates in Three-Dimensional Models for Authentication, Authorization, and Traceability of Product Data,\" published in the Journal of Computing and Information Science in Engineering (doi:10.1115/1.4034131)",
+  "owner_org": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "National Institute of Standards and Technology"
+    },
+    {
+      "key": "identifier",
+      "value": "3A28A855F9ABBC7FE0531A570681D98B1492"
+    },
+    {
+      "key": "license",
+      "value": "http://www.nist.gov/open/license.cfm"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2016-06-12"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "language",
+      "value": [
+        "en"
+      ]
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Interoperability in manufacturing",
+        "Cryptography"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "006:55"
+      ]
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://doi.org/10.1115/1.4034131"
+      ]
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "irregular"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "006:045"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "7a219724-dc58-4fa8-9ed4-42ec1f828a2b"
+    },
+    {
+      "key": "source_hash",
+      "value": "c3b21e1af410dd72975d82fc08d2f0c65aca4c8e"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "7a219724-dc58-4fa8-9ed4-42ec1f828a2b"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    }
+  ],
+  "title": "Digital Manufacturing Certificate Toolkit",
+  "revision_id": "8312873a-93bb-42c4-b519-f56c025836f8"
+}

@@ -1,0 +1,237 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "f993f039-ecbc-457d-b9a5-1b72ea6d56e2",
+  "metadata_created": "2016-07-04T21:17:31.914473",
+  "metadata_modified": "2016-07-04T21:17:31.914473",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "f993f039-ecbc-457d-b9a5-1b72ea6d56e2",
+      "webstore_last_updated": null,
+      "id": "53511811-f7ec-4618-9ce5-3053d8565c27",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Information about the dataset",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Cite URL",
+      "created": "2016-07-04T17:17:32.067924",
+      "url": "http://www.esrl.noaa.gov/psd/data/gridded/data.noaaglobaltemp.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "3407b3ff-dcd5-46d2-babd-3fce822cbdf6",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f993f039-ecbc-457d-b9a5-1b72ea6d56e2",
+      "webstore_last_updated": null,
+      "id": "2f9a10d7-1699-4b07-a7de-2eb5d100fdbc",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Thredds Data server.  Allows http, opendap, and possibly WCS and WMS downaloads.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Thredds Server",
+      "created": "2016-07-04T17:17:32.067947",
+      "url": "http://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/noaaglobaltemp//catalog.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "3407b3ff-dcd5-46d2-babd-3fce822cbdf6",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f993f039-ecbc-457d-b9a5-1b72ea6d56e2",
+      "webstore_last_updated": null,
+      "id": "8b01b657-b039-4bb8-b11a-0808f5ce328f",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "FTP server.",
+      "format": "NETCDF4_CLASSIC",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FTP server",
+      "created": "2016-07-04T17:17:32.067957",
+      "url": "ftp://ftp.cdc.noaa.gov/Datasets/noaaglobaltemp/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "3407b3ff-dcd5-46d2-babd-3fce822cbdf6",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 2,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "noaa-global-surface-temperature-noaaglobaltemp",
+  "isopen": false,
+  "url": null,
+  "notes": "The NOAA Global Surface Temperature Dataset (NOAAGlobalTemp) is a merged land–ocean surface temperature analysis (formerly known as MLOST) (link is external). It is a spatially gridded (5° × 5°) global surface temperature dataset, with monthly resolution from January 1880 to present. We combine a global sea surface (water) temperature (SST) dataset with a global land surface air temperature dataset into this merged dataset of both the Earth’s land and ocean surface temperatures. The SST dataset is the Extended Reconstructed Sea Surface Temperature (ERSST) version 4.0. The land surface air temperature dataset is similar to ERSST but uses data from the Global Historical Climatology Network Monthly (GHCN-M) database, version 3.3.0.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "temporal-extent-begin",
+      "value": "1880-01-01"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2016-05-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "webmaster.psd@noaa.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-05-01"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"lastUpdate\", \"value\": \"2016-05-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"\", \"roles\": [\"custodian\"]}]"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://www.esrl.noaa.gov/psd/mddb2/browseGraphics/NOAA_Global_Surface_Temperature_(NOAAGlobalTemp).png"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "ongoing"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.esrl.psd.dataset.NOAA_Global_Surface_Temperature_NOAAGlobalTemp"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "tags",
+      "value": "surface air temperature and sst monthly anomaly"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c819d8e0-4b0a-4178-b99a-0ae9a2ec5b2c"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "NOAA Global Surface Temperature (NOAAGlobalTemp)",
+  "revision_id": "3407b3ff-dcd5-46d2-babd-3fce822cbdf6"
+}

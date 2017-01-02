@@ -1,0 +1,123 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Health Data Initiative",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "HealthData@hhs.gov",
+  "num_tags": 7,
+  "id": "1b7eb80c-1deb-4b84-9314-82ea6aac598c",
+  "metadata_created": "2016-05-08T00:33:23.462336",
+  "metadata_modified": "2016-05-08T00:33:23.462336",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ambulatory-surgical-center",
+      "id": "a96fff78-4913-4e33-a2aa-6f2f9b4fe9dd",
+      "name": "ambulatory-surgical-center"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "end-stage-renal-disease-esrd",
+      "id": "61e4f32e-c6e2-4d6e-8485-c879c0471d7c",
+      "name": "end-stage-renal-disease-esrd"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "federally-qualified-health-center-fqhc",
+      "id": "372fb85b-9e83-4f13-9b6e-eaeb8cd4bebe",
+      "name": "federally-qualified-health-center-fqhc"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "home-health-hha",
+      "id": "269f3dbb-d35c-498f-b0fe-0adf8bf198bb",
+      "name": "home-health-hha"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "interactive-tools",
+      "id": "9d92979f-fbba-4e83-96c9-39dd494b5760",
+      "name": "interactive-tools"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "publically-available-data-file--for-download",
+      "id": "41ba8100-745e-49cd-b46d-236ea0bb101f",
+      "name": "publically-available-data-file--for-download"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "skilled-nursing-snf",
+      "id": "21613489-b488-4409-9428-311935c5f05f",
+      "name": "skilled-nursing-snf"
+    }
+  ],
+  "tracking_summary": {
+    "total": 8,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-08-26T15:35:30.958442",
+    "title": "U.S. Department of Health & Human Services",
+    "name": "hhs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.healthdata.gov/sites/all/themes/hdtheme/logo-dark.png",
+    "revision_id": "eff89d9e-dc00-4101-bbd4-750e1adcc5bb",
+    "type": "organization",
+    "id": "3609164c-4c49-4a44-9179-23163027dc0a",
+    "approval_status": "approved"
+  },
+  "name": "provider-of-services-file-2c7b0",
+  "isopen": true,
+  "url": null,
+  "notes": "<p>The POS file consists of two data files, one for CLIA labs and one for 18 other provider types. The file names are CLIA and OTHER. If downloading the file, note it is fairly large (125MB in CSV). The POS Extract is created from the QIES (Quality Improvement Evaluation System) database. These data include provider number, name, and address and characterize the participating institutional providers. The data are collected through the Centers for Medicare and Medicaid Services (CMS) Regional Offices. The file contains an individual record for each Medicare-approved provider and is updated quarterly. For a list of provider types, layout files, and how to order previous annual files, please see the Source Link in the About tab.</p>\n",
+  "owner_org": "3609164c-4c49-4a44-9179-23163027dc0a",
+  "extras": [
+    {
+      "key": "extras_rollup",
+      "value": "{\"publisher\": \"Centers for Medicare &amp; Medicaid Services\", \"accessLevel\": \"public\", \"license\": \"http://opendefinition.org/licenses/odc-odbl/\", \"harvest_source_id\": \"15c538b5-31a0-474e-8ba5-c85ee421cb4d\", \"catalog_@context\": \"https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld\", \"temporal\": \"2013-01-01T00:00:00-05:00/2015-12-31T00:00:00-05:00\", \"resource-type\": \"Dataset\", \"modified\": \"2015-12-15\", \"harvest_source_title\": \"Healthdata.gov\", \"source_schema_version\": \"1.1\", \"source_datajson_identifier\": true, \"language\": [\"en\"], \"bureauCode\": [\"009:38\"], \"catalog_@id\": \"http://www.healthdata.gov/data.json\", \"catalog_describedBy\": \"https://project-open-data.cio.gov/v1.1/schema/catalog.json\", \"programCode\": [\"009:000\"], \"identifier\": \"464\", \"harvest_object_id\": \"9393fc2e-046a-46d3-940d-99717880ebab\", \"source_hash\": \"ac09686ee620f933ab27768120a7f1dd808c83c4\", \"catalog_conformsTo\": \"https://project-open-data.cio.gov/v1.1/schema\"}"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "9393fc2e-046a-46d3-940d-99717880ebab"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "15c538b5-31a0-474e-8ba5-c85ee421cb4d"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Healthdata.gov"
+    }
+  ],
+  "title": "Provider of Services File",
+  "revision_id": "219916ec-1bbe-4114-82c2-2137e76ab9e4"
+}

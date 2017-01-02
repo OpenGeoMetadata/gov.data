@@ -1,0 +1,253 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "6bdcadd5-18bc-4d78-bec6-40d9be692a58",
+  "metadata_created": "2016-03-28T18:45:11.682824",
+  "metadata_modified": "2016-03-28T18:45:11.682824",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "6bdcadd5-18bc-4d78-bec6-40d9be692a58",
+      "webstore_last_updated": null,
+      "id": "d38cdb14-73a1-499c-b8f6-2175884aa028",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "ShoreZoneFlex and Feature Service",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ShoreZoneFlex and Feature Service",
+      "created": "2016-03-28T14:45:11.802921",
+      "url": "http://alaskafisheries.noaa.gov/mapping/ShoreZone",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "e45d5959-2f83-4861-827b-50e0f3566ec3",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "6bdcadd5-18bc-4d78-bec6-40d9be692a58",
+      "webstore_last_updated": null,
+      "id": "93a6d6d6-1b6c-46d3-bcba-e6d7316b1ba2",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Website listed for this contact",
+      "format": "",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Website",
+      "created": "2016-03-28T14:45:11.802955",
+      "url": "http://alaskafisheries.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "e45d5959-2f83-4861-827b-50e0f3566ec3",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "6bdcadd5-18bc-4d78-bec6-40d9be692a58",
+      "webstore_last_updated": null,
+      "id": "ae1c0e8e-49fd-42fc-b08e-ebef8816bbaf",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "This page describes the NASA GCMD Keywords, how\n                                                        to reference those keywords and provides download instructions.\n                                                    ",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 486,
+        "recent": 12
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "GCMD Keywords Page",
+      "created": "2016-03-28T14:45:11.802971",
+      "url": "http://gcmd.nasa.gov/learn/keyword_list.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "e45d5959-2f83-4861-827b-50e0f3566ec3",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 5,
+    "recent": 3
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "shorezone-survey-data",
+  "isopen": false,
+  "url": null,
+  "notes": "This dataset is a point file showing GPS trackline data collected during a ShoreZone aerial imaging survey. This flight trackline is recorded at 1-second intervals using Fugawi electronic navigation and is continuously monitored in-flight to ensure all shorelines have been imaged. This dataset is time-synchronized with ShoreZone video imagery and linked by a unique date-time code (yyyymmddhhmmss) so that all imagery can be linked to a spatial location. Software. Positional data are converted to an ESRI shapefile in accordance with the ShoreZone Coastal Habitat Mapping Protocol (2011). ShoreZone is a coastal habitat mapping and classification system in which georeferenced aerial imagery is collected specifically for the interpretation and integration of geomorphic and biological features of the intertidal zone and nearshore environment. Oblique low-altitude aerial video and digital still imagery of the coastal zone is collected during the lowest tides of the year, usually from a helicopter flying at or below 100 m altitude. During image collection, the aircraft's GPS position is continuously recorded so that the video and still imagery have positional information. Video imagery is accompanied by continuous, simultaneous commentary by a geologist and a biologist aboard the aircraft. The imagery and commentary are used in the definition of discrete along-shore coastal habitat units and the mapping of observed physical, geomorphic, sedimentary, and biological across-shore components within those units. Units are digitized as shoreline segments in ArcGIS, then integrated with the along-shore and across-shore geological and biological data attribute tables housed in the geodatabase. Mapped habitat features include degree of wave exposure, substrate type, sediment texture, intertidal biota, and some nearshore subtidal biota.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-123.740645"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "71.389112"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.nmfs.inport:26849"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "41.991005"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-171.8496, 41.991005], [-123.740645, 41.991005], [-123.740645, 71.389112], [-171.8496, 71.389112], [-171.8496, 41.991005]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Access Constraints: The ShoreZone Program is a partnership of public, private, and governmental agencies. Protocols for data access and distribution are established by the program partner agencies. Please see ShoreZone.org or CoastalAndOceans.com for a list of partner agencies and related web sites. Video imagery can be viewed and digital stills downloaded online at www.alaskafisheries.noaa.gov/shorezone/. Any hardcopies or published data sets utilizing ShoreZone products shall clearly indicate their source. Please refer to \\\"Data Quality\\\" metadata for information on attribute accuracy. To ensure distribution of the most current public information or for correct interpretation, contact the ShoreZone project manager or GIS specialist at Coastal and Ocean Resources, Inc. | Use Constraints: To effectively and appropriately use ShoreZone data, the user shall refer to the ShoreZone Coastal Habitat Mapping Protocol (2011) available at ShoreZone.org and at www.CoastalAndOceans.com. Data provided are derived from large, regional databases that are continually being updated and modified. The accuracy of some information is subject to change. Any published data sets utilizing ShoreZone products (printed, digital, or online) shall clearly indicate their source. If the user has modified the data in any way, the user is obligated to describe the types of modifications performed. The user specifically agrees not to misrepresent these data, nor to imply that changes made were approved by the ShoreZone program or its partners. Please refer to \\\"Data Quality\\\" metadata for information on attribute accuracy. | Distribution Liability: Not for navigation\\n\\nAccess and USE:  Creative Commons\\n\\nUsers are free to:\\n\\nShare  copy and redistribute the material in any medium or format\\nAdapt  remix, transform, and build upon the material\\nfor any purpose, even commercially.\\nThe licensor cannot revoke these freedoms as long as you follow the license terms.\\nUnder the following terms:\\n\\nAttribution  You must give appropriate creditas SHOREZONE, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2001-01-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "steve.lewis@noaa.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-171.8496"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-02-03T13:39:23.56-05:00"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2015-06-12\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "irregular"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2015-01-01"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": "eng"
+    },
+    {
+      "key": "tags",
+      "value": "biology, intertidal, shorezone, doc/noaa/nmfs, geology, track, mapping, flightline, alaska, national marine fisheries service, noaa, u.s. department of commerce, nearshore, trackline, coastal, flight"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "96cff403-cfa2-40c4-b77a-5ee0f27d0b1e"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "ShoreZone Survey Data",
+  "revision_id": "e45d5959-2f83-4861-827b-50e0f3566ec3"
+}

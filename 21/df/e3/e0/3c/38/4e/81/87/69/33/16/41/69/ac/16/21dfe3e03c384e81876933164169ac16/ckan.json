@@ -1,0 +1,246 @@
+{
+  "license_title": "Creative Commons CCZero",
+  "maintainer": "Terry Hance",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "Terry.Hance@va.gov",
+  "num_tags": 11,
+  "id": "21dfe3e0-3c38-4e81-8769-33164169ac16",
+  "metadata_created": "2015-02-26T17:04:24.515341",
+  "metadata_modified": "2015-10-08T21:49:58.009749",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "bill",
+      "id": "18f49b7f-ac78-4e17-8e8b-fa9631802513",
+      "name": "bill"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "billing",
+      "id": "77be9c08-aeae-4416-8a16-17a4ae4f8b99",
+      "name": "billing"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "debt",
+      "id": "43d7423a-5ff2-4162-a463-dde773f8a816",
+      "name": "debt"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "first-party",
+      "id": "16518f97-77f1-498d-b81e-64f08d8f2a04",
+      "name": "first-party"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "hmo",
+      "id": "e6585cf9-4339-446c-95db-1aebae96cad4",
+      "name": "hmo"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "insurance",
+      "id": "935bd1fd-f5e5-4271-9c7b-0b66f6a35b36",
+      "name": "insurance"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "medical",
+      "id": "5ccc9ce7-c59d-4777-962e-4b6611303104",
+      "name": "medical"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "patient",
+      "id": "84651278-c505-44da-a3b6-6115676c70ff",
+      "name": "patient"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "payment",
+      "id": "020474b3-6e05-404a-931d-af4bd6720435",
+      "name": "payment"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "va",
+      "id": "5c740e0c-4cbe-421a-a4d4-b0c59ba3986b",
+      "name": "va"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "veteran",
+      "id": "7561bea1-6f6c-4e42-96cc-7a5271ea4f8c",
+      "name": "veteran"
+    }
+  ],
+  "tracking_summary": {
+    "total": 56,
+    "recent": 3
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-zero",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:11.529883",
+    "title": "Department of Veterans Affairs",
+    "name": "va-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/va.png",
+    "revision_id": "7c651ccc-eb67-439e-82dd-1ae7fff33f63",
+    "type": "organization",
+    "id": "ff9ae098-eccc-41d8-bfcd-5e8ed047db05",
+    "approval_status": "approved"
+  },
+  "name": "consolidated-copayment-processing-center-ccpc",
+  "isopen": true,
+  "url": null,
+  "notes": "The Consolidated Copayment Processing Center (CCPC) database contains Veteran patient contact and billing information in order to support the printing and mailing of patient billing statements. The CCPC system is designed to handle first-party medical debt billing information. First-party billing is defined as a patient debt for which the patient is responsible for payment (normally co-payment) for health care treatment. This differs from third-party billing where a third party (e.g., insurance company, Health Maintenance Organization (HMO)) is primarily responsible for repaying the VA. CCPC does not handle third-party billing information. The Veterans Health Information Systems and Technology Architecture Accounts Receivable (AR) module collects information for CCPC at every Veterans Affairs Medical Center (VAMC). A daily batch process is used to collect and transmit the information to the VA Austin Information Technology Center. All collected patient and billing information is kept active on CCPC for a period of one month. A master list containing six months activity is archived for reference should historical information be needed. The users of this database include the VAMCs, Veterans Health Administration Chief Business Office, and the patients who receive billing statements.",
+  "owner_org": "ff9ae098-eccc-41d8-bfcd-5e8ed047db05",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "e868f753-9395-4666-a30c-219334a64c6b"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2013-12-30"
+    },
+    {
+      "key": "source_hash",
+      "value": "05d200dc6d9dc5d7f80e8c10b084796f662ae3e8"
+    },
+    {
+      "key": "temporal",
+      "value": "1997-01-01/2014-12-31"
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "VA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "029:041"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "029:15"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "non-public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "58df59cb-b263-4514-b9fd-112aecc09629"
+    },
+    {
+      "key": "publisher",
+      "value": "Department of Veterans Affairs"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "key": "rights",
+      "value": "Health Insurance Portability and Accountability Act, protected health information."
+    },
+    {
+      "key": "systemOfRecords",
+      "value": "http://www.gpo.gov/fdsys/pkg/FR-2012-05-11/pdf/2012-11487.pdf"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "VA-VHA-CBO-003"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "58df59cb-b263-4514-b9fd-112aecc09629"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "e868f753-9395-4666-a30c-219334a64c6b"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "VA JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-zero",
+  "title": "Consolidated Copayment Processing Center (CCPC)",
+  "revision_id": "723fab18-8a38-4e14-87ff-b1ad725d9eaa"
+}

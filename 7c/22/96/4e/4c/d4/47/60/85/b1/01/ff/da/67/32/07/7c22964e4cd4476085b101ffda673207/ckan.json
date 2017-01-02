@@ -1,0 +1,729 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "7c22964e-4cd4-4760-85b1-01ffda673207",
+  "metadata_created": "2015-12-20T18:52:29.737481",
+  "metadata_modified": "2016-09-12T22:22:36.277842",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "7c22964e-4cd4-4760-85b1-01ffda673207",
+      "webstore_last_updated": null,
+      "id": "84b5ac74-202d-4775-bef1-c77221ed4f7b",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Navigate directly to the URL for data access and direct download.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "HTTP",
+      "created": "2016-09-12T18:22:36.711523",
+      "url": "https://data.nodc.noaa.gov/ioos/secoora/enp.wrbf1.met/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "e4d3e32e-bf7a-427a-8e4d-6c23e3b93729",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7c22964e-4cd4-4760-85b1-01ffda673207",
+      "webstore_last_updated": null,
+      "id": "61a9a954-3a39-4378-aabd-ab073a770dca",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Navigate directly to the URL for a descriptive web page with download links.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Descriptive Information",
+      "created": "2016-09-12T18:22:36.711557",
+      "url": "https://accession.nodc.noaa.gov/0118766",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "e4d3e32e-bf7a-427a-8e4d-6c23e3b93729",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7c22964e-4cd4-4760-85b1-01ffda673207",
+      "webstore_last_updated": null,
+      "id": "ca0891ca-0484-4459-aa17-6e0190827369",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "These data are available through a variety of services via a THREDDS (Thematic Real-time Environmental Distributed Data Services) Data Server (TDS). Depending on the dataset, the TDS can provide WMS, WCS, DAP, HTTP, and other data access and metadata services as well. For more information on the TDS, see http://www.unidata.ucar.edu/software/thredds/current/tds/.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "THREDDS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "THREDDS",
+      "created": "2016-09-12T18:22:36.711569",
+      "url": "https://data.nodc.noaa.gov/thredds/catalog/ioos/secoora/enp.wrbf1.met/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "e4d3e32e-bf7a-427a-8e4d-6c23e3b93729",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7c22964e-4cd4-4760-85b1-01ffda673207",
+      "webstore_last_updated": null,
+      "id": "38361e7c-d2d9-4c68-b8f0-a2e92db3bcb6",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "These data are available through the Data Access Protocol (DAP) via an OPeNDAP Hyrax server. For a listing of OPeNDAP clients which may be used to access OPeNDAP-enabled data sets, please see the OPeNDAP website at http://opendap.org/.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "DAP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OPeNDAP",
+      "created": "2016-09-12T18:22:36.711576",
+      "url": "https://data.nodc.noaa.gov/opendap/ioos/secoora/enp.wrbf1.met/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 3,
+      "revision_id": "e4d3e32e-bf7a-427a-8e4d-6c23e3b93729",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7c22964e-4cd4-4760-85b1-01ffda673207",
+      "webstore_last_updated": null,
+      "id": "ac9ff0c6-01a8-418f-9dde-1781d94e28c9",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Navigate directly to the URL for a descriptive web page with download links.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Descriptive Information",
+      "created": "2016-09-12T18:22:36.711584",
+      "url": "https://accession.nodc.noaa.gov/oas/118766",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 4,
+      "revision_id": "e4d3e32e-bf7a-427a-8e4d-6c23e3b93729",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7c22964e-4cd4-4760-85b1-01ffda673207",
+      "webstore_last_updated": null,
+      "id": "a1ee0ac3-7759-4151-b9ad-d23296058c10",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Navigate directly to the URL for data access and direct download.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "HTTP",
+      "created": "2016-09-12T18:22:36.711591",
+      "url": "https://accession.nodc.noaa.gov/download/118766",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 5,
+      "revision_id": "e4d3e32e-bf7a-427a-8e4d-6c23e3b93729",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7c22964e-4cd4-4760-85b1-01ffda673207",
+      "webstore_last_updated": null,
+      "id": "76afa8c3-32f6-47c3-b324-a98cd1e7541e",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "These data are available through the File Transfer Protocol (FTP). You may use any FTP client to download these data.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "FTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FTP",
+      "created": "2016-09-12T18:22:36.711598",
+      "url": "ftp://ftp.nodc.noaa.gov/nodc/archive/arc0064/0118766/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 6,
+      "revision_id": "e4d3e32e-bf7a-427a-8e4d-6c23e3b93729",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7c22964e-4cd4-4760-85b1-01ffda673207",
+      "webstore_last_updated": null,
+      "id": "3a3a68c0-af9c-40a5-bda7-5459acc773cd",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Main NCEI website providing links to access data and data services.",
+      "format": "",
+      "tracking_summary": {
+        "total": 51,
+        "recent": 8
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA National Centers for Environmental Information website",
+      "created": "2016-09-12T18:22:36.711605",
+      "url": "https://www.ncei.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 7,
+      "revision_id": "e4d3e32e-bf7a-427a-8e4d-6c23e3b93729",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7c22964e-4cd4-4760-85b1-01ffda673207",
+      "webstore_last_updated": null,
+      "id": "3909a2a9-1476-4279-88e3-60e9f311e9da",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Main NODC website providing links to access data and data services.",
+      "format": "",
+      "tracking_summary": {
+        "total": 7,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA National Oceanographic Data Center website",
+      "created": "2016-09-12T18:22:36.711612",
+      "url": "https://www.nodc.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 8,
+      "revision_id": "e4d3e32e-bf7a-427a-8e4d-6c23e3b93729",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7c22964e-4cd4-4760-85b1-01ffda673207",
+      "webstore_last_updated": null,
+      "id": "1f185487-d924-40db-95d2-2c960c8ac98c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Institution web page",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "University of South Carolina (USC) website",
+      "created": "2016-09-12T18:22:36.711619",
+      "url": "http://www.sc.edu/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 9,
+      "revision_id": "e4d3e32e-bf7a-427a-8e4d-6c23e3b93729",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7c22964e-4cd4-4760-85b1-01ffda673207",
+      "webstore_last_updated": null,
+      "id": "e9aa8a42-2cdd-40d3-9b57-401f24beb183",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Institution web page",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Southeast Coastal Ocean Observing Regional Association (SECOORA) website",
+      "created": "2016-09-12T18:22:36.711654",
+      "url": "http://secoora.org/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 10,
+      "revision_id": "e4d3e32e-bf7a-427a-8e4d-6c23e3b93729",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7c22964e-4cd4-4760-85b1-01ffda673207",
+      "webstore_last_updated": null,
+      "id": "0f934465-c601-47ff-bcc7-d3fd95b671d2",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Institution web page",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "University of South Carolina (USC) website",
+      "created": "2016-09-12T18:22:36.711663",
+      "url": "http://www.sc.edu/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 11,
+      "revision_id": "e4d3e32e-bf7a-427a-8e4d-6c23e3b93729",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7c22964e-4cd4-4760-85b1-01ffda673207",
+      "webstore_last_updated": null,
+      "id": "185701ee-e510-4fa1-a4a6-5a03c0ce74ea",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Main NCEI website providing links to access data and data services.",
+      "format": "",
+      "tracking_summary": {
+        "total": 51,
+        "recent": 8
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA National Centers for Environmental Information website",
+      "created": "2016-09-12T18:22:36.711670",
+      "url": "https://www.ncei.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 12,
+      "revision_id": "e4d3e32e-bf7a-427a-8e4d-6c23e3b93729",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7c22964e-4cd4-4760-85b1-01ffda673207",
+      "webstore_last_updated": null,
+      "id": "2ca736f7-0acc-44d1-8c54-2ee0bb0b5cc3",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-09-12T18:22:36.711677",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 13,
+      "revision_id": "e4d3e32e-bf7a-427a-8e4d-6c23e3b93729",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7c22964e-4cd4-4760-85b1-01ffda673207",
+      "webstore_last_updated": null,
+      "id": "0d3796ff-2b2e-4ae1-a721-1e4a4facb8a8",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-09-12T18:22:36.711684",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 14,
+      "revision_id": "e4d3e32e-bf7a-427a-8e4d-6c23e3b93729",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7c22964e-4cd4-4760-85b1-01ffda673207",
+      "webstore_last_updated": null,
+      "id": "6457398e-de79-42ad-a9e7-6c94425395a9",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-09-12T18:22:36.711691",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 15,
+      "revision_id": "e4d3e32e-bf7a-427a-8e4d-6c23e3b93729",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7c22964e-4cd4-4760-85b1-01ffda673207",
+      "webstore_last_updated": null,
+      "id": "3d332d9b-2a52-49f0-8bb6-b9c4db4a16bb",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-09-12T18:22:36.711698",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 16,
+      "revision_id": "e4d3e32e-bf7a-427a-8e4d-6c23e3b93729",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7c22964e-4cd4-4760-85b1-01ffda673207",
+      "webstore_last_updated": null,
+      "id": "6750b679-d616-435b-95b6-9a21a1f48f38",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-09-12T18:22:36.711705",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 17,
+      "revision_id": "e4d3e32e-bf7a-427a-8e4d-6c23e3b93729",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7c22964e-4cd4-4760-85b1-01ffda673207",
+      "webstore_last_updated": null,
+      "id": "c66de504-86b7-4801-9a06-d4dea9995670",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-09-12T18:22:36.711712",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 18,
+      "revision_id": "e4d3e32e-bf7a-427a-8e4d-6c23e3b93729",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 19,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 0,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "oceanographic-and-surface-meteorological-data-collected-from-station-wrbf1-by-everglades-nation",
+  "isopen": false,
+  "url": null,
+  "notes": "NCEI Accession 0118766 contains oceanographic and surface meteorological data in netCDF formatted files, which follow the Climate and Forecast metadata convention (CF) and the Attribute Convention for Data Discovery (ACDD). ENP collected the data from their in-situ moored station named wrbf1 in the Coastal Waters of Florida, Gulf of Mexico and North Atlantic Ocean. SECOORA, which assembles data from ENP and other sub-regional coastal and ocean observing systems of the southeast United States, submitted the data to NCEI as part of the Integrated Ocean Observing System Data Assembly Centers (IOOS DACs) Data Stewardship Program. Each month, NCEI adds to the Accession the data collected during the previous month.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-80.728"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "25.077"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "PNG"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.nodc:0118766"
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://data.nodc.noaa.gov/cgi-bin/gfx?id=gov.noaa.nodc:0118766"
+    },
+    {
+      "key": "metadata-language",
+      "value": "eng"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Point\", \"coordinates\": [-80.728, 25.077]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Cite as: Cothran, J. and Southeast Coastal Ocean Observing Regional Association (2016). Oceanographic and surface meteorological data collected from station wrbf1 by Everglades National Park (ENP) and assembled by Southeast Coastal Ocean Observing Regional Association (SECOORA) in the Coastal Waters of Florida, Gulf of Mexico and North Atlantic Ocean from 2014-02-13 to 2016-05-31 (NODC Accession 0118766). Version 26.26. National Oceanographic Data Center, NOAA. Dataset. [access date]\", \"NOAA and NCEI cannot provide any warranty as to the accuracy, reliability, or completeness of furnished data. Users assume responsibility to determine the usability of these data. The user is responsible for the results of any application of this data for other than its intended purpose.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2014-02-13"
+    },
+    {
+      "key": "contact-email",
+      "value": "NCEI.Info@noaa.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-80.728"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-07-10T17:05:59"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2014-05-29\"}, {\"type\": \"revision\", \"value\": \"2016-06-05\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "Preview graphic"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"accessLevel: Public\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2016-05-31"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "25.077"
+    },
+    {
+      "key": "tags",
+      "value": "ocean temperature, integrated ocean observing system, doc/noaa/nesdis/ncei, national oceanographic data center, nesdis, noaa, u.s. department of commerce, earth science, oceanography, http://www.nps.gov/, national park service, u.s. department of the interior, in situ/laboratory instruments, g - i, government agencies-u.s. federal agencies, latitude, doi/nps, atlantic ocean, national centers for environmental information, nesdis, noaa, u.s. department of commerce, temperature/humidity sensors, north atlantic ocean, oceans, ioos, gulf of mexico, water temperature, doc/noaa/nesdis/nodc, doi, longitude, ocean, temperature sensors, time, sea_water_temperature"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "4cb82768-cbe0-4c67-9e9b-c7a89b3ee0eb"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Oceanographic and surface meteorological data collected from station wrbf1 by Everglades National Park (ENP) and assembled by Southeast Coastal Ocean Observing Regional Association (SECOORA) in the Coastal Waters of Florida, Gulf of Mexico and North Atlantic Ocean from 2014-02-13 to 2016-05-31 (NODC Accession 0118766)",
+  "revision_id": "b107f827-ac99-4d71-8463-6406fce97694"
+}

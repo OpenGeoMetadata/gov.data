@@ -1,0 +1,232 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Gary Jahns",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "gary.c.jahns@nasa.gov",
+  "num_tags": 3,
+  "id": "485ceb73-d709-46cd-83a8-bc69f69943aa",
+  "metadata_created": "2015-04-09T19:15:05.642740",
+  "metadata_modified": "2015-07-08T19:42:18.329269",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "485ceb73-d709-46cd-83a8-bc69f69943aa",
+      "webstore_last_updated": null,
+      "id": "b7ea6664-7fd7-4f1f-938d-016f5bad92c2",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "XML",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/xml",
+      "cache_url": null,
+      "name": "XML File",
+      "created": "2015-04-09T15:15:05.734189",
+      "url": "http://techport.nasa.gov/xml-api/8891",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "28214259-9820-4ee9-bc30-699c2eb747e3",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "completed",
+      "id": "5e4de852-789d-47bf-af3b-ba9a0dd8d489",
+      "name": "completed"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "jet-propulsion-laboratory",
+      "id": "90e37fea-eb8b-469e-a368-229c255aa44f",
+      "name": "jet-propulsion-laboratory"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "project",
+      "id": "24471320-3e5c-42b5-a078-8e48e70e2ac4",
+      "name": "project"
+    }
+  ],
+  "tracking_summary": {
+    "total": 15,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "multi-point-trilateration-a-new-approach-for-distributed-metrology-project",
+  "isopen": true,
+  "url": null,
+  "notes": "For NASA missions requiring active control of segmented mirrors, optical\ntrusses and booms, coherent, laser-based approaches such as CW laser\ninterferometers have been preferred because they can provide very high\nresolution relative position measurements.  Other approaches, such as\nmulti-color interferometers can provide absolute range measurements.\nHowever, neither technique can measure multiple retroreflectors with a\nsingle optical transceiver.  This has led to complex distributed\nmetrology systems, which are limited in usefulness.  Bridger Photonics\nInc. proposes to investigate a novel distributed metrology approach that\nis uniquely enabled by its SLM-Series of actively stabilized swept laser\nsources.  The technique, termed multi-point trilateration, uses a\nfrequency modulated continuous wave (FMCW) chirped laser radar to\ndetermine the range to multiple reflectors that are illuminated\nsimultaneously by three or more large field-of-view transceivers.\nBecause Bridger's laser radar system can unambiguously determine the\nrange to multiple targets within the field-of-view with high accuracy,\ntrilateration can be utilized to estimate the three-dimensional (3D)\ncoordinates for all of the retroreflective targets within the\nfield-of-view.  Bridger provides two critical advantages for the\ndevelopment of this distributed metrology system:  1) The world's\nhighest resolution laser radar system, which is crucial for determining\nthe range to the multiple retroreflectors, and 2) Proprietary processing\ntechniques that enable Cramer-Rao lower bound limited range estimation.\nUnder the proposed work plan, Bridger will provide an optimal design for\nTransceiver/Retroreflector geometries and model the expected\nperformance, conduct demonstrations validating the system performance\nand provide a space-qualifiable, compact system design that can be built\nand delivered to NASA during a Phase II effort should the approach be feasible.",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "issued",
+      "value": "2011-02-01T00:00:00Z"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://techport.nasa.gov/home",
+        "http://techport.nasa.gov/doc/home/TechPort_Advanced_Search.pdf",
+        "http://techport.nasa.gov/fetchFile?objectId=6561",
+        "http://techport.nasa.gov/fetchFile?objectId=3456",
+        "http://techport.nasa.gov/fetchFile?objectId=3447",
+        "http://techport.nasa.gov/fetchFile?objectId=6584",
+        "http://techport.nasa.gov/fetchFile?objectId=6560",
+        "http://techport.nasa.gov/fetchFile?objectId=3448"
+      ]
+    },
+    {
+      "key": "source_hash",
+      "value": "ee3013b9319c832c89cea9f6d332043b47ec0813"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "temporal",
+      "value": "2011-02-01T00:00:00Z/2011-08-01T00:00:00Z"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:027"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://techport.nasa.gov/view/8891"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "3583e9a4-ece3-4fa4-b72d-3e505646573d"
+    },
+    {
+      "key": "publisher",
+      "value": "Space Technology Mission Directorate"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "55942aa1c63a7fe59b499713"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "National Aeronautics and Space Administration > Space Technology Mission Directorate"
+    },
+    {
+      "key": "modified",
+      "value": "2015-03-12"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "TECHPORT_8891"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "3583e9a4-ece3-4fa4-b72d-3e505646573d"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "Multi-Point Trilateration: A New Approach for Distributed Metrology Project",
+  "revision_id": "b4740f8c-f10d-4eb4-a0be-41f9cca60131"
+}

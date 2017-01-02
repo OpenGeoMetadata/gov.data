@@ -1,0 +1,255 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "Giorgio Bacelli",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "gbacell@sandia.gov",
+  "num_tags": 5,
+  "id": "21b8d618-eaf1-40ce-8e49-fa31d7b3bbf8",
+  "metadata_created": "2016-11-30T21:28:04.703688",
+  "metadata_modified": "2016-11-30T21:28:04.703688",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "21b8d618-eaf1-40ce-8e49-fa31d7b3bbf8",
+      "webstore_last_updated": null,
+      "id": "2cd798e2-50c5-402a-836f-0c3760f74200",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "WEC model and simulation data",
+      "format": "mat",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "cdof-data.mat",
+      "created": "2016-11-30T16:28:04.984546",
+      "url": "http://mhkdr.openei.org/files/149/CDOF_data.mat",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "9583c601-1fd3-4614-9126-5e9529be52b5",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "21b8d618-eaf1-40ce-8e49-fa31d7b3bbf8",
+      "webstore_last_updated": null,
+      "id": "b0f6726b-6096-4db1-8b01-c0f2c416f4f1",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Document describing WEC model, simulation setup and analysis of results",
+      "format": "PDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/pdf",
+      "cache_url": null,
+      "name": "cdof-wec-sand-report.pdf",
+      "created": "2016-11-30T16:28:04.984596",
+      "url": "http://mhkdr.openei.org/files/149/CDOF_WEC_SAND_Report.pdf",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 1,
+      "revision_id": "9583c601-1fd3-4614-9126-5e9529be52b5",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "energy",
+      "id": "b778e6f8-a8f8-4ad6-968b-e9789c6afe2d",
+      "name": "energy"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "hydrokinetic",
+      "id": "87031483-72d6-457d-9dd2-3e403f2849aa",
+      "name": "hydrokinetic"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "marine",
+      "id": "f2ee2106-f44e-4421-ac64-6ed0f2451d6c",
+      "name": "marine"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "mhk",
+      "id": "a4efdc0e-8038-4a07-a08f-df8d5df9657c",
+      "name": "mhk"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "power",
+      "id": "eb008bfb-077a-445c-b461-3f704b8e22b1",
+      "name": "power"
+    }
+  ],
+  "tracking_summary": {
+    "total": 1,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "modeling-and-performance-data-for-heaving-bouy-wave-energy-converter-with-a-compressible-d",
+  "isopen": true,
+  "url": null,
+  "notes": "The data is composed of a .mat file and a pdf.\nThe pdf document describes the model, the simulations, and the analysis that has been carried out.\nThe .mat file contains 3 matlab structures:\n\n- WEC_model: all the data necessary to build the model is contained in this file. The notation is consistent with the report (variables have the same name as in the attached report).\n\n-simRes_fix: this structure contains simulation results for the WEC with compressible degree of freedom reacting against a fixed structure. The description of all the quantities and their unit are also contained in this variable.\n\n-simRes_sr: this structure contains simulation results for then self-reacting WEC with compressible degree of freedom. The description of all the quantities and their unit are also contained in this variable",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "issued",
+      "value": "2016-09-28"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "10897177e20aec418f4f41ef00dee3ff340c97ec"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-127.912309375,43.723676294292],[-117.9478109375,43.723676294292],[-117.9478109375,49.635089993872],[-127.912309375,49.635089993872],[-127.912309375,43.723676294292]]]}"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "format",
+      "value": "application/unknown"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:009"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://mhkdr.openei.org/submissions/149"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "2eacd391-7278-445f-bfd3-71caacea9a12"
+    },
+    {
+      "key": "accessURL",
+      "value": "http://mhkdr.openei.org/files/149/CDOF_data.mat"
+    },
+    {
+      "key": "publisher",
+      "value": "Sandia National Laboratories"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "key": "modified",
+      "value": "2016-09-28"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/f0000000-e214-4a72-acd2-000000000149"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "2eacd391-7278-445f-bfd3-71caacea9a12"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "Modeling and performance data for heaving bouy wave energy converter with a compressible degree of freedom",
+  "revision_id": "9583c601-1fd3-4614-9126-5e9529be52b5"
+}

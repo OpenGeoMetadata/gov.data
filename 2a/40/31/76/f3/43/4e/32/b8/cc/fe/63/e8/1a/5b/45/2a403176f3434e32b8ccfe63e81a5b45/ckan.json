@@ -1,0 +1,237 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "2a403176-f343-4e32-b8cc-fe63e81a5b45",
+  "metadata_created": "2016-07-04T21:17:24.523311",
+  "metadata_modified": "2016-07-04T21:17:24.523311",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "2a403176-f343-4e32-b8cc-fe63e81a5b45",
+      "webstore_last_updated": null,
+      "id": "7be413d2-b246-4e99-8696-85defd4fb1bb",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Information about the dataset",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Cite URL",
+      "created": "2016-07-04T17:17:24.672323",
+      "url": "http://www.esrl.noaa.gov/psd/data/gridded/data.precl.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "2003af33-5acc-4f32-b743-e6a180427eb5",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2a403176-f343-4e32-b8cc-fe63e81a5b45",
+      "webstore_last_updated": null,
+      "id": "18a25281-959e-4dcd-ab74-8e437db668fc",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Thredds Data server.  Allows http, opendap, and possibly WCS and WMS downaloads.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Thredds Server",
+      "created": "2016-07-04T17:17:24.672348",
+      "url": "http://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/precl/catalog.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "2003af33-5acc-4f32-b743-e6a180427eb5",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2a403176-f343-4e32-b8cc-fe63e81a5b45",
+      "webstore_last_updated": null,
+      "id": "20203eac-dc62-42e3-adc6-5e1e2a4c7c9f",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "FTP server.",
+      "format": "NETCDF4_CLASSIC",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FTP server",
+      "created": "2016-07-04T17:17:24.672358",
+      "url": "ftp://ftp.cdc.noaa.gov/Datasets/precl",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "2003af33-5acc-4f32-b743-e6a180427eb5",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 7,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "precipitation-reconstruction-over-land-prec-l",
+  "isopen": false,
+  "url": null,
+  "notes": "The monthly data set consists files of  3 resolutions of monthly averaged precipitation totals. The global analyses are defined by interpolation of gauge observations over land (PREC-L) and by EOF recon- struction of historical observations over ocean (PREC-O). Gauge observations are from over 17 000 stations collected in the Global Historical Climatology Network (GHCN), version 2, and the Climate Anomaly Monitoring System (CAMS) datasets. An OI technique of Gandin was used to assimilate the observations. The mean distribution and annual cycle of precipitation observed in the PREC/L showed good agreement with those in several published gauge-based datasets, and the anomaly patterns associated with ENSO resemble those found in previous studies. All maps are stored using a landmark.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "temporal-extent-begin",
+      "value": "1948-01-01"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2016-05-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "webmaster.psd@noaa.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-05-01"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"lastUpdate\", \"value\": \"2016-05-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"\", \"roles\": [\"custodian\"]}]"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://www.esrl.noaa.gov/psd/mddb2/browseGraphics/Precipitation_Reconstruction_over_Land_(PRECL).png"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "ongoing"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.esrl.psd.dataset.Precipitation_Reconstruction_over_Land_PRECL"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "tags",
+      "value": "average monthly rate of precipitation, number of gauges in grid cell for average monthly rate of precipitation"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "642b8e68-7307-4e7d-8cbd-18ae16c9d337"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Precipitation Reconstruction over Land (PREC/L)",
+  "revision_id": "2003af33-5acc-4f32-b743-e6a180427eb5"
+}

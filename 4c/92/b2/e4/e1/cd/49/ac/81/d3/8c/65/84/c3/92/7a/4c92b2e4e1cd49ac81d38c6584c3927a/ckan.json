@@ -1,0 +1,268 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "4c92b2e4-e1cd-49ac-81d3-8c6584c3927a",
+  "metadata_created": "2015-09-26T23:50:04.683857",
+  "metadata_modified": "2015-09-26T23:50:04.683857",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "4c92b2e4-e1cd-49ac-81d3-8c6584c3927a",
+      "webstore_last_updated": null,
+      "id": "dc118544-9958-461d-8561-2a9e0bf7b7b8",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 11,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "c35d610f-77a1-44d6-887a-eb16699748c4",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Esri Rest API Endpoint",
+      "created": "2015-09-26T19:50:04.839284",
+      "url": "http://www.ncddc.noaa.gov/arcgis/rest/services/OceanExploration/OECruiseData/MapServer",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "4c92b2e4-e1cd-49ac-81d3-8c6584c3927a",
+      "webstore_last_updated": null,
+      "id": "8e462890-c180-4f25-b745-7fdd4390e87c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "WMS",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "c35d610f-77a1-44d6-887a-eb16699748c4",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Mapping Service",
+      "created": "2015-09-26T19:50:04.839307",
+      "url": "http://www.ncddc.noaa.gov/arcgis/services/OceanExploration/OECruiseData/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "4c92b2e4-e1cd-49ac-81d3-8c6584c3927a",
+      "webstore_last_updated": null,
+      "id": "af8aee36-03e2-4c3b-89a7-3741dab7c312",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 11,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "c35d610f-77a1-44d6-887a-eb16699748c4",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Esri Rest API Endpoint",
+      "created": "2015-09-26T19:50:04.839316",
+      "url": "http://www.ncddc.noaa.gov/arcgis/rest/services/OceanExploration/OECruiseData/MapServer",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 2,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "ship-sensor-observations-for-islands-in-the-stream-2002-exploration-of-outer-shelf-and-slope-h",
+  "isopen": false,
+  "url": null,
+  "notes": "Hourly measurements made by selected ship sensors on the R/V Seward Johnson during the 2002 \"Islands in the Stream - Exploration of Outer Shelf and Slope Habitats off the Coast of North Carolina\" expedition sponsored by the National Oceanic and Atmospheric Administration (NOAA) Office of Ocean Exploration, August 5 - 15, 2002. Measurements include ship's position and heading, air temperature, relative humidity, barometric pressure, wind speed and direction, depth, total solar irradiance, chlorophyll-a (fluorometer), sea surface temperature, and salinity. This data set was compiled from Virtual Instrument Data System (VIDS) ASCII files provided by the University of Miami Marine Technology Group at Harbor Branch Oceanographic Institution. Quality assurance included a check of distances between hourly positions, checks for missing hourly data, review of minimum and maximum values, verification of continuous pump operation, and deletion of negative values.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-75.5"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "34.75"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "GIF"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://www.ncddc.noaa.gov/approved_recs/ncddc_ims/gis/ims/final/iis02_02ross_ship_obs_browse_iis02_02ross_ship_obs.gif"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-79.5, 32.5], [-75.5, 32.5], [-75.5, 34.75], [-79.5, 34.75], [-79.5, 32.5]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2002-08-05"
+    },
+    {
+      "key": "contact-email",
+      "value": "ncddcmetadata@noaa.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-79.5"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2014-10-29"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "location of ship observations for Islands in the Stream 2002 - Exploration of Outer Shelf and Slope Habitats off the Coast of North Carolina"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "licence",
+      "value": "[\"NOAA makes no warranty regarding these data, expressed or implied, nor does the fact of distribution constitute such a warranty. NOAA, NESDIS, NODC and NCDDC cannot assume liability for any damages caused by any errors or omissions in these data, nor as a result of the failure of these data to function on a particular system.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"NOAA/NESDIS/NODC/NCDDC-National Coastal Data Development Center\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2002-08-15"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "32.5"
+    },
+    {
+      "key": "tags",
+      "value": "irradiance, atlantic ocean, wind direction, wind speed, south atlantic bight, north carolina, meteorology, florida, air temperature, relative humidity, salinity, fluorometer, chlorophyll, sea surface temperature, barometric pressure, water temperature, north atlantic"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "07e732fc-ac3f-4566-a158-9860d3060ad1"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Ship Sensor Observations for Islands in the Stream 2002 - Exploration of Outer Shelf and Slope Habitats off the Coast of North Carolina - Office of Ocean Exploration",
+  "revision_id": "c35d610f-77a1-44d6-887a-eb16699748c4"
+}

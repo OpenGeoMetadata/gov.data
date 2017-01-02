@@ -1,0 +1,246 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "2ccc0e95-b433-4785-9055-07d071433eef",
+  "metadata_created": "2013-03-15T21:12:26.952672",
+  "metadata_modified": "2014-11-17T21:10:11.040322",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "2ccc0e95-b433-4785-9055-07d071433eef",
+      "webstore_last_updated": null,
+      "id": "8ffbcc55-7e63-4867-a1b3-d053c9e0d663",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "Full coverage",
+      "format": "Export",
+      "tracking_summary": {
+        "total": 7,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Export",
+      "created": "2014-11-17T16:10:11.139406",
+      "url": "http://water.usgs.gov/GIS/dsdl/uspop80.e00.gz",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "e251ab0a-3b99-4019-8d8e-8ecfc6074ab6",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2ccc0e95-b433-4785-9055-07d071433eef",
+      "webstore_last_updated": null,
+      "id": "40d075fa-04e9-498c-b799-2c72abb06f08",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "Full coverage",
+      "format": "TAR",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "SDTS",
+      "created": "2014-11-17T16:10:11.139439",
+      "url": "http://water.usgs.gov/GIS/dsdl/uspop80.sdts.tgz",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "e251ab0a-3b99-4019-8d8e-8ecfc6074ab6",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2ccc0e95-b433-4785-9055-07d071433eef",
+      "webstore_last_updated": null,
+      "id": "a0b665a7-90f9-4b9d-87d0-1d329c06c5db",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Export",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "e251ab0a-3b99-4019-8d8e-8ecfc6074ab6",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-11-17T16:10:11.139446",
+      "url": "http://water.usgs.gov/lookup/getspatial?uspop80",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 29,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "1980-point-population-coverage-for-the-conterminous-united-states",
+  "isopen": false,
+  "url": null,
+  "notes": "A point coverage was created from the 1980 Master Area Reference File (MARF) of the U.S. Census Bureay. Each point represents the center of a census tract, though some tracts were split. A 1980 population is associated with each point. Populations for 1970, 1982, 1984, and 1985 were inferred from county population data.",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Geological Survey, Water Resources Div. (WRD)\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "h2oteam@usgs.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-127.73757901"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2004-11-08"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"1993-01-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-65.45077373"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "48.19518956"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "22.9772897"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although this data set has been used by the U.S. Geological\\nSurvey, U.S. Department of the Interior, no warranty expressed or\\nimplied is made by the U.S. Geological Survey as to the accuracy\\nof the data and related materials. The act of distribution shall not \\nconstitute any such warranty, and no responsibility is assumed by \\nthe U.S. Geological Survey in the use of this data, software, or \\nrelated materials.\\n\\nAny use of trade, product, or firm names is for descriptive\\npurposes only and does not imply endorsement by the U.S.\\nGovernment.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-127.73757901, 22.9772897], [-65.45077373, 22.9772897], [-65.45077373, 48.19518956], [-127.73757901, 48.19518956], [-127.73757901, 22.9772897]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: Only the approximate centers of census tracts are recorded. The point representing a tract can be anywhere within the tract. Some of the larger tracts were split.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "tags",
+      "value": "inlandwaters, conterminous united states, 1980, housing, united states, population"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "3197e5a2-fd5e-46ea-ad09-501e2a8e7f0f"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "e11eb0c1-b794-4812-9369-1bd7306336cd"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Water NSDI Node Spatial Datasets"
+    }
+  ],
+  "title": "1980 point population coverage for the Conterminous United States",
+  "revision_id": "5f047853-eae6-421e-8c64-22fb61f5529d"
+}

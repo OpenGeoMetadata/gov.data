@@ -1,0 +1,246 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "726fed7f-50d7-40be-96a2-23881be9e83b",
+  "metadata_created": "2013-03-15T21:21:39.056385",
+  "metadata_modified": "2014-11-17T21:12:38.004011",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "726fed7f-50d7-40be-96a2-23881be9e83b",
+      "webstore_last_updated": null,
+      "id": "3d70b08f-59aa-4d90-8158-868a9a3f8217",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "Full grid",
+      "format": "Export",
+      "tracking_summary": {
+        "total": 120,
+        "recent": 3
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Export",
+      "created": "2014-11-17T16:12:38.350140",
+      "url": "http://water.usgs.gov/GIS/dsdl/muid.e00.gz",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "326dd82c-e490-4276-af0a-fa6f7da85ab3",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "726fed7f-50d7-40be-96a2-23881be9e83b",
+      "webstore_last_updated": null,
+      "id": "5776139a-4c5d-4aa2-ac92-5bb4c46a87f7",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "Tar file of Arc/INFO grid and associated tables",
+      "format": "TAR",
+      "tracking_summary": {
+        "total": 108,
+        "recent": 3
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Grid",
+      "created": "2014-11-17T16:12:38.350163",
+      "url": "http://water.usgs.gov/GIS/dsdl/muid.tgz",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "326dd82c-e490-4276-af0a-fa6f7da85ab3",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "726fed7f-50d7-40be-96a2-23881be9e83b",
+      "webstore_last_updated": null,
+      "id": "5b12134d-e817-4c14-a30d-c59e897f1c43",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Export",
+      "tracking_summary": {
+        "total": 29,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "326dd82c-e490-4276-af0a-fa6f7da85ab3",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-11-17T16:12:38.350171",
+      "url": "http://water.usgs.gov/lookup/getspatial?muid",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 970,
+    "recent": 10
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "statsgo-soil-characteristics-for-the-conterminous-united-states",
+  "isopen": false,
+  "url": null,
+  "notes": "This digital data release consists of an ARC/INFO grid and associated INFO tables. The grid is called MUID and has STATSGO (U.S. Department of Agriculture, 1994) soil mapping unit identifiers gridded on a 1-kilometer resolution for the conterminous United States. The INFO tables have soil characteristics data in them. The ITEMS in the tables are weighted average values for several soil characteristics in the STATSGO data base. The weighted average values were computed by aggregating the soil layers and components in the data base. The INFO tables are called MUID.LAYER, MUID.COMP, MUID.KFACT, MUID.TFACT, and MUID.WEG. The INFO tables can be related or joined to the MUID grid or to individual State coverages (grids or polygons) of MUIDs. Joining or relating the tables to the MUID grid creates 1-kilometer resolution grids of the soil characteristics for the conterminous United States. The soil characteristics in MUID.LAYER are permeability (PERML and PERMH in the STATSGO data base), available water capacity (AWCL and AWCH), bulk density (BDL and BDH), and organic matter (OML and OMH). The soil characteristics in MUID.COMP are slope (SLOPEL and SLOPEH), depth to seasonally high water table (WTDEPL and WTDEPH), and depth to bedrock (ROCKDEPL and ROCKDEPH). The soil characteristic in MUID.KFACT is the soil erodibility factor (KFACT), the soil characteristic in MUID.TFACT is the soil loss tolerance factor (TFACT), and the soil characteristic in MUID.WEG is the wind erosion group (WEG). The MUID grid and INFO tables were created with a set of arc macro language (aml) and Fortran programs. Send electronic mail to dwolock@usgs.gov to obtain copies of the computer code. (See Procedures_Used.)",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Geological Survey\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "dwolock@usgs.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-129.4956"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2004-11-08"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"1997-01-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-64.4393"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "48.6336"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "21.8079"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although this data set has been used by the U.S. Geological\\nSurvey, U.S. Department of the Interior, no warranty expressed or\\nimplied is made by the U.S. Geological Survey as to the accuracy\\nof the data and related materials. The act of distribution shall not \\nconstitute any such warranty, and no responsibility is assumed by \\nthe U.S. Geological Survey in the use of this data, software, or \\nrelated materials.\\n\\nAny use of trade, product, or firm names is for descriptive\\npurposes only and does not imply endorsement by the U.S.\\nGovernment.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-129.4956, 21.8079], [-64.4393, 21.8079], [-64.4393, 48.6336], [-129.4956, 48.6336], [-129.4956, 21.8079]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: The STATSGO data are compiled by generalizing more detailed county soil survey maps. (See U.S. Department of Agriculture, 1994 for an explanation of how the STATSGO data were generated.) Because of their spatially generalized nature, the STATSGO data cannot be used to accurately estimate average soil characteristics for small areas. The STATSGO data-use information document states that \\\"STATSGO data are not detailed enough to make interpretations at a county level\\\" (U.S. Department of Agriculture, 1994).\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "tags",
+      "value": "inlandwaters, conterminous united states, soils, statsgo, conterminous united states"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "b03059bb-2922-4901-bb7e-f91942bd0d11"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "e11eb0c1-b794-4812-9369-1bd7306336cd"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Water NSDI Node Spatial Datasets"
+    }
+  ],
+  "title": "STATSGO soil characteristics for the conterminous United States",
+  "revision_id": "c1494f95-5ff7-455c-ba05-765714c7cef5"
+}

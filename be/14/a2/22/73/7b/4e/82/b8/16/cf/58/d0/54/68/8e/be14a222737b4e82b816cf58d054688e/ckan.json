@@ -1,0 +1,242 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "Khalid Hussein",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "Khalid.Hussein@colorado.edu",
+  "num_tags": 7,
+  "id": "be14a222-737b-4e82-b816-cf58d054688e",
+  "metadata_created": "2016-11-30T21:30:05.608036",
+  "metadata_modified": "2016-11-30T21:30:05.608036",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "be14a222-737b-4e82-b816-cf58d054688e",
+      "webstore_last_updated": null,
+      "id": "01b4be0b-ffed-4e97-a70a-add72d758788",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Shapefile. This layer contains areas of anomalous surface temperature in Alamosa and Saguache Counties identified from ASTER thermal data and spatial based insolation model. The temperature is calculated using the Emissivity Normalization Algorithm that separate temperature from emissivity. The incoming solar radiation was calculated using spatial based insolation model developed by Fu and Rich (1999). Then the temperature due to solar radiation was calculated using emissivity derived from ASTER data. The residual temperature, i.e. temperature due to solar radiation subtracted from ASTER temperature was used to identify thermally anomalous areas. Areas that had temperature greater than 2σ were considered ASTER modeled very warm surface exposures (thermal anomalies)\n",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "warm modeled temperature alamosa saguache.zip",
+      "created": "2016-11-30T16:30:05.764925",
+      "url": "http://gdr.openei.org/files/312/Warm%20Modeled%20Temperature%20Alamosa%20Saguache%20%281%29.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "44de5ee6-2079-4b71-a008-132698e88bf0",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "alamosa-county",
+      "id": "2d502465-9c2d-454b-aeaa-9f7843dce5c5",
+      "name": "alamosa-county"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "aster",
+      "id": "6cd40cb4-a14c-4270-8b9f-550de9828472",
+      "name": "aster"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "colorado",
+      "id": "e7376c2e-a2cf-4d85-8f2f-0d09e6a35f48",
+      "name": "colorado"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geothermal",
+      "id": "3f323051-fbd3-4715-bc13-e2fa5e65d369",
+      "name": "geothermal"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "remote-sensing",
+      "id": "6d180b70-95cc-4bb3-a94a-ca9170f4345a",
+      "name": "remote-sensing"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "saguache-county",
+      "id": "0c78a4d3-1ce2-48ef-a7e0-d46c83786b8f",
+      "name": "saguache-county"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "thermal-infrared",
+      "id": "25b494bc-f7a0-4a91-9c40-0ed482c923d0",
+      "name": "thermal-infrared"
+    }
+  ],
+  "tracking_summary": {
+    "total": 0,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "areas-of-weakly-anomalous-to-anomalous-surface-temperature-in-alamosa-and-saguache-countie-69f59",
+  "isopen": true,
+  "url": null,
+  "notes": "Very Warm Modeled Temperature Alamosa Saguache\nOriginated by Earth Science &Observation Center (ESOC), CIRES, University of Colorado at Boulder, 2012.\n\nThis “Weakly Anomalous to Anomalous Surface Temperature” dataset differs from the “Anomalous Surface Temperature” dataset for this county (another remotely sensed CIRES product) by showing areas of modeled temperatures between 1σ and 2σ above the mean, as opposed to the greater than 2σ temperatures contained in the “Anomalous Surface Temperature” dataset.\n\nExtent:\nTop: 4217727.601630 m\nLeft: 394390.400264 m\nRight: 460179.841813 m\nBottom: 4156258.036086 m\n\nSpatial Reference Information:\nCoordinate System: Universal Transverse Mercator (UTM) WGS’1984 Zone 13N\nFalse Easting: 500000.00000000\nFalse Northing: 0.00000000\nCentral Meridian: -105.00000000\nScale Factor: 0.99960000\nLatitude of Origin: 0.00000000\nLinear Unit: Meter\nDatum: World Geodetic System ’1984 (WGS ’1984)\nPrime Meridian: Greenwich\nAngular Unit: Degree\n\nDigital Form:\nFormat Name: Shape file",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "issued",
+      "value": "2012-02-01"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "1a50e450f7f9bce86a2b5d97c7ff1a0b63534205"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-106.84053203125,37.072932832763],[-104.28081875,37.072932832763],[-104.28081875,39.039884375945],[-106.84053203125,39.039884375945],[-106.84053203125,37.072932832763]]]}"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "format",
+      "value": "application/unknown"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:006"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://gdr.openei.org/submissions/312"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "f2308e83-b228-4da9-a684-5c77ad76cee2"
+    },
+    {
+      "key": "accessURL",
+      "value": "http://gdr.openei.org/files/312/Warm%20Modeled%20Temperature%20Alamosa%20Saguache%20%281%29.zip"
+    },
+    {
+      "key": "publisher",
+      "value": "Flint Geothermal, LLC"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "key": "modified",
+      "value": "2012-02-01"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/f0000000-e214-4c72-acd2-000000000312"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "f2308e83-b228-4da9-a684-5c77ad76cee2"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "Areas of Weakly Anomalous to Anomalous Surface Temperature in Alamosa and Saguache Counties, Colorado, as Identified from ASTER Thermal Data",
+  "revision_id": "44de5ee6-2079-4b71-a008-132698e88bf0"
+}

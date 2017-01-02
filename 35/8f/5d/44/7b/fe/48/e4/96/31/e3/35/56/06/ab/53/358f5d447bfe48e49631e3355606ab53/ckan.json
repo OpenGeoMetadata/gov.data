@@ -1,0 +1,248 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "358f5d44-7bfe-48e4-9631-e3355606ab53",
+  "metadata_created": "2014-09-17T17:52:03.955155",
+  "metadata_modified": "2014-09-17T17:52:03.955155",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "358f5d44-7bfe-48e4-9631-e3355606ab53",
+      "webstore_last_updated": null,
+      "id": "0dd47799-9f76-4ccb-8032-612670d5e2f0",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 709,
+        "recent": 21
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "1c26a34d-4506-4106-a178-7a3d47552504",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-09-17T13:52:04.044733",
+      "url": "http://msdis-maps.missouri.edu/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "358f5d44-7bfe-48e4-9631-e3355606ab53",
+      "webstore_last_updated": null,
+      "id": "a74ab6ce-f9d0-4b68-b084-d8a1f4aa0288",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "MO_2010_June_MoDOT_Roads_Routes_gdb.xml",
+      "format": "XML",
+      "tracking_summary": {
+        "total": 4,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "1c26a34d-4506-4106-a178-7a3d47552504",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-09-17T13:52:04.044767",
+      "url": "ftp://msdis.missouri.edu/pub/metadata_gos/MO_2010_June_MoDOT_Roads_Routes_gdb.xml",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "358f5d44-7bfe-48e4-9631-e3355606ab53",
+      "webstore_last_updated": null,
+      "id": "8855da5f-65da-40ff-a683-03e0851c9416",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "MO_2010_June_MoDOT_Roads_gdb.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 9,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "1c26a34d-4506-4106-a178-7a3d47552504",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2014-09-17T13:52:04.044779",
+      "url": "ftp://msdis.missouri.edu/pub/Transportation_Networks/MO_2010_June_MoDOT_Roads_gdb.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 17,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:43.960300",
+    "title": "NSGIC GIS Inventory (aka Ramona)",
+    "name": "gis-inventory-ramona-nsgic",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.nsgic.org/public_resources/nsgic-logo-b_1321892056.gif",
+    "revision_id": "979d3df0-d323-4e1e-ac62-d1623b463626",
+    "type": "organization",
+    "id": "b0b4c45b-a8ca-416b-b463-ee90d0a1a3df",
+    "approval_status": "approved"
+  },
+  "name": "road-and-street-centerlines-mo-2010-june-modot-roads-routes-gdb",
+  "isopen": false,
+  "url": null,
+  "notes": "Routes represent a single linear feature, such as a city street or highway. Routes are linear features composed of one or more arcs or parts of an arc; for example, a highway may be composed of a number of connected arcs. A route, for linear referencing purposes, is simply a linear feature with measure values attached to it. Each route, at minimum, has an associated measurement system consisting of a route identifier, a measurement value along the route. The measures are used to locate data that describe parts of the route. Event data can represent point or range data. Point events are locations (an accident, a sign, or a culvert) somewhere along a route at a single measure (log mile, mile post). Linear or range events (functional classification, pavement condition, pavement type) extend along a route that starts at a measure and ends at another measure.",
+  "owner_org": "b0b4c45b-a8ca-416b-b463-ee90d0a1a3df",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Missouri Spatial Data Information Services (MSDIS)\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-95.77441406"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2013-10-11"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2010-01-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-89.10059357"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "40.61402893"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "35.99509048"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although these data have been processed successfully on a computer system by the data steward, no warranty either expressed or implied is made regarding the utility of the data on any system, nor shall this notice generated by the Ramona GIS Inventory System or the act of distribution constitute any such warranty. The data steward may have additional liability information associated with delivery or distribution of this product.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "underDevelopment"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-95.77441406, 35.99509048], [-89.10059357, 35.99509048], [-89.10059357, 40.61402893], [-95.77441406, 40.61402893], [-95.77441406, 35.99509048]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: This is an incomplete metadata record and use constraints are not documented by the Ramona GIS Inventory system.\", \"Access Constraints: This is an incomplete metadata record and access constraints are not documented by the Ramona GIS Inventory system.\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "continual"
+    },
+    {
+      "key": "tags",
+      "value": "roads, streets, transportation, missouri"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "cf064481-c991-4926-9a53-50407b1d5493"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "184d6b95-25ed-4e60-974c-c1061a99b703"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "GIS Inventory Ramona-NSGIC"
+    }
+  ],
+  "title": "Road and Street Centerlines - MO 2010 June MoDOT Roads - Routes (GDB)",
+  "revision_id": "1c26a34d-4506-4106-a178-7a3d47552504"
+}

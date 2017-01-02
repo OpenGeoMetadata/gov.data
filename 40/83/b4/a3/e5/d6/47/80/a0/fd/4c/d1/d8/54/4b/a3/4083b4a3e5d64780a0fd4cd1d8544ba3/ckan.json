@@ -1,0 +1,193 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Data Administrator",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "da.mailbox@ssa.gov",
+  "num_tags": 6,
+  "id": "4083b4a3-e5d6-4780-a0fd-4cd1d8544ba3",
+  "metadata_created": "2015-02-28T17:15:16.360218",
+  "metadata_modified": "2015-12-30T13:39:20.042473",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "case-counts",
+      "id": "4f09ab4e-7ced-425a-9f28-f742eb28e53c",
+      "name": "case-counts"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "counts",
+      "id": "a465e56e-cce2-49c9-9400-19243be35379",
+      "name": "counts"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "disability",
+      "id": "80055016-9e0d-4502-8619-5d256a463ac8",
+      "name": "disability"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "edib",
+      "id": "49a339b3-ec2b-4de8-8749-eb22826dd717",
+      "name": "edib"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "workload",
+      "id": "28a4aafc-2f93-479d-8d0e-bbe73b04bed6",
+      "name": "workload"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "workloads",
+      "id": "7767ce10-21e9-4ca5-a8b6-fc2b01552064",
+      "name": "workloads"
+    }
+  ],
+  "tracking_summary": {
+    "total": 11,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:35:25.934290",
+    "title": "Social Security Administration",
+    "name": "ssa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/ssa.png",
+    "revision_id": "1be01963-921d-432f-b56d-37fa76dfb0a1",
+    "type": "organization",
+    "id": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+    "approval_status": "approved"
+  },
+  "name": "edib-regional-workloads-monthly-totals",
+  "isopen": true,
+  "url": null,
+  "notes": "Fine-grained report of disability case counts, organized by SSA region, state, and individual field office. Within each field office, counts are broken down by classification (Initial or CDR) and by adjudicative level, giving monthly counts by Title (T2, T16), Keyed applications, Internet applications, paper applications, plus counts for closed,transferred and pending cases.",
+  "owner_org": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Social Security Administration"
+    },
+    {
+      "key": "accessLevel",
+      "value": "non-public"
+    },
+    {
+      "key": "license",
+      "value": "https://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "rights",
+      "value": "The publishing of the data asset cannot be done due to one or more of the following reasons: contains personal identifying information, contains federal tax information, contains sensitive information, or a data assessment has not been completed."
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "R/P1M"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "016:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "016:00"
+      ]
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1M"
+    },
+    {
+      "key": "spatial",
+      "value": "National"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "US-GOV-SSA-490"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c92a9f2d-8a53-4a50-8b75-b47c931f69b9"
+    },
+    {
+      "key": "source_hash",
+      "value": "4ef34439f3ae154e8ba741709ec50733d74750d5"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c92a9f2d-8a53-4a50-8b75-b47c931f69b9"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "eDib Regional Workloads: Monthly Totals",
+  "revision_id": "28521371-64b8-4249-920f-04617ae21225"
+}

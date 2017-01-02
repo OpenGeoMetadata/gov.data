@@ -1,0 +1,198 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "Derek Parks",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "Derek.Parks@noaa.gov",
+  "num_tags": 4,
+  "id": "40b928ca-fdd3-458c-9ba8-d3e67028432d",
+  "metadata_created": "2015-05-20T21:04:25.061922",
+  "metadata_modified": "2015-08-14T06:38:34.793176",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "40b928ca-fdd3-458c-9ba8-d3e67028432d",
+      "webstore_last_updated": null,
+      "id": "ef43721b-8388-453a-b381-80126ce753dc",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "text/html",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-05-20T17:04:25.225421",
+      "url": "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=17&p=1&f=G&l=50&d=PTXT&S1=5727090&OS=5727090&RS=5727090",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "bcbcdb3b-2810-454d-94c1-03c31f529a4f",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ascii",
+      "id": "a6f6c60b-d5f1-46f1-85e8-7b9156328980",
+      "name": "ascii"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "bytes",
+      "id": "7b42499d-a7bd-4805-8142-e4985949cf87",
+      "name": "bytes"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "image",
+      "id": "6652aee9-0d87-4a87-9fa7-cf914d9093dc",
+      "name": "image"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "raster",
+      "id": "fd6a177d-83a8-4075-8c7e-8c6b04e1b3ca",
+      "name": "raster"
+    }
+  ],
+  "tracking_summary": {
+    "total": 7,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:37:59.153068",
+    "title": "Department of Commerce",
+    "name": "doc-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.vos.noaa.gov/MWL/aug_10/Images/doc_logo_xparent.png",
+    "revision_id": "44c851b9-8872-497a-8a13-2f06740b7ffb",
+    "type": "organization",
+    "id": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+    "approval_status": "approved"
+  },
+  "name": "method-of-storing-raster-image-in-run-lengths-having-variable-numbers-of-bytes-and-medium--30168",
+  "isopen": true,
+  "url": null,
+  "notes": "The invention implements a run-length file format with improved space-sav qualities. The file starts with a header in ASCII format and includes information such as the file format, maximum X and Y values, and a color palette. The binary raster data include at least one byte for each pixel run to indicate the color selected from the color palette and the run length. Concatenation flags demarcate groups of bytes. According to a first embodiment, each run is indicated by a variable-length sequence of bytes with the color in a fixed-length field and the repeat number in a variable-length field. According to a second embodiment, the color and run length are given in separate byte strings, each having a variable length. The file also includes line offset pointers to permit navigation of the file without decompressing it and thus to facilitate operations such as panning and zooming",
+  "owner_org": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Department of Commerce"
+    },
+    {
+      "key": "identifier",
+      "value": "TT-000041"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2014-06-24"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "006:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "006:48"
+      ]
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "f9952603-f065-4687-ab7b-ec8133d73d74"
+    },
+    {
+      "key": "source_hash",
+      "value": "94718f115b848eb1385bb055f29da22f45f939d1"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "f9952603-f065-4687-ab7b-ec8133d73d74"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "Method of Storing Raster Image in Run Lengths Having Variable Numbers of Bytes and Medium with Raster Image Thus Stored",
+  "revision_id": "bcbcdb3b-2810-454d-94c1-03c31f529a4f"
+}

@@ -1,0 +1,237 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "a8963f04-43b7-40e7-94f3-4f8ed94e7c6b",
+  "metadata_created": "2016-07-04T21:17:25.907893",
+  "metadata_modified": "2016-07-04T21:17:25.907893",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "a8963f04-43b7-40e7-94f3-4f8ed94e7c6b",
+      "webstore_last_updated": null,
+      "id": "e9b98417-9031-46db-b82c-674108730a3f",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Information about the dataset",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Cite URL",
+      "created": "2016-07-04T17:17:26.045208",
+      "url": "http://www.esrl.noaa.gov/psd/data/gridded/data.20thC_ReanV2c.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "42597f1a-c821-45db-913f-68267ebe886f",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "a8963f04-43b7-40e7-94f3-4f8ed94e7c6b",
+      "webstore_last_updated": null,
+      "id": "89bb8d2d-6f87-423f-99b4-901751663b94",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Thredds Data server.  Allows http, opendap, and possibly WCS and WMS downaloads.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Thredds Server",
+      "created": "2016-07-04T17:17:26.045231",
+      "url": "http://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/20thC_ReanV2c/catalog.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "42597f1a-c821-45db-913f-68267ebe886f",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "a8963f04-43b7-40e7-94f3-4f8ed94e7c6b",
+      "webstore_last_updated": null,
+      "id": "2a60b4cc-d808-4997-b412-93b9a1c77121",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "FTP server.",
+      "format": "NETCDF4_CLASSIC",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FTP server",
+      "created": "2016-07-04T17:17:26.045252",
+      "url": "ftp://ftp.cdc.noaa.gov/Datasets/20thC_ReanV2c",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "42597f1a-c821-45db-913f-68267ebe886f",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 16,
+    "recent": 3
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "noaa-cires-20th-century-reanalysis-v2c",
+  "isopen": false,
+  "url": null,
+  "notes": "The 20th Century Reanalysis version 2c (20CRV2c)is an effort led by PSD and the CIRES at the University of Colorado to produce a reanalysis dataset spanning the entire twentieth century, assimilating only surface observations of synoptic pressure, monthly sea surface temperature and sea ice distribution.  V1 was initially completed as a test from 1950-1958. V2 covers the period from 1871-2012 . The model used is a 2008 experimental, reduced-resolution version of the NCEP Global Forecast System (GFS2008ex). Briefly, that model has a spatial resolution of nearly 200-km on an irregular Gaussian grid in the horizontal (corresponding to a spherical harmonic representation of model fields truncated at total wavenumber 62, T62). In the vertical, we use finite differencing of 28 levels. The model has a complete suite of physical parameterizations as described in Kanamitsu et al. (1991) with updates detailed in Moorthi et al. (2001). Additional updates to these parameterizations are described in Saha et al. [Need YEAR] and include revised solar radiation transfer, boundary layer vertical diffusion, cumulus convection, and gravity wave drag parameterizations. In addition, the cloud liquid water is a prognostic quantity with a simple cloud microphysics parameterization. The radiation interacts with a fractional cloud cover that is diagnostically determined by the predicted cloud liquid water. The radiation also interacts with stratospheric ozone that is determined prognostically. The GFS2008ex also includes the radiative effects of historical time-varying CO2 concentrations, volcanic aerosol and solar variations using the longwave radiation model of Mlawer et al. (1997) and shortwave radiation model of Hou et al. (2002).  Pressure observations are from the International Surface Pressure Databank station component version 3. It is run as an 56 member forecast ensemble. The boundary forcing is taken from the Soda C (time-evolving sea-surface temperature  and sea-ice).  The model is run using 9 hour integrations of the ensemble members.\r\n\r\nA subset of the model variables are output every 6 hours. Additional variables are available every 3 hours. In addition to the subdaily values, the dataset also includes daily and monthly average values. In addition to the mean values, standard deviations of the 56 ensemble members are also provided for the subdaily and monthly average output. Subdaily, daily, and monthly long terms means of both the model means and standard deviations are also provided (1981-2010). Output includes 2D and 3D variables. The 3D atmospheric variables are on 24 pressure levels extending from 1000mb to 10mb. Soil moisture is provided on 4 levels. The horizontal resolution of the 2D and 3D variables are about 2 degrees latitude by 2 degrees longitude. Individual ensemble members are available via the NERSC interface http://portal.nersc.gov/project/20C_Reanalysis/.\r\n\r\nAll data are in netCDF4 format. Total 20CRV2 data volume at ESRL is approximately 4TB. In general, data is divided into annual files (except for monthly values). The files are available via FTP and OPEnDAP (THREDDS) and a selection of plotting and analysis tools.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "temporal-extent-begin",
+      "value": "1851-01-01"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2014-12-31"
+    },
+    {
+      "key": "contact-email",
+      "value": "webmaster.psd@noaa.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "metadata-date",
+      "value": "2014-12-31"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"lastUpdate\", \"value\": \"2014-12-31\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"\", \"roles\": [\"custodian\"]}]"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://www.esrl.noaa.gov/psd/mddb2/browseGraphics/NOAA-CIRES_20th_Century_Reanalysis_(V2c).png"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "ongoing"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.esrl.psd.dataset.NOAA-CIRES_20th_Century_Reanalysis_V2c"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "tags",
+      "value": "daily mean 3-hourly storm surface runoff spread at surface, daily 3-hourly minimum temperature spread at 2 m, monthly specific humidity at 2 m, monthly ice thickness at surface, monthly maximum temperature at 2 m, monthly low cloud cover spread, daily mean 3-hourly water runoff spread at surface, monthly ice concentration at surface, monthly albedo spread at surface, daily mean 3-hourly ice concentration at surface, monthly specific humidity on pressure levels, monthly exchange coefficient spread, 6-hourly air temperature at sigma level 0.995, monthly omega on pressure levels, 6-hourly air temperature at tropopause, 6-hourly pressure at tropopause, monthly snow depth spread at surface, monthly sensible heat net flux spread at surface, 6-hourly pressure spread at mean sea level, daily mean 3-hourly potential evaporation rate spread at surface, monthly water runoff at surface, monthly canopy water evaporation spread, monthly latent heat net flux spread at surface, monthly liquid volumetric soil moisture (non-frozen) fraction spread, monthly meridional gravity wave stress at surface, daily mean 3-hourly soil moisture content sprread at surface, time-invariant soil type (zobler) gaussian grid, 6-hourly air temperature spread at tropopause, daily mean 3-hourly pressure spread at surface, daily mean 3-hourly precipitation rate spread at surface, monthly snow cover at surface, monthly air temperature on pressure levels, 6-hourly pressure spread at surface, monthly soil temperature, monthly direct evaporation from bare soil, monthly convective cloud cover spread, daily mean 3-hourly low cloud cover spread, 6-hourly cape spread, daily mean 3-hourly latent heat net flux spread at surface, 6-hourly pressure spread at tropopause, monthly geopotential heights on pressure levels, 6-hourly relative humidity spread at sigma level 0.995, daily mean 3-hourly zonal gravity wave stress spread at surface, monthly downward longwave radiation flux at surface, 6-hourly u-wind at tropopause, daily mean 3-hourly middle cloud cover spread, daily mean 3-hourly convective precipitation rate spread, monthly pressure spread at surface, time-invariant vegetation type (as in sib) gaussian grid, monthly sublimation (evaporation from snow), monthly middle cloud cover, monthly middle cloud cover spread, monthly total cloud cover, geopotential height at surface, monthly soil temperature spread, 6-hourly v-wind spread at tropopause, monthly relative humidity spread on pressure levels, monthly cloud work function, 6-hourly pressure at mean sea level, monthly upward solar radiation flux spread at surface, monthly ground heat flux at surface, daily mean 3-hourly exchange coefficient spread, monthly clear sky uv-b downward solar flux spread, monthly water runoff spread at surface, monthly plant canopy surface water spread, monthly liquid volumetric soil moisture (non-frozen) fraction, monthly convective precipitation rate, daily mean 3-hourly upward solar radiation flux spread at nominal top of atmosphere, monthly relative humidity on pressure levels, monthly height spread of pressure boundary layer, daily mean 3-hourly upward longwave radiation flux spread at nominal top of atmosphere, monthly low cloud cover, daily mean 3-hourly specific humidity spread at 2 m, time-invariant land-sea mask gaussian grid, monthly precipitation rate at surface, daily mean 3-hourly albedo spread at surface, daily mean 3-hourly clear sky uv-b downward solar flux spread, monthly ice thickness spread at surface, monthly boundary layer cloud cover spread, monthly transpiration spread at surface, monthly downward solar radiation flux spread at surface, monthly top cloud cover, monthly downward longwave radiation flux spread at surface, monthly total cloud cover spread, monthly storm surface runoff at surface, monthly boundary layer cloud cover, monthly clear sky uv-b downward solar flux, 6-hourly cloud water spread for entire atmosphere, monthly v wind spread, 6-hourly total columnar ozone, monthly exchange coefficient, daily mean 3-hourly water equiv. of accum. snow depth spread at surface, daily mean 3-hourly momentum flux, v-component at surface, 6-hourly relative humidity at sigma level 0.995, 6-hourly precipitable water for entire atmosphere, monthly pressure at surface, monthly precipitation rate spread at surface, 6-hourly air temperature spread at sigma level 0.995, monthly downward solar radiation flux at surface, daily mean 3-hourly u-wind spread, 6-hourly cloud water for entire atmosphere, 6-hourly u-wind at sigma level 0.995, monthly convective precipitation rate spread, daily 3-hourly maximum temperature spread at 2 m, monthly top cloud cover spread, 6-hourly pressure at surface, daily mean 3-hourly total cloud cover spread, monthly momentum flux, u-component at surface, monthly v wind, daily mean 3-hourly snow depth spread at surface, monthly upward solar radiation flux at surface, daily mean 3-hourly downward solar radiation flux spread at surface, monthly meridional gravity wave stress spread at surface, monthly plant canopy surface water, monthly water equiv. of accum. snow depth at surface, daily mean 3-hourly height spread of pressure boundary layer, daily mean 3-hourly plant canopy surface water spread, 6-hourly precipitable water spread for entire atmosphere, daily mean 3-hourly boundary layer cloud cover spread, monthly direct evaporation from bare soil spread, monthly volumetric soil moisture spread, monthly momentum flux, v-component at surface, monthly specific humidity spread on pressure levels, monthly snow depth at surface, daily mean 3-hourly cloud work function spread, monthly upward solar radiation flux spread at nominal top of atmosphere, 6-hourly potential temperature at sigma level 0.995, daily mean 3-hourly convective cloud cover spread, monthly u-wind on pressure levels, monthly upward longwave radiation flux spread at surface, daily mean 3-hourly ground heat flux spread at surface, monthly transpiration at surface, monthly minimum temperature at 2 m, monthly u-wind, daily mean 3-hourly ice thickness spread at surface, monthly u-wind spread on pressure levels, 6-hourly cin spread, monthly ground heat flux spread at surface, monthly latent heat net flux at surface, monthly omega spread on pressure levels, monthly air temperature spread at surface, 6-hourly v-wind at sigma level 0.995, 6-hourly geopotential heights spread at tropopause, monthly albedo at surface, monthly storm surface runoff spread at surface, daily mean 3-hourly sensible heat net flux spread at surface, monthly potential evaporation rate spread at surface, monthly zonal gravity wave stress at surface, daily mean 3-hourly upward longwave radiation flux spread at surface, monthly air temperature at surface, monthly specific humidity spread at 2 m, daily mean 3-hourly upward solar radiation flux spread at surface, monthly snow cover spread at surface, daily mean 3-hourly air temperature spread at 2 m, daily mean 3-hourly snow cover spread at surface, 6-hourly u-wind spread at sigma level 0.995, monthly water equiv. of accum. snow depth spread at surface, monthly momentum flux spread, v-component at surface, monthly zonal gravity wave stress spread at surface, monthly v-wind spread on pressure levels, daily mean 3-hourly air temperature spread at surface, 6-hourly v-wind at tropopause, monthly upward longwave radiation flux at nominal top of atmosphere, monthly upward longwave radiation flux spread at nominal top of atmosphere, 6-hourly v-wind spread at sigma level 0.995, monthly sublimation (evaporation from snow) spread, monthly air temperature spread at 2 m, 6-hourly cape, monthly canopy water evaporation, monthly upward solar radiation flux at nominal top of atmosphere, 6-hourly potential temperature spread at sigma level 0.995, monthly upward longwave radiation flux at surface, monthly height of pressure boundary layer, 6-hourly geopotential heights at tropopause, monthly convective cloud cover, daily mean 3-hourly meridional gravity wave stress spread at surface, daily mean 3-hourly top cloud cover spread, monthly maximum temperature spread at 2 m, daily mean 3-hourly sublimation spread (evaporation from snow), daily mean 3-hourly canopy water evaporation spread, daily mean 3-hourly precipitable water spread for entire atmosphere, daily mean 3-hourly uv-b downward solar flux spread, monthly volumetric soil moisture, monthly minimum temperature spread at 2 m, monthly soil moisture content at surface, 6-hourly total columnar ozone spread, daily mean 3-hourly v wind spread, monthly geopotential heights spread on pressure levels, daily mean 3-hourly downward longwave radiation flux spread at surface, daily mean 3-hourly momentum flux, u-component at surface, daily mean 3-hourly direct evaporation spread from bare soil, 6-hourly omega spread at sigma level 0.995, monthly uv-b downward solar flux spread, monthly v-wind on pressure levels, monthly sensible heat net flux at surface, 6-hourly u-wind spread at tropopause, daily mean 3-hourly transpiration spread at surface, monthly uv-b downward solar flux, monthly potential evaporation rate at surface, monthly momentum flux spread, u-component at surface, monthly air temperature at 2 m, monthly air temperature spread on pressure levels, monthly u-wind spread, monthly cloud work function spread, 6-hourly omega at sigma level 0.995, monthly soil moisture content spread at surface"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d5f8ce79-26ed-47aa-90b0-92d7163ae2a3"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "NOAA-CIRES 20th Century Reanalysis (V2c)",
+  "revision_id": "42597f1a-c821-45db-913f-68267ebe886f"
+}

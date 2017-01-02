@@ -1,0 +1,286 @@
+{
+  "license_title": "Other (Public Domain)",
+  "maintainer": "Mark Elbert",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "data@eia.gov",
+  "num_tags": 7,
+  "id": "871eeb59-f3d1-48d7-afb7-0a20ee0ee0e2",
+  "metadata_created": "2015-08-08T07:37:10.227784",
+  "metadata_modified": "2015-10-10T10:21:20.806085",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "871eeb59-f3d1-48d7-afb7-0a20ee0ee0e2",
+      "webstore_last_updated": null,
+      "id": "03689f26-7ec2-44e0-b9bb-b5a647aecc12",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "API Web Page",
+      "created": "2015-08-08T03:37:12.473392",
+      "url": "http://www.eia.gov/beta/api/qb.cfm?category=40909",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "813baefe-18b9-4219-ba89-818da1e69dbe",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "871eeb59-f3d1-48d7-afb7-0a20ee0ee0e2",
+      "webstore_last_updated": null,
+      "id": "f99500da-3760-41b0-9c46-7e9643d8f9a1",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "API",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 2
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "",
+      "cache_url": null,
+      "name": "SEDS: Prices and Expenditures API",
+      "created": "2015-08-08T03:37:12.473455",
+      "url": "http://api.eia.gov/category/?api_key=YOUR_API_KEY_HERE&category_id=40909",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 1,
+      "revision_id": "c751586d-d941-4c6e-b9a2-7bcdb51b203f",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "api",
+      "id": "8cfc9370-39f5-46d7-b990-ae2801f9048c",
+      "name": "api"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "energy-expenditures",
+      "id": "e8d4ee4e-38e0-40c5-808b-de9f0e736f37",
+      "name": "energy-expenditures"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "energy-prices",
+      "id": "41dc54b1-1818-4100-887b-d738e34bd86b",
+      "name": "energy-prices"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "seds",
+      "id": "65a8c132-b8cd-447e-bec1-7a3f99c8b87c",
+      "name": "seds"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "state-energy-expenditures",
+      "id": "d40edd11-6aa1-437b-b13c-bb69e88a66bd",
+      "name": "state-energy-expenditures"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "state-energy-prices",
+      "id": "a5019aa6-c4f1-4382-8ca4-35dc76688e9e",
+      "name": "state-energy-prices"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "state-energy-system",
+      "id": "5017fefd-8c08-407c-a6f6-00832eac50ee",
+      "name": "state-energy-system"
+    }
+  ],
+  "tracking_summary": {
+    "total": 12,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "state-energy-data-system-seds-prices-expenditures-application-programming-interface-api",
+  "isopen": true,
+  "url": null,
+  "notes": "This API provides state-level and national-level energy prices and expenditures. Data organized by major economic sectors. EIA's State Energy Data System (SEDS) is a comprehensive data set that consists of annual time series estimates of state-level energy use by major economic sectors, energy production and State-level energy price and expenditure data. The system provides data back from 1960. Data are presented in physical units, Btu, and dollars. Users of the EIA API are required to obtain an API Key via this registration form: http://www.eia.gov/beta/api/register.cfm",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://www.eia.gov/state/seds/seds-technical-notes-complete.cfm"
+      ]
+    },
+    {
+      "key": "source_hash",
+      "value": "a9937c19e13ace73eb06a586eb803869eb1a609e"
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "temporal",
+      "value": "1970/2013"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "energy"
+      ]
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:022"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://www.eia.gov/state/seds/"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d77e064b-bc64-4cfa-b183-d5782d1fa26a"
+    },
+    {
+      "key": "publisher",
+      "value": "U.S. Energy Information Administration"
+    },
+    {
+      "key": "license",
+      "value": "http://creativecommons.org/publicdomain/mark/1.0/other-pd"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "rights",
+      "value": "The EIA API is offered as a free public service, although registration is required."
+    },
+    {
+      "key": "modified",
+      "value": "2015-07-24"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1Y"
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "DOE-019-540445740"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d77e064b-bc64-4cfa-b183-d5782d1fa26a"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "title": "State Energy Data System (SEDS) : Prices & Expenditures Application Programming Interface (API)",
+  "revision_id": "9a4095d8-3914-4db8-82f2-3521e6f0e9b8"
+}

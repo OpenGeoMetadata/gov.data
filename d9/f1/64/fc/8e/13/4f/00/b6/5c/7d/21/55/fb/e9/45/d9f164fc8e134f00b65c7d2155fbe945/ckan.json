@@ -1,0 +1,164 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Anders Longhorne",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "anders.longhorne@dot.gov",
+  "num_tags": 9,
+  "id": "d9f164fc-8e13-4f00-b65c-7d2155fbe945",
+  "metadata_created": "2016-11-30T16:14:22.199969",
+  "metadata_modified": "2016-11-30T16:14:22.199969",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "d9f164fc-8e13-4f00-b65c-7d2155fbe945",
+      "webstore_last_updated": null,
+      "id": "6975a321-df37-4776-8445-f68f9594e1cd",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "2010-2015 FARS Accident File data available on publically accessible BTS managed ArcGIS Cloud Server",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 3
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/html",
+      "cache_url": null,
+      "name": "2010-2015 FARS Accident File data",
+      "created": "2016-11-30T11:14:22.561608",
+      "url": "https://maps.bts.dot.gov/services/rest/services/NHTSA",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "40b8f331-12ba-4468-9b45-334510960a76",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "crash",
+      "id": "b0641c83-1b3b-4a41-8e97-51fdc49b04d3",
+      "name": "crash"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "data",
+      "id": "3601f923-ccc1-45bc-b8a7-9c6f7b2bea85",
+      "name": "data"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "fatality",
+      "id": "490861df-bb9d-4385-9c25-3204c1e7891f",
+      "name": "fatality"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geospatial",
+      "id": "a4243fe5-7437-4077-a369-d17bb543e6f2",
+      "name": "geospatial"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "human",
+      "id": "ab62945f-9ca3-47ca-a2b6-a849d85d1b8d",
+      "name": "human"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "person",
+      "id": "55e3324f-385d-4425-8491-b1dc608f7070",
+      "name": "person"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "roadway",
+      "id": "13fd7442-845c-4233-a6b2-31e362fdec8f",
+      "name": "roadway"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "safety",
+      "id": "ce015bbe-e863-495f-bd99-a9837e240898",
+      "name": "safety"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "vehicle",
+      "id": "6c4872b1-7b60-4fba-a5b4-7a22233af953",
+      "name": "vehicle"
+    }
+  ],
+  "tracking_summary": {
+    "total": 3,
+    "recent": 3
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:46:56.521190",
+    "title": "Department of Transportation",
+    "name": "dot-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://upload.wikimedia.org/wikipedia/commons/8/81/US_DOT_Triskelion.png",
+    "revision_id": "684c8481-4ae2-46b0-a083-b392eea15130",
+    "type": "organization",
+    "id": "fc5cb2c1-d0b0-482a-8a52-7d42ea186ae1",
+    "approval_status": "approved"
+  },
+  "name": "state-traffic-safety-information-2010-2015-fars-accident-file-data-b957f",
+  "isopen": true,
+  "url": null,
+  "notes": "The State Traffic Safety Information (STSI) portal is part of the larger Fatality Analysis Reporting System (FARS) Encyclopedia. STSI provides state-by-state traffic safety profiles, including: crash data, lives saved/savable, legislation, economic costs, grant funding, alcohol related crash data, performance measures, and geographic maps of crash data.",
+  "owner_org": "fc5cb2c1-d0b0-482a-8a52-7d42ea186ae1",
+  "extras": [
+    {
+      "key": "extras_rollup",
+      "value": "{\"confidentiality\": true, \"harvest_source_id\": \"a400d398-0d24-4940-b8b3-6573a1670b01\", \"catalog_@context\": \"https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld\", \"issued\": \"2009-09-01\", \"resource-type\": \"Dataset\", \"analysisUnit\": \"Incident\", \"references\": [\"https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812214\"], \"source_hash\": \"9742ac9420819d14398785379c76662d2f39bd2d\", \"agencyDataSeriesURL\": \"http://www.nhtsa.dot.gov/STSI\", \"QualityResponsibleAgency\": \"National Highway Traffic Safety Administration\", \"collection_package_id\": \"9995a0a0-8788-4317-bd14-da1aef504726\", \"collectionInstrument\": \"https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812214\", \"bibliographicCitation\": \"http://www-fars.nhtsa.dot.gov/Main/index.aspx\", \"temporal\": \"R/2007-01-01/P1Y\", \"theme\": [\"Transportation\"], \"agencyProgramURL\": \"http://www-nrd.nhtsa.dot.gov/departments/nrd-30/ncsa/STSI/USA%20WEB%20REPORT.HTM\", \"spatial\": \"Latitude, Longitude\", \"programCode\": [\"021:000\"], \"describedBy\": \"http://go.usa.gov/kfnh\", \"subagency\": \"National Highway Traffic Safety Administration\", \"catalog_conformsTo\": \"https://project-open-data.cio.gov/v1.1/schema\", \"category\": \"Geo data\", \"catalog_describedBy\": \"https://project-open-data.cio.gov/v1.1/schema/catalog.json\", \"collectionMode\": \"Highway Safety (HS) Form 214, 214-A, 214-B, 214-C\", \"harvest_source_title\": \"DOT JSON\", \"source_schema_version\": \"1.1\", \"phone\": \"(202) 366-5358\", \"bureauCode\": [\"021:18\"], \"accessLevel\": \"public\", \"harvest_object_id\": \"f15449e1-599b-42e3-b7c6-48cb6ffed57f\", \"dictionaryList\": \"http://go.usa.gov/kfnh\", \"publisher\": \"National Highway Traffic Safety Administration\", \"organizationName\": \"Department of Transportation / National Highway Traffic Safety Administration\", \"language\": [\"en-US\"], \"license\": \"http://www.usa.gov/publicdomain/label/1.0/\", \"publisher_hierarchy\": \"U.S. Government > Department of Transportation > National Highway Traffic Safety Administration\", \"guidelineCompliance\": true, \"modified\": \"2015-08-10\", \"source_datajson_identifier\": true, \"catalog_@id\": \"https://www.dot.gov/data.json\", \"categoryDesignation\": \"Research\", \"accrualPeriodicity\": \"R/P1Y\", \"numberOfDatasets\": 1, \"dataQuality\": true, \"additionalMetadata\": \"N/A\", \"identifier\": \"266.3\"}"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "f15449e1-599b-42e3-b7c6-48cb6ffed57f"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "a400d398-0d24-4940-b8b3-6573a1670b01"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "DOT JSON"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "State Traffic Safety Information - 2010-2015 FARS Accident File data",
+  "revision_id": "40b8f331-12ba-4468-9b45-334510960a76"
+}

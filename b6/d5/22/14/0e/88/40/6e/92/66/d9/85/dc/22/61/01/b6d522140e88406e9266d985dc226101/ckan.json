@@ -1,0 +1,245 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "James Menart",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "james.menart@wright.edu",
+  "num_tags": 8,
+  "id": "b6d52214-0e88-406e-9266-d985dc226101",
+  "metadata_created": "2016-11-30T21:30:24.205442",
+  "metadata_modified": "2016-11-30T21:30:24.205442",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "b6d52214-0e88-406e-9266-d985dc226101",
+      "webstore_last_updated": null,
+      "id": "26ac9d55-0a1e-47f7-b613-bbc1c45cb7ac",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Final Report for DOE Grant EE0002805",
+      "format": "PDF",
+      "tracking_summary": {
+        "total": 4,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/pdf",
+      "cache_url": null,
+      "name": "final report project ee0002805.pdf",
+      "created": "2016-11-30T16:30:24.432190",
+      "url": "http://gdr.openei.org/files/238/Final%20Report%20Project%20EE0002805.pdf",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "c4fbe8a3-45ef-4db9-a0c9-255fbe3af9ee",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "computer-codes-geo2d-and-geo3d",
+      "id": "dc4e9684-9c0e-47bc-ad56-126f3456d54a",
+      "name": "computer-codes-geo2d-and-geo3d"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "computer-modeling",
+      "id": "af9a03ba-8824-4378-87f8-869fd09d9937",
+      "name": "computer-modeling"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "cop-results",
+      "id": "8640c520-bdad-4f69-bae8-757d1321db23",
+      "name": "cop-results"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geothermal",
+      "id": "3f323051-fbd3-4715-bc13-e2fa5e65d369",
+      "name": "geothermal"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ground-source-heat-pump-systems",
+      "id": "34f35cb7-03f0-40be-88e3-a3f54c2ae7ca",
+      "name": "ground-source-heat-pump-systems"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "heat-rate-results",
+      "id": "452e4b5b-5568-4dde-9411-4ef890390fc1",
+      "name": "heat-rate-results"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "horizontal-wells",
+      "id": "e6eb18fa-c916-4ef6-bfcd-4c90481a6fa9",
+      "name": "horizontal-wells"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "vertical-wells",
+      "id": "1b405e2e-08b7-4746-bbf8-5be7808f82ab",
+      "name": "vertical-wells"
+    }
+  ],
+  "tracking_summary": {
+    "total": 0,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "final-scientific-report-for-doe-grant-entitled-finite-volume-based-computer-program-for-gr-07acb",
+  "isopen": true,
+  "url": null,
+  "notes": "This report is a compilation of the work that has been done on the grant DE-EE0002805 entitled “Finite Volume Based Computer Program for Ground Source Heat Pump Systems.” The goal of this project was to develop a detailed computer simulation tool for GSHP (ground source heat pump) heating and cooling systems. Two such tools were developed as part of this DOE (Department of Energy) grant; the first is a two-dimensional computer program called GEO2D and the second is a three-dimensional computer program called GEO3D. Both of these simulation tools provide an extensive array of results to the user. A unique aspect of both these simulation tools is the complete temperature profile information calculated and presented. Complete temperature profiles throughout the ground, casing, tube wall, and fluid are provided as a function of time. The fluid temperatures from and to the heat pump, as a function of time, are also provided. In addition to temperature information, detailed heat rate information at several locations as a function of time is determined. Heat rates between the heat pump and the building indoor environment, between the working fluid and the heat pump, and between the working fluid and the ground are computed. The heat rates between the ground and the working fluid are calculated as a function time and position along the ground loop. The heating and cooling loads of the building being fitted with a GSHP are determined with the computer program developed by DOE called ENERGYPLUS. Lastly COP (coefficient of performance) results as a function of time are provided. Both the two-dimensional and three-dimensional computer programs developed as part of this work are based upon a detailed finite volume solution of the energy equation for the ground and ground loop. Real heat pump characteristics are entered into the program and used to model the heat pump performance. Thus these computer tools simulate the coupled performance of the ground loop and the heat pump. The price paid for the three-dimensional detail is the large computational times required with GEO3D. The computational times required for GEO2D are reasonable, a few minutes for a 20 year simulation. For a similar simulation, GEO3D takes days of computational time. Because of the small simulation times with GEO2D, a number of attractive features have been added to it. GEO2D has a user friendly interface where inputs and outputs are all handled with GUI (graphical user interface) screens. These GUI screens make the program exceptionally easy to use. To make the program even easier to use a number of standard input options for the most common GSHP situations are provided to the user. For the expert user, the option still exists to enter their own detailed information. To further help designers and GSHP customers make decisions about a GSHP heating and cooling system, cost estimates are made by the program. These cost estimates include a payback period graph to show the user where their GSHP system pays for itself. These GSHP simulation tools should be a benefit to the advancement of GSHP systems.",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "issued",
+      "value": "2013-07-31"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "75d41eb4e03c9faa4acc66dd4b97ef6bab524199"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "format",
+      "value": "application/unknown"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:006"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://gdr.openei.org/submissions/238"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "435e3a2c-10d1-4468-8d2b-48034405ae7e"
+    },
+    {
+      "key": "accessURL",
+      "value": "http://gdr.openei.org/files/238/Final%20Report%20Project%20EE0002805.pdf"
+    },
+    {
+      "key": "publisher",
+      "value": "Wright State University"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "key": "modified",
+      "value": "2013-07-31"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/f0000000-e214-4c72-acd2-000000000238"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "435e3a2c-10d1-4468-8d2b-48034405ae7e"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "Final Scientific Report for DOE Grant Entitled Finite Volume Based Computer Program for Ground Source Heat Pump System",
+  "revision_id": "c4fbe8a3-45ef-4db9-a0c9-255fbe3af9ee"
+}

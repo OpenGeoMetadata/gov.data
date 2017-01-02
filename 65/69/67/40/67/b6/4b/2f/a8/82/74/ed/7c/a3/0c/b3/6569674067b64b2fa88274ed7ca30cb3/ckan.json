@@ -1,0 +1,167 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Data Exchange Administrator",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "ORDP.Data.Exchange@ssa.gov",
+  "num_tags": 3,
+  "id": "65696740-67b6-4b2f-a882-74ed7ca30cb3",
+  "metadata_created": "2015-01-30T16:17:40.545932",
+  "metadata_modified": "2016-12-01T20:59:05.190328",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "evs",
+      "id": "01a06028-e5e6-4148-8800-49bfcd08396d",
+      "name": "evs"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "numident",
+      "id": "e683a205-f54c-4455-b3a8-407f28574671",
+      "name": "numident"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "svs",
+      "id": "d88569a5-ea91-495d-b446-aa85d6aa6593",
+      "name": "svs"
+    }
+  ],
+  "tracking_summary": {
+    "total": 13,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:35:25.934290",
+    "title": "Social Security Administration",
+    "name": "ssa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/ssa.png",
+    "revision_id": "1be01963-921d-432f-b56d-37fa76dfb0a1",
+    "type": "organization",
+    "id": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+    "approval_status": "approved"
+  },
+  "name": "standard-verification-system-svs",
+  "isopen": true,
+  "url": null,
+  "notes": "SVS is a mainframe program that accesses the NUMIDENT to perform SSN verifications. This program is called by SSA Internal applications to verify SSNs. There is also an online version of the SVS program that verifies SSNs in real-time. The response codes differ from those returned by the Enumeration Verification System (EVS) while the matching routines and tolerances are exactly the same. The verification response codes that SVS returns to the system using it will be manipulated/interpreted according to that systems' own requirements.",
+  "owner_org": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Social Security Administration"
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "license",
+      "value": "https://www.ssa.gov/open/data/Restricted-Public-Licensing-Information.html"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "rights",
+      "value": "The data contained in this data exchange is restricted due to sensitivity and/or privacy issues.  If you would like more information on a data exchange with SSA please visit the following web site https://www.ssa.gov/dataexchange/."
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2016-11-30"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "016:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "016:00"
+      ]
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "US-GOV-SSA-621"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c2126abd-7c14-4420-a453-53f8c8e2d46a"
+    },
+    {
+      "key": "source_hash",
+      "value": "bfb30ae516056937a45a8384fefded4fe0872674"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c2126abd-7c14-4420-a453-53f8c8e2d46a"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    }
+  ],
+  "title": "Standard Verification System (SVS)",
+  "revision_id": "2ab597ac-c6d4-4391-97ee-99a0767e37ad"
+}

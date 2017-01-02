@@ -1,0 +1,222 @@
+{
+  "license_title": "Open Data Commons Public Domain Dedication and License (PDDL)",
+  "maintainer": "Jeremy G. Weber",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "jeweber@ers.usda.gov",
+  "num_tags": 3,
+  "id": "8c62ed80-cf8c-4847-b1ae-342e051ebd48",
+  "metadata_created": "2014-04-01T20:40:20.700091",
+  "metadata_modified": "2016-10-18T14:00:36.253805",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "8c62ed80-cf8c-4847-b1ae-342e051ebd48",
+      "webstore_last_updated": null,
+      "id": "d7f5b429-52f5-4db9-8603-aa185f4728aa",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "oilgascounty.xls",
+      "format": "Excel",
+      "tracking_summary": {
+        "total": 25,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/vnd.ms-excel",
+      "cache_url": null,
+      "name": "Data file",
+      "created": "2014-04-01T16:40:21.047073",
+      "url": "http://www.ers.usda.gov/datafiles/oilgascounties/oilgascounty.xls",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "5047da00-ec0a-46b9-a65b-7a7458abb3b9",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "economy",
+      "id": "7e76cf57-5615-4eaa-9bef-a63ec9a996d1",
+      "name": "economy"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "natural-gas-withdrawals",
+      "id": "83a0f8ea-ce35-4eb2-bb90-3bf5bab64764",
+      "name": "natural-gas-withdrawals"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "oil-and-gas-production",
+      "id": "3f04b12c-19ec-49fa-9eeb-7e1771110ed7",
+      "name": "oil-and-gas-production"
+    }
+  ],
+  "tracking_summary": {
+    "total": 71,
+    "recent": 3
+  },
+  "groups": [
+    {
+      "display_name": "Agriculture",
+      "description": "",
+      "image_display_url": "",
+      "title": "Agriculture",
+      "id": "008741df-42eb-48ba-9e87-f69eb6e7d321",
+      "name": "agriculture8571"
+    }
+  ],
+  "license_id": "odc-pddl",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:48:54.524965",
+    "title": "Department of Agriculture",
+    "name": "usda-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.data.gov/app/uploads/2014/07/USDA_logo.png",
+    "revision_id": "9e003139-dbe7-4b48-a9fe-0ae8b4c122f2",
+    "type": "organization",
+    "id": "4ae51f6c-467a-4f9d-b40a-2c52e83c326a",
+    "approval_status": "approved"
+  },
+  "name": "county-level-oil-and-gas-production-in-the-u-s",
+  "isopen": true,
+  "url": null,
+  "notes": "County-level data from oil and/or natural gas producing States—for onshore production in the lower 48 States only—are compiled on a State-by-State basis. Most States have production statistics available by county, field, or well, and these data were compiled at the county level to create a database of county-level production, annually for 2000 through 2011. Raw data for natural gas is for gross withdrawals, and oil data almost always include natural gas liquids. Note that State-provided natural gas withdrawals were not available for Illinois or Indiana; those estimates were produced using geocoded wells and State total production reported by the U.S. Department of Energy’s Energy Information Agency.\r\n \r\nIn the data file, counties with increases or decreases in excess of $20 million in oil and/or natural gas production during 2000-11 are also identified. See the Documentation for more details.\r\n \r\nCurrently, an ERS update to this data product is not planned.",
+  "owner_org": "4ae51f6c-467a-4f9d-b40a-2c52e83c326a",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "50ca39af-9ddb-466d-8cf3-84d67a204346"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "85278e9102680371a37499234cbb4f2df44b4343"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "oil and natural gas production",
+        "energy"
+      ]
+    },
+    {
+      "key": "spatial",
+      "value": "United States, county"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "describedBy",
+      "value": "http://www.ers.usda.gov/data-products/county-level-oil-and-gas-production-in-the-us/documentation-and-maps.aspx"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/data.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "USDA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "005:041"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "005:13"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "3ebd385a-4e93-46a7-9756-fef13fda13f0"
+    },
+    {
+      "key": "publisher",
+      "value": "United States Department of Agriculture"
+    },
+    {
+      "key": "license",
+      "value": "http://opendatacommons.org/licenses/pddl/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "us"
+      ]
+    },
+    {
+      "key": "modified",
+      "value": "2014-12-23"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1Y"
+    },
+    {
+      "key": "identifier",
+      "value": "USDA-ERS-00060"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "3ebd385a-4e93-46a7-9756-fef13fda13f0"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "50ca39af-9ddb-466d-8cf3-84d67a204346"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "USDA JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/odc-pddl",
+  "title": "County-level Oil and Gas Production in the U.S.",
+  "revision_id": "b0a5d3cb-a474-4a92-ae6c-3535004bdd28"
+}

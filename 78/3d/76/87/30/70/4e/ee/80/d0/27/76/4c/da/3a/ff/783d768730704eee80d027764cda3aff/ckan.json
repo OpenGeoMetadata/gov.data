@@ -1,0 +1,221 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "James E. Faulds",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "jfaulds@unr.edu",
+  "num_tags": 4,
+  "id": "783d7687-3070-4eee-80d0-27764cda3aff",
+  "metadata_created": "2016-11-30T21:29:58.062491",
+  "metadata_modified": "2016-11-30T21:29:58.062491",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "783d7687-3070-4eee-80d0-27764cda3aff",
+      "webstore_last_updated": null,
+      "id": "38cf6fc5-49c5-45c1-a965-b063307111df",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Critically stressed fault segments have a relatively high likelihood of acting as fluid flow conduits (Sibson, 1994). As such, the tendency of a fault segment to slip (slip tendency; Ts; Morris et al., 1996) or to dilate (dilation tendency; Td; Ferrill et al., 1999) provides an indication of which faults or fault segments within a geothermal system are critically stressed and therefore likely to transmit geothermal fluids. The slip tendency of a surface is defined by the ratio of shear stress to normal stress on that surface:\nTs = τ / σn \t(Morris et al., 1996).\nDilation tendency is defined by the stress acting normal to a given surface:\nTd = (σ1-σn) / (σ1-σ3) \t(Ferrill et al., 1999). \nSlip and dilation were calculated using 3DStress (Southwest Research Institute).\nSlip and dilation tendency are both unitless ratios of the resolved stresses applied to the fault plane by ambient stress conditions. Values range from a maximum of 1, a fault plane ideally oriented to slip or dilate under ambient stress conditions to zero, a fault plane with no potential to slip or dilate. Slip and dilation tendency values were calculated for each fault in the focus study areas at, McGinness Hills, Neal Hot Springs, Patua, Salt Wells, San Emidio, and Tuscarora on fault traces. As dip is not well constrained or unknown for many faults mapped in within these we made these calculations using the dip for each fault that would yield the maximum slip tendency or dilation tendency. As such, these results should be viewed as maximum tendency of each fault to slip or dilate. The resulting along-fault and fault-to-fault variation in slip or dilation potential is a proxy for along fault and fault-to-fault variation in fluid flow conduit potential.\nStress Magnitudes and directions\nStress field variation within each focus area was approximated based on regional published data and the world stress database (Hickman et al., 2000; Hickman et al., 1998 Robertson-Tait et al., 2004; Hickman and Davatzes, 2010; Davatzes and Hickman, 2006; Blake and Davatzes 2011; Blake and Davatzes, 2012; Moeck et al., 2010; Moos and Ronne, 2010 and Reinecker et al., 2005) as well as local stress information if applicable. For faults within these focus systems we applied either a normal faulting stress regime where the vertical stress (sv) is larger than the maximum horizontal stress (shmax) which is larger than the minimum horizontal stress (sv>shmax>shmin) or strike-slip faulting stress regime where the maximum horizontal stress (shmax) is larger than the vertical stress (sv) which is larger than the minimum horizontal stress (shmax >sv>shmin) depending on the general tectonic province of the system. Based on visual inspection of the limited stress magnitude data in the Great Basin we used magnitudes such that shmin/shmax = .527 and shmin/sv= .46, which are consistent with complete and partial stress field determinations from Desert Peak, Coso, the Fallon area and Dixie valley (Hickman et al., 2000; Hickman et al., 1998 Robertson-Tait et al., 2004; Hickman and Davatzes, 2011; Davatzes and Hickman, 2006; Blake and Davatzes 2011; Blake and Davatzes, 2012). \n\nSlip and dilation tendency analysis for the Patua geothermal system was calculated based on faults mapped in the Hazen Quadrangle (Faulds et al., 2011). Patua lies near the margin between the Basin and Range province, which is characterized by west-northwest directed extension and the Walker Lane province, characterized by west-northwest directed dextral shear. As such, the Patua area likely has been affected by tectonic stress associated with either or both of stress regimes over geologic time. In order to characterize this stress variation we calculated slip tendency at Patua for both normal faulting and strike slip faulting stress regimes. Based on examination of regional and local stress data (as explained above) we applied at shmin direction of 105 to Patua. Whether the vertical stress (sv) magnitude is larger than the maximum horizontal stress (shmax) a normal faulting stress regime or the maximum horizontal stress (shmax) magnitude is larger than the vertical stress (sv), a strike-slip faulting stress regime, has very little effect on the dilation tendency, which is controlled by the stresses acting normal to fault planes. As such the dilation tendency results for a strike-slip faulting stress regime and for a normal faulting stress regime are virtually identical, so we present one result for dilation tendency applicable to both strike-slip and normal faulting stress conditions along with slip tendency for both a normal faulting and a strike-slip faulting stress regime. Under these stress conditions, north-northeast striking steeply dipping fault segments have the highest dilation tendency. Under the strike-slip faulting stress regime, north-northwest and east-northeast striking, steeply dipping fault have the highest slip tendency, while under normal faulting conditions north northeast striking, 60° dipping faults have the highest slip tendency.",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 4,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "patua.zip",
+      "created": "2016-11-30T16:29:58.224094",
+      "url": "http://gdr.openei.org/files/369/Patua.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "32f0a879-54c0-4af0-aee9-536ded6f380b",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "dilation-tendency-analysis",
+      "id": "103d78a3-de2b-43a9-bd36-29d98dd381c5",
+      "name": "dilation-tendency-analysis"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geothermal",
+      "id": "3f323051-fbd3-4715-bc13-e2fa5e65d369",
+      "name": "geothermal"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "patua-geothermal-area",
+      "id": "858fd431-fa10-42b6-a4e0-2cc3c4668479",
+      "name": "patua-geothermal-area"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "slip-tendency-analysis",
+      "id": "35a2ba1e-7a26-446d-9cf9-3fe282c98ee7",
+      "name": "slip-tendency-analysis"
+    }
+  ],
+  "tracking_summary": {
+    "total": 1,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "slip-and-dilation-tendency-analysis-of-the-patua-geothermal-area-7b23d",
+  "isopen": true,
+  "url": null,
+  "notes": "Critically stressed fault segments have a relatively high likelihood of acting as fluid flow conduits (Sibson, 1994). As such, the tendency of a fault segment to slip (slip tendency; Ts; Morris et al., 1996) or to dilate (dilation tendency; Td; Ferrill et al., 1999) provides an indication of which faults or fault segments within a geothermal system are critically stressed and therefore likely to transmit geothermal fluids. The slip tendency of a surface is defined by the ratio of shear stress to normal stress on that surface:\nTs = τ / σn \t(Morris et al., 1996).\nDilation tendency is defined by the stress acting normal to a given surface:\nTd = (σ1-σn) / (σ1-σ3) \t(Ferrill et al., 1999). \nSlip and dilation were calculated using 3DStress (Southwest Research Institute).\nSlip and dilation tendency are both unitless ratios of the resolved stresses applied to the fault plane by ambient stress conditions. Values range from a maximum of 1, a fault plane ideally oriented to slip or dilate under ambient stress conditions to zero, a fault plane with no potential to slip or dilate. Slip and dilation tendency values were calculated for each fault in the focus study areas at, McGinness Hills, Neal Hot Springs, Patua, Salt Wells, San Emidio, and Tuscarora on fault traces. As dip is not well constrained or unknown for many faults mapped in within these we made these calculations using the dip for each fault that would yield the maximum slip tendency or dilation tendency. As such, these results should be viewed as maximum tendency of each fault to slip or dilate. The resulting along-fault and fault-to-fault variation in slip or dilation potential is a proxy for along fault and fault-to-fault variation in fluid flow conduit potential.\nStress Magnitudes and directions\nStress field variation within each focus area was approximated based on regional published data and the world stress database (Hickman et al., 2000; Hickman et al., 1998 Robertson-Tait et al., 2004; Hickman and Davatzes, 2010; Davatzes and Hickman, 2006; Blake and Davatzes 2011; Blake and Davatzes, 2012; Moeck et al., 2010; Moos and Ronne, 2010 and Reinecker et al., 2005) as well as local stress information if applicable. For faults within these focus systems we applied either a normal faulting stress regime where the vertical stress (sv) is larger than the maximum horizontal stress (shmax) which is larger than the minimum horizontal stress (sv>shmax>shmin) or strike-slip faulting stress regime where the maximum horizontal stress (shmax) is larger than the vertical stress (sv) which is larger than the minimum horizontal stress (shmax >sv>shmin) depending on the general tectonic province of the system. Based on visual inspection of the limited stress magnitude data in the Great Basin we used magnitudes such that shmin/shmax = .527 and shmin/sv= .46, which are consistent with complete and partial stress field determinations from Desert Peak, Coso, the Fallon area and Dixie valley (Hickman et al., 2000; Hickman et al., 1998 Robertson-Tait et al., 2004; Hickman and Davatzes, 2011; Davatzes and Hickman, 2006; Blake and Davatzes 2011; Blake and Davatzes, 2012). \n\nSlip and dilation tendency analysis for the Patua geothermal system was calculated based on faults mapped in the Hazen Quadrangle (Faulds et al., 2011). Patua lies near the margin between the Basin and Range province, which is characterized by west-northwest directed extension and the Walker Lane province, characterized by west-northwest directed dextral shear. As such, the Patua area likely has been affected by tectonic stress associated with either or both of stress regimes over geologic time. In order to characterize this stress variation we calculated slip tendency at Patua for both normal faulting and strike slip faulting stress regimes. Based on examination of regional and local stress data (as explained above) we applied at shmin direction of 105 to Patua. Whether the vertical stress (sv) magnitude is larger than the maximum horizontal stress (shmax) a normal faulting stress regime or the maximum horizontal stress (shmax) magnitude is larger than the vertical stress (sv), a strike-slip faulting stress regime, has very little effect on the dilation tendency, which is controlled by the stresses acting normal to fault planes. As such the dilation tendency results for a strike-slip faulting stress regime and for a normal faulting stress regime are virtually identical, so we present one result for dilation tendency applicable to both strike-slip and normal faulting stress conditions along with slip tendency for both a normal faulting and a strike-slip faulting stress regime. Under these stress conditions, north-northeast striking steeply dipping fault segments have the highest dilation tendency. Under the strike-slip faulting stress regime, north-northwest and east-northeast striking, steeply dipping fault have the highest slip tendency, while under normal faulting conditions north northeast striking, 60° dipping faults have the highest slip tendency.",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "issued",
+      "value": "2013-12-31"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "16b11c78bc058112cf2de4ca3c74bcd37251b411"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-119.16993876953,39.538154664753],[-119.01897792969,39.538154664753],[-119.01897792969,39.651597094481],[-119.16993876953,39.651597094481],[-119.16993876953,39.538154664753]]]}"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "format",
+      "value": "application/unknown"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:006"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://gdr.openei.org/submissions/369"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "46e3148d-bd4f-432f-ad12-ac5725e58283"
+    },
+    {
+      "key": "accessURL",
+      "value": "http://gdr.openei.org/files/369/Patua.zip"
+    },
+    {
+      "key": "publisher",
+      "value": "University of Nevada Reno"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "key": "modified",
+      "value": "2013-12-31"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/f0000000-e214-4c72-acd2-000000000369"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "46e3148d-bd4f-432f-ad12-ac5725e58283"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "Slip and Dilation Tendency Analysis of the Patua Geothermal Area",
+  "revision_id": "32f0a879-54c0-4af0-aee9-536ded6f380b"
+}

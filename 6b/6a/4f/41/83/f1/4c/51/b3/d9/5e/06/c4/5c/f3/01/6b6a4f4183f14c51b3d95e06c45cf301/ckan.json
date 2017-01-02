@@ -1,0 +1,196 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "6b6a4f41-83f1-4c51-b3d9-5e06c45cf301",
+  "metadata_created": "2015-09-27T02:51:48.688717",
+  "metadata_modified": "2015-11-10T09:04:57.081699",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "6b6a4f41-83f1-4c51-b3d9-5e06c45cf301",
+      "webstore_last_updated": null,
+      "id": "a34b2635-446b-4799-86e4-269682ea0d9d",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "8a0ba711-a74a-4154-93aa-631f0400411a",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-11-10T04:04:57.160434",
+      "url": "http://data.nodc.noaa.gov/accession/0123059",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 0,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "resilient-reefs-of-the-florida-coral-reef-tract-from-2005-2010",
+  "isopen": false,
+  "url": null,
+  "notes": "The data is based on the FRRP Disturbance Response Monitoring (FRRP.ORG) There were nine sampling periods between August 2005 and September 2010. In total,1176 sites were recorded. All coral colonies > 4 cm were identified to species and their diameters were measured within replicated 10-m2 belt transects. Each coral colony was also examined for disease and bleaching. We queried the data in Access to compile:1) the number of corals, 2) the degree of bleaching, First,coral colony density was derived by summing the number of individual coral colonies within each transect. Second, coral colony diameter was measured at the widest point of each colony; these diameters were summed within each transect. Third, coral colony area was computed using the afore mentioned diameters, and using the equation for the area of a circle:A=(D/2)^2 where A is the colony area, and Dis the colony diameter. These areas were then summed for each transect.Fourth, coral bleaching was assessed as an ordinal variable (i.e., 0, 1, 2, and 3). The bleaching variable was summed for all colonies in each transect. Fifth, coral disease was quantified by summing the numbers of diseased colonies in each transect. Given that the absolute amount of bleaching and disease both depend upon coral colony density, we sought to adjust for relative coral colony density. We accumulated the sum of the ordinal bleaching data for each transect. Similarly, the number of diseased colonies was also summed per transect. Notably, coral disease was not quantified on an ordinal intensity scale, but was quantified as either present or absent. We then divided the sum of bleaching intensity and the sum of disease by the number of colonies within each transect. The result was a mean per-colony bleaching intensity, and mean per-colony disease prevalence for each transect. Given that the 6 smallest sampling unit was the site, one hierarchical level above transect, we took the mean of these per-colony values for the two transects within each site. The resulting data were exported, and attached to the coordinates of each site. These variables were analyzed for correlations using a series of Spearman's Rank Correlation tests. The data were imported into ArcGIS 9.2, and georeferenced. We then interpolated each of the three datasets using a natural neighbor interpolation. After examining the output among the different interpolation procedures (i.e., inverse distance weighing, kriging, and natural neighbor), we found that the natural neighbor technique was most accurate, and best represented the data. We used the \"extract by mask\" tool to constrain the interpolations within the sampling domain (Figures 2, 3, 4). The layers contained continuous data, but we sought to classify the reefs in broader terms. Using the ArcGIS 9.2 \"slice\" tool, we generated three ordinal data classes from the interpolation raster files for (i) coral colony density, (ii) bleaching, and (iii) disease that were based upon natural breaks within the data. The resulting Rasters were then converted into shapefiles with the disease frequency values being assigned as an attribute.To identify localities with (i) the highest coral density, (ii) the lowest bleaching intensity, and (iii) the lowest disease prevalence. In order to find these areas, we needed to first reclassify the data. All three \"sliced\" raster files were further simplified. We needed to determine which reefs had the highest coral colony densities, the lowest prevalence in disease, and the lowest bleaching. For this purpose, we used the \"reclassify\" tool in AcrGIS 9.2, whereby reefs with low (i.e., 1) to medium (i.e., 2) density were reclassified to zero, and the reefs with the highest coral densities (i.e., 3) were 7 reclassified to one. For the bleaching and disease data (i.e., which were raster files at this stage in the analysis), we wanted to find the reefs with most bleaching and disease so that we could eliminate them from consideration for protection. We again used the \"reclassify\" tool, this time, the least bleached or diseased reefs (i.e., 1) were reclassified with a 0. Reefs with either medium (i.e., 2) or extensive (i.e., 3) bleaching or disease were reclassified as 1. Finally, we used the \"minus\" tool within ArcGIS 9.2 to subtract the bleaching and disease layers, generated by the reclassify tool, from the coral-colony density layer. This resulted in a scale of priority from -2 to 1. The resulting shapefile represents highlighted reefs with abundant coral and a history of minimal bleaching and low disease prevalence.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-80.084823"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "26.213764"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "24.417479"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-82.87962, 24.417479], [-80.084823, 24.417479], [-80.084823, 26.213764], [-82.87962, 26.213764], [-82.87962, 24.417479]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2005-01-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "jbyrne@tnc.org"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-82.879620"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2015-10-17"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "licence",
+      "value": "[\" \"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"The Nature Conservancy\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2010-12-31"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "florida keys national marine sanctuary, biology, geographic information, reef monitoring and assessment, biosphere, corals, environmental monitoring, florida keys, zoology, earth science"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "f5fe7fb9-dcc3-4d88-8add-e283a45bca2f"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Resilient_Reefs of the Florida Coral Reef Tract from 2005 - 2010",
+  "revision_id": "8f885c14-7f6f-4d9c-b784-d06f1dd8e4fc"
+}

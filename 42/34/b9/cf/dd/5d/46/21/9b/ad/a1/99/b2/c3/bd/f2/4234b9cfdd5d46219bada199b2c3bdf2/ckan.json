@@ -1,0 +1,241 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "PLEASE CONTACT ORNL DAAC User Services",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "ornldaac@ornl.gov",
+  "num_tags": 3,
+  "id": "4234b9cf-dd5d-4621-9bad-a199b2c3bdf2",
+  "metadata_created": "2014-10-08T03:12:35.988408",
+  "metadata_modified": "2016-05-06T08:05:05.524400",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "4234b9cf-dd5d-4621-9bad-a199b2c3bdf2",
+      "webstore_last_updated": null,
+      "id": "15a2b2ee-bb59-4e05-94e5-9c9167635f97",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "BIN",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/octet-stream",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-10-07T23:12:36.130286",
+      "url": "http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=812",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "2359d36b-61c3-424c-983a-47ce6e476d51",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "atmosphere",
+      "id": "104e93c2-cbec-435b-b3ba-0d6385114d41",
+      "name": "atmosphere"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "atmospheric-water-vapor",
+      "id": "42dbfe72-40a6-4cb0-b5af-648e6dd3e250",
+      "name": "atmospheric-water-vapor"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "earth-science",
+      "id": "f28006f8-df78-4700-b72f-f4a19628ba67",
+      "name": "earth-science"
+    }
+  ],
+  "tracking_summary": {
+    "total": 7,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "safari-2000-modis-mod05-l2-water-vapor-data-binary-format-for-southern-africa",
+  "isopen": true,
+  "url": null,
+  "notes": "The MODIS precipitable water product consists of vertical column water-vapor amounts in centimeters (cm) at 1 km spatial resolution. The SAFARI 2000 product, provided in flat binary data files, is a subset of the official MODIS Level 2 MOD05 product in EOS Hierarchical Data Format (HDF) format. Specifically, the SAFARI product contains data from daytime-only MODIS granules over southern Africa for the period August 21, 2000, through September 20, 2000. A granule is the data collected over the full MODIS swath in a five-minute period. Further, the SAFARI product contains values generated by the MODIS near-infrared algorithm applied over clear land areas only (determined via the QA bit field). All values were derived from MODIS on the morning-pass Terra satellite. The product is very sensitive to boundary-layer water vapor since it is derived from attenuation of reflected solar light from the surface. This data product is essential to understanding the hydrological cycle, aerosol properties, aerosol-cloud interactions, energy budget, and climate.The MOD05 water vapor data files were converted from their original HDF format to flat binary files for this SAFARI 2000 data set. The conversion was performed using code developed in the Interactive Data Language (IDL) Version 5.5. The following Scientific Data Sets (SDS) are provided in this data set: Latitude; Longitude; Sensor_Zenith; and Water_Vapor_Near_Infrared.",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "collection_metadata",
+      "value": "true"
+    },
+    {
+      "key": "issued",
+      "value": "2005-10-03T00:00:00.000Z"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "cdbfde468fed3de0a21d39a0cd80d958f3db3fa4"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "temporal",
+      "value": "2000-08-20T00:00:00Z/2000-09-20T00:00:00Z"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "geospatial"
+      ]
+    },
+    {
+      "key": "spatial",
+      "value": "-20.64 -42.28 50.52 10.1"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:001"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "landingPage",
+      "value": "http://reverb.echo.nasa.gov/reverb?selected=C179003731-ORNL_DAAC"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "623ace2c-cec5-420a-8f4a-bfa6946f357d"
+    },
+    {
+      "key": "publisher",
+      "value": "ORNL_DAAC"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "55942a74c63a7fe59b4970d3"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "U.S. Government > National Aeronautics and Space Administration > ORNL_DAAC"
+    },
+    {
+      "key": "modified",
+      "value": "2005-10-03T00:00:00.000Z"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "irregular"
+    },
+    {
+      "key": "identifier",
+      "value": "C179003731-ORNL_DAAC"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "623ace2c-cec5-420a-8f4a-bfa6946f357d"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "SAFARI 2000 MODIS MOD05_L2 Water Vapor Data, Binary Format, for Southern Africa",
+  "revision_id": "2359d36b-61c3-424c-983a-47ce6e476d51"
+}

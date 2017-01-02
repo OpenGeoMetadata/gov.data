@@ -1,0 +1,485 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "dcd18dc7-cf92-4277-959b-f491034413bc",
+  "metadata_created": "2016-07-25T21:02:55.825734",
+  "metadata_modified": "2016-10-19T20:06:22.668256",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "dcd18dc7-cf92-4277-959b-f491034413bc",
+      "webstore_last_updated": null,
+      "id": "17e113bf-1c40-4f4d-94ab-ebac5010f2b6",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard LAS html interface for selecting data from this dataset. ",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "LAS",
+      "created": "2016-10-19T16:06:23.025678",
+      "url": "http://ferret.pmel.noaa.gov/geoideLAS/getUI.do?data_url=http://data.nodc.noaa.gov/thredds/dodsC/testdata/ghrsst_ncml/fullAgg/aggregate__ghrsst_L4_GLOB_UKMO_OSTIA.ncml",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "0007a519-7302-493c-9659-e0c70bd74894",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "dcd18dc7-cf92-4277-959b-f491034413bc",
+      "webstore_last_updated": null,
+      "id": "d648dcb5-f65e-4185-b0f4-3970fa71901d",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard ERDDAP html interface for selecting data from this dataset. ",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ERDDAP",
+      "created": "2016-10-19T16:06:23.025706",
+      "url": "http://upwell.pfeg.noaa.gov/erddap/search/index.html?searchFor=http://data.nodc.noaa.gov/thredds/dodsC/testdata/ghrsst_ncml/fullAgg/aggregate__ghrsst_L4_GLOB_UKMO_OSTIA.ncml",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "0007a519-7302-493c-9659-e0c70bd74894",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "dcd18dc7-cf92-4277-959b-f491034413bc",
+      "webstore_last_updated": null,
+      "id": "0a42d86a-8da3-4b40-911e-75d759d52d13",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard OPeNDAP html interface for selecting data from this dataset. Change the extension to .info for a description of the dataset.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "File Information",
+      "created": "2016-10-19T16:06:23.025716",
+      "url": "http://data.nodc.noaa.gov/thredds/dodsC/testdata/ghrsst_ncml/fullAgg/aggregate__ghrsst_L4_GLOB_UKMO_OSTIA.ncml.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "0007a519-7302-493c-9659-e0c70bd74894",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "dcd18dc7-cf92-4277-959b-f491034413bc",
+      "webstore_last_updated": null,
+      "id": "7d3bc46e-ec42-4955-8606-9149c6fc86d0",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "mapDigital",
+      "hash": "",
+      "description": "This URL provides an NCDC climate and weather toolkit view of an OPeNDAP resource.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Viewer Information",
+      "created": "2016-10-19T16:06:23.025724",
+      "url": "http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://data.nodc.noaa.gov/thredds/dodsC/testdata/ghrsst_ncml/fullAgg/aggregate__ghrsst_L4_GLOB_UKMO_OSTIA.ncml",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 3,
+      "revision_id": "0007a519-7302-493c-9659-e0c70bd74894",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "dcd18dc7-cf92-4277-959b-f491034413bc",
+      "webstore_last_updated": null,
+      "id": "66ec46b6-e4a0-499f-b15c-36bfd6942986",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": " Visualize with Live Access Server",
+      "created": "2016-10-19T16:06:23.025731",
+      "url": "http://ferret.pmel.noaa.gov/geoideLAS/getUI.do?data_url=http://data.nodc.noaa.gov/thredds/dodsC/testdata/ghrsst_ncml/fullAgg/aggregate__ghrsst_L4_GLOB_UKMO_OSTIA.ncml",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 4,
+      "revision_id": "0007a519-7302-493c-9659-e0c70bd74894",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "dcd18dc7-cf92-4277-959b-f491034413bc",
+      "webstore_last_updated": null,
+      "id": "cfd28226-04c3-4309-a512-dcd3307576dc",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": " Visualize with ERDDAP",
+      "created": "2016-10-19T16:06:23.025738",
+      "url": "http://upwell.pfeg.noaa.gov/erddap/search/index.html?searchFor=http://data.nodc.noaa.gov/thredds/dodsC/testdata/ghrsst_ncml/fullAgg/aggregate__ghrsst_L4_GLOB_UKMO_OSTIA.ncml",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 5,
+      "revision_id": "0007a519-7302-493c-9659-e0c70bd74894",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "dcd18dc7-cf92-4277-959b-f491034413bc",
+      "webstore_last_updated": null,
+      "id": "f90620a7-416b-4194-9a75-753479231b84",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": " Weather and Climate Toolkit",
+      "created": "2016-10-19T16:06:23.025746",
+      "url": "http://www.ncdc.noaa.gov/oa/wct/wct-jnlp.php?singlefile=http://data.nodc.noaa.gov/thredds/dodsC/testdata/ghrsst_ncml/fullAgg/aggregate__ghrsst_L4_GLOB_UKMO_OSTIA.ncml",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 6,
+      "revision_id": "0007a519-7302-493c-9659-e0c70bd74894",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "dcd18dc7-cf92-4277-959b-f491034413bc",
+      "webstore_last_updated": null,
+      "id": "9d3ceee9-e3ba-428e-a9c0-76872dc54045",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "The UAF project is providing this catalog as a public service to aid in the discovery and access of scientific data.  The UAF is not responsible for the content of the data and all questions regarding the data should be directed to the office where the data reside.",
+      "format": "",
+      "tracking_summary": {
+        "total": 18,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTPS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA GEO-IDE",
+      "created": "2016-10-19T16:06:23.025760",
+      "url": "https://geo-ide.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 7,
+      "revision_id": "0007a519-7302-493c-9659-e0c70bd74894",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "dcd18dc7-cf92-4277-959b-f491034413bc",
+      "webstore_last_updated": null,
+      "id": "ab456c6d-e79b-440a-889f-faf77771064b",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "THREDDS OPeNDAP",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OPeNDAP:OPeNDAP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OPeNDAP",
+      "created": "2016-10-19T16:06:23.025779",
+      "url": "http://data.nodc.noaa.gov/thredds/dodsC/testdata/ghrsst_ncml/fullAgg/aggregate__ghrsst_L4_GLOB_UKMO_OSTIA.ncml",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 8,
+      "revision_id": "0007a519-7302-493c-9659-e0c70bd74894",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "dcd18dc7-cf92-4277-959b-f491034413bc",
+      "webstore_last_updated": null,
+      "id": "8221b95a-37a2-44c8-afa3-69b0a5c2547d",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Open Geospatial Consortium Web Coverage Service (WCS)",
+      "format": "WCS",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WCS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OGC-WCS",
+      "created": "2016-10-19T16:06:23.025799",
+      "url": "http://data.nodc.noaa.gov/thredds/wcs/testdata/ghrsst_ncml/fullAgg/aggregate__ghrsst_L4_GLOB_UKMO_OSTIA.ncml?service=WCS&version=1.0.0&request=GetCapabilities",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 9,
+      "revision_id": "0007a519-7302-493c-9659-e0c70bd74894",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "dcd18dc7-cf92-4277-959b-f491034413bc",
+      "webstore_last_updated": null,
+      "id": "2a81a611-4aa9-492a-bc75-4309e3fb9598",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Open Geospatial Consortium Web Map Service (WMS)",
+      "format": "WMS",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WMS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OGC-WMS",
+      "created": "2016-10-19T16:06:23.025810",
+      "url": "http://data.nodc.noaa.gov/thredds/wms/testdata/ghrsst_ncml/fullAgg/aggregate__ghrsst_L4_GLOB_UKMO_OSTIA.ncml?service=WMS&version=1.3.0&request=GetCapabilities",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 10,
+      "revision_id": "0007a519-7302-493c-9659-e0c70bd74894",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 11,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 1,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "global-sst-sea-ice-analysis-l4-ostia-0-05-deg-daily-metoffice-glo-sst-l4-nrt-obs-sst-v2",
+  "isopen": false,
+  "url": null,
+  "notes": "",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "179.97500610351562"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "89.9749984741211"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[{\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}, {\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}, {\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}]"
+    },
+    {
+      "key": "guid",
+      "value": "testdata.ghrsst_ncml.fullAgg.aggregate__ghrsst_L4_GLOB_UKMO_OSTIA.ncml"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "-89.9749984741211"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-179.975006104, -89.9749984741], [179.975006104, -89.9749984741], [179.975006104, 89.9749984741], [-179.975006104, 89.9749984741], [-179.975006104, -89.9749984741]]]}"
+    },
+    {
+      "key": "progress",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2006-04-01T12:00:00Z"
+    },
+    {
+      "key": "contact-email",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-179.97500610351562"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-10-13"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"revision\", \"value\": \"2014-06-26T19:44:54Z\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"The Unified Access Framework (UAF)\", \"roles\": [\"custodian\"]}, {\"name\": \"UK Met Office\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2014-07-08T12:00:00Z"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": "THREDDS OPeNDAP"
+    },
+    {
+      "key": "metadata-language",
+      "value": "eng"
+    },
+    {
+      "key": "tags",
+      "value": "sea_ice_area_fraction, the unified access framework: a geo-ide project to integrate scientific data management and access, longitude, unified access framework (uaf), sea_surface_temperature, time, latitude"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "20bf12b8-8316-4366-beb7-53b2c1d48b67"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Global SST & Sea Ice Analysis, L4 OSTIA, 0.05 deg daily (METOFFICE-GLO-SST-L4-NRT-OBS-SST-V2)",
+  "revision_id": "974cb3c8-0f05-45bc-a3be-1f0437d41b9e"
+}

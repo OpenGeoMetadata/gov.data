@@ -1,0 +1,210 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "Richard Easterbrook",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "richard_easterbrook@fws.gov",
+  "num_tags": 3,
+  "id": "64288a7e-2e6f-43ba-b8bf-aedf2aa51530",
+  "metadata_created": "2014-04-24T15:02:19.442798",
+  "metadata_modified": "2016-07-27T22:40:30.231137",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "64288a7e-2e6f-43ba-b8bf-aedf2aa51530",
+      "webstore_last_updated": null,
+      "id": "b4f630e9-c672-4277-b97e-96d5ed346350",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Add file name to attribute table",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 227,
+        "recent": 28
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "AddFileName.zip",
+      "created": "2016-07-27T18:40:30.284524",
+      "url": "https://ecos.fws.gov/ServCat/DownloadFile/19429?Reference=20752",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "9b2a33ec-2080-41c9-97ef-57ecb6734fc4",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geographic-information-system",
+      "id": "0cedd005-8f74-40ce-a14f-47f332a8e529",
+      "name": "geographic-information-system"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "gis-tool",
+      "id": "64895ce7-b9a2-47bb-b6c3-411f3d0ddfcd",
+      "name": "gis-tool"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "model-builder",
+      "id": "5b5643c0-4d48-44b5-bd20-090b07bb920c",
+      "name": "model-builder"
+    }
+  ],
+  "tracking_summary": {
+    "total": 2636,
+    "recent": 76
+  },
+  "groups": [
+
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:48.890979",
+    "title": "US Fish and Wildlife Service, Department of the Interior",
+    "name": "fws-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://upload.wikimedia.org/wikipedia/commons/0/0c/US-FishAndWildlifeService-Logo.svg",
+    "revision_id": "353573b3-02ba-4e95-a876-828e8972ac08",
+    "type": "organization",
+    "id": "4d7ad1cd-3641-420b-8116-e4082f49cd44",
+    "approval_status": "approved"
+  },
+  "name": "arcgis-tool-inserts-file-name-into-attribute-table",
+  "isopen": false,
+  "url": null,
+  "notes": "This ArcGIS model inserts a file name into a feature class attribute table. The tool allows an user to identify features by a field that reference the name of the original file. It is useful when an user have to merge multiple feature classes and needs to identify which layer the features come from.",
+  "owner_org": "4d7ad1cd-3641-420b-8116-e4082f49cd44",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Fish and Wildlife Service"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "269d76fb-fa7e-49d2-a6bb-3a9e3f1bee70"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "issued",
+      "value": "2013-06-24"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2013-06-24"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "fwsjson"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "010:094",
+        "010:028"
+      ]
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Software"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "010:18"
+      ]
+    },
+    {
+      "key": "references",
+      "value": [
+        "https://ecos.fws.gov/ServCat/Reference/Profile/20752"
+      ]
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@id",
+      "value": "C:\\Program Files (x86)\\FWS\\DataStore\\Application\\OpenData\\FWS_ServCat_v1_1.json"
+    },
+    {
+      "key": "identifier",
+      "value": "FWS_ServCat_20752"
+    },
+    {
+      "key": "landingPage",
+      "value": "https://ecos.fws.gov/ServCat/Reference/Profile/20752"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "82489452-2516-4dfc-9c28-888de089e097"
+    },
+    {
+      "key": "source_hash",
+      "value": "d0f252d70045e16bca6af3a7623baf35ee24b4c3"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "82489452-2516-4dfc-9c28-888de089e097"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "269d76fb-fa7e-49d2-a6bb-3a9e3f1bee70"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "fwsjson"
+    }
+  ],
+  "title": "ArcGIS Tool: Inserts file name into attribute table",
+  "revision_id": "10ee547b-0316-48c9-bf82-15f765847cc4"
+}

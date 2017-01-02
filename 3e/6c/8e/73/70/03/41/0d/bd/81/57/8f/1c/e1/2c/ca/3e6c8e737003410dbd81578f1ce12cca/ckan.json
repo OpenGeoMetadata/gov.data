@@ -1,0 +1,226 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "3e6c8e73-7003-410d-bd81-578f1ce12cca",
+  "metadata_created": "2013-11-01T02:48:15.057387",
+  "metadata_modified": "2013-11-01T02:48:15.057387",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "3e6c8e73-7003-410d-bd81-578f1ce12cca",
+      "webstore_last_updated": null,
+      "id": "45126625-0867-4aac-960e-c418fef063f0",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "wacp_IfSAR_lakes_with_drainage_gradients.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "e9b7661a-7aba-4783-9ddb-918ec80071d7",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2013-10-31T22:48:15.228569",
+      "url": "http://arcticlcc.org/assets/products/ARCT2010-09/spatial_data/wacp_IfSAR_lakes_with_drainage_gradients.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "3e6c8e73-7003-410d-bd81-578f1ce12cca",
+      "webstore_last_updated": null,
+      "id": "7a411e59-5433-4f54-9045-aea7b80bdcbc",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 7,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "e9b7661a-7aba-4783-9ddb-918ec80071d7",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2013-10-31T22:48:15.228615",
+      "url": "http://arcticlcc.org/products/spatial-data/show/western-arctic-coastal-plain-lakes-and-drainage-gradients",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 61,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The Arctic Landscape Conservation Cooperative (ALCC) supports conservation in the arctic by providing [applied science](http://arcticlcc.org/projects/) and [tools](http://arcticlcc.org/products/) to land managers and policy makers. It is a self-directed partnership that functions through a structure of at-large partners, a core staff, and a steering committee of cooperating agencies and organizations. Its [geographic scope](http://arcticlcc.org/projects/geospatial-data/arctic-lcc-boundaries/) ranges across North America from Alaska to Labrador. The Alaska portion encompasses three eco-regions: the Brooks Range, the Arctic Foothills, and the Arctic Coastal Plain.",
+    "created": "2013-08-30T12:57:14.187258",
+    "title": "Arctic Landscape Conservation Cooperative",
+    "name": "alcc-fws-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://arcticlcc.org/assets/images/logos/logo_small.png",
+    "revision_id": "ecafc1e0-403b-488e-bca1-62b78e4abc81",
+    "type": "organization",
+    "id": "fe75ed93-9c93-4c56-bc02-11ab228d1abd",
+    "approval_status": "approved"
+  },
+  "name": "extraction-of-lakes-from-an-ifsar-dsm-and-a-gis-based-analysis-of-drainage-potential-western-ar",
+  "isopen": false,
+  "url": null,
+  "notes": "More than 35,000 lakes larger than 0.01 sq. km. were extracted from an airborne interferometric synthetic aperture radar (IfSAR) derived digital surface model acquired between 2002 and 2006 for the Western Arctic Coastal Plain of northern Alaska. The IfSAR derived lake data layer provides an improvement over previously available datasets for the study area since it is more comprehensive and contemporary. Attributes assigned to the IfSAR-derived lake dataset include: area, lake elevation, elevation in 10, 25, 50, and 100 m buffers around a lake perimeter, the difference in elevation between the lake and these various buffers, whether a particular lake had a detectable drainage gradient exceeding 1.2 m, whether a particular lake intersected flowlines extracted from the National Hydrographic Dataset (NHD), potential susceptibility to drainage, NHD lake area, difference in area between the IfSAR and NHD lake data layers, whether a lake increased or decreased in area between these two datasets, the estimated difference in the radius of the lake based on a circle, an estimate of lake expansion rates over time, and likelihood of lake drainage as a result of lateral expansion by 2050 and 2100. We identified 4,515 lakes (13%) as being susceptible to drainage based on a detectable drainage gradient within 100 m of the lake shoreline and no intersection with the NHD flowline data layer (a proxy for a currently closed-basin lake). Of these 4,515 lakes, 3,145 were identified as an expanding lake based on an increase in lake area when comparing the IfSAR lake data layer to the NHD lake data layer. When applying estimated expansion rates of these lakes to detectable drainage gradients in the IfSAR data, it appears that 8 may drain as a result of lake expansion by 2050 and 32 by 2100. However, these numbers should be viewed as a minimum and conservative estimate since only one mechanism for drainage was explored and a conservative gradient of 1.2 m was used. Incorporation of river migration rates, headward erosion by streams, coastal erosion rates, blowout rates in the sand sea, water level change, ice-wedge degradation, and top-down permafrost thaw are also drainage mechanisms that could be incorporated into this dataset to provide more information on the timing associated with the drainage of lakes on the Western Arctic Coastal Plain of northern Alaska.",
+  "owner_org": "fe75ed93-9c93-4c56-bc02-11ab228d1abd",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-150.730831"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "71.378182"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "69.420089"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-158.726495, 69.420089], [-150.730831, 69.420089], [-150.730831, 71.378182], [-158.726495, 71.378182], [-158.726495, 69.420089]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data to evaluate data set limitations, restrictions or intended use. Neither the originators of this dataset or the Arctic Landscape Conservation Cooperative shall be held liable for improper or incorrect use of the data described and/or contained herein.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2002-07-24"
+    },
+    {
+      "key": "contact-email",
+      "value": "bjones@usgs.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-158.726495"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2013-09-27"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2013-10-20\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Neither the originators of this dataset or Arctic Landscape Conservation Cooperative shall be held liable for improper or incorrect use of the data described and/or contained herein.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Geological Survey - Alaska Science Center\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2006-09-13"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "Projection of lake persistence, Arctic Landscape Conservation Cooperative (ALCC), Hydrologic gradients, Thermokarst, Lakes, Digital Surface Model, Lake Drainage, Alaska, Arctic Coastal Plain"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "394df55a-3d09-475e-bb80-1dbead7be987"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "38e54fcc-f3f5-4b47-8260-9d36f4f7ba73"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Arctic Landscape Conservation Cooperative Spatial Data"
+    }
+  ],
+  "title": "Extraction of lakes from an IfSAR DSM and a GIS-based analysis of drainage potential, Western Arctic Coastal Plain of northern Alaska",
+  "revision_id": "e9b7661a-7aba-4783-9ddb-918ec80071d7"
+}

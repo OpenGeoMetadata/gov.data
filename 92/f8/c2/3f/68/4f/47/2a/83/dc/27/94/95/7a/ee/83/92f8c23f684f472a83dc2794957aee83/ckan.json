@@ -1,0 +1,725 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "92f8c23f-684f-472a-83dc-2794957aee83",
+  "metadata_created": "2015-09-26T22:44:00.492627",
+  "metadata_modified": "2016-10-04T00:27:32.758477",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "92f8c23f-684f-472a-83dc-2794957aee83",
+      "webstore_last_updated": null,
+      "id": "ce79c0ce-159b-4377-a6ca-800c1dd7deee",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Navigate directly to the URL for a descriptive web page with download links.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Descriptive Information",
+      "created": "2016-10-03T20:27:33.295817",
+      "url": "https://doi.org/10.7289/V5QJ7F8R",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "47a2c042-5dd0-4ecd-8b3b-1b3955cf8166",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "92f8c23f-684f-472a-83dc-2794957aee83",
+      "webstore_last_updated": null,
+      "id": "1d212eb4-7ad9-4129-9bc6-2d8553c5d2da",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "search",
+      "hash": "",
+      "description": "Search for data granules belonging to this collection (a granule is the smallest aggregation of data that can be independently described and retrieved).",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Granule Search",
+      "created": "2016-10-03T20:27:33.295866",
+      "url": "https://www.nodc.noaa.gov/search/granule/rest/find/document?searchText=title%3A*SAMOS*&start=1&max=100&f=searchPage",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "47a2c042-5dd0-4ecd-8b3b-1b3955cf8166",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "92f8c23f-684f-472a-83dc-2794957aee83",
+      "webstore_last_updated": null,
+      "id": "78a42782-c8b4-463a-bbac-61e98cd342f0",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "These data are available through a variety of services via a THREDDS (Thematic Real-time Environmental Distributed Data Services) Data Server (TDS). Depending on the dataset, the TDS can provide WMS, WCS, DAP, HTTP, and other data access and metadata services as well. For more information on the TDS, see http://www.unidata.ucar.edu/software/thredds/current/tds/.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "THREDDS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "THREDDS",
+      "created": "2016-10-03T20:27:33.295884",
+      "url": "https://data.nodc.noaa.gov/thredds/catalog/coaps/samos/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "47a2c042-5dd0-4ecd-8b3b-1b3955cf8166",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "92f8c23f-684f-472a-83dc-2794957aee83",
+      "webstore_last_updated": null,
+      "id": "368ec469-d16f-45a6-81ec-bc4d9205c3dd",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "These data are available through the Data Access Protocol (DAP) via an OPeNDAP Hyrax server. For a listing of OPeNDAP clients which may be used to access OPeNDAP-enabled data sets, please see the OPeNDAP website at http://opendap.org/.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "DAP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OPeNDAP",
+      "created": "2016-10-03T20:27:33.295893",
+      "url": "https://data.nodc.noaa.gov/opendap/coaps/samos/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 3,
+      "revision_id": "47a2c042-5dd0-4ecd-8b3b-1b3955cf8166",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "92f8c23f-684f-472a-83dc-2794957aee83",
+      "webstore_last_updated": null,
+      "id": "433da5b9-0f2f-4fcc-af19-23c1b671698a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Navigate directly to the URL for data access and direct download.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "HTTP",
+      "created": "2016-10-03T20:27:33.295900",
+      "url": "https://data.nodc.noaa.gov/coaps/samos/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 4,
+      "revision_id": "47a2c042-5dd0-4ecd-8b3b-1b3955cf8166",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "92f8c23f-684f-472a-83dc-2794957aee83",
+      "webstore_last_updated": null,
+      "id": "23a15c03-ca37-44ad-afc6-525cce5013af",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "These data are available through the File Transfer Protocol (FTP). You may use any FTP client to download these data.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "FTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FTP",
+      "created": "2016-10-03T20:27:33.295908",
+      "url": "ftp://ftp.nodc.noaa.gov/pub/data.nodc/coaps/samos/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 5,
+      "revision_id": "47a2c042-5dd0-4ecd-8b3b-1b3955cf8166",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "92f8c23f-684f-472a-83dc-2794957aee83",
+      "webstore_last_updated": null,
+      "id": "6616fca4-36f4-47fb-9709-cfbbebee763b",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Main NCEI website providing links to access data and data services.",
+      "format": "",
+      "tracking_summary": {
+        "total": 51,
+        "recent": 8
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA National Centers for Environmental Information website",
+      "created": "2016-10-03T20:27:33.295915",
+      "url": "https://www.ncei.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 6,
+      "revision_id": "47a2c042-5dd0-4ecd-8b3b-1b3955cf8166",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "92f8c23f-684f-472a-83dc-2794957aee83",
+      "webstore_last_updated": null,
+      "id": "f1423b6a-681e-4715-827a-53aef3efc04e",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Main NODC website providing links to access data and data services.",
+      "format": "",
+      "tracking_summary": {
+        "total": 7,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA National Oceanographic Data Center website",
+      "created": "2016-10-03T20:27:33.295923",
+      "url": "https://www.nodc.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 7,
+      "revision_id": "47a2c042-5dd0-4ecd-8b3b-1b3955cf8166",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "92f8c23f-684f-472a-83dc-2794957aee83",
+      "webstore_last_updated": null,
+      "id": "1c2263f7-fb7d-448b-a5ae-8d117354f407",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Institution web page",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Center for Ocean-Atmospheric Prediction Studies website",
+      "created": "2016-10-03T20:27:33.295930",
+      "url": "http://www.coaps.fsu.edu/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 8,
+      "revision_id": "47a2c042-5dd0-4ecd-8b3b-1b3955cf8166",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "92f8c23f-684f-472a-83dc-2794957aee83",
+      "webstore_last_updated": null,
+      "id": "fd4a98b3-d84c-4dc4-baef-cdd2c2b3b05d",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Institution web page",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Center for Ocean-Atmospheric Prediction Studies website",
+      "created": "2016-10-03T20:27:33.295937",
+      "url": "http://www.coaps.fsu.edu/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 9,
+      "revision_id": "47a2c042-5dd0-4ecd-8b3b-1b3955cf8166",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "92f8c23f-684f-472a-83dc-2794957aee83",
+      "webstore_last_updated": null,
+      "id": "8b30bffb-11cc-46b0-97c9-f2ac4ec6d5c3",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Institution web page",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Center for Ocean-Atmospheric Prediction Studies website",
+      "created": "2016-10-03T20:27:33.295944",
+      "url": "http://www.coaps.fsu.edu/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 10,
+      "revision_id": "47a2c042-5dd0-4ecd-8b3b-1b3955cf8166",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "92f8c23f-684f-472a-83dc-2794957aee83",
+      "webstore_last_updated": null,
+      "id": "5c1dbb91-8232-4d76-b9d4-d2690121db2a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Main NCEI website providing links to access data and data services.",
+      "format": "",
+      "tracking_summary": {
+        "total": 51,
+        "recent": 8
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA National Centers for Environmental Information website",
+      "created": "2016-10-03T20:27:33.295951",
+      "url": "https://www.ncei.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 11,
+      "revision_id": "47a2c042-5dd0-4ecd-8b3b-1b3955cf8166",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "92f8c23f-684f-472a-83dc-2794957aee83",
+      "webstore_last_updated": null,
+      "id": "4db177a5-d9d9-4d7f-bcfe-02c1506f4c8e",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-10-03T20:27:33.295958",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 12,
+      "revision_id": "47a2c042-5dd0-4ecd-8b3b-1b3955cf8166",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "92f8c23f-684f-472a-83dc-2794957aee83",
+      "webstore_last_updated": null,
+      "id": "aef95983-4a39-4f05-a4bd-7b4ee5183cc7",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-10-03T20:27:33.295966",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 13,
+      "revision_id": "47a2c042-5dd0-4ecd-8b3b-1b3955cf8166",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "92f8c23f-684f-472a-83dc-2794957aee83",
+      "webstore_last_updated": null,
+      "id": "54c93696-527f-4956-a6a4-578e95573901",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-10-03T20:27:33.295973",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 14,
+      "revision_id": "47a2c042-5dd0-4ecd-8b3b-1b3955cf8166",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "92f8c23f-684f-472a-83dc-2794957aee83",
+      "webstore_last_updated": null,
+      "id": "ae66f016-61b5-4efa-af18-84b3a5ed2398",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-10-03T20:27:33.295980",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 15,
+      "revision_id": "47a2c042-5dd0-4ecd-8b3b-1b3955cf8166",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "92f8c23f-684f-472a-83dc-2794957aee83",
+      "webstore_last_updated": null,
+      "id": "f1303a2f-c30a-4f31-8f5a-f6b7ceb490bc",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-10-03T20:27:33.295987",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 16,
+      "revision_id": "47a2c042-5dd0-4ecd-8b3b-1b3955cf8166",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "92f8c23f-684f-472a-83dc-2794957aee83",
+      "webstore_last_updated": null,
+      "id": "da609b77-588e-4e30-bb68-a59a4fa823ef",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Navigate directly to the URL for data access and direct download.",
+      "format": "",
+      "tracking_summary": {
+        "total": 5,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "SAMOS web site",
+      "created": "2016-10-03T20:27:33.295995",
+      "url": "http://samos.coaps.fsu.edu/html/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 17,
+      "revision_id": "47a2c042-5dd0-4ecd-8b3b-1b3955cf8166",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "92f8c23f-684f-472a-83dc-2794957aee83",
+      "webstore_last_updated": null,
+      "id": "6a7c43da-079c-4429-ab64-d6901c036a68",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Institution web page",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Center for Ocean-Atmospheric Prediction Studies website",
+      "created": "2016-10-03T20:27:33.296002",
+      "url": "http://www.coaps.fsu.edu/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 18,
+      "revision_id": "47a2c042-5dd0-4ecd-8b3b-1b3955cf8166",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 19,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 4,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "quality-controlled-underway-oceanographic-and-meteorological-data-from-the-center-for-ocean-atm",
+  "isopen": false,
+  "url": null,
+  "notes": "The Florida State University has been operating a data assembly center (DAC) to collect, quality evaluate, and distribute Shipboard Automated Meteorological and Oceanographic System (SAMOS) observations since 2005. SAMOS are typically a computerized data logging system that records underway meteorological and near-surface oceanographic observations collected on research vessels. The SAMOS initiative does not provide specific instrumentation for vessels, but instead takes advantage of science quality instrumentation already deployed on research vessels and select merchant ships. The SAMOS initiative provides vessel operators with desired sampling protocols and metadata requirements that will ensure the DAC receives a consistent series of observations from each vessel. The DAC and its partners in U. S. National Oceanographic and Atmospheric Administration (NOAA), the University National Oceanographic Laboratory System, the U. S. Coast Guard, and the U. S. Antarctic Program have implemented a series of daily data transmission from ship-to-shore using an email protocol. A set of observations recorded at one-minute intervals for the previous day arrive at the DAC soon after 0000 UTC and undergo automated quality evaluation. A trained data analyst reviews data and responds directly to vessels at sea when problems are identified. A secondary level of visual quality control is completed after all data fro a single ship and day are merged into a common daily file (allowing for delayed data receipts). All quality-evaluated data are freely available to the user community (via http://samos.coaps.fsu.edu) and are distributed to national archive centers. This project is supported by the NOAA Climate Observation Division.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "180"
+    },
+    {
+      "key": "resource-type",
+      "value": "series"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "90"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "PNG"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.nodc:COAPS-SAMOS"
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "https://data.nodc.noaa.gov/cgi-bin/gfx?id=gov.noaa.nodc:COAPS-SAMOS"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "-90"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-180.0, -90.0], [180.0, -90.0], [180.0, 90.0], [-180.0, 90.0], [-180.0, -90.0]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Cite as: Smith, Shawn R.; Rolph, Jeremy J.; Briggs, Kristen; Bourassa, Mark A. (2009). Quality-Controlled Underway Oceanographic and Meteorological Data from the Center for Ocean-Atmospheric Predictions Center (COAPS) - Shipboard Automated Meteorological and Oceanographic System (SAMOS). National Oceanographic Data Center, NOAA. Dataset. doi:10.7289/V5QJ7F8R [access date]\", \"NOAA and NCEI cannot provide any warranty as to the accuracy, reliability, or completeness of furnished data. Users assume responsibility to determine the usability of these data. The user is responsible for the results of any application of this data for other than its intended purpose.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2005-05-09"
+    },
+    {
+      "key": "contact-email",
+      "value": "NCEI.Info@noaa.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-180"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-09-09T02:26:15"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2010-11-15\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "Preview graphic"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"accessLevel: Public\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": "eng"
+    },
+    {
+      "key": "tags",
+      "value": "irradiance, sea temperature, atmosphere, south pacific ocean, platform relative wind speed 2, noaa, ocean optics, barents sea, bay of fundy, platform relative wind direction 2, platform relative wind direction 3, thermometers, doc/noaa/nesdis/ncei, bering sea, density, long wave atmospheric radiation 2, rain rate, latitude, precipitation accumulation 2, norwegian sea, oceans, gulf of st lawrence, surface winds, precipitation, south atlantic ocean, oxygen, gulf of alaska, east china sea, humidity, red sea, atmospheric water vapor, ocean chemistry, sea temperature 2, sea temperature 3, atmospheric pressure 2, atmospheric pressure 3, platform course, platform speed over water 2, conductivity, compasses, beaufort sea, western pacific ocean, net atmospheric radiation 2, transmissometers, profilers/sounders, earth remote sensing instruments, net atmospheric radiation, precipitation accumulation, mediterranean sea, precipitation amount, http://www.omao.noaa.gov, precipitation accumulation 3, noaa's office of marine and aviation operations, noaa, u.s. department of commerce, oxygen meters, north pacific ocean, photosynthetically active radiation 2, platform relative wind speed, platform speed over water, platform speed over ground 2, chemical meters/analyzers, ocean acoustics, arctic ocean, platform heading, thermosalinographs, water temperature, atmospheric winds, fluorometers, government agencies-u.s. federal agencies, platform course 2, long wave atmospheric radiation, earth relative wind speed 2, earth relative wind speed 3, in situ/laboratory instruments, caribbean sea, ocean temperature, earth relative wind speed, platform relative wind speed 3, salinity 2, platform relative wind direction, woods hole oceanographic institution, southern ocean, national oceanographic data center, nesdis, noaa, u.s. department of commerce, earth science, oceanography, photometers, atmospheric pressure, consortia/institutions, acoustic velocity, wind speed/wind direction, short wave atmospheric radiation, whoi, atmospheric temperature, ocean, passive remote sensing, gps, precipitation rate, central pacific ocean, positioning/navigation, salinity/density, doc/noaa/nesdis/nodc, photosynthetically active radiation, longitude, earth relative wind direction 2, earth relative wind direction 3, conductivity 2, bathymetry/seafloor topography, wet bulb temperature, davis strait, relative humidity 2, relative humidity 3, hawaiian islands, platform heading 3, platform heading 2, rain rate 3, rain rate 2, pacific ocean, doc/noaa/omao, bay of bengal, indian ocean, air temperature 3, air temperature 2, photosynthetically active atmospheric radiation, north atlantic ocean, gulf of mexico, national centers for environmental information, nesdis, noaa, u.s. department of commerce, temperature/humidity sensors, water depth, relative humidity, dew point temperature 2, atlantic ocean, dew point temperature, fluorescence, surface temperature, doc, earth relative wind direction, air temperature, salinity, south china sea, south china and eastern archipelagic seas, photon/optical detectors, time, http://www.whoi.edu/, turbidity, platform speed over ground"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "4909b2fc-cd15-4137-af4f-5194b88142d7"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Quality-Controlled Underway Oceanographic and Meteorological Data from the Center for Ocean-Atmospheric Predictions Center (COAPS) - Shipboard Automated Meteorological and Oceanographic System (SAMOS)",
+  "revision_id": "c5196138-bb9e-4913-9e35-306fcf9e8540"
+}

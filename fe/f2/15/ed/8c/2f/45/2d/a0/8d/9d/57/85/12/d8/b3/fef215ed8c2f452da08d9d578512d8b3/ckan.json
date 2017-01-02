@@ -1,0 +1,331 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "fef215ed-8c2f-452d-a08d-9d578512d8b3",
+  "metadata_created": "2013-03-16T00:58:23.210047",
+  "metadata_modified": "2015-04-09T22:52:50.858391",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "fef215ed-8c2f-452d-a08d-9d578512d8b3",
+      "webstore_last_updated": null,
+      "id": "366ee80f-ecb2-451e-8676-8ca90bd5b262",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "375",
+      "hash": "",
+      "description": "This web page is an OpenLayers application built to help you view the Geologic Map of Arizona.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 39,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Online Map",
+      "created": "2013-03-16T01:58:23.230167",
+      "url": "http://services.usgin.org/azgs/geologic-map-arizona.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "9abef529-e77c-4e47-a924-63e19bdcec8d",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "fef215ed-8c2f-452d-a08d-9d578512d8b3",
+      "webstore_last_updated": null,
+      "id": "b219b61a-f8a9-44ba-9694-4638116867f8",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "381",
+      "hash": "",
+      "description": "This is a WFS service that uses layers which conform to FeatureClasses in the NCGMP09 database model.",
+      "format": "WFS",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WFS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NCGMP09-based WFS",
+      "created": "2013-03-16T01:58:23.230184",
+      "url": "http://services.azgs.az.gov/ArcGIS/services/GeologicMapOfArizona/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "3738d675-91c7-469e-ba2a-243a1acb031f",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "fef215ed-8c2f-452d-a08d-9d578512d8b3",
+      "webstore_last_updated": null,
+      "id": "361b1f5e-7e24-4d94-9524-c3553a14bb3a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "381",
+      "hash": "",
+      "description": "This is a WMS service that uses layers which conform to FeatureClasses in the NCGMP09 database model.",
+      "format": "WMS",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WMS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NCGMP09-based WMS",
+      "created": "2013-03-16T01:58:23.230191",
+      "url": "http://services.azgs.az.gov/ArcGIS/services/GeologicMapOfArizona/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "3738d675-91c7-469e-ba2a-243a1acb031f",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "fef215ed-8c2f-452d-a08d-9d578512d8b3",
+      "webstore_last_updated": null,
+      "id": "54ba1905-0dd9-408c-aaa3-d70d515f1219",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "381",
+      "hash": "",
+      "description": "This is an ESRI service that uses layers which conform to FeatureClasses in the NCGMP09 database model.",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "ESRI",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NCGMP09-based ESRI Service",
+      "created": "2013-03-16T01:58:23.230196",
+      "url": "http://services.azgs.az.gov/ArcGIS/rest/services/GeologicMapOfArizona/MapServer",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 3,
+      "revision_id": "3738d675-91c7-469e-ba2a-243a1acb031f",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "fef215ed-8c2f-452d-a08d-9d578512d8b3",
+      "webstore_last_updated": null,
+      "id": "f8aed078-14e4-40d8-ad30-6b70a8ecfc72",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "381",
+      "hash": "",
+      "description": "This is a WMS service that conforms to the naming conventions for OneGeology services. It can be viewed through the OneGeology portal at http://portal.onegeology.org.",
+      "format": "WMS",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WMS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OneGeology WMS",
+      "created": "2013-03-16T01:58:23.230202",
+      "url": "http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_Arizona_Geology/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 4,
+      "revision_id": "3738d675-91c7-469e-ba2a-243a1acb031f",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "fef215ed-8c2f-452d-a08d-9d578512d8b3",
+      "webstore_last_updated": null,
+      "id": "82f8bb42-4e6a-4fc2-a2fb-5bcd1cc1fd19",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "381",
+      "hash": "",
+      "description": "This is an ESRI service that conforms to naming conventions for OneGeology services.",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "ESRI",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OneGeology ESRI Service",
+      "created": "2013-03-16T01:58:23.230207",
+      "url": "http://services.azgs.az.gov/ArcGIS/rest/services/OneGeology/AZGS_Arizona_Geology/MapServer",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 5,
+      "revision_id": "3738d675-91c7-469e-ba2a-243a1acb031f",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 6,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 230,
+    "recent": 5
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The Arizona Geological Survey collates and serves geological information for Arizona and other states through its partnership with other state geological surveys.",
+    "created": "2013-03-14T03:44:43.328493",
+    "title": "Arizona Geological Survey",
+    "name": "azgs-az-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.50states.com/flag/image/nunst004.gif",
+    "revision_id": "61be6428-4398-4199-a336-f3cd1e956f9b",
+    "type": "organization",
+    "id": "f3f6e1d4-64fb-4a2f-b32c-9ac0b76fe4de",
+    "approval_status": "approved"
+  },
+  "name": "geologic-map-of-arizona-at-1-1000000-scale",
+  "isopen": false,
+  "url": null,
+  "notes": "Digital version of Richard, S.M., Reynolds, S.J., Spencer, J.E., and Pearthree, P.A., comps., 2000, Geologic Map of Arizona: Arizona Geological Survey Map M-35, 1 sheet, scale 1:1,000,000. This dataset is available through a number of different distributions. An ESRI service and Web map service was created as a contribution to OneGeology. The same data is available in a format closer to the NCGMP09 database format as an ESRI Service, a Web map and Web feature service. Finally, an online viewing application was created.",
+  "owner_org": "f3f6e1d4-64fb-4a2f-b32c-9ac0b76fe4de",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Arizona Geological Survey\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "metadata@usgin.org"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-115.103738"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2012-03-08T17:54:41Z"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2010-03-29T16:48:28\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-108.755965"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "37.287369"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "31.048416"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-115.103738, 31.048416], [-115.103738, 37.287369], [-108.755965, 37.287369], [-108.755965, 31.048416], [-115.103738, 31.048416]]]}"
+    },
+    {
+      "key": "guid",
+      "value": "4e6b8f72f7d6c3856f092c6b850180eb"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "Arizona, OneGeology, Lithostratigraphy, Geology, WMS Services, ESRI Services, WFS Services, Web Applications, Arizona Geological Survey, Downloadable Files"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d1b8d2ee-50e3-4ec2-9496-c45b705016ae"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "f800beb8-4923-4e88-910f-1c6cf0078598"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "AASG geothermal data CSW"
+    }
+  ],
+  "title": "Geologic Map of Arizona at 1:1,000,000-scale",
+  "revision_id": "9abef529-e77c-4e47-a924-63e19bdcec8d"
+}

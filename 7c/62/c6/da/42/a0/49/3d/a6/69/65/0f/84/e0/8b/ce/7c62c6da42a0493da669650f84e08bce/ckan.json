@@ -1,0 +1,199 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "<Nobody>",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "dataportal@cityofchicago.org",
+  "num_tags": 3,
+  "id": "7c62c6da-42a0-493d-a669-650f84e08bce",
+  "metadata_created": "2015-09-03T05:38:42.219826",
+  "metadata_modified": "2016-01-28T07:18:49.735774",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "7c62c6da-42a0-493d-a669-650f84e08bce",
+      "webstore_last_updated": null,
+      "id": "7949d77e-582d-4334-9beb-f26082e5f03c",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 24,
+        "recent": 3
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2015-09-03T01:38:42.586991",
+      "url": "https://data.cityofchicago.org/download/5wdx-rdkp/application/zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "717cfcef-6322-4a1e-aeb7-b0441c695241",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "crime",
+      "id": "e8b5cde0-240c-4937-8bff-193793d50277",
+      "name": "crime"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "historical",
+      "id": "9673b3d3-d170-41a6-9b56-4d5538ff6341",
+      "name": "historical"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ward",
+      "id": "1143ce0c-b5ff-4375-88da-98ee0b6f5b97",
+      "name": "ward"
+    }
+  ],
+  "tracking_summary": {
+    "total": 66,
+    "recent": 7
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2014-04-16T13:27:34.042027",
+    "title": "City of Chicago",
+    "name": "city-of-chicago",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "",
+    "revision_id": "2355fd63-2123-4dc7-b177-e959631cf360",
+    "type": "organization",
+    "id": "86c0c3d9-3826-47ab-a773-6924b858dd04",
+    "approval_status": "approved"
+  },
+  "name": "2003-ward-dataset-csvs-crimes-2001-to-present",
+  "isopen": false,
+  "url": null,
+  "notes": "As discussed in http://bit.ly/wardpost, the City of Chicago changed to a new ward map on 5/18/2015, affecting some datasets.  This ZIP file contains a CSV export from 5/15/2015 of the \"Crimes - 2001 to present\" dataset.  Due to size limitations, this file had to be separated from the CSV exports of the other datasets, which are at https://data.cityofchicago.org/d/q6z8-94kn.  This CSV file contains a close-to-final version of the crimes dataset with the previous (\"2003\") ward values.",
+  "owner_org": "86c0c3d9-3826-47ab-a773-6924b858dd04",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "data.cityofchicago.org"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "added36a-9183-4385-a0e5-dd478946b24c"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "issued",
+      "value": "2015-06-11"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2015-06-19"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Chicago JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Administration & Finance"
+      ]
+    },
+    {
+      "key": "catalog_@id",
+      "value": "https://data.cityofchicago.org/data.json"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "https://data.cityofchicago.org/api/views/5wdx-rdkp"
+    },
+    {
+      "key": "landingPage",
+      "value": "https://data.cityofchicago.org/d/5wdx-rdkp"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "8050ce58-6239-47ea-b2c8-254aff2a13ae"
+    },
+    {
+      "key": "source_hash",
+      "value": "ddfd219b48ada05db77723526470a8faa18bd132"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "8050ce58-6239-47ea-b2c8-254aff2a13ae"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "added36a-9183-4385-a0e5-dd478946b24c"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Chicago JSON"
+    }
+  ],
+  "title": "2003 Ward Dataset CSVs - Crimes - 2001 to present",
+  "revision_id": "930563ca-3e99-4b4a-ab64-bc857d2f7ef8"
+}

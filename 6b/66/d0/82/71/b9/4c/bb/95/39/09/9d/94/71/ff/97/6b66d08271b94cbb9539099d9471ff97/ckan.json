@@ -1,0 +1,226 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "6b66d082-71b9-4cbb-9539-099d9471ff97",
+  "metadata_created": "2016-05-04T07:03:10.389523",
+  "metadata_modified": "2016-05-04T07:03:10.389523",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "6b66d082-71b9-4cbb-9539-099d9471ff97",
+      "webstore_last_updated": null,
+      "id": "5b88d8f4-040c-4c7c-b739-a91ef6fff9b0",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "The .zip file includes GeoTIFF files, as well as the XML (.xml) version of the metadata.",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "7ed2acfc-630b-4051-bfe9-9714e083369a",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2016-05-04T03:03:10.671615",
+      "url": "http://dx.doi.org/10.5066/F7T151Q4",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "6b66d082-71b9-4cbb-9539-099d9471ff97",
+      "webstore_last_updated": null,
+      "id": "5281f305-1117-45cb-a74a-a720ad45ce01",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 5,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "7ed2acfc-630b-4051-bfe9-9714e083369a",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-05-04T03:03:10.671643",
+      "url": "https://www.sciencebase.gov/catalog/folder/5633fea2e4b048076347f1cf",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 2,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "cosmos-coastal-storm-modeling-system-southern-california-v3-0-phase-1-100-year-storm-sea-level-70435",
+  "isopen": false,
+  "url": null,
+  "notes": "Projected Hazard: Model-derived significant wave height (in meters) for the given storm condition and sea-level rise (SLR) scenario. Model Summary: The Coastal Storm Modeling System (CoSMoS) makes detailed predictions (meter-scale) over large geographic scales (100s of kilometers) of storm-induced coastal flooding and erosion for both current and future sea-level rise (SLR) scenarios. CoSMoS v3.0 for Southern California shows projections for future climate scenarios (sea-level rise and storms) to provide emergency responders and coastal planners with critical storm-hazards information that can be used to increase public safety, mitigate physical damages, and more effectively manage and allocate resources within complex coastal settings. Phase I data for Southern California include flood-hazard information for the coast from the border of Mexico to Pt. Conception. Changes from the initial November 2015 release may be reflected in small areas. Data are complete for the information presented but are considered preliminary; additional changes may be reflected with model improvements made for the Phase II data release in summer 2016. Details: Model background: The CoSMoS model comprises three tiers. Tier I consists of one Delft3D hydrodynamics FLOW grid for computation of tides, water level variations, flows, and currents and one SWAN grid for computation of wave generation and propagation across the continental shelf. The FLOW and SWAN models are two-way coupled so that tidal currents are accounted for in wave propagation and growth and conversely, so that orbital velocities generated by waves impart changes on tidal currents. The Tier I SWAN and FLOW models consist of identical structured curvilinear grids that extend from far offshore to the shore and range in resolution from 0.5 km in the offshore to 0.2 km in the nearshore. Spatially varying astronomic tidal amplitudes and phases and steric rises in water levels due to large-scale effects (for example, a prolonged rise in sea level) are applied along all open boundaries of the Tier I FLOW grid. Winds (split into eastward and northward components) and sea-level pressure (SLP) fields from CaRD10 (Dr. Dan Cayan, Scripps Institute of Oceanography, San Diego, California, written commun., 2014) that vary in both space and time are applied to all grid cells at each model time-step. Deep-water wave conditions, applied at the open boundaries of the Tier I SWAN model runs, were projected for the 21st century Representative Concentration Pathway (RCP) 4.5 climate scenario (2011-2100) using the WaveWatch III numerical wave model (Tolman and others, 2002) and 3-hourly winds from the GFDL-ESM2M Global Climate Model (GCM). Tier II provides higher resolution near the shore and in areas that require greater resolution of physical processes (such as bays, harbors, and estuaries). A single nested outer grid and multiple two-way coupled domain decomposition (DD) structured grids allow for local grid refinement and higher resolution where needed. Tier II was segmented into 11 sections along the Southern California Bight, to reduce computation time and complete runs within computational limitations. Water-level and Neumann time-series, extracted from Tier I simulations, are applied to the shore-parallel and lateral open boundaries of each Tier II sub-model outer grid respectively. Several of the sub-models proved to be unstable with lateral Neumann boundaries; for those cases one or both of the lateral boundaries were converted to water-level time-series or left unassigned. The open-boundary time-series are extracted from completed Tier I simulations so that there is no communication from Tier II to Tier I. Because this one-way nesting could produce erroneous results near the boundaries of Tier II and because data near any model boundary are always suspect, Tier II sub-model extents were designed to overlap in the along-coast direction. In the landward direction, Tier II DD grids extend to the 10-m topographic contour; exceptions exist where channels (such as the Los Angeles River) or other low-lying regions extend very far inland. Space- and time-varying wind and SLP fields, identical to those used in Tier I simulations, are applied to all Tier II DD grids to allow for wind-setup and local inverse barometer effects (IBE, rise or depression of water levels in response to atmospheric pressure gradients). A total of 42 time-series fluvial discharges are included in the Tier II FLOW domains in an effort to simulate exacerbated flooding caused by backflow at the confluence of high river seaward flows and elevated coastal surge levels migrating inland. Time-varying fluvial discharges are applied either at the closed boundaries or distributed as point sources within the relevant model domains. Wave computations are accomplished with the SWAN model using two grids for each Tier II sub-model: one larger grid covering the same area as the outer FLOW grid and a second finer resolution two-way coupled nearshore nested grid. The nearshore grid extends from approximately 800-1,000 m water depth up to 8-10 m elevations onshore. The landward extension is included to allow for wave computations of the higher SLR scenarios. Time- and space-varying 2D wave spectra extracted from previously completed Tier I simulations are applied approximately every kilometer along the open boundaries of the outer Tier II sub-model SWAN grids. The same space- and time-varying wind fields used in Tier I simulations are also applied to both Tier II SWAN grids to allow for computation of local wave generation. Tier III for the entire Southern California Bight consists of 4,802 cross-shore transects (CST) spaced approximately 100 m apart in the along-shore direction. The profiles extend from the -15 m isobath to at least 10 m above NAVD88. The CSTs are truncated for cases where a lagoon or other waterway exists on the landward end of the profile. Time-varying water levels and wave parameters (significant wave heights, Hs; peak periods, Tp; and peak incident wave directions, Dp), extracted from Tier II grid cells that coincide with the seaward end of the CSTs, are applied at the open boundary of each CST. The XBeach model is run in a hydrostatic (no vertical pressure gradients) mode including event-based morphodynamic change. Wave propagation, two-way wave-current interaction, water-level variations, and wave runup are computed at each transect. XBeach simulations are included in the CoSMoS model to account for infragravity waves that can significantly extend the reach of wave runup (Roelvink and others, 2009) compared to short-wave incident waves. The U.S. west coast is particularly susceptible to infragravity waves at the shore due to breaking of long-period swell waves (Tp > 15). Resulting water levels (WLs) from both Delft3D (high interest bays and marshes) and open-coast XBeach (CSTs) were spatially combined and interpolated to a 10 m grid. These WL elevations are differenced from the originating 2 m digital elevation model (DEM) to determine final flooding extent and depth of flooding. Events: The model system is run for pre-determined scenarios of interest such as the 1-yr or 100-yr storm event in combination with sea-level rise. For Phase I, only the 100-year storm is run. Storms are first identified from time-series of total water level proxies (TWLpx) at the shore. TWLpx are computed for the majority of the 21st century (2010-2100), assuming a linear super-position of the major processes that contribute to the overall total water level. TWLpx time-series are then evaluated for extreme events, which define the boundary conditions for subsequent modeling with CoSMoS. Multiple 100-yr events are determined (varying Hs, Tp, Dp) and used for multiple model runs to better account for regional and directional flooding affects. Model results are combined and compiled into scenario-specific composites of flood projection. Digital Elevation Model (DEM): Our seamless, topobathymetric digital elevation model (DEM) was based largely upon the Coastal California TopoBathy Merge Project DEM, with some modifications performed by the USGS Earth Resources Observation and Science (EROS) Center to incorporate the most recent, high-resolution topographic and bathymetric datasets available. Topography is derived from bare-earth light detection and ranging (lidar) data collected in 2009-2011 for the CA Coastal Conservancy Lidar Project and bathymetry from 2009-2010 bathymetric lidar as well as acoustic multi- and single-beam data collected primarily between 2001 and 2013. The DEM was constructed to define the shape of nearshore, beach, and cliff surfaces as accurately as possible, utilizing dozens of bathymetric and topographic data sets. These data were used to populate the majority of the Tier II grids and generate initial profiles of the 4,802 CSTs used for Tier III XBeach modeling. All data are referenced to NAD83 horizontal datum and NAVD88 vertical datum. Data for Tiers II and III are projected in UTM, zone 11. Outputs include: Projected wave height for the 100-year storm and 0.0 m sea-level rise scenario. Data correspond to the near-shore region including areas vulnerable to coastal flooding due to storm surge, sea-level anomalies, tide elevation, and wave run-up during the same storm and sea-level rise simulation. References Cited: Roelvink, J.A., Reniers, A., van Dongeren, A.R., van Thiel de Vries, J., McCall, R., and Lescinski, J., 2009, Modeling storm impacts on beaches, dunes and barrier islands: Coastal Engineering, v. 56, p. 1,133â1,152, doi:10.1016/j.coastaleng.2009.08.006. Tolman, H.L., Balasubramaniyan, B., Burroughs, L.D., Chalikov, D.V., Chao, Y.Y., Chen H.S., Gerald, V.M., 2002, Development and implementation of wind generated ocean surface wave models at NCEP: Weather and Forecasting, v. 17, p. 311-333.",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-116.66931152258"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "34.687068180405"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "32.546444355161"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-120.811157226, 32.5464443552], [-116.669311523, 32.5464443552], [-116.669311523, 34.6870681804], [-120.811157226, 34.6870681804], [-120.811157226, 32.5464443552]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "underDevelopment"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: USGS-authored or produced data and information are in the public domain. Acknowledge the U.S. Geological Survey in products derived from these data. Share data products developed using these data with the U.S. Geological Survey. This information is not intended for navigational purposes. Read and fully comprehend the metadata prior to data use. Uses of these data should not violate the spatial resolution of the data. Where these data are used in combination with other data of different resolution, the resolution of the combined output will be limited by the lowest resolution of all the data. This database, identifed as wave-hazard projections for the Southern California coast, has been approved for release and publication by the U.S. Geological Survey. Although this database has been subjected to rigorous review and is substantially complete, the USGS reserves the right to revise the data pursuant to further analysis and review. Furthermore, it is released on condition that neither the USGS nor the United States Government may be held liable for any damages resulting from its authorized or unauthorized use. Although this Federal Geographic Data Committee-compliant metadata file is intended to document these data in nonproprietary form, as well as in ArcGIS format, this metadata file may include some ArcGIS-specific terminology.\", \"Access Constraints: none\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2015-12-10"
+    },
+    {
+      "key": "contact-email",
+      "value": "lerikson@usgs.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-120.81115722553"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2015-12-02"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2016-01-31\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"This database, identified as wave-hazard projections for the Southern California coast, has been approved for release and publication by the U.S. Geological Survey (USGS). Although these data have been subjected to rigorous review and are substantially complete, the USGS reserves the right to revise the data pursuant to further analysis and review. Furthermore, it is released on condition that neither the USGS nor the United States Government may be held liable for any damages resulting from its authorized or unauthorized use. \\nThe U.S. Geological Survey provides these data as is for a quick reference, emergency planning tool but assumes no legal liability or responsibility resulting from the use of this product. The suggestions and illustrations included in these data are intended to improve coastal-flood awareness and preparedness; however, they do not guarantee the safety of an individual or structure. The contributors and sponsors of this product do not assume liability for any injury, death, property damage, or other effects of coastal flooding. Although these data have been processed successfully on a computer system at the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. The USGS or the U.S. Government shall not be held liable for improper or incorrect use of the data described and/or contained herein.\\nReference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not constitute or imply its endorsement, recommendation, or favoring by the United States Government or any agency thereof.\\nThese data are not intended for navigational use.\\n    \"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Geological Survey, Pacific Coastal and Marine Science Center\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2016-01-31"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "ocean waves, climate change, physical habitats and geomorphology, hazards planning, sea-level change, ocean winds, san diego, storms, point conception, orange county, erosion, water depth, extreme weather, storm surge, los angeles river, beaches, sea level rise, floods, ventura, los angeles, santa barbara, wind"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "e105888e-992b-48d1-bcfc-2cfb6d0a6be7"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "16894020-0159-46ce-a489-f032ab74ea30"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "USGS Coastal and Marine Geoscience Data System"
+    }
+  ],
+  "title": "CoSMoS (Coastal Storm Modeling System) Southern California v3.0 Phase 1 (100-year storm) sea-level rise 0.0 m: wave-hazard projections",
+  "revision_id": "7ed2acfc-630b-4051-bfe9-9714e083369a"
+}

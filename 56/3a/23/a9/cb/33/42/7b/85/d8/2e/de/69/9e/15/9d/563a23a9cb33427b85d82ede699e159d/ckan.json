@@ -1,0 +1,246 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "563a23a9-cb33-427b-85d8-2ede699e159d",
+  "metadata_created": "2016-12-06T08:57:54.673442",
+  "metadata_modified": "2016-12-06T08:57:54.673442",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "563a23a9-cb33-427b-85d8-2ede699e159d",
+      "webstore_last_updated": null,
+      "id": "c8eab554-7c9b-4a37-87d0-fe3f8d647f4c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Hierarchical Data Format (HDF)",
+      "tracking_summary": {
+        "total": 90,
+        "recent": 5
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Hierarchical Data Format (HDF)",
+      "created": "2016-12-06T03:57:54.822200",
+      "url": "http://glovis.usgs.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "094c5871-b76d-4482-b12e-aa947676461d",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "563a23a9-cb33-427b-85d8-2ede699e159d",
+      "webstore_last_updated": null,
+      "id": "050120c1-8af8-4882-883f-d9c478814669",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Hierarchical Data Format (HDF)",
+      "tracking_summary": {
+        "total": 850,
+        "recent": 28
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Hierarchical Data Format (HDF)",
+      "created": "2016-12-06T03:57:54.822243",
+      "url": "http://earthexplorer.usgs.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "094c5871-b76d-4482-b12e-aa947676461d",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "563a23a9-cb33-427b-85d8-2ede699e159d",
+      "webstore_last_updated": null,
+      "id": "779061ad-7241-498a-9a96-9dd3c023535e",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "MYD13A2.006",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "094c5871-b76d-4482-b12e-aa947676461d",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-12-06T03:57:54.822253",
+      "url": "http://dx.doi.org/10.5067/MODIS/MYD13A2.006",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 0,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "modis-aqua-myd13a2-vegetation-indices-16-day-l3-global-1km-version-68b3d2",
+  "isopen": false,
+  "url": null,
+  "notes": "The MODIS Vegetation Indices Version 6 product provides a Vegetation Index (VI) value at a per pixel basis. There are 2 primary vegetation layers. The algorithm for this product chooses the best available pixel value from all the acquisitions from the 16 day period. The criteria used is low clouds, low view angle and the highest NDVI/EVI value. The first is the Normalized Difference Vegetation Index (NDVI), which is referred to as the continuity index to the existing National Oceanic and Atmospheric Administration-Advanced Very High Resolution Radiometer (NOAA-AVHRR) derived NDVI. The second vegetation layer is the Enhanced Vegetation Index (EVI), which has improved sensitivity over high biomass regions. Information on each individual MODIS Vegetation Indices Product along with improvements/changes for Version 6 are available at: https://lpdaac.usgs.gov/dataset_discovery/modis_products_table.",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Geological Survey Earth Resources Observation and Science (EROS) Center\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "custserv@usgs.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-179.9"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-12-01"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2016-12-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "179.9"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "85.2"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "-63.2"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty,  expressed or implied, is made by the USGS regarding the use of the data on any other system, nor does the act of distribution constitute any such warranty.  \"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "underDevelopment"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-179.9, -63.2], [179.9, -63.2], [179.9, 85.2], [-179.9, 85.2], [-179.9, -63.2]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: There is no guarantee of warranty concerning the accuracy of these data. Users should be aware that temporal changes may have occurred since the data was collected and that some parts of these data may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of their limitations. Acknowledgement of the originating agencies would be appreciated in products derived from these data. (Citing LP DAAC Data - https://lpdaac.usgs.gov/node/51). Any user who modifies the data set is obligated to describe the types of modifications they perform. User specifically agrees not to misrepresent the data set, nor to imply that changes made were approved or endorsed by the U.S. Geological Survey. Please refer to http://www.usgs.gov/privacy.html for the USGS disclaimer.\", \"Access Constraints: Any downloading and use of these data signifies a user's agreement to comprehension and compliance of the USGS Standard Disclaimer. Insure all portions of metadata are read and clearly understood before using these data in order to protect both user and USGS interests.\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "tags",
+      "value": "vegetation indices, land, v6, modis"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "7adc3a61-f691-4e92-bc98-43c88b2632e4"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "9f092989-2f6c-4e4b-a5eb-a9c8261a27e6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "USGS Earth Resources Observation and Science (EROS)"
+    }
+  ],
+  "title": "MODIS/AQUA MYD13A2 Vegetation Indices 16-Day L3 Global 1km Version 6",
+  "revision_id": "094c5871-b76d-4482-b12e-aa947676461d"
+}

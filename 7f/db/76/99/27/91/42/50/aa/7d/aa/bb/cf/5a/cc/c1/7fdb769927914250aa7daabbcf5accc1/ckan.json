@@ -1,0 +1,186 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "7fdb7699-2791-4250-aa7d-aabbcf5accc1",
+  "metadata_created": "2013-03-16T00:51:18.130097",
+  "metadata_modified": "2015-04-09T21:50:35.516956",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "7fdb7699-2791-4250-aa7d-aabbcf5accc1",
+      "webstore_last_updated": null,
+      "id": "673cbf9b-9973-48a8-b392-2cf24aa70453",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "375",
+      "hash": "",
+      "description": "welllogdatacompilationworkbook1.4.2_0.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 7,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Zipped 2007 Excel workbook containing Well Log Compilation Workbook v1.4.2",
+      "created": "2013-03-16T01:51:18.147366",
+      "url": "http://repository.stategeothermaldata.org/metadata/record/98ddf901b9782a25982e01af3b107232/file/welllogdatacompilationworkbook1.4.2_0.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "2d178f32-baff-4657-af21-4f8a704f8479",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 47,
+    "recent": 1
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The Arizona Geological Survey collates and serves geological information for Arizona and other states through its partnership with other state geological surveys.",
+    "created": "2013-03-14T03:44:43.328493",
+    "title": "Arizona Geological Survey",
+    "name": "azgs-az-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.50states.com/flag/image/nunst004.gif",
+    "revision_id": "61be6428-4398-4199-a336-f3cd1e956f9b",
+    "type": "organization",
+    "id": "f3f6e1d4-64fb-4a2f-b32c-9ac0b76fe4de",
+    "approval_status": "approved"
+  },
+  "name": "aasg-geothermal-data-well-log-compilation-workbook-superseded",
+  "isopen": false,
+  "url": null,
+  "notes": "WELL LOG DATA FOR SERVICE NEEDS TO GO INTO THE WELL LOG CONTENT MODEL (see http://repository.stategeothermaldata.org/repository/resource/98ddf901b9782a25982e01af3b05b445/ ). This workbook is designed as a guideline for compiling information from well log headers. Information compiled in this workbook can be used to populate the Well Header data delivery template, Borehole Temperature template and to populate Metadata records for well log documents.  Basic information from the header is used to create Well Header features used to index borehole locations with the information associated with the borehole. Typically maximum temperatures are recorded from log headers, and reported as'bottom hole temperature'using the  borehole temperature observation service. Each row in the WellLogInformation sheet in this workbook will correspond to an individual log from a borehole; thus there may be multiple rows per well. For logs that are scanned or digitized and availble as online resources, metadata records will be created. The HeaderURI for a particular borehole (well for simple wells) is the cross-referencing link (foreign key) used to associate the header record, well log metadata, temperature measurements, and other information from a particular borehole.",
+  "owner_org": "f3f6e1d4-64fb-4a2f-b32c-9ac0b76fe4de",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"No Organization Name Was Given\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "No email Was Given"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-180"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2012-10-05T22:41:46Z"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2012-05-31T12:00:00\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-64"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "75"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "17"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-180.0, 17.0], [-180.0, 75.0], [-64.0, 75.0], [-64.0, 17.0], [-180.0, 17.0]]]}"
+    },
+    {
+      "key": "guid",
+      "value": "98ddf901b9782a25982e01af3b107232"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "Borehole Temperatures, content models, data delivery, Geothermal, metadata, Temperature, well, well headers, well logs, AASG Geothermal Data Project, Downloadable Files"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "1f4fdad4-28bb-4dbb-b954-e05d68751cc5"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "f800beb8-4923-4e88-910f-1c6cf0078598"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "AASG geothermal data CSW"
+    }
+  ],
+  "title": "AASG Geothermal Data: Well Log Compilation Workbook (Superseded)",
+  "revision_id": "768afc41-382e-4d6d-9392-fc1965f54d3a"
+}

@@ -1,0 +1,193 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "",
+  "num_tags": 0,
+  "id": "7e9330ee-6d1d-4d1e-a098-c0e83caa92d1",
+  "metadata_created": "2013-09-09T16:37:25.281716",
+  "metadata_modified": "2014-01-23T18:17:29.184995",
+  "author": "",
+  "author_email": "",
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "7e9330ee-6d1d-4d1e-a098-c0e83caa92d1",
+      "webstore_last_updated": null,
+      "id": "8e9dff3d-944e-4cc3-82e6-8b6cf96ecf72",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "tl_2013_16085_addr.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "c1c43265-f21c-4b8f-8aa0-73531bb6c00a",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2013-11-05T15:06:05.145830",
+      "url": "http://www2.census.gov/geo/tiger/TIGER2013/ADDR/tl_2013_16085_addr.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 21,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The Census Bureau's mission is to serve as the leading source of quality data about the nation's people and economy. We honor privacy, protect confidentiality, share our expertise globally, and conduct our work openly. We are guided on this mission by scientific objectivity, our strong and capable workforce, our devotion to research-based innovation, and our abiding commitment to our customers.",
+    "created": "2013-03-14T03:44:46.743070",
+    "title": "US Census Bureau, Department of Commerce",
+    "name": "census-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.census.gov/main/img/home/CensusLogo-white.png",
+    "revision_id": "0995f525-d563-4254-a535-af5b926fe663",
+    "type": "organization",
+    "id": "31c49abe-512a-412a-9cc7-5b2601325d6b",
+    "approval_status": "approved"
+  },
+  "name": "tiger-line-shapefile-2013-county-valley-county-id-current-address-ranges-relationship-file",
+  "isopen": true,
+  "url": null,
+  "notes": "The TIGER/Line shapefiles and related database files (.dbf) are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB).  The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line shapefile is designed to stand alone as an independent data set, or they can be combined to cover the entire nation.  The Address Ranges Relationship File (ADDR.dbf) contains the attributes of each address range.  Each address range applies to a single edge and has a unique address range identifier (ARID) value.  The edge to which an address range applies can be determined by linking the address range to the All Lines Shapefile (EDGES.shp) using the permanent topological edge identifier (TLID) attribute.  Multiple address ranges can apply to the same edge since an edge can have multiple address ranges.  Note that the most inclusive address range associated with each side of a street edge already appears in the All Lines Shapefile (EDGES.shp).  The TIGER/Line Shapefiles contain potential address ranges, not individual addresses.  The term \"address range\" refers to the collection of all possible structure numbers from the first structure number to the last structure number and all numbers of a specified parity in between along an edge side relative to the direction in which the edge is coded.  The address ranges in the TIGER/Line Shapefiles are potential ranges that include the full range of possible structure numbers even though the actual structures may not exist.",
+  "owner_org": "31c49abe-512a-412a-9cc7-5b2601325d6b",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-114.694126"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset "
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "45.219699"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": "tl_2013_16085_addr.dbf.xml"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": "True"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "44.147641"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-116.213049, 44.147641], [-114.694126, 44.147641], [-114.694126, 45.219699], [-116.213049, 45.219699], [-116.213049, 44.147641]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Access Constraints: None\", \"Use Constraints: The TIGER/Line Shapefile products are not copyrighted however TIGER/Line and Census TIGER are registered trademarks of the U.S. Census Bureau.  These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as the source.\", \"Distribution Liability: No warranty, expressed or implied is made with regard to the accuracy of these data, and no liability is assumed by the U.S. Government in general or the U.S. Census Bureau in specific as to the spatial or attribute accuracy of the data.  The act of distribution shall not constitute any such warranty and no responsibility is assumed by the U.S. government in the use of these files.  The boundary information in the TIGER/Line Shapefiles is for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes do not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2012-06"
+    },
+    {
+      "key": "contact-email",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-116.213049"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2013-11-05 "
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2013\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2013-05"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "State FIPS Code, County FIPS Code, State ANSI Code, County ANSI Code, Permanent edge ID, From House Number, To House Number, Side indicator flag, 5-digit ZIP code, ZIP +4 code, United States, U.S., County or Equivalent Entity, Valley, 16085,  Transportation"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "99457dec-e31a-4ee4-b620-18d3ced8d7a9"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2d1332b0-b62a-449e-8ed7-b704cba77f94"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Current Address Ranges Relationship File"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "TIGER/Line Shapefile, 2013,  county, Valley County, ID, Current Address Ranges Relationship File",
+  "revision_id": "3861f9f6-308b-46a9-9fe3-5fb98f69ca63"
+}

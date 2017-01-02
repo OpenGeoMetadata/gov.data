@@ -1,0 +1,240 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "8dc4d53e-6575-4116-b1e3-8643c8668a92",
+  "metadata_created": "2013-03-26T00:00:26.062891",
+  "metadata_modified": "2013-05-17T00:00:00",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "8dc4d53e-6575-4116-b1e3-8643c8668a92",
+      "webstore_last_updated": null,
+      "id": "abe66e0a-4e87-4723-8d33-f907ff247947",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 388,
+        "recent": 8
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "992b8c0c-9cb6-4f0e-88c2-2358d1f2d362",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2013-03-26T01:00:26.384942",
+      "url": "http://cugir.mannlib.cornell.edu/datatheme.jsp?id=23",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "8dc4d53e-6575-4116-b1e3-8643c8668a92",
+      "webstore_last_updated": null,
+      "id": "c59b0948-936d-4a47-a76e-554a08b04229",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 388,
+        "recent": 8
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "992b8c0c-9cb6-4f0e-88c2-2358d1f2d362",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2013-03-26T01:00:26.384959",
+      "url": "http://cugir.mannlib.cornell.edu/datatheme.jsp?id=23",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "8dc4d53e-6575-4116-b1e3-8643c8668a92",
+      "webstore_last_updated": null,
+      "id": "4fc2370b-792a-4a3b-aebf-1a821e7abb7a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "dem.html",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 101,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "992b8c0c-9cb6-4f0e-88c2-2358d1f2d362",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2013-03-26T01:00:26.384964",
+      "url": "http://eros.usgs.gov/guides/dem.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 1428,
+    "recent": 29
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:39.012062",
+    "title": "Cornell University ",
+    "name": "cornell-edu",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSUlT4KL5Yu0Z4wxvwH6W1RomS6KRl7Cat3zfx4j2MbexEoofWuiXi61-3",
+    "revision_id": "cecc899c-71b7-4197-ab17-e7aa41978b20",
+    "type": "organization",
+    "id": "dd3a2a7c-e157-40d6-af0d-fe0a5a0ed064",
+    "approval_status": "approved"
+  },
+  "name": "digital-elevation-models-dem-new-york-state",
+  "isopen": false,
+  "url": null,
+  "notes": "A Digital Elevation Model (DEM) contains a series of elevations ordered from south to north with the order of the columns from west to east. The DEM is formatted as one ASCII header record (A-record), followed by a series of profile records (B-records) each of which include a short B-record header followed by a series of ASCII integer elevations per each profile. The last physical record of the DEM is an accuracy record (C-record). The 7.5-minute DEM (10- by 10-m data spacing, elevations in decimeters) is cast on the Universal Transverse Mercator (UTM) projection (the quads UTM zone can be found in the header record (Record A)) in the North American Datum of 1927. It provides coverage in 7.5- by 7.5-minute blocks. Each product provides the same coverage as a standard USGS 7.5-minute quadrangle, but overedges are published as separate DEM files. Coverage is available for all quads completely contained within New York State, plus some additional ones falling along the borders and containing significant area of the State's land.",
+  "owner_org": "dd3a2a7c-e157-40d6-af0d-fe0a5a0ed064",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"New York State Department of Environmental Conservation. Division of Water\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "watergis@gw.dec.state.ny.us"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-79.77"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2008-04-14"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-71.85"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "45.02"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "40.49"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although these data have been processed successfully on a\\n            computer system at the U.S. Geological Survey, no warranty expressed\\n            or implied is made regarding the accuracy or utility of the data on\\n            any other system or for general or scientific purposes, nor shall\\n            the act of distribution constitute any such warranty. This\\n            disclaimer applies both to individual use of the data and aggregate\\n            use with other data. It is strongly recommended that careful\\n            attention be paid to the contents of the metadata file associated\\n            with these data. Neither the U.S. Geologial Survey nor the New York\\n            State Department of Environmental Conservation shall be held liable\\n            for improper or incorrect use of the data described and/or contained\\n            herein. Cornell University provides these geographic data \\\"as is.\\\"\\n            Cornell University makes no guarantee or warranty concerning the\\n            accuracy of information contained in the geographic data. Cornell\\n            University further makes no warranty either expressed or implied,\\n            regarding the condition of the product or its fitness for any\\n            particular purpose. The burden for determining fitness for use lies\\n            entirely with the user. Although these files have been processed\\n            successfully on computers at Cornell University, no warranty is made\\n            by Cornell University regarding the use of these data on any other\\n            system, nor does the fact of distribution constitute or imply any\\n            such warranty.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-79.77, 40.49], [-79.77, 45.02], [-71.85, 45.02], [-71.85, 40.49], [-79.77, 40.49]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: 1. The NYS DEC and the U.S. Geological Survey asks to be credited in derived products. 2. Secondary Distribution of the data is not allowed. 3. Any documentation provided is an integral part of the data set. Failure to use the documentation in conjunction with the digital data constitutes misuse of the data. 4. Although every effort has been made to ensure the accuracy of information, errors may be reflected in the data supplied. The user must be aware of data conditions and bear responsibility for the appropriate use of the information with respect to possible errors, original map scale, collection methodology, currency of data, and other conditions.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "irregular"
+    },
+    {
+      "key": "tags",
+      "value": "digital elevation model, digital terrain model, hypsography, altitude, height, landforms, relief, topography, raster, grid, cell, Hydrography, Digital Mapping, Digital mapping -- Automation, Cartography -- Automation, New York (State) -- Dept. of Environmental\n                    Conservation, elevation, 006"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "891676c3-4f00-4b79-ba4e-6df7f64e4e78"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "916b82eb-abe0-474f-8c8a-b9bc00e1e9c3"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Cornell University Geospatial Information Repository"
+    }
+  ],
+  "title": "Digital Elevation Models (DEM) - New York State",
+  "revision_id": "992b8c0c-9cb6-4f0e-88c2-2358d1f2d362"
+}

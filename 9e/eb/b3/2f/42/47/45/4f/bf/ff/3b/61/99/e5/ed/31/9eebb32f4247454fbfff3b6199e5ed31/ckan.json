@@ -1,0 +1,224 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Gary Jahns",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "gary.c.jahns@nasa.gov",
+  "num_tags": 3,
+  "id": "9eebb32f-4247-454f-bfff-3b6199e5ed31",
+  "metadata_created": "2015-04-09T18:56:11.945214",
+  "metadata_modified": "2015-07-08T19:29:41.046532",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "9eebb32f-4247-454f-bfff-3b6199e5ed31",
+      "webstore_last_updated": null,
+      "id": "d8b2f70a-445a-4bb0-963d-3213e39814b4",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "XML",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/xml",
+      "cache_url": null,
+      "name": "XML File",
+      "created": "2015-04-09T14:56:12.174152",
+      "url": "http://techport.nasa.gov/xml-api/12915",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "298e55bd-7305-4628-a067-4ad11f9138d5",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ames-research-center",
+      "id": "72a1f439-447a-4a94-9fb9-c8921dd5b0b2",
+      "name": "ames-research-center"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "completed",
+      "id": "5e4de852-789d-47bf-af3b-ba9a0dd8d489",
+      "name": "completed"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "project",
+      "id": "24471320-3e5c-42b5-a078-8e48e70e2ac4",
+      "name": "project"
+    }
+  ],
+  "tracking_summary": {
+    "total": 14,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "robotics-mobilerobot-navigation-project",
+  "isopen": true,
+  "url": null,
+  "notes": "Robots and rovers exploring planets need to autonomously navigate to specified locations.  Advanced Scientific Concepts, Inc. (ASC) and the University of Minnesota will develop a navigational system that employs an IMU and a 3D FLASH Lidar camera manufactured at ASC.  The system will furnish both the position of the rover and an elevation map of the terrain.  The map will be useful in detecting hazards to navigation both by rovers and during entry, descent and landing (EDL).  The algorithm is designed to function in real-time with the comparatively slow speed computers available in space by employing an advanced algorithm that makes efficient use of Lidar determined landmarks.  Those landmarks that only appear in a few images are not retained in the state vector, but nevertheless furnish constraints on the rover's pose for improving its state estimates.   Those landmarks that persist in many images are used for improving the accuracy of both the rover's state and the map at complexity only linear in the number of landmarks.  Significant components of this approach have enjoyed success in NASA tests in the Mohave Desert for EDL and have been assessed at level TRL 4.",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://techport.nasa.gov/home",
+        "http://techport.nasa.gov/doc/home/TechPort_Advanced_Search.pdf",
+        "http://techport.nasa.gov/fetchFile?objectId=6561",
+        "http://techport.nasa.gov/fetchFile?objectId=3456",
+        "http://techport.nasa.gov/fetchFile?objectId=3447",
+        "http://techport.nasa.gov/fetchFile?objectId=6584",
+        "http://techport.nasa.gov/fetchFile?objectId=6560",
+        "http://techport.nasa.gov/fetchFile?objectId=3448"
+      ]
+    },
+    {
+      "key": "source_hash",
+      "value": "f7ea9c0d8cc7e4e54ae8498c8116a226353a6364"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:027"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://techport.nasa.gov/view/12915"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "07a969e9-02f7-41c9-893e-1ea41248d448"
+    },
+    {
+      "key": "publisher",
+      "value": "Space Technology Mission Directorate"
+    },
+    {
+      "key": "identifier",
+      "value": "TECHPORT_12915"
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "National Aeronautics and Space Administration > Space Technology Mission Directorate"
+    },
+    {
+      "key": "modified",
+      "value": "2015-03-12"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "55942a88c63a7fe59b49825b"
+      }
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "07a969e9-02f7-41c9-893e-1ea41248d448"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "Robotics_MobileRobot Navigation Project",
+  "revision_id": "5616d328-b4f3-4e39-9211-1b8cfb86d259"
+}

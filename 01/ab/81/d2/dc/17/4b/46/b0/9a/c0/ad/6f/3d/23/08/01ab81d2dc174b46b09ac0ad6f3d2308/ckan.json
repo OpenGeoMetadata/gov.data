@@ -1,0 +1,108 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Nicolas Dinatale",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "Nicolas.Dinatale@faa.gov",
+  "num_tags": 1,
+  "id": "01ab81d2-dc17-4b46-b09a-c0ad6f3d2308",
+  "metadata_created": "2016-05-26T09:47:46.896232",
+  "metadata_modified": "2016-05-26T09:47:46.896232",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "01ab81d2-dc17-4b46-b09a-c0ad6f3d2308",
+      "webstore_last_updated": null,
+      "id": "1868d84c-696c-4a96-a010-320d53f00bb4",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 898,
+        "recent": 8
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "text/html",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-05-26T05:47:47.095822",
+      "url": "http://services.faa.gov/docs/services/airport/",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "27b9e968-013a-4697-89f2-349078391bf1",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "continuously-updated",
+      "id": "d91483be-b0d0-41dc-9ba6-f7cc5d371016",
+      "name": "continuously-updated"
+    }
+  ],
+  "tracking_summary": {
+    "total": 7,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:46:56.521190",
+    "title": "Department of Transportation",
+    "name": "dot-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://upload.wikimedia.org/wikipedia/commons/8/81/US_DOT_Triskelion.png",
+    "revision_id": "684c8481-4ae2-46b0-a083-b392eea15130",
+    "type": "organization",
+    "id": "fc5cb2c1-d0b0-482a-8a52-7d42ea186ae1",
+    "approval_status": "approved"
+  },
+  "name": "airport-status-web-service-5d523",
+  "isopen": true,
+  "url": null,
+  "notes": "A web service that allows end-users the ability to query the current known delays in the National Airspace System as well as the current weather from NOAA by airport code. The user can choose to receive the response in XML or JSON formats suitable for use in interactive web applications.",
+  "owner_org": "fc5cb2c1-d0b0-482a-8a52-7d42ea186ae1",
+  "extras": [
+    {
+      "key": "extras_rollup",
+      "value": "{\"confidentiality\": true, \"harvest_source_id\": \"a400d398-0d24-4940-b8b3-6573a1670b01\", \"catalog_@context\": \"https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld\", \"issued\": \"2009-08-10\", \"resource-type\": \"Dataset\", \"analysisUnit\": \"airports\", \"references\": [\"http://services.faa.gov/docs/services/airport/\"], \"source_hash\": \"87788172ac7089b64c5839f3b6cdac9c5da0e259\", \"agencyDataSeriesURL\": \"http://services.faa.gov/docs/services/airport/\", \"QualityResponsibleAgency\": \"Federal Aviation Administration\", \"collection_package_id\": \"1733099b-8534-4b56-93c4-5b3c9c300ad0\", \"collectionInstrument\": \"http://services.faa.gov/docs/services/airport/\", \"bibliographicCitation\": \"http://services.faa.gov/docs/services/airport/\", \"temporal\": \"R/1990-01-01/PT1S\", \"theme\": [\"Transportation\"], \"agencyProgramURL\": \"http://www.faa.gov/air_traffic/\", \"spatial\": \"airport\", \"programCode\": [\"021:008\"], \"describedBy\": \"http://services.faa.gov/docs/services/airport/\", \"subagency\": \"Federal Aviation Administration\", \"catalog_conformsTo\": \"https://project-open-data.cio.gov/v1.1/schema\", \"category\": \"Tool\", \"catalog_describedBy\": \"https://project-open-data.cio.gov/v1.1/schema/catalog.json\", \"collectionMode\": \"automated system\", \"harvest_source_title\": \"DOT JSON\", \"source_schema_version\": \"1.1\", \"phone\": \"202-267-4060\", \"bureauCode\": [\"021:12\"], \"accessLevel\": \"public\", \"harvest_object_id\": \"1379b2da-6bdb-4837-8082-8a397c7ca632\", \"dictionaryList\": \"http://services.faa.gov/docs/services/airport/\", \"publisher\": \"Federal Aviation Administration\", \"organizationName\": \"Department of Transportation / Federal Aviation Administration\", \"language\": [\"en-US\"], \"license\": \"https://project-open-data.cio.gov/unknown-license/\", \"publisher_hierarchy\": \"U.S. Government > Department of Transportation > Federal Aviation Administration\", \"guidelineCompliance\": true, \"modified\": \"2014-08-29\", \"source_datajson_identifier\": true, \"catalog_@id\": \"https://www.dot.gov/data.json\", \"categoryDesignation\": \"Administrative\", \"accrualPeriodicity\": \"R/PT1S\", \"numberOfDatasets\": 1, \"dataQuality\": true, \"additionalMetadata\": \"http://services.faa.gov/docs/tutorial/\", \"identifier\": \"291.2\"}"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "1379b2da-6bdb-4837-8082-8a397c7ca632"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "a400d398-0d24-4940-b8b3-6573a1670b01"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "DOT JSON"
+    }
+  ],
+  "title": "Airport Status Web Service",
+  "revision_id": "27b9e968-013a-4697-89f2-349078391bf1"
+}

@@ -1,0 +1,210 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Data Administrator",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "da.mailbox@ssa.gov",
+  "num_tags": 9,
+  "id": "2826b9ed-22dd-4a51-9a83-ee9aa9e4f092",
+  "metadata_created": "2015-02-28T17:14:57.703342",
+  "metadata_modified": "2016-09-28T13:10:46.826867",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "average-processing-time",
+      "id": "7a19d8ae-9828-4971-8b23-031957483d75",
+      "name": "average-processing-time"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "hearing-wait-times",
+      "id": "73647ae3-ce08-40a1-80c4-ebae7d78844f",
+      "name": "hearing-wait-times"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "hearings",
+      "id": "6238731f-c285-43a7-b777-7a0ec9b8ac08",
+      "name": "hearings"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "hearings-and-appeals",
+      "id": "6f094590-9cba-4ea7-9d9c-a158b661a65c",
+      "name": "hearings-and-appeals"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "office-of-disability-adjudication-and-review",
+      "id": "f93e810d-7533-4413-abea-291e50aef07d",
+      "name": "office-of-disability-adjudication-and-review"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "processing-time",
+      "id": "dde9f18a-102c-4f3d-b11b-0eb5f532ec6a",
+      "name": "processing-time"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "social-security-administration",
+      "id": "10fa6a48-e4f1-4a4e-917d-f3bede84354c",
+      "name": "social-security-administration"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "social-security-benefits",
+      "id": "88a45694-635e-4b24-af41-eb3a718136b1",
+      "name": "social-security-benefits"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "social-security-disability-benefits",
+      "id": "2039f703-a910-461d-9231-08c0f05ea604",
+      "name": "social-security-disability-benefits"
+    }
+  ],
+  "tracking_summary": {
+    "total": 15,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:35:25.934290",
+    "title": "Social Security Administration",
+    "name": "ssa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/ssa.png",
+    "revision_id": "1be01963-921d-432f-b56d-37fa76dfb0a1",
+    "type": "organization",
+    "id": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+    "approval_status": "approved"
+  },
+  "name": "national-hearings-avg-processing-time",
+  "isopen": true,
+  "url": null,
+  "notes": "A presentation of the average time (in days) from the hearing request date until a disposition is issued for claims in the office of Disability Adjudication and Review by fiscal year.",
+  "owner_org": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Social Security Administration"
+    },
+    {
+      "key": "accessLevel",
+      "value": "non-public"
+    },
+    {
+      "key": "license",
+      "value": "https://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "rights",
+      "value": "The publishing of the data asset cannot be done due to one or more of the following reasons: contains personal identifying information, contains federal tax information, contains sensitive information, or a data assessment has not been completed."
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "R/P3M"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "016:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "016:00"
+      ]
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P3M"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "US-GOV-SSA-395"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "39d0f6ac-98c5-4463-933c-0c28717d879b"
+    },
+    {
+      "key": "source_hash",
+      "value": "28521b8aca99c3020eedffd7540cda044665ce88"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "39d0f6ac-98c5-4463-933c-0c28717d879b"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "National Hearings Avg Processing Time",
+  "revision_id": "4bbf17de-eddf-46b5-bc4b-862bfa812527"
+}

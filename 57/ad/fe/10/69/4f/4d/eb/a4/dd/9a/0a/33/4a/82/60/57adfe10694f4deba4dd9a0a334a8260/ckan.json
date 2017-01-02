@@ -1,0 +1,253 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "57adfe10-694f-4deb-a4dd-9a0a334a8260",
+  "metadata_created": "2016-07-16T01:34:46.673140",
+  "metadata_modified": "2016-07-16T01:34:46.673140",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "57adfe10-694f-4deb-a4dd-9a0a334a8260",
+      "webstore_last_updated": null,
+      "id": "c6a941ac-2943-43e1-aa5b-a32423ffde0a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Directory Listing of All Datasets",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Directory Listing of All Datasets",
+      "created": "2016-07-15T21:34:46.768190",
+      "url": "http://cloud.insideidaho.org/data/epscor/dcs/ipccar4/delta/salmon/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "fdc8c0e9-befa-449f-97d3-5b8360c9df7b",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "57adfe10-694f-4deb-a4dd-9a0a334a8260",
+      "webstore_last_updated": null,
+      "id": "a27e57c0-1fd0-402b-a546-2d4350b998a9",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "catalog.html",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OPeNDAP Server Directory",
+      "created": "2016-07-15T21:34:46.768212",
+      "url": "http://thredds.northwestknowledge.net:8080/thredds/catalog/NKN_PUBLISHED_DATA/C45D794E-4AF1-410F-93C9-3C7924F19D71/catalog.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "fdc8c0e9-befa-449f-97d3-5b8360c9df7b",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "57adfe10-694f-4deb-a4dd-9a0a334a8260",
+      "webstore_last_updated": null,
+      "id": "46765cec-1449-4bde-aa32-9e7f0d21f0d4",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "webservices.html",
+      "format": "WebDAV Bulk Download Information",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "WebDAV Bulk Download Information",
+      "created": "2016-07-15T21:34:46.768221",
+      "url": "http://cloud.insideidaho.org/webservices.html#webdav",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "fdc8c0e9-befa-449f-97d3-5b8360c9df7b",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 4,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The University of Idaho is a nationally-recognized research institution committed to student success and academic excellence that delivers one of the best educational values in the Pacific Northwest.",
+    "created": "2013-03-14T03:44:41.687651",
+    "title": "University of Idaho",
+    "name": "uidaho-edu",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://upload.wikimedia.org/wikipedia/en/thumb/4/44/University_of_Idaho_seal.svg/300px-University_of_Idaho_seal.svg.png",
+    "revision_id": "761955d7-9530-4622-8609-d0b01c78e177",
+    "type": "organization",
+    "id": "75e22a8a-da5f-46f3-93d8-924063a3703d",
+    "approval_status": "approved"
+  },
+  "name": "downscaled-climate-model-output-for-the-salmon-river-basin-idaho-from-wcrp-cmip3-scenarios-used",
+  "isopen": false,
+  "url": null,
+  "notes": "This data series contains 336 temporal datasets. These data are are climate model outputs, primarily precipitation and temperature. They have been bias-corrected and spatially downscaled (BCSD) to 12-km by Maurer et al. (2007) using the CMIP3 climate model data. These monthly products are available from this link (http://gdo-dcp.ucllnl.org/downscaled_cmip3_projections/) which we temporally disaggregated to a daily time step using the Delta method. This temporal disaggregation involved the following steps. This included a random picking of a historical year to compute the mean of the daily precipitation and temperature of the gridded observed record for the same month as the future year. Then, by calculating the difference between the future monthly mean temperature and historical mean of monthly mean temperature, \"delta t\" and by calculating the ratio between the future monthly mean precipitation and historical mean of monthly mean precipitation, \"r\", we obtained these two ratios, namely addition (for temperature) and multiplication (for precipitation) factors. Finally, we compute the temperature and precipitation by adding \"delta t\" to daily temperature of the month of a randomly selected year and multiplying daily precipitation by \"r\" for the month of a randomly selected year for the given month.",
+  "owner_org": "75e22a8a-da5f-46f3-93d8-924063a3703d",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-109.0625"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "46.1875"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "41.0625"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-119.0625, 41.0625], [-109.0625, 41.0625], [-109.0625, 46.1875], [-119.0625, 46.1875], [-119.0625, 41.0625]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: Acceptable uses of data provided by Idaho EPSCoR include any academic, research, educational, governmental, recreational, or other not-for-profit activities. Any use of data provided by the Idaho EPSCoR must acknowledge Idaho EPSCoR and the funding source(s) that contributed to the collection of the data. Users are expected to inform the Idaho EPSCoR Office and the PI(s) responsible for the data of any work or publications based on data provided.\", \"Access Constraints: Data will be provided to all who agree to appropriately acknowledge the National Science Foundation (NSF), Idaho EPSCoR and the individual investigators responsible for the data set. By downloading these data and using them to produce further analysis and/or products, users agree to appropriately acknowledge the National Science Foundation (NSF), Idaho EPSCoR and the individual investigators responsible for the data set.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2010-01-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "vsridhar@boisestate.edu"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-119.0625"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2012-01-09"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2011-01-01\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although these data have been processed successfully on a computer system at the Idaho Geospatial Data Clearinghouse, no warranty, expressed or implied, is made regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty. \"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Boise State University\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2099-01-01"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "epscor data, delta method downscaling, downscaled climate scenarios"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "561bec3b-6f18-4421-9c66-a2d9859e8cf2"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "6d1998c4-ba28-47a6-9395-7413c0cc32ac"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Idaho Geospatial Data Clearinghouse"
+    }
+  ],
+  "title": "Downscaled Climate Model Output for the Salmon River Basin, Idaho from WCRP CMIP3 Scenarios used in IPCC AR4 [Delta Method]",
+  "revision_id": "fdc8c0e9-befa-449f-97d3-5b8360c9df7b"
+}

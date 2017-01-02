@@ -1,0 +1,218 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "df2ea28a-73cd-48a5-98fc-97b80e062e94",
+  "metadata_created": "2015-09-26T21:42:26.109821",
+  "metadata_modified": "2016-05-31T03:41:56.113646",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "df2ea28a-73cd-48a5-98fc-97b80e062e94",
+      "webstore_last_updated": null,
+      "id": "63ccf5f3-af4a-4b29-8072-435a7ddd5308",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "NY_LongIslandSouthShore.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 5,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "39bc3548-27e8-45e0-9ccf-c394ac93f23a",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2016-05-30T23:41:56.304233",
+      "url": "ftp://ftp.coast.noaa.gov/pub/benthic/Benthic_Cover_Data/NY_LongIslandSouthShore.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "df2ea28a-73cd-48a5-98fc-97b80e062e94",
+      "webstore_last_updated": null,
+      "id": "1074fc41-bbc8-4fe3-adeb-1a50dfe40d08",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 232,
+        "recent": 13
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "39bc3548-27e8-45e0-9ccf-c394ac93f23a",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-05-30T23:41:56.304257",
+      "url": "https://coast.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 5,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "2002-long-island-south-shore-estuary-benthic-habitat-line-data-set",
+  "isopen": false,
+  "url": null,
+  "notes": "In June 2002, 200 1:20,000 scale conventional-color metric film diapositives for Long Island, New York were collected as part of an effort to map submerged aquatic vegetation (SAV) in Long Island's South Shore bays. They were provided by New York State Department of State's Division of Coastal Resources. Photographs were taken at low tide and during times that the growth stage of the SAV allowed for clear identification. Care was taken to minimize the effects of turbidity, sun glint, wind, and haze on the photos. The photos were scanned at a resolution of 15 microns. Ground control points were collected primarily from NYSDS 2 ft orthophotos. Additional control points were collected from USGS DOQQs where coverage from the primary source was lacking. All elevations were derived from USGS digital elevation models. A bundle block adjustment was performed using Albany and exterior orientation parameters were calculated. Boeing/Autometric's Softplotter was used to orthorectify the photos. The images were then dodged and mosaicked using Z/I's Orthopro. No additional color-balancing was performed as the mosaic's intended purpose was the delineation of benthic habitats. The mosaic was then output into 1000m by 1000m tiles with a 0.5m pixel resolution. The naming convention uses the first 3 numbers of the UTM x coordinate followed by the first 4 numbers in the UTM y coordinate of the southwest corner. Stereo digital images were created and the habitat features were interpreted and digitized on screen using softplotter microstation resulting in accurate and efficient 3D extraction of the data. Habitats were delineated with a high level of detail with the minimum mapping unit (MMU) being 0.01 hectares (approx.10m x 10m).The digitized linework have the following specifications: Vertex Distance less than 1.0 m Node Snap Distance less than 4.0 m Arc Snap Distance less than 4.0 m In some cases differences in color and texture between adjacent features tend to be more subtle and boundaries more difficult to detect. In these areas the boundary was delineated using the best possible line between points where the edge can be reliably determined. This line was attributed as confidence level \"LOW\" in the line coverage. The \"low confidence\" lines were found mainly in the deep water areas of the data set although they were found occasionally in areas of high turbidity. In cases where a clear determination of a habitat boundary was made with confidence, that line was given the attribute \"HIGH\". The items are stored in the attribute table under 'Confidence'. This data was delivered as '2002 Long Island South Shore Estuary Benthic Habitat Line Data Set '. The collected data was converted to an ARCGIS format for quality control and delivery. The data was assessed for horizontal spatial accuracy and thematic agreement during 2003. This is a companion dataset to the polygon coverage '2002 Long Island South Shore Estuary Benthic Habitat Polygon Data Set '.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"NOAA Office for Coastal Management\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "coastal.info@noaa.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-73.751901"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-05-23"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2003-12-30\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-72.411823"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "40.906952"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "40.563308"
+    },
+    {
+      "key": "licence",
+      "value": "[\"While every effort has been made to ensure that these data are accurate and reliable within limits of the state of the art, NOAA will not assume any liability for damages caused by any inaccuracies in these data, or failure in their use.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-73.751901, 40.563308], [-72.411823, 40.563308], [-72.411823, 40.906952], [-73.751901, 40.906952], [-73.751901, 40.563308]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: Data should not be changed or modified by anyone other than NOAA\", \"Access Constraints: Data is available upon request\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "tags",
+      "value": "united states, environmental monitoring, new york, long island, noaa"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "1b1664d3-a49d-4509-8765-5ff5239ab0e3"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "2002 Long Island South Shore Estuary Benthic Habitat Line Data Set",
+  "revision_id": "2c7a7d43-babe-46b9-bdaf-364c2ca211a6"
+}

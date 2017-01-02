@@ -1,0 +1,226 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "387512ac-e044-457c-8d2a-f2e5c2a5efdb",
+  "metadata_created": "2015-09-27T01:11:48.306205",
+  "metadata_modified": "2016-05-31T06:53:52.391799",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "387512ac-e044-457c-8d2a-f2e5c2a5efdb",
+      "webstore_last_updated": null,
+      "id": "f08a26ac-f69a-4305-82a6-2b3113e9eb46",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "e7f6a702-f275-4fb7-a34b-16d64ff22d07",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-05-31T02:53:52.491071",
+      "url": "https://coast.noaa.gov/dataviewer/#/lidar/search/where:ID=549",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "387512ac-e044-457c-8d2a-f2e5c2a5efdb",
+      "webstore_last_updated": null,
+      "id": "f45246ef-577f-4d6b-b094-2bc8fa79e849",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "e7f6a702-f275-4fb7-a34b-16d64ff22d07",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-05-31T02:53:52.491181",
+      "url": "https://coast.noaa.gov/htdata/lidar1_z/geoid12a/data/549",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 1,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "2006-fema-new-jersey-flood-mitigation-lidar-middlesex-county92149",
+  "isopen": false,
+  "url": null,
+  "notes": "LIDAR data is remotely sensed high-resolution elevation data collected by an airborne collection platform. By positioning laser range finding with the use of 1 second GPS with 100hz inertial measurement unit corrections Terrapoint's LIDAR instruments are able to make highly detailed geospatial elevation products of the ground, man-made structures and vegetation. The LiDAR flightlines for this project were planned for a 50% acquisition overlap. The nominal resolution of this project without overlap is 1.37m spacing, but effectively is 2.74m with overlap factored. Four returns were recorded for each pulse in addition to an intensity value. GPS Week Time, Flightline number and scan angle attributes were provided for each LiDAR point. Data is provided as random points, in LAS v1.0 format, classified according to ASPRS Class Code 1= Undefined, 2=Ground.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-74.201558"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "40.610366"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "40.249866"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-74.632358, 40.249866], [-74.201558, 40.249866], [-74.201558, 40.610366], [-74.632358, 40.610366], [-74.632358, 40.249866]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: Users should be aware that temporal changes may have occurred since this data set was collected and some parts of this data may no longer represent actual surface conditions. Users should not use this data for critical applications without a full awareness of its limitations.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2006-10-08"
+    },
+    {
+      "key": "contact-email",
+      "value": "claude.vickers@terrapoint.com"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-74.632358"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-05-23"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2006-11-15\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "licence",
+      "value": "[\"\\nAny conclusions drawn from the analysis of this information are not the responsibility of NOAA,\\nthe Office for Coastal Management or its partners.\\n\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Terrapoint USA\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2006-10-11"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "elevation, us, new jersey, digital elevation model, asprs standards, las_v1.0, lidar, optech_3100ea, bathymetry/topography, dem, laser, surface model, middlesex county"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "3df4af34-85f4-4818-9503-86d3f9520b5f"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "2006 FEMA New Jersey Flood Mitigation Lidar: Middlesex County",
+  "revision_id": "f8f13f7b-7ce2-49be-bdce-1542e808ccc6"
+}

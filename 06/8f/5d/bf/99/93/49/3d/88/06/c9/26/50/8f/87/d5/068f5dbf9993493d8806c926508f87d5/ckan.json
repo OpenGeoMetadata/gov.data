@@ -1,0 +1,215 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "068f5dbf-9993-493d-8806-c926508f87d5",
+  "metadata_created": "2013-03-15T23:02:27.014916",
+  "metadata_modified": "2015-04-09T22:02:09.716644",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "068f5dbf-9993-493d-8806-c926508f87d5",
+      "webstore_last_updated": null,
+      "id": "f6ffbafc-ab19-435a-b3e6-9feaa252fb41",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "381",
+      "hash": "",
+      "description": "OGC WMS service with basemap layers from BLM",
+      "format": "WMS",
+      "tracking_summary": {
+        "total": 50,
+        "recent": 3
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WMS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "BLM Basemaps WMS",
+      "created": "2013-03-16T00:02:27.035370",
+      "url": "http://www.geocommunicator.gov/arcgis/services/Basemaps/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "dd4c2895-3791-4972-810c-873cbe001e5f",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "068f5dbf-9993-493d-8806-c926508f87d5",
+      "webstore_last_updated": null,
+      "id": "cc297e07-ce82-4af9-9d7c-7a3dba503305",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "375",
+      "hash": "",
+      "description": "BLM metadata record describing resources exposed by this service",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 21,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FGDC metadata record",
+      "created": "2013-03-16T00:02:27.035392",
+      "url": "http://www.geocommunicator.gov/GeoComm/metadata/basemaps/BLM_MAP_BASEMAPS.htm",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "2a4dc610-9aec-4495-bf98-1e96454fca12",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 1321,
+    "recent": 37
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The Arizona Geological Survey collates and serves geological information for Arizona and other states through its partnership with other state geological surveys.",
+    "created": "2013-03-14T03:44:43.328493",
+    "title": "Arizona Geological Survey",
+    "name": "azgs-az-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.50states.com/flag/image/nunst004.gif",
+    "revision_id": "61be6428-4398-4199-a336-f3cd1e956f9b",
+    "type": "organization",
+    "id": "f3f6e1d4-64fb-4a2f-b32c-9ac0b76fe4de",
+    "approval_status": "approved"
+  },
+  "name": "basemaps-for-usa-wms-from-us-bureau-of-land-management",
+  "isopen": false,
+  "url": null,
+  "notes": "Includes: UTM zones, BLM Administrative Boundaries, Urban Areas, Counties, 100K quadrangle boundaries, Major Roads, US Highways, Interstates, State boundaries. \nFGDC metadata available at http://www.geocommunicator.gov/GeoComm/metadata/basemaps/BLM_MAP_BASEMAPS.htm",
+  "owner_org": "f3f6e1d4-64fb-4a2f-b32c-9ac0b76fe4de",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"No Organization Name Was Given\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "No email Was Given"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-177"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2012-11-27T15:46:32Z"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2012-01-26T12:00:00Z\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-66"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "71"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "23"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-177.0, 23.0], [-177.0, 71.0], [-66.0, 71.0], [-66.0, 23.0], [-177.0, 23.0]]]}"
+    },
+    {
+      "key": "guid",
+      "value": "9e15e1a59b768b330d029e86dc086629"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "Geocommunicator, Bureau of Land Management, county boundaries, state boundaries, base map, boundaries, WMS, BLM data"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "5b8a6c1a-e1aa-4b1c-bd66-c30cc74399c9"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "f800beb8-4923-4e88-910f-1c6cf0078598"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "AASG geothermal data CSW"
+    }
+  ],
+  "title": "Basemaps for USA,  WMS from US Bureau of Land Management",
+  "revision_id": "2a4dc610-9aec-4495-bf98-1e96454fca12"
+}

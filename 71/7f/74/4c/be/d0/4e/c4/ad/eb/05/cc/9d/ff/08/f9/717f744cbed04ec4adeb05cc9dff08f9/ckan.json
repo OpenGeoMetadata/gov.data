@@ -1,0 +1,533 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "717f744c-bed0-4ec4-adeb-05cc9dff08f9",
+  "metadata_created": "2016-08-08T20:47:14.729789",
+  "metadata_modified": "2016-09-05T21:35:22.750053",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "717f744c-bed0-4ec4-adeb-05cc9dff08f9",
+      "webstore_last_updated": null,
+      "id": "6adaaaf7-119c-4afe-b59c-1e3925acc164",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "search",
+      "hash": "",
+      "description": "Dynamic GIS mapping application to locate stations and data for selected layers.",
+      "format": "XML",
+      "tracking_summary": {
+        "total": 9,
+        "recent": 3
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NCEI Climate Data Online Map Server",
+      "created": "2016-09-05T17:35:23.005691",
+      "url": "http://gis.ncdc.noaa.gov/maps/ncei/rsi",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "51a737bb-6d2e-4523-9028-1a332dc33991",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "717f744c-bed0-4ec4-adeb-05cc9dff08f9",
+      "webstore_last_updated": null,
+      "id": "76a8232e-97a9-4d78-96dd-37603242fea0",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "ArcGIS Server REST API for the dataset.",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 26,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NCEI ArcGIS REST Services Directory",
+      "created": "2016-09-05T17:35:23.005726",
+      "url": "http://gis.ncdc.noaa.gov/arcgis/rest/services/snowfall/rsi/MapServer",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "51a737bb-6d2e-4523-9028-1a332dc33991",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "717f744c-bed0-4ec4-adeb-05cc9dff08f9",
+      "webstore_last_updated": null,
+      "id": "2dcf3850-1a9f-4687-9003-964aac7c79f5",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Download the Regional Snowfall Index and other related products.",
+      "format": "XML",
+      "tracking_summary": {
+        "total": 7,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Direct Download for Surface Snow Products",
+      "created": "2016-09-05T17:35:23.005735",
+      "url": "https://www.ncei.noaa.gov/data/snowstorm/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "51a737bb-6d2e-4523-9028-1a332dc33991",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "717f744c-bed0-4ec4-adeb-05cc9dff08f9",
+      "webstore_last_updated": null,
+      "id": "ab1acba1-5e6f-4540-b9b6-686397532344",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Background, description, RSI maps and data values.",
+      "format": "",
+      "tracking_summary": {
+        "total": 48,
+        "recent": 4
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "The Regional Snowfall Index (RSI) web page.",
+      "created": "2016-09-05T17:35:23.005742",
+      "url": "http://www.ncdc.noaa.gov/snow-and-ice/rsi/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 3,
+      "revision_id": "51a737bb-6d2e-4523-9028-1a332dc33991",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "717f744c-bed0-4ec4-adeb-05cc9dff08f9",
+      "webstore_last_updated": null,
+      "id": "e47b1fee-e206-4d7a-bc2e-61fea3e8c339",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-09-05T17:35:23.005750",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 4,
+      "revision_id": "51a737bb-6d2e-4523-9028-1a332dc33991",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "717f744c-bed0-4ec4-adeb-05cc9dff08f9",
+      "webstore_last_updated": null,
+      "id": "ab2934ee-a3dd-4146-88eb-819f889d91ce",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Instructions and examples for ISO keywords.",
+      "format": "",
+      "tracking_summary": {
+        "total": 64,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA NOAA Environmental Data Management Wiki: MD Keywords",
+      "created": "2016-09-05T17:35:23.005757",
+      "url": "https://geo-ide.noaa.gov/wiki/index.php?title=MD_Keywords",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 5,
+      "revision_id": "51a737bb-6d2e-4523-9028-1a332dc33991",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "717f744c-bed0-4ec4-adeb-05cc9dff08f9",
+      "webstore_last_updated": null,
+      "id": "e7739f21-3444-42b3-9064-aaa6cbba4a9a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-09-05T17:35:23.005764",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 6,
+      "revision_id": "51a737bb-6d2e-4523-9028-1a332dc33991",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "717f744c-bed0-4ec4-adeb-05cc9dff08f9",
+      "webstore_last_updated": null,
+      "id": "4dc804ee-ee58-441d-9d51-6bbc814aeea5",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-09-05T17:35:23.005771",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 7,
+      "revision_id": "51a737bb-6d2e-4523-9028-1a332dc33991",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "717f744c-bed0-4ec4-adeb-05cc9dff08f9",
+      "webstore_last_updated": null,
+      "id": "42eaed1a-8d00-446d-83a9-447543bfdefc",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-09-05T17:35:23.005778",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 8,
+      "revision_id": "51a737bb-6d2e-4523-9028-1a332dc33991",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "717f744c-bed0-4ec4-adeb-05cc9dff08f9",
+      "webstore_last_updated": null,
+      "id": "c0c04c2b-f7e1-46a3-bdd9-d58c85ce1bb3",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "PDF file of science paper",
+      "format": "PDF",
+      "tracking_summary": {
+        "total": 24,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Regional Snowfall Impact Scale",
+      "created": "2016-09-05T17:35:23.005785",
+      "url": "http://www1.ncdc.noaa.gov/pub/data/metadata/documents/C00465_squires-lawrimore-paper.pdf",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 9,
+      "revision_id": "51a737bb-6d2e-4523-9028-1a332dc33991",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "717f744c-bed0-4ec4-adeb-05cc9dff08f9",
+      "webstore_last_updated": null,
+      "id": "ca20f19b-8731-465d-8f96-3cef3d979fb9",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Abstract and links to the journal article describing the data.",
+      "format": "application/x-troff-man",
+      "tracking_summary": {
+        "total": 17,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "The Regional Snowfall Index (Published paper)",
+      "created": "2016-09-05T17:35:23.005792",
+      "url": "http://journals.ametsoc.org/doi/abs/10.1175/BAMS-D-13-00101.1",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 10,
+      "revision_id": "51a737bb-6d2e-4523-9028-1a332dc33991",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "717f744c-bed0-4ec4-adeb-05cc9dff08f9",
+      "webstore_last_updated": null,
+      "id": "34468a9b-3ca2-4296-ba19-38bf2fa8992d",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "A precursor to the Regional Snowfall Index.",
+      "format": "",
+      "tracking_summary": {
+        "total": 22,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Northeast Snowfall Impact Scale",
+      "created": "2016-09-05T17:35:23.005799",
+      "url": "http://gis.ncdc.noaa.gov/all-records/catalog/search/resource/details.page?id=gov.noaa.ncdc:C00453",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 11,
+      "revision_id": "51a737bb-6d2e-4523-9028-1a332dc33991",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 12,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 150,
+    "recent": 33
+  },
+  "groups": [
+    {
+      "display_name": "Climate",
+      "description": "",
+      "image_display_url": "",
+      "title": "Climate",
+      "id": "aa0c01c9-d292-4dc1-8fec-b10c1bb629a9",
+      "name": "climate5434"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "regional-snowfall-index-rsi",
+  "isopen": false,
+  "url": null,
+  "notes": "NOAA's National Climatic Data Center is now producing the Regional Snowfall Index (RSI) for significant snowstorms that impact the eastern two thirds of the U.S. The RSI ranks snowstorm impacts on a scale from 1 to 5, similar to the Fujita scale for tornadoes or the Saffir-Simpson scale for hurricanes. NCDC has analyzed and assigned RSI values to over 500 storms going as far back as 1900. New storms are added operationally. As such, RSI puts the regional impacts of snowstorms into a century-scale historical perspective. The RSI differs from other indices because it includes population. RSI is based on the spatial extent of the storm, the amount of snowfall, and the juxtaposition of these elements with population. The area and population are cumulative values above regional specific thresholds. For example, the thresholds for the Southeast are 2\", 5\", 10\", and 15\" of snowfall while the thresholds for the Northeast are 4\", 10\", 20\", and 30\" of snowfall. Population information ties the index to societal impacts. Currently, the index uses population based on the 2000 Census. The RSI is an evolution of the Northeast Snowfall Impact Scale (NESIS) which NCDC began producing operationally in 2005. While NESIS was developed for storms that had a major impact in the Northeast, it includes the impact of snow on other regions as well. It can be thought of as a quasi-national index that is calibrated to Northeast snowstorms. By contrast, the RSI is a regional index; a separate index is produced for each of the six NCDC climate regions in the eastern two-thirds of the nation. The indices are calculated in a similar fashion to NESIS, but our experience has led us to propose a change in the methodology. The new indices require region-specific parameters and thresholds for the calculations. For details on how RSI is calculated, see Squires et al. 2011.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-65.0"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "50.0"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "PNG"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.ncdc:C00465"
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://www1.ncdc.noaa.gov/pub/data/metadata/images/C00465_RSI-image.jpg"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "30.0"
+    },
+    {
+      "key": "__category_tag_aa0c01c9-d292-4dc1-8fec-b10c1bb629a9",
+      "value": "[\"Transportation\",\"Physical Data\"]"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-100.0, 30.0], [-65.0, 30.0], [-65.0, 50.0], [-100.0, 50.0], [-100.0, 30.0]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "underDevelopment"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Cite this dataset when used as a source.\", \"NCEI cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NCEI makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty. NCEI can only certify that the data it distributes are an authentic copy of the records that were accepted for inclusion in the NCEI archives.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "1900-01-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "ncei.orders@noaa.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-100.0"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-08-19"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2011-01-01\"}, {\"type\": \"revision\", \"value\": \"2014-06-01\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "RSI map example for snowstorm events."
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "terrestrial hydrosphere, atmosphere, national centers for environmental information, nesdis, noaa, u.s. department of commerce, vertical location, snow depth, doc/noaa/nesdis/ncdc, united states of america, snow, north america, meteorological hazards, land surface, solid precipitation, national climatic data center, nesdis, noaa, u.s. department of commerce, doc/noaa/nesdis/ncei, snow/ice, natural hazards, precipitation, continent, human dimensions, earth science"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "00790870-a541-4101-bd81-9bf5e2a79c75"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Regional Snowfall Index (RSI)",
+  "revision_id": "233530e3-697e-4b21-a560-d3fd9188c303"
+}

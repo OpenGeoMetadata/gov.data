@@ -1,0 +1,239 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Julie Crooke",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "julie.a.crooke@nasa.gov",
+  "num_tags": 4,
+  "id": "cb5b8317-0832-4227-966a-897d13f3c7db",
+  "metadata_created": "2015-04-09T18:55:11.726629",
+  "metadata_modified": "2015-07-08T19:29:02.630827",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "cb5b8317-0832-4227-966a-897d13f3c7db",
+      "webstore_last_updated": null,
+      "id": "550fe828-cb9e-43c7-b7c4-536babd0b8fe",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "XML",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/xml",
+      "cache_url": null,
+      "name": "XML File",
+      "created": "2015-04-09T14:55:11.905413",
+      "url": "http://techport.nasa.gov/xml-api/11829",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "c2af1704-0af0-45ef-b77c-7e8a10b65f07",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "active",
+      "id": "e48100ef-ebfc-4859-8e8a-91a0f5feaae6",
+      "name": "active"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "goddard-space-flight-center",
+      "id": "a6e15e1e-9ab2-40d4-9937-8becdc2c6938",
+      "name": "goddard-space-flight-center"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "project",
+      "id": "24471320-3e5c-42b5-a078-8e48e70e2ac4",
+      "name": "project"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "swm",
+      "id": "5499c607-2db3-4dfc-9111-0d11bee5d34d",
+      "name": "swm"
+    }
+  ],
+  "tracking_summary": {
+    "total": 6,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "schematic-window-methodology-project",
+  "isopen": true,
+  "url": null,
+  "notes": "&lt;p&gt;Using a set of accurate analytic Variation of Parameters (VOP) equations for orbit propagation, and a method for defining and &amp;lsquo;mixing-and-matching&amp;rsquo; various mission constraints, the tool will allow flight projects to e.g. quickly determine launch opportunities, and explore the effects on these of relaxing mission constraints.&lt;/p&gt;&lt;p&gt;The basic concepts involve taking advantage of the geometric notion of an orbit, the definition&amp;nbsp;of a &amp;#39;perturbation&amp;#39;, and idea of &amp;#39;geometric proxies&amp;#39;. Let us take these concepts in turn to better describe what SWM does.&amp;nbsp; The notion of an orbit is predicated on the use of Keplerian orbit elements to describe the trajectory of the spacecraft as if it were a &amp;#39;bead on an elliptically-shaped wire&amp;#39;.&amp;nbsp; That is to say that the semi-major axis and eccentricity describe the shape and size of the wire; the inclination, right-ascension of ascending node, and argument of perigee describe the wire&amp;#39;s spatial orientation; and the true anomaly describes where on the wire the bead can be found.&amp;nbsp; The concept of perturbation allows us to think about this elliptically-shaped wire&amp;nbsp;as slowly changing its shape, size, and orientation as the spacecraft &amp;#39;feels&amp;#39; a variety of environmental effects such as higher-order terms in the geopotential, luni-solar gravitational pull, solar radiation pressure, and atmospheric drag.&amp;nbsp; Note that the application of delta-Vs are accomplished by discontinuously changing the orbit using standard methods.&lt;/p&gt;&lt;p&gt;These two concepts are traditional &amp;#39;textbook&amp;#39; ideas.&amp;nbsp; The distinguishing trait of SWM is the marriage of these ideas with the notion of a geometric proxy.&amp;nbsp; To illustrate the idea of a geometric proxy, consider a typical space science mission that wants to place spacecract in situ in the Earth&amp;#39;s geomagnetic tail.&amp;nbsp; The geomagnetic tail lies in or near the shadow of the Earth.&amp;nbsp; In SWM, the orbit is then mapped into a geometric coodainte frame which moves as the Earth moves about the Sun such that one of its axes always lies along the Earth-Sun line and another of its axes lies along the ecliptic pole.&amp;nbsp; In this frame the Keplerian elements are &amp;#39;moving&amp;#39; such that the line-of-apsides advances like the hands of a clock.&amp;nbsp; The action of the perturbations serves to either enhance or retard this motion. Thus the orbit&amp;#39;s motion can be mapped into this frame where the geomagnetic tail and the shadow cast by the Earth are essentially fixed.&amp;nbsp; The final step is then use the geometric properties of the orbit and the geometric properties of the geomagnetic tail and the shadow region to simply predict the how much time is spent in the tail compared with the time spent in shadow.&amp;nbsp; Using the geometric proxies, the mission desing space can be quickly explored and, with a few more steps to describe how this orbit is established from launch, a launch window can be generated.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "issued",
+      "value": "2012-09-01T00:00:00Z"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://techport.nasa.gov/home",
+        "http://techport.nasa.gov/doc/home/TechPort_Advanced_Search.pdf",
+        "http://techport.nasa.gov/fetchFile?objectId=6561",
+        "http://techport.nasa.gov/fetchFile?objectId=3456",
+        "http://techport.nasa.gov/fetchFile?objectId=3447",
+        "http://techport.nasa.gov/fetchFile?objectId=6584",
+        "http://techport.nasa.gov/fetchFile?objectId=6560",
+        "http://techport.nasa.gov/fetchFile?objectId=3448"
+      ]
+    },
+    {
+      "key": "source_hash",
+      "value": "1f27105cb6f19d0acd597e86771446cf2aca84ae"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "temporal",
+      "value": "2012-09-01T00:00:00Z/2015-10-01T00:00:00Z"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://techport.nasa.gov/view/11829"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "941130a0-8c16-4bb6-89ac-ceba3f357bb5"
+    },
+    {
+      "key": "publisher",
+      "value": "N/A"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "55942a87c63a7fe59b498150"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "National Aeronautics and Space Administration > N/A"
+    },
+    {
+      "key": "modified",
+      "value": "2015-03-12"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "TECHPORT_11829"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "941130a0-8c16-4bb6-89ac-ceba3f357bb5"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "Schematic Window Methodology Project",
+  "revision_id": "4a6df6f1-5c96-45c9-b0c4-2614c9e74e78"
+}

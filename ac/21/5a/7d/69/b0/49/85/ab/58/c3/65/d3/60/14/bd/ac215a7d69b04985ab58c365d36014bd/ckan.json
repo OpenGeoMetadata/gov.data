@@ -1,0 +1,238 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "ac215a7d-69b0-4985-ab58-c365d36014bd",
+  "metadata_created": "2015-09-27T02:31:14.072410",
+  "metadata_modified": "2015-09-27T02:31:14.072410",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "ac215a7d-69b0-4985-ab58-c365d36014bd",
+      "webstore_last_updated": null,
+      "id": "61fd5f82-f6b0-46db-a7af-000a9e885462",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 1068,
+        "recent": 15
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "6f1076c8-0bef-403f-ad37-62d30e0fdb4c",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-09-26T22:31:14.164502",
+      "url": "http://coast.noaa.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "ac215a7d-69b0-4985-ab58-c365d36014bd",
+      "webstore_last_updated": null,
+      "id": "0d9348dc-fbcc-4294-aa99-d739322f83cf",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 1068,
+        "recent": 15
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "6f1076c8-0bef-403f-ad37-62d30e0fdb4c",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-09-26T22:31:14.164525",
+      "url": "http://coast.noaa.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 1,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "2001-2002-puget-sound-lidar-consortium-pslc-topographic-lidar-island-county-and-northeast-jeffe333c6",
+  "isopen": false,
+  "url": null,
+  "notes": "TerraPoint surveyed and created this data for the Puget Sound LiDAR Consortium under contract. The area surveyed is approximately 525 square miles and covers all of Island County, WA and the Northeast portion of Jefferson County, WA. All data was collected during ideal conditions (leaf-off). The LAS files were derived from all returns ASCII files contain the X,Y,Z values of all the LiDAR returns collected during the survey mission. The GPS time, scan angle and return numbers of each point were preserved in the conversion from ASCII to LAS. The LAS files were classified into the following ASPRS classes: (1) Unclassified (2) Bare Earth. Ground and water points are included in Class 2 (Bare Earth). Futher details are available in the Process Steps below. No ancillary data, such as intensity, is available for this data. Initially this dataset was flown in 2001 with a 30% overlap between flight lines which did not meet specifications. The dataset was reflown in 2002 with a 50% overlap between flight lines as the rest of the PSLC data. The data is broken down into USGS quarter quads and then into 25 tiles within each quarter quad. Due to the overlap the nominal point spacing of the dataset is 1.0 meter.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-122.347350"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "48.434366"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "kmz"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.csc.maps:wa2002_pslc_island_jefferson_m1453"
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "ftp://ftp.csc.noaa.gov/pub/crs/beachmap/qa_docs/wa/pslc2001/pslc2001_island_jefferson_wa_footprint.kmz"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": "urn:ogc:def:crs:EPSG::4269"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-122.959139, 47.892561], [-122.34735, 47.892561], [-122.34735, 48.434366], [-122.959139, 48.434366], [-122.959139, 47.892561]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2001-01-09"
+    },
+    {
+      "key": "contact-email",
+      "value": "dmartinez@psrc.org"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-122.959139"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2013-04-25"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2013-02-01\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "This kmz file shows the extent of coverage for the 2001 PSLC Island and NE Jefferson Counties, WA lidar data set."
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"These data depict the elevations at the time of the survey and are only accurate for that time. Users should be aware that\\n            temporal changes may have occurred since this data set was collected and some parts of this data may no longer represent actual surface\\n            conditions. Users should not use this data for critical applications without a full awareness of its limitations. Any conclusions drawn\\n            from analysis of this information are not the responsibility of NOAA or any of its partners. These data are NOT to be used for navigational purposes.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Puget Sound Lidar Consortium (PSLC)\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2002-03-23"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "47.892561"
+    },
+    {
+      "key": "tags",
+      "value": "camano island, elevation, remote sensing, jefferson county, whidbey island, washington, us, lidar, puget sound, topography/bathymetry, model, puget lowland, port townsend, island county, las"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "8b4e6d88-289b-4187-a028-991930a068ad"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "2001-2002 Puget Sound LiDAR Consortium (PSLC) Topographic LiDAR: Island County and Northeast Jefferson County, Washington",
+  "revision_id": "6f1076c8-0bef-403f-ad37-62d30e0fdb4c"
+}

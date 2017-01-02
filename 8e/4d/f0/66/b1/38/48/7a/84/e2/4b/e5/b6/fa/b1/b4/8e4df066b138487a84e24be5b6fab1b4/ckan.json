@@ -1,0 +1,234 @@
+{
+  "license_title": "Creative Commons CCZero",
+  "maintainer": "Nicholas Langle",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "nicholas.langle@nrel.gov",
+  "num_tags": 7,
+  "id": "8e4df066-b138-487a-84e2-4be5b6fab1b4",
+  "metadata_created": "2015-02-23T20:18:58.481858",
+  "metadata_modified": "2015-09-01T18:20:18.694907",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "8e4df066-b138-487a-84e2-4be5b6fab1b4",
+      "webstore_last_updated": null,
+      "id": "e197458b-0847-42f3-a7a2-002ab9dc9d9e",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "OTEC annual average cold water depth",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "OTEC annual average cold water depth",
+      "created": "2015-02-23T15:18:58.907404",
+      "url": "http://en.openei.org/doe-opendata/dataset/e430f6d3-558c-4eae-bba1-201532f40468/resource/ec919b15-eb25-48a5-928d-7590c1eb7aeb/download/depthann.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "6a6bfc83-d0d3-4206-bbd5-c4da18235371",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "cold-water-depth",
+      "id": "c94ae099-01f1-4fe0-8f72-223c455f0df8",
+      "name": "cold-water-depth"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "hydrokinetic",
+      "id": "87031483-72d6-457d-9dd2-3e403f2849aa",
+      "name": "hydrokinetic"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ocean",
+      "id": "8f38c56a-1dff-4dbc-9504-af259fc42e1a",
+      "name": "ocean"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ocean-energy",
+      "id": "97ee1f07-0484-43ba-93d9-00fe4d934e18",
+      "name": "ocean-energy"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ocean-thermal-energy-conversion",
+      "id": "4566617e-2cc8-45c2-9d7c-a4a4e7a4da3a",
+      "name": "ocean-thermal-energy-conversion"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "otec",
+      "id": "01c2f0e8-ae26-42c2-bbec-2b32b6ecf547",
+      "name": "otec"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "thermal",
+      "id": "2477d29a-ceff-412f-a060-334b0a35f8ec",
+      "name": "thermal"
+    }
+  ],
+  "tracking_summary": {
+    "total": 8,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-zero",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "ocean-thermal-energy-conversion-otec-cold-water-depth-annual-average-082b5",
+  "isopen": true,
+  "url": null,
+  "notes": "This shapefile represents annual average cold water depth recordings.\r\n\r\nThe cold water is defined by locating the depth that leads to the greatest average annual net power at each location when depth and its corresponding ?T are input into the power equation. This optimization balances power gained by obtaining colder water from deeper locations against power lost by transporting the water upward through a longer pipe. Input depth and temperature values are obtained from the Hybrid Coordinate Ocean Model (HYCOM) and are reported at discrete depth levels. The cut-off for maximum cold water depth is 1000 m.\r\n\r\nData were processed and converted to shapefile format by NREL for the [Ocean Thermal Extractable Energy Visualization](http://www.osti.gov/bridge/purl.cover.jsp?purl=/1055457/1055457.pdf)\r\n\r\n### License Info\r\nThis GIS data was developed by the National Renewable Energy Laboratory (\"NREL\"), which is operated by the Alliance for Sustainable Energy, LLC for the U.S. Department of Energy (\"DOE\"). The user is granted the right, without any fee or cost, to use, copy, modify, alter, enhance and distribute this data for any purpose whatsoever, provided that this entire notice appears in all copies of the data.\r\n\r\nFurther, the user of this data agrees to credit NREL in any publications or software that incorporate or use the data. Access to and use of the GIS data shall further impose the following obligations on the User. The names DOE/NREL may not be used in any advertising or publicity to endorse or promote any product or commercial entity using or incorporating the GIS data unless specific written authorization is obtained from DOE/NREL. The User also understands that DOE/NREL shall not be obligated to provide updates, support, consulting, training or assistance of any kind whatsoever with regard to the use of the GIS data.\r\n\r\nTHE GIS DATA IS PROVIDED \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL DOE/NREL BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER, INCLUDING BUT NOT LIMITED TO CLAIMS ASSOCIATED WITH THE LOSS OF DATA OR PROFITS, WHICH MAY RESULT FROM AN ACTION IN CONTRACT, NEGLIGENCE OR OTHER TORTIOUS CLAIM THAT ARISES OUT OF OR IN CONNECTION WITH THE ACCESS OR USE OF THE GIS DATA.\r\n\r\nThe User acknowledges that access to the GIS data is subject to U.S. Export laws and regulations and any use or transfer of the GIS data must be authorized under those regulations. The User shall not use, distribute, transfer, or transmit GIS data or any products incorporating the GIS data except in compliance with U.S. export regulations. If requested by DOE/NREL, the User agrees to sign written assurances and other export-related documentation as may be required to comply with U.S. export regulations.",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "accessURL",
+      "value": "http://en.openei.org/doe-opendata/dataset/e430f6d3-558c-4eae-bba1-201532f40468/resource/ec919b15-eb25-48a5-928d-7590c1eb7aeb/download/depthann.zip"
+    },
+    {
+      "key": "publisher",
+      "value": "National Renewable Energy Laboratory"
+    },
+    {
+      "key": "landingPage",
+      "value": "http://www.nrel.gov"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "format",
+      "value": "application/unknown"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2015-08-21T20:46:54Z"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/e430f6d3-558c-4eae-bba1-201532f40468"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "45a3bb0c-9801-4626-aec0-16c488cde129"
+    },
+    {
+      "key": "source_hash",
+      "value": "cc36b7a6296b7db23d14f252dacc7a1bcf686f94"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "45a3bb0c-9801-4626-aec0-16c488cde129"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-zero",
+  "title": "Ocean Thermal Energy Conversion (OTEC) - Cold Water Depth (Annual Average)",
+  "revision_id": "909f6100-abfb-44bb-96ab-22df54ec6a35"
+}

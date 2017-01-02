@@ -1,0 +1,199 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "<Nobody>",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 3,
+  "id": "6404673e-9c39-4d66-9dc6-43d8dfa58b0d",
+  "metadata_created": "2016-01-28T07:20:01.359273",
+  "metadata_modified": "2016-08-25T08:22:15.644592",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "6404673e-9c39-4d66-9dc6-43d8dfa58b0d",
+      "webstore_last_updated": null,
+      "id": "bd1edf3a-9338-4f7b-a626-0084df8e8f80",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2016-01-28T02:20:01.672880",
+      "url": "https://data.cityofchicago.org/download/3cpd-5xpf/application/zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "39eaec2f-5dd9-4fda-9c60-e9bc429bef17",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "gis",
+      "id": "3dc0c789-3e0c-4755-8418-1f1a0b82a70b",
+      "name": "gis"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "liquor",
+      "id": "8246ec1e-cea5-4fef-bb1c-3d34594df389",
+      "name": "liquor"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "shapefiles",
+      "id": "e066ef05-f157-4e4f-a65a-cd4f3435bb6c",
+      "name": "shapefiles"
+    }
+  ],
+  "tracking_summary": {
+    "total": 9,
+    "recent": 1
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2014-04-16T13:27:34.042027",
+    "title": "City of Chicago",
+    "name": "city-of-chicago",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "",
+    "revision_id": "2355fd63-2123-4dc7-b177-e959631cf360",
+    "type": "organization",
+    "id": "86c0c3d9-3826-47ab-a773-6924b858dd04",
+    "approval_status": "approved"
+  },
+  "name": "liquor-moratorium-districts-dry-precincts",
+  "isopen": false,
+  "url": null,
+  "notes": "The Illinois Liquor Control Act of 1934 permits voters in any precinct in the City of Chicago to vote an entire precinct “dry” through a local option referendum. If a precinct has been voted “dry,” no liquor licenses can be issued. \r\n\r\nVOTE_DRY_I column is the Precinct/Ward which was voted dry.  It reflects the Ward/Precinct that was effective at the date of the referendum.  Ward/Precinct boundaries may have changed since that date.  STATUS column indicates if the precinct was voted 'dry' or 'wet'. The Illinois Liquor Control Act of 1934 permits voters in any precinct in the City of Chicago to vote an entire precinct “dry” through a local option referendum. \r\n \r\nIf a precinct has been voted “Dry/Dry,”  no liquor licenses, other than a caterer’s liquor license, may be issued.  \r\nIf a precinct has been voted \"Dry/Wet\" no liquor licenses can be obtained for the consumption of alcohol on premise but the sale of package goods is allowed along with the caterer’s liquor license. \r\n \r\nThe VOTE_DRY_I column is the Precinct/Ward which was voted dry.  It reflects the Ward/Precinct that was effective at the date of the referendum.  Ward/Precinct boundaries may have changed since that date.  STATUS column indicates if the precinct was voted 'dry/dry' or 'dry/wet'.  \r\n\r\nTo view or use these files, compression software and special GIS software, such as ESRI ArcGIS, is required.",
+  "owner_org": "86c0c3d9-3826-47ab-a773-6924b858dd04",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "data.cityofchicago.org"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "added36a-9183-4385-a0e5-dd478946b24c"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "issued",
+      "value": "2011-11-02"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2012-12-10"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Chicago JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Community & Economic Development"
+      ]
+    },
+    {
+      "key": "catalog_@id",
+      "value": "https://data.cityofchicago.org/data.json"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "https://data.cityofchicago.org/api/views/3cpd-5xpf"
+    },
+    {
+      "key": "landingPage",
+      "value": "https://data.cityofchicago.org/d/3cpd-5xpf"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "87c5093c-7e68-4271-832b-b983bf2a0b13"
+    },
+    {
+      "key": "source_hash",
+      "value": "fac73a0c381a1fa61b48c497059a7ca21c1ad426"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "87c5093c-7e68-4271-832b-b983bf2a0b13"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "added36a-9183-4385-a0e5-dd478946b24c"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Chicago JSON"
+    }
+  ],
+  "title": "Liquor Moratorium Districts - Dry Precincts",
+  "revision_id": "4bf7d2c0-ca0a-46be-b666-df8ea32d3890"
+}

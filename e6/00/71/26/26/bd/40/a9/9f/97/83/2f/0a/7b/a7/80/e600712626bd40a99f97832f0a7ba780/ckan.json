@@ -1,0 +1,235 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "Doug Blankenship",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "dblank@sandia.gov",
+  "num_tags": 6,
+  "id": "e6007126-26bd-40a9-9f97-832f0a7ba780",
+  "metadata_created": "2016-11-30T21:28:50.175417",
+  "metadata_modified": "2016-11-30T21:28:50.175417",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "e6007126-26bd-40a9-9f97-832f0a7ba780",
+      "webstore_last_updated": null,
+      "id": "f56e5790-5d8c-416e-b93e-ace7de30f209",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "x,y,z data of the 3D temperature model for the West Flank Coso FORGE site",
+      "format": "TXT",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/plain",
+      "cache_url": null,
+      "name": "westflank3dtemperaturemodel.txt",
+      "created": "2016-11-30T16:28:50.424817",
+      "url": "http://gdr.openei.org/files/787/WestFlank3DTemperatureModel.txt",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "77365a96-d5cd-4416-a5f8-26c217ac6910",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "coso",
+      "id": "6de22958-37c2-4aba-9615-30ec79694962",
+      "name": "coso"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "egs",
+      "id": "c15fbe98-8fd3-49f2-be3b-1229300241d0",
+      "name": "egs"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "forge",
+      "id": "712b9477-e5bd-47ea-8261-335687d46f0e",
+      "name": "forge"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geothermal",
+      "id": "3f323051-fbd3-4715-bc13-e2fa5e65d369",
+      "name": "geothermal"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "temperature",
+      "id": "43703fee-ad58-4a94-aef7-4e903e93eb62",
+      "name": "temperature"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "west-flank",
+      "id": "78bb47a9-9c1c-4dd1-aa62-d9ca75995268",
+      "name": "west-flank"
+    }
+  ],
+  "tracking_summary": {
+    "total": 1,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "west-flank-coso-ca-forge-3d-temperature-model-2909f",
+  "isopen": true,
+  "url": null,
+  "notes": "x,y,z data of the 3D temperature model for the West Flank Coso FORGE site. Model grid spacing is 250m. \n\nThe temperature model for the Coso geothermal field used over 100 geothermal production sized wells and intermediate-depth temperature holes. At the near surface of this model, two boundary temperatures were assumed:  (1) areas with surface manifestations, including fumaroles along the northeast striking normal faults and northwest striking dextral faults with the hydrothermal field, a temperature of ~104ËšC was applied to datum at +1066 meters above sea level elevation, and (2) a near-surface temperature at about 10 meters depth, of 20ËšC was applied below the diurnal and annual conductive temperature perturbations. These assumptions were based on heat flow studies conducted at the CVF and for the Mojave Desert. \nOn the edges of the hydrothermal system, a 73ËšC/km (4ËšF/100â€™) temperature gradient contour was established using conductive gradient data from shallow and intermediate-depth temperature holes. This contour was continued to all elevation datums between the 20ËšC surface and -1520 meters below mean sea level. Because the West Flank is outside of the geothermal field footprint, during Phase 1, the three wells inside the FORGE site were incorporated into the preexisting temperature model. \nTo ensure a complete model was built based on all the available data sets, measured bottom-hole temperature gradients in certain wells were downward extrapolated to the next deepest elevation datum (or a maximum of about 25% of the well depth where conductive gradients are evident in the lower portions of the wells). After assuring that the margins of the geothermal field were going to be adequately modelled, the data was contoured using the Kriging method algorithm. Although the extrapolated temperatures and boundary conditions are not rigorous, the calculated temperatures are anticipated to be within ~6ËšC (20ËšF), or one contour interval, of the observed data within the Coso geothermal field.  Based on a lack of temperature data west of 74-2TCH, the edges of this model still seem to have an effect on West Flank modeled temperatures.\n",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "issued",
+      "value": "2016-03-01"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "e93ef1f5868078633e402493eabdfa729eb1e8ba"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-117.9367234375,35.782396781974],[-117.61822109375,35.782396781974],[-117.61822109375,36.137214189196],[-117.9367234375,36.137214189196],[-117.9367234375,35.782396781974]]]}"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "format",
+      "value": "application/unknown"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:006"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://gdr.openei.org/submissions/787"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "a9783ce7-fb1f-43eb-b28c-9e0000bb8d08"
+    },
+    {
+      "key": "accessURL",
+      "value": "http://gdr.openei.org/files/787/WestFlank3DTemperatureModel.txt"
+    },
+    {
+      "key": "publisher",
+      "value": "Sandia National Laboratories"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "key": "modified",
+      "value": "2016-03-01"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/f0000000-e214-4c72-acd2-000000000787"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "a9783ce7-fb1f-43eb-b28c-9e0000bb8d08"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "West Flank Coso, CA FORGE 3D temperature model",
+  "revision_id": "77365a96-d5cd-4416-a5f8-26c217ac6910"
+}

@@ -1,0 +1,198 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Asghar Noor",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "asghar.noor@sba.gov",
+  "num_tags": 3,
+  "id": "331669a5-bbb3-4fd1-8996-0272accb5708",
+  "metadata_created": "2015-05-15T14:47:35.256844",
+  "metadata_modified": "2015-11-19T08:48:21.453701",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "331669a5-bbb3-4fd1-8996-0272accb5708",
+      "webstore_last_updated": null,
+      "id": "70742bcd-8d74-4afe-835d-79cda9fd5be0",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "STATE_ABBREVIATION \r\nThe two-letter postal code for the state. This is case insensitive.",
+      "format": "api",
+      "tracking_summary": {
+        "total": 158,
+        "recent": 7
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "",
+      "cache_url": null,
+      "name": "U.S. City & County Web Data by State",
+      "created": "2015-05-15T10:47:35.892488",
+      "url": "http://api.sba.gov/doc/geodata.html#city-county-state",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "b5ff0ae0-f132-4e33-886b-dc315b36f282",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "city",
+      "id": "a6c17c25-9685-4afe-90ae-428cd7b5c88d",
+      "name": "city"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "county",
+      "id": "a60c8960-e942-4d43-b53a-7e1a75429fbe",
+      "name": "county"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "state",
+      "id": "b420f17a-6aa8-489d-bb0a-3be247d315a8",
+      "name": "state"
+    }
+  ],
+  "tracking_summary": {
+    "total": 398,
+    "recent": 15
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:16.754751",
+    "title": "Small Business Administration",
+    "name": "sba-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/sba.png",
+    "revision_id": "549f71a5-8aea-4ebd-9510-782910d2d9e6",
+    "type": "organization",
+    "id": "102cab00-23fb-4373-bc61-3413199f4fdc",
+    "approval_status": "approved"
+  },
+  "name": "u-s-city-county-web-data-by-state-2e178",
+  "isopen": true,
+  "url": null,
+  "notes": "This geographic names data set provides a \"mashup\" of URLs for official city and county government web sites and city and county location data from the USGS Geographic Names Information System (GNIS). GNIS data includes incorporated places, census designated areas, unincorporated places, counties, and populated places.",
+  "owner_org": "102cab00-23fb-4373-bc61-3413199f4fdc",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "U.S. Small Business Administration"
+    },
+    {
+      "key": "landingPage",
+      "value": "http://api.sba.gov/doc/geodata.html"
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "66a0b22d-21d3-41b1-bc2b-013c3c71d109"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "source_hash",
+      "value": "8d75b650819dd26d1d81fccec6e7d50cde4572c3"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2013-12-12"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SBA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "SBA-OCIO-2015-02-020"
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "028:00"
+      ]
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "028:000"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "329695d8-2f19-4394-b6c1-9a5a0c748eb5"
+    },
+    {
+      "key": "describedBy",
+      "value": "http://api.sba.gov/dtd/geodata.dtd"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "329695d8-2f19-4394-b6c1-9a5a0c748eb5"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "66a0b22d-21d3-41b1-bc2b-013c3c71d109"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SBA JSON"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "U.S. City & County Web Data by State",
+  "revision_id": "241e1e7f-aaeb-40c0-b88c-e7db660158bf"
+}

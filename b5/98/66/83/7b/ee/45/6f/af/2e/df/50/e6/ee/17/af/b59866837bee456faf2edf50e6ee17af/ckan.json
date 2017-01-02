@@ -1,0 +1,233 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "Thomas Hedberg",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "thomas.hedberg@nist.gov",
+  "num_tags": 2,
+  "id": "b5986683-7bee-456f-af2e-df50e6ee17af",
+  "metadata_created": "2016-07-15T19:13:03.812297",
+  "metadata_modified": "2016-07-15T19:13:03.812297",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "b5986683-7bee-456f-af2e-df50e6ee17af",
+      "webstore_last_updated": null,
+      "id": "4ed890dd-80a4-4684-ac79-198280007079",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "MTConnect agent of data collected in a real manufacturing facility",
+      "format": "MTConnect-compliant XML",
+      "tracking_summary": {
+        "total": 4,
+        "recent": 3
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Volatile Data Stream",
+      "created": "2016-07-15T15:13:04.208693",
+      "url": "https://smstestbed.nist.gov/vds/current",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "f0a3a92b-1112-4d0b-a411-33a1de6d42c4",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b5986683-7bee-456f-af2e-df50e6ee17af",
+      "webstore_last_updated": null,
+      "id": "ea1dc565-8a53-4883-8d7b-ce4fb3a65d33",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "DOI Access for Volatile Data Streat",
+      "created": "2016-07-15T15:13:04.208723",
+      "url": "http://doi.org/10.18434/T4FK54",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 1,
+      "revision_id": "f0a3a92b-1112-4d0b-a411-33a1de6d42c4",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "mtconnect",
+      "id": "ac1292db-1d7b-4ab5-b543-e8c34d9dfb16",
+      "name": "mtconnect"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "test-bed",
+      "id": "490d3024-8e37-4e03-9840-1fb2af37b8c7",
+      "name": "test-bed"
+    }
+  ],
+  "tracking_summary": {
+    "total": 15,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:37:59.153068",
+    "title": "Department of Commerce",
+    "name": "doc-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.vos.noaa.gov/MWL/aug_10/Images/doc_logo_xparent.png",
+    "revision_id": "44c851b9-8872-497a-8a13-2f06740b7ffb",
+    "type": "organization",
+    "id": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+    "approval_status": "approved"
+  },
+  "name": "volatile-data-stream-vds-for-the-smart-manufacturing-systems-sms-test-bed-using-mtconnect",
+  "isopen": false,
+  "url": null,
+  "notes": "Data is collected from the Manufacturing Lab using the MTConnect standard. That data is aggregated and published internally and externally of NIST via web services. Three channels of data dissemination are available or becoming available from the SMS Test Bed: (1) a volatile data stream using an MTConnect agent, (2) a query-able data repository using the NIST Material Data Curation System (MDCS), and (3) pre-compiled data packages that include a collection of CAx Lab data and associated Manufacturing Lab data.",
+  "owner_org": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "National Institute of Standards and Technology"
+    },
+    {
+      "key": "landingPage",
+      "value": "http://smstestbed.nist.gov"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en"
+      ]
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "source_hash",
+      "value": "a88823093b8862bdc486112269d261029224afde"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2016-06-06"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Factory operations planning & control",
+        "Cyber-physical systems",
+        "Manufacturing systems design & analysis",
+        "Information retrieval",
+        "Machining"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "006:55"
+      ]
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/PT1S"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "006:045"
+      ]
+    },
+    {
+      "key": "identifier",
+      "value": "349FC6C113FA5700E0531A5706810A431464"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "17fd9952-a6c4-44fe-b38e-031e9f755af4"
+    },
+    {
+      "key": "describedBy",
+      "value": "https://smstestbed.nist.gov/vds/probe"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "17fd9952-a6c4-44fe-b38e-031e9f755af4"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    }
+  ],
+  "title": "Volatile Data Stream (VDS) for the Smart Manufacturing Systems (SMS) Test Bed using MTConnect",
+  "revision_id": "f0a3a92b-1112-4d0b-a411-33a1de6d42c4"
+}

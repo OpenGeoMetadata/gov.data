@@ -1,0 +1,158 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "CFTC-1360",
+  "metadata_created": "2013-05-18T10:38:50.879585",
+  "metadata_modified": "2014-01-12T08:15:59.242286",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "CFTC-1360",
+      "webstore_last_updated": null,
+      "id": "ea3d045f-5d55-4c9c-b8bc-8744cd4c56f3",
+      "size": null,
+      "size_text": "0.171",
+      "state": "active",
+      "hash": "",
+      "description": "c_disagg.txt",
+      "format": "TXT",
+      "tracking_summary": {
+        "total": 96,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "revision_id": "5c4871e5-431d-4cf0-a88a-4d34b7105e96",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Text File",
+      "created": "2013-05-18T12:38:50.904459",
+      "url": "http://www.cftc.gov/dea/newcot/c_disagg.txt",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 567,
+    "recent": 5
+  },
+  "groups": [
+    {
+      "display_name": "Finance",
+      "description": "",
+      "image_display_url": "",
+      "title": "Finance",
+      "id": "405b5dfb-24f8-4b77-9999-745076d64cb2",
+      "name": "finance3432"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T12:12:07.878647",
+    "title": "Commodity Futures Trading Commission",
+    "name": "cftc-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.cftc.gov/ucm/fragments/web_header/img/cftc_seal.png",
+    "revision_id": "21317525-5c8c-4dbb-b5b1-baaa6b290cbb",
+    "type": "organization",
+    "id": "857f06e8-6a68-4845-af8c-8647904000e6",
+    "approval_status": "approved"
+  },
+  "name": "disaggregated-futures-and-options-commitments-of-traders",
+  "isopen": false,
+  "url": null,
+  "notes": "The Disaggregated Futures and Options Commitments of Traders dataset provides a breakdown of each week's open interest for agriculture, energy, metals, lumber, and emissions futures markets in which 20 or more traders hold positions equal to or above the reporting levels established by the CFTC.  Open interest is reported separately by reportable and non-reportable positions for Producer/Merchant/Processor/User, Swap Dealers, Managed Money. and Other Reportables holdings, including spreading, changes from the previous report, percents of open interest by category, and numbers of traders.  Agriculture futures market data is also grouped by crop year, where appropriate, and shows the concentration of positions held by the largest four and eight traders.",
+  "owner_org": "857f06e8-6a68-4845-af8c-8647904000e6",
+  "extras": [
+    {
+      "key": "data-quality",
+      "value": "TRUE"
+    },
+    {
+      "key": "contact-email",
+      "value": "informationquality@cftc.gov"
+    },
+    {
+      "key": "data-dictiionary",
+      "value": "http://www.cftc.gov/marketreports/commitmentsoftraders/deanexplanatory.html"
+    },
+    {
+      "key": "issued",
+      "value": "04-Sep-2009"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "Weekly"
+    },
+    {
+      "key": "spatial-text",
+      "value": "N/A"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Section 25. Banking, Finance, and Insurance"
+      ]
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://www.cftc.gov/marketreports/commitmentsoftraders/cot_about.html "
+      ]
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "Daily"
+    },
+    {
+      "key": "metadata-date",
+      "value": "13-Nov-2009"
+    },
+    {
+      "key": "access-level",
+      "value": "public"
+    },
+    {
+      "key": "granularity",
+      "value": "N/A"
+    },
+    {
+      "key": "metadata-source",
+      "value": "dms"
+    },
+    {
+      "key": "tags",
+      "value": "{Futures,Commodity,Commodities,\"Open Interest\",Producer,Merchant,Processor,User,\"Swap Dealers\",\"Managed Money\",Long,Short,Spreading,Wheat,Corn,Oats,Rice,Hogs,Cattle,Milk,Soybean,Cotton,\"Orange Juice\",Cocoa,Sugar,Coffee,Fuel,Sulfur,Swap,\"Fuel Oil\",\"Heating Oil\",Gasoil,Ethanol,Naptha,Crude,\"Light Sweet\",\"Crude Oil\",WTI,Brent,Dubai,Gasoline,Blendstock,RBOB,\"Jet Kero\",\"Jet,Sing\",\"Crack Swap\",\"Spread Swap\",\"Natural Gas\",Michcon,\"Basis Swap\",TCO,NGPL,TEXOK,Midcon,Waha,\"Henry Hub\",\"Houston Ship\",\"Pipe Rockies\",Panhandle,Propane,\"Mt Belvieu\",Butane,Electricity,PJM,NYISO,\"ISO New England\",Cinergy,LMP,Peak,\"Day Ahead\",PEPCO,PSEG,Palladium,Platinum,Silver,Gold,Copper,\"Random Length Lumber\",Carbon,\"Financial Instrument\",RGGI,\"CO2 Allowance\"}"
+    }
+  ],
+  "title": "Disaggregated Futures and Options Commitments of Traders",
+  "revision_id": "e2c52b1c-271f-484e-a0e1-0755dc57878b"
+}

@@ -1,0 +1,221 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "John Sullivan",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "jsullivan@anl.gov",
+  "num_tags": 4,
+  "id": "21ad66bf-3ed3-4aa2-876e-c083bf6d2f79",
+  "metadata_created": "2016-11-30T21:29:59.017919",
+  "metadata_modified": "2016-11-30T21:29:59.017919",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "21ad66bf-3ed3-4aa2-876e-c083bf6d2f79",
+      "webstore_last_updated": null,
+      "id": "7fab2f35-8948-4f19-a58c-f35c33853175",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Calculator for geothermal derived from previously submitted data",
+      "format": "XLSX",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "cache_url": null,
+      "name": "geothrm-lca-calculator.xlsx",
+      "created": "2016-11-30T16:29:59.247731",
+      "url": "http://gdr.openei.org/files/362/Geothrm_LCA_Calculator.xlsx",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "9df40003-2fc0-41f2-9164-c587bcf2ca1a",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "calculator",
+      "id": "e4e7cf42-a835-4ad3-a5a0-bf98c1cd7ac7",
+      "name": "calculator"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geothermal",
+      "id": "3f323051-fbd3-4715-bc13-e2fa5e65d369",
+      "name": "geothermal"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "greenhouse-emissions-rate",
+      "id": "02f7ccac-9942-415c-bffe-9baced24835b",
+      "name": "greenhouse-emissions-rate"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "life-cycle-metrics",
+      "id": "f72af9d6-c6d2-42de-af06-bd395b279a49",
+      "name": "life-cycle-metrics"
+    }
+  ],
+  "tracking_summary": {
+    "total": 1,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "geothermal-life-cycle-calculator-5fda7",
+  "isopen": true,
+  "url": null,
+  "notes": "This calculator is a handy tool for interested parties to estimate two key life cycle metrics, fossil energy consumption (Etot) and greenhouse gas emission (ghgtot) ratios, for geothermal electric power production. It is based solely on data developed by Argonne National Laboratory for DOE’s Geothermal Technologies office. The calculator permits the user to explore the impact of a range of key geothermal power production parameters, including plant capacity, lifetime, capacity factor, geothermal technology, well numbers and depths, field exploration, and others on the two metrics just mentioned. Estimates of variations in the results are also available to the user.",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "issued",
+      "value": "2014-03-11"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "3d4dd74e5bcfe0269ad7b668e1d675398935392d"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-123,38.6],[-122.6,38.6],[-122.6,39],[-123,39],[-123,38.6]]]}"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "format",
+      "value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:006"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://gdr.openei.org/submissions/362"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "64cbc74b-bc48-4548-bdf0-5479e3281095"
+    },
+    {
+      "key": "accessURL",
+      "value": "http://gdr.openei.org/files/362/Geothrm_LCA_Calculator.xlsx"
+    },
+    {
+      "key": "publisher",
+      "value": "Argonne National Laboratory"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "key": "modified",
+      "value": "2014-03-11"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/f0000000-e214-4c72-acd2-000000000362"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "64cbc74b-bc48-4548-bdf0-5479e3281095"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "Geothermal Life Cycle Calculator",
+  "revision_id": "9df40003-2fc0-41f2-9164-c587bcf2ca1a"
+}

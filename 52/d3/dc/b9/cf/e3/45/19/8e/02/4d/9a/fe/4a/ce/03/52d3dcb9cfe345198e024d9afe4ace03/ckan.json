@@ -1,0 +1,190 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Eli Thomas",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "Eli.Thomas@AlleghenyCounty.US",
+  "num_tags": 3,
+  "id": "52d3dcb9-cfe3-4519-8e02-4d9afe4ace03",
+  "metadata_created": "2016-06-21T03:44:32.858032",
+  "metadata_modified": "2016-06-28T02:29:34.062757",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "52d3dcb9-cfe3-4519-8e02-4d9afe4ace03",
+      "webstore_last_updated": null,
+      "id": "d544bd1f-77cf-4c78-9b04-ebc1dd9eae89",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/html",
+      "cache_url": null,
+      "name": "Allegheny County Property Viewer",
+      "created": "2016-06-20T23:44:33.156643",
+      "url": "http://alcogis.maps.arcgis.com/home/webmap/viewer.html?webmap=dc3deddccacf4196b425f10ba759d58b&extent=-80.4467,40.1547,-79.4326,40.6868",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "45f734d3-c3be-4efe-b55e-e37fed24c605",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "municipality",
+      "id": "0ad82ee7-d112-475a-b5dc-a709f94d4fd9",
+      "name": "municipality"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "property-value",
+      "id": "ee2cfa05-bdee-459e-96ca-7c12842f0834",
+      "name": "property-value"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "real-estate",
+      "id": "644c8b8c-1717-402d-978d-a20b24c89832",
+      "name": "real-estate"
+    }
+  ],
+  "tracking_summary": {
+    "total": 11,
+    "recent": 2
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "Allegheny County (Pennsylvania) and the City of Pittsburgh both publish their data through the Western Pennsylvania Regional Data Center. The Western Pennsylvania Regional Data Center supports key community initiatives by making public information easier to find and use. The Data Center maintains Allegheny County and the City of Pittsburgh’s open data portal, and provides a number of services to data publishers and users. The Data Center also hosts datasets from these and other public sector agencies, academic institutions, and non-profit organizations. The Data Center is managed by the University of Pittsburgh’s Center for Social and Urban Research, and is a partnership of the University, Allegheny County and the City of Pittsburgh.",
+    "created": "2016-06-20T14:59:06.173417",
+    "title": "Allegheny County / City of Pittsburgh / Western PA Regional Data Center",
+    "name": "allegheny-county-city-of-pittsburgh-western-pa-regional-data-center",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://www.data.gov/app/uploads/2016/06/AlleghenyCoPittsburghLogoDataGov.jpg",
+    "revision_id": "a83f2971-674d-4cfe-a175-887f6e68f211",
+    "type": "organization",
+    "id": "a7d30359-b403-426c-bc33-a1cf87d8e548",
+    "approval_status": "approved"
+  },
+  "name": "allegheny-county-property-viewer",
+  "isopen": true,
+  "url": null,
+  "notes": "Webmap of Allegheny municipalities and parcel data. Zoom for a clickable parcel map with owner name, property photograph, and link to the County Real Estate website for property sales information.",
+  "owner_org": "a7d30359-b403-426c-bc33-a1cf87d8e548",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Allegheny County / City of Pittsburgh / Western PA Regional Data Center"
+    },
+    {
+      "key": "identifier",
+      "value": "a38c099f-d133-4e9f-9a06-6cd07a777936"
+    },
+    {
+      "key": "license",
+      "value": "http://www.opendefinition.org/licenses/cc-zero"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "041cd86b-18ea-412b-8d67-2ed1d6124bbf"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2015-10-21T17:10:55.926612"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "WPRDC data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Housing & Properties"
+      ]
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "cbda12e4-fde2-4ba2-a1da-c271d8db9d18"
+    },
+    {
+      "key": "source_hash",
+      "value": "6088105427c25c6c9f521eb6dd35916a5227af28"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "cbda12e4-fde2-4ba2-a1da-c271d8db9d18"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "041cd86b-18ea-412b-8d67-2ed1d6124bbf"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "WPRDC data.json"
+    }
+  ],
+  "title": "Allegheny County Property Viewer",
+  "revision_id": "45f734d3-c3be-4efe-b55e-e37fed24c605"
+}

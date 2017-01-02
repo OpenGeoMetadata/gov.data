@@ -1,0 +1,252 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "ea317f32-05e2-43c7-94c2-f41021291423",
+  "metadata_created": "2015-09-26T21:17:47.144929",
+  "metadata_modified": "2015-09-26T21:17:47.144929",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "ea317f32-05e2-43c7-94c2-f41021291423",
+      "webstore_last_updated": null,
+      "id": "e124917a-ab81-401b-93f2-10d77d662a48",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 11,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "29382d51-fa8e-4d7d-bb92-e00d9b6420d3",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Esri Rest API Endpoint",
+      "created": "2015-09-26T17:17:47.189515",
+      "url": "http://www.ncddc.noaa.gov/arcgis/rest/services/OceanExploration/OECruiseData/MapServer",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "ea317f32-05e2-43c7-94c2-f41021291423",
+      "webstore_last_updated": null,
+      "id": "3eb070d1-ac5c-417f-9fc1-577b0bdccc7a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "WMS",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "29382d51-fa8e-4d7d-bb92-e00d9b6420d3",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Mapping Service",
+      "created": "2015-09-26T17:17:47.189538",
+      "url": "http://www.ncddc.noaa.gov/arcgis/services/OceanExploration/OECruiseData/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "ea317f32-05e2-43c7-94c2-f41021291423",
+      "webstore_last_updated": null,
+      "id": "88b090c1-5655-4bfd-bdbf-b69ceaccf495",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "29382d51-fa8e-4d7d-bb92-e00d9b6420d3",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Esri Rest API Endpoint",
+      "created": "2015-09-26T17:17:47.189548",
+      "url": "http://www.ncddc.noaa.gov/arcgis/rest/services/OceanExploration/OE_OkeanosCruises/MapServer",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 3,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "cruise-area-boundaries-of-missions-of-the-noaa-ship-okeanos-explorer",
+  "isopen": false,
+  "url": null,
+  "notes": "Dataset shows cruise area bounding boxes of missions of the NOAA ship Okeanos Explorer from 2008 to the present time. These expeditions were sponsored by the National Oceanic and Atmospheric Administration (NOAA) Office of Ocean Exploration and Research.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "180.0"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "49.0"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": ".05"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-180.0, 0.05], [180.0, 0.05], [180.0, 49.0], [-180.0, 49.0], [-180.0, 0.05]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2008-01-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "ncddcmetadata@noaa.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-180.0"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2015-01-12"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"NOAA makes no warranty regarding these data, expressed or implied, nor does the fact of distribution constitute such a warranty. NOAA, NESDIS, NODC and NCDDC cannot assume liability for any damages caused by any errors or omissions in these data, nor as a result of the failure of these data to function on a particular system.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"NOAA/NESDIS/NODC/NCDDC-National Coastal Data Development Center\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "ocean exploration"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "04509f63-1831-4e38-ae1d-609b747f00b8"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Cruise area boundaries of missions of the NOAA ship Okeanos Explorer.",
+  "revision_id": "29382d51-fa8e-4d7d-bb92-e00d9b6420d3"
+}

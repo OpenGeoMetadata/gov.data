@@ -1,0 +1,218 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "f9e3998f-60ad-4192-b015-e2f1217c4047",
+  "metadata_created": "2015-06-19T15:48:48.478902",
+  "metadata_modified": "2015-06-19T15:48:48.478902",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "f9e3998f-60ad-4192-b015-e2f1217c4047",
+      "webstore_last_updated": null,
+      "id": "15328a74-988c-40c6-b6ab-c928a4dd1919",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "FEMA-DCS-Terrain",
+      "tracking_summary": {
+        "total": 9191,
+        "recent": 278
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "eff23872-658a-4520-94f5-a10c8d1292b6",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-06-19T11:48:48.538726",
+      "url": "http://hazards.fema.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f9e3998f-60ad-4192-b015-e2f1217c4047",
+      "webstore_last_updated": null,
+      "id": "2702a573-7781-4c84-9cc2-b02d66f8eccc",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 54,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "eff23872-658a-4520-94f5-a10c8d1292b6",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-06-19T11:48:48.538748",
+      "url": "http://ogrip.oit.ohio.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 4,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:42.822878",
+    "title": "Federal Emergency Management Agency, Department of Homeland Security",
+    "name": "fema-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://ep4u.sm4.biz/communities/7/004/008/908/237/images/4543640096_pre.jpg",
+    "revision_id": "42c731d4-22ea-4393-b3b6-100cc50fc0bd",
+    "type": "organization",
+    "id": "ae816746-a815-4a3f-805d-2b51b561c626",
+    "approval_status": "approved"
+  },
+  "name": "terrain-erie-county-ohio-usa2cd1c",
+  "isopen": false,
+  "url": null,
+  "notes": "The 2006 OSIP bare-earth Digital Elevation Model (DEM) was derived from digital LiDAR data was collected during the months of March and May (leaf-off conditions). The DEM data covers the entire land area of the northern tier of Ohio (approximately 23,442 square miles. The DEM is delivered in county sets, consisting of 5,000' x 5,000' size tiles that correspond to the tile sizes for the OSIP 1FT imagery products. Where the State borders other states (land only), the entire border of the State is buffered by at least 1,000-feet. Along the Lake Erie Shoreline ortho coverage is buffered beyond the shoreline a minimum distance of 2,500-feet. The file naming convention is as follows: Nxxxxyyy = 5,000' x 5,000' Tiles located in the Ohio State Plane Coordinate System (North Zone). Sxxxxyyy = 5,000' x 5,000' Tiles located in the Ohio State Plane Coordinate System (South Zone). Please note that xxxx and yyy represent the easting and northing coordinates (respectively) in state plane feet, The naming convention for each tile is based upon (the bottom most-left pixel). The full county mosaic is an aggregation of the tiles by county. The mosaic is devloped in the Ohio State Plane Coordinate System (North Zone).. The DEM tiles were provided in ESRI ArcINFO GRID raster and ASCII grid formats, with only the LiDAR in LAS Format containing the above ground and bare-earth LiDAR features. Ownership of the data products resides with the State of Ohio. Orthophotography and ancillary data products produced through this contract are public domain data. The LiDAR used to generate the DEM was acquired Statewide to provide a solid and very accurate base to use during the image rectification process. This same LiDAR can be supplemented with 3D breaklines to generate 2-foot and/or 4/5-foot contours. The average post spacing between LiDAR points is 7-feet. The flying altitude was 7,300-feet AMT, with the targeted flying speed at 170 knots.",
+  "owner_org": "ae816746-a815-4a3f-805d-2b51b561c626",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"State of Ohio, through the Office of Information Technology, Investment and Governance Division, for the Office of Information Technology, Services Delivery Division and the Ohio Geographically Referenced Information Program (OGRIP)\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "gis.support@oit.ohio.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-83.058359"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2007-10-01"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2007-01-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-82.171111"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "41.699861"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "41.189245"
+    },
+    {
+      "key": "licence",
+      "value": "[\"No warranty expressed or implied is made by FEMA regarding the utility of the data on any other system nor shall the act of distribution constitute any such warranty.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-83.058359, 41.189245], [-82.171111, 41.189245], [-82.171111, 41.699861], [-83.058359, 41.699861], [-83.058359, 41.189245]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: OGRIP should be credited in derived products.This data set was acquired for the State of Ohio by Woolpert Inc. Subcontractors for LiDAR data acquisition included Horizons, Inc.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "unknown"
+    },
+    {
+      "key": "tags",
+      "value": "slope, state oh, topography, breaklines, digital terrain model, county erie, dem, flow vectors, elevation data, lidar, region 5, land surface, community and incorporated areas, relief, county-fips 0439, fema-cid 39043c, contours"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "7182b962-bfe4-4643-871c-07c60e32a3e4"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "01813adc-8dac-4d9b-b464-688b8c843583"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "FEMA-R05"
+    }
+  ],
+  "title": "TERRAIN, ERIE COUNTY, OHIO, USA",
+  "revision_id": "eff23872-658a-4520-94f5-a10c8d1292b6"
+}

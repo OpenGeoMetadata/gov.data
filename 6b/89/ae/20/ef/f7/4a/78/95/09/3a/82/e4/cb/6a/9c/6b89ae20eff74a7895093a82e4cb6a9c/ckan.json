@@ -1,0 +1,200 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "Open Data (MGMT)",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "edmo@hq.dhs.gov",
+  "num_tags": 5,
+  "id": "6b89ae20-eff7-4a78-9509-3a82e4cb6a9c",
+  "metadata_created": "2016-05-27T02:32:47.570748",
+  "metadata_modified": "2016-05-27T02:32:47.570748",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "6b89ae20-eff7-4a78-9509-3a82e4cb6a9c",
+      "webstore_last_updated": null,
+      "id": "7053e9a2-2eab-4f8d-bdc4-d360739f1210",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 574,
+        "recent": 47
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-05-26T22:32:47.859996",
+      "url": "https://hifld-dhs-gii.opendata.arcgis.com/",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "80e060e2-d601-4419-bce0-8a530098c9f6",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geospatial",
+      "id": "a4243fe5-7437-4077-a369-d17bb543e6f2",
+      "name": "geospatial"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "imagery",
+      "id": "97aa96c3-cc35-4805-919d-d8954bd222d6",
+      "name": "imagery"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "infrastructure",
+      "id": "23924944-4d8d-40de-ad57-58e2cceb86cc",
+      "name": "infrastructure"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "location",
+      "id": "cb9360ae-de97-4ea4-8906-3951aa79fe4b",
+      "name": "location"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "map",
+      "id": "4b25baf2-c254-4949-8996-e9c3895fa2b6",
+      "name": "map"
+    }
+  ],
+  "tracking_summary": {
+    "total": 7,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:49:45.283358",
+    "title": "Department of Homeland Security",
+    "name": "dhs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/dhs.png",
+    "revision_id": "fb44c14e-9b55-46b9-b355-d465242171bb",
+    "type": "organization",
+    "id": "05d603ec-9121-4f71-b09e-5d5b5a7efc64",
+    "approval_status": "approved"
+  },
+  "name": "hazardous-materials-routes",
+  "isopen": false,
+  "url": null,
+  "notes": "The Federal Motor Carrier Safety Administration (FMCSA) Hazardous Material Routes were developed using the 2004 First Edition TIGER/Line files. The routes are described in the National Hazardous Material Route Registry (NMHRR). The on-line NMHRR linkage is http://hazmat.fmcsa.dot.gov/nhmrr/index.asp With the exception of 13 features that were not identified with the Tiger/Lines, Hazmat routes were created by extracting the TIGER/Line segments that corresponded to each individual route. Hazmat routes in the NTAD, are organized into 3 database files, hazmat.shp, hmroutes.dbf, and hmstcnty.dbf. Each record in each database represents a unique Tiger/Line segment. These Tiger/Line segments are grouped into routes identified as character strings in the ROUTE_ID field in the hmroutes.dbf table. The route name appearing in the ROUTE_ID is assigned by FMCSA and is unique for each State [this sentence could be deleted - it doesn't add a lot to it]. The hmstcnty.dbf table allows the user to select routes by State and County. A single shapefile, called hazmat.shp, represents geometry for all routes in the United States.",
+  "owner_org": "05d603ec-9121-4f71-b09e-5d5b5a7efc64",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Under Secretary / Management"
+    },
+    {
+      "key": "identifier",
+      "value": "2602"
+    },
+    {
+      "key": "accessLevelComment",
+      "value": "United States"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "bd9faa28-bbb6-45f3-a4f0-d302a4a61802"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2016-05-19"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "DHS datajson source"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "024:003"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "024:10"
+      ]
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d2c265c3-30d9-4d1c-abd9-a1b5cf9a7a5c"
+    },
+    {
+      "key": "source_hash",
+      "value": "7801c6d337e82b641f201cb87058dce972f7d34f"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d2c265c3-30d9-4d1c-abd9-a1b5cf9a7a5c"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "bd9faa28-bbb6-45f3-a4f0-d302a4a61802"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "DHS datajson source"
+    }
+  ],
+  "title": "Hazardous Materials Routes",
+  "revision_id": "80e060e2-d601-4419-bce0-8a530098c9f6"
+}

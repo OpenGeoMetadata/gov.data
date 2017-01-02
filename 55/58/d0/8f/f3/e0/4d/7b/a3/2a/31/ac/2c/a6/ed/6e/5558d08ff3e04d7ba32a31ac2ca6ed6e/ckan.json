@@ -1,0 +1,642 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "5558d08f-f3e0-4d7b-a32a-31ac2ca6ed6e",
+  "metadata_created": "2015-12-20T19:05:13.941231",
+  "metadata_modified": "2016-10-03T22:15:36.157078",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "5558d08f-f3e0-4d7b-a32a-31ac2ca6ed6e",
+      "webstore_last_updated": null,
+      "id": "48a6b2dd-e8de-43ea-a625-631c870f8e35",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Navigate directly to the URL for data access and direct download.",
+      "format": "Originator data format",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "HTTP",
+      "created": "2016-10-03T18:15:36.468940",
+      "url": "https://data.nodc.noaa.gov/ioos/glos/45022/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "521f0ba3-7c76-4aae-9dd3-18af081432ff",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "5558d08f-f3e0-4d7b-a32a-31ac2ca6ed6e",
+      "webstore_last_updated": null,
+      "id": "7752cf3e-0b5e-4c69-bb3d-3b27d4a82f17",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Navigate directly to the URL for a descriptive web page with download links.",
+      "format": "Originator data format",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Descriptive Information",
+      "created": "2016-10-03T18:15:36.468962",
+      "url": "https://accession.nodc.noaa.gov/0123643",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "521f0ba3-7c76-4aae-9dd3-18af081432ff",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "5558d08f-f3e0-4d7b-a32a-31ac2ca6ed6e",
+      "webstore_last_updated": null,
+      "id": "d2a51378-e13d-426f-9def-18e277d524fb",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "These data are available through a variety of services via a THREDDS (Thematic Real-time Environmental Distributed Data Services) Data Server (TDS). Depending on the dataset, the TDS can provide WMS, WCS, DAP, HTTP, and other data access and metadata services as well. For more information on the TDS, see http://www.unidata.ucar.edu/software/thredds/current/tds/.",
+      "format": "Originator data format",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "THREDDS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "THREDDS",
+      "created": "2016-10-03T18:15:36.468971",
+      "url": "https://data.nodc.noaa.gov/thredds/catalog/ioos/glos/45022/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "521f0ba3-7c76-4aae-9dd3-18af081432ff",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "5558d08f-f3e0-4d7b-a32a-31ac2ca6ed6e",
+      "webstore_last_updated": null,
+      "id": "7292c8a6-b5b2-4702-8847-592eb718a2a0",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "These data are available through the Data Access Protocol (DAP) via an OPeNDAP Hyrax server. For a listing of OPeNDAP clients which may be used to access OPeNDAP-enabled data sets, please see the OPeNDAP website at http://opendap.org/.",
+      "format": "Originator data format",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "DAP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OPeNDAP",
+      "created": "2016-10-03T18:15:36.468979",
+      "url": "https://data.nodc.noaa.gov/opendap/ioos/glos/45022/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 3,
+      "revision_id": "521f0ba3-7c76-4aae-9dd3-18af081432ff",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "5558d08f-f3e0-4d7b-a32a-31ac2ca6ed6e",
+      "webstore_last_updated": null,
+      "id": "33e180f7-8ad6-4101-851f-60d0c038ecba",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Navigate directly to the URL for a descriptive web page with download links.",
+      "format": "Originator data format",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Descriptive Information",
+      "created": "2016-10-03T18:15:36.468986",
+      "url": "https://accession.nodc.noaa.gov/oas/123643",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 4,
+      "revision_id": "521f0ba3-7c76-4aae-9dd3-18af081432ff",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "5558d08f-f3e0-4d7b-a32a-31ac2ca6ed6e",
+      "webstore_last_updated": null,
+      "id": "e0404fb4-6b24-4fd4-bc52-920730131f8a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Navigate directly to the URL for data access and direct download.",
+      "format": "Originator data format",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "HTTP",
+      "created": "2016-10-03T18:15:36.468993",
+      "url": "https://accession.nodc.noaa.gov/download/123643",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 5,
+      "revision_id": "521f0ba3-7c76-4aae-9dd3-18af081432ff",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "5558d08f-f3e0-4d7b-a32a-31ac2ca6ed6e",
+      "webstore_last_updated": null,
+      "id": "848e6cf4-6253-4e3c-9756-4c6f1125da84",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "These data are available through the File Transfer Protocol (FTP). You may use any FTP client to download these data.",
+      "format": "Originator data format",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "FTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FTP",
+      "created": "2016-10-03T18:15:36.469000",
+      "url": "ftp://ftp.nodc.noaa.gov/nodc/archive/arc0071/0123643/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 6,
+      "revision_id": "521f0ba3-7c76-4aae-9dd3-18af081432ff",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "5558d08f-f3e0-4d7b-a32a-31ac2ca6ed6e",
+      "webstore_last_updated": null,
+      "id": "3e4290ed-9e51-43d8-b56a-df3de5ff5200",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Main NCEI website providing links to access data and data services.",
+      "format": "",
+      "tracking_summary": {
+        "total": 51,
+        "recent": 8
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA National Centers for Environmental Information website",
+      "created": "2016-10-03T18:15:36.469007",
+      "url": "https://www.ncei.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 7,
+      "revision_id": "521f0ba3-7c76-4aae-9dd3-18af081432ff",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "5558d08f-f3e0-4d7b-a32a-31ac2ca6ed6e",
+      "webstore_last_updated": null,
+      "id": "234081c6-9330-445d-afb3-79f05195e5d5",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Main NODC website providing links to access data and data services.",
+      "format": "",
+      "tracking_summary": {
+        "total": 7,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA National Oceanographic Data Center website",
+      "created": "2016-10-03T18:15:36.469014",
+      "url": "https://www.nodc.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 8,
+      "revision_id": "521f0ba3-7c76-4aae-9dd3-18af081432ff",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "5558d08f-f3e0-4d7b-a32a-31ac2ca6ed6e",
+      "webstore_last_updated": null,
+      "id": "634d99eb-297d-4709-8210-a6fa3b4d77ba",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Institution web page",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Great Lakes Observing System (GLOS) website",
+      "created": "2016-10-03T18:15:36.469021",
+      "url": "http://glos.us",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 9,
+      "revision_id": "521f0ba3-7c76-4aae-9dd3-18af081432ff",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "5558d08f-f3e0-4d7b-a32a-31ac2ca6ed6e",
+      "webstore_last_updated": null,
+      "id": "00df44a4-1e8e-4bad-baf5-08c96d8e8794",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Institution web page",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Great Lakes Observing System (GLOS) website",
+      "created": "2016-10-03T18:15:36.469028",
+      "url": "http://glos.us",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 10,
+      "revision_id": "521f0ba3-7c76-4aae-9dd3-18af081432ff",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "5558d08f-f3e0-4d7b-a32a-31ac2ca6ed6e",
+      "webstore_last_updated": null,
+      "id": "a1520518-a085-4da9-9687-7bdcbad49183",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Main NCEI website providing links to access data and data services.",
+      "format": "",
+      "tracking_summary": {
+        "total": 51,
+        "recent": 8
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA National Centers for Environmental Information website",
+      "created": "2016-10-03T18:15:36.469035",
+      "url": "https://www.ncei.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 11,
+      "revision_id": "521f0ba3-7c76-4aae-9dd3-18af081432ff",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "5558d08f-f3e0-4d7b-a32a-31ac2ca6ed6e",
+      "webstore_last_updated": null,
+      "id": "9af61ab0-314d-405b-9358-203e9665ff21",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-10-03T18:15:36.469042",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 12,
+      "revision_id": "521f0ba3-7c76-4aae-9dd3-18af081432ff",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "5558d08f-f3e0-4d7b-a32a-31ac2ca6ed6e",
+      "webstore_last_updated": null,
+      "id": "b7bb234a-848a-454f-8098-1504fa39c614",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-10-03T18:15:36.469049",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 13,
+      "revision_id": "521f0ba3-7c76-4aae-9dd3-18af081432ff",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "5558d08f-f3e0-4d7b-a32a-31ac2ca6ed6e",
+      "webstore_last_updated": null,
+      "id": "9202d582-31ad-45d5-a461-5abf4e1aeb00",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-10-03T18:15:36.469055",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 14,
+      "revision_id": "521f0ba3-7c76-4aae-9dd3-18af081432ff",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "5558d08f-f3e0-4d7b-a32a-31ac2ca6ed6e",
+      "webstore_last_updated": null,
+      "id": "1c354a95-5180-4e4a-b118-e8783c7d3c80",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-10-03T18:15:36.469063",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 15,
+      "revision_id": "521f0ba3-7c76-4aae-9dd3-18af081432ff",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 16,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 2,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "oceanographic-and-surface-meteorological-data-collected-from-station-u-glos-station-004-little-",
+  "isopen": false,
+  "url": null,
+  "notes": "NCEI Accession 0123643 contains oceanographic and surface meteorological data in netCDF formatted files, which follow the Climate and Forecast metadata convention (CF) and the Attribute Convention for Data Discovery (ACDD). University of Michigan collected the data from U-GLOS Station 004, Little Traverse Bay, an in-situ moored station, in the Great Lakes. GLOS, which assembles data from University of Michigan and other sub-regional coastal and ocean observing systems of the Great Lakes region of the United States, submitted the data to NCEI as part of the Integrated Ocean Observing System Data Assembly Centers (IOOS DACs) Data Stewardship Program. Each month, NCEI adds to the Accession the data collected during the previous month.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-85.09"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "45.4"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "PNG"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.nodc:0123643"
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "https://data.nodc.noaa.gov/cgi-bin/gfx?id=gov.noaa.nodc:0123643"
+    },
+    {
+      "key": "metadata-language",
+      "value": "eng"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Point\", \"coordinates\": [-85.09, 45.4]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Cite as: Wang, G. and Great Lakes Observing System (2016). Oceanographic and surface meteorological data collected from U-GLOS Station 004, Little Traverse Bay, by University of Michigan and assembled by Great Lakes Observing System (GLOS) in the Great Lakes region from 2014-07-01 to 2016-06-30 (NODC Accession 0123643). Version 14.14. National Oceanographic Data Center, NOAA. Dataset. [access date]\", \"NOAA and NCEI cannot provide any warranty as to the accuracy, reliability, or completeness of furnished data. Users assume responsibility to determine the usability of these data. The user is responsible for the results of any application of this data for other than its intended purpose.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2014-07-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "NCEI.Info@noaa.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-85.09"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-08-24T04:22:57"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2014-12-12\"}, {\"type\": \"revision\", \"value\": \"2016-07-13\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "Preview graphic"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"accessLevel: Public\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2016-06-30"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "45.4"
+    },
+    {
+      "key": "tags",
+      "value": "ocean temperature, atmosphere, ocean waves, wind_speed_of_gust, conductivity, temperature, depth, united states of america, integrated ocean observing system, height, sea_surface_wave_significant_height, sea_surface_wind_wave_period, air_temperature, doc/noaa/nesdis/ncei, sea level pressure, wave frequency, north america, canada, national oceanographic data center, nesdis, noaa, u.s. department of commerce, continent, great lakes, canada, earth science, ocean winds, significant wave height, temperature sensors, oceanography, current/wind meters, atmospheric pressure, in situ/laboratory instruments, g - i, pressure/height meters, barometers, atmospheric temperature, latitude, pressure sensors, dew_point_temperature, national centers for environmental information, nesdis, noaa, u.s. department of commerce, temperature/humidity sensors, oceans, ioos, sea surface temperature, great lakes, water temperature, doc/noaa/nesdis/nodc, dew point temperature, aerovanes, air temperature, longitude, ctd, profilers/sounders, time, wind_from_direction, wind_speed, air_pressure, sea_water_temperature, surface winds"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "b67e456f-4e42-418e-9b9c-666cd7b720bb"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Oceanographic and surface meteorological data collected from U-GLOS Station 004, Little Traverse Bay, by University of Michigan and assembled by Great Lakes Observing System (GLOS) in the Great Lakes region from 2014-07-01 to 2016-06-30 (NODC Accession 0123643)",
+  "revision_id": "6a43d601-0589-41eb-ad16-a0f19d1ec6a0"
+}

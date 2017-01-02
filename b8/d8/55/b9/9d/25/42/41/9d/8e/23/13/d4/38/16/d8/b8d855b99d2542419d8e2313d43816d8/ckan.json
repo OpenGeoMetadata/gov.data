@@ -1,0 +1,237 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "b8d855b9-9d25-4241-9d8e-2313d43816d8",
+  "metadata_created": "2016-07-04T21:18:02.724458",
+  "metadata_modified": "2016-07-04T21:18:02.724458",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "b8d855b9-9d25-4241-9d8e-2313d43816d8",
+      "webstore_last_updated": null,
+      "id": "177d5609-3b75-4b03-a1c2-5d8da5d77983",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Information about the dataset",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Cite URL",
+      "created": "2016-07-04T17:18:02.875177",
+      "url": "http://www.esrl.noaa.gov/psd/data/gridded/data.uninterp_OLR.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "be885f6d-e388-4aea-823b-7ac0940b2cb9",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b8d855b9-9d25-4241-9d8e-2313d43816d8",
+      "webstore_last_updated": null,
+      "id": "46ba581f-84f4-471a-a305-c18b4a12b1ca",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Thredds Data server.  Allows http, opendap, and possibly WCS and WMS downaloads.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Thredds Server",
+      "created": "2016-07-04T17:18:02.875215",
+      "url": "http://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/uninterp_OLR//catalog.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "be885f6d-e388-4aea-823b-7ac0940b2cb9",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b8d855b9-9d25-4241-9d8e-2313d43816d8",
+      "webstore_last_updated": null,
+      "id": "1fc885a3-0667-46a1-880a-2c61914cd6bc",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "FTP server.",
+      "format": "NETCDF3_CLASSIC",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FTP server",
+      "created": "2016-07-04T17:18:02.875224",
+      "url": "ftp://ftp.cdc.noaa.gov/Datasets/uninterp_OLR/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "be885f6d-e388-4aea-823b-7ac0940b2cb9",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 6,
+    "recent": 3
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "noaa-daily-outgoing-longwave-radiation-olr",
+  "isopen": false,
+  "url": null,
+  "notes": "Data is from NCEP\r\n It consists of OLR uninterpolated from 2x/day",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "temporal-extent-begin",
+      "value": "2002-01-01"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2016-06-21"
+    },
+    {
+      "key": "contact-email",
+      "value": "webmaster.psd@noaa.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-06-21"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"lastUpdate\", \"value\": \"2016-06-21\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"\", \"roles\": [\"custodian\"]}]"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://www.esrl.noaa.gov/psd/mddb2/browseGraphics/NOAA_Daily_Outgoing_Longwave_Radiation_(OLR).png"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "ongoing"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.esrl.psd.dataset.NOAA_Daily_Outgoing_Longwave_Radiation_OLR"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "tags",
+      "value": "daily olr"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "5d51c25b-fe93-4b0e-b168-e29edd668a67"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "NOAA Daily Outgoing Longwave Radiation (OLR)",
+  "revision_id": "be885f6d-e388-4aea-823b-7ac0940b2cb9"
+}

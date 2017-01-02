@@ -1,0 +1,346 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Cecelia Robinson",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "Cecelia.robinson@dot.gov",
+  "num_tags": 9,
+  "id": "de878d97-7ce5-4aec-b7b7-4bfd757e9315",
+  "metadata_created": "2016-03-01T16:14:35.109703",
+  "metadata_modified": "2016-05-25T00:19:55.670663",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "de878d97-7ce5-4aec-b7b7-4bfd757e9315",
+      "webstore_last_updated": null,
+      "id": "401bf111-b9bf-4d0d-ab41-ced2a89023ea",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "Atom Feed",
+      "tracking_summary": {
+        "total": 5494,
+        "recent": 27
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/atom+xml",
+      "cache_url": null,
+      "name": "On_Time Data",
+      "created": "2016-03-01T11:14:35.670106",
+      "url": "http://transtats.bts.gov/Tables.asp?DB_ID=120&DB_Name=Airline%20On-Time%20Performance%20Data&DB_Short_Name=On-Time",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "2c91d6de-fe86-489e-af85-d10b2c47d0dc",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "actual-arrival-time",
+      "id": "ad618492-3a42-44e1-abcf-f7296cd68008",
+      "name": "actual-arrival-time"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "actual-departure-time",
+      "id": "3124cb00-adea-465d-8bda-c63976f2aa00",
+      "name": "actual-departure-time"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "air-carrier",
+      "id": "1be16150-6304-4e84-8bc9-35471aa62647",
+      "name": "air-carrier"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "airport-code",
+      "id": "b7bc44f6-dcbc-4046-93d8-d936f4fe7c37",
+      "name": "airport-code"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "arrival-delay",
+      "id": "7ca0bc53-1833-4c99-91c8-6ee57c5210f8",
+      "name": "arrival-delay"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "cancelled-flight",
+      "id": "56745853-42af-4465-9f36-7af72781a893",
+      "name": "cancelled-flight"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "enplaned-passengers",
+      "id": "b7e3e1a4-4e6a-4a9a-a4d2-9d5be64af53b",
+      "name": "enplaned-passengers"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "gate-departure-time",
+      "id": "6956b200-68fa-4235-ab63-44ff920e63d5",
+      "name": "gate-departure-time"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "wheels-off-time",
+      "id": "899fc69a-1390-4a67-a20b-ee1bc8944f17",
+      "name": "wheels-off-time"
+    }
+  ],
+  "tracking_summary": {
+    "total": 1127,
+    "recent": 55
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:46:56.521190",
+    "title": "Department of Transportation",
+    "name": "dot-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://upload.wikimedia.org/wikipedia/commons/8/81/US_DOT_Triskelion.png",
+    "revision_id": "684c8481-4ae2-46b0-a083-b392eea15130",
+    "type": "organization",
+    "id": "fc5cb2c1-d0b0-482a-8a52-7d42ea186ae1",
+    "approval_status": "approved"
+  },
+  "name": "airline-on-time-performance-and-causes-of-flight-delays-on-time-data",
+  "isopen": true,
+  "url": null,
+  "notes": "This database contains scheduled and actual departure and arrival times, reason of delay.  reported by certified U.S. air carriers that account for at least one percent of domestic scheduled passenger revenues. The data is collected by the Office of Airline Information, Bureau of Transportation Statistics (BTS).",
+  "owner_org": "fc5cb2c1-d0b0-482a-8a52-7d42ea186ae1",
+  "extras": [
+    {
+      "key": "confidentiality",
+      "value": false
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "a400d398-0d24-4940-b8b3-6573a1670b01"
+    },
+    {
+      "key": "collection_metadata",
+      "value": "true"
+    },
+    {
+      "key": "issued",
+      "value": "1987-10-01"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "analysisUnit",
+      "value": "# of  flights, #of minutes"
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://www.bts.gov/help/aviation/"
+      ]
+    },
+    {
+      "key": "source_hash",
+      "value": "0741f547547858a03c07213cad21e62d35ff9b7e"
+    },
+    {
+      "key": "agencyProgramURL",
+      "value": "http://www.transtats.bts.gov/Tables.asp?DB_ID=120&DB_Name=Airline%20On-Time%20Performance%20Data&DB_Short_Name=On-Time"
+    },
+    {
+      "key": "QualityResponsibleAgency",
+      "value": "Research and Innovative Technology Administration"
+    },
+    {
+      "key": "collectionInstrument",
+      "value": "http://www.bts.gov/programs/airline_information/accounting_and_reporting_directives/technical_directive_17.html"
+    },
+    {
+      "key": "bibliographicCitation",
+      "value": "Airline On-time Performance and Causes of Flight Delays - Download Monthly On-Time Data, Bureau of Transportation Statistics, Research and Innovative Technology Administration, United States Department of Transportation"
+    },
+    {
+      "key": "temporal",
+      "value": "R/1987-01-01/P1M"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Transportation"
+      ]
+    },
+    {
+      "key": "spatial",
+      "value": "Airport"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "describedBy",
+      "value": "http://www.transtats.bts.gov/TableInfo.asp?Table_ID=236&DB_Short_Name=On-Time&Info_Only=0"
+    },
+    {
+      "key": "category",
+      "value": "Tool"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "collectionMode",
+      "value": "Reporting Carriers are required under 14 CFR 234 to report on-time performance data directly to BTS. See Accounting and Reporting directive 17."
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "DOT JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "021:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "021:53"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "3e60db33-4973-44ba-8554-1f924edfa942"
+    },
+    {
+      "key": "additionalMetadata",
+      "value": "N/A"
+    },
+    {
+      "key": "publisher",
+      "value": "Research and Innovative Technology Administration"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "organizationName",
+      "value": "Department of Transportation / Research and Innovative Technology Administration"
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "phone",
+      "value": "202-366-4405"
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "U.S. Government > Department of Transportation > Research and Innovative Technology Administration"
+    },
+    {
+      "key": "guidelineCompliance",
+      "value": true
+    },
+    {
+      "key": "modified",
+      "value": "2015-08-10"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "catalog_@id",
+      "value": "https://www.dot.gov/data.json"
+    },
+    {
+      "key": "categoryDesignation",
+      "value": "Statistical"
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1M"
+    },
+    {
+      "key": "numberOfDatasets",
+      "value": 1
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "dictionaryList",
+      "value": "http://www.transtats.bts.gov/TableInfo.asp?Table_ID=236&DB_Short_Name=On-Time&Info_Only=0"
+    },
+    {
+      "key": "identifier",
+      "value": "DOT-89"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "3e60db33-4973-44ba-8554-1f924edfa942"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "a400d398-0d24-4940-b8b3-6573a1670b01"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "DOT JSON"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "Airline On-Time Performance and Causes of Flight Delays",
+  "revision_id": "2c91d6de-fe86-489e-af85-d10b2c47d0dc"
+}

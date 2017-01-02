@@ -1,0 +1,185 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Data Exchange Administrator",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "ORDP.Data.Exchange@ssa.gov",
+  "num_tags": 5,
+  "id": "532fc4be-b6fd-4f39-a0ad-897b129f9771",
+  "metadata_created": "2015-01-30T16:17:46.604469",
+  "metadata_modified": "2016-02-27T17:19:09.269657",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "eif",
+      "id": "7a1cbc94-123b-403e-bc80-94d8f83dcecf",
+      "name": "eif"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "employer-information-file",
+      "id": "40317661-d8ac-4909-a3ee-e82804ee99bd",
+      "name": "employer-information-file"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "gecalc",
+      "id": "8b8ee591-d8f8-4ad9-8098-2cd8879c40a9",
+      "name": "gecalc"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "mef",
+      "id": "295eed79-b8af-4863-b4c8-57a57f5b0159",
+      "name": "mef"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "rrb",
+      "id": "70ff6ac0-5001-42f3-8340-2ceeadae3eb5",
+      "name": "rrb"
+    }
+  ],
+  "tracking_summary": {
+    "total": 4,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:35:25.934290",
+    "title": "Social Security Administration",
+    "name": "ssa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/ssa.png",
+    "revision_id": "1be01963-921d-432f-b56d-37fa76dfb0a1",
+    "type": "organization",
+    "id": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+    "approval_status": "approved"
+  },
+  "name": "rrb-gross-earnings-calculation-gecalc",
+  "isopen": true,
+  "url": null,
+  "notes": "GECALC - The RRB sends an annual file to SSA requesting information on railroad workers with an SSN ending in a specific two-digit value for a designated year. SSA provides RRB with the requested Master Earnings File (MEF) and Employer Information File (EIF) information.",
+  "owner_org": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Social Security Administration"
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "license",
+      "value": "https://www.ssa.gov/open/data/Restricted-Public-Licensing-Information.html"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "rights",
+      "value": "The data contained in this data exchange is restricted due to sensitivity and/or privacy issues.  If you would like more information on a data exchange with SSA please visit the following web site https://www.ssa.gov/dataexchange/."
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "R/P1Y"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "016:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "016:00"
+      ]
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1Y"
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "US-GOV-SSA-644"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "405eae5a-6455-4b08-a489-ee51cf0744ce"
+    },
+    {
+      "key": "source_hash",
+      "value": "b497ec0730d661b2b4f568be049d9f03517f69f0"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "405eae5a-6455-4b08-a489-ee51cf0744ce"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    }
+  ],
+  "title": "RRB Gross Earnings Calculation (GECALC)",
+  "revision_id": "039c116a-c584-48ce-8ba4-1445bcabb6f9"
+}

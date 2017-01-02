@@ -1,0 +1,198 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Eli McCormick",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "mccormie@bloomingtontransit.com",
+  "num_tags": 5,
+  "id": "1c207e16-d31a-44da-b007-348946111326",
+  "metadata_created": "2016-10-31T17:03:48.207066",
+  "metadata_modified": "2016-10-31T17:03:48.207066",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "1c207e16-d31a-44da-b007-348946111326",
+      "webstore_last_updated": null,
+      "id": "fa2e75d3-61dc-4563-86e0-ac7980bab3ad",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Bloomington Transit GTFS Feed File is a zip file containing a series of comma delimited plain text files.  Data includes information on bus routes, bus stops, and trip times. This data is maintained by Bloomington Transit and exported to the City of Bloomington to maintain as their public feed host.",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "Bloomington Transit GTFS Feed File",
+      "created": "2016-10-31T13:03:48.680777",
+      "url": "http://bloomington.in.gov/transit/gtfeed/GoogleTransitFeed.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "4f327019-0c8d-4340-b071-975b81e93282",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "bus",
+      "id": "d7e6b84a-aaea-444c-99df-0eb0fd86927d",
+      "name": "bus"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "gtfs",
+      "id": "bf59325e-6186-4805-be11-21113ba81474",
+      "name": "gtfs"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "spatial-data",
+      "id": "49ef64d1-1bcc-4a49-a1d4-eb0d28f2acd9",
+      "name": "spatial-data"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "transit",
+      "id": "e57e7da0-b99c-4e16-8e53-0a071f9c7baf",
+      "name": "transit"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "transportation",
+      "id": "a4d87d39-b8f5-48cb-a969-911eca88657a",
+      "name": "transportation"
+    }
+  ],
+  "tracking_summary": {
+    "total": 1,
+    "recent": 1
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2016-10-31T12:58:42.610437",
+    "title": "City of Bloomington",
+    "name": "city-of-bloomington",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "",
+    "revision_id": "5e97d717-5479-4444-94ec-e9ae934b1a4c",
+    "type": "organization",
+    "id": "f3e0f1b3-2967-4913-8392-f679120f1d46",
+    "approval_status": "approved"
+  },
+  "name": "bloomington-transit-gtfs-data",
+  "isopen": true,
+  "url": null,
+  "notes": "General Transit Feed Specification (GTFS)  data containing Bloomington Transit route, trip and stop data. This data can be used for transit planning applications such as Google Transit. This data is maintained by Bloomington Transit within their bus tracking software and exported to the City of Bloomington to maintain as their public feed host.",
+  "owner_org": "f3e0f1b3-2967-4913-8392-f679120f1d46",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "City of Bloomington"
+    },
+    {
+      "key": "identifier",
+      "value": "https://data.bloomington.in.gov/dataset/5aca3228-b81b-4572-a45c-b05a30053949"
+    },
+    {
+      "key": "license",
+      "value": "http://www.opendefinition.org/licenses/cc-by"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "668e5806-0e14-4603-8eae-5d2af7fc5d07"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2016-10-21T14:42:24.342412"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Bloomington Indiana Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "3d48a0d1-f881-4ff0-9f3c-ce3565914d52"
+    },
+    {
+      "key": "source_hash",
+      "value": "c05f3c736830c4fc05a8eb412df0ea89dc5c3566"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "3d48a0d1-f881-4ff0-9f3c-ce3565914d52"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "668e5806-0e14-4603-8eae-5d2af7fc5d07"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Bloomington Indiana Data.json"
+    }
+  ],
+  "title": "Bloomington Transit GTFS Data",
+  "revision_id": "4f327019-0c8d-4340-b071-975b81e93282"
+}

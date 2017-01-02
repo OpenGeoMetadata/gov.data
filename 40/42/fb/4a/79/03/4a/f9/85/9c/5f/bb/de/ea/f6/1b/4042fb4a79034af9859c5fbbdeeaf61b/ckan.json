@@ -1,0 +1,248 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "NSIDC User Services",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "support@earthdata.nasa.gov",
+  "num_tags": 4,
+  "id": "4042fb4a-7903-4af9-859c-5fbbdeeaf61b",
+  "metadata_created": "2014-11-26T18:39:08.371111",
+  "metadata_modified": "2016-05-06T08:06:28.039700",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "4042fb4a-7903-4af9-859c-5fbbdeeaf61b",
+      "webstore_last_updated": null,
+      "id": "6195aace-4fed-4d00-93e2-8e071eefc2ac",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "g02135.html",
+      "format": "BIN",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 3
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/octet-stream",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-11-26T13:39:08.588521",
+      "url": "http://nsidc.org/data/g02135.html",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "2920184f-a6e8-466f-9d29-22a377939937",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "cryosphere",
+      "id": "11d9a6e0-f853-45e9-92a7-c3073389ee88",
+      "name": "cryosphere"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "earth-science",
+      "id": "f28006f8-df78-4700-b72f-f4a19628ba67",
+      "name": "earth-science"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "oceans",
+      "id": "8d023641-0bbb-4e3d-be89-d9c47eaabaa6",
+      "name": "oceans"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "sea-ice",
+      "id": "d82f4ecf-1157-4476-ab3a-1d7459bfd6d3",
+      "name": "sea-ice"
+    }
+  ],
+  "tracking_summary": {
+    "total": 11,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "near-real-time-dmsp-ssm-i-ssmis-daily-polar-gridded-sea-ice-concentrations",
+  "isopen": true,
+  "url": null,
+  "notes": "<!--#include virtual=\"/ssi/data_release_prob.ssi\" -->\nThis data set provides a near-real-time (NRT) map of sea ice concentrations for both the Northern and Southern Hemispheres. The near-real-time passive microwave brightness temperature data are acquired with the Special Sensor Microwave Imager/Sounder (SSMIS) on board the Defense Meteorological Satellite Program (DMSP) F17 satellite. The SSMIS instrument is the next generation Special Sensor Microwave/Imager (SSM/I) instrument. SSMIS data are received daily from the Comprehensive Large Array-data Stewardship System (CLASS) at the National Oceanic and Atmospheric Administration (NOAA) and are gridded onto a polar stereographic grid. Investigators generate sea ice concentrations from these data using the NASA Team algorithm.\n\nThese data are stored as one-byte flat scaled binary arrays with one byte per pixel, at a resolution of 25 km. For each data file, a corresponding PNG image file is provided. These data are available via FTP for the most recent three to six months and are retained on the FTP site until NSIDC's Sea Ice Concentrations from Nimbus-7 SMMR and DMSP SSM/I Passive Microwave Data (preliminary data) become available for the same time period.\n\nThese data are primarily meant to provide a best estimate of current ice and snow conditions based on information and algorithms available at the time the data are acquired. Near-real-time products are not intended for operational use in assessing sea ice conditions for navigation and should be used with caution in extending the sea ice time series in NSIDC's Sea Ice Concentrations from Nimbus-7 SMMR and DMSP SSM/I Passive Microwave Data.",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "collection_metadata",
+      "value": "true"
+    },
+    {
+      "key": "issued",
+      "value": "2014-08-28T12:00:00.000Z"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "c69f4ea07a1085b465c6fdc30fe72d23ab64e12f"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "temporal",
+      "value": "2013-10-01T01:00:00Z/2014-08-31T23:59:59Z"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "geospatial"
+      ]
+    },
+    {
+      "key": "spatial",
+      "value": "-180.0 30.98 180.0 90.0"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:001"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "landingPage",
+      "value": "http://reverb.echo.nasa.gov/reverb?selected=C1052-NSIDCV0"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "ddcda4a8-332f-4183-b90b-a731c5d45010"
+    },
+    {
+      "key": "publisher",
+      "value": "NSIDC"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "55942a7ec63a7fe59b4979b9"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "U.S. Government > National Aeronautics and Space Administration > NSIDC"
+    },
+    {
+      "key": "modified",
+      "value": "2014-08-28T12:00:00.000Z"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "irregular"
+    },
+    {
+      "key": "identifier",
+      "value": "C1052-NSIDCV0"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "ddcda4a8-332f-4183-b90b-a731c5d45010"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "Near-Real-Time DMSP SSM/I-SSMIS Daily Polar Gridded Sea Ice Concentrations",
+  "revision_id": "2920184f-a6e8-466f-9d29-22a377939937"
+}

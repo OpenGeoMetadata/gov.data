@@ -1,0 +1,234 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "<Nobody>",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 8,
+  "id": "811045d3-3827-4f58-93cc-ff0cd116f2e8",
+  "metadata_created": "2016-10-19T11:46:19.991069",
+  "metadata_modified": "2016-10-19T11:46:19.991069",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "811045d3-3827-4f58-93cc-ff0cd116f2e8",
+      "webstore_last_updated": null,
+      "id": "f9e3e37c-e436-411b-88dd-3f3179520184",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "text/html",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T07:46:21.176081",
+      "url": "http://iowadot.maps.arcgis.com/home/webmap/viewer.html?useExisting=1&layers=82adec429a804ac793c465159d6a1e71",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "610b54f7-54d9-4129-b51b-aa75385ea01d",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "511",
+      "id": "9e596b15-1c3d-42e5-8f25-214d2d6dc71c",
+      "name": "511"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "atms",
+      "id": "102c2825-07b8-4928-b2cd-50e8f0b6f0e0",
+      "name": "atms"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "freeway",
+      "id": "f3b67e4d-6189-4286-a434-9d96c6134bae",
+      "name": "freeway"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "its",
+      "id": "737a6a91-2209-4a3c-858a-0433f0769914",
+      "name": "its"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "minnesota-dot",
+      "id": "695275c8-74a9-4267-b2b6-4cc6590749f4",
+      "name": "minnesota-dot"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "operations",
+      "id": "3481b8fe-c16f-4d90-aff6-06fcbc293664",
+      "name": "operations"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "tms",
+      "id": "313778c9-f478-46d9-9067-9e8f141aba3b",
+      "name": "tms"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "traffic",
+      "id": "d330e2b6-717b-42cb-b283-70e5a0dad10e",
+      "name": "traffic"
+    }
+  ],
+  "tracking_summary": {
+    "total": 2,
+    "recent": 1
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "State of Iowa ",
+    "created": "2016-03-17T16:44:22.168475",
+    "title": "State of Iowa",
+    "name": "state-of-iowa",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "",
+    "revision_id": "3a846db5-1199-4ae3-be25-2462585ceb59",
+    "type": "organization",
+    "id": "eafd323d-d9e7-463a-bcc8-e16ce00967e3",
+    "approval_status": "approved"
+  },
+  "name": "511-minnesota-events-fc",
+  "isopen": false,
+  "url": null,
+  "notes": "Current 511 Events for Minnesota. This data is updated every 10 minutes. This layer is provided as a courtesy from Iowa DOT for use by Iowa DOT web mapping applications. Iowa DOT does not take responsibility for its accuracy or completeness. Please visit Minnesota 511 for up-to-date conditions: http://www.511mn.org/\r\n\r\nNote: This is an Esri Feature Collection which is different than an Esri Feature Service. Feature Collections allow for high-availability. There are unique characteristics that need to be considered when using this data type: \r\n\r\n- It is a file-based data type so there is no REST endpoint. However, there is JSON that can be parsed out. See link at the bottom of this page.\r\n\r\n- You cannot set a refresh interval in the map document, you must use the Info Summary Widget inside an application or hard-code the refresh in a custom application.\r\n\r\n- The rotation setting gets wiped out each time the dataset is updated. When you add a feature collection to a new map, you will have to set the rotation. If you have an existing saved map this doesn’t apply to you.",
+  "owner_org": "eafd323d-d9e7-463a-bcc8-e16ce00967e3",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "data.iowa.gov"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "c5d6f12f-95f4-413f-bbac-9bbffd2df1aa"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "issued",
+      "value": "2016-10-18"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2016-10-18"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "IOWA Json file"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Transportation & Utilities"
+      ]
+    },
+    {
+      "key": "catalog_@id",
+      "value": "https://data.iowa.gov/data.json"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "https://data.iowa.gov/api/views/7w6q-s5ut"
+    },
+    {
+      "key": "landingPage",
+      "value": "https://data.iowa.gov/d/7w6q-s5ut"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "3cbf5a7b-9e4c-4308-b2d9-3dfe8f5ee306"
+    },
+    {
+      "key": "source_hash",
+      "value": "216f8e2c7320614a8839b83da6f37ece1f138c8d"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "3cbf5a7b-9e4c-4308-b2d9-3dfe8f5ee306"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "c5d6f12f-95f4-413f-bbac-9bbffd2df1aa"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "IOWA Json file"
+    }
+  ],
+  "title": "511 Minnesota Events FC",
+  "revision_id": "610b54f7-54d9-4129-b51b-aa75385ea01d"
+}

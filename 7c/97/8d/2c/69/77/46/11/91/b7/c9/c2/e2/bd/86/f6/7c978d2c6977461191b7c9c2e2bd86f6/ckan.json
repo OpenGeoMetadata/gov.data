@@ -1,0 +1,191 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "Cliff Ingham",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "inghamn@bloomington.in.gov",
+  "num_tags": 4,
+  "id": "7c978d2c-6977-4611-91b7-c9c2e2bd86f6",
+  "metadata_created": "2016-10-31T17:03:44.160271",
+  "metadata_modified": "2016-12-08T20:02:17.512965",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "7c978d2c-6977-4611-91b7-c9c2e2bd86f6",
+      "webstore_last_updated": null,
+      "id": "96b77cf0-87a0-41fd-9dd1-93d304be725a",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "This resource is updated nightly via an automated export from our uReport system.",
+      "format": "CSV",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/csv",
+      "cache_url": null,
+      "name": "Sidewalk Snow Removal Requests",
+      "created": "2016-10-31T13:03:44.819678",
+      "url": "https://data.bloomington.in.gov/dataset/6b6461b3-c5c2-40d7-92a4-f3274c63b420/resource/35c4380a-5c63-4ffa-bb1f-f3cb4f9abd51/download/data.csv",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "a2a8d90e-6325-4f2c-a31b-1529f2b08662",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "open311",
+      "id": "65439664-94b3-4573-89a8-6716d812fc0c",
+      "name": "open311"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "sidewalks",
+      "id": "ff9f6618-a63f-4e66-accd-77a4daeab7bb",
+      "name": "sidewalks"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "snow",
+      "id": "4452d3c9-4db7-49f5-b4da-17b2df9195ac",
+      "name": "snow"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ureport",
+      "id": "29a97da3-4d28-4b93-943c-5c9dd377f6da",
+      "name": "ureport"
+    }
+  ],
+  "tracking_summary": {
+    "total": 2,
+    "recent": 1
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2016-10-31T12:58:42.610437",
+    "title": "City of Bloomington",
+    "name": "city-of-bloomington",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "",
+    "revision_id": "5e97d717-5479-4444-94ec-e9ae934b1a4c",
+    "type": "organization",
+    "id": "f3e0f1b3-2967-4913-8392-f679120f1d46",
+    "approval_status": "approved"
+  },
+  "name": "sidewalk-snow-removal-requests",
+  "isopen": false,
+  "url": null,
+  "notes": "Requests for snow removal that came in through uReport.\r\n\r\nThis is a subset of the Open311 data that is available here: https://data.bloomington.in.gov/dataset/open311",
+  "owner_org": "f3e0f1b3-2967-4913-8392-f679120f1d46",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "City of Bloomington"
+    },
+    {
+      "key": "identifier",
+      "value": "https://data.bloomington.in.gov/dataset/6b6461b3-c5c2-40d7-92a4-f3274c63b420"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "668e5806-0e14-4603-8eae-5d2af7fc5d07"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2016-12-08T06:59:04.484387"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Bloomington Indiana Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1D"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "82d066e9-e146-414a-ab0a-538da5de5a1f"
+    },
+    {
+      "key": "source_hash",
+      "value": "488b0460f65fc0a037959f8b84a617270f9a1801"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "82d066e9-e146-414a-ab0a-538da5de5a1f"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "668e5806-0e14-4603-8eae-5d2af7fc5d07"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Bloomington Indiana Data.json"
+    }
+  ],
+  "title": "Sidewalk Snow Removal Requests",
+  "revision_id": "a2a8d90e-6325-4f2c-a31b-1529f2b08662"
+}

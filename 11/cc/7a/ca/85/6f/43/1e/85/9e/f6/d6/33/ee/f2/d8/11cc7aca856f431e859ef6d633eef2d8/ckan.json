@@ -1,0 +1,241 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "<Nobody>",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 9,
+  "id": "11cc7aca-856f-431e-859e-f6d633eef2d8",
+  "metadata_created": "2016-01-28T07:22:19.140567",
+  "metadata_modified": "2016-09-15T07:56:52.995355",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "11cc7aca-856f-431e-859e-f6d633eef2d8",
+      "webstore_last_updated": null,
+      "id": "633a39d6-19a0-412e-9bf5-5e1d01834813",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 7,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2016-01-28T02:22:19.709595",
+      "url": "https://data.cityofnewyork.us/download/bc8t-ecyu/application/zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "b70f5af8-c56f-4282-b1cf-db0e17a1550e",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "block",
+      "id": "26197d84-b3ed-4937-a389-9f49d384246c",
+      "name": "block"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "building",
+      "id": "52098e57-782b-4f4c-a26c-56cbb5673b1c",
+      "name": "building"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "city-planning",
+      "id": "5a5de48d-068d-4781-8453-54d3ea4a67a2",
+      "name": "city-planning"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "dcp",
+      "id": "6465bf6d-625f-48c0-989c-c1254850ee36",
+      "name": "dcp"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "lot",
+      "id": "461f97c0-4285-4c9d-81c8-7d8e51990697",
+      "name": "lot"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "pad",
+      "id": "60152d81-1222-40f3-897a-5d445239c407",
+      "name": "pad"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "planning",
+      "id": "e2f63179-603f-4c7b-ac4b-ddb40b9f1eb7",
+      "name": "planning"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "property-address-directory",
+      "id": "7a87bbd9-f1f5-455a-8b84-cb00772a159e",
+      "name": "property-address-directory"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "tax-lot",
+      "id": "2700dd73-f450-4457-a83c-c85a331f3c4e",
+      "name": "tax-lot"
+    }
+  ],
+  "tracking_summary": {
+    "total": 49,
+    "recent": 4
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2014-04-16T13:28:34.570999",
+    "title": "City of New York",
+    "name": "city-of-new-york",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "",
+    "revision_id": "2d414259-f4eb-4403-8bec-7b6f2a01e455",
+    "type": "organization",
+    "id": "2cc8e4b4-0c38-4590-a002-bd0d74002dec",
+    "approval_status": "approved"
+  },
+  "name": "property-address-directory",
+  "isopen": false,
+  "url": null,
+  "notes": "The PAD (Property Address Directory) file contains additional geographic information at the tax lot level not found in the PLUTO files.  This data includes alias addresses and Building Identification Numbers (BINs).  It consists of two ASCII, comma delimited files: a tax lot file and an address file.\r\n\r\nNote To Users: A new field (ZIP Code) has been added to the bobaadrx (Address) file.  Please check your procedures to make sure this does not cause any problems.  For earlier versions, see PAD releases on the BYTES of the BIG APPLE archive page.",
+  "owner_org": "2cc8e4b4-0c38-4590-a002-bd0d74002dec",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "data.cityofnewyork.us"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "50104281-92a3-4534-9d38-141bc82276c5"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "issued",
+      "value": "2015-06-08"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2016-09-12"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NYC JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "theme",
+      "value": [
+        "City Government"
+      ]
+    },
+    {
+      "key": "catalog_@id",
+      "value": "https://data.cityofnewyork.us/data.json"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "https://data.cityofnewyork.us/api/views/bc8t-ecyu"
+    },
+    {
+      "key": "landingPage",
+      "value": "https://data.cityofnewyork.us/d/bc8t-ecyu"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "7955ba17-b745-4d72-b577-f2345cd01823"
+    },
+    {
+      "key": "source_hash",
+      "value": "8b47f61c505f22c10e86f0c3292df1cf3d2cf905"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "7955ba17-b745-4d72-b577-f2345cd01823"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "50104281-92a3-4534-9d38-141bc82276c5"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NYC JSON"
+    }
+  ],
+  "title": "Property Address Directory",
+  "revision_id": "32554c2a-0734-4d3b-b25c-4c8336798b34"
+}

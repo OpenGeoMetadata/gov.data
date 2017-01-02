@@ -1,0 +1,181 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Data Exchange Administrator",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "ORDP.Data.Exchange@ssa.gov",
+  "num_tags": 5,
+  "id": "97448d37-b6c9-498c-bca1-77444fc5f4e4",
+  "metadata_created": "2015-01-30T16:17:35.306698",
+  "metadata_modified": "2016-12-01T20:59:04.597017",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "evs",
+      "id": "01a06028-e5e6-4148-8800-49bfcd08396d",
+      "name": "evs"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "numident",
+      "id": "e683a205-f54c-4455-b3a8-407f28574671",
+      "name": "numident"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "schip",
+      "id": "2ef83da7-030b-4c2f-97d4-32b15a199399",
+      "name": "schip"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "state-verification-and-exchange-system",
+      "id": "92a3d7d6-ae27-43f0-88c7-e0b0f37d717e",
+      "name": "state-verification-and-exchange-system"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "sves",
+      "id": "68270d19-ef17-4372-b436-e19bafedeb7f",
+      "name": "sves"
+    }
+  ],
+  "tracking_summary": {
+    "total": 36,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:35:25.934290",
+    "title": "Social Security Administration",
+    "name": "ssa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/ssa.png",
+    "revision_id": "1be01963-921d-432f-b56d-37fa76dfb0a1",
+    "type": "organization",
+    "id": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+    "approval_status": "approved"
+  },
+  "name": "state-childrens-health-insurance-program-schip",
+  "isopen": true,
+  "url": null,
+  "notes": "The SCHIP project implements the legislative requirements of Public Law 111-3, which requires SSA to provide a means for states to check SSA's records to see if they contain data to support an allegation of U.S. citizenship for new applicants under these programs. SCHIP records come into SSA via the State Verification and Exchange System (SVES). SVES records are processed through EVS Processing Code 322 for verification. EVS matches the applicant's Names and SSNs to the NUMIDENT and returns the information back to SVES. For SCHIP, EVS will also obtain citizenship data from the NUMIDENT. SVES returns a response code to the state indication whether SSA records are consistent with an allegation of U.S. citizenship.",
+  "owner_org": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Social Security Administration"
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "license",
+      "value": "https://www.ssa.gov/open/data/Restricted-Public-Licensing-Information.html"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "rights",
+      "value": "The data contained in this data exchange is restricted due to sensitivity and/or privacy issues.  If you would like more information on a data exchange with SSA please visit the following web site https://www.ssa.gov/dataexchange/."
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2016-11-30"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "016:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "016:00"
+      ]
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "US-GOV-SSA-603"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "2a8362aa-03c7-420a-ac4a-681c7957336e"
+    },
+    {
+      "key": "source_hash",
+      "value": "8940afa14d7a3f929b6275496f3e5fddcb3ca6fc"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "2a8362aa-03c7-420a-ac4a-681c7957336e"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    }
+  ],
+  "title": "State Children's Health Insurance Program (SCHIP)",
+  "revision_id": "98c5ee90-7336-4990-a1ca-89957aab7b89"
+}

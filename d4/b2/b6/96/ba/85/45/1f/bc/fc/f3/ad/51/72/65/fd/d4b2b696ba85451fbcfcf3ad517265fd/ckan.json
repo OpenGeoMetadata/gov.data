@@ -1,0 +1,248 @@
+{
+  "license_title": "Creative Commons CCZero",
+  "maintainer": "KC Hallett",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "kathleen.hallett@nrel.gov",
+  "num_tags": 9,
+  "id": "d4b2b696-ba85-451f-bcfc-f3ad517265fd",
+  "metadata_created": "2015-02-23T20:22:25.562620",
+  "metadata_modified": "2015-09-01T18:22:46.213947",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "d4b2b696-ba85-451f-bcfc-f3ad517265fd",
+      "webstore_last_updated": null,
+      "id": "111715b1-96c4-44c7-9cd4-05918543fbd4",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Raw data field descriptions",
+      "format": "XLSX",
+      "tracking_summary": {
+        "total": 13,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "cache_url": null,
+      "name": "Raw data field descriptions",
+      "created": "2015-02-23T15:22:25.866865",
+      "url": "http://en.openei.org/doe-opendata/dataset/9e7b57d1-4662-412e-b0f7-0123ee58377a/resource/1021e2f6-547a-428e-b19c-3c343c0ee4f7/download/raw.data.field.ids9.23.968.23.01.xlsx",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "0553bed1-f92e-4a52-9720-52c7e631ec8e",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "doe",
+      "id": "e4d4d19f-ac39-4a45-9c2e-e2f5c7378c13",
+      "name": "doe"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "irradiance",
+      "id": "94a38ac3-1745-470a-8dd3-e7ebce24eefa",
+      "name": "irradiance"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "nrel",
+      "id": "a92a3ab2-47b3-4a47-a58f-b95cec6360e1",
+      "name": "nrel"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "nwtc",
+      "id": "fba77ac3-2fc8-46b4-a0e5-e05dd242f28d",
+      "name": "nwtc"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "temperature",
+      "id": "43703fee-ad58-4a94-aef7-4e903e93eb62",
+      "name": "temperature"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "turbulence",
+      "id": "041ed27f-37d4-4e47-a176-cc1b08b13c3b",
+      "name": "turbulence"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "wind",
+      "id": "bca2d1dc-ae4c-496d-b6a4-d0bba964f93f",
+      "name": "wind"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "wind-direction",
+      "id": "56520989-7988-48ae-a030-bfd85524d241",
+      "name": "wind-direction"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "wind-speed",
+      "id": "f424b2d8-0630-43f1-8dfd-33655277dd17",
+      "name": "wind-speed"
+    }
+  ],
+  "tracking_summary": {
+    "total": 30,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-zero",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "raw-data-from-national-wind-technology-center-m2-tower-1996-2001-220a9",
+  "isopen": true,
+  "url": null,
+  "notes": "This raw data reflects readings from instruments mounted on or near a 82 meter meteorological tower located at the [National Wind Technology Center (NWTC)](http://www.nrel.gov/wind/ \"NWTC website\"), approximately 5 miles south of Boulder, CO (specifically: 39.9107 N, 105.2348 W, datum WGS84). The base elevation at the site is 1,855 meters AMSL.\r\n\r\nThe dataset includes irrandiance information (Global, kWs/m2) and meteorological data, such as temperature, pressure, and dew point, as well as wind speed and direction at 2m, 5m, 10m, 20m, 50m, and 80m. Included here is a portion of the available data: from September 23, 1996 - August 23, 2001. A separate dataset is available for [Aug 24, 2001 - March 10, 2011](http://en.openei.org/datasets/dataset/raw_data_from_national_wind_technology_center_m2_tower__2001_-_2011_ \"OpenEI dataset 2001 - 2011\") in OpenEI. The [NWTC website](http://www.nrel.gov/midc/nwtc_m2/ \"Website for M2 Tower data\") provides current data (updated daily), from as early as August 24, 2001, as well as [instrument specifications](http://www.nrel.gov/midc/nwtc_m2/ \"NWTC M2 Instrument Descriptions\").",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "accessURL",
+      "value": "http://en.openei.org/doe-opendata/dataset/9e7b57d1-4662-412e-b0f7-0123ee58377a/resource/1021e2f6-547a-428e-b19c-3c343c0ee4f7/download/raw.data.field.ids9.23.968.23.01.xlsx"
+    },
+    {
+      "key": "publisher",
+      "value": "National Renewable Energy Laboratory"
+    },
+    {
+      "key": "landingPage",
+      "value": "http://www.nrel.gov/"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "format",
+      "value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2015-08-21T20:48:55Z"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/9e7b57d1-4662-412e-b0f7-0123ee58377a"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "56f59bd8-7587-4050-a07e-ad142a79e096"
+    },
+    {
+      "key": "source_hash",
+      "value": "f6f5cbeff8019b44f6f1464985eba45dc3af30c7"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "56f59bd8-7587-4050-a07e-ad142a79e096"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-zero",
+  "title": "Raw Data from National Wind Technology Center M2 Tower (1996 - 2001)",
+  "revision_id": "e6f660ec-6cda-4f36-a882-4eaf33284dc6"
+}

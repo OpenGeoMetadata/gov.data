@@ -1,0 +1,237 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "David Cooper",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "david.cooper@nist.gov",
+  "num_tags": 5,
+  "id": "d7c7343c-e9f1-4189-bea6-1a373bfdadcc",
+  "metadata_created": "2016-02-26T14:16:55.725520",
+  "metadata_modified": "2016-10-07T22:14:33.272112",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "d7c7343c-e9f1-4189-bea6-1a373bfdadcc",
+      "webstore_last_updated": null,
+      "id": "3d6c44f3-49b4-413f-a495-2106f7519408",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "nistsd33.cfm",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 2
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/html",
+      "cache_url": null,
+      "name": "NIST Test Personal Identity Verification (PIV) Cards - Special Database 33",
+      "created": "2016-02-26T09:16:56.111278",
+      "url": "http://www.nist.gov/srd/nistsd33.cfm",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "073ff690-a5dc-4efe-ab24-b5cefa82e77f",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "personal-identity-verification",
+      "id": "b56d2e48-001d-4685-8db2-4e8f54f4c35a",
+      "name": "personal-identity-verification"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "piv",
+      "id": "d200dca4-a84f-4e78-9447-191d0a25f90c",
+      "name": "piv"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "pki",
+      "id": "580b2780-af0d-4b65-ac18-3c24714b6586",
+      "name": "pki"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "public-key-infrastructure",
+      "id": "4e7e313d-2b48-4e9c-a9cb-b60c19f3f71f",
+      "name": "public-key-infrastructure"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "smart-card",
+      "id": "6ab1c2c0-c234-4035-8507-d95de94c5761",
+      "name": "smart-card"
+    }
+  ],
+  "tracking_summary": {
+    "total": 18,
+    "recent": 3
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:37:59.153068",
+    "title": "Department of Commerce",
+    "name": "doc-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.vos.noaa.gov/MWL/aug_10/Images/doc_logo_xparent.png",
+    "revision_id": "44c851b9-8872-497a-8a13-2f06740b7ffb",
+    "type": "organization",
+    "id": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+    "approval_status": "approved"
+  },
+  "name": "nist-test-personal-identity-verification-piv-cards-special-database-33",
+  "isopen": true,
+  "url": null,
+  "notes": "The set of NIST Test PIV Cards contains sixteen smart cards that are loaded with a PIV Card Application, as specified in NIST Special Publication 800-73-3. The PIV Card Applications on the smart cards are loaded with test data and keys that are similar to what might appear on actual PIV Cards, with the exception that the certificates on the test PIV Cards were issued from a test public key infrastructure.The set of test cards includes not only examples that are similar to cards issued today, but also examples of cards with features that are expected to appear in cards that will be issued in the future. For example, while the certificates and data objects on most, if not all, cards issued today are signed using RSA PKCS #1 v1.5, the set of test cards include examples of certificates and data objects that are signed using each of the algorithms and key sizes listed in Table 3-3 of Special Publication 800-78-3, including RSASSA-PSS and ECDSA. Similarly, the infrastructure supporting the test cards provides examples of CRLs and OCSP responses that are signed using each of these signature algorithms. The set of test cards also includes certificates with elliptic curve subject public keys in addition to RSA subject public keys, as is permitted by Table 3-1 of Special Publication 800-78-3. The set of test cards, collectively, also include all of the mandatory and optional data objects listed in Section 3 of SP 800-73-3 Part 1, except for Cardholder Iris Images. Several of the cards include a Key History object along with retired key management keys.",
+  "owner_org": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "issued",
+      "value": "2012-07-16"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://dx.doi.org/10.6028/NIST.IR.7870",
+        "http://csrc.nist.gov/groups/SNS/piv/documents/test-piv-card-data-specifications.pdf"
+      ]
+    },
+    {
+      "key": "source_hash",
+      "value": "51cdb788b574281db9b036f85960c2c3101456d0"
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Reference data",
+        "Federal information standards (FIPS)",
+        "Cryptography",
+        "Access control"
+      ]
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "006:045"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "006:55"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://csrc.nist.gov/groups/SNS/piv/testcards.html"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "a80d5b2c-f8f5-4901-bd45-cb3062e14d0c"
+    },
+    {
+      "key": "publisher",
+      "value": "National Institute of Standards and Technology"
+    },
+    {
+      "key": "license",
+      "value": "http://www.nist.gov/open/license.cfm"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en"
+      ]
+    },
+    {
+      "key": "rights",
+      "value": "Access to NIST Special Database 33 is available for a fee. For more information please visit http://www.nist.gov/srd/nistsd33.cfm."
+    },
+    {
+      "key": "modified",
+      "value": "2012-07-16"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "266A9A71D2153580E0531A570681D80E1447"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "a80d5b2c-f8f5-4901-bd45-cb3062e14d0c"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    }
+  ],
+  "title": "NIST Test Personal Identity Verification (PIV) Cards - Special Database 33",
+  "revision_id": "bb929c34-6f4e-430a-91df-43858bec46f0"
+}

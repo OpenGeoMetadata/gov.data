@@ -1,0 +1,1243 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "Dan Getman",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "dan.getman@nrel.gov",
+  "num_tags": 15,
+  "id": "f0a02297-3644-43b2-b536-c591129c6fba",
+  "metadata_created": "2016-11-30T21:30:17.093338",
+  "metadata_modified": "2016-11-30T21:30:17.093338",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "301d9372-56c4-4743-9809-f2080c13275e",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Associated shapefile dBase attributes file..",
+      "format": "dBase",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - geological maps shapefile - associated file.dbf",
+      "created": "2016-11-30T16:30:17.578696",
+      "url": "http://gdr.openei.org/files/263/geological_maps.dbf",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "60cb4444-3f06-47cc-b2d6-51dddb92f281",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "The raw table of intersected services for the mineral occurance maps gap assessment.  \n\nThe attributes in the CSV include:\n\n1. grid_id : The id of the grid cell that the data intersects with\n2. title: This represents the name of the WFS service that intersected with this grid cell \n3. abstract: This represents the description of the WFS service that intersected with this grid cell \n4. gap_type: This represents the category of data availability that these data fall within. As the current processing is pulling data from NGDS, this category universally represents data that are available in the NGDS and are ready for acquisition for analytic purposes. \n5. proprietary_type: Whether the data are considered proprietary  \n6. service_type: The type of service \n7. base_url: The service URL",
+      "format": "CSV",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/csv",
+      "cache_url": null,
+      "name": "exploration gap assessment - geothermal mineral occurrence maps csv of intersected services.csv",
+      "created": "2016-11-30T16:30:17.578721",
+      "url": "http://gdr.openei.org/files/263/mineral_occurrence_maps.csv",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 1,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "1b1ae2e2-aa02-4632-80e6-af291b58d2c8",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Associated shapefile shape index file.",
+      "format": "shx",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 2
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - structural maps shapefile - associated file.shx",
+      "created": "2016-11-30T16:30:17.578729",
+      "url": "http://gdr.openei.org/files/263/structural_maps.shx",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 2,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "cc4e0ae7-e9be-40fd-a03f-2d49a0116a0a",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "The raw table of intersected services for the geophysical data gap assessment.  \n\nThe attributes in the CSV include:\n\n1. grid_id : The id of the grid cell that the data intersects with\n2. title: This represents the name of the WFS service that intersected with this grid cell \n3. abstract: This represents the description of the WFS service that intersected with this grid cell \n4. gap_type: This represents the category of data availability that these data fall within. As the current processing is pulling data from NGDS, this category universally represents data that are available in the NGDS and are ready for acquisition for analytic purposes. \n5. proprietary_type: Whether the data are considered proprietary  \n6. service_type: The type of service \n7. base_url: The service URL",
+      "format": "CSV",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/csv",
+      "cache_url": null,
+      "name": "exploration gap assessment - geophysical data csv of intersected services.csv",
+      "created": "2016-11-30T16:30:17.578737",
+      "url": "http://gdr.openei.org/files/263/geophysical_data.csv",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 3,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "08966902-61fb-40e9-a373-0a12d91c4ebc",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Associated shapefile dBase attributes file..",
+      "format": "dBase",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - geochemistry data shapefile - associated file.dbf",
+      "created": "2016-11-30T16:30:17.578744",
+      "url": "http://gdr.openei.org/files/263/geochemistry_data.dbf",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 4,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "9510ceb5-9a1e-4151-956f-230e8e52d5df",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Associated shapefile projection file.",
+      "format": "prj",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - geophysical data shapefile - associated file.prj",
+      "created": "2016-11-30T16:30:17.578750",
+      "url": "http://gdr.openei.org/files/263/geophysical_data.prj",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 5,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "6f3c3dfa-e9f5-4b60-8060-eb8ba4fcd5ca",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Well data shape file, in standard .shp file format.",
+      "format": "SHP",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - well data shapefile.shp",
+      "created": "2016-11-30T16:30:17.578757",
+      "url": "http://gdr.openei.org/files/263/well_data.shp",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 6,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "8224c307-d96a-45b8-8c65-febfc1996d6f",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Associated shapefile dBase attributes file..",
+      "format": "dBase",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - well data shapefile - associated file.dbf",
+      "created": "2016-11-30T16:30:17.578764",
+      "url": "http://gdr.openei.org/files/263/well_data.dbf",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 7,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "438cf8d7-6f6e-49dc-8e34-3bde10784222",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Geologic maps shape file, in standard .shp file format.",
+      "format": "SHP",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - geological maps shapefile.shp",
+      "created": "2016-11-30T16:30:17.578771",
+      "url": "http://gdr.openei.org/files/263/geological_maps.shp",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 8,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "b85cf6f0-6a27-4f6b-a682-58863bf54397",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Associated shapefile projection file.",
+      "format": "prj",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - well data shapefile - associated file.prj",
+      "created": "2016-11-30T16:30:17.578778",
+      "url": "http://gdr.openei.org/files/263/well_data.prj",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 9,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "7782b515-a6b9-4ea4-bd99-a40d55f7e314",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Geothermal mineral occurrence maps shape file, in standard .shp file format.",
+      "format": "SHP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - geothermal mineral occurrence maps shapefile.shp",
+      "created": "2016-11-30T16:30:17.578784",
+      "url": "http://gdr.openei.org/files/263/mineral_occurrence_maps.shp",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 10,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "29ef367b-f336-4869-a00b-024967d3f075",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Associated shapefile projection file.",
+      "format": "prj",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - geochemistry data shapefile - associated file.prj",
+      "created": "2016-11-30T16:30:17.578792",
+      "url": "http://gdr.openei.org/files/263/geochemistry_data.prj",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 11,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "31577e01-2f83-484c-8745-a0aa950ba48a",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Geophysical data shape file, in standard .shp file format.",
+      "format": "SHP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - geophysical data shapefile.shp",
+      "created": "2016-11-30T16:30:17.578798",
+      "url": "http://gdr.openei.org/files/263/geophysical_data.shp",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 12,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "240770f2-10d6-462d-b5bd-076acef2b3b9",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Structural maps shape file, in standard .shp file format.",
+      "format": "SHP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - structural maps shapefile.shp",
+      "created": "2016-11-30T16:30:17.578805",
+      "url": "http://gdr.openei.org/files/263/structural_maps.shp",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 13,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "7d8567a0-55f4-4303-9df2-afa614fcf496",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Associated shapefile shape index file.",
+      "format": "shx",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - geothermal mineral occurrence maps shapefile - associated file.shx",
+      "created": "2016-11-30T16:30:17.578812",
+      "url": "http://gdr.openei.org/files/263/mineral_occurrence_maps.shx",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 14,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "888c16e4-713b-403d-a22b-3344d8c09150",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "The raw table of intersected services for the geologic maps gap assessment.  \n\nThe attributes in the CSV include:\n\n1. grid_id : The id of the grid cell that the data intersects with\n2. title: This represents the name of the WFS service that intersected with this grid cell \n3. abstract: This represents the description of the WFS service that intersected with this grid cell \n4. gap_type: This represents the category of data availability that these data fall within. As the current processing is pulling data from NGDS, this category universally represents data that are available in the NGDS and are ready for acquisition for analytic purposes. \n5. proprietary_type: Whether the data are considered proprietary  \n6. service_type: The type of service \n7. base_url: The service URL",
+      "format": "CSV",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/csv",
+      "cache_url": null,
+      "name": "exploration gap assessment - geological maps csv of intersected services.csv",
+      "created": "2016-11-30T16:30:17.578819",
+      "url": "http://gdr.openei.org/files/263/geological_maps.csv",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 15,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "a93f05b9-0910-485f-8181-03134bc1ff92",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Associated shapefile dBase attributes file..",
+      "format": "dBase",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - fault maps shapefile - associated file.dbf",
+      "created": "2016-11-30T16:30:17.578827",
+      "url": "http://gdr.openei.org/files/263/fault_maps.dbf",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 16,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "0cfa4ed3-af6f-4ba2-abbf-39a39949aba4",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Associated shapefile shape index file.",
+      "format": "shx",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - fault maps shapefile - associated file.shx",
+      "created": "2016-11-30T16:30:17.578842",
+      "url": "http://gdr.openei.org/files/263/fault_maps.shx",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 17,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "f87edf1e-124f-4bc4-8e60-e20564f967ff",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Associated shapefile dBase attributes file..",
+      "format": "dBase",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - geothermal mineral occurrence maps shapefile - associated file.dbf",
+      "created": "2016-11-30T16:30:17.578858",
+      "url": "http://gdr.openei.org/files/263/mineral_occurrence_maps.dbf",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 18,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "90592bc7-7d08-47c0-b98b-9c014a1e0b8d",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Associated shapefile projection file.",
+      "format": "prj",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - structural maps shapefile - associated file.prj",
+      "created": "2016-11-30T16:30:17.578867",
+      "url": "http://gdr.openei.org/files/263/structural_maps.prj",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 19,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "59f49494-4653-4cf8-aaae-e318b0be8504",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "The raw table of intersected services for the structural maps gap assessment.  \n\nThe attributes in the CSV include:\n\n1. grid_id : The id of the grid cell that the data intersects with\n2. title: This represents the name of the WFS service that intersected with this grid cell \n3. abstract: This represents the description of the WFS service that intersected with this grid cell \n4. gap_type: This represents the category of data availability that these data fall within. As the current processing is pulling data from NGDS, this category universally represents data that are available in the NGDS and are ready for acquisition for analytic purposes. \n5. proprietary_type: Whether the data are considered proprietary  \n6. service_type: The type of service \n7. base_url: The service URL",
+      "format": "CSV",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/csv",
+      "cache_url": null,
+      "name": "exploration gap assessment - structural maps csv of intersected services.csv",
+      "created": "2016-11-30T16:30:17.578874",
+      "url": "http://gdr.openei.org/files/263/structural_maps.csv",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 20,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "2f7c7da5-9881-46f6-9b22-4a6252561605",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Associated shapefile shape index file.",
+      "format": "shx",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - well data shapefile - associated file.shx",
+      "created": "2016-11-30T16:30:17.578881",
+      "url": "http://gdr.openei.org/files/263/well_data.shx",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 21,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "a59acf90-301c-4ed8-b47a-5e3574f25260",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Associated shapefile shape index file.",
+      "format": "shx",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - geophysical data shapefile - associated file.shx",
+      "created": "2016-11-30T16:30:17.578888",
+      "url": "http://gdr.openei.org/files/263/geophysical_data.shx",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 22,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "4d3fb250-79c1-4ce2-98d5-27959e7ed8a0",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Associated shapefile projection file.",
+      "format": "prj",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - geothermal mineral occurrence maps shapefile - associated file.prj",
+      "created": "2016-11-30T16:30:17.578895",
+      "url": "http://gdr.openei.org/files/263/mineral_occurrence_maps.prj",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 23,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "18bee4dd-821d-455b-b631-1253b61a931a",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "The raw table of intersected services for the wells data gap assessment.  \n\nThe attributes in the CSV include:\n\n1. grid_id : The id of the grid cell that the data intersects with\n2. title: This represents the name of the WFS service that intersected with this grid cell \n3. abstract: This represents the description of the WFS service that intersected with this grid cell \n4. gap_type: This represents the category of data availability that these data fall within. As the current processing is pulling data from NGDS, this category universally represents data that are available in the NGDS and are ready for acquisition for analytic purposes. \n5. proprietary_type: Whether the data are considered proprietary  \n6. service_type: The type of service \n7. base_url: The service URL",
+      "format": "CSV",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/csv",
+      "cache_url": null,
+      "name": "exploration gap assessment - well data csv of intersected services.csv",
+      "created": "2016-11-30T16:30:17.578902",
+      "url": "http://gdr.openei.org/files/263/well_data.csv",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 24,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "90054558-2370-4bfa-8d2b-5e86256be2cf",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Associated shapefile projection file.",
+      "format": "prj",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - geological maps shapefile - associated file.prj",
+      "created": "2016-11-30T16:30:17.578909",
+      "url": "http://gdr.openei.org/files/263/geological_maps.prj",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 25,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "3a8ec71e-419e-498b-ba88-b99fc39f39b9",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Geochemistry data shape file, in standard .shp file format.",
+      "format": "SHP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - geochemistry data shapefile.shp",
+      "created": "2016-11-30T16:30:17.578915",
+      "url": "http://gdr.openei.org/files/263/geochemistry_data.shp",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 26,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "e36730ed-c5ea-4372-ae46-a71a88e74428",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "The raw table of intersected services for the geochemistry gap assessment.  \n\nThe attributes in the CSV include:\n\n1. grid_id : The id of the grid cell that the data intersects with\n2. title: This represents the name of the WFS service that intersected with this grid cell \n3. abstract: This represents the description of the WFS service that intersected with this grid cell \n4. gap_type: This represents the category of data availability that these data fall within. As the current processing is pulling data from NGDS, this category universally represents data that are available in the NGDS and are ready for acquisition for analytic purposes. \n5. proprietary_type: Whether the data are considered proprietary  \n6. service_type: The type of service \n7. base_url: The service URL",
+      "format": "CSV",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/csv",
+      "cache_url": null,
+      "name": "exploration gap assessment - geochemistry data csv of intersected services.csv",
+      "created": "2016-11-30T16:30:17.578922",
+      "url": "http://gdr.openei.org/files/263/geochemistry_data.csv",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 27,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "3bd7392a-fb4c-4520-808d-872d495d8216",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "The raw table of intersected services for the fault maps gap assessment.  \n\nThe attributes in the CSV include:\n\n1. grid_id : The id of the grid cell that the data intersects with\n2. title: This represents the name of the WFS service that intersected with this grid cell \n3. abstract: This represents the description of the WFS service that intersected with this grid cell \n4. gap_type: This represents the category of data availability that these data fall within. As the current processing is pulling data from NGDS, this category universally represents data that are available in the NGDS and are ready for acquisition for analytic purposes. \n5. proprietary_type: Whether the data are considered proprietary  \n6. service_type: The type of service \n7. base_url: The service URL",
+      "format": "CSV",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/csv",
+      "cache_url": null,
+      "name": "exploration gap assessment - fault maps csv of intersected services.csv",
+      "created": "2016-11-30T16:30:17.578929",
+      "url": "http://gdr.openei.org/files/263/fault_maps.csv",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 28,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "75a58a70-3eda-4f93-b933-372cca918f28",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Fault maps shape file, in standard .shp file format.",
+      "format": "SHP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - fault maps shapefile.shp",
+      "created": "2016-11-30T16:30:17.578936",
+      "url": "http://gdr.openei.org/files/263/fault_maps.shp",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 29,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "ac573f51-e40d-45b8-beb4-1fbe91931a85",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Associated shapefile shape index file.",
+      "format": "shx",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - geological maps shapefile - associated file.shx",
+      "created": "2016-11-30T16:30:17.578942",
+      "url": "http://gdr.openei.org/files/263/geological_maps.shx",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 30,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "7ff4be9c-38a1-452c-afc0-e8d116947d2f",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Associated shapefile dBase attributes file..",
+      "format": "dBase",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - structural maps shapefile - associated file.dbf",
+      "created": "2016-11-30T16:30:17.578949",
+      "url": "http://gdr.openei.org/files/263/structural_maps.dbf",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 31,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "e38b4d05-e186-42bf-b18c-0e43d61a6bb8",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Associated shapefile shape index file.",
+      "format": "shx",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - geochemistry data shapefile - associated file.shx",
+      "created": "2016-11-30T16:30:17.578956",
+      "url": "http://gdr.openei.org/files/263/geochemistry_data.shx",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 32,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "ef18f54d-ce08-4ded-8c56-a2947c51b0f8",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Associated shapefile projection file.",
+      "format": "prj",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - fault maps shapefile - associated file.prj",
+      "created": "2016-11-30T16:30:17.578963",
+      "url": "http://gdr.openei.org/files/263/fault_maps.prj",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 33,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "e4b0e7f2-440e-40bf-9d19-418f5c5adcec",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Associated shapefile dBase attributes file..",
+      "format": "dBase",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "exploration gap assessment - geophysical data shapefile - associated file.dbf",
+      "created": "2016-11-30T16:30:17.578970",
+      "url": "http://gdr.openei.org/files/263/geophysical_data.dbf",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 34,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "f0a02297-3644-43b2-b536-c591129c6fba",
+      "webstore_last_updated": null,
+      "id": "435bfd6a-34ae-407d-8193-c1bcc29cc1f9",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Outlines the original process used in the gap assessment",
+      "format": "PDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/pdf",
+      "cache_url": null,
+      "name": "gap assessment fy12 paper",
+      "created": "2016-11-30T16:30:17.578977",
+      "url": "https://pangea.stanford.edu/ERE/db/GeoConf/papers/SGW/2013/Esposito.pdf",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 35,
+      "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 36,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "data-coverage",
+      "id": "311e3727-4ddd-4961-82ef-be123294587f",
+      "name": "data-coverage"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "data-gaps",
+      "id": "a9ba0f7c-5085-4648-a9be-4aad607708c3",
+      "name": "data-gaps"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "fault-maps",
+      "id": "3cc003d6-4644-42b6-b6f0-945687588c46",
+      "name": "fault-maps"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "gap",
+      "id": "a0e152b9-cdb9-4c3d-86f5-a9d3475e1068",
+      "name": "gap"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "gap-assessment",
+      "id": "3afc1bae-e38c-403a-8fd4-2e0813a6134f",
+      "name": "gap-assessment"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geochemistry-data",
+      "id": "2400af4b-77ab-4bf1-9365-ab2c950dec9e",
+      "name": "geochemistry-data"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geologic-maps",
+      "id": "2c0e21e9-71a8-4710-97f1-77759ee1349e",
+      "name": "geologic-maps"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geothermal",
+      "id": "3f323051-fbd3-4715-bc13-e2fa5e65d369",
+      "name": "geothermal"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geothermal-prospector",
+      "id": "f7494474-c92c-4d7f-89b7-6186687a41f0",
+      "name": "geothermal-prospector"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "national-geothermal-data-system",
+      "id": "ddd362a7-d452-418c-9fbf-14c1c26b1409",
+      "name": "national-geothermal-data-system"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ngds",
+      "id": "00e750c2-92c0-4594-8880-5261eed88a6d",
+      "name": "ngds"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "nrel",
+      "id": "a92a3ab2-47b3-4a47-a58f-b95cec6360e1",
+      "name": "nrel"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "shapefile",
+      "id": "c93a711f-def1-45a7-b1de-ca2bd28188dc",
+      "name": "shapefile"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "well-data",
+      "id": "6e8be2d6-7cb7-49c5-996f-da2213b1ef5f",
+      "name": "well-data"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "western-us",
+      "id": "3b5ce46f-f317-4742-b921-85ea4c420be4",
+      "name": "western-us"
+    }
+  ],
+  "tracking_summary": {
+    "total": 1,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "exploration-gap-assessment-fy13-update-8b39a",
+  "isopen": true,
+  "url": null,
+  "notes": "This submission contains an update to the previous Exploration Gap Assessment funded in 2012, which identify high potential hydrothermal areas where critical data are needed (gap analysis on exploration data).\n\nThe uploaded data are contained in two data files for each data category: A shape (SHP) file containing the grid, and a data file (CSV) containing the individual layers that intersected with the grid. This CSV can be joined with the map to retrieve a list of datasets that are available at any given site.  A grid of the contiguous U.S. was created with 88,000 10-km by 10-km grid cells, and each cell was populated with the status of data availability corresponding to five data types:\n\n1. well data \n2. geologic maps\n3. fault maps\n4. geochemistry data\n5. geophysical data",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "issued",
+      "value": "2013-09-30"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "efe7bba31016701a0adb04f3a5cb15d430a7a81c"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-125.5392625,24.906620000805],[-65.0816,24.906620000805],[-65.0816,49.378264071349],[-125.5392625,49.378264071349],[-125.5392625,24.906620000805]]]}"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "format",
+      "value": "text/csv"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:006"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://gdr.openei.org/submissions/263"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c8f4c9db-128f-4c5a-8661-3a2271f9b1fa"
+    },
+    {
+      "key": "accessURL",
+      "value": "http://gdr.openei.org/files/263/mineral_occurrence_maps.csv"
+    },
+    {
+      "key": "publisher",
+      "value": "National Renewable Energy Laboratory"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "key": "modified",
+      "value": "2013-09-30"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/f0000000-e214-4c72-acd2-000000000263"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c8f4c9db-128f-4c5a-8661-3a2271f9b1fa"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "Exploration Gap Assessment (FY13 Update)",
+  "revision_id": "9cf04f76-6832-4799-bbba-b4bdcba57b39"
+}

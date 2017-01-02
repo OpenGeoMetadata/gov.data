@@ -1,0 +1,188 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "b91bab50-d4b3-46f5-8fa3-d04f2d399e86",
+  "metadata_created": "2015-09-26T19:59:15.798154",
+  "metadata_modified": "2016-05-31T01:40:35.223369",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "b91bab50-d4b3-46f5-8fa3-d04f2d399e86",
+      "webstore_last_updated": null,
+      "id": "0ce707a6-72ec-4e02-b061-7277c5fff444",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "TX_CoastalBend_phaseIIa_patchy_srv_p.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 4,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "e12b4451-04b5-4008-91c7-f8452e31fc49",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2016-05-30T21:40:35.299797",
+      "url": "ftp://ftp.coast.noaa.gov/pub/benthic/Benthic_Cover_Data/TX_CoastalBend_phaseIIa_patchy_srv_p.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 7,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "coastal-bend-texas-benthic-habitat-mapping-patchy-shapefile-map-lower-laguna-madre",
+  "isopen": false,
+  "url": null,
+  "notes": "The NOAA Office for Coastal Management (OCM) requested the creation of benthic habitat data along the southern Texas coast to support the Texas Seagrass Monitoring Program. The benthic habitat map was created from 1m ADS40 digital airborne imagery collected along the Texas coast during 2004 for the National Agriculture Imagery Program. The original raw images were reprocessed into 3-band true color and color-IR orthos. The benthic habitat map was created from resampled 2m mosaicked orthos. Habitat classification was performed through segmentation of the imagery using Definiens Professional and habitat labeling through Classification and Regression Tree (CART) Analysis. The minimum mapping unit is 100m2. This map covers Lower Laguna Madre, which is approximately 800mi2.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Fugro EarthData, Inc.\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "bjordan@earthdata.com"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-097.516227"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-05-23"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2008-09-17\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-097.148929"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "+26.955027"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "+25.996454"
+    },
+    {
+      "key": "licence",
+      "value": "[\" Users must assume responsibility to determine the usability of these data.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-97.516227, 25.996454], [-97.148929, 25.996454], [-97.148929, 26.955027], [-97.516227, 26.955027], [-97.516227, 25.996454]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "tags",
+      "value": "seagrass, tx, habitat classification, environmental monitoring, us, submerged aquatic vegetation, texas seagrass monitoring program, benthic habitat, gulf of mexico, texas, imagerybasemapsearthcover"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "a912301a-fd00-4652-8317-31776b4d3e12"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Coastal Bend Texas Benthic Habitat Mapping Patchy Shapefile Map - Lower Laguna Madre",
+  "revision_id": "33736aef-bb7e-4d3c-84e5-de545ae44afc"
+}

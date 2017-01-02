@@ -1,0 +1,237 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "9c04fb2d-cc7e-4061-8731-4ce7158c03ee",
+  "metadata_created": "2016-07-04T21:17:18.073052",
+  "metadata_modified": "2016-07-04T21:17:18.073052",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "9c04fb2d-cc7e-4061-8731-4ce7158c03ee",
+      "webstore_last_updated": null,
+      "id": "dbb75fcd-291d-47dd-8407-4c084345df58",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Information about the dataset",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Cite URL",
+      "created": "2016-07-04T17:17:18.280058",
+      "url": "http://www.esrl.noaa.gov/psd/data/gridded/data.godas.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "5f4c1976-fd58-4e47-bc84-4e3f103b2347",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9c04fb2d-cc7e-4061-8731-4ce7158c03ee",
+      "webstore_last_updated": null,
+      "id": "46796431-5923-4a92-852f-6be19de8750d",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Thredds Data server.  Allows http, opendap, and possibly WCS and WMS downaloads.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Thredds Server",
+      "created": "2016-07-04T17:17:18.280080",
+      "url": "http://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/godas/catalog.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "5f4c1976-fd58-4e47-bc84-4e3f103b2347",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9c04fb2d-cc7e-4061-8731-4ce7158c03ee",
+      "webstore_last_updated": null,
+      "id": "1d3d4cf6-f613-4789-aeec-4b438949bfcf",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "FTP server.",
+      "format": "NETCDF3_CLASSIC",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FTP server",
+      "created": "2016-07-04T17:17:18.280088",
+      "url": "ftp://ftp.cdc.noaa.gov/Datasets/godas",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "5f4c1976-fd58-4e47-bc84-4e3f103b2347",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 3,
+    "recent": 3
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "ncep-global-ocean-data-assimilation-system-godas",
+  "isopen": false,
+  "url": null,
+  "notes": "The GODAS dataset is a real-time ocean analysis and a reanalysis. It is used for monitoring, retrospective analysis as well as for providing oceanic initial conditions for the CFS. Both temperature and synthetic salinity profiles are assimilated in a 3DVAR scheme designed by Derber and Rosati (1989). 40 vertical levels are in the model together with 1x1 data values (enhanced in resolution to 1/3x1/3 degrees latitude within 10 degrees of the equator). The data is provided at 1/3x1/3 degrees for all latitudes. The GODAS is forced by the momentum flux, heat flux and fresh water flux from the NCEP atmospheric Reanalysis 2.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "temporal-extent-begin",
+      "value": "1980-01-01"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2016-05-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "webmaster.psd@noaa.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-05-01"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"lastUpdate\", \"value\": \"2016-05-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"\", \"roles\": [\"custodian\"]}]"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://www.esrl.noaa.gov/psd/mddb2/browseGraphics/NCEP_Global_Ocean_Data_Assimilation_System_(GODAS).png"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "ongoing"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.esrl.psd.dataset.NCEP_Global_Ocean_Data_Assimilation_System_GODAS"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "tags",
+      "value": "sea surface height relative to geoid, u-component of current, salinity, total downward heat flux at surface (downward is positive), salt flux, potential temperature, geometric depth below sea surface, momentum flux, v component, v-component of current, geometric vertical velocity, momentum flux, u component"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "0e341b98-0db4-4338-b835-2cb4a862e38a"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "NCEP Global Ocean Data Assimilation System (GODAS)",
+  "revision_id": "5f4c1976-fd58-4e47-bc84-4e3f103b2347"
+}

@@ -1,0 +1,225 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "admin",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "HealthData@hhs.gov",
+  "num_tags": 4,
+  "id": "ec9dc9cc-fe62-4560-9d37-0321ddc54d24",
+  "metadata_created": "2015-06-19T02:53:52.199804",
+  "metadata_modified": "2016-10-08T14:53:53.491444",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "ec9dc9cc-fe62-4560-9d37-0321ddc54d24",
+      "webstore_last_updated": null,
+      "id": "2be9dd40-3aed-468e-a36d-413259669bae",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "nasa-pm.html",
+      "format": "text",
+      "tracking_summary": {
+        "total": 86,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/unknown",
+      "cache_url": null,
+      "name": "Text ",
+      "created": "2015-06-18T22:53:52.328875",
+      "url": "http://wonder.cdc.gov/nasa-pm.html",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "ea14889b-c61c-4dfe-a43e-f624eefb17b2",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "air-pollution",
+      "id": "b9e5fc87-dbab-4117-b128-f19977a15cd2",
+      "name": "air-pollution"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "air-quality",
+      "id": "3b5c4b08-7cd8-4102-af0b-79a3d1101fbb",
+      "name": "air-quality"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "air-temperature",
+      "id": "87eb5c2d-fa3e-46c5-a6aa-31c9048de7f5",
+      "name": "air-temperature"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "fine-particulate-matter-climate-state-county-day-month-year-remotely-sensed",
+      "id": "421beadc-44c4-49b7-9ef4-c78c56fb1e8b",
+      "name": "fine-particulate-matter-climate-state-county-day-month-year-remotely-sensed"
+    }
+  ],
+  "tracking_summary": {
+    "total": 50,
+    "recent": 2
+  },
+  "groups": [
+    {
+      "display_name": "Climate",
+      "description": "",
+      "image_display_url": "",
+      "title": "Climate",
+      "id": "aa0c01c9-d292-4dc1-8fec-b10c1bb629a9",
+      "name": "climate5434"
+    }
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-08-26T15:35:30.958442",
+    "title": "U.S. Department of Health & Human Services",
+    "name": "hhs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.healthdata.gov/sites/all/themes/hdtheme/logo-dark.png",
+    "revision_id": "eff89d9e-dc00-4101-bbd4-750e1adcc5bb",
+    "type": "organization",
+    "id": "3609164c-4c49-4a44-9179-23163027dc0a",
+    "approval_status": "approved"
+  },
+  "name": "cdc-wonder-daily-fine-particulate-matter-cc052",
+  "isopen": true,
+  "url": null,
+  "notes": "<p>The Daily Fine Particulate Matter data available on CDC WONDER are geographically aggregated daily measures of fine particulate matter in the outdoor air, spanning the years 2003-2008. PM2.5 particles are air pollutants with an aerodynamic diameter less than 2.5 micrometers. Reported measures are the daily measure of fine particulate matter in micrograms per cubic meter (PM2.5) (''Âµg/m''Â³), the number of observations, minimum and maximum range value, and standard deviation. Data are available by place (combined 48 contiguous states plus the District of Columbia, region, division, state, county), time (year, month, day) and specified fine particulate matter (''Âµg/m''Â³)value. County-level and higher data are aggregated from 10 kilometer square spatial resolution grids. In a study funded by the NASA Applied Sciences Program / Public Health Program, scientists at NASA Marshall Space Flight Center / Universities Space Research Association modified the regional surfacing algorithm of Al-Hamdan et al. (2009) and used it to generate continuous spatial surfaces (grids) of daily PM2.5 for the whole conterminous U.S. for 2003-2008. Two sources of environmental data were used as input to the surfacing algorithm, US Environmental Protection Agency (EPA) Air Quality System (AQS) PM2.5 in-situ data and National Aeronautics and Space Administration (NASA) Moderate Resolution Imaging Spectroradiometer (MODIS) aerosol optical depth remotely sensed data. They also identified in a Geographic Information System (GIS) the associated geographic locations of the centroids of the gridded PM2.5 dataset in terms of the counties and states they fall into to enable aggregation to different geographic levels in CDC WONDER.</p>\n",
+  "owner_org": "3609164c-4c49-4a44-9179-23163027dc0a",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "15c538b5-31a0-474e-8ba5-c85ee421cb4d"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "6d25ab7076919f014437a425a254d679f6d071af"
+    },
+    {
+      "key": "temporal",
+      "value": "2002-12-31T19:00:00-05:00/2007-12-31T19:00:00-05:00"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "describedBy",
+      "value": "http://wonder.cdc.gov/wonder/help/PM.html"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Healthdata.gov"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "009:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "009:20"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "acae8c11-7de7-42a1-b23f-5bfb4dda56c3"
+    },
+    {
+      "key": "publisher",
+      "value": "Centers for Disease Control and Prevention, Department of Health &amp; Human Services"
+    },
+    {
+      "key": "license",
+      "value": "http://opendefinition.org/licenses/odc-odbl/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en"
+      ]
+    },
+    {
+      "key": "modified",
+      "value": "2016-04-05"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "catalog_@id",
+      "value": "https://www.healthdata.gov/data.json"
+    },
+    {
+      "key": "identifier",
+      "value": "68858d7a-c1ed-457c-8cf2-ab6d6b6c2992"
+    },
+    {
+      "key": "__category_tag_aa0c01c9-d292-4dc1-8fec-b10c1bb629a9",
+      "value": "[\"Human Health\"]"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "acae8c11-7de7-42a1-b23f-5bfb4dda56c3"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "15c538b5-31a0-474e-8ba5-c85ee421cb4d"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Healthdata.gov"
+    }
+  ],
+  "title": "CDC WONDER: Daily Fine Particulate Matter",
+  "revision_id": "5efdefcf-2f41-4a57-a7c7-10484481a3b2"
+}

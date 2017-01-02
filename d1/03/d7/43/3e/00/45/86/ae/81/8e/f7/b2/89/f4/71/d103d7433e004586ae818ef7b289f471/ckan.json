@@ -1,0 +1,174 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "d103d743-3e00-4586-ae81-8ef7b289f471",
+  "metadata_created": "2016-07-09T05:27:12.402536",
+  "metadata_modified": "2016-07-09T05:27:12.402536",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 6,
+    "recent": 3
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:41.302957",
+    "title": "Vermont Center for Geographic Information",
+    "name": "vcgi-org",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://vcgi.vermont.gov/sites/all/themes/vt_template/logo.png",
+    "revision_id": "c5dfbbb0-f1e0-4db6-b566-e932e1520060",
+    "type": "organization",
+    "id": "0c3a4ebc-9929-4f21-bdd0-76a35d52f57d",
+    "approval_status": "approved"
+  },
+  "name": "lidar-data-for-rutland-vt-usgs-contract-g10pc00026-task-order-number-g13pd00813-vt-rutland-2015",
+  "isopen": false,
+  "url": null,
+  "notes": "Geographic Extent: Rutland Area of Interest in Vermont, covering approximately 1,604 square miles. Dataset Description: The Rutland, VT LiDAR project called for the Planning, Acquisition, processing and derivative products of LIDAR data to be collected at a nominal pulse spacing (NPS) of 0.7 meters. Project specifications are based on the U.S. Geological Survey National Geospatial Program Base LIDAR Specification, Version 1. The data was developed based on a horizontal projection/datum of Vermont State Plane coordinate System (FIPS 4400), NAD83, meters and vertical datum of NAVD1988 (GEOID12A), meters. LiDAR data was delivered in RAW flight line swath format. This data was also processed to create 2,399 individual 1,400 meter x 1,400 meter tiled Classified LAS 1.2 Files. Hydro-flattened/hydro-enforced breaklines were produced in Esri Shapefile format. 0.7-meter gridded hydro-flattened raster DEM Files were produced in ERDAS .IMG format, and 0.7-meter hydro-enforced DEMs were produced in Esri Grid format; both were tiled to the same 1,400 meter x 1,400 meter tile layout. Additionally 1-foot contours were produced in Esri shapefile format and tiled Intensity Images were produced in GeoTIFF format. Ground Conditions: LiDAR collection began in November 2013 while no snow was on the ground and rivers were at or below normal levels. In order to post process the LiDAR data to meet task order specifications, Quantum Spatial established a total of 98 ground control points and 100 QC points that were used to calibrate the LIDAR to known ground locations established throughout the Rutland, Vermont project area.",
+  "owner_org": "0c3a4ebc-9929-4f21-bdd0-76a35d52f57d",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-72.625508498319"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "45.0174788646563"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "43.2802676116468"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-73.5245151586, 43.2802676116], [-72.6255084983, 43.2802676116], [-72.6255084983, 45.0174788647], [-73.5245151586, 45.0174788647], [-73.5245151586, 43.2802676116]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None. However, users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no Longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of it's limitations. Acknowledgement of the U.S. Geological Survey would be appreciated for products derived from these data.\", \"Access Constraints: No restrictions apply to these data.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2013-11-04"
+    },
+    {
+      "key": "contact-email",
+      "value": "mshillenn@quantumspatial.com"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-73.5245151586045"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-03-11"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2016-01-01\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "licence",
+      "value": "[\" \"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Quantum Spatial, Data Acquisition Department\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2015-10-24"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "vermont, hydrology, remote sensing, elevation data, washington county, lidar, addison county, grand isle county, model, rutland county, las point cloud"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "256ed92c-0bfb-45a5-98b2-6b3b2ff5b71e"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "a0d2a02b-5473-48ce-816c-8c6c6f8fabdb"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "VT Center for Geographic Information, Inc."
+    }
+  ],
+  "title": "Lidar data for Rutland, VT USGS Contract: G10PC00026 Task Order Number: G13PD00813 VT_Rutland_2015",
+  "revision_id": "9830607d-84ec-4b4c-bedb-f51eb3e523c2"
+}

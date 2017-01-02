@@ -1,0 +1,216 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "1aa71b61-06f2-4d38-be20-47efa8e710bb",
+  "metadata_created": "2016-07-16T01:34:39.504676",
+  "metadata_modified": "2016-07-16T01:34:39.504676",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "1aa71b61-06f2-4d38-be20-47efa8e710bb",
+      "webstore_last_updated": null,
+      "id": "c28611e1-4add-4529-a19d-b110a10c2786",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "ESRI GRID",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ESRI GRID",
+      "created": "2016-07-15T21:34:39.593117",
+      "url": "http://cloud.insideidaho.org/webApps/util/zip.ashx?fn=http://cloud.insideidaho.org/data/idl/safr/issues/I7_Biodiversity_Wildlife",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "675af38c-1e62-4f3e-ac2f-d70028b98330",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "1aa71b61-06f2-4d38-be20-47efa8e710bb",
+      "webstore_last_updated": null,
+      "id": "42a7b203-8507-4d2d-ab11-e1bf2cc3fd83",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "I7_Relative_Potential_Benefit_to_Wildlife_and_Biodiversity.pdf",
+      "format": "PDF",
+      "tracking_summary": {
+        "total": 5,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Adobe Portable Document Format (.pdf)",
+      "created": "2016-07-15T21:34:39.593139",
+      "url": "http://cloud.insideidaho.org/data/idl/safr/issues/I7_Biodiversity_Wildlife/I7_Relative_Potential_Benefit_to_Wildlife_and_Biodiversity.pdf",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "675af38c-1e62-4f3e-ac2f-d70028b98330",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 8,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The University of Idaho is a nationally-recognized research institution committed to student success and academic excellence that delivers one of the best educational values in the Pacific Northwest.",
+    "created": "2013-03-14T03:44:41.687651",
+    "title": "University of Idaho",
+    "name": "uidaho-edu",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://upload.wikimedia.org/wikipedia/en/thumb/4/44/University_of_Idaho_seal.svg/300px-University_of_Idaho_seal.svg.png",
+    "revision_id": "761955d7-9530-4622-8609-d0b01c78e177",
+    "type": "organization",
+    "id": "75e22a8a-da5f-46f3-93d8-924063a3703d",
+    "approval_status": "approved"
+  },
+  "name": "relative-potential-benefit-to-wildlife-and-biodiversity",
+  "isopen": false,
+  "url": null,
+  "notes": "Issue: Relative Potential Benefit to Wildlife and Biodiversity The intent of this issue is to: Identify the areas of greatest conservation value for wildlife habitat and plant and animal biodiversity, and where management can enhance these values. Multiple data layers informed this issue. Data used: 1. Fish Distribution, comprised of: a. Bull Trout Fish Distribution b. Cutthroat Trout distribution c. Chinook Salmon distribution d. Steelhead Salmon distribution e. Sockeye Salmon distribution All fish distribution data came from Streamnet (http://www.streamnet.org/mapping_apps.cfm). The data represent current distribution and activity for the above species. More information on creation of this feature class is available at http://www.streamnet.org/about.html. Distribution data for each species was buffered by 75 feet on any critical habitat stream, river, or lake. These buffered layers were then converted into a 30 m raster grid and re-classed to either a 1 (presence) or 0 (absence). The final fish distribution map was derived by adding up the five sub layers and reclassifying 0 through 5 based on the number of separate species represented in each pixel. 2. Comprehensive Wildlife Conservation Strategy (CWCS) Focal Areas and Big Game a. Focal Areas from the Idaho CWCS (http://fishandgame.idaho.gov/ifwis/ifwisweb/IDCWCS/FA/) Through the workshop process, Idaho conservation partners mapped and attributed focal areas across Idaho. These are general areas known to be important for the species of greatest conservation need identified in the Idaho Comprehensive Wildlife Conservation Strategy, but by no means are intended to imply that conservation actions should be restricted to these areas. Focal areas were defined as resource-based, management-based, or both: Resource Focal Area: A geographical area necessary for the long-term persistence of SGCN and their habitats (in other planning efforts these may be referred to as High Resource Value Areas or Biologically Important Areas). Management Focal Area: A general geographical area that targets resources and efforts where they can benefit the largest number of species and habitats in need of conservation. Management focal areas are generally larger and may include species and/or habitats other than SGCN as well as non-biological factors. Focal areas were classified by their type, converted to 30m raster, and reclassified as: 0 where none exist, 1 where it is a resource Focal Area, and 3 if it is a Management Focal Area. b. Big Game Habitat from Idaho Fish and Game, including: i. Mule Deer - Concentrated Winter Range & Critical Habitat ii. Elk - Critical Summer and Winter Range iii. Mountain Goat - Habitat v. Bighorn Sheep - Priority Habitat Species were selected, and data provided by the Idaho Fish and Game Department. These species represent the most critical big game species per the CWCS. Each species habitat/range was converted to 30m raster and classified as 1 where the species exists, and 0 where it doesn't. The scores from both a) and b) above were added together. Pixels could have a score from 0 to 7. These were reclassified by natural breaks into five classes, 0 through 5. 3. The Nature Conservancy Ecoregional Conservation and Priority Conservation Areas, comprised of: a. Canadian Rocky Mountains Ecoregional Assessment Data - Priority Conservation Areas. This data is access restricted. Information on the assessment, including report, maps and data can be accessed at: (http://www.waconservation.org/ecoCanadianRockies.shtml) b. Columbia Plateau Ecoregional Assessment Data - Priority Conservation Areas. This data is access restricted. Information on the assessment, including the report, maps and data can be accessed at: (http://www.waconservation.org/ecoColumbiaPlateau.shtml) c. Middle Rockies - Blue Mountains Ecoregional Assessment Data - Conservation Areas. The assessment report and data can be accessed at: (http://www.waconservation.org/ecoBlueMountains.shtml) d. Utah - Wyoming Rocky Mountains Ecoregional Assessment Data - Conservation Areas. The assessment report can be accessed at: (http://www.conservationgateway.org/Pages/default.aspx) The metadata for Conservation Area datasets describes them as: These data describe the priority areas for conserving imperiled species and functioning ecosystems. These extraordinary places are all part of a common \"ecoregion\", sharing similar climate, geologic historic, landforms, and native species. Resources for conservation in these ecoregions are limited, urban areas are expanding, and an extraordinary heritage of native species and ecosystems is at risk. This assessment is intended to help conservation agencies, planners, and organizations direct their resources to the most important places for conservation. It describes a \"portfolio\" of priority conservation areas which are 1) of exceptional biological value and 2) the most likely places for conservation to succeed based on their current condition, land use, and other factors. Most importantly, this portfolio captures as much of the biodiversity of the ecoregion as possible, ensuring that each local site contributes to an ecoregion-wide strategy for conservation. While all identified conservation areas are considered priority, these area within the first two datasets (a. and b.) were further refined to include those which are most important and/or at highest risk. Because datasets c. and d. did not further prioritize conservation areas, there may be more identified conservation areas relative to the other two. For this reason, all areas were combined, converted to a 30m raster grid. Pixels were classified with a value of 3 if they were a conservation or high conservation area per the datasets used, and 0 if they did not. 4. Federally Listed Threatened and Endangered Species, from the Idaho Conservation Data Center, Idaho Department of Fish and Game-from 2007. The occurrences represent Federally Listed Threatened and Endangered in Idaho. This spatial coverage and the occurrences contained in it are not a public record. Data were converted to 30m raster pixels, and classified with a 1 if a T&E species exists, and 0 if not. These species are listed at the end of this document. Final Relative Benefit to Wildlife and Biodiversity map: The four layers listed above were added together and reclassified by natural breaks into five classes indicating low to high relative benefit to Wildlife and Biodiversity. Species listed in Idaho based on published population data Notes: This report shows the species listed in this state according to the Federal Register listing description. This list does not include experimental populations and similarity of appearance listings. This list includes species or populations under the sole jurisdiction of the National Marine Fisheries Service. Listed species (based on published population data) -- 22 listings Animals -- 18 listings Species/Listing Name T Bear, grizzly lower 48 States, except where listed as an experimental population or delisted (Ursus arctos horribilis) E Caribou, woodland Selkirk Mountain population (Rangifer tarandus caribou) E Curlew, Eskimo (Numenius borealis) E Limpet, Banbury Springs (Lanx sp.) T Lynx, Canada lower 48 States DPS (Lynx canadensis) E Rabbit, pygmy Columbia Basin DPS (Brachylagus idahoensis) T Salmon, chinook fall Snake R. (Oncorhynchus (=Salmo) tshawytscha) T Salmon, chinook spring/summer Snake R. (Oncorhynchus (=Salmo) tshawytscha) E Salmon, sockeye U.S.A. (Snake River, ID stock wherever found.) (Oncorhynchus (=Salmo) nerka) T Snail, Bliss Rapids (Taylorconcha serpenticola) E Snail, Snake River physa (Physa natricina) E Snail, Utah valvata (Valvata utahensis) E Springsnail, Bruneau Hot (Pyrgulopsis bruneauensis) T Squirrel, northern Idaho ground (Spermophilus brunneus brunneus) T Steelhead Snake R. Basin (Oncorhynchus (=Salmo) mykiss) E Sturgeon, white U.S.A. (ID, MT), Canada (B.C.), Kootenai R. system (Acipenser transmontanus) T Trout, bull U.S.A., conterminous, lower 48 states (Salvelinus confluentus) E Wolf, gray Lower 48 States, except where delisted and where EXPN. Mexico. (Canis lupus) Plants -- 4 listings Species/Listing Name T Catchfly, Spalding's (Silene spaldingii) T Four-o'clock, MacFarlane's (Mirabilis macfarlanei) T Howellia, water (Howellia aquatilis) T Ladies'-tresses, Ute (Spiranthes diluvialis) Last updated: June 19, 2009 Idaho Statewide Assessment of Forest Resources document contains additional information and can be found at: http://cloud.insideidaho.org/data/idl/safr/reports/2_ID_SAFR_Final_061410.pdf.",
+  "owner_org": "75e22a8a-da5f-46f3-93d8-924063a3703d",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Idaho Department of Lands\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "edeyoung@idl.idaho.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "\n-117.529707"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2014-10-29"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2009-06-23\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "\n-110.655782"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "\n49.035879"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "\n41.956776"
+    },
+    {
+      "key": "licence",
+      "value": "[\"None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the IDL would be appreciated.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-117.529707, 41.956776], [-110.655782, 41.956776], [-110.655782, 49.035879], [-117.529707, 49.035879], [-117.529707, 41.956776]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the IDL would be appreciated.\", \"Access Constraints: Public, Federal Goverment, Idaho State Government, IDL Authorized Users\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "tags",
+      "value": "state assessment, united states, statewide forest resource strategy, state assessment of forest resources, safr, sfrs, idaho"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "b3b56b07-1054-4b8d-997c-ad37f13c2396"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "6d1998c4-ba28-47a6-9395-7413c0cc32ac"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Idaho Geospatial Data Clearinghouse"
+    }
+  ],
+  "title": "Relative Potential Benefit to Wildlife and Biodiversity",
+  "revision_id": "675af38c-1e62-4f3e-ac2f-d70028b98330"
+}

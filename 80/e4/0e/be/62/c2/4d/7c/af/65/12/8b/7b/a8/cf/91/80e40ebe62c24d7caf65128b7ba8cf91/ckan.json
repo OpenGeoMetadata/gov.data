@@ -1,0 +1,555 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "80e40ebe-62c2-4d7c-af65-128b7ba8cf91",
+  "metadata_created": "2015-09-27T00:50:09.088886",
+  "metadata_modified": "2016-10-04T02:35:08.501743",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "80e40ebe-62c2-4d7c-af65-128b7ba8cf91",
+      "webstore_last_updated": null,
+      "id": "18b77e8f-775f-4db5-bb1c-ce945eab0c48",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Navigate directly to the URL for data access and direct download.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "HTTP",
+      "created": "2016-10-03T22:35:08.821239",
+      "url": "https://data.nodc.noaa.gov/ocs/profile/S-A942-TJ-09/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "db21fe9c-5e24-4d9a-a35c-3fae4a13bed4",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "80e40ebe-62c2-4d7c-af65-128b7ba8cf91",
+      "webstore_last_updated": null,
+      "id": "34b111fc-26f8-4f73-8fe0-e25751bb2014",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Navigate directly to the URL for a descriptive web page with download links.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Descriptive Information",
+      "created": "2016-10-03T22:35:08.821263",
+      "url": "https://accession.nodc.noaa.gov/0130669",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "db21fe9c-5e24-4d9a-a35c-3fae4a13bed4",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "80e40ebe-62c2-4d7c-af65-128b7ba8cf91",
+      "webstore_last_updated": null,
+      "id": "6e970e1d-d3b3-4a50-a9b1-32d0f38b894e",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "These data are available through a variety of services via a THREDDS (Thematic Real-time Environmental Distributed Data Services) Data Server (TDS). Depending on the dataset, the TDS can provide WMS, WCS, DAP, HTTP, and other data access and metadata services as well. For more information on the TDS, see http://www.unidata.ucar.edu/software/thredds/current/tds/.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "THREDDS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "THREDDS",
+      "created": "2016-10-03T22:35:08.821272",
+      "url": "https://data.nodc.noaa.gov/thredds/catalog/ocs/profile/S-A942-TJ-09/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "db21fe9c-5e24-4d9a-a35c-3fae4a13bed4",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "80e40ebe-62c2-4d7c-af65-128b7ba8cf91",
+      "webstore_last_updated": null,
+      "id": "f1086108-9cb9-4578-bc97-d2ceac34936e",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "These data are available through the Data Access Protocol (DAP) via an OPeNDAP Hyrax server. For a listing of OPeNDAP clients which may be used to access OPeNDAP-enabled data sets, please see the OPeNDAP website at http://opendap.org/.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "DAP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OPeNDAP",
+      "created": "2016-10-03T22:35:08.821279",
+      "url": "https://data.nodc.noaa.gov/opendap/ocs/profile/S-A942-TJ-09/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 3,
+      "revision_id": "db21fe9c-5e24-4d9a-a35c-3fae4a13bed4",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "80e40ebe-62c2-4d7c-af65-128b7ba8cf91",
+      "webstore_last_updated": null,
+      "id": "978f0d4b-962d-4a58-a38d-d1b32e19d20a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Navigate directly to the URL for a descriptive web page with download links.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Descriptive Information",
+      "created": "2016-10-03T22:35:08.821286",
+      "url": "https://accession.nodc.noaa.gov/oas/130669",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 4,
+      "revision_id": "db21fe9c-5e24-4d9a-a35c-3fae4a13bed4",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "80e40ebe-62c2-4d7c-af65-128b7ba8cf91",
+      "webstore_last_updated": null,
+      "id": "ba2993da-5b70-4db7-a3f7-1e0b2e52c9e0",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Navigate directly to the URL for data access and direct download.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "HTTP",
+      "created": "2016-10-03T22:35:08.821293",
+      "url": "https://accession.nodc.noaa.gov/download/130669",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 5,
+      "revision_id": "db21fe9c-5e24-4d9a-a35c-3fae4a13bed4",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "80e40ebe-62c2-4d7c-af65-128b7ba8cf91",
+      "webstore_last_updated": null,
+      "id": "62316330-909c-4699-8a51-f9dcc01dbdc3",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "These data are available through the File Transfer Protocol (FTP). You may use any FTP client to download these data.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "FTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FTP",
+      "created": "2016-10-03T22:35:08.821302",
+      "url": "ftp://ftp.nodc.noaa.gov/nodc/archive/arc0078/0130669/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 6,
+      "revision_id": "db21fe9c-5e24-4d9a-a35c-3fae4a13bed4",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "80e40ebe-62c2-4d7c-af65-128b7ba8cf91",
+      "webstore_last_updated": null,
+      "id": "c133cb21-f5b8-481c-8116-9f5457f9ae5d",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Main NCEI website providing links to access data and data services.",
+      "format": "",
+      "tracking_summary": {
+        "total": 51,
+        "recent": 8
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA National Centers for Environmental Information website",
+      "created": "2016-10-03T22:35:08.821316",
+      "url": "https://www.ncei.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 7,
+      "revision_id": "db21fe9c-5e24-4d9a-a35c-3fae4a13bed4",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "80e40ebe-62c2-4d7c-af65-128b7ba8cf91",
+      "webstore_last_updated": null,
+      "id": "880fbe09-d3f9-49d9-a5a2-28434468c0b0",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Main NCEI website providing links to access data and data services.",
+      "format": "",
+      "tracking_summary": {
+        "total": 51,
+        "recent": 8
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA National Centers for Environmental Information website",
+      "created": "2016-10-03T22:35:08.821325",
+      "url": "https://www.ncei.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 8,
+      "revision_id": "db21fe9c-5e24-4d9a-a35c-3fae4a13bed4",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "80e40ebe-62c2-4d7c-af65-128b7ba8cf91",
+      "webstore_last_updated": null,
+      "id": "e8fdf9f0-1386-417e-8d1d-8b5b964347a1",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-10-03T22:35:08.821332",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 9,
+      "revision_id": "db21fe9c-5e24-4d9a-a35c-3fae4a13bed4",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "80e40ebe-62c2-4d7c-af65-128b7ba8cf91",
+      "webstore_last_updated": null,
+      "id": "dadc0359-cabf-4095-89bf-5d0ca4743f48",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-10-03T22:35:08.821340",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 10,
+      "revision_id": "db21fe9c-5e24-4d9a-a35c-3fae4a13bed4",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "80e40ebe-62c2-4d7c-af65-128b7ba8cf91",
+      "webstore_last_updated": null,
+      "id": "f23592d6-00a0-4f4d-9f52-d9d3f823ae14",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-10-03T22:35:08.821347",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 11,
+      "revision_id": "db21fe9c-5e24-4d9a-a35c-3fae4a13bed4",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "80e40ebe-62c2-4d7c-af65-128b7ba8cf91",
+      "webstore_last_updated": null,
+      "id": "77e261fe-847b-4007-adc6-4d3f75f0ed3c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-10-03T22:35:08.821354",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 12,
+      "revision_id": "db21fe9c-5e24-4d9a-a35c-3fae4a13bed4",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 13,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 1,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "oceanographic-profile-data-collected-aboard-thomas-jefferson-as-part-of-project-s-a942-tj-09-in",
+  "isopen": false,
+  "url": null,
+  "notes": "NCEI Accession 0130669 includes physical and profile data collected aboard NOAA Ship THOMAS JEFFERSON during project S-A942-TJ-09 in the North Atlantic Ocean on 2009-09-30. These data include SOUND VELOCITY. These data were collected and submitted by the NOAA Office of Coast Survey in support of hydrographic multibeam surveys to meet NOAA charting requirements.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-69.9244"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "41.6783"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "PNG"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.nodc:0130669"
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "https://data.nodc.noaa.gov/cgi-bin/gfx?id=gov.noaa.nodc:0130669"
+    },
+    {
+      "key": "metadata-language",
+      "value": "eng"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-69.945, 41.6539], [-69.9244, 41.6539], [-69.9244, 41.6783], [-69.945, 41.6783], [-69.945, 41.6539]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Cite as: Malik, M. and US DOC; NOAA; NOS; Office of Coast Survey (2015). Oceanographic profile data collected aboard NOAA Ship THOMAS JEFFERSON as part of project S-A942-TJ-09 in the North Atlantic Ocean on 2009-09-30 (NCEI Accession 0130669). Version 1.1. NOAA National Centers for Environmental Information. Dataset. [access date]\", \"NOAA and NCEI cannot provide any warranty as to the accuracy, reliability, or completeness of furnished data. Users assume responsibility to determine the usability of these data. The user is responsible for the results of any application of this data for other than its intended purpose.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2009-09-30"
+    },
+    {
+      "key": "contact-email",
+      "value": "NCEI.Info@noaa.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-69.945"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-09-19T20:34:50"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2015-08-12\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "Preview graphic"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"accessLevel: Public\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2009-09-30"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "41.6539"
+    },
+    {
+      "key": "tags",
+      "value": "office of coast survey, national ocean service, noaa, u.s. department of commerce, noaa, doc/noaa/nesdis/ncei, d00149, tj thomas jefferson, national oceanographic data center, nesdis, noaa, u.s. department of commerce, earth science, oceanography, altitude, acoustic velocity, north atlantic ocean, latitude, atlantic ocean, national centers for environmental information, nesdis, noaa, u.s. department of commerce, http://www.nauticalcharts.noaa.gov/, s-a942-tj-09, oceans, ocean acoustics, government agencies-u.s. federal agencies, doc/noaa/nesdis/nodc, doc/noaa/nos/ocs, doc, longitude, ocean, time"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "730de4be-13d0-4cc8-ad33-dd2262510240"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Oceanographic profile data collected aboard NOAA Ship THOMAS JEFFERSON as part of project S-A942-TJ-09 in the North Atlantic Ocean on 2009-09-30 (NCEI Accession 0130669)",
+  "revision_id": "db21fe9c-5e24-4d9a-a35c-3fae4a13bed4"
+}

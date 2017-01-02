@@ -1,0 +1,300 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Patricia Flanagan",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "patricia.flanagan@nist.gov",
+  "num_tags": 8,
+  "id": "7b8358af-926a-44c2-b5e5-988b3bf50d40",
+  "metadata_created": "2016-02-26T14:16:55.246420",
+  "metadata_modified": "2016-10-07T22:14:33.065728",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "7b8358af-926a-44c2-b5e5-988b3bf50d40",
+      "webstore_last_updated": null,
+      "id": "0fbee8ad-2745-4aaa-918d-cdf666f00302",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "This database is being distributed for use in developing and testing of mugshot identification systems. The database contains images of 1,573 individuals (cases) for a total of 3,248 imagesstored in PNG format. The mugshots are mainly of male cases, with the database containing 1495 male cases and 78 female cases. The gender and age of each individual are stored in a text file that accompanies each image.",
+      "format": "the downloaded file is in zipped format with the images in PNG format",
+      "tracking_summary": {
+        "total": 5,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "Special  Database 18 -NIST Mugshot Identification Database (MID)",
+      "created": "2016-10-07T18:14:33.274268",
+      "url": "https://www.nist.gov/srd/nist-special-database-18",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "6e510b82-1f76-48c2-8cfe-7557d5ffc5ce",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7b8358af-926a-44c2-b5e5-988b3bf50d40",
+      "webstore_last_updated": null,
+      "id": "aa1b2088-f08f-4c03-acba-6044b276d09e",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "zipped file of PNG and TXT formatted files of Special Database 18",
+      "format": "zip file with PNG and text formatted files",
+      "tracking_summary": {
+        "total": 4,
+        "recent": 2
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "NIST Special Database 18 zipped file",
+      "created": "2016-10-07T18:14:33.274307",
+      "url": "https://s3.amazonaws.com/nist-srd/SD18/sd18.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 1,
+      "revision_id": "6e510b82-1f76-48c2-8cfe-7557d5ffc5ce",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7b8358af-926a-44c2-b5e5-988b3bf50d40",
+      "webstore_last_updated": null,
+      "id": "523d1410-6121-4ddb-bac8-c800c224c02f",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "MD5 hash files names for the PNG and text formatted files in the zipped download for Special Database 18",
+      "format": "text file with hash names for PNG and text formatted files",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/msword",
+      "cache_url": null,
+      "name": "MD5 file of Special Database 18",
+      "created": "2016-10-07T18:14:33.274316",
+      "url": "https://s3.amazonaws.com/nist-srd/SD18/hashed_zipped_files.txt",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 2,
+      "revision_id": "6e510b82-1f76-48c2-8cfe-7557d5ffc5ce",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "8-bit-gray-scales",
+      "id": "b650dde6-769a-467c-bb70-3b076dfde9e1",
+      "name": "8-bit-gray-scales"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "facial-recognition",
+      "id": "8a29b7ca-f936-4da7-9c23-f469a540422f",
+      "name": "facial-recognition"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "front-views",
+      "id": "75bda76b-c297-49f3-8c84-1d3133a90a0d",
+      "name": "front-views"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "law-enforcement",
+      "id": "2b5e8367-50e5-4f63-9f06-f59d6d86bf3b",
+      "name": "law-enforcement"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "matching",
+      "id": "202527c9-ea2a-4c73-bea5-2c6153c7570e",
+      "name": "matching"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "mugshots",
+      "id": "63d10ea7-6da0-4bdb-ac35-ba7eb35b2269",
+      "name": "mugshots"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "profile-views",
+      "id": "c69ffedc-8459-4794-9d64-feba258cd9d5",
+      "name": "profile-views"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "profiles",
+      "id": "784a29af-b080-4a14-9006-e983aeb5b4e8",
+      "name": "profiles"
+    }
+  ],
+  "tracking_summary": {
+    "total": 122,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:37:59.153068",
+    "title": "Department of Commerce",
+    "name": "doc-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.vos.noaa.gov/MWL/aug_10/Images/doc_logo_xparent.png",
+    "revision_id": "44c851b9-8872-497a-8a13-2f06740b7ffb",
+    "type": "organization",
+    "id": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+    "approval_status": "approved"
+  },
+  "name": "nist-mugshot-identification-database-mid-nist-special-database-18",
+  "isopen": true,
+  "url": null,
+  "notes": "This database was distributed for use in development and testing of automated mugshot identification systems. The database consists of one zipped file, containing a total of 3,248 images of variable size using PNG format for the images and TXT format for corresponding metadata files. There are images of 1,573 individuals (cases) 1,495 male and 78 female. \r\n\r\n The database contains both front and side (profile) views when available. Separating front views and profiles, there are 131 cases with two or more front views and 1,418 with only one front view. Profiles have 89 cases with two or more profiles and 1,268 with only one profile. Cases with both fronts and profiles have 89 cases with two or more of both fronts and profiles, 27 with two or more fronts and one profile, and 1,217 with only one front and one profile.",
+  "owner_org": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "National Institute of Standards and Technology"
+    },
+    {
+      "key": "landingPage",
+      "value": "https://www.nist.gov/srd/nist-special-database-18"
+    },
+    {
+      "key": "license",
+      "value": "http://www.nist.gov/open/license.cfm"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2005-01-09"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "language",
+      "value": [
+        "en"
+      ]
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Biometrics"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "006:55"
+      ]
+    },
+    {
+      "key": "references",
+      "value": [
+        "https://s3.amazonaws.com/nist-srd/SD18/readme_sd18.pdf"
+      ]
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "006:052"
+      ]
+    },
+    {
+      "key": "identifier",
+      "value": "1E651A532AFD8816E0531A570681A662439"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d871db44-acc3-4d63-9dc5-65bf915f4954"
+    },
+    {
+      "key": "source_hash",
+      "value": "d46db762e57e720e7ea39cfd4ee111d097cc635c"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d871db44-acc3-4d63-9dc5-65bf915f4954"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    }
+  ],
+  "title": "NIST Mugshot Identification Database (MID) - NIST Special Database 18",
+  "revision_id": "6e510b82-1f76-48c2-8cfe-7557d5ffc5ce"
+}

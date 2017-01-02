@@ -1,0 +1,218 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "07fe6509-b794-4811-a3ea-5061cbd50983",
+  "metadata_created": "2016-12-05T17:18:55.754376",
+  "metadata_modified": "2016-12-05T17:18:55.754376",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "07fe6509-b794-4811-a3ea-5061cbd50983",
+      "webstore_last_updated": null,
+      "id": "cc4d8d06-1604-4753-99f8-daec872fecac",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "5a071c72-a832-4e97-b6ac-6137065a1caa",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-12-05T12:18:55.924690",
+      "url": "https://www.sciencebase.gov/catalog/item/5575b3c1e4b08f9309d4bafc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "07fe6509-b794-4811-a3ea-5061cbd50983",
+      "webstore_last_updated": null,
+      "id": "81875f7f-5683-4f42-b346-a57f0ab752a4",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "5a071c72-a832-4e97-b6ac-6137065a1caa",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-12-05T12:18:55.924763",
+      "url": "http://pubs.er.usgs.gov/publication/sir20085075",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 0,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "modelled-stage-elevation-shoreline-1274-m3s",
+  "isopen": false,
+  "url": null,
+  "notes": "Using widely-available software intended for modeling rivers, a new one-dimensional hydraulic model was developed for the Colorado River through Grand Canyon from Lees Ferry to Diamond Creek. Solving one-dimensional equations of energy and continuity, the model predicts stage for a known steady-state discharge at specific locations, or cross sections, along the river corridor. This model uses 2,680 cross sections built with high-resolution digital topography of ground locations away from the river flowing at a discharge of 227 m3/s; synthetic bathymetry was created for topography submerged below the 227 m3/s water surface. The synthetic bathymetry was created by adjusting the water depth at each cross section up or down until the model’s predicted water-surface elevation closely matched a known water surface. This approach is unorthodox and offers a technique to construct one-dimensional hydraulic models of bedrock-controlled rivers where bathymetric data have not been collected. An analysis of this modeling approach shows that while effective in enabling a useful model, the synthetic bathymetry can differ from the actual bathymetry. The known water-surface profile was measured using elevation data collected in 2000 and 2002, and the model can simulate discharges up to 5,900 m3/s. In addition to the hydraulic model, GIS-based techniques were used to estimate virtual shorelines and construct inundation maps. The error of the hydraulic model in predicting stage is within 0.4 m for discharges less than 1,300 m3/s. Between 1,300-2,500 m3/s, the model accuracy is about 1.0 m, and for discharges between 2,500-5,900 m3/s, the model accuracy is on the order of 1.5 m. In the absence of large floods on the flow-regulated Colorado River in Grand Canyon, the new hydraulic model and the accompanying inundation maps are a useful resource for researchers interested in water depths, shorelines, and stage-discharge curves for flows within the river corridor with 2002 topographic conditions.",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Geological Survey, Southwest Region\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "tgushue@usgs.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-113.396394317"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2015-02-09"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2008-01-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-111.47858656"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "36.937427045"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "35.765455728"
+    },
+    {
+      "key": "licence",
+      "value": "[\"The data you have secured from the U.S. Geological Survey (USGS) database identified as USGS_2015_JSankey_RiparianVegetationAndColoradoRiver.gdb have not received USGS approval and as such are provisional and subject to revision. The data are released on the condition that neither the USGS nor the U.S. Government shall be held liable for any damages resulting from its authorized or unauthorized use. Although these data have been processed successfully on a computer system at the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. The USGS or the U.S. Government shall not be held liable for improper or incorrect use of the data described and/or contained herein.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-113.396394317, 35.765455728], [-111.47858656, 35.765455728], [-111.47858656, 36.937427045], [-113.396394317, 36.937427045], [-113.396394317, 35.765455728]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: Not a substitute for good field judgement. Not to be used for actual campsite location or definitive stage-discharge waters edge location.\", \"Access Constraints: none\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "tags",
+      "value": "stage discharge, grand canyon, river stage elevations, hec-ras model, colorado river, virtual shorelines, modeled flow lines"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "268e4aa3-f3df-49f5-a12e-d8aaebf3c4b5"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "62c89085-2d62-48f5-8dd7-2b2ce1615ef0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "USGS Southwest Biological Science Center"
+    }
+  ],
+  "title": "Modelled Stage Elevation Shoreline 1274 m3s",
+  "revision_id": "5a071c72-a832-4e97-b6ac-6137065a1caa"
+}

@@ -1,0 +1,485 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "2d78c597-d96f-4a79-8021-df6f2ecd59d0",
+  "metadata_created": "2015-09-26T23:27:06.678628",
+  "metadata_modified": "2016-10-19T19:18:47.724726",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "2d78c597-d96f-4a79-8021-df6f2ecd59d0",
+      "webstore_last_updated": null,
+      "id": "3d5118f4-0b8a-44a1-8388-befe7e2942d9",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard LAS html interface for selecting data from this dataset. ",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "LAS",
+      "created": "2016-10-19T15:18:48.616399",
+      "url": "http://ferret.pmel.noaa.gov/geoideLAS/getUI.do?data_url=http://data.nodc.noaa.gov/thredds/dodsC/testdata/ghrsst_ncml/fullAgg/aggregate__ghrsst_L3P_GLOB_AVHRR_METOP_A_EUR.ncml",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "0201c461-7de0-4c93-b748-0590aa0948a9",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2d78c597-d96f-4a79-8021-df6f2ecd59d0",
+      "webstore_last_updated": null,
+      "id": "dafe4b8e-2044-4e18-86f1-96d5b92b7e93",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard ERDDAP html interface for selecting data from this dataset. ",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ERDDAP",
+      "created": "2016-10-19T15:18:48.616424",
+      "url": "http://upwell.pfeg.noaa.gov/erddap/search/index.html?searchFor=http://data.nodc.noaa.gov/thredds/dodsC/testdata/ghrsst_ncml/fullAgg/aggregate__ghrsst_L3P_GLOB_AVHRR_METOP_A_EUR.ncml",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "0201c461-7de0-4c93-b748-0590aa0948a9",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2d78c597-d96f-4a79-8021-df6f2ecd59d0",
+      "webstore_last_updated": null,
+      "id": "19159f2a-d2f0-418e-b162-f42bfd63d641",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard OPeNDAP html interface for selecting data from this dataset. Change the extension to .info for a description of the dataset.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "File Information",
+      "created": "2016-10-19T15:18:48.616433",
+      "url": "http://data.nodc.noaa.gov/thredds/dodsC/testdata/ghrsst_ncml/fullAgg/aggregate__ghrsst_L3P_GLOB_AVHRR_METOP_A_EUR.ncml.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "0201c461-7de0-4c93-b748-0590aa0948a9",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2d78c597-d96f-4a79-8021-df6f2ecd59d0",
+      "webstore_last_updated": null,
+      "id": "2cf50062-0968-4b55-8ec6-291e158f2537",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "mapDigital",
+      "hash": "",
+      "description": "This URL provides an NCDC climate and weather toolkit view of an OPeNDAP resource.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Viewer Information",
+      "created": "2016-10-19T15:18:48.616441",
+      "url": "http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://data.nodc.noaa.gov/thredds/dodsC/testdata/ghrsst_ncml/fullAgg/aggregate__ghrsst_L3P_GLOB_AVHRR_METOP_A_EUR.ncml",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 3,
+      "revision_id": "0201c461-7de0-4c93-b748-0590aa0948a9",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2d78c597-d96f-4a79-8021-df6f2ecd59d0",
+      "webstore_last_updated": null,
+      "id": "85e1f720-6bbc-4868-875d-a9cea1987414",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": " Visualize with Live Access Server",
+      "created": "2016-10-19T15:18:48.616448",
+      "url": "http://ferret.pmel.noaa.gov/geoideLAS/getUI.do?data_url=http://data.nodc.noaa.gov/thredds/dodsC/testdata/ghrsst_ncml/fullAgg/aggregate__ghrsst_L3P_GLOB_AVHRR_METOP_A_EUR.ncml",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 4,
+      "revision_id": "0201c461-7de0-4c93-b748-0590aa0948a9",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2d78c597-d96f-4a79-8021-df6f2ecd59d0",
+      "webstore_last_updated": null,
+      "id": "b9f02e77-c9e7-4380-bad9-4c75dac8246d",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": " Visualize with ERDDAP",
+      "created": "2016-10-19T15:18:48.616455",
+      "url": "http://upwell.pfeg.noaa.gov/erddap/search/index.html?searchFor=http://data.nodc.noaa.gov/thredds/dodsC/testdata/ghrsst_ncml/fullAgg/aggregate__ghrsst_L3P_GLOB_AVHRR_METOP_A_EUR.ncml",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 5,
+      "revision_id": "0201c461-7de0-4c93-b748-0590aa0948a9",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2d78c597-d96f-4a79-8021-df6f2ecd59d0",
+      "webstore_last_updated": null,
+      "id": "bad16db0-d93f-482d-a7fe-0017e09d4e15",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": " Weather and Climate Toolkit",
+      "created": "2016-10-19T15:18:48.616462",
+      "url": "http://www.ncdc.noaa.gov/oa/wct/wct-jnlp.php?singlefile=http://data.nodc.noaa.gov/thredds/dodsC/testdata/ghrsst_ncml/fullAgg/aggregate__ghrsst_L3P_GLOB_AVHRR_METOP_A_EUR.ncml",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 6,
+      "revision_id": "0201c461-7de0-4c93-b748-0590aa0948a9",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2d78c597-d96f-4a79-8021-df6f2ecd59d0",
+      "webstore_last_updated": null,
+      "id": "76821330-677b-4964-ae6f-884a911950e9",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "The UAF project is providing this catalog as a public service to aid in the discovery and access of scientific data.  The UAF is not responsible for the content of the data and all questions regarding the data should be directed to the office where the data reside.",
+      "format": "",
+      "tracking_summary": {
+        "total": 18,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTPS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA GEO-IDE",
+      "created": "2016-10-19T15:18:48.616469",
+      "url": "https://geo-ide.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 7,
+      "revision_id": "0201c461-7de0-4c93-b748-0590aa0948a9",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2d78c597-d96f-4a79-8021-df6f2ecd59d0",
+      "webstore_last_updated": null,
+      "id": "744d55f5-ac1a-4e53-8aaf-1124988e0aad",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "THREDDS OPeNDAP",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OPeNDAP:OPeNDAP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OPeNDAP",
+      "created": "2016-10-19T15:18:48.616476",
+      "url": "http://data.nodc.noaa.gov/thredds/dodsC/testdata/ghrsst_ncml/fullAgg/aggregate__ghrsst_L3P_GLOB_AVHRR_METOP_A_EUR.ncml",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 8,
+      "revision_id": "0201c461-7de0-4c93-b748-0590aa0948a9",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2d78c597-d96f-4a79-8021-df6f2ecd59d0",
+      "webstore_last_updated": null,
+      "id": "eb3461b3-f292-4766-bb70-bffee6bfcef6",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Open Geospatial Consortium Web Coverage Service (WCS)",
+      "format": "WCS",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WCS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OGC-WCS",
+      "created": "2016-10-19T15:18:48.616483",
+      "url": "http://data.nodc.noaa.gov/thredds/wcs/testdata/ghrsst_ncml/fullAgg/aggregate__ghrsst_L3P_GLOB_AVHRR_METOP_A_EUR.ncml?service=WCS&version=1.0.0&request=GetCapabilities",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 9,
+      "revision_id": "0201c461-7de0-4c93-b748-0590aa0948a9",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2d78c597-d96f-4a79-8021-df6f2ecd59d0",
+      "webstore_last_updated": null,
+      "id": "05189193-2f9d-4293-826e-72124a37a4e8",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Open Geospatial Consortium Web Map Service (WMS)",
+      "format": "WMS",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WMS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OGC-WMS",
+      "created": "2016-10-19T15:18:48.616490",
+      "url": "http://data.nodc.noaa.gov/thredds/wms/testdata/ghrsst_ncml/fullAgg/aggregate__ghrsst_L3P_GLOB_AVHRR_METOP_A_EUR.ncml?service=WMS&version=1.3.0&request=GetCapabilities",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 10,
+      "revision_id": "0201c461-7de0-4c93-b748-0590aa0948a9",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 11,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 3,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "sea-surface-temperature-from-metop-avhrr",
+  "isopen": false,
+  "url": null,
+  "notes": "",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "179.97500610351562"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "89.9749984741211"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[{\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}, {\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}, {\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}]"
+    },
+    {
+      "key": "guid",
+      "value": "testdata.ghrsst_ncml.fullAgg.aggregate__ghrsst_L3P_GLOB_AVHRR_METOP_A_EUR.ncml"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "-89.9749984741211"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-179.975006104, -89.9749984741], [179.975006104, -89.9749984741], [179.975006104, 89.9749984741], [-179.975006104, 89.9749984741], [-179.975006104, -89.9749984741]]]}"
+    },
+    {
+      "key": "progress",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2009-09-01T12:00:00Z"
+    },
+    {
+      "key": "contact-email",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-179.97500610351562"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-10-13"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"revision\", \"value\": \"2014-05-22T18:10:47Z\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"L3P produced by the EUMETSAT O&SI SAF:copyright 2008 EUMETSAT\", \"roles\": [\"pointOfContact\"]}, {\"name\": \"The Unified Access Framework (UAF)\", \"roles\": [\"custodian\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2013-07-03T12:00:00Z"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": "THREDDS OPeNDAP"
+    },
+    {
+      "key": "metadata-language",
+      "value": "eng"
+    },
+    {
+      "key": "tags",
+      "value": "latitude, the unified access framework: a geo-ide project to integrate scientific data management and access, unified access framework (uaf), longitude, time"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "295d46b0-8271-4ab0-9b7f-f71cb56fd4e4"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Sea Surface Temperature from METOP AVHRR",
+  "revision_id": "00090c28-b38e-4fb0-8351-df704ac8970b"
+}

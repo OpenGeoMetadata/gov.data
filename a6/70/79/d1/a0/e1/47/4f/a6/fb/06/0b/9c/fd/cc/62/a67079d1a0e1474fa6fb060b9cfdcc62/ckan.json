@@ -1,0 +1,221 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "Carlos A. Fernandez",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "carlos.fernandez@pnnl.gov",
+  "num_tags": 4,
+  "id": "a67079d1-a0e1-474f-a6fb-060b9cfdcc62",
+  "metadata_created": "2016-12-08T22:06:20.168632",
+  "metadata_modified": "2016-12-08T22:06:20.168632",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "a67079d1-a0e1-474f-a6fb-060b9cfdcc62",
+      "webstore_last_updated": null,
+      "id": "92d10cdb-7ffd-4261-ad75-383b34571bd5",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "This excel sheet reports compressibility of PNNL's StimuFrac fluid as a function of CO2 concentration",
+      "format": "XLSX",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "cache_url": null,
+      "name": "stimufrac compressibility.xlsx",
+      "created": "2016-12-08T17:06:21.183815",
+      "url": "http://gdr.openei.org/files/870/StimuFrac%20compressibility.xlsx",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "4e6751ac-8ae2-4a51-b82f-2826ac89e56c",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "co2",
+      "id": "c22f90c8-5792-4417-8753-e807b29c8ee1",
+      "name": "co2"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "compressibility",
+      "id": "c56dc109-e1c2-4d39-aeae-6b73aebcee4a",
+      "name": "compressibility"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geothermal",
+      "id": "3f323051-fbd3-4715-bc13-e2fa5e65d369",
+      "name": "geothermal"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "stimufrac",
+      "id": "c25a7295-d4b4-4a35-9b2d-3e4c01cf8b47",
+      "name": "stimufrac"
+    }
+  ],
+  "tracking_summary": {
+    "total": 0,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "stimufrac-compressibility-as-a-funciton-of-co2-molar-fraction",
+  "isopen": true,
+  "url": null,
+  "notes": "Compressibility values were obtained in a range of pressures at 250C by employing a fixed volume view cell completely filled with PAA aqueous solution and injecting CO2 at constant flow rate (0.3mL/min). Pressure increase as a function of supercritical CO2 (scCO2) mass fraction in the mixture was monitored.\nThe plot shows the apparent compressibility of Stimufrac as a function of scCO2 mass fraction obtained in a pressure range between 2100-7000 psi at 250C.\n\nAt small mass fractions of scCO2 the compressibility increases probably due to the dissolution/reaction of CO2 in aqueous PAA and reaches a maximum at mCO2/mH2O = 0.06. Then, compressibility decreases showing a linear relationship with scCO2 mass fraction due to the continuous increase in density of the binary fluid associated to the pressure increase.",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "issued",
+      "value": "2016-04-29"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "ce52158f002d3c319f7b259a6edf52335fc4bbb2"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-116.7502,35.2279],[-112.8941,35.2279],[-112.8941,39.3634],[-116.7502,39.3634],[-116.7502,35.2279]]]}"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "format",
+      "value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:006"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://gdr.openei.org/submissions/870"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "0c63525f-7a0a-402d-ac68-1c1c33d8d5a1"
+    },
+    {
+      "key": "accessURL",
+      "value": "http://gdr.openei.org/files/870/StimuFrac%20compressibility.xlsx"
+    },
+    {
+      "key": "publisher",
+      "value": "Pacific Northwest National Laboratory"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "key": "modified",
+      "value": "2016-04-29"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/f0000000-e214-4c72-acd2-000000000870"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "0c63525f-7a0a-402d-ac68-1c1c33d8d5a1"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "StimuFrac compressibility as a funciton of CO2 molar fraction",
+  "revision_id": "4e6751ac-8ae2-4a51-b82f-2826ac89e56c"
+}

@@ -1,0 +1,264 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "Daniel Blumenthal",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "Daniel.Blumenthal@nnsa.doe.gov",
+  "num_tags": 7,
+  "id": "206081f3-e258-42a9-9214-8ed8c07fcb73",
+  "metadata_created": "2014-10-02T19:57:51.616194",
+  "metadata_modified": "2015-10-10T10:21:22.483360",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "206081f3-e258-42a9-9214-8ed8c07fcb73",
+      "webstore_last_updated": null,
+      "id": "0575c23d-c450-4e62-a6ac-6d8ef4a80d2b",
+      "size": null,
+      "state": "active",
+      "describedBy": "http://energy.gov/sites/prod/files/NNSADataRepositoryGuide_2.pdf",
+      "hash": "",
+      "description": "FieldSampleInstrumentResults.csv",
+      "format": "spreadsheet",
+      "tracking_summary": {
+        "total": 57,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "mimetype": "text/csv",
+      "cache_url": null,
+      "name": "Fukushima Instrument Samples",
+      "created": "2014-10-02T15:57:51.793183",
+      "url": "http://energy.gov/sites/prod/files/FieldSampleInstrumentResults.csv",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "ffaf11b5-a870-4d1e-bef7-44c3409a1a06",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "environmental-monitoring",
+      "id": "7ed0f38e-6a39-4057-9caf-bbba097d3f2e",
+      "name": "environmental-monitoring"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "fukushima",
+      "id": "f04d232d-e923-4423-8abb-fd05c7772534",
+      "name": "fukushima"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "japan",
+      "id": "a7e8aaa5-2a99-4032-b481-6ecf1a5c5e49",
+      "name": "japan"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "nuclear",
+      "id": "1cdf1493-0251-4a7c-89f7-e1285de05d45",
+      "name": "nuclear"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "radiation",
+      "id": "de3a8b8c-1a9a-4c8e-8ebf-297e190a3f8f",
+      "name": "radiation"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "radiological",
+      "id": "02e52125-607e-4b38-973b-490cdf394c9d",
+      "name": "radiological"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "tohoku",
+      "id": "3b5f0763-88f0-4af0-98a4-8d896375ccfb",
+      "name": "tohoku"
+    }
+  ],
+  "tracking_summary": {
+    "total": 110,
+    "recent": 2
+  },
+  "groups": [
+    {
+      "display_name": "Safety",
+      "description": "",
+      "image_display_url": "",
+      "title": "Safety",
+      "id": "872991f6-ef6d-40e1-8bdc-fbbcede1463d",
+      "name": "safety3175"
+    }
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "us-doe-nnsa-response-to-2011-fukushima-incident-instrument-samples-insitu-measurements-09ee4",
+  "isopen": true,
+  "url": null,
+  "notes": "Field Samples are physical media collected during the response which are subsequently analyzed either in a laboratory or in the field using InSitu equipment. Common field samples include air filters and soil samples. Radiochemistry analysis typically reports the presence of specific radionuclides measured as total activity or as either activity/unit of mass or activity/unit of volume, depending upon the sample media. In addition, total beta and total alpha activity may be reported. Currently, air filter and soil sample analysis results may be downloaded through the data repository. Both data sets are similar; they contain a number of columns describing the collected sample as well as the results of radiochemical analysis. In addition, there are a number of special fields that are specific to a given sample type; e.g. Air Filters specify the filter type and total volume, while soil samples specify the sample weight. For convenience, the sample information and subsequent analysis has been flattened into a simple tabular format. Consequently, if a sample has multiple analysis results the sample collection values will be repeated through the set; e.g. sample ID#, barcode, latitude/longitude, collection date etc. To be included in the data repository, a given sample must meet the following criteria: has a valid latitude, longitude, and collection date; has been sent to a laboratory for analysis, or had analysis performed in the field; has at least one valid analysis result with a reportable unit, nuclide, and activity which has been validated by an authorized laboratory staff member.  These results represent raw data that have been calibrated  to physical units and validated. They do not include any further evaluation.",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://energy.gov/sites/prod/files/NNSADataRepositoryGuide_2.pdf"
+      ]
+    },
+    {
+      "key": "source_hash",
+      "value": "51c086974395cf38162e14da7ce02aee019bb7db"
+    },
+    {
+      "key": "temporal",
+      "value": "2011-03-17/2011-07-02"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "environment"
+      ]
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:047"
+      ]
+    },
+    {
+      "key": "spatial",
+      "value": "Fukushima-ken"
+    },
+    {
+      "key": "__category_tag_872991f6-ef6d-40e1-8bdc-fbbcede1463d",
+      "value": "[\"Environmental Consequences\"]"
+    },
+    {
+      "key": "describedBy",
+      "value": "http://energy.gov/sites/prod/files/NNSADataRepositoryGuide_2.pdf"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:05"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "83ba3efe-7895-498b-b4f6-18ffbbf9b02d"
+    },
+    {
+      "key": "publisher",
+      "value": "National Nuclear Security Administration"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "modified",
+      "value": "2013-04-11"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "DOE-019-9181673421"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "83ba3efe-7895-498b-b4f6-18ffbbf9b02d"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "US DOE/NNSA Response to 2011 Fukushima Incident: Instrument Samples (InSitu Measurements",
+  "revision_id": "b65e72df-47aa-4ae3-9aec-bbb0909fcaff"
+}

@@ -1,0 +1,200 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "Open Data (MGMT)",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "edmo@hq.dhs.gov",
+  "num_tags": 5,
+  "id": "d027ff32-3504-4001-9fc1-13c7007cfe3e",
+  "metadata_created": "2016-05-27T02:32:43.620273",
+  "metadata_modified": "2016-05-27T02:32:43.620273",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "d027ff32-3504-4001-9fc1-13c7007cfe3e",
+      "webstore_last_updated": null,
+      "id": "783661a1-cd8c-4987-b8fe-0fc33d52792f",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 574,
+        "recent": 47
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-05-26T22:32:43.886869",
+      "url": "https://hifld-dhs-gii.opendata.arcgis.com/",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "1d7ad3dc-d937-4d28-8937-302076ea5c83",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geospatial",
+      "id": "a4243fe5-7437-4077-a369-d17bb543e6f2",
+      "name": "geospatial"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "imagery",
+      "id": "97aa96c3-cc35-4805-919d-d8954bd222d6",
+      "name": "imagery"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "infrastructure",
+      "id": "23924944-4d8d-40de-ad57-58e2cceb86cc",
+      "name": "infrastructure"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "location",
+      "id": "cb9360ae-de97-4ea4-8906-3951aa79fe4b",
+      "name": "location"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "map",
+      "id": "4b25baf2-c254-4949-8996-e9c3895fa2b6",
+      "name": "map"
+    }
+  ],
+  "tracking_summary": {
+    "total": 6,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:49:45.283358",
+    "title": "Department of Homeland Security",
+    "name": "dhs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/dhs.png",
+    "revision_id": "fb44c14e-9b55-46b9-b355-d465242171bb",
+    "type": "organization",
+    "id": "05d603ec-9121-4f71-b09e-5d5b5a7efc64",
+    "approval_status": "approved"
+  },
+  "name": "flood-hazard-areas-high-risk",
+  "isopen": false,
+  "url": null,
+  "notes": "The S_Fld_Haz_Ar table contains information about the flood hazards within the study area. A spatial file with locational information also corresponds with this data table. These zones are used by the federal Emergency Management Agency (FEMA) to designate the Special Flood Hazard Area (SFHA) and for insurance rating purposes. These data are the flood hazard areas that are or will be depicted on the Flood Insurance Rate Map (FIRM). A spatial file with locational information also corresponds with this data table. The spatial elements representing the flood zones are polygons. The entire area of the jurisdiction(s) mapped by the FIRM should have a corresponding flood zone polygon. There is one polygon for each contiguous flood zone designated. This is a modified Standard DFIRM Database table that includes Standard DFIRM Database items and Enhanced Database items. All items after SOURCE_CIT are Enhanced. More information can be found in the document 'Guidelines and Specifications for Flood Hazard Mapping Partners Appendix LGuidance for Preparing Draft Digital Data and DFIRM Database' located on this disk.",
+  "owner_org": "05d603ec-9121-4f71-b09e-5d5b5a7efc64",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Under Secretary / Management"
+    },
+    {
+      "key": "identifier",
+      "value": "2579"
+    },
+    {
+      "key": "accessLevelComment",
+      "value": "Continental United States, Alaska, Hawaii, Puerto Rico, U.S. Virgin Islands, Guam, American Samoa, Northern Marianas"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "bd9faa28-bbb6-45f3-a4f0-d302a4a61802"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2016-05-19"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "DHS datajson source"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "024:003"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "024:10"
+      ]
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d44a2c7a-d565-4e7b-af14-0605962db1c1"
+    },
+    {
+      "key": "source_hash",
+      "value": "29d16b04f6b706a86591568bb346c074051b75b8"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d44a2c7a-d565-4e7b-af14-0605962db1c1"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "bd9faa28-bbb6-45f3-a4f0-d302a4a61802"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "DHS datajson source"
+    }
+  ],
+  "title": "Flood Hazard Areas - High Risk",
+  "revision_id": "1d7ad3dc-d937-4d28-8937-302076ea5c83"
+}

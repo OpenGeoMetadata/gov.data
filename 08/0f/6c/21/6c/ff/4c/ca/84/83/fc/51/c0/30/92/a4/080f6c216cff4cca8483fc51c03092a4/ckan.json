@@ -1,0 +1,206 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Data Exchange Administrator",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "ORDP.Data.Exchange@ssa.gov",
+  "num_tags": 8,
+  "id": "080f6c21-6cff-4cca-8483-fc51c03092a4",
+  "metadata_created": "2015-01-30T16:17:45.615158",
+  "metadata_modified": "2016-12-01T20:59:05.396455",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "civil-service-benefit",
+      "id": "a03caced-2ef2-4215-a00d-46dbf8c952ea",
+      "name": "civil-service-benefit"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "office-of-personnel-management",
+      "id": "1e0022d8-002e-4d1e-9250-2b1c90862f68",
+      "name": "office-of-personnel-management"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "opm",
+      "id": "2f2a0bf8-c80f-49d4-aa67-059b6f57f593",
+      "name": "opm"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "special-veterans-benefits",
+      "id": "cdb091f2-d485-41c3-a7c5-72e9ca63c716",
+      "name": "special-veterans-benefits"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ssi",
+      "id": "8a00bb14-4671-4c6d-ad43-8d9612cbb893",
+      "name": "ssi"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "supplemental-security-income",
+      "id": "cbb24aa2-64a3-4b8f-8e9a-a3fbccb73c70",
+      "name": "supplemental-security-income"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "svb",
+      "id": "cb32dfd4-83de-469e-84a0-e4bd7deaa77c",
+      "name": "svb"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "world-war-ii-veterans",
+      "id": "29e9a1e5-47c3-4e3a-9791-c43daefe5bf2",
+      "name": "world-war-ii-veterans"
+    }
+  ],
+  "tracking_summary": {
+    "total": 16,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:35:25.934290",
+    "title": "Social Security Administration",
+    "name": "ssa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/ssa.png",
+    "revision_id": "1be01963-921d-432f-b56d-37fa76dfb0a1",
+    "type": "organization",
+    "id": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+    "approval_status": "approved"
+  },
+  "name": "title-16-office-of-personnel-management-opm-interface",
+  "isopen": true,
+  "url": null,
+  "notes": "On a monthly basis, the Office of Personnel Management (OPM) provides Civil Service benefit and payment data to SSA that is used in determining eligibility for Supplemental Security Income (SSI) payments and Special Veterans' Benefits (SVB). SSA will match OPM's data with SSA's records to verify the accuracy of information furnished by applicants and recipients concerning eligibility factors for the SSI program and for the Special Veterans' Benefits (SVB) program. The SVB program provides benefits to certain World War II veterans.",
+  "owner_org": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Social Security Administration"
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "license",
+      "value": "https://www.ssa.gov/open/data/Restricted-Public-Licensing-Information.html"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "rights",
+      "value": "The data contained in this data exchange is restricted due to sensitivity and/or privacy issues.  If you would like more information on a data exchange with SSA please visit the following web site https://www.ssa.gov/dataexchange/."
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "R/P1M"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "016:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "016:00"
+      ]
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1M"
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "US-GOV-SSA-639"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "b2693264-7879-4419-8e4f-9c246be92f15"
+    },
+    {
+      "key": "source_hash",
+      "value": "fdadfda210915e4d4028ae9a0f5105f567d35e9d"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "b2693264-7879-4419-8e4f-9c246be92f15"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    }
+  ],
+  "title": "Title 16 / Office of Personnel Management (OPM) Interface",
+  "revision_id": "f6477cdf-64b4-42bf-a78c-d8cbfa5cebff"
+}

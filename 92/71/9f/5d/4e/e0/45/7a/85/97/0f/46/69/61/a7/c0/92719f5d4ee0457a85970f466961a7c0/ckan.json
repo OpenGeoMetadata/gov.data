@@ -1,0 +1,217 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "92719f5d-4ee0-457a-8597-0f466961a7c0",
+  "metadata_created": "2016-12-06T08:57:17.542191",
+  "metadata_modified": "2016-12-06T08:57:17.542191",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "92719f5d-4ee0-457a-8597-0f466961a7c0",
+      "webstore_last_updated": null,
+      "id": "161e8e76-83f3-4c04-b316-c42810a6f796",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": ".nc for files that are .NetCDF4 format, .h5 for the .HDF5 format.",
+      "tracking_summary": {
+        "total": 850,
+        "recent": 28
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": ".nc for files that are .NetCDF4 format, .h5 for the .HDF5 format.",
+      "created": "2016-12-06T03:57:17.728890",
+      "url": "http://earthexplorer.usgs.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "5ac751a6-eeb4-4402-b1b0-f924c8fb0e73",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "92719f5d-4ee0-457a-8597-0f466961a7c0",
+      "webstore_last_updated": null,
+      "id": "f5bd6bb3-e13a-4063-aa1c-1f99f9bce883",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "AG5KMMON.004",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "5ac751a6-eeb4-4402-b1b0-f924c8fb0e73",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-12-06T03:57:17.728918",
+      "url": "http://dx.doi.org/10.5067/Community/ASTER_GED/AG5KMMON.004",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 0,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "aster-global-emissivity-dataset-monthly-0-05-degree-netcdf44e395",
+  "isopen": false,
+  "url": null,
+  "notes": "Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) Global Emissivity Dataset (GED) is a collection of monthly files (see known issues for gaps) for each year of global emissivity. The ASTER GED data products are generated for 2000 - 2015 using the ASTER Temperature Emissivity Separation (TES) algorithm atmospheric correction method. This algorithm method uses Moderate Resolution Imaging Spectroradiometer (MODIS) Atmospheric Profiles product [MOD07](http://modis-atmos.gsfc.nasa.gov/MOD07_L2/index.html) and the MODTRAN 5.2 radiative transfer model along with the snow cover data from the standard monthly MODIS/Terra snow cover monthly global 0.05 degree product [MOD10CM](http://nsidc.org/data/docs/daac/modis_v5/mod10cm_modis_terra_snow_monthly_global_0.05deg_cmg.gd.html), and vegetation information from the MODIS monthly gridded NDVI product [MOD13C2](https://lpdaac.usgs.gov/dataset_discovery/modis/modis_products_table/mod13c2). ASTER GED Monthly V004 data products are offered in both Hierarchical Data Format 5 (.HDF5) and Network Common Data Form 4 (.NetCDF4) formats. The ASTER GED Monthly V004 files are scheduled to be delivered around the first quarter of the next Calendar year (January - March). For example, 2015 monthly files should be delivered and made available during the first quarter of Calendar year 2016. The National Aeronautics and Space Administration's (NASA) Jet Propulsion Laboratory (JPL), California Institute of Technology, developed the ASTER GED product. Additional ASTER GED product information is available at https://lpdaac.usgs.gov/dataset_discovery/community/community_products_table. Product tiles are available in HDF5 and NetCD formats and may be downloaded via HTTP by visiting the following data clients: NASA Reverb (http://reverb.echo.nasa.gov), LP DAAC Data Pool (http://e4ftl01.cr.usgs.gov/ASTT/), Earthdata Search Client (https://search.earthdata.nasa.gov/) or EarthExplorer (http://earthexplorer.usgs.gov).",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Geological Survey Earth Resources Observation and Science (EROS) Center\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "lta@usgs.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "0"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-04-14"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2016-04-14\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "0"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "0"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "0"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty, expressed or implied, is made by the USGS regarding the use of the data on any other system, nor does the act of distribution constitute any such warranty.  \"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "underDevelopment"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Point\", \"coordinates\": [0.0, 0.0]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: There is no guarantee of warranty concerning the accuracy of these data. Users should be aware that temporal changes may have occurred since the data was collected and that some parts of these data may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of their limitations. Acknowledgement of the originating agencies would be appreciated in products derived from these data. Any user who modifies the data set is obligated to describe the types of modifications they perform. User specifically agrees not to misrepresent the data set, nor to imply that changes made were approved or endorsed by the U.S. Geological Survey. Please refer to http://www.usgs.gov/privacy.html for the USGS disclaimer.\", \"Access Constraints: Any downloading and use of these data signifies a user's agreement to comprehension and compliance of the USGS Standard Disclaimer. Insure all portions of metadata are read and clearly understood before using these data in order to protect both user and USGS interests.\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "tags",
+      "value": "imagery, image map, earth observing system, land processes distributed active archive center (lpdaac), earth resources observation and science (eros) center, aster, normalized difference vegetation index, terra, u.s. geological survey, land surface temperature, emissivity"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "fd1b4939-eba1-45df-9196-c1d2d29ba239"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "9f092989-2f6c-4e4b-a5eb-a9c8261a27e6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "USGS Earth Resources Observation and Science (EROS)"
+    }
+  ],
+  "title": "ASTER Global Emissivity Dataset Monthly 0.05 degree NetCDF4",
+  "revision_id": "5ac751a6-eeb4-4402-b1b0-f924c8fb0e73"
+}

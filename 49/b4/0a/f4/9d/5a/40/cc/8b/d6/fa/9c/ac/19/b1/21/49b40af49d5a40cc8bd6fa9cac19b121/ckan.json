@@ -1,0 +1,819 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "49b40af4-9d5a-40cc-8bd6-fa9cac19b121",
+  "metadata_created": "2016-09-14T03:45:56.293848",
+  "metadata_modified": "2016-09-14T03:45:56.293848",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "49b40af4-9d5a-40cc-8bd6-fa9cac19b121",
+      "webstore_last_updated": null,
+      "id": "30a4529d-91fe-40e4-810e-b79a03cb97c6",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "This ASCII text file describes the model data release including the archive folder structure and the files contained in each sub directory. This file also includes instructions on how to run the models contained in this data release.",
+      "format": "TXT",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "readme.txt",
+      "created": "2016-09-13T23:45:56.923091",
+      "url": "http://water.usgs.gov/GIS/dsdl/gwmodels/SIR2016-5076/README.txt",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "19e526fa-f8b0-4227-af38-b2c88cda9689",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "49b40af4-9d5a-40cc-8bd6-fa9cac19b121",
+      "webstore_last_updated": null,
+      "id": "4eb62bd8-4933-48e6-9b3a-8c3c00dd9ada",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "This ASCII text file defines the four corners of the model domain in decimal degrees.",
+      "format": "TXT",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "modelgeoref.txt",
+      "created": "2016-09-13T23:45:56.923115",
+      "url": "http://water.usgs.gov/GIS/dsdl/gwmodels/SIR2016-5076/modelgeoref.txt",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "19e526fa-f8b0-4227-af38-b2c88cda9689",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "49b40af4-9d5a-40cc-8bd6-fa9cac19b121",
+      "webstore_last_updated": null,
+      "id": "f4743b61-1b89-4c19-b1e3-b5021f10d892",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "This ZIP file contains ancillary data including subdirectories with the final PEST model calibration files and files required to generate hydrologic budgets using ZONEBUDGET.",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ancillary.zip",
+      "created": "2016-09-13T23:45:56.923125",
+      "url": "http://water.usgs.gov/GIS/dsdl/gwmodels/SIR2016-5076/ancillary.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "19e526fa-f8b0-4227-af38-b2c88cda9689",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "49b40af4-9d5a-40cc-8bd6-fa9cac19b121",
+      "webstore_last_updated": null,
+      "id": "43d891f8-898a-40d0-8c71-4eac811ad5ef",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "ZIP file containing the MODFLOW-NWT 64-bit executable used to run the base simulation and the 11 scenario simulations documented in the report. The ZONEBUDGET executable used to calculate water budgets is included as well as the PEST executable.",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "bin.zip",
+      "created": "2016-09-13T23:45:56.923133",
+      "url": "http://water.usgs.gov/GIS/dsdl/gwmodels/SIR2016-5076/bin.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 3,
+      "revision_id": "19e526fa-f8b0-4227-af38-b2c88cda9689",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "49b40af4-9d5a-40cc-8bd6-fa9cac19b121",
+      "webstore_last_updated": null,
+      "id": "1073aee0-0f13-4bf0-9f51-1b0713df35bb",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "ZIP file containing a shapefile which defines the extent of the model domain and active portion of the model.",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "georef.zip",
+      "created": "2016-09-13T23:45:56.923141",
+      "url": "http://water.usgs.gov/GIS/dsdl/gwmodels/SIR2016-5076/georef.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 4,
+      "revision_id": "19e526fa-f8b0-4227-af38-b2c88cda9689",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "49b40af4-9d5a-40cc-8bd6-fa9cac19b121",
+      "webstore_last_updated": null,
+      "id": "9aa8497c-4d10-4673-935e-d96ee73cfb09",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "This ZIP file contains the input files for the final calibration simulation and the 11 scenario simulations.",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "model.zip",
+      "created": "2016-09-13T23:45:56.923148",
+      "url": "http://water.usgs.gov/GIS/dsdl/gwmodels/SIR2016-5076/model.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 5,
+      "revision_id": "19e526fa-f8b0-4227-af38-b2c88cda9689",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "49b40af4-9d5a-40cc-8bd6-fa9cac19b121",
+      "webstore_last_updated": null,
+      "id": "09a105e1-cf2f-4acf-b67f-1403dc7a11e4",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "This ZIP file contains the output files for the final calibration simulation.",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "output.base.zip",
+      "created": "2016-09-13T23:45:56.923156",
+      "url": "http://water.usgs.gov/GIS/dsdl/gwmodels/SIR2016-5076/output.base.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 6,
+      "revision_id": "19e526fa-f8b0-4227-af38-b2c88cda9689",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "49b40af4-9d5a-40cc-8bd6-fa9cac19b121",
+      "webstore_last_updated": null,
+      "id": "e04fb3a7-4a49-47cb-a319-aba13fd193fd",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "This ZIP file contains the output file for the no pumping and no wastewater returnflow scenario.",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "output.scen01.zip",
+      "created": "2016-09-13T23:45:56.923163",
+      "url": "http://water.usgs.gov/GIS/dsdl/gwmodels/SIR2016-5076/output.scen01.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 7,
+      "revision_id": "19e526fa-f8b0-4227-af38-b2c88cda9689",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "49b40af4-9d5a-40cc-8bd6-fa9cac19b121",
+      "webstore_last_updated": null,
+      "id": "8145245c-e5b5-44e5-aaf2-5adca0774c4c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "This ZIP file contains the output files for drought analysis(a).",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "output.scen02.zip",
+      "created": "2016-09-13T23:45:56.923171",
+      "url": "http://water.usgs.gov/GIS/dsdl/gwmodels/SIR2016-5076/output.scen02.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 8,
+      "revision_id": "19e526fa-f8b0-4227-af38-b2c88cda9689",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "49b40af4-9d5a-40cc-8bd6-fa9cac19b121",
+      "webstore_last_updated": null,
+      "id": "f709eede-b444-4630-8edb-4d47512b143e",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "This ZIP file contains the output files for drought analysis(b).",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "output.scen03.zip",
+      "created": "2016-09-13T23:45:56.923178",
+      "url": "http://water.usgs.gov/GIS/dsdl/gwmodels/SIR2016-5076/output.scen03.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 9,
+      "revision_id": "19e526fa-f8b0-4227-af38-b2c88cda9689",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "49b40af4-9d5a-40cc-8bd6-fa9cac19b121",
+      "webstore_last_updated": null,
+      "id": "9b7a34bf-6215-4356-bd18-5170549ecfcc",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "This ZIP file contains the output files for drought analysis(c).",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "output.scen04.zip",
+      "created": "2016-09-13T23:45:56.923186",
+      "url": "http://water.usgs.gov/GIS/dsdl/gwmodels/SIR2016-5076/output.scen04.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 10,
+      "revision_id": "19e526fa-f8b0-4227-af38-b2c88cda9689",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "49b40af4-9d5a-40cc-8bd6-fa9cac19b121",
+      "webstore_last_updated": null,
+      "id": "b1f0c1c2-ff4d-423b-963f-58417043eeef",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "This ZIP file contains output files used to examine the effects of changes in recharge on water levels throughout the aquifer system.",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "output.scen05.zip",
+      "created": "2016-09-13T23:45:56.923193",
+      "url": "http://water.usgs.gov/GIS/dsdl/gwmodels/SIR2016-5076/output.scen05.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 11,
+      "revision_id": "19e526fa-f8b0-4227-af38-b2c88cda9689",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "49b40af4-9d5a-40cc-8bd6-fa9cac19b121",
+      "webstore_last_updated": null,
+      "id": "58bb086b-7a2c-4e44-b92c-132fde546884",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "This ZIP file contains the output files for sea-level rise analysis(a).",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "output.scen06.zip",
+      "created": "2016-09-13T23:45:56.923201",
+      "url": "http://water.usgs.gov/GIS/dsdl/gwmodels/SIR2016-5076/output.scen06.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 12,
+      "revision_id": "19e526fa-f8b0-4227-af38-b2c88cda9689",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "49b40af4-9d5a-40cc-8bd6-fa9cac19b121",
+      "webstore_last_updated": null,
+      "id": "303bce20-0d88-4b06-b9d3-4fad8577ffe2",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "This ZIP file contains the output files for sea-level rise analysis(b).",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "output.scen07.zip",
+      "created": "2016-09-13T23:45:56.923208",
+      "url": "http://water.usgs.gov/GIS/dsdl/gwmodels/SIR2016-5076/output.scen07.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 13,
+      "revision_id": "19e526fa-f8b0-4227-af38-b2c88cda9689",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "49b40af4-9d5a-40cc-8bd6-fa9cac19b121",
+      "webstore_last_updated": null,
+      "id": "82da7bfa-a120-47bc-958f-225c2bb4a5b2",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "This ZIP file contains the output files for the pumping without wastewater returnflow condition.",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "output.scen08.zip",
+      "created": "2016-09-13T23:45:56.923216",
+      "url": "http://water.usgs.gov/GIS/dsdl/gwmodels/SIR2016-5076/output.scen08.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 14,
+      "revision_id": "19e526fa-f8b0-4227-af38-b2c88cda9689",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "49b40af4-9d5a-40cc-8bd6-fa9cac19b121",
+      "webstore_last_updated": null,
+      "id": "188a6a3d-6d8c-48bc-9ad2-94c0185c1195",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "This ZIP file contains the output files for the analysis of the southern boundary condition(a).",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "output.scen09.zip",
+      "created": "2016-09-13T23:45:56.923223",
+      "url": "http://water.usgs.gov/GIS/dsdl/gwmodels/SIR2016-5076/output.scen09.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 15,
+      "revision_id": "19e526fa-f8b0-4227-af38-b2c88cda9689",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "49b40af4-9d5a-40cc-8bd6-fa9cac19b121",
+      "webstore_last_updated": null,
+      "id": "2a7d451c-da6c-4ea8-b451-be645450daa8",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "This ZIP file contains the output files for the analysis of the southern boundary condition(b).",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "output.scen10.zip",
+      "created": "2016-09-13T23:45:56.923231",
+      "url": "http://water.usgs.gov/GIS/dsdl/gwmodels/SIR2016-5076/output.scen10.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 16,
+      "revision_id": "19e526fa-f8b0-4227-af38-b2c88cda9689",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "49b40af4-9d5a-40cc-8bd6-fa9cac19b121",
+      "webstore_last_updated": null,
+      "id": "7396b973-22a2-4415-9348-57a8c7455887",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "This ZIP file contains the output files for the analysis of the southern boundary condition(c).",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "output.scen11.zip",
+      "created": "2016-09-13T23:45:56.923238",
+      "url": "http://water.usgs.gov/GIS/dsdl/gwmodels/SIR2016-5076/output.scen11.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 17,
+      "revision_id": "19e526fa-f8b0-4227-af38-b2c88cda9689",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "49b40af4-9d5a-40cc-8bd6-fa9cac19b121",
+      "webstore_last_updated": null,
+      "id": "a666bd39-b0ef-4e01-a8f4-267124f34180",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "ZIP file containing Source code files for MODFLOW-NWT_1.0.8 and PEST_v13 used to run model simulations included in the data release.",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "source.zip",
+      "created": "2016-09-13T23:45:56.923251",
+      "url": "http://water.usgs.gov/GIS/dsdl/gwmodels/SIR2016-5076/source.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 18,
+      "revision_id": "19e526fa-f8b0-4227-af38-b2c88cda9689",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "49b40af4-9d5a-40cc-8bd6-fa9cac19b121",
+      "webstore_last_updated": null,
+      "id": "6d36475d-8fa5-4c63-8e3b-e2593716fbfe",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "19e526fa-f8b0-4227-af38-b2c88cda9689",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-09-13T23:45:56.923269",
+      "url": "http://dx.doi.org/10.5066/F7MG7MKR",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 19,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "49b40af4-9d5a-40cc-8bd6-fa9cac19b121",
+      "webstore_last_updated": null,
+      "id": "7e648e03-36a8-40b4-a874-dc7fb5ea1e3e",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "19e526fa-f8b0-4227-af38-b2c88cda9689",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-09-13T23:45:56.923287",
+      "url": "http://dx.doi.org/10.3133/sir20165076",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 20,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "49b40af4-9d5a-40cc-8bd6-fa9cac19b121",
+      "webstore_last_updated": null,
+      "id": "5c3caf6b-4e8e-4b9c-868b-a6e331982310",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "19e526fa-f8b0-4227-af38-b2c88cda9689",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-09-13T23:45:56.923303",
+      "url": "http://dx.doi.org/10.3133/PP1829",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 21,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 22,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 19,
+    "recent": 5
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "modflow-nwt-model-used-to-assess-groundwater-availability-in-the-northern-atlantic-coastal-plai",
+  "isopen": false,
+  "url": null,
+  "notes": "A three-dimensional, groundwater flow model was developed with the numerical code MODFLOW-NWT to represent changes in groundwater pumping and aquifer recharge in the Northern Atlantic Coastal Plain aquifer system from Long Island, New York to North Carolina. The model was constructed using existing hydrogeologic and geospatial information to represent the aquifer system geometry, boundaries, and hydraulic properties of the 19 separate regional aquifers and confining units within the aquifer system. The model was calibrated using an inverse modeling parameter-estimation (PEST) technique to conditions from 1986 to 2008, the period for which data are most complete and reliable. The simulation period for this analysis spanned from predevelopment to future conditions, from 1900 to 2058. The model was used to advance the understanding of groundwater budgets and components including recharge, discharge, and aquifer storage for the entire system and for each of the statewide systems; compute historical and recent system response and project future system response to development at a scale relevant to basinwide water-management decisions; and evaluate options for hydrologic monitoring of system changes. The report âDocumentation of a groundwater flow model developed to assess groundwater availability in the Northern Atlantic Coastal Plain aquifer system from Long Island, New York, to North Carolina: U.S. Geological Survey Scientific Investigations Report 2016â5076' (http://dx.doi.org/10.3133/sir20165076) documents the model design and calibration, as well as several simulations to test model construction assumptions. The report 'Assessment of groundwater availability in the Northern Atlantic Coastal Plain aquifer system from Long Island, New York, to North Carolina: U.S. Geological Survey Professional Paper 1829' (http://dx.doi.org/10.3133/pp1829) documents water-availability simulations and the resulting analysis and discussion. This USGS data release contains all of the input and output files for the simulations described in the associated reports (http://dx.doi.org/10.3133/sir20165076) and (http://dx.doi.org/10.3133/pp1829). This data release also includes (1) MODFLOW-NWT source code, (2) the PEST files and source code used for model calibration, and (3) the ZONEBUDGET input files and source code used for the groundwater availability analysis.",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-69.703241"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "42.568436"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "jpg"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://water.usgs.gov/GIS/browse/SIR2016-5076Thumbnail.jpg"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-79.675869, 34.550523], [-69.703241, 34.550523], [-69.703241, 42.568436], [-79.675869, 42.568436], [-79.675869, 34.550523]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: none\", \"Access Constraints: None. Acknowledgement of the U.S. Geological Survey would be appreciated in products derived from this data release.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "9999-01-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "jpmaster@usgs.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-79.675869"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-06-10"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2016-01-01\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "Image of the model domain and active area of the model."
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although this data set has been used by the U.S. Geological\\nSurvey, U.S. Department of the Interior, no warranty expressed or\\nimplied is made by the U.S. Geological Survey as to the accuracy\\nof the data and related materials. The act of distribution shall not\\nconstitute any such warranty, and no responsibility is assumed by \\nthe U.S. Geological Survey in the use of this data, software, or \\nrelated materials.\\n        \\nAny use of trade, product, or firm names is for descriptive\\npurposes only and does not imply endorsement by the U.S.\\nGovernment.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Geological Survey\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2008-12-31"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "34.550523"
+    },
+    {
+      "key": "tags",
+      "value": "nacp, upper chesapeake, groundwater availability, groundwater model, delaware, potomac-patuxent, north carolina, maryland, modflow-nwt, groundwater depletion, aquia, usgsgroundwatermodel, virginia, northern atlantic coastal plain, magothy, aquifer storage, delmarva, inlandwaters, matawan, lower chesapeake, potomac-patapsco, long island, new jersey, groundwater, piney point, monmouth-mount laurel"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "5e20c6ea-69e7-458f-ac12-e23c1be9e5bb"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "e11eb0c1-b794-4812-9369-1bd7306336cd"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Water NSDI Node Spatial Datasets"
+    }
+  ],
+  "title": "MODFLOW-NWT model used to assess groundwater availability in the Northern Atlantic Coastal Plain aquifer system from Long Island, New York to North Carolina",
+  "revision_id": "19e526fa-f8b0-4227-af38-b2c88cda9689"
+}

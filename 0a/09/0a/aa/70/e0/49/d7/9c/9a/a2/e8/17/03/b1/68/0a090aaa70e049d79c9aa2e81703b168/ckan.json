@@ -1,0 +1,255 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "0a090aaa-70e0-49d7-9c9a-a2e81703b168",
+  "metadata_created": "2015-07-22T03:42:21.377167",
+  "metadata_modified": "2016-03-09T06:28:24.780765",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "0a090aaa-70e0-49d7-9c9a-a2e81703b168",
+      "webstore_last_updated": null,
+      "id": "c6b182e7-f169-4d33-931d-81c23512e54f",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "PC-vessels-2011.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 10,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "78dd7836-a3c8-4b3b-b2f4-6c6ecb8ea20e",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2016-03-09T01:28:25.228353",
+      "url": "http://www.boem.gov/PC-vessels-2011.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "0a090aaa-70e0-49d7-9c9a-a2e81703b168",
+      "webstore_last_updated": null,
+      "id": "e0a64f36-46d3-4111-ab99-7bab25cbf672",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "78dd7836-a3c8-4b3b-b2f4-6c6ecb8ea20e",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Esri Rest API Endpoint",
+      "created": "2016-03-09T01:28:25.228381",
+      "url": "http://tiles.arcgis.com/tiles/Hp6G80Pky0om7QvQ/arcgis/rest/services/VesselTraffic2011/MapServer",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "0a090aaa-70e0-49d7-9c9a-a2e81703b168",
+      "webstore_last_updated": null,
+      "id": "bddcb06a-aedb-4838-b3c5-b23faba1b618",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 5,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "78dd7836-a3c8-4b3b-b2f4-6c6ecb8ea20e",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-03-09T01:28:25.228392",
+      "url": "http://www.boem.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 46,
+    "recent": 1
+  },
+  "groups": [
+    {
+      "display_name": "Ocean",
+      "description": "",
+      "image_display_url": "",
+      "title": "Ocean",
+      "id": "f700e408-3bf4-4e8f-9499-b0ab0e2fec3c",
+      "name": "ocean9585"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The Bureau of Ocean Energy Management (BOEM) manages the exploration and development of the nation's offshore resources. It seeks to appropriately balance economic development, energy independence, and environmental protection through oil and gas leases, renewable energy development and environmental reviews and studies.",
+    "created": "2013-03-14T03:44:48.638755",
+    "title": "Bureau of Ocean Energy Management, Department of the Interior",
+    "name": "boem-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.boem.gov/images/boem/layout/logo.png",
+    "revision_id": "6f2fda4e-48e9-42f6-b1dd-da068900ba24",
+    "type": "organization",
+    "id": "54ed71a6-4861-4dc1-aa78-c5661ba9ab04",
+    "approval_status": "approved"
+  },
+  "name": "ship-traffic-2011-west-coast-region-all-ship-types",
+  "isopen": false,
+  "url": null,
+  "notes": "The data was derived from US Coast Guard raw vessel point returns and preprocessed by ASA (Applied Science Associates), to one minute point interCAls. The data returns are in UTM zone 10 North and UTM zone 11 North. Each vessel type is analyzed seperately based on vessel type data (Cargo, Fishing, Passenger, Tanker, Tow, Tow over 200M, Tugs) included in the AIS dataset. A transit is counted for each unique vessel by MMSI traveling through each 1200 meter by 1200 meter aliquot each day. A running count is continued for each vessel type by aliquot by month, and then the months are summed to provide annual data. </SPAN></P><P><SPAN>Although traffic diminishes significantly after 20nm from shore, the returns from line of site AIS signals also fade beyond 40nm. Data points input into the density analysis beyond 40nm are considered to be less reliable than closer to shore. For the 2011 data, separate vessel types were also extracted separately and run in addition to the full dataset. These separate counts are included in the attribute table and include Cargo Vessels, Fishing Vessels, Tankers, Passenger Ships, Tugs, Towing Vessels less than 200 meters in length, and Towing Vessels more than 200 meters in length.",
+  "owner_org": "54ed71a6-4861-4dc1-aa78-c5661ba9ab04",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Bureau of Ocean Energy Management\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "frank.pendleton@boem.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-126.066945"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-03-03"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2015-01-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-117.096527"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "49.012092"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "30.943491"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although these data have been processed successfully on a computer system at the Bureau of Ocean Energy Management, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data to eCAluate data set limitations, restrictions or intended use. The Bureau of Ocean Energy Management shall not be held liable for improper or incorrect use of the data described and/or contained herein.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-126.066945, 30.943491], [-117.096527, 30.943491], [-117.096527, 49.012092], [-126.066945, 49.012092], [-126.066945, 30.943491]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "tags",
+      "value": "california, transportation, oregon, washington"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "338d2aec-51fb-4fb5-ada6-ca8d4e31bf07"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ccbd586-7009-4fb0-bf99-2f827c47cafa"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "BOEM Geospatial Metadata"
+    }
+  ],
+  "title": "Ship Traffic 2011 West Coast Region - All Ship Types",
+  "revision_id": "081b8c3f-b141-440d-bec8-fef3e0b37846"
+}

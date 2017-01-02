@@ -1,0 +1,259 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Patricia Flanagan",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "patricia.flanagan@nist.gov",
+  "num_tags": 13,
+  "id": "8cb98c9c-42db-4623-b7e3-4c9ed9cd648e",
+  "metadata_created": "2016-10-07T22:14:29.513589",
+  "metadata_modified": "2016-10-07T22:14:29.513589",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "biometrics",
+      "id": "9df5b2b8-5923-4d72-b6c1-3429ec28103f",
+      "name": "biometrics"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "crime-scenes",
+      "id": "3d84945a-5242-4e59-8ebd-0ae5df9ef7da",
+      "name": "crime-scenes"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "federal-bureau-of-investigation",
+      "id": "b3a9c6fc-0c9e-4e77-b2ae-6faae3ed661f",
+      "name": "federal-bureau-of-investigation"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "finger-print-software",
+      "id": "b38b07a3-cc73-4ba2-a932-dcfe94f22e4e",
+      "name": "finger-print-software"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "fingerprint-verifications",
+      "id": "abb7b954-46de-45df-a2d4-26f3bb28a1cc",
+      "name": "fingerprint-verifications"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "fingerprints",
+      "id": "7c64c260-fcb6-418f-b381-c620cf7cf4a6",
+      "name": "fingerprints"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "gray-scales",
+      "id": "a7e049f5-80bd-422d-9b36-8c3c387d7875",
+      "name": "gray-scales"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "iafis",
+      "id": "76154ac0-c41b-4b4d-b215-4e175bbf8ebf",
+      "name": "iafis"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "images",
+      "id": "dbb75b10-fe1e-4f6f-8402-1600f0c7e5c3",
+      "name": "images"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "latent",
+      "id": "c3b2444b-9e06-4705-b782-ed6cd8acf16c",
+      "name": "latent"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "law-enforcement",
+      "id": "2b5e8367-50e5-4f63-9f06-f59d6d86bf3b",
+      "name": "law-enforcement"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "minutiae",
+      "id": "f95eccf3-326e-4ff1-8330-238e8c9fcb46",
+      "name": "minutiae"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "tenprints",
+      "id": "7a556f0b-0f15-409e-ad0d-538dd3d7193f",
+      "name": "tenprints"
+    }
+  ],
+  "tracking_summary": {
+    "total": 6,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:37:59.153068",
+    "title": "Department of Commerce",
+    "name": "doc-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.vos.noaa.gov/MWL/aug_10/Images/doc_logo_xparent.png",
+    "revision_id": "44c851b9-8872-497a-8a13-2f06740b7ffb",
+    "type": "organization",
+    "id": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+    "approval_status": "approved"
+  },
+  "name": "nist-fingerprint-minutiae-from-latent-and-matching-tenprint-images-nist-special-database-2",
+  "isopen": true,
+  "url": null,
+  "notes": "NIST Special Database 27 contains latent fingerprints from crime scenes and their matching rolled fingerprint mates. This database can be used to develop and test new fingerprint algorithms, test commercial and research AFIS systems, train latent examiners, and promote the ANSI/NIST file format standard. \r\n\r\n In all there are 258 latent cases. Each case includes the latent image, the matching tenprint image, and four sets of minutiae that have been validated by a professional team of latent examiners. One set of minutiae contains all minutiae points on the latent fingerprint; the second set contains all minutiae points on the tenprint mate; the other two sets contain the minutiae points in common between the latent fingerprint and tenprint mate. In all there are 27,426 minutiae recorded across the set of tenprints with 5,460 minutiae in common with their matching latent fingerprint. Each image is 800 by 768 pixels in size and has been scanned at 19.69 pixels per millimeter (ppmm) (500 pixels per inch (ppi)), quantized to 256 levels of gray, and stored in an uncompressed format. All data files are formatted according to the ANSI/NIST-ITL 1-2000 standard using Type-1, 9, 13, & 14 records.",
+  "owner_org": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://biometrics.nist.gov/cs_links/fingerprint/special_databases/ir_6534.pdf"
+      ]
+    },
+    {
+      "key": "source_hash",
+      "value": "3f41ab251b83e4c148eb27043f37943e880426e7"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Pattern evidence"
+      ]
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "006:052"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "006:55"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "https://www.nist.gov/srd/nist-special-database-27"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "5c215829-b7b0-45db-86e3-69409902e502"
+    },
+    {
+      "key": "publisher",
+      "value": "National Institute of Standards and Technology"
+    },
+    {
+      "key": "license",
+      "value": "http://www.nist.gov/open/license.cfm"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en"
+      ]
+    },
+    {
+      "key": "rights",
+      "value": "For more information please visit https://www.nist.gov/srd/nist-special-database-27"
+    },
+    {
+      "key": "modified",
+      "value": "2000-06-01"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "FF429BC178688B3EE0431A570681E858215"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "5c215829-b7b0-45db-86e3-69409902e502"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    }
+  ],
+  "title": "NIST Fingerprint Minutiae from Latent and Matching Tenprint Images - NIST Special Database 27",
+  "revision_id": "8283a824-a800-48b3-a2a3-04b6f13db2ae"
+}

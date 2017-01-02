@@ -1,0 +1,248 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "81bfd371-c6cd-455e-a085-8d212e1d4fa0",
+  "metadata_created": "2015-04-25T12:22:32.414241",
+  "metadata_modified": "2015-04-25T12:22:32.414241",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "81bfd371-c6cd-455e-a085-8d212e1d4fa0",
+      "webstore_last_updated": null,
+      "id": "a27eefdd-e6b9-4e3b-854f-62a5f1bc2a98",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "Offshore_Surficial_Sediment_prs.xml",
+      "format": "XML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "0f151f66-cd4b-44b1-a5ec-017696032eb9",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-04-25T08:22:32.499024",
+      "url": "http://atlas.ca.gov/geoportal/data/calsediments/OffshoreSurficialSediment/EditionOne/Offshore_Surficial_Sediment_prs.xml",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "81bfd371-c6cd-455e-a085-8d212e1d4fa0",
+      "webstore_last_updated": null,
+      "id": "8a7ade03-b958-4238-bb09-1b1390dff3e1",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "Offshore_Surficial_Sediment.xml",
+      "format": "XML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "0f151f66-cd4b-44b1-a5ec-017696032eb9",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-04-25T08:22:32.499048",
+      "url": "http://atlas.ca.gov/geoportal/data/calsediments/OffshoreSurficialSediment/EditionOne/Offshore_Surficial_Sediment.xml",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "81bfd371-c6cd-455e-a085-8d212e1d4fa0",
+      "webstore_last_updated": null,
+      "id": "07ab8d7c-0df6-4a2f-8c5a-eae86ebd0ed5",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "0f151f66-cd4b-44b1-a5ec-017696032eb9",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Esri Rest API Endpoint",
+      "created": "2015-04-25T08:22:32.499057",
+      "url": "http://atlas.resources.ca.gov/ArcGIS/rest/services/Ocean/CSMW_Offshore_Surficial_Sediment/MapServer",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 2,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-19T14:05:26.054173",
+    "title": "State of California",
+    "name": "ca-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.ca.gov/images/template2012/header_ca.gov.png",
+    "revision_id": "ad94cda4-9394-44d0-9c37-573dc3c47c9a",
+    "type": "organization",
+    "id": "467d900f-8a42-452d-9906-6610dd1a767f",
+    "approval_status": "approved"
+  },
+  "name": "offshore-surficial-sediment3a841",
+  "isopen": false,
+  "url": null,
+  "notes": "This data layer (PAC_EXT.txt and PAC_PRS.txt) represents two of five point coverages of known sediment samples, inspections, and probes from the usSEABED data collection for the U.S. Pacific continental margin integrated using the software system dbSEABED. This data layer represents the extracted (EXT) and the parsed (PRS) output of the dbSEABED mining software. EXT contains data items which were extracted from the data resources files and generally represent lab-based analytical data. The EXT data are usually considered the most rigorous data available, although some data may represent a subsample of the sediment (that is, large shells or stones may have been excluded from the analysis). PRS contains the numeric results parsed from text-based descriptions held in the data resource files (DRF). Because it relies on descriptions, the PRS data are less precise than the extracted data (EXT), but may include information on outsized elements and consolidation that are often not in lab-analyzed data.",
+  "owner_org": "467d900f-8a42-452d-9906-6610dd1a767f",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "librarian@ceres.ca.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-128.666"
+    },
+    {
+      "key": "metadata-date",
+      "value": "9999-01-01"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"9999-01-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-117.1017"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "48.99883"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "30.57"
+    },
+    {
+      "key": "licence",
+      "value": "[\" \"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "UNKNOWN"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-128.666, 30.57], [-117.1017, 30.57], [-117.1017, 48.99883], [-128.666, 48.99883], [-128.666, 30.57]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: Public domain data from the U.S. Government are freely redistributable with proper metadata and source attribution. Please recognize the U.S. Geological Survey (USGS) as the source of this information.\", \"Access Constraints:\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "unknown"
+    },
+    {
+      "key": "tags",
+      "value": "national marine fisheries service, benthic habitats (pacific) project, geophysical, features, habitat, mineral resources, sediment chemistry, noaa, biogenic sediments, woods hole science center, descriptions, whsc, pacific science center, usseabed, oceans and estuaries, land cover, university of colorado, sea floor, environment, institute of arctic and alpine research, seabed, location, geoscientific, sediment textures, economy, coastal information, instaar, genesis, geology, psc, coastal and marine geology program, stratigraphic sequence, geoscientificinformation, nmfs, sediment composition, dbseabed, u.s. geological survey, terrigenous sediments, analyses, marine aggregates resources and processes project, usgs, natural resources, marine sediments, mineral, national oceanic and atmospheric administration, ocean, oceans & estuaries, cmgp, components, uc"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "81a1b40e-dcb4-4f75-aa30-c93876512547"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "bf0e0f99-7417-42e4-a627-e94c49cb4159"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "State of California Geoportal"
+    }
+  ],
+  "title": "Offshore Surficial Sediment",
+  "revision_id": "0f151f66-cd4b-44b1-a5ec-017696032eb9"
+}

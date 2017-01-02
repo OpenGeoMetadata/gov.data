@@ -1,0 +1,627 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "9c8efe99-6881-4861-a96c-a907fc32d3c7",
+  "metadata_created": "2015-09-26T19:48:48.812280",
+  "metadata_modified": "2016-10-19T18:16:55.343337",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "9c8efe99-6881-4861-a96c-a907fc32d3c7",
+      "webstore_last_updated": null,
+      "id": "f66460d2-9b2e-4290-a059-4c527a1bd2a2",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard LAS html interface for selecting data from this dataset. ",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "LAS",
+      "created": "2016-10-19T14:16:56.532927",
+      "url": "http://ferret.pmel.noaa.gov/geoideLAS/getUI.do?data_url=http://www.ngdc.noaa.gov/thredds/dodsC/dem/atlantic_city_nj.nc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "f41e0f5b-617d-4f0e-a79c-77e2b4f0bd58",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9c8efe99-6881-4861-a96c-a907fc32d3c7",
+      "webstore_last_updated": null,
+      "id": "c9243f69-ccd3-48c1-bdf4-d7e82dbf5a2d",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard ERDDAP html interface for selecting data from this dataset. ",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ERDDAP",
+      "created": "2016-10-19T14:16:56.532954",
+      "url": "http://upwell.pfeg.noaa.gov/erddap/search/index.html?searchFor=http://www.ngdc.noaa.gov/thredds/dodsC/dem/atlantic_city_nj.nc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "f41e0f5b-617d-4f0e-a79c-77e2b4f0bd58",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9c8efe99-6881-4861-a96c-a907fc32d3c7",
+      "webstore_last_updated": null,
+      "id": "1bf2fb96-c166-4d33-aad7-bfa3a3953434",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard OPeNDAP html interface for selecting data from this dataset. Change the extension to .info for a description of the dataset.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "File Information",
+      "created": "2016-10-19T14:16:56.532963",
+      "url": "http://www.ngdc.noaa.gov/thredds/dodsC/dem/atlantic_city_nj.nc.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "f41e0f5b-617d-4f0e-a79c-77e2b4f0bd58",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9c8efe99-6881-4861-a96c-a907fc32d3c7",
+      "webstore_last_updated": null,
+      "id": "0b7583c2-3201-46ff-822a-1dbfd3bb60f7",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "mapDigital",
+      "hash": "",
+      "description": "This URL provides an NCDC climate and weather toolkit view of an OPeNDAP resource.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Viewer Information",
+      "created": "2016-10-19T14:16:56.532971",
+      "url": "http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://www.ngdc.noaa.gov/thredds/dodsC/dem/atlantic_city_nj.nc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 3,
+      "revision_id": "f41e0f5b-617d-4f0e-a79c-77e2b4f0bd58",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9c8efe99-6881-4861-a96c-a907fc32d3c7",
+      "webstore_last_updated": null,
+      "id": "c3123cd4-37bb-4b4b-a3f2-14e29ab051a1",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": " Visualize with Live Access Server",
+      "created": "2016-10-19T14:16:56.532978",
+      "url": "http://ferret.pmel.noaa.gov/geoideLAS/getUI.do?data_url=http://www.ngdc.noaa.gov/thredds/dodsC/dem/atlantic_city_nj.nc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 4,
+      "revision_id": "f41e0f5b-617d-4f0e-a79c-77e2b4f0bd58",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9c8efe99-6881-4861-a96c-a907fc32d3c7",
+      "webstore_last_updated": null,
+      "id": "cfc7e0b6-e928-438c-90fd-07de600c46a9",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": " Visualize with ERDDAP",
+      "created": "2016-10-19T14:16:56.532985",
+      "url": "http://upwell.pfeg.noaa.gov/erddap/search/index.html?searchFor=http://www.ngdc.noaa.gov/thredds/dodsC/dem/atlantic_city_nj.nc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 5,
+      "revision_id": "f41e0f5b-617d-4f0e-a79c-77e2b4f0bd58",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9c8efe99-6881-4861-a96c-a907fc32d3c7",
+      "webstore_last_updated": null,
+      "id": "c0220626-14dc-4e79-b69a-60b9cb75e756",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": " Weather and Climate Toolkit",
+      "created": "2016-10-19T14:16:56.532992",
+      "url": "http://www.ncdc.noaa.gov/oa/wct/wct-jnlp.php?singlefile=http://www.ngdc.noaa.gov/thredds/dodsC/dem/atlantic_city_nj.nc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 6,
+      "revision_id": "f41e0f5b-617d-4f0e-a79c-77e2b4f0bd58",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9c8efe99-6881-4861-a96c-a907fc32d3c7",
+      "webstore_last_updated": null,
+      "id": "f2b654e0-2ca7-40c8-99f0-03a1612549d7",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "revision_id": "f41e0f5b-617d-4f0e-a79c-77e2b4f0bd58",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T14:16:56.533000",
+      "url": "http://www.ngdc.noaa.gov/mgg/coastal/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 7,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9c8efe99-6881-4861-a96c-a907fc32d3c7",
+      "webstore_last_updated": null,
+      "id": "f92222d2-3110-460d-bad0-4f7378ce1f67",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "The UAF project is providing this catalog as a public service to aid in the discovery and access of scientific data.  The UAF is not responsible for the content of the data and all questions regarding the data should be directed to the office where the data reside.",
+      "format": "",
+      "tracking_summary": {
+        "total": 18,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTPS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA GEO-IDE",
+      "created": "2016-10-19T14:16:56.533008",
+      "url": "https://geo-ide.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 8,
+      "revision_id": "f41e0f5b-617d-4f0e-a79c-77e2b4f0bd58",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9c8efe99-6881-4861-a96c-a907fc32d3c7",
+      "webstore_last_updated": null,
+      "id": "63f70800-8b7c-49fa-8045-c3dd8d605e27",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "revision_id": "f41e0f5b-617d-4f0e-a79c-77e2b4f0bd58",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T14:16:56.533015",
+      "url": "http://www.ngdc.noaa.gov/mgg/coastal/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 9,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9c8efe99-6881-4861-a96c-a907fc32d3c7",
+      "webstore_last_updated": null,
+      "id": "9ed3e0ba-8e04-41ab-a9d5-4c41a99fb986",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "revision_id": "f41e0f5b-617d-4f0e-a79c-77e2b4f0bd58",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T14:16:56.533022",
+      "url": "http://www.ngdc.noaa.gov/mgg/coastal/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 10,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9c8efe99-6881-4861-a96c-a907fc32d3c7",
+      "webstore_last_updated": null,
+      "id": "d56079bf-29d3-4ccf-a111-85fc1daf5731",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "THREDDS OPeNDAP",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OPeNDAP:OPeNDAP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OPeNDAP",
+      "created": "2016-10-19T14:16:56.533029",
+      "url": "http://www.ngdc.noaa.gov/thredds/dodsC/dem/atlantic_city_nj.nc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 11,
+      "revision_id": "f41e0f5b-617d-4f0e-a79c-77e2b4f0bd58",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9c8efe99-6881-4861-a96c-a907fc32d3c7",
+      "webstore_last_updated": null,
+      "id": "541b9faf-05d7-43da-83a2-d24be1985279",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "revision_id": "f41e0f5b-617d-4f0e-a79c-77e2b4f0bd58",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T14:16:56.533036",
+      "url": "http://www.ngdc.noaa.gov/mgg/coastal/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 12,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9c8efe99-6881-4861-a96c-a907fc32d3c7",
+      "webstore_last_updated": null,
+      "id": "fe52d7fe-8c78-4e29-8bc1-91034bcf84f4",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Open Geospatial Consortium Web Coverage Service (WCS)",
+      "format": "WCS",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WCS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OGC-WCS",
+      "created": "2016-10-19T14:16:56.533043",
+      "url": "http://www.ngdc.noaa.gov/thredds/wcs/dem/atlantic_city_nj.nc?service=WCS&version=1.0.0&request=GetCapabilities",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 13,
+      "revision_id": "f41e0f5b-617d-4f0e-a79c-77e2b4f0bd58",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9c8efe99-6881-4861-a96c-a907fc32d3c7",
+      "webstore_last_updated": null,
+      "id": "705a077f-5ce5-4ebd-affd-588a988cc210",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "revision_id": "f41e0f5b-617d-4f0e-a79c-77e2b4f0bd58",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T14:16:56.533050",
+      "url": "http://www.ngdc.noaa.gov/mgg/coastal/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 14,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9c8efe99-6881-4861-a96c-a907fc32d3c7",
+      "webstore_last_updated": null,
+      "id": "3f45660b-1267-401c-8b99-c2db031545ef",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Open Geospatial Consortium Web Map Service (WMS)",
+      "format": "WMS",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WMS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OGC-WMS",
+      "created": "2016-10-19T14:16:56.533057",
+      "url": "http://www.ngdc.noaa.gov/thredds/wms/dem/atlantic_city_nj.nc?service=WMS&version=1.3.0&request=GetCapabilities",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 15,
+      "revision_id": "f41e0f5b-617d-4f0e-a79c-77e2b4f0bd58",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 16,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 8,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "atlantic-city-nj-grd",
+  "isopen": false,
+  "url": null,
+  "notes": "NGDC builds and distributes high-resolution, coastal digital elevation models (DEMs) that integrate ocean bathymetry and land topography to support NOAA's mission to understand and predict changes in Earth's environment, and conserve and manage coastal and marine resources to meet our Nation's economic, social, and environmental needs. They can be used for modeling of coastal processes (tsunami inundation, storm surge, sea-level rise, contaminant dispersal, etc.), ecosystems management and habitat research, coastal and marine spatial planning, and hazard mitigation and community preparedness.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"\", \"roles\": [\"pointOfContact\"]}, {\"name\": \"The Unified Access Framework (UAF)\", \"roles\": [\"custodian\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "barry.eakins@noaa.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": "eng"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-75.05004629999999"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-10-13"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"revision\", \"value\": \"2011-11-16T23:00:33Z\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-73.99995373681"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "39.75004626739"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[{\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}, {\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}, {\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "38.8499537"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-75.0500463, 38.8499537], [-73.9999537368, 38.8499537], [-73.9999537368, 39.7500462674], [-75.0500463, 39.7500462674], [-75.0500463, 38.8499537]]]}"
+    },
+    {
+      "key": "guid",
+      "value": "demDatasetScan.atlantic_city_nj.nc"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": "THREDDS OPeNDAP"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "the unified access framework: a geo-ide project to integrate scientific data management and access, unified access framework (uaf), national geophysical data center (ngdc)"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d43b4d07-6260-4a09-a558-b6a6e4b6d520"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "atlantic_city_nj.grd",
+  "revision_id": "d5b7c8bf-cae4-4b68-855b-1f9ceca5811b"
+}

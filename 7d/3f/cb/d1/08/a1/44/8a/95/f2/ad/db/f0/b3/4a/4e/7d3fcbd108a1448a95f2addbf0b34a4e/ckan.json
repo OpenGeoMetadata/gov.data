@@ -1,0 +1,251 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "Donald Long",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "dlong01@fs.fed.us",
+  "num_tags": 6,
+  "id": "7d3fcbd1-08a1-448a-95f2-addbf0b34a4e",
+  "metadata_created": "2014-11-03T19:34:04.540319",
+  "metadata_modified": "2016-10-20T16:59:13.843708",
+  "author": "Donald Long",
+  "author_email": "dlong01@fs.fed.us",
+  "state": "active",
+  "version": null,
+  "creator_user_id": "144231",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "7d3fcbd1-08a1-448a-95f2-addbf0b34a4e",
+      "webstore_last_updated": null,
+      "id": "58d54b34-db68-4083-b9d1-66aeeb020d8b",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "The Biophysical Settings (BpS) layer represents the vegetation that may have been dominant on the landscape prior to Euro-American settlement and is based on both the current biophysical environment and an approximation of the historical disturbance regime. Map units are based on NatureServe's Ecological Systems classification and represent the natural plant communities that may have been present during the reference period. Each BpS map unit is matched with a model of vegetation succession, and both serve as key inputs to the LANDSUM landscape succession model. As used in LANDFIRE, map unit names represent the natural plant communities that may have been present during the reference period.\r\nLANDFIRE uses BPS to depict reference conditions of vegetation across landscapes. The actual time period for this data set is a composite of both the historical context provided by the fire regime and vegetation dynamics models and the more recent field and geospatial data used to create it.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 20,
+        "recent": 2
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "LANDFIRE Biophysical Settings",
+      "created": "2014-11-03T14:41:02.575250",
+      "url": "http://www.landfire.gov/NationalProductDescriptions20.php",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "0d0b704a-4155-466f-8b5d-3dc74f019503",
+      "resource_type": "file"
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7d3fcbd1-08a1-448a-95f2-addbf0b34a4e",
+      "webstore_last_updated": null,
+      "id": "fbd4db95-46e6-4e44-b3fa-12d7057677ec",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "LANDFIRE developed state-and-transition models to represent pre-settlement reference conditions for all Ecological Systems in the United States through an expert-based model development process. Each model represents a single ecosystem called a Biophysical Setting (BpS) and consists of a quantitative state-and-transition model and a description document published as a pdf. LANDFIRE used the models to estimate reference conditions, which are used to help assess ecosystem health. \"Using the LANDFIRE Biophysical Settings Model Descriptions\" examines major elements of the Vegetation Dynamics Models descriptions and their use. The guide book \"Adapting LANDFIRE Vegetation Dynamics Models\" helps users adapt LANDFIRE Vegetation Dynamics Models for use in modeling current and future landscapes. Once adapted, these models may be useful in predicting future vegetation conditions, exploring the impacts of potential environmental changes and comparing the results of different management options. ",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 8,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "LANDFIRE Vegetation Dynamics Models",
+      "created": "2014-11-05T13:22:53.593227",
+      "url": "http://www.landfire.gov/NationalProductDescriptions24.php",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 1,
+      "revision_id": "da6a79c4-427e-4ae6-9c11-9a5dd054f53d",
+      "resource_type": "file"
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7d3fcbd1-08a1-448a-95f2-addbf0b34a4e",
+      "webstore_last_updated": null,
+      "id": "ae620de4-5edf-4f45-bc6a-48fe82b35ec0",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "The Environmental Site Potential (ESP) layer represents the vegetation that could be supported at a given site based on the biophysical environment. Map units are based on NatureServe's Ecological Systems classification and represent the natural plant communities that may have been present during the reference period. ESP map units represent the natural plant communities that would become established at late or climax stages of successional development in the absence of disturbance. They reflect the current climate and physical environment, as well as the competitive potential of native plant species. The ESP concept is similar to that used in classifications of potential vegetation, including habitat types and plant associations. ESP is used in LANDFIRE to inform the existing vegetation and fuel mapping processes. ",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 10,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "LANDFIRE Environmental Site Potential",
+      "created": "2014-11-05T13:31:10.364336",
+      "url": "http://www.landfire.gov/NationalProductDescriptions19.php",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 2,
+      "revision_id": "733f876b-a886-465b-94fe-25d7e9c39a1c",
+      "resource_type": "file"
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "Land Use Land Cover Theme",
+      "id": "035b41a9-c659-481b-a5d0-febc5a10a9cc",
+      "name": "Land Use Land Cover Theme"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "NGDA",
+      "id": "22b46b09-bdef-48bc-b827-9134e6f85749",
+      "name": "NGDA"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "USFS",
+      "id": "52eb8066-5fc3-4202-8ee4-005fde1ab0a9",
+      "name": "USFS"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "biophysical",
+      "id": "45d40bcc-a79c-4f5d-ad85-59a15443d6a5",
+      "name": "biophysical"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "potential vegetation",
+      "id": "d98acf1a-99be-41a2-ac91-2b40b3115e47",
+      "name": "potential vegetation"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "settings",
+      "id": "c3cfca28-ce09-4ea2-aa7f-0a2b85b9e614",
+      "name": "settings"
+    }
+  ],
+  "tracking_summary": {
+    "total": 139,
+    "recent": 2
+  },
+  "groups": [
+    {
+      "display_name": "Climate",
+      "description": "",
+      "image_display_url": "",
+      "title": "Climate",
+      "id": "aa0c01c9-d292-4dc1-8fec-b10c1bb629a9",
+      "name": "climate5434"
+    },
+    {
+      "display_name": "Ecosystems",
+      "description": "Ecosystems Community",
+      "image_display_url": "",
+      "title": "Ecosystems",
+      "id": "3b2f2e70-3e81-4aa7-8305-a534cd6af6c8",
+      "name": "ecosystems0617"
+    }
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:45.351405",
+    "title": "US Forest Service, Department of Agriculture",
+    "name": "fs-fed-us",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.data.gov/app/uploads/2014/07/Forest_Service_Logo.png",
+    "revision_id": "2560634b-6ef2-4505-8ad4-af0ebf818db7",
+    "type": "organization",
+    "id": "d4258583-d8ab-4f7a-9c23-4f1a442f69b9",
+    "approval_status": "approved"
+  },
+  "name": "us-forest-service-landfire-potential-vegetation",
+  "isopen": false,
+  "url": null,
+  "notes": "LANDFIRE Potential Vegetation is mapped using predictive landscape models based on extensive field-referenced data and biophysical gradient layers using classification and regression trees. LANDFIRE uses potential vegetation products to create fire regimes data. These products use NatureServe's Ecological Systems classification, meeting the requirement that map units be identifiable, scalable, and model-able. The NatureServe Explorer provides descriptions for each ecological system including species, distribution and classification information. ",
+  "owner_org": "d4258583-d8ab-4f7a-9c23-4f1a442f69b9",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "Donald Long"
+    },
+    {
+      "key": "contact-name",
+      "value": "Don Long"
+    },
+    {
+      "key": "contact-email",
+      "value": "dlong01@fs.fed.us"
+    },
+    {
+      "key": "public_access_level",
+      "value": "public"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2013-03-31"
+    },
+    {
+      "key": "__category_tag_aa0c01c9-d292-4dc1-8fec-b10c1bb629a9",
+      "value": "[\"Ecosystem Vulnerability\",\"Fire Regimes\",\"Ecosystem Services and Processes\"]"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "Current"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "reference-date(s)",
+      "value": "2013-03-31"
+    },
+    {
+      "key": "Theme",
+      "value": "NGDA, National Geospatial Data Asset, Land Use Land Cover Theme"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "__category_tag_3b2f2e70-3e81-4aa7-8305-a534cd6af6c8",
+      "value": "[\"Ecosystems\",\"Biodiversity\",\"Biological Communities\",\"Fire Regimes\"]"
+    },
+    {
+      "key": "bureau_code",
+      "value": "005:96"
+    },
+    {
+      "key": "program_code",
+      "value": "005:000"
+    }
+  ],
+  "title": "US Forest Service LANDFIRE Potential Vegetation",
+  "revision_id": "e54f0d44-d95a-4f9e-b310-5430e0076e68"
+}

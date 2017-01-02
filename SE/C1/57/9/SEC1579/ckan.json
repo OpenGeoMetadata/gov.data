@@ -1,0 +1,154 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "SEC-1579",
+  "metadata_created": "2013-05-18T09:36:24.689160",
+  "metadata_modified": "2014-01-12T07:06:55.457903",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "SEC-1579",
+      "webstore_last_updated": null,
+      "id": "94296c89-d8d8-4981-bb9e-cad50d2a1b31",
+      "size": null,
+      "size_text": "unknown",
+      "state": "active",
+      "hash": "",
+      "description": "failunder_10000.csv",
+      "format": "TXT(CSV)",
+      "tracking_summary": {
+        "total": 57,
+        "recent": 4
+      },
+      "last_modified": null,
+      "url_type": null,
+      "revision_id": "ba726db5-f06c-47cf-ac77-f3860aab76d4",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2013-05-18T11:36:24.741035",
+      "url": "http://www.sec.gov/open/datasets/failunder_10000.csv",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 237,
+    "recent": 6
+  },
+  "groups": [
+    {
+      "display_name": "Finance",
+      "description": "",
+      "image_display_url": "",
+      "title": "Finance",
+      "id": "405b5dfb-24f8-4b77-9999-745076d64cb2",
+      "name": "finance3432"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:36:24.452421",
+    "title": "Securities and Exchange Commission",
+    "name": "sec-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "",
+    "revision_id": "3d18a742-824a-4d6f-8cc7-722a9c69328e",
+    "type": "organization",
+    "id": "41f1bf44-613f-410e-b350-b2535863e778",
+    "approval_status": "approved"
+  },
+  "name": "fails-to-deliver-data-under-10000-shares-between-september-16-2008-and-july-1-20",
+  "isopen": false,
+  "url": null,
+  "notes": "This file contains the date, CUSIP numbers, ticker symbols, issuer name, price, and total number of fails-to-deliver (i.e., the balance level outstanding) recorded in the National Securities Clearing Corporation's (\"NSCC\") Continuous Net Settlement (CNS) system aggregated over all NSCC members for securities with a balance of total fails-to-deliver of under 10,000 shares between September 16, 2008 and June 30, 2009. Prior to January 21, 2010, this data was not available. The data include fails-to-deliver in equity securities. The values of total fails-to-deliver shares represent the aggregate net balance of shares that failed to be delivered as of a particular settlement date. Fails to deliver on a given day are a cumulative number of all fails outstanding until that day, plus new fails that occur that day, less fails that settle that day. The figure is not a daily amount of fails, but a combined figure that includes both new fails on the reporting day as well as existing fails. In other words, these numbers reflect aggregate fails as of a specific point in time, and may have little or no relationship to yesterday's aggregate fails. Thus, it is important to note that the age of fails cannot be determined by looking at these numbers. In addition, the underlying source(s) of the fails-to-deliver shares is not necessarily the same as the underlying source(s) of the fails-to-deliver shares reported the day prior or the day after.",
+  "owner_org": "41f1bf44-613f-410e-b350-b2535863e778",
+  "extras": [
+    {
+      "key": "data-quality",
+      "value": "TRUE"
+    },
+    {
+      "key": "contact-email",
+      "value": "herouxr@sec.gov"
+    },
+    {
+      "key": "data-dictiionary",
+      "value": "http://www.sec.gov/foia/docs/failsdata.htm"
+    },
+    {
+      "key": "issued",
+      "value": "1/22/2010"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "Contingent on Rule specifications"
+    },
+    {
+      "key": "spatial-text",
+      "value": "Companies"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Section 25. Banking, Finance, and Insurance"
+      ]
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://www.sec.gov/foia/docs/failsdata.htm"
+      ]
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "Contingent on Rule specifications"
+    },
+    {
+      "key": "metadata-date",
+      "value": "daily"
+    },
+    {
+      "key": "access-level",
+      "value": "public"
+    },
+    {
+      "key": "metadata-source",
+      "value": "dms"
+    },
+    {
+      "key": "tags",
+      "value": "{SEC,\"Securities & Exchange Commission\",\"short sales\",\"fails to deliver\",fails,stocks,CUSIP}"
+    }
+  ],
+  "title": "Fails-to-Deliver Data under 10,000 Shares between September 16, 2008 and July 1, 2009",
+  "revision_id": "24d00f1d-be3d-4f18-bd91-97893363b49b"
+}

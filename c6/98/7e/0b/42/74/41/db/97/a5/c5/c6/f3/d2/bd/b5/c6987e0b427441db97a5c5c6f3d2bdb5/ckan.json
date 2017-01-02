@@ -1,0 +1,232 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Ronald Clayton",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "ronald.g.clayton@nasa.gov",
+  "num_tags": 3,
+  "id": "c6987e0b-4274-41db-97a5-c5c6f3d2bdb5",
+  "metadata_created": "2015-04-09T18:55:35.259622",
+  "metadata_modified": "2015-07-08T19:29:17.559198",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "c6987e0b-4274-41db-97a5-c5c6f3d2bdb5",
+      "webstore_last_updated": null,
+      "id": "7c7dcadd-f9da-45b1-be35-860e1d3a837e",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "XML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/xml",
+      "cache_url": null,
+      "name": "XML File",
+      "created": "2015-04-09T14:55:35.406253",
+      "url": "http://techport.nasa.gov/xml-api/12098",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "b58c321b-7100-4280-b48c-8012ede4b243",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "completed",
+      "id": "5e4de852-789d-47bf-af3b-ba9a0dd8d489",
+      "name": "completed"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "johnson-space-center",
+      "id": "8c48e662-8810-405c-ac79-3dd5ea311315",
+      "name": "johnson-space-center"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "project",
+      "id": "24471320-3e5c-42b5-a078-8e48e70e2ac4",
+      "name": "project"
+    }
+  ],
+  "tracking_summary": {
+    "total": 3,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "an-rfid-enabled-sensor-interface-for-the-ev-modular-instrumentation-system-project",
+  "isopen": true,
+  "url": null,
+  "notes": "&lt;p&gt;The goal of this project is development of a passive radio-frequency identification (RFID) communication module, compliant with the EPC global class1, generation 2 air-interface standard, that can be interfaced easily with arbitrary sensors via the EV Modular Instrumentation System (MIS) hardware. Since RFID communication operates entirely using power transmitted from an RFID interrogator, this will give MIS the capability to transmit sensor data &amp;ldquo;for free&amp;rdquo;. Hence, the MIS power supply will be responsible only for data acquisition, which will substantially increase the lifetime of a battery-powered MIS node. For sufficiently low power sensors, it may be possible to power both communication and sensing using RF energy harvested from the interrogator (or through the addition of a second harvested source, such as solar). The RFID tags developed under this effort can be interrogated by any EPC global-compliant reader, such as the hand-held readers on ISS or future robotic free-flyers equipped with standard readers. Exploration vehicle structural monitoring (strain, vibration, etc.) and environmental monitoring (CO2, O2, etc.) are targeted as initial applications. The long-term goal is a small, completely passive RFID module with a plug-and-play, delay-tolerant network (DTN)-like sensor interface.&lt;/p&gt;&lt;p&gt;The major goals accomplished under this project are:&lt;/p&gt;&lt;p&gt;&amp;bull;A prototype open-source RFID communication module was designed, fabricated, and successfully tested by a senior design group at Rice University.&lt;/p&gt;&lt;p&gt;&amp;bull;A COTS device with the desired functionality was identified, acquired, tested, and successfully interfaced with MIS hardware at JSC.&lt;/p&gt;",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "issued",
+      "value": "2012-10-01T00:00:00Z"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://techport.nasa.gov/home",
+        "http://techport.nasa.gov/doc/home/TechPort_Advanced_Search.pdf",
+        "http://techport.nasa.gov/fetchFile?objectId=6561",
+        "http://techport.nasa.gov/fetchFile?objectId=3456",
+        "http://techport.nasa.gov/fetchFile?objectId=3447",
+        "http://techport.nasa.gov/fetchFile?objectId=6584",
+        "http://techport.nasa.gov/fetchFile?objectId=6560",
+        "http://techport.nasa.gov/fetchFile?objectId=3448"
+      ]
+    },
+    {
+      "key": "source_hash",
+      "value": "39394c09323cb47d16d13fd1ab39181d908955d8"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "temporal",
+      "value": "2012-10-01T00:00:00Z/2013-09-01T00:00:00Z"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://techport.nasa.gov/view/12098"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "ef7c6d7c-a6e4-44c1-aec7-3d5d4498bd48"
+    },
+    {
+      "key": "publisher",
+      "value": "Space Technology Mission Directorate"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "55942a88c63a7fe59b4981b8"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "National Aeronautics and Space Administration > Space Technology Mission Directorate"
+    },
+    {
+      "key": "modified",
+      "value": "2015-03-12"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "TECHPORT_12098"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "ef7c6d7c-a6e4-44c1-aec7-3d5d4498bd48"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "An RFID-Enabled Sensor Interface for the EV Modular Instrumentation System Project",
+  "revision_id": "7f228ab6-146f-4646-9003-7ea85f2188a2"
+}

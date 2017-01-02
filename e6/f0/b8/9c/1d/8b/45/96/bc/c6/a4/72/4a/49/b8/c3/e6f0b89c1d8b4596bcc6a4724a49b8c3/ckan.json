@@ -1,0 +1,237 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "KELLY CHANCE, PH. D",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "kchance@cfa.harvard.edu",
+  "num_tags": 3,
+  "id": "e6f0b89c-1d8b-4596-bcc6-a4724a49b8c3",
+  "metadata_created": "2014-10-08T03:11:13.974651",
+  "metadata_modified": "2016-05-06T08:04:27.080345",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "e6f0b89c-1d8b-4596-bcc6-a4724a49b8c3",
+      "webstore_last_updated": null,
+      "id": "00078122-60f6-4b69-af34-330c1da174ac",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "OMOCLO.003",
+      "format": "BIN",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/octet-stream",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-07-08T15:19:50.085629",
+      "url": "ftp://aurapar2u.ecs.nasa.gov/data/s4pa/Aura_OMI_Level2/OMOCLO.003/",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "5d3b5c37-061f-4b74-9032-504946a0148d",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "atmosphere",
+      "id": "104e93c2-cbec-435b-b3ba-0d6385114d41",
+      "name": "atmosphere"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "atmospheric-chemistry",
+      "id": "036ab82d-b9cb-4566-b5cc-ac19561cae92",
+      "name": "atmospheric-chemistry"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "earth-science",
+      "id": "f28006f8-df78-4700-b72f-f4a19628ba67",
+      "name": "earth-science"
+    }
+  ],
+  "tracking_summary": {
+    "total": 6,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "omi-aura-chlorine-dioxide-oclo-total-column-1-orbit-l2-swath-13x24-km-v003",
+  "isopen": true,
+  "url": null,
+  "notes": "The collection-3 Chlorine Dioxide Product OMOCLO from the Aura-OMI, is now available (http://disc.gsfc.nasa.gov/Aura/OMI/omoclo_v003.shtml) from the NASA Goddard Earth Sciences Data and Information Services Center (GES DISC) for the public access.\n\n(The shortname for this Level-2 OMI total column OClO product is OMOCLO)\nThe algorithm leads for this product are the US OMI scientists Dr. Kelly Chance (kchance@cfa.harvard.edu) and Dr. Thomas Kurosu (tkurosu@cfa.harvard.edu) from the Harvard-Smithsonian Center, Cambridge, MA.\n       \nThe OMOCLO product contains slant column OClO, standard erros (rms  and sigma), quality flags, geolocation and other ancillary information.       \n \nOMOCLO files are stored in EOS Hierarchical Data Format  (HDF-EOS5). Each file contains data from the day lit portion of an  orbit (~53 minutes). There are approximately 14 orbits per day. The  maximum file size for the OMOCLO data product is about 20 Mbytes.\n       \nA short OMOCLO Readme Document that includes brief algorithm\ndescription and documents that provides known data quality related\nissues are available from the Harvard-Smithsonian Center site:\n \nhttp://www.cfa.harvard.edu/~tkurosu/SatelliteInstruments/OMI/PGEReleases/",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "collection_metadata",
+      "value": "true"
+    },
+    {
+      "key": "issued",
+      "value": "2007-04-06T00:00:00.000Z"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "594d05c291b3f7470b7b1e06cb8ba44a625c6aaa"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "temporal",
+      "value": "R/2004-10-01T00:00:00Z/P1Y"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "geospatial"
+      ]
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:001"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "landingPage",
+      "value": "http://reverb.echo.nasa.gov/reverb?selected=C179360822-GSFCS4PA"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "eb928d08-07c1-48ec-868a-94069a7003e8"
+    },
+    {
+      "key": "publisher",
+      "value": "GESDISC"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "55942a71c63a7fe59b496e69"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "U.S. Government > National Aeronautics and Space Administration > GESDISC"
+    },
+    {
+      "key": "modified",
+      "value": "2015-06-03T00:00:00.000Z"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "irregular"
+    },
+    {
+      "key": "identifier",
+      "value": "C179360822-GSFCS4PA"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "eb928d08-07c1-48ec-868a-94069a7003e8"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "OMI/Aura Chlorine Dioxide (OClO) Total Column 1-orbit L2 Swath 13x24 km V003",
+  "revision_id": "a840ec5d-186f-482c-b25b-39b62040f912"
+}

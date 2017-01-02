@@ -1,0 +1,220 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "19e44bae-25bc-4331-ba3a-59a7303ca859",
+  "metadata_created": "2016-05-31T01:08:18.279367",
+  "metadata_modified": "2016-05-31T01:08:18.279367",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "19e44bae-25bc-4331-ba3a-59a7303ca859",
+      "webstore_last_updated": null,
+      "id": "7dc8c995-0f52-4556-9f13-b61dfb716304",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 10,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "National Weather Service Homepage",
+      "created": "2016-05-30T21:08:18.430861",
+      "url": "http://www.weather.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "a5db7937-b53e-43d1-8ead-d0865d286384",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "19e44bae-25bc-4331-ba3a-59a7303ca859",
+      "webstore_last_updated": null,
+      "id": "3f66ea63-68c2-4a0e-8091-18c3f8783b37",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "Link providing WMS Capabilties description for all data layers hosted on the Prototype NOAA OGC Shared Hosting System",
+      "format": "WMS",
+      "tracking_summary": {
+        "total": 13,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Global WMS service endpoint for the Prototype NOAA OGC Shared Hosting System",
+      "created": "2016-05-30T21:08:18.430895",
+      "url": "http://services.ogc.noaa.gov/geoserver/wms?request=getcapabilities",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "a5db7937-b53e-43d1-8ead-d0865d286384",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 55,
+    "recent": 5
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "noaa-nws-short-duration-severe-weather-warnings-wms-wfs",
+  "isopen": false,
+  "url": null,
+  "notes": "\nA prototype Web Map Service (WMS) displaying NOAA National Weather Service short duration weather warning polygons.  The data are updated on five minute intervals.  Note: this service displays only the 'polygonal' warnings for severe weather events (flash flood warnings, severe thunderstorm warnings, special marine warnings, and tornado warnings), it does not include other watches or hazards that may be active in a particular area.\n\nFor full information about active warnings, watches, hazards, and alerts, please see the National Weather Service page at: http://www.nws.noaa.gov/view/largemap.php.\n\nSource data for this service can be found here: http://www.nws.noaa.gov/gis/shapepage.htm.\n\nThis is a prototype service available on NOAA's Open Geospatial Consortium shared hosting service.  The hosting system is monitored for uptime and is geographically distributed in a high-availability architecture with two mirrored nodes.  However, it should not be relied upon for 24 x 7 uptime for emergency response.\n\t\t\t\t",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-1.0"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "64.0"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": "gov.doc.noaa.nws.short_duration_weather_warnings_wms_wfs"
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://forecast.weather.gov/wwamap/png/US.png"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "8.0"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": "urn:ogc:def:crs:EPSG::4269"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-164.0, 8.0], [-1.0, 8.0], [-1.0, 64.0], [-164.0, 64.0], [-164.0, 8.0]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "onGoing"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"No responsibility is assumed by the National Oceanic and Atmospheric Administration in the use of these data.  Acknowledgement of the National Oceanic and Atmospheric Administration, National Weather Service, National Environmental Prediction Center or the National Hurricane Center would be appreciated.\"]"
+    },
+    {
+      "key": "contact-email",
+      "value": "open.ogc@noaa.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-164.0"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2014-06-01"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"creation\", \"value\": \"2014-06-01\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"NOAA OGC Web Service Hosting Environment\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "short duration, tornado, hazard, extreme weather, special marine, warning, flash flood, severe thunderstorm"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "21e86243-5cd0-4f81-97bb-2100afb8e300"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "NOAA/NWS Short Duration Severe Weather Warnings WMS/WFS",
+  "revision_id": "a5db7937-b53e-43d1-8ead-d0865d286384"
+}

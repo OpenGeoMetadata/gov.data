@@ -1,0 +1,230 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "b51e34dc-2fbf-402e-a833-67d27d29e339",
+  "metadata_created": "2013-03-15T21:15:09.598766",
+  "metadata_modified": "2014-11-17T21:10:51.478747",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "b51e34dc-2fbf-402e-a833-67d27d29e339",
+      "webstore_last_updated": null,
+      "id": "2b69334a-b72c-446f-a414-d4dc54a6aabe",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "ds680_originaldata_V01.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "91882241-be0a-417c-ba24-943d14de89fe",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2014-11-17T16:10:51.810335",
+      "url": "http://water.usgs.gov/GIS/dsdl/ds680/ds680_originaldata_V01.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b51e34dc-2fbf-402e-a833-67d27d29e339",
+      "webstore_last_updated": null,
+      "id": "53f1f4e7-e635-443b-a6b7-e4502f3d8828",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "AW",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "91882241-be0a-417c-ba24-943d14de89fe",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-11-17T16:10:51.810375",
+      "url": "http://water.usgs.gov/lookup/getspatial?ds680_originaldata",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 25,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "original-vector-datasets-for-hawaii-streamstats",
+  "isopen": false,
+  "url": null,
+  "notes": "These datasets each consist of a folder containing a personal geodatabase of the NHD, and shapefiles used in the HydroDEM process. These files are provided as a means to document exactly which lines were used to develop the HydroDEMs. Each folder contains a line shapefile named for the 8-digit HUC code, containing the NHD flowlines that comprise the coastline for that island. The âhydrolines.shpâ shapefile contains the lines that were burned into the DEM. These lines were selected from the NHD flowlines, with some minor editing in places. The âwbpolys.shpâ shapefile contains the water-body polygons that were selected from the NHD and used in the bathymetric gradient process. The folders for HUCs 20010000 (Hawaii) and 20020000 (Maui) also contain a âwalls.shpâ shapefile, which contains the lines that were superimposed on the surface as âwalls.â",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-154.732099"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "22.233206"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "jpg"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://water.usgs.gov/GIS/browse/ds680_originaldata.jpg"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "18.893342"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-159.789288, 18.893342], [-154.732099, 18.893342], [-154.732099, 22.233206], [-159.789288, 22.233206], [-159.789288, 18.893342]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "contact-email",
+      "value": "ahrea@usgs.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-159.789288"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2012-06-08"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2012-01-01\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "Compilation representation of the data set."
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "licence",
+      "value": "[\"\\nAlthough these data have been used by the U.S.\\nGeological Survey, U.S. Department of the Interior, no warranty\\nexpressed or implied is made by the U.S. Geological Survey as to the\\naccuracy of the data. The act of distribution shall not constitute any\\nsuch warranty, and no responsibility is assumed by the U.S. Geological\\nSurvey in the use of these data, software, or related materials.  \\n\\nThe use of firm, trade, or brand names in this report is for\\nidentification purposes only and does not constitute endorsement by the\\nU.S. Geological Survey. The names mentioned in this document may be\\ntrademarks or registered trademarks of their respective trademark\\nowners.\\n\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Geological Survey\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "slope, united states, inlandwaters, elevation, land cover, streamstats, united states of america, hawaii, north america, streamflow statistics, forest, aspect, precipitation"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "76386517-8829-4d95-bc29-cd10f4ed95fd"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "e11eb0c1-b794-4812-9369-1bd7306336cd"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Water NSDI Node Spatial Datasets"
+    }
+  ],
+  "title": "Original Vector Datasets for Hawaii StreamStats",
+  "revision_id": "1b00ad34-e57b-43be-9ef5-a1cda0db4c47"
+}

@@ -1,0 +1,198 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "Derek Parks",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "Derek.Parks@noaa.gov",
+  "num_tags": 7,
+  "id": "09276b52-2895-4af4-9565-54ebae651738",
+  "metadata_created": "2014-08-28T20:21:33.244726",
+  "metadata_modified": "2014-08-28T20:21:33.244726",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "09276b52-2895-4af4-9565-54ebae651738",
+      "webstore_last_updated": null,
+      "id": "25fdc2b0-45ce-4d07-a75a-1609798e581e",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 7,
+        "recent": 2
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-08-28T16:21:33.583894",
+      "url": "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=1&p=1&f=G&l=50&d=PTXT&S1=8022864&OS=8022864&RS=8022864",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "7258fbf5-0b02-4e84-98b4-e8d473bd3e93",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "histogram",
+      "id": "cd0afec3-cbc3-4373-949d-ceb8cdbd6515",
+      "name": "histogram"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "noise",
+      "id": "caa48714-941c-4555-a9bd-a08d2a40fc14",
+      "name": "noise"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "power",
+      "id": "eb008bfb-077a-445c-b461-3f704b8e22b1",
+      "name": "power"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "sensor",
+      "id": "a1c10afd-3fd0-4dc9-af55-8ae9db78c9b4",
+      "name": "sensor"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "signal",
+      "id": "2df06cba-3021-4a3f-b330-e11291b47d9b",
+      "name": "signal"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "spectrum",
+      "id": "cf1e6f8a-3b13-41fe-9688-264b47cdeed7",
+      "name": "spectrum"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "transient",
+      "id": "bef0a0e2-88b9-4cdb-bd5d-9f8745e3f91b",
+      "name": "transient"
+    }
+  ],
+  "tracking_summary": {
+    "total": 22,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "detection-of-transient-signals-in-doppler-spectra",
+  "isopen": false,
+  "url": null,
+  "notes": "Signal processing is used to detect transient signals in the presence of noise. Two embodiments are disclosed. In both embodiments, the time series from a remote sensor is broken into a number of short time series. The power spectrum of each short time series are then calculated along with the mean noise level. The moments of each peak in every power spectrum are calculated and the peak with the largest power selected from each power spectrum. A histogram of the moments from these selected peaks is generated and normalized to become a measured PDF. In addition, a pre-determined PDF is derived, in the same method as above, from theoretically calculated noise, numerically simulated noise, or measured noise. Comparison between the measured and pre-determined PDF's establish the detection of a transient signal. The first embodiment compares the area between the measured and pre-determined PDF's against a threshold to determine detection. In a second embodiment, the differences between the measured and pre-determined PDF's are weighted and summed to form a score. This score is compared to a threshold to determine detection.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Department of Commerce"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "32bb7250-22a0-47b3-97f2-bc8ac2fcd631"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2014-06-24"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA json"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "006:48"
+      ]
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "006:000"
+      ]
+    },
+    {
+      "key": "identifier",
+      "value": "TT-000053"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "25c4977d-3a16-4992-9fcd-1482fbc8d6f6"
+    },
+    {
+      "key": "source_hash",
+      "value": "14e9c90ba97e1cf38eafbfdb286b8ab50fc7284c"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "25c4977d-3a16-4992-9fcd-1482fbc8d6f6"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "32bb7250-22a0-47b3-97f2-bc8ac2fcd631"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA Patents Json"
+    }
+  ],
+  "title": "Detection of Transient Signals in Doppler Spectra",
+  "revision_id": "7258fbf5-0b02-4e84-98b4-e8d473bd3e93"
+}

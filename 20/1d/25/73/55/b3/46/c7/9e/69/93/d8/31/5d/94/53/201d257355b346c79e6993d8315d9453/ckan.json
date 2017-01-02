@@ -1,0 +1,232 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "201d2573-55b3-46c7-9e69-93d8315d9453",
+  "metadata_created": "2013-03-15T14:35:08.138145",
+  "metadata_modified": "2016-04-23T02:38:02.977000",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "201d2573-55b3-46c7-9e69-93d8315d9453",
+      "webstore_last_updated": null,
+      "id": "1984c90e-8909-458c-bbe5-4f4107fc8966",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "geospatial data",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ESRI File Geodatabase",
+      "created": "2016-04-22T22:38:03.293499",
+      "url": "ftp://nhdftp.usgs.gov/DataSets/Staged/States/FileGDB/HighResolution/NHDH_VT_931v210.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "3a6c8e7b-6e61-469f-a09c-07e157c8b0ca",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "201d2573-55b3-46c7-9e69-93d8315d9453",
+      "webstore_last_updated": null,
+      "id": "88c3fa60-f070-4358-8304-e17ed0514e82",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 61,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "3a6c8e7b-6e61-469f-a09c-07e157c8b0ca",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-04-22T22:38:03.293533",
+      "url": "http://nhd.usgs.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 39,
+    "recent": 1
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:41.302957",
+    "title": "Vermont Center for Geographic Information",
+    "name": "vcgi-org",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://vcgi.vermont.gov/sites/all/themes/vt_template/logo.png",
+    "revision_id": "c5dfbbb0-f1e0-4db6-b566-e932e1520060",
+    "type": "organization",
+    "id": "0c3a4ebc-9929-4f21-bdd0-76a35d52f57d",
+    "approval_status": "approved"
+  },
+  "name": "waterhydro-vhd",
+  "isopen": false,
+  "url": null,
+  "notes": "The Vermont Hydrography Dataset (VHD) is compliant with the local resolution (also known as High Resolution) National Hydrography Dataset (NHD) and is a feature-based database that interconnects and uniquely identifies the stream segments or reaches that make up the nation's surface water drainage system. Data users are highly encouraged to read this metadata thoroughly in order to avoid using the data beyond its limitations. This dataset is ONLY available for download from USGS's FTP site as a pre-staged ESRI File Geodatabase only (shapefile not available). Refer to VHDCARTO if you're looking for a layer of surface water data for cartographic purposes only. The VHD is based primarily on the Vermont Mapping Program (VMP) digital orthophotos, vmp \"break line\" features, and to a lesser degree on historical surface water data, NAPP cir multi-spectral aerial photography and CIR satellite imagery (lamoille and white subbasins only). The original VMP orthos had source dates ranging from 1994-2000 and these are being updated yearly. The VHD is organized at the subbasin level, a.k.a., the eight digit cataloging unit (HUC 8). The 17 Subbasins within or intersecting Vermont include: Black-Ottauquechee Rivers (1080106), Connecticut-Bellows Falls to Vernon Dam (1080107), Connecticut-Johns River to Waits River (1080103), Connecticut-Waits River to White River (1080104), Deerfield River (1080203), Hudson-Hoosic Rivers (2020003), Lake Champlain (2010008), Lake George (2010001), Lamoille River (2010005), Middle Connecticut River (1080201), Mississquoi River (2010007), Otter Creek (2010002), Passumpsic River (1080102), St. Francois River (1110000), Upper Connecticut River (1080101), White River (1080105) and Winooski River (2010003).",
+  "owner_org": "0c3a4ebc-9929-4f21-bdd0-76a35d52f57d",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-71.464335"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "45.059295"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "42.559606"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-73.74271, 42.559606], [-71.464335, 42.559606], [-71.464335, 45.059295], [-73.74271, 45.059295], [-73.74271, 42.559606]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "underDevelopment"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None. Acknowledgment of the originating agencies would be appreciated in products derived from these data. This data constitutes the best available surface water data of its kind to date, available at the subbasin level. However, this does not ensure absolute accuracy of all features and the user must be alert to potential errors at all times when using data for cartographic display or analytical purposes.\", \"Access Constraints: VCGI and the State of VT make no representations of any kind, including but not limited to the warranties of merchantability or fitness for a particular use, nor are any such warranties to be implied with respect to the data.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "1994-01-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "info@vcgi.org"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-73.742710"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2013-07-23"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2013-07-23\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "irregular"
+    },
+    {
+      "key": "licence",
+      "value": "[\"VCGI and the State of Vermont make no representations of any kind, including but not limited to the warranties of merchantability or fitness for a particular use, nor are any such warranties to be implied with respect to the data.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"VT Center for Geographic Information\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2000-01-01"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "surface waters, hydrography, reservoir, canal / ditch, swamp / marsh, reach, artificial path, vermont hydrography dataset, spring / seep, stream / river, vhd, lake / pond, fwhydrography"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "53c2b83c-10e1-4400-a1e7-245ac21ed4a4"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "a0d2a02b-5473-48ce-816c-8c6c6f8fabdb"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "VT Center for Geographic Information, Inc."
+    }
+  ],
+  "title": "WaterHydro_VHD",
+  "revision_id": "3a6c8e7b-6e61-469f-a09c-07e157c8b0ca"
+}

@@ -1,0 +1,246 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "bb5e322d-796f-42b0-8fdc-93c00518bab1",
+  "metadata_created": "2014-10-01T14:30:39.583635",
+  "metadata_modified": "2016-09-27T11:42:14.891329",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "bb5e322d-796f-42b0-8fdc-93c00518bab1",
+      "webstore_last_updated": null,
+      "id": "421cd852-4bbb-4d30-acb7-1e442420313d",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 7,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ImageryTopo Large-scale Map Service (ArcGIS)",
+      "created": "2016-09-27T07:42:15.507791",
+      "url": "http://services.nationalmap.gov/arcgis/rest/services/USGSImageryTopoLarge/MapServer",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "daa71c78-0269-4932-be82-14038d22afa4",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "bb5e322d-796f-42b0-8fdc-93c00518bab1",
+      "webstore_last_updated": null,
+      "id": "4fc8bbd4-f1fe-4791-960c-d329fa852043",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "WMS",
+      "tracking_summary": {
+        "total": 9,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ImageryTopo Large-scale Map Service (OGC WMS)",
+      "created": "2016-09-27T07:42:15.507831",
+      "url": "http://services.nationalmap.gov/arcgis/services/USGSImageryTopoLarge/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "daa71c78-0269-4932-be82-14038d22afa4",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "bb5e322d-796f-42b0-8fdc-93c00518bab1",
+      "webstore_last_updated": null,
+      "id": "a536a8b6-78c0-4f15-84ff-52612f7cec82",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 145,
+        "recent": 24
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "daa71c78-0269-4932-be82-14038d22afa4",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-09-27T07:42:15.507841",
+      "url": "http://viewer.nationalmap.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 242,
+    "recent": 8
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "usgs-imagery-topo-large-scale-base-map-service-from-the-national-map",
+  "isopen": false,
+  "url": null,
+  "notes": "The USGS Imagery Topo Large service from The National Map (TNM) is a dynamic topographic base map service that combines the best available data (Boundaries, Elevation, Geographic Names, Hydrography, Land Cover, Structures, and Transportation with Orthoimagery) that make up The National Map. Contours generated for the US Topo product are visible along with other data at scales of 1:13,500 and larger. This product is designed to provide a seamless view of the data in a geographic information system (GIS) accessible format, closely resembling The National Map US Topo GeoPDF product at large scales.",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Geological Survey, National Geospatial Technical Operations Center\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "tnm_help@usgs.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-179.1666667"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-09-26"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2016-01-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "180"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "71.5"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "17.625"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty\\n         expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific\\n         purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the\\n         data and aggregate use with other data. It is strongly recommended that these data are directly acquired from a U.S. Geological\\n         Survey server, and not indirectly through other sources which may have changed the data in some way. It is also strongly\\n         recommended that careful attention be paid to the contents of the metadata file associated with these data. The U.S. Geological\\n         Survey shall not be held liable for improper or incorrect use of the data described and/or contained herein.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-179.1666667, 17.625], [180.0, 17.625], [180.0, 71.5], [-179.1666667, 71.5], [-179.1666667, 17.625]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None. Acknowledgement of the originating agencies would be appreciated in products derived from these data.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "tags",
+      "value": "map, imagery, wms, base map, rest, united states, ngp-tnm, us, base map service, orthoimagery"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "205a4db3-56fb-4956-8965-194ac476a462"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "bdd6b833-e5ff-4c23-9991-daadaec906e0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Base Map Services in The National Map"
+    }
+  ],
+  "title": "USGS Imagery Topo Large-scale Base Map Service from The National Map",
+  "revision_id": "c7f1a6e6-1a56-4b0e-a0a2-f75cfd336bc0"
+}

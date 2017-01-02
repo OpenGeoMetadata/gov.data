@@ -1,0 +1,241 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Data Exchange Administrator",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "ORDP.Data.Exchange@ssa.gov",
+  "num_tags": 13,
+  "id": "1ca4b7ab-0069-4c9e-8bbc-317452d8e112",
+  "metadata_created": "2015-01-30T16:17:58.691176",
+  "metadata_modified": "2016-10-29T19:05:41.231591",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "citizen",
+      "id": "5a5344fd-0b4a-41f6-a1ee-76e90628b8e3",
+      "name": "citizen"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "dhs",
+      "id": "51d6fbd1-a603-4eaa-94fd-2a2ea27b57d5",
+      "name": "dhs"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "e-verify",
+      "id": "4791310f-1d1a-42f1-849b-9262c20a882d",
+      "name": "e-verify"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "employment",
+      "id": "2b37f0ac-ef84-4308-9003-7bcb69474471",
+      "name": "employment"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "employment-eligibility",
+      "id": "3da471f3-c816-4faf-9caf-33ca6f6d2a67",
+      "name": "employment-eligibility"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "employment-eligibility-verification",
+      "id": "17e429b9-8123-4b03-9329-e8dfe87dcdee",
+      "name": "employment-eligibility-verification"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "illegal-immigration",
+      "id": "699b0157-ec0c-4d82-af98-69e5354821cb",
+      "name": "illegal-immigration"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "immigration",
+      "id": "b0e6418a-f321-47fa-a31c-39d5f55462f3",
+      "name": "immigration"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "new-hire",
+      "id": "dca65b36-881a-4fb0-b46c-44b9e5a1b6af",
+      "name": "new-hire"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "numident",
+      "id": "e683a205-f54c-4455-b3a8-407f28574671",
+      "name": "numident"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "u-s-citizenship",
+      "id": "365293d1-d40d-4965-b9fe-b91ee38c8b0b",
+      "name": "u-s-citizenship"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "uscis",
+      "id": "eec2386a-b72f-4f0d-aa67-c424e8abe184",
+      "name": "uscis"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "verification",
+      "id": "42cc2a5b-1c70-4e1c-9408-d61faf6a8245",
+      "name": "verification"
+    }
+  ],
+  "tracking_summary": {
+    "total": 145,
+    "recent": 3
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:35:25.934290",
+    "title": "Social Security Administration",
+    "name": "ssa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/ssa.png",
+    "revision_id": "1be01963-921d-432f-b56d-37fa76dfb0a1",
+    "type": "organization",
+    "id": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+    "approval_status": "approved"
+  },
+  "name": "e-verify",
+  "isopen": true,
+  "url": null,
+  "notes": "Through an automated confirmation system, an employer matches information provided by a new employee (Form I-9) against existing information contained in Social Security Administration's (SSA) and the Department of Homeland Security's (DHS) U.S. Citizenship & Immigration Services (USCIS) databases. The SSA E-Verify System (SSA E-Verify) determines a specific verification code based upon information (SSN, DOB, L-Name, F-Name) in the NUMIDENT database. The verification code is returned to DHS E-Verify (DHS E-Verify) along with the original verification request. The message to the employer is determined by DHS E-Verify based on SSA's verification code.",
+  "owner_org": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Social Security Administration"
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "license",
+      "value": "https://www.ssa.gov/open/data/Restricted-Public-Licensing-Information.html"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "rights",
+      "value": "The data contained in this data exchange is restricted due to sensitivity and/or privacy issues.  If you would like more information on a data exchange with SSA please visit the following web site https://www.ssa.gov/dataexchange/."
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "R/P1D"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "016:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "016:00"
+      ]
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1D"
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "US-GOV-SSA-693"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "a26570c1-01fe-4728-8938-7ed4fc5408dc"
+    },
+    {
+      "key": "source_hash",
+      "value": "7fddf008f3fa4a6f8f3cda9c3f5e96b30714317c"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "a26570c1-01fe-4728-8938-7ed4fc5408dc"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    }
+  ],
+  "title": "E-Verify",
+  "revision_id": "e82816db-882e-4cd1-a973-cbf4c3610581"
+}

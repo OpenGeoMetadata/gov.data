@@ -1,0 +1,199 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Data Exchange Administrator",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "ORDP.Data.Exchange@ssa.gov",
+  "num_tags": 7,
+  "id": "7134efd4-8fee-41ac-ab85-b243993bbc36",
+  "metadata_created": "2015-01-30T16:17:58.198521",
+  "metadata_modified": "2016-02-27T17:19:13.648019",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "awt",
+      "id": "13dec54e-8d44-41cd-8400-094b31278b5e",
+      "name": "awt"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "cbsv",
+      "id": "77bdf265-b7bc-4012-b6f4-751427895180",
+      "name": "cbsv"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "consent-based-verification-system",
+      "id": "c588c11e-5ae6-49f3-8fd1-cdf48b644cae",
+      "name": "consent-based-verification-system"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "evs",
+      "id": "01a06028-e5e6-4148-8800-49bfcd08396d",
+      "name": "evs"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "novu",
+      "id": "68b086f4-d35d-42eb-a20f-6ffefb0429b2",
+      "name": "novu"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "numident-online-verification-utility",
+      "id": "45758c25-5c5c-485c-a5df-a72d1ff84e2f",
+      "name": "numident-online-verification-utility"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ssoars",
+      "id": "dfb4f9c8-3c3b-4e4e-a295-4ce7ceed96c1",
+      "name": "ssoars"
+    }
+  ],
+  "tracking_summary": {
+    "total": 30,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:35:25.934290",
+    "title": "Social Security Administration",
+    "name": "ssa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/ssa.png",
+    "revision_id": "1be01963-921d-432f-b56d-37fa76dfb0a1",
+    "type": "organization",
+    "id": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+    "approval_status": "approved"
+  },
+  "name": "consent-based-verification-system-cbsv",
+  "isopen": true,
+  "url": null,
+  "notes": "CBSV is a fee-based service offered by SSA's Business Services Online (BSO). It is used by private companies to verify the SSNs of their customers and clients that have provided written consent. Prior to submitting verifications, CBSV interacts with SSOARS to confirm positive account balance and AWT to confirm a valid agreement exists. CBSV users have the option of using a web service, an online service to verify up to 10 SSNs for immediate results or upload batch files for overnight processing. CBSV uses the Numident Online Verification Utility (NOVU) for the online requests and EVS for the batch requests. The CBSV application is maintained by OSES while AWT, NOVU and EVS are maintained in OEEAS DIVES Verification Systems Branch.",
+  "owner_org": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Social Security Administration"
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "license",
+      "value": "https://www.ssa.gov/open/data/Restricted-Public-Licensing-Information.html"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "rights",
+      "value": "The data contained in this data exchange is restricted due to sensitivity and/or privacy issues.  If you would like more information on a data exchange with SSA please visit the following web site https://www.ssa.gov/dataexchange/."
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "R/P1D"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "016:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "016:00"
+      ]
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1D"
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "US-GOV-SSA-691"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "a615d45d-90cc-414d-aaa8-a6407fe841d8"
+    },
+    {
+      "key": "source_hash",
+      "value": "87756f006075f202c7f8468c74d99097974f7fd1"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "a615d45d-90cc-414d-aaa8-a6407fe841d8"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    }
+  ],
+  "title": "Consent Based Verification System (CBSV)",
+  "revision_id": "c831f18b-f511-48ae-861a-f3b0ba979096"
+}

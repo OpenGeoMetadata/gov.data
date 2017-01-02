@@ -1,0 +1,169 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "",
+  "num_tags": 0,
+  "id": "DOC-6182",
+  "metadata_created": "2013-05-18T09:52:33.435305",
+  "metadata_modified": "2016-09-01T21:15:30.839317",
+  "author": "",
+  "author_email": "",
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "DOC-6182",
+      "webstore_last_updated": null,
+      "id": "36cd1281-fe66-460e-a6ef-50af961dd3cb",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 49,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2013-05-18T11:52:33.487232",
+      "url": "http://tidesandcurrents.noaa.gov/inundation/",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "cf57d3b2-867e-4d07-a2df-4b2786f005bc",
+      "resource_type": "file"
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 363,
+    "recent": 6
+  },
+  "groups": [
+    {
+      "display_name": "AAPI",
+      "description": "Asian Americans and Pacific Islanders",
+      "image_display_url": "",
+      "title": "AAPI",
+      "id": "9a350fa9-bc49-43d4-8e77-270b9714976d",
+      "name": "aapi0916"
+    },
+    {
+      "display_name": "Agriculture",
+      "description": "",
+      "image_display_url": "",
+      "title": "Agriculture",
+      "id": "008741df-42eb-48ba-9e87-f69eb6e7d321",
+      "name": "agriculture8571"
+    },
+    {
+      "display_name": "Climate",
+      "description": "",
+      "image_display_url": "",
+      "title": "Climate",
+      "id": "aa0c01c9-d292-4dc1-8fec-b10c1bb629a9",
+      "name": "climate5434"
+    },
+    {
+      "display_name": "Disasters",
+      "description": "Disaster Topic for Data.gov",
+      "image_display_url": "",
+      "title": "Disasters",
+      "id": "72886f47-5994-4ca9-82ba-4a75987250a9",
+      "name": "disasters"
+    },
+    {
+      "display_name": "Energy",
+      "description": "",
+      "image_display_url": "",
+      "title": "Energy",
+      "id": "b6db7c5a-d306-4da5-a0cd-b4128e1322ce",
+      "name": "energy9485"
+    },
+    {
+      "display_name": "Ocean",
+      "description": "",
+      "image_display_url": "",
+      "title": "Ocean",
+      "id": "f700e408-3bf4-4e8f-9499-b0ab0e2fec3c",
+      "name": "ocean9585"
+    },
+    {
+      "display_name": "Safety",
+      "description": "",
+      "image_display_url": "",
+      "title": "Safety",
+      "id": "872991f6-ef6d-40e1-8bdc-fbbcede1463d",
+      "name": "safety3175"
+    }
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "noaas-inundation-analysis-tool",
+  "isopen": true,
+  "url": null,
+  "notes": "Coastal storms and other meteorological phenomenon can have a significant impact on how high water levels rise and how often. The inundation analysis program is extremely beneficial in determining the frequency (or the occurrence of high waters for different elevations above a specified threshold) and duration (or the amount of time that the specified location is inundated by water) of observed high waters (tides). Statistical output from these analyses can be useful in planning marsh restoration activities. Additionally, the analyses have broader applications for the coastal engineering and mapping community, such as, ecosystem management and regional climate change. Since these statistical outputs are station specific, use for evaluating surrounding areas may be limited.\r\nProducts\r\nThe data input for this tool is 6-minute water level data time series and the tabulated times and heights of the high tides over a user specified time period, relative to a desired tidal datum or user-specified datum. The data output of this tool provides summary statistics, which includes the number of occurrences of inundation above the threshold (events) and length of duration of inundation of each events above the threshold elevation for a specified time period. In addition to summary statistics, graphical outputs are provided using three plots. The first plot is a histogram of frequency of occurrence relative to the threshold elevation, the second plot is a histogram of the frequency of duration of inundation, and the third plot is an X-Y plot of frequency of elevation versus duration of inundation for each event. Input data time series are presently limited to the verified data from a set of operating and historical tide stations in the NOAA CO-OPS data base.\r\n",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "__category_tag_008741df-42eb-48ba-9e87-f69eb6e7d321",
+      "value": "[\"Natural Resources and Environment\"]"
+    },
+    {
+      "key": "__category_tag_72886f47-5994-4ca9-82ba-4a75987250a9",
+      "value": "[\"Coastal Inundation\"]"
+    },
+    {
+      "key": "__category_tag_aa0c01c9-d292-4dc1-8fec-b10c1bb629a9",
+      "value": "[\"Coastal Flooding\"]"
+    },
+    {
+      "key": "__category_tag_872991f6-ef6d-40e1-8bdc-fbbcede1463d",
+      "value": "[\"Natural Hazards\"]"
+    },
+    {
+      "key": "__category_tag_9a350fa9-bc49-43d4-8e77-270b9714976d",
+      "value": "[\"Agriculture\",\"Asian\",\"Native Hawaiian\",\"Pacific Islander\",\"Hawaii\",\"Pacific Islands\",\"Environment\",\"Oceans\"]"
+    },
+    {
+      "key": "__category_tag_f700e408-3bf4-4e8f-9499-b0ab0e2fec3c",
+      "value": "[\"Biology and Habitats\"]"
+    },
+    {
+      "key": "__category_tag_b6db7c5a-d306-4da5-a0cd-b4128e1322ce",
+      "value": "[\"Hydropower\"]"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "NOAA's Inundation Analysis Tool",
+  "revision_id": "79de5584-b47e-4c99-8e66-4466db6d988d"
+}

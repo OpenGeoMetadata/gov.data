@@ -1,0 +1,268 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "8ca52235-2397-4d6d-964d-8de6e48a9ed2",
+  "metadata_created": "2015-09-26T21:47:32.153358",
+  "metadata_modified": "2016-10-19T19:47:58.155049",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "8ca52235-2397-4d6d-964d-8de6e48a9ed2",
+      "webstore_last_updated": null,
+      "id": "501ff43b-94fc-464a-b18d-17eba0d501fa",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "BAK_DBMB_5m.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "b2408626-c2cc-47a4-bafa-0cf215039439",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2016-10-19T15:47:58.317662",
+      "url": "ftp://ftp.soest.hawaii.edu/pibhmc/website/data/pria/bathymetry/BAK_DBMB_5m.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "8ca52235-2397-4d6d-964d-8de6e48a9ed2",
+      "webstore_last_updated": null,
+      "id": "d8e10635-8472-44d3-b6db-010dec5886a2",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "pibhmc_pria_bak_bathy.htm",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "b2408626-c2cc-47a4-bafa-0cf215039439",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T15:47:58.317696",
+      "url": "http://www.soest.hawaii.edu/pibhmc/pibhmc_pria_bak_bathy.htm",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "8ca52235-2397-4d6d-964d-8de6e48a9ed2",
+      "webstore_last_updated": null,
+      "id": "6df53684-988a-46f6-9814-dc1c14859e7f",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 7,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "b2408626-c2cc-47a4-bafa-0cf215039439",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T15:47:58.317704",
+      "url": "http://www.soest.hawaii.edu/pibhmc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 0,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "mosaic-of-gridded-multibeam-bathymetry-and-bathymetry-derived-from-multispectral-world-view-2-s",
+  "isopen": false,
+  "url": null,
+  "notes": "Gridded multibeam bathymetry is integrated with bathymetry derived from multpectral World View-2 satellite data. Gridded (10 m cell size) multibeam bathymetry collected aboard NOAA Ship Hiialaka'i and R/V AHI in 2007, a 224 (68 m) United States National Oceanographic and Atmospheric Administration research ship. Bathymetry values shallower than ~20 m were derived by gauging the reletive attenuation of coastal, blue, green and yellow spectral radiance as a function of depth. A multiple linear regression analysis of coastal, blue, green and yellow band spectral values against depth determined the variables of y-intercept, coastal,blue, green and yellow slope values. Variables then used in multivariate slope intercept formula to derive depth. Digital image processing to derive depths conducted with the ENVI 4.8 software program while data editing and integration was performed using ArcGIS 10.1 This data set is for the shelf environment of Baker Island.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-176.449566"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "00.21482"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "jpg"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://www.soest.hawaii.edu/pibhmc/PRIAs_images/BAK_DBMB_5m_445.jpg"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-176.494544, 0.180621], [-176.449566, 0.180621], [-176.449566, 0.21482], [-176.494544, 0.21482], [-176.494544, 0.180621]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: These data are not to be used for navigation purposes. Please acknowledge the NOAA Coral Reef Ecosystem Division, Pacific Islands Fisheries Science Center and the Pacific Islands Benthic Habitat Mapping Center, School of Ocean and Earth Science and Technology, University of Hawaii as the sources of this information.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2001-02-09"
+    },
+    {
+      "key": "contact-email",
+      "value": "pibhmc@soest.hawaii.edu"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-176.494544"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-10-05"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2014-09-12\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "Gridded Bathymetry"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"These data are not to be used for navigational purposes.\\nNOAA makes no warranty regarding these data, expressed or implied,\\nnor does the fact of distribution constitute such a warranty.\\nNOAA cannot assume liability for any damages caused by any errors\\nor omissions in these data, nor as a result of the failure of\\nthese data to function on a particular system.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Pacific Islands Benthic Habitat Mapping Center (PIBHMC), Coral Reef Ecosystem Division (CRED), Pacific Islands Fisheries Science Center (PIFSC), National Marine Fisheries Service (NMFS), National Oceanic and Atmospheric Administration (NOAA)\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2014-02-09"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "00.180621"
+    },
+    {
+      "key": "tags",
+      "value": "slope, worldview-2, geographic information, reef monitoring and assessment, biosphere, 467, oceans, corals, water depth, zoology, multibeam sonar, satellite (digital scans), pacific ocean, bathymetry, bathymetry/seafloor topography, benthic habitat mapping and characterization in the pacific islands region, remote sensing, central pacific, pacific remote island areas, baker island, earth science"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "fe097648-d13e-4d65-a6b4-1f447c7c38e0"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Mosaic of gridded multibeam bathymetry and bathymetry derived from multispectral World View-2 satellite imagery of Baker Island, Pacific Remote Island Areas, Central Pacific.",
+  "revision_id": "13558c98-32ec-483e-b8ee-84107b30ee2f"
+}

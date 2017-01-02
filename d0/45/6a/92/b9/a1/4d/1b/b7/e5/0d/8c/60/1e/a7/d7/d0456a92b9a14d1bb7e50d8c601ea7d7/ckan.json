@@ -1,0 +1,217 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "d0456a92-b9a1-4d1b-b7e5-0d8c601ea7d7",
+  "metadata_created": "2016-07-16T01:33:59.717605",
+  "metadata_modified": "2016-07-16T01:33:59.717605",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "d0456a92-b9a1-4d1b-b7e5-0d8c601ea7d7",
+      "webstore_last_updated": null,
+      "id": "db828cd4-4509-459e-b4ab-f277f32585ca",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "ESRI GRID",
+      "tracking_summary": {
+        "total": 9,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ESRI GRID",
+      "created": "2016-07-15T21:33:59.922248",
+      "url": "http://cloud.insideidaho.org/webApps/util/zip.ashx?fn=http://cloud.insideidaho.org/data/blm/fireHazardRisk/ignitprob_blm",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "37beb952-0f20-4709-a47f-de9d333b9d6e",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "d0456a92-b9a1-4d1b-b7e5-0d8c601ea7d7",
+      "webstore_last_updated": null,
+      "id": "8a01b5c4-5006-4084-bb4d-a5353095ec74",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 9,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "37beb952-0f20-4709-a47f-de9d333b9d6e",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-07-15T21:33:59.922272",
+      "url": "http://cloud.insideidaho.org/webApps/util/zip.ashx?fn=http://cloud.insideidaho.org/data/blm/fireHazardRisk/ignitprob_blm",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 11,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The University of Idaho is a nationally-recognized research institution committed to student success and academic excellence that delivers one of the best educational values in the Pacific Northwest.",
+    "created": "2013-03-14T03:44:41.687651",
+    "title": "University of Idaho",
+    "name": "uidaho-edu",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://upload.wikimedia.org/wikipedia/en/thumb/4/44/University_of_Idaho_seal.svg/300px-University_of_Idaho_seal.svg.png",
+    "revision_id": "761955d7-9530-4622-8609-d0b01c78e177",
+    "type": "organization",
+    "id": "75e22a8a-da5f-46f3-93d8-924063a3703d",
+    "approval_status": "approved"
+  },
+  "name": "fire-behavior-ignition-probability",
+  "isopen": false,
+  "url": null,
+  "notes": "An ignition probability layer (fire density) was derived using an interpolation process (ArcInfo; pointinterp) of the fire start data. 2-km cells were used for the interpolation process because fire locations were commonly only reported to the nearest Public Land Survey Section (PLSS), approximately 1 square mile. Interpolation resulted in 2-km cells being attributed with the count of ignitions. Ignition probability was derived by classifying the density data into 5 classes (low to high) using the \"natural break\" algorithm included in ArcMap. The values represent relative values that have been standardized between 0.0 and 1.0",
+  "owner_org": "75e22a8a-da5f-46f3-93d8-924063a3703d",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Bureau of Land Management, Idaho State Office\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-117.568245"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2013-01-06"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2007-01-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-110.622168"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "49.057360"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "41.920974"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although these data have been processed successfully on a computer system at the Idaho Geospatial Data Clearinghouse, no warranty, expressed or implied, is made regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty. \"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-117.568245, 41.920974], [-110.622168, 41.920974], [-110.622168, 49.05736], [-117.568245, 49.05736], [-117.568245, 41.920974]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: No warranty is made by the Bureau of Land Management as to the accuracy, reliability, or completeness of these data for individual use or aggregate use with other data. These data were designed to characterize mid-scale patterns across the state of Idaho at a scale of approximately 1:100,000. The use of these data at scales less than 1:100,000 is not recommended without field verification. This data set is provided \\\"as-is\\\" without warranty of any kind, including, but not limited to, the implied warranties of merchantability and fitness or a particular purpose. The user assumes all responsibility for the accuracy and suitability of this dataset for a specific application. In no event will the creators or USDA Forest Service be liable for any damages, including lost profits, lost savings, or other incidental or consequential damages arising from the use of or inability to use this data set. Use of these data may require the ability to read ArcInfo Grid datasets. Although the resolution of this theme is a 90-m cell, the expected accuracy does not warrant its use for geographic extents smaller than approximately 10,000 acres. That is, these data were not designed to be used for \\\"project level\\\" assessments that typically require 1:24,000 scale data.\", \"Access Constraints: Public\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "tags",
+      "value": "ignition probability, fire ignition, fire, fire start, fire density, communities at risk, 1983-2002, wildland fire, idaho state fire plan, idaho"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "5d019d7e-9c68-4917-9bd7-f99f95956d87"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "6d1998c4-ba28-47a6-9395-7413c0cc32ac"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Idaho Geospatial Data Clearinghouse"
+    }
+  ],
+  "title": "Fire Behavior - Ignition Probability",
+  "revision_id": "37beb952-0f20-4709-a47f-de9d333b9d6e"
+}

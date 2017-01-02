@@ -1,0 +1,229 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "admin",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "HealthData@hhs.gov",
+  "num_tags": 11,
+  "id": "07a6618c-eb0b-47ad-ab55-cc5b74afc479",
+  "metadata_created": "2015-06-19T02:52:55.867097",
+  "metadata_modified": "2016-10-07T14:55:27.651197",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "claims",
+      "id": "ad0de342-d965-4507-8fce-213b42189fcf",
+      "name": "claims"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "county",
+      "id": "a60c8960-e942-4d43-b53a-7e1a75429fbe",
+      "name": "county"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "end-stage-renal-disease-esrd",
+      "id": "61e4f32e-c6e2-4d6e-8485-c879c0471d7c",
+      "name": "end-stage-renal-disease-esrd"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "enrollment",
+      "id": "cd62b44c-0903-4282-898e-86378bb99c50",
+      "name": "enrollment"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "entitlement",
+      "id": "6e1df6d7-fdd2-4899-9a95-fdf713523363",
+      "name": "entitlement"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "medicare",
+      "id": "74b5e161-50ea-4ed3-a1a3-583caaccae4d",
+      "name": "medicare"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "national",
+      "id": "cea57a8f-cf1c-4ac3-af70-6578b39240a5",
+      "name": "national"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "part-a",
+      "id": "aee84ae4-b990-4649-b22f-703a24b5545a",
+      "name": "part-a"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "part-b",
+      "id": "33aaeb21-53bd-4cb0-818f-bbf42bfcc889",
+      "name": "part-b"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "restricted-use-data-file",
+      "id": "4d567476-b41b-4d68-8d36-9ace6d602a36",
+      "name": "restricted-use-data-file"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "state",
+      "id": "b420f17a-6aa8-489d-bb0a-3be247d315a8",
+      "name": "state"
+    }
+  ],
+  "tracking_summary": {
+    "total": 8,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-08-26T15:35:30.958442",
+    "title": "U.S. Department of Health & Human Services",
+    "name": "hhs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.healthdata.gov/sites/all/themes/hdtheme/logo-dark.png",
+    "revision_id": "eff89d9e-dc00-4101-bbd4-750e1adcc5bb",
+    "type": "organization",
+    "id": "3609164c-4c49-4a44-9179-23163027dc0a",
+    "approval_status": "approved"
+  },
+  "name": "denominator-file-limited-data-set",
+  "isopen": true,
+  "url": null,
+  "notes": "<p>The Denominator File combines Medicare beneficiary entitlement status information from administrative enrollment records with third-party payer information and GHP enrollment information. The Denominator File contains data on all Medicare beneficiaries enrolled and or entitled in a given year. It is an abbreviated version of the Enrollment Data Base (EDB) (selected data elements). It does not contain data on all beneficiaries ever entitled to Medicare. The file contains data only for beneficiaries who were entitled during the year of the data. These data are available annually in May of the current year for the prior year.</p>\n",
+  "owner_org": "3609164c-4c49-4a44-9179-23163027dc0a",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Department of Health &amp; Human Services"
+    },
+    {
+      "key": "identifier",
+      "value": "2b540bf6-33e2-4f23-9fa2-9d5d9b39cb29"
+    },
+    {
+      "key": "license",
+      "value": "http://opendefinition.org/licenses/odc-odbl/"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "15c538b5-31a0-474e-8ba5-c85ee421cb4d"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2016-04-05"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Healthdata.gov"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "language",
+      "value": [
+        "en"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "009:38"
+      ]
+    },
+    {
+      "key": "catalog_@id",
+      "value": "https://www.healthdata.gov/data.json"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "009:000"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c4454b56-6f98-42f5-8637-44ed7b6b5d92"
+    },
+    {
+      "key": "source_hash",
+      "value": "8783ba5e1ee22117c1339ac36fea11466cc6b5ea"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c4454b56-6f98-42f5-8637-44ed7b6b5d92"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "15c538b5-31a0-474e-8ba5-c85ee421cb4d"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Healthdata.gov"
+    }
+  ],
+  "title": "Denominator File - Limited Data Set",
+  "revision_id": "84707dd0-7e7c-469d-9c77-5adfe198542d"
+}

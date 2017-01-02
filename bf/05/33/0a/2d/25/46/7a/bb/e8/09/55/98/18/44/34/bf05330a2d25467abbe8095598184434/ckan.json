@@ -1,0 +1,239 @@
+{
+  "license_title": "Other (Public Domain)",
+  "maintainer": "Mark Elbert",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "data@eia.gov",
+  "num_tags": 7,
+  "id": "bf05330a-2d25-467a-bbe8-095598184434",
+  "metadata_created": "2016-02-18T15:28:30.761933",
+  "metadata_modified": "2016-02-21T01:22:07.034164",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "api",
+      "id": "8cfc9370-39f5-46d7-b990-ae2801f9048c",
+      "name": "api"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "coal",
+      "id": "df1f175c-4132-4563-8a7b-7059011d1b12",
+      "name": "coal"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "electricity-generation",
+      "id": "93f95463-6beb-4831-b480-20a3067aadfa",
+      "name": "electricity-generation"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "fossil-fuel-stocks",
+      "id": "ad85b81d-9bdf-4574-bd4a-91aac5a543ce",
+      "name": "fossil-fuel-stocks"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "fossil-fuels-cost",
+      "id": "36e148ff-b173-4b42-8837-1812d05c7910",
+      "name": "fossil-fuels-cost"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "petroleum-coke",
+      "id": "61046a1f-d81d-4c7f-9856-dc1bc592abc6",
+      "name": "petroleum-coke"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "petroleum-liquids",
+      "id": "c98b3f13-188f-4b6f-bd91-9caaff459e47",
+      "name": "petroleum-liquids"
+    }
+  ],
+  "tracking_summary": {
+    "total": 32,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "electricity-data-fossil-fuels",
+  "isopen": true,
+  "url": null,
+  "notes": "This provides data on the average cost of fossil. Data organized by fuel type, i.e., coal, bituminous coal, subbituminous coal, lignite coal, petroleum liquids, petroleum coke, and natural gas. Also by sector, i.e., electric power, electric utility, independent power producers, commercial, and industrial. Annual, quarterly, and monthly data available.  Based on Form EIA-423 and Form EIA-923 data. Users of the EIA API are required to obtain an API Key via this registration form: http://www.eia.gov/beta/api/register.cfm",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "collection_metadata",
+      "value": "true"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://www.eia.gov/survey/#eia-423",
+        "http://www.eia.gov/tools/glossary/index.cfm?id=electricity",
+        "http://www.eia.gov/survey/#eia-923"
+      ]
+    },
+    {
+      "key": "source_hash",
+      "value": "05432b4c3e58a86faa632e07c7ec3d43f998b582"
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "temporal",
+      "value": "2008/2015"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "energy"
+      ]
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:022"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://www.eia.gov/electricity/"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "cec4d29d-e1ff-425d-b27f-b52fc2d4d9ea"
+    },
+    {
+      "key": "publisher",
+      "value": "U.S. Energy Information Administration"
+    },
+    {
+      "key": "license",
+      "value": "http://creativecommons.org/publicdomain/mark/1.0/other-pd"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "rights",
+      "value": "The EIA API is offered as a free public service, although registration is required."
+    },
+    {
+      "key": "modified",
+      "value": "2016-02-16"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1M"
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "DOE-019-EDFF-COLLECTION1"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "cec4d29d-e1ff-425d-b27f-b52fc2d4d9ea"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "title": "Electricity Data - Fossil Fuels",
+  "revision_id": "16c4666d-ff3d-4927-915f-2ec5f002f505"
+}

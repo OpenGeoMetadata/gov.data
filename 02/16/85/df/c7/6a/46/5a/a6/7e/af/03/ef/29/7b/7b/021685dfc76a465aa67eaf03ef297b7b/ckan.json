@@ -1,0 +1,232 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Gary Jahns",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "gary.c.jahns@nasa.gov",
+  "num_tags": 3,
+  "id": "021685df-c76a-465a-a67e-af03ef297b7b",
+  "metadata_created": "2015-04-09T18:57:18.906340",
+  "metadata_modified": "2015-07-08T19:30:32.255410",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "021685df-c76a-465a-a67e-af03ef297b7b",
+      "webstore_last_updated": null,
+      "id": "c0c89b98-1dea-4b61-b24f-a25a3e5f86b0",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "XML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/xml",
+      "cache_url": null,
+      "name": "XML File",
+      "created": "2015-04-09T14:57:19.042703",
+      "url": "http://techport.nasa.gov/xml-api/16553",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "8861de88-7c47-43c7-bf26-1e52fc3a46d5",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ames-research-center",
+      "id": "72a1f439-447a-4a94-9fb9-c8921dd5b0b2",
+      "name": "ames-research-center"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "completed",
+      "id": "5e4de852-789d-47bf-af3b-ba9a0dd8d489",
+      "name": "completed"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "project",
+      "id": "24471320-3e5c-42b5-a078-8e48e70e2ac4",
+      "name": "project"
+    }
+  ],
+  "tracking_summary": {
+    "total": 3,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "resource-aware-planning-for-shadowed-and-uncertain-domains-project",
+  "isopen": true,
+  "url": null,
+  "notes": "Discovery of frozen volatiles at the lunar poles is transformative to space exploration. In-situ resources will provide fuel to support far-reaching exploration and enable commercial endeavors. While satellite data supports presence of polar ice, driving and drilling must confirm presence, determine composition, and measure distribution. Ice exists primarily in the dark and cold of polar craters. Current planetary rover planning technologies are not designed for these environments and have avoided them altogether, operating only in mid-latitudes.  \r\n\r\nThe proposed research innovates an Earth-based, resource-aware path planner for a polar prospecting rover. The proposed planner models progress toward the goal while considering resource costs inherent in that progress, generates and explores the space of possible paths, then transmits a set of low-cost viable paths to goal to the rover.  The set of viable paths then resides on the rover to inform limited re-planning if the rover encounters a hazard during traverse, even during communications dropout. The planner considers all of the impacts on polar rover operation &amp;#150; light angles that change over time, thermal operating window, sun angles and blinding light, and communications-shadowed regions. Each of these impacts affects one of the rover's resources &amp;#150; where it can go, what it can see, how cold it can get, how much battery charge remains, and whether it can communicate with its operator.\r\n\r\nDesign of the proposed planner will build on pioneering research at Carnegie Mellon that developed TEMPEST, a temporal-aware, mission-based planner that maximized battery power over a traverse. It was demonstrated using the Hyperion rover, achieving a sun-synchronous traverse of Haughton Crater. The polar environment is both adversarial and unpredictable, and the proposed planner will extend the TEMPEST to account for the unique challenges of navigating on the poles of planetary bodies and add nondeterministic planning.",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "issued",
+      "value": "2013-05-01T00:00:00Z"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://techport.nasa.gov/home",
+        "http://techport.nasa.gov/doc/home/TechPort_Advanced_Search.pdf",
+        "http://techport.nasa.gov/fetchFile?objectId=6561",
+        "http://techport.nasa.gov/fetchFile?objectId=3456",
+        "http://techport.nasa.gov/fetchFile?objectId=3447",
+        "http://techport.nasa.gov/fetchFile?objectId=6584",
+        "http://techport.nasa.gov/fetchFile?objectId=6560",
+        "http://techport.nasa.gov/fetchFile?objectId=3448"
+      ]
+    },
+    {
+      "key": "source_hash",
+      "value": "5d10250c8ab2f050a37dcc75b3da9ff9c2178095"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "temporal",
+      "value": "2013-05-01T00:00:00Z/2013-11-01T00:00:00Z"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:027"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://techport.nasa.gov/view/16553"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "081f5715-bbbb-4a49-8d5e-d02f190d8a78"
+    },
+    {
+      "key": "publisher",
+      "value": "Space Technology Mission Directorate"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "55942a8ac63a7fe59b498384"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "National Aeronautics and Space Administration > Space Technology Mission Directorate"
+    },
+    {
+      "key": "modified",
+      "value": "2015-03-12"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "TECHPORT_16553"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "081f5715-bbbb-4a49-8d5e-d02f190d8a78"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "Resource-Aware Planning for Shadowed and Uncertain Domains Project",
+  "revision_id": "b81e59f6-61b3-4264-82ef-8e0f9d8d9e13"
+}

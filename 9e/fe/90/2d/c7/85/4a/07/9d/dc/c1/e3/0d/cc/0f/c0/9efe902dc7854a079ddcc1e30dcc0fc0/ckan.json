@@ -1,0 +1,232 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Ryan Boller",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "ryan.a.boller@nasa.gov",
+  "num_tags": 6,
+  "id": "9efe902d-c785-4a07-9ddc-c1e30dcc0fc0",
+  "metadata_created": "2014-10-14T19:47:52.622397",
+  "metadata_modified": "2015-07-08T19:24:17.042875",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "9efe902d-c785-4a07-9ddc-c1e30dcc0fc0",
+      "webstore_last_updated": null,
+      "id": "b4186413-f8c9-4d17-874c-8460aec81e3f",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2014-10-14T15:47:53.326318",
+      "url": "http://schemas.opengis.net/kml/",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "cf533209-82c4-483b-83ff-da2eda16a1ed",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "digital",
+      "id": "84039650-ecc2-40ce-8290-d98abef4c606",
+      "name": "digital"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geography",
+      "id": "5b8f1720-00c9-4dae-8c24-149ce02420bd",
+      "name": "geography"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "imagery",
+      "id": "97aa96c3-cc35-4805-919d-d8954bd222d6",
+      "name": "imagery"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "kml",
+      "id": "5c2e94ca-1bbc-4db6-bbc4-fef55a514bfa",
+      "name": "kml"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "maps",
+      "id": "47678e18-522c-40d4-9a04-b70daaef2fb9",
+      "name": "maps"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "tiles",
+      "id": "6d741052-678c-43ca-9d5e-f4e3c4d87600",
+      "name": "tiles"
+    }
+  ],
+  "tracking_summary": {
+    "total": 20,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "gibs-keyhole-markup-language-kml",
+  "isopen": true,
+  "url": null,
+  "notes": "The KML documentation standard provides a solution for imagery integration into mapping tools that utilize support the KML standard, specifically Google Earth.  Using the constructs of the KML standard, GIBS infuses links to the TWMS web service endpoints to faclitate imagery viewing within supporting tools.  A custom KML generation endpoint is provided by GIBS to dynamically generate KML documents.",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "National Aeronautics and Space Administration"
+    },
+    {
+      "key": "landingPage",
+      "value": "http://www.opengeospatial.org/standards/kml"
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2012-07-21"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "identifier",
+      "value": "NASA-425"
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "irregular"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:005"
+      ]
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "55942a7bc63a7fe59b4976bd"
+      }
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "918352c9-9234-428c-b51a-46ae7f79bec8"
+    },
+    {
+      "key": "source_hash",
+      "value": "0ee3a74e465c11f659a9e2a8c1e2c4f23d0a119e"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "918352c9-9234-428c-b51a-46ae7f79bec8"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "GIBS Keyhole Markup Language (KML)",
+  "revision_id": "9bae1d75-284f-4460-9c95-8bd1d8575558"
+}

@@ -1,0 +1,255 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "7dcf54db-05b4-44e2-a123-53baa0a72f22",
+  "metadata_created": "2013-03-15T14:37:20.989377",
+  "metadata_modified": "2015-04-10T02:35:30.289728",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "7dcf54db-05b4-44e2-a123-53baa0a72f22",
+      "webstore_last_updated": null,
+      "id": "80980d93-55cd-47c4-a60e-23a4508722a3",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "04a12142-8764-411d-b5bf-1b5fc2500d39",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2013-03-15T15:37:21.006199",
+      "url": "http://www.vcgi.org/dataware/default.cfm?layer=VHDCARTO",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7dcf54db-05b4-44e2-a123-53baa0a72f22",
+      "webstore_last_updated": null,
+      "id": "4a5e96f7-0382-4a16-9efb-b8b6db2cd8a8",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "04a12142-8764-411d-b5bf-1b5fc2500d39",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2013-03-15T15:37:21.006220",
+      "url": "http://www.vcgi.org/dataware/default.cfm?layer=WaterHydro_VHDCARTO",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "7dcf54db-05b4-44e2-a123-53baa0a72f22",
+      "webstore_last_updated": null,
+      "id": "9699552d-f6cb-4e20-9c6c-d05d4d94f05e",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "default_content.cfm",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "04a12142-8764-411d-b5bf-1b5fc2500d39",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2013-03-15T15:37:21.006225",
+      "url": "http://www.vcgi.org/techres/white_papers/swresources/default_content.cfm",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 13,
+    "recent": 1
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:41.302957",
+    "title": "Vermont Center for Geographic Information",
+    "name": "vcgi-org",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://vcgi.vermont.gov/sites/all/themes/vt_template/logo.png",
+    "revision_id": "c5dfbbb0-f1e0-4db6-b566-e932e1520060",
+    "type": "organization",
+    "id": "0c3a4ebc-9929-4f21-bdd0-76a35d52f57d",
+    "approval_status": "approved"
+  },
+  "name": "waterhydro-vhdcarto",
+  "isopen": false,
+  "url": null,
+  "notes": "VHDCARTO is a simplified version of the local resolution Vermont Hydrography Dataset (VHD) that has been enriched with stream perenniality, e.g., \"intermittent\" vs. \"perennial\", as well as, Strahler stream order attribution for the single linear feature class only. The primary means of accessing this information cartographically is via the FCODE and STREAM_ORDER fields, respectively. See the Entity and Attribution Information section for details. NOTE! Perenniality data does not exist for stream reaches contained within, or intersected by, Essex or Caledonia counties, thus the FCODE \"46000\" in these areas. The absence of Soil SUrvey GeOgraphic (SSURGO) database information in these areas precluded the computation of perenniality. These areas will be processed at some future date. For information on the FCODE symbol for attribution or analysis see the following document http://nhd.usgs.gov/NHDinGEO_FCodes_by_layer.pdf (NHDFlowline). A two dimensional feature class for lakes, ponds and larger streams is also included in VHDCARTO. Both layers are derived from the latest National Hydrography Dataset (NHD) data. The NHD is a feature-based database that interconnects and uniquely identifies the stream segments or reaches that make up the nation's surface water drainage system. For information on the science behind computing perenniality attribution please refer to the following U.S. Geological Survey Scientific Investigative Report (SIR) # 2006-5217 - http://pubs.usgs.gov/sir/2006/5217/pdf/SIR2006-5217_report.pdf",
+  "owner_org": "0c3a4ebc-9929-4f21-bdd0-76a35d52f57d",
+  "extras": [
+    {
+      "key": "temporal-extent-begin",
+      "value": "1994-01-01"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2010-01-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "mikeb@vcgi.org"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-73.742710"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2010-06-09"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2010-06-09\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-71.464335"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "45.059295"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "42.559606"
+    },
+    {
+      "key": "licence",
+      "value": "[\"VCGI and the State of Vermont make no representations of any kind, including but not limited to the warranties of merchantability or fitness for a particular use, nor are any such warranties to be implied with respect to the data.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"VCGI, Inc.\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-73.74271, 42.559606], [-73.74271, 45.059295], [-71.464335, 45.059295], [-71.464335, 42.559606], [-73.74271, 42.559606]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None. Acknowledgment of the originating agencies would be appreciated in products derived from these data.\", \"Access Constraints: VCGI and the State of Vermont make no representations of any kind, including but not limited to the warranties of merchantability or fitness for a particular use, nor are any such warranties to be implied with respect to the data.\"]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "irregular"
+    },
+    {
+      "key": "tags",
+      "value": "Hydrography, VHD Carto"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "3bd4e753-7fc6-43a6-a5df-083d78cef5eb"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "a0d2a02b-5473-48ce-816c-8c6c6f8fabdb"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "VT Center for Geographic Information, Inc."
+    }
+  ],
+  "title": "WaterHydro_VHDCARTO",
+  "revision_id": "4ee9ef02-50f0-47e3-a5ce-8b6de9d559b6"
+}

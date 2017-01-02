@@ -1,0 +1,203 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "Lee Burke",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "lee.burke@fiscal.treasury.gov",
+  "num_tags": 1,
+  "id": "08ba769f-0b39-446e-95e7-24999ce0fbcb",
+  "metadata_created": "2014-08-28T04:52:43.693233",
+  "metadata_modified": "2016-11-17T19:58:36.429532",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "describedByType": "text/html",
+      "package_id": "08ba769f-0b39-446e-95e7-24999ce0fbcb",
+      "webstore_last_updated": null,
+      "id": "41d20734-0590-4410-b874-b5629e744845",
+      "size": null,
+      "state": "active",
+      "describedBy": "http://www.treasurydirect.gov/instit/annceresult/press/press_auctionresults.htm",
+      "accessURL": "https://transparency.treasury.gov/dataset/today-auction-results",
+      "hash": "",
+      "description": "",
+      "format": "application/vnd.api+json",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "revision_id": "f77c728c-f588-438f-bf86-410fd59024cf",
+      "mimetype": "application/vnd.api+json",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-05-28T19:55:28.828827",
+      "url": "http://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json&day=0",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "competitive-results--noncompetitive-results--auction--cusip",
+      "id": "330da55e-50d1-4ff8-823c-0fc777ef0195",
+      "name": "competitive-results--noncompetitive-results--auction--cusip"
+    }
+  ],
+  "tracking_summary": {
+    "total": 52,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:49:27.440302",
+    "title": "Department of the Treasury",
+    "name": "treasury-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/US-DeptOfTheTreasury-Seal.svg/200px-US-DeptOfTheTreasury-Seal.svg.png",
+    "revision_id": "ef51490d-b4af-4f85-b229-3136099b1b8a",
+    "type": "organization",
+    "id": "5a2fc6dd-f2cc-4bae-878b-c70576a26757",
+    "approval_status": "approved"
+  },
+  "name": "todays-auction-results",
+  "isopen": false,
+  "url": null,
+  "notes": "Today's Auction Results displays U.S. Treasury marketable securities Noncompetitive Results, Competitive Results, and Announcements and Results by Auction Year.",
+  "owner_org": "5a2fc6dd-f2cc-4bae-878b-c70576a26757",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "de90314a-7c7d-4aff-bd84-87b134bba13d"
+    },
+    {
+      "key": "issued",
+      "value": "2014-08-22T00:00:00"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "b1ed965fc388d70dbf0bb131ca94898d94e92d9e"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "describedBy",
+      "value": "http://www.treasurydirect.gov/instit/annceresult/press/press_auctionresults.htm"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "primaryITInvestmentUII",
+      "value": "015-000000061"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Treasury JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "015:035"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "015:12"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "https://transparency.treasury.gov/dataset/today-auction-results"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "8c0e43e8-caae-41b4-bd0d-48ecc2d47264"
+    },
+    {
+      "key": "publisher",
+      "value": "Bureau of the Fiscal Service"
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "Department of the Treasury > Fiscal Service > Bureau of the Fiscal Service"
+    },
+    {
+      "key": "modified",
+      "value": "2015-05-04"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "catalog_@id",
+      "value": "https://www.treasury.gov/data.json"
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1D"
+    },
+    {
+      "key": "identifier",
+      "value": "015-BFS-2014Q4-001"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "8c0e43e8-caae-41b4-bd0d-48ecc2d47264"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "de90314a-7c7d-4aff-bd84-87b134bba13d"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Treasury JSON"
+    }
+  ],
+  "title": "Today's Auction Results",
+  "revision_id": "1fb2472a-0389-4b7c-a6af-aedbb9bf8646"
+}

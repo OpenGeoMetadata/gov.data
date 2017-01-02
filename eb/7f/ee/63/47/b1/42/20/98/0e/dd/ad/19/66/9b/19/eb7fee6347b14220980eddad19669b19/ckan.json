@@ -1,0 +1,248 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "eb7fee63-47b1-4220-980e-ddad19669b19",
+  "metadata_created": "2014-09-17T18:33:00.938017",
+  "metadata_modified": "2014-09-17T18:33:00.938017",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "eb7fee63-47b1-4220-980e-ddad19669b19",
+      "webstore_last_updated": null,
+      "id": "49fafaae-9899-483d-9731-3cf154eae9d4",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 709,
+        "recent": 21
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "7e969785-cbf6-46f9-b251-56e85d5dd4b8",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-09-17T14:33:01.066794",
+      "url": "http://msdis-maps.missouri.edu/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "eb7fee63-47b1-4220-980e-ddad19669b19",
+      "webstore_last_updated": null,
+      "id": "cce93982-066a-4e52-87b6-02aa2fabc113",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "MO_2009_March_MoDOT_Roads_Arcs_shp.xml",
+      "format": "XML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "7e969785-cbf6-46f9-b251-56e85d5dd4b8",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-09-17T14:33:01.066832",
+      "url": "ftp://msdis.missouri.edu/pub/metadata_gos/MO_2009_March_MoDOT_Roads_Arcs_shp.xml",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "eb7fee63-47b1-4220-980e-ddad19669b19",
+      "webstore_last_updated": null,
+      "id": "41924c3a-73bb-4957-b3fd-530f9ffa2ced",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "MO_2009_March_MoDOT_Roads_Arcs_shp.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "7e969785-cbf6-46f9-b251-56e85d5dd4b8",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2014-09-17T14:33:01.066849",
+      "url": "ftp://msdis.missouri.edu/pub/Transportation_Networks/MO_2009_March_MoDOT_Roads_Arcs_shp.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 6,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:43.960300",
+    "title": "NSGIC GIS Inventory (aka Ramona)",
+    "name": "gis-inventory-ramona-nsgic",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.nsgic.org/public_resources/nsgic-logo-b_1321892056.gif",
+    "revision_id": "979d3df0-d323-4e1e-ac62-d1623b463626",
+    "type": "organization",
+    "id": "b0b4c45b-a8ca-416b-b463-ee90d0a1a3df",
+    "approval_status": "approved"
+  },
+  "name": "road-and-street-centerlines-mo-2009-march-modot-roads-arcs-shp",
+  "isopen": false,
+  "url": null,
+  "notes": "The MoDOT roadway coverage is based on a Dynamic Segmentation model. Dynamic Segmentation models linear features using routes and events, associating multiple sets of attributes to any portion of a linear feature. The ARC feature class forms the basic linear infrastructure from which Dynamic Segmentation models or route-systems are built. NODES indicate the endpoints and intersections of ARCS. The 'from-node' is the first vertex of the arc; the 'to-node' is the last vertex. Together, they define the direction of the arc. Arc-node topology defines connectivity of Dynamic Segmentation models or route-systems. Route systems are built without modifying the underlying arc-node topology. A route represents a single linear feature, such as a city street or highway. Routes are linear features composed of one or more arcs or parts of an arc; for example, a highway may be composed of a number of connected arcs. A route, for Dynamic Segmentation purposes, is simply a linear feature with measure values attached to it. Each route is associated with a measurement system, a linear method consisting of a starting value and other measures along the route, which describe distance along them. The measures are used to locate data that describe parts of the route. Data along routes is modeled using events. Event data, such as accidents, signs, functional classification, pavement condition, pavement type, is based on the Dynamic Segmentation model, the foundation of which is the route system. The state system network (IS, US, MO, RT) originated from 1980-DIME data, which was later updated with 1995 TIGER files from the US Census Bureau. Currently the coverage is updated monthly utilizing design plans, GPS, aerial imagery and county/city maps. All Census related fields have been removed, as they are not utilized nor updated by MoDOT. As of July 2007, approximately 87% of the state system network was matched to either imagery, gps or other improved data source. All Census related fields have been removed, as they are not utilized nor updated by MoDOT.",
+  "owner_org": "b0b4c45b-a8ca-416b-b463-ee90d0a1a3df",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Missouri Spatial Data Information Services (MSDIS)\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-95.77441406"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2013-10-11"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2013-01-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-89.10059357"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "40.61402893"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "35.99509048"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although these data have been processed successfully on a computer system by the data steward, no warranty either expressed or implied is made regarding the utility of the data on any system, nor shall this notice generated by the Ramona GIS Inventory System or the act of distribution constitute any such warranty. The data steward may have additional liability information associated with delivery or distribution of this product.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "underDevelopment"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-95.77441406, 35.99509048], [-89.10059357, 35.99509048], [-89.10059357, 40.61402893], [-95.77441406, 40.61402893], [-95.77441406, 35.99509048]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: This is an incomplete metadata record and use constraints are not documented by the Ramona GIS Inventory system.\", \"Access Constraints: This is an incomplete metadata record and access constraints are not documented by the Ramona GIS Inventory system.\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "monthly"
+    },
+    {
+      "key": "tags",
+      "value": "roads, streets, transportation, missouri"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "05d64925-603d-466f-a3e6-a1a7306cb56c"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "184d6b95-25ed-4e60-974c-c1061a99b703"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "GIS Inventory Ramona-NSGIC"
+    }
+  ],
+  "title": "Road and Street Centerlines - MO 2009 March MoDOT Roads - Arcs (SHP)",
+  "revision_id": "7e969785-cbf6-46f9-b251-56e85d5dd4b8"
+}

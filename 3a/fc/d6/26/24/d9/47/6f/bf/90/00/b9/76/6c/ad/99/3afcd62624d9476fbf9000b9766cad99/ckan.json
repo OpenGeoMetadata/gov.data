@@ -1,0 +1,244 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "3afcd626-24d9-476f-bf90-00b9766cad99",
+  "metadata_created": "2013-03-16T01:21:50.518840",
+  "metadata_modified": "2015-04-09T23:45:27.313940",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "3afcd626-24d9-476f-bf90-00b9766cad99",
+      "webstore_last_updated": null,
+      "id": "7fe8b00f-f424-4d36-82a9-4afe744fb346",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "381",
+      "hash": "",
+      "description": "",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "ESRI",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Service Description",
+      "created": "2013-03-16T02:21:50.538094",
+      "url": "http://mgsweb2.mngs.umn.edu/arcgis/rest/services/MNBoreholeLithIntervals/MapServer",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "1a267983-a829-46d3-b0a6-707763a3a2e9",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "3afcd626-24d9-476f-bf90-00b9766cad99",
+      "webstore_last_updated": null,
+      "id": "b7a91dea-7baa-4274-9bc0-9ac2373d3c4b",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "375",
+      "hash": "",
+      "description": "",
+      "format": "WMS",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Downloadable File",
+      "created": "2013-03-16T02:21:50.538115",
+      "url": "http://mgsweb2.mngs.umn.edu/ArcGIS/services/MNBoreholeLithIntervals/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "1a267983-a829-46d3-b0a6-707763a3a2e9",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "3afcd626-24d9-476f-bf90-00b9766cad99",
+      "webstore_last_updated": null,
+      "id": "65dd8c25-3319-41b8-8bd7-617bf594b8fb",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "381",
+      "hash": "",
+      "description": "",
+      "format": "WFS",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WFS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Service Description",
+      "created": "2013-03-16T02:21:50.538124",
+      "url": "http://mgsweb2.mngs.umn.edu/ArcGIS/services/MNBoreholeLithIntervals/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "1a267983-a829-46d3-b0a6-707763a3a2e9",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 28,
+    "recent": 0
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The Arizona Geological Survey collates and serves geological information for Arizona and other states through its partnership with other state geological surveys.",
+    "created": "2013-03-14T03:44:43.328493",
+    "title": "Arizona Geological Survey",
+    "name": "azgs-az-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.50states.com/flag/image/nunst004.gif",
+    "revision_id": "61be6428-4398-4199-a336-f3cd1e956f9b",
+    "type": "organization",
+    "id": "f3f6e1d4-64fb-4a2f-b32c-9ac0b76fe4de",
+    "approval_status": "approved"
+  },
+  "name": "minnesota-borehole-lithology-intervals",
+  "isopen": false,
+  "url": null,
+  "notes": "This dataset contains lithology log interval observations associated with a borehole collected for the State of Minnesota for use by the AASG Geothermal Data Project. Fields in the BoreholeLithIntervalTemplate will become XML elements in interchange documents for WFS simple features served by AASG geothermal data web services. Each interval feature has a top and a bottom, measured from the ground surface (convention for interoperability) and a geologic unit description that will be identical with the content associated with polygons on a geologic map. Other sheets in the workbook provide additional explanatory material and provide information on the origin of the dataset, its review and lineage. Link to Borehole Lithology Content Model v0.9: http://repository.usgin.org/sites/default/files/dlio/files/2012/u83/boreholelithintervaltemplate0.9schema_match_0.zip",
+  "owner_org": "f3f6e1d4-64fb-4a2f-b32c-9ac0b76fe4de",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"AZGS\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "christy.caudill@azgs.az.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-98.302552700039"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2013-02-04T16:47:38Z"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2013-02-04T00:00:00\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-89.074037075043"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "49.473353057746"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "42.978388867808"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-98.3025527, 42.9783888678], [-98.3025527, 49.4733530577], [-89.074037075, 49.4733530577], [-89.074037075, 42.9783888678], [-98.3025527, 42.9783888678]]]}"
+    },
+    {
+      "key": "guid",
+      "value": "e0c1dfc50370f3b4b6f6db9814007902"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "ground water, water wells, geothermal, Minnesota, geologic units, geology, wells, lithology intervals, lithology, Minnesota Geological Survey , Borehole Lithology Intervals, ESRI Services, WFS Services, WMS Services, Downloadable Files"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "87988fc2-0590-4c7b-85e8-202fddc620be"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "f800beb8-4923-4e88-910f-1c6cf0078598"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "AASG geothermal data CSW"
+    }
+  ],
+  "title": "Minnesota Borehole Lithology Intervals",
+  "revision_id": "21f71d90-bb98-4fd4-9105-8dfb2b67425f"
+}

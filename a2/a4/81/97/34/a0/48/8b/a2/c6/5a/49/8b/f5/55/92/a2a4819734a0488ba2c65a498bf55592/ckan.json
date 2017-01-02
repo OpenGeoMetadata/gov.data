@@ -1,0 +1,171 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Data Administrator",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "da.mailbox@ssa.gov",
+  "num_tags": 4,
+  "id": "a2a48197-34a0-488b-a2c6-5a498bf55592",
+  "metadata_created": "2015-02-28T17:14:19.878059",
+  "metadata_modified": "2016-12-01T20:58:39.282672",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "debt",
+      "id": "43d7423a-5ff2-4162-a463-dde773f8a816",
+      "name": "debt"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "incorrect-payment",
+      "id": "1ce29a89-1370-4af8-84b1-f123c83091df",
+      "name": "incorrect-payment"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "non-entitled-debtor",
+      "id": "53c66073-f021-460e-8501-bcd7e1fbc9c0",
+      "name": "non-entitled-debtor"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "overpayment",
+      "id": "728b9ed3-6661-4a0b-8bf7-e618cc746b89",
+      "name": "overpayment"
+    }
+  ],
+  "tracking_summary": {
+    "total": 12,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:35:25.934290",
+    "title": "Social Security Administration",
+    "name": "ssa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/ssa.png",
+    "revision_id": "1be01963-921d-432f-b56d-37fa76dfb0a1",
+    "type": "organization",
+    "id": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+    "approval_status": "approved"
+  },
+  "name": "non-entitled-debtors",
+  "isopen": true,
+  "url": null,
+  "notes": "Contains data that supports the automated system for controlling debts (both overpayments and incorrect payments) owed by people who do not have master records.",
+  "owner_org": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Social Security Administration"
+    },
+    {
+      "key": "accessLevel",
+      "value": "non-public"
+    },
+    {
+      "key": "license",
+      "value": "https://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "rights",
+      "value": "The data asset contains Personally Identifiable Information (PII) and cannot be provided to the public."
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2016-11-30"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "016:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "016:00"
+      ]
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "US-GOV-SSA-144"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "1addd9e1-addb-481f-9985-cc7a8ae0d4fc"
+    },
+    {
+      "key": "source_hash",
+      "value": "e14c3644af0a9c9fdd0929c53647515ec84caab2"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "1addd9e1-addb-481f-9985-cc7a8ae0d4fc"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "Non - Entitled Debtors",
+  "revision_id": "65ee87d1-e1dc-48b1-afae-62e7286a1d66"
+}

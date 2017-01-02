@@ -1,0 +1,53 @@
+{
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "revision_timestamp": null,
+  "frequency": "DAILY",
+  "id": "1f6dc373-5675-458f-86fc-96886463f8e3",
+  "metadata_created": "2015-01-27T23:21:21.305787",
+  "metadata_modified": "2015-01-28T14:10:52.888889",
+  "title": "USGS National Elevation Dataset (NED) 1 meter Downloadable Data Collection",
+  "state": "active",
+  "collection_metadata_url": "http://thor-f5.er.usgs.gov/ngtoc/metadata/waf/collections/USGS_NED_1_meter_Collection.xml",
+  "creator_user_id": "104641",
+  "config": "{\"collection_metadata_url\": \"http://thor-f5.er.usgs.gov/ngtoc/metadata/waf/collections/USGS_NED_1_meter_Collection.xml\", \"private_datasets\": false}",
+  "resources": [
+
+  ],
+  "tags": [
+
+  ],
+  "source_type": "waf-collection",
+  "tracking_summary": {
+    "total": 18,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "relationships_as_subject": [
+
+  ],
+  "name": "usgs-national-elevation-dataset-ned-1-meter-downloadable-data-collection",
+  "url": "http://thor-f5.er.usgs.gov/ngtoc/metadata/waf/elevation/1_meter/img/",
+  "type": "harvest",
+  "notes": "This is a tiled collection of the National Elevation Dataset (NED) and is one meter resolution. Data in this layer represent a bare earth surface. The National Elevation Dataset (NED) serves as the elevation layer of The National Map, and provides basic elevation information for earth science studies and mapping applications in the United States. Scientists and resource managers use NED data for global change research, hydrologic modeling, resource monitoring, mapping and visualization, and many other applications. The NED is an elevation dataset that consists of seamless layers and non-seamless high resolution layers. Each of the seamless layers are composed of the best available raster elevation data of the conterminous United States, Alaska, Hawaii, territorial islands, Mexico and Canada. The NED is updated continually as new data become available. All NED data are in the public domain. The NED is derived from diverse source data that are processed to a common coordinate system and unit of vertical measure. The spatial reference used for tiles of the one meter layer within the conterminous United States (CONUS) is Universal Transverse Mercator (UTM) in units of meters, and in conformance with the North American Datum of 1983 (NAD83). All bare earth elevation values are in meters and are referenced to the North American Vertical Datum of 1988 (NAVD88). Each tile is distributed in the UTM Zone in which it lies. If a tile crosses two UTM Zones, it is delivered in both zones. Only source data of one meter resolution or finer are used to produce the NED standard one meter layer.",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "private_datasets": false,
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "revision_id": "fdc44fc6-077f-4d61-b90e-c7feb1e86370"
+}

@@ -1,0 +1,262 @@
+{
+  "license_title": "Other (Public Domain)",
+  "maintainer": "Mark Elbert",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "data@eia.gov",
+  "num_tags": 8,
+  "id": "8c580653-0514-40f1-978b-21881566be4b",
+  "metadata_created": "2014-10-02T19:57:42.905519",
+  "metadata_modified": "2015-10-10T10:21:17.972273",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "8c580653-0514-40f1-978b-21881566be4b",
+      "webstore_last_updated": null,
+      "id": "af9fcdb0-fa75-46eb-ad3b-abf4e9b520a0",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "Excel",
+      "tracking_summary": {
+        "total": 438,
+        "recent": 15
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/vnd.ms-excel",
+      "cache_url": null,
+      "name": "Energy Consumption",
+      "created": "2014-10-02T15:57:43.185127",
+      "url": "http://www.eia.gov/totalenergy/data/monthly/query/mer_data_excel.asp?table=T02.01",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "8058e2fa-5c5b-4cc6-a3fa-381ac29a9a58",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "commercial-energy-consumption",
+      "id": "cdc41532-528b-4633-9586-200d2b45ea07",
+      "name": "commercial-energy-consumption"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "electric-power-energy-consumption",
+      "id": "e04cf1c3-0e85-4709-8072-3470a552cca4",
+      "name": "electric-power-energy-consumption"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "energy",
+      "id": "b778e6f8-a8f8-4ad6-968b-e9789c6afe2d",
+      "name": "energy"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "energy-consumption",
+      "id": "08444987-9f5a-4e3d-83a2-a50094a66c43",
+      "name": "energy-consumption"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "industrial-energy-consumption",
+      "id": "65ed1480-0a78-4dab-949a-ec698abbd519",
+      "name": "industrial-energy-consumption"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "primary-energy-consumption",
+      "id": "60582704-27c1-4a00-890f-da09d10fc9a7",
+      "name": "primary-energy-consumption"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "residential-energy-consumption",
+      "id": "a2c7006f-aa43-4fe0-8c1e-de0663a0a92f",
+      "name": "residential-energy-consumption"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "transportation-energy-consumption",
+      "id": "7dfb5cce-6cd2-451c-b9fb-21eef755f63c",
+      "name": "transportation-energy-consumption"
+    }
+  ],
+  "tracking_summary": {
+    "total": 1017,
+    "recent": 23
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "monthly-energy-consumption-by-sector",
+  "isopen": true,
+  "url": null,
+  "notes": "Monthly data since January 1973 and annual data since 1949 on U.S. primary and total energy consumption by end-use sector (residential, commercial, industrial, transportation) and electric power sector.",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://www.eia.gov/totalenergy/data/annual/index.cfm"
+      ]
+    },
+    {
+      "key": "source_hash",
+      "value": "142952b55c1b2c11db3449f5586c4b43ed671e21"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "temporal",
+      "value": "1973/2013"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "energy"
+      ]
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:022"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://www.eia.gov/totalenergy/data/monthly/index.cfm"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "f2f5848e-bff1-439e-8d91-d7a37ca6b582"
+    },
+    {
+      "key": "publisher",
+      "value": "U.S. Energy Information Administration"
+    },
+    {
+      "key": "license",
+      "value": "http://creativecommons.org/publicdomain/mark/1.0/other-pd"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "modified",
+      "value": "2014-09-25"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1M"
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "DOE-019-5416563059"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "f2f5848e-bff1-439e-8d91-d7a37ca6b582"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "title": "Monthly and Annual Energy Consumption by Sector",
+  "revision_id": "a5728cd1-b3fe-4ff2-9f89-10f19715f27d"
+}

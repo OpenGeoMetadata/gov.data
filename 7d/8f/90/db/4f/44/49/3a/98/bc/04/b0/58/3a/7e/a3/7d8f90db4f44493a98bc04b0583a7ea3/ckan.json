@@ -1,0 +1,196 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "7d8f90db-4f44-493a-98bc-04b0583a7ea3",
+  "metadata_created": "2015-12-20T18:59:36.932799",
+  "metadata_modified": "2015-12-20T18:59:36.932799",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "7d8f90db-4f44-493a-98bc-04b0583a7ea3",
+      "webstore_last_updated": null,
+      "id": "0b2597e9-a033-4498-918d-efe940113ab4",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 75,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "00b98a7c-2fb7-455c-bcbb-f68ca6b5d0c4",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-12-20T13:59:37.071880",
+      "url": "http://ccma.nos.noaa.gov/ecosystems/sanctuaries/stellwagen_nms/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 3,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "water-density-raster-images-for-the-gulf-of-maine2b566",
+  "isopen": false,
+  "url": null,
+  "notes": "This geodatabase contains water density raster images for the Gulf of Maine that were interpolated from water density (sigma t or kilograms/ meters cubed) point data acquired from the Canadian Fisheries and Oceans/ Bedford Institute of Oceanography's Hydrographic database.The naming convention of the raster includes the year (or years) included in the the interpolation, the season, and the depth (in meters). So for example, the name: density_1997_2004_Fall_0m would indicate that this water density raster was interpolated using data from 1997-2004 for the fall at 0 meters (or the surface). The seasons were defined using the same months as the remote sensing data--namely, Fall = September, October, November; Winter = December, January, February; Spring = March, April, May; and Summer = June, July, August. The accuracies of these interpolated surfaces were calculated by validating with 25% of the water density points that were previously set aside. These control points are located in the personal geodatabase named Water_Stratification_Points.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-59.441365"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "46.530855"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "36.667053"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-72.477168, 36.667053], [-59.441365, 36.667053], [-59.441365, 46.530855], [-72.477168, 46.530855], [-72.477168, 36.667053]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None. Acknowledgement of the National Oceanic and AtmosphericAdministration, Center for Coastal Monitoring and Assessment, Biogeography Program would be appreciated in products derived from these data.\", \"Access Constraints: None.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "1912-01-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "bryan.costa@noaa.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-72.477168"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2013-01-30"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2006-01-01\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "licence",
+      "value": "[\"These data were prepared by an agency of the United States Government. Neither the United States Government nor any agency thereof, nor any of their employees, make any warranty, expressed or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, or represents that its use would not infringe privately owned rights. Reference therein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or imply its endorsement, recommendation, or favoring by the United States Government or any agency thereof. Any views and opinions expressed herein do not necessarily state or reflect those of the United States Government or any agency thereof. Although all data have been used by NOAA, no warranty, expressed or implied, is made by NOAA as to the accuracy of the data and/or related materials. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by NOAA in the use of these data or related materials.NOAA makes no warranty regarding these data, expressed or implied, nor does the fact of distribution constitute such a warranty. NOAA can not assume liability for and damages caused by any errors or omissions in these data, nor as a result of the failure of these data to function on a particular system.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"NOAA/NOS/NCCOS/CCMA/Biogeography Branch\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2004-01-01"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "pycnocline, thermocline, tides/currents, water stratification, water salinity, 1912-2004, water density, halocline, environmental monitoring, gulf of maine, stellwagen bank national marine sanctuary, water temperature"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "80175c60-ad15-466c-ac5b-3b8c22ae7afa"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Water Density Raster Images for the Gulf of Maine",
+  "revision_id": "00b98a7c-2fb7-455c-bcbb-f68ca6b5d0c4"
+}

@@ -1,0 +1,226 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "ef9118c3-6634-49e4-9381-cdf748fedf68",
+  "metadata_created": "2016-12-06T08:57:19.085866",
+  "metadata_modified": "2016-12-06T08:57:19.085866",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "ef9118c3-6634-49e4-9381-cdf748fedf68",
+      "webstore_last_updated": null,
+      "id": "a3afbd49-3a87-4a3f-976f-04d844dbaaa6",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "d570eaed-1b7f-4d5f-966b-0e3834b5126e",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-12-06T03:57:19.260352",
+      "url": "http://dx.doi.org/10.5066/F7KH0KDG",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "ef9118c3-6634-49e4-9381-cdf748fedf68",
+      "webstore_last_updated": null,
+      "id": "4f2323e0-8f55-4d56-b356-8109c8c681be",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "d570eaed-1b7f-4d5f-966b-0e3834b5126e",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-12-06T03:57:19.260394",
+      "url": "http://dx.doi.org/10.1109/TGRS.2011.2164087",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 0,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "l7-irish-cloud-validation-masks",
+  "isopen": false,
+  "url": null,
+  "notes": "The scenes in this dataset were originally selected by Richard Irish, NASA-GSFC, and were derived manually from Landsat Enhanced Thematic Mapper Plus (ETM+) Level 1G scenes by Pat Scaramuzza and Michelle Bouchard at the USGS EROS Center. Its purpose is train and validate cloud masking algorithms. Each product is provided as a thematic raster, and includes the classes of “cloud”, “thin cloud”, “clear”, and “fill”. While these validation images were subjectively digitized by a single analyst, they provide useful information for quantifying the accuracy of clouds flagged by various cloud masking algorithms. Each mask is provided in GeoTIFF format, and includes all bands from the original Landsat Level-1 data (GeoTIFF), and its associated Level-1 metadata (MTL.txt file).",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "180.0"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "90.0"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "-90.0"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-180.0, -90.0], [180.0, -90.0], [180.0, 90.0], [-180.0, 90.0], [-180.0, -90.0]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: none\", \"Access Constraints: none\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2000-06-06"
+    },
+    {
+      "key": "contact-email",
+      "value": "custserv@usgs.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-180.0"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-05-18"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2015-11-23\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "licence",
+      "value": "[\"The Landsat Data Distribution Policy is found here: https://landsat.usgs.gov/documents/Landsat_Data_Policy.pdf.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Geological Survey\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2001-12-30"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "cloud validation masks, atmosphere, land surface, earth"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "28e7c254-f3c6-49aa-9285-47fd02620e5b"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "9f092989-2f6c-4e4b-a5eb-a9c8261a27e6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "USGS Earth Resources Observation and Science (EROS)"
+    }
+  ],
+  "title": "L7 Irish Cloud Validation Masks",
+  "revision_id": "d570eaed-1b7f-4d5f-966b-0e3834b5126e"
+}

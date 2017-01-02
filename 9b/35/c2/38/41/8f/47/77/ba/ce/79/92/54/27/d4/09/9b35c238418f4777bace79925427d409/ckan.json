@@ -1,0 +1,169 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "Donald Long",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "dlong01@fs.fed.us",
+  "num_tags": 2,
+  "id": "9b35c238-418f-4777-bace-79925427d409",
+  "metadata_created": "2015-01-06T19:40:51.638203",
+  "metadata_modified": "2015-09-18T16:32:06.032897",
+  "author": "Donald Long",
+  "author_email": "dlong01@fs.fed.us",
+  "state": "active",
+  "version": null,
+  "creator_user_id": "144231",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "9b35c238-418f-4777-bace-79925427d409",
+      "webstore_last_updated": null,
+      "id": "1fc3229e-0c9d-4de0-867d-a26c8e816c35",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "These original 13 standard fire behavior fuel models serve as input to Rothermel's mathematical surface fire behavior and spread model. The 13 Anderson Fire Behavior Fuel Model (FBFM13) layer represents distinct distributions of fuel loading found among surface fuel components (live and dead), size classes, and fuel types. The fuel models are described by the most common fire-carrying fuel type (grass, brush, timber litter, or slash), loading and surface area-to-volume ratio by size class and component, fuelbed depth, and moisture of extinction. FBFM13 was produced through a series of workshops held across the nation with fire and fuels specialists to determine surface fuel model rule sets using unique combinations of existing vegetation type, cover, and height. The resultant spatial arrangement of surface fuel models are known as the calibrated FBFM13 layer. The FBFM13 layer can serve as input to wildland fire prediction models. ",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 8,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "LANDFIRE 13 Anderson Fire Behavior Fuel Models",
+      "created": "2015-01-06T14:42:30.408736",
+      "url": "http://www.landfire.gov/NationalProductDescriptions1.php",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "202dcbab-5858-4abc-815b-00cb0d65b5c1",
+      "resource_type": "file"
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9b35c238-418f-4777-bace-79925427d409",
+      "webstore_last_updated": null,
+      "id": "a1953962-50a6-4a41-866d-e4b58037b7bc",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "The 40 Scott and Burgan Fire Behavior Fuel Model (FBFM40) layer represents distinct distributions of fuel loading found among surface fuel components (live and dead), size classes, and fuel types. This set contains more fuel models in every fuel type (grass, shrub, timber, slash) than Anderson's set of 13. The number of fuel models representing relatively high dead fuel moisture content increased, and fuel models with an herbaceous component are now dynamic, meaning that loads shift between live and dead (to simulate curing of the herbaceous component) rather than remaining constant. FBFM40 was produced through a series of workshops held across the nation with fire and fuels specialists to determine surface fuel model rule sets using unique combinations of existing vegetation type, cover, and height. The resultant spatial arrangement of surface fuel models are known as the calibrated FBFM40 layer. The FBFM40 layer can serve as input to wildland fire prediction models. ",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "LANDFIRE 40 Scott and Burgan Fire Behavior Fuel Model (FBFM40)",
+      "created": "2015-01-06T14:44:45.456852",
+      "url": "http://www.landfire.gov/NationalProductDescriptions2.php",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 1,
+      "revision_id": "62b781b6-e452-48b1-b397-6a7746a97890",
+      "resource_type": "file"
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "Land Use Land Cover Theme",
+      "id": "035b41a9-c659-481b-a5d0-febc5a10a9cc",
+      "name": "Land Use Land Cover Theme"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "NGDA",
+      "id": "22b46b09-bdef-48bc-b827-9134e6f85749",
+      "name": "NGDA"
+    }
+  ],
+  "tracking_summary": {
+    "total": 37,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:45.351405",
+    "title": "US Forest Service, Department of Agriculture",
+    "name": "fs-fed-us",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.data.gov/app/uploads/2014/07/Forest_Service_Logo.png",
+    "revision_id": "2560634b-6ef2-4505-8ad4-af0ebf818db7",
+    "type": "organization",
+    "id": "d4258583-d8ab-4f7a-9c23-4f1a442f69b9",
+    "approval_status": "approved"
+  },
+  "name": "us-forest-service-landfire-surface-fuel",
+  "isopen": false,
+  "url": null,
+  "notes": "LANDFIRE surface fuel data describe the composition and characteristics of wildland surface fuel and can be implemented within models to predict wildland fire behavior and effects. LANDFIRE fuel products are useful for strategic fuel treatment prioritization and tactical assessment of fire behavior and effects. They provide consistent fuel data to support fire planning, analysis, and budgeting to evaluate fire management alternatives supplement strategic and tactical planning for fire operations. ",
+  "owner_org": "d4258583-d8ab-4f7a-9c23-4f1a442f69b9",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "Donald Long"
+    },
+    {
+      "key": "contact-name",
+      "value": "Don Long"
+    },
+    {
+      "key": "contact-email",
+      "value": "dlong01@fs.fed.us"
+    },
+    {
+      "key": "public_access_level",
+      "value": "public"
+    },
+    {
+      "key": "metadata-date",
+      "value": "March 31, 2013"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "2013-03-31"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "Theme",
+      "value": "NGDA, National Geospatial Data Asset, Land Use Land Cover Theme"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "bureau_code",
+      "value": "005:96"
+    },
+    {
+      "key": "program_code",
+      "value": "005:000"
+    }
+  ],
+  "title": "US Forest Service LANDFIRE Surface Fuel",
+  "revision_id": "01bea1e6-6ae5-4d63-9365-e7bc742ec826"
+}

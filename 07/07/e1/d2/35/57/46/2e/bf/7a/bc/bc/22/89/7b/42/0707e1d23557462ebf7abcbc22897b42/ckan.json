@@ -1,0 +1,237 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "",
+  "num_tags": 0,
+  "id": "0707e1d2-3557-462e-bf7a-bcbc22897b42",
+  "metadata_created": "2013-03-14T21:41:12.706830",
+  "metadata_modified": "2014-12-08T20:22:11.667052",
+  "author": "",
+  "author_email": "",
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "0707e1d2-3557-462e-bf7a-bcbc22897b42",
+      "webstore_last_updated": null,
+      "id": "a592354d-1439-4678-9bf8-ec77345e77ab",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 110,
+        "recent": 6
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Esri Rest API Endpoint",
+      "created": "2013-03-14T22:41:12.729378",
+      "url": "http://gis1.usgs.gov/arcgis/rest/services/USGS_Patuxent_WRC/Atlantic_Offshore_Seabird_Dataset_Catalog_WMS/MapServer",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "49006b33-5f15-41bc-8181-ff5ac124239e",
+      "resource_type": "file"
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 1000,
+    "recent": 23
+  },
+  "groups": [
+    {
+      "display_name": "Climate",
+      "description": "",
+      "image_display_url": "",
+      "title": "Climate",
+      "id": "aa0c01c9-d292-4dc1-8fec-b10c1bb629a9",
+      "name": "climate5434"
+    },
+    {
+      "display_name": "Ecosystems",
+      "description": "Ecosystems Community",
+      "image_display_url": "",
+      "title": "Ecosystems",
+      "id": "3b2f2e70-3e81-4aa7-8305-a534cd6af6c8",
+      "name": "ecosystems0617"
+    },
+    {
+      "display_name": "Energy",
+      "description": "",
+      "image_display_url": "",
+      "title": "Energy",
+      "id": "b6db7c5a-d306-4da5-a0cd-b4128e1322ce",
+      "name": "energy9485"
+    },
+    {
+      "display_name": "Ocean",
+      "description": "",
+      "image_display_url": "",
+      "title": "Ocean",
+      "id": "f700e408-3bf4-4e8f-9499-b0ab0e2fec3c",
+      "name": "ocean9585"
+    }
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "atlantic-offshore-seabird-dataset-catalog",
+  "isopen": true,
+  "url": null,
+  "notes": "Several bureaus within the Department of Interior compiled available information from seabird observation datasets from the Atlantic Outer Continental Shelf into a single database, with the goal of conducting research and informing coastal and offshore planning activities. The cooperators were the Bureau of Ocean Energy Management's (BOEM) Environmental Studies Program (http://www.boem.gov/Environmental-Stewardship/Environmental-Studies/Environmental-Studies.aspx), the U.S. Fish and Wildlife Service's (USFWS) Division of Migratory Bird Management (http://www.fws.gov/migratorybirds/) and the U.S. Geological Survey's (USGS) Patuxent Wildlife Research Center (http://www.pwrc.usgs.gov). The resulting product is the Atlantic Offshore Seabird Dataset Catalog, which characterizes the survey effort and bird observations that have been collected across space and time. Currently, the database contains ~60 datasets from 1906-2009 with over 260,000 records of seabird observations. Data will initially be provided as summary web mapping services, with web feature services (for downloading and looking at single-species data) at the linkage given elsewhere in this document. USAGE: Seabirds provide unique challenges even when using estimation techniques to sample populations (e.g., Tasker et al. 1984, Spear et al. 1992). To date, there has been little consistency among survey designs. Surveys have varied by the type of vessel from which they are conducted (ship, plane), the methodology that counts are made, the width of the area being counted, and equipment used, among many other differences. Under such circumstances, comparing results and making inferences can be difficult. Because these estimates of effort-adjusted counts do not account for detection probability, they are likely biased by factors that affect this parameter such as weather, survey method, observer, or other environmental variables (MacKenzie et al. 2006). Such results may be considered naÃ¯ve in that they do not account for factors that can affect the ability to detect an animal. Furthermore, these results contain data collected over a 30 year period without regard for any long term temporal changes that may have occurred with species or the environment. Further analysis is necessary to determine if such changes have occurred with any species. While it is possible to separate data collected recently from historical (>20 years old) datasets, the amount of recent data is limited and therefore maps showing only these data may be limited spatially. Finally, effort calculations do not account for survey width, while normally static during a survey, can be reduced during certain conditions and does vary by survey method, especially boat vs. plan surveys. The vast majority of survey data collected offshore U.S. Atlantic waters were collected using similar techniques and so effort data will not be greatly affected by such discrepancies. Still, such differences do exist and were not accounted for; therefore, this estimate of survey effort is a rough surrogate for effort. Consequently, the effort-adjusted counts will also be affected by differences in survey methodology and should be considered only roughly offset by effort.",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-51.935"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "64.9086"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "__category_tag_037e54e0-65e8-474b-93cc-1ae25be17c64",
+      "value": "[\"Biodiversity\"]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "23.3786"
+    },
+    {
+      "key": "__category_tag_aa0c01c9-d292-4dc1-8fec-b10c1bb629a9",
+      "value": "[\"Biodiversity\",\"Ecosystem Vulnerability\"]"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-99.8626, 23.3786], [-99.8626, 64.9086], [-51.935, 64.9086], [-51.935, 23.3786], [-99.8626, 23.3786]]]}"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: Seabirds provide unique challenges even when using estimation techniques to sample populations (e.g., Tasker et al. 1984, Spear et al. 1992). To date, there has been little consistency among survey designs. Surveys have varied by the type of vessel from which they are conducted (ship, plane), the methodology that counts are made, the width of the area being counted, and equipment used, among many other differences. Under such circumstances, comparing results and making inferences can be difficult. Because these estimates of effort-adjusted counts do not account for detection probability, they are likely biased by factors that affect this parameter such as weather, survey method, observer, or other environmental variables (MacKenzie et al. 2006). Such results may be considered na\\u00c3\\u00afve in that they do not account for factors that can affect the ability to detect an animal. Furthermore, these results contain data collected over a 30 year period without regard for any long term temporal changes that may have occurred with species or the environment. Further analysis is necessary to determine if such changes have occurred with any species. While it is possible to separate data collected recently from historical (>20 years old) datasets, the amount of recent data is limited and therefore maps showing only these data may be limited spatially. Finally, effort calculations do not account for survey width, while normally static during a survey, can be reduced during certain conditions and does vary by survey method, especially boat vs. plan surveys. The vast majority of survey data collected offshore U.S. Atlantic waters were collected using similar techniques and so effort data will not be greatly affected by such discrepancies. Still, such differences do exist and were not accounted for; therefore, this estimate of survey effort is a rough surrogate for effort. Consequently, the effort-adjusted counts will also be affected by differences in survey methodology and should be considered only roughly offset by effort.\", \"Access Constraints: At this time, data use must take into account use constraints (data limitations) listed here, and cite the Atlantic Offshore Seabird Dataset Catalog. USGS, 2011.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "1906-01-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "aoconnell@usgs.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-99.8626"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2011-09-02"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2011-09-02\"}]"
+    },
+    {
+      "key": "__category_tag_3b2f2e70-3e81-4aa7-8305-a534cd6af6c8",
+      "value": "[\"Biodiversity\",\"Species\"]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "irregular"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data to evaluate data set limitations, and to the corrsponding printed publications for detailed interpretation of the data. The USGS shall not be held liable for improper or incorrect use of the data described and/or contained herein.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "__category_tag_f700e408-3bf4-4e8f-9499-b0ab0e2fec3c",
+      "value": "[\"Biology and Habitats\"]"
+    },
+    {
+      "key": "__category_tag_b6db7c5a-d306-4da5-a0cd-b4128e1322ce",
+      "value": "[\"Renewable & Alternative Fuels\"]"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Geological Survey, Patuxent Wildlife Research Center\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2009-01-01"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "environment, Biology, Marine, Modeling, Monitoring, Natural Resources, Regulatory"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c3a8d38c-fe5b-4e17-bec7-5c294de7ca6e"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "913ea421-6acb-4451-84c0-0839256338bb"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "USGS Coastal and Marine Spatial Planning (CMSP)"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "Atlantic Offshore Seabird Dataset Catalog",
+  "revision_id": "d703cd84-f19f-4be6-89af-cba16f9d2fbc"
+}

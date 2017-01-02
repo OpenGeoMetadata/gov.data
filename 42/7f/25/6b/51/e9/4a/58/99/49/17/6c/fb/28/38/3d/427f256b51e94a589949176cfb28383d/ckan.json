@@ -1,0 +1,241 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Edward Armstrong",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "edward.m.armstrong@jpl.nasa.gov",
+  "num_tags": 3,
+  "id": "427f256b-51e9-4a58-9949-176cfb28383d",
+  "metadata_created": "2014-10-08T03:05:58.790267",
+  "metadata_modified": "2016-05-06T07:55:43.114099",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "427f256b-51e9-4a58-9949-176cfb28383d",
+      "webstore_last_updated": null,
+      "id": "d77b3c05-0d6f-44dc-9f38-db8283d9658e",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "BIN",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/octet-stream",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-10-07T23:05:58.919523",
+      "url": "ftp://podaac-ftp.jpl.nasa.gov/byProject/ghrsst/data/L2P/AVHRR17_G/EUR",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "fd764403-5a11-4e2e-b327-0f013186362f",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "earth-science",
+      "id": "f28006f8-df78-4700-b72f-f4a19628ba67",
+      "name": "earth-science"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ocean-temperature",
+      "id": "72bd768c-6b19-4b2a-8d59-3672401eab7c",
+      "name": "ocean-temperature"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "oceans",
+      "id": "8d023641-0bbb-4e3d-be89-d9c47eaabaa6",
+      "name": "oceans"
+    }
+  ],
+  "tracking_summary": {
+    "total": 4,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "ghrsst-level-2p-european-medspiration-avhrr17-global-sst-1",
+  "isopen": true,
+  "url": null,
+  "notes": "High quality Sea Surface Temperatures (SSTs) maps derived from the NOAA (National Oceanic and Atmospheric Administration)-Polar Orbiting Advanced Very High Resolution Radiometer (AVHRR) have been available since 1981. The multichannel sea surface temperature algorithm (MCSST) has been used to routinely calculate SSTs using a split window approach. Currently this algorithm is applied by the Naval Oceanographic Office (NAVOCEANO) to calculate SSTs at a near real-time rate.    The multichannel sea surface temperature algorithm uses a set of linear coefficients to retrive sea surface temperature from the brightness radiances. Improved cloud retrieval algorithms applied by NAVOCEANO have significantly increased the number of SST pixels flagged as cloud free, as compared to previous MCSST data sets. The NAVOCEANO MCSST data sets provide a high quality near real time sea surface temperature data set with a high number of cloud free retrievals. Additionally the orbital temporal and 9km spatial resolutions allow this data to be used in a quasi real time mode for detection of mesoscale features such as eddies associated with major current systems. The history of SST computation from AVHRR radiances is discussed at length by- -McClain et al., 1985--. Briefly, radiative transfer theory is used to correct for the effects of the atmosphere on the observations by utilizing \"windows\" of the electromagnetic spectrum where little or no atmospheric absorption occurs. Channel radiances are transformed (through the use of the Planck function) to units of temperature, then compared to a-priori temperatures measured at the surface. This comparison yields coefficients which, when applied to the global AVHRR data, give estimates of surface temperature which have been nominally accurate to 0.7 degrees Celsius. Each AVHRR scan views Earth for 51.282 milliseconds, during which time each channel of the analog data output is digitized. Scans occur at the rate of 6 per second, and the sampling rate of the AVHRR sensors is 39,936 samples per second per channel. During a scan, the detectors view an internal target, cold space, and the external scene. The temperature of the internal target is monitored, and space is assumed to have a black- body temperature of 3K. In this way, a simple two-point linear calibration is done internally (Schwalb, 1978). The nonlinear modification to this calibration is achieved at the time of postprocessing, and takes into account sensor nonlinearities, measurement of internal target temperature, calculation of target radiance, internal reflections and emissions, etc. Sensor/Instrument Measurement Geometry:The AVHRR has a cross-track scanning system which use an elliptical beryllium mirror rotating at 360 RPM about an axis parallel to the Earth. The 110.8 degree cross-track scan equates to a swath width of about 2700 km. This swath width is greater than the 25.3 degree separation between successive orbital tracks, and provides overlapping coverage. Coverage is global, twice daily, at an instantaneous field of view (IFOV) of ~1.4 milliradians, giving a ground field of view of ~1.1 km at nadir for a nominal altitude of 833 km. Full resolution AVHRR data are continuously transmitted and recorded in High Resolution Picture Transmission (HRPT) format. The Global Area Coverage (GAC) data are subsampled to approximately 4 km IFOV, recorded internally, and downlinked daily. The MCSST coefficients are then applied to the infrared brightness radiances to convert to SST. A level 2 declouded product produced by the Naval Oceanographic Office (NAVOCEANO) is then downloaded to JPL for distribution. The level-2 product is available in orbital files with a spatial resolution of approximately 9 kilometers. There are approximately 28 files per day for the NOAA-14 and NOAA-16 data. The spatial coverage is not uniform because of cloud coverage, which prevents the AVHRR instrument from seeing the ocean. Data Organization: Granularity: (http://harp.gsf",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "collection_metadata",
+      "value": "true"
+    },
+    {
+      "key": "issued",
+      "value": "2004-12-24T15:00:00.000Z"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "0198d8563d6d676aa8753a5aae3911a5c21a22d6"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "temporal",
+      "value": "2002-12-15T01:00:00Z/2007-02-27T07:55:34Z"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "geospatial"
+      ]
+    },
+    {
+      "key": "spatial",
+      "value": "-100.0 -70.0 45.0 80.0"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:001"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "landingPage",
+      "value": "http://reverb.echo.nasa.gov/reverb?selected=C160699-PODAAC"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "0aefb86a-2781-43c7-a14e-131275cbd33a"
+    },
+    {
+      "key": "publisher",
+      "value": "PO.DAAC"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "55942a61c63a7fe59b49623a"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "U.S. Government > National Aeronautics and Space Administration > PO.DAAC"
+    },
+    {
+      "key": "modified",
+      "value": "2004-12-24T15:00:00.000Z"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "irregular"
+    },
+    {
+      "key": "identifier",
+      "value": "C160699-PODAAC"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "0aefb86a-2781-43c7-a14e-131275cbd33a"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "GHRSST Level 2P European Medspiration AVHRR17 Global SST:1",
+  "revision_id": "fd764403-5a11-4e2e-b327-0f013186362f"
+}

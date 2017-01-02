@@ -1,0 +1,232 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Julie Crooke",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "julie.a.crooke@nasa.gov",
+  "num_tags": 3,
+  "id": "b45d17d9-a6b6-45bf-ba7d-6b1b3519665b",
+  "metadata_created": "2015-04-09T18:57:02.322318",
+  "metadata_modified": "2015-07-08T19:30:19.506098",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "b45d17d9-a6b6-45bf-ba7d-6b1b3519665b",
+      "webstore_last_updated": null,
+      "id": "311fd49d-f911-4b12-b248-38b4393d014b",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "XML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/xml",
+      "cache_url": null,
+      "name": "XML File",
+      "created": "2015-04-09T14:57:02.449953",
+      "url": "http://techport.nasa.gov/xml-api/14761",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "51cbcf4b-b31a-49d5-b4a7-75979014aab9",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "active",
+      "id": "e48100ef-ebfc-4859-8e8a-91a0f5feaae6",
+      "name": "active"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "goddard-space-flight-center",
+      "id": "a6e15e1e-9ab2-40d4-9937-8becdc2c6938",
+      "name": "goddard-space-flight-center"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "project",
+      "id": "24471320-3e5c-42b5-a078-8e48e70e2ac4",
+      "name": "project"
+    }
+  ],
+  "tracking_summary": {
+    "total": 15,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "low-thrust-trajectory-design-for-gsfc-missions-project-22d73",
+  "isopen": true,
+  "url": null,
+  "notes": "&lt;p&gt;The problem to be solved here is that of designing complex interplanetary trajectories to destinations which are difficult to reach via direct flights and chemical propulsion. Some targets, such as Mars and Venus, are reachable using direct flights with chemical propulsion technology. Others, such as the Mercury, the outer planets, main-belt asteroids, comets, and many other scientifically interesting targets are not easily accessible, i.e. the &amp;Delta;v required to reach them via direct chemical flights is too high and therefore payloads of useful size cannot be easily delivered. There are two ways to mitigate this problem. One is by using more efficient propulsion systems, such as low-thrust solar electric propulsion (SEP). The other is to find more efficient paths to the destination, possibly including gravity assist maneuvers, also known as planetary flybys. Even better solutions might be found by combining these techniques. Unfortunately these trajectory optimization problems are very difficult to solve. The multiple-flyby interplanetary trajectory optimization problem is characterized by having a highly nonlinear objective function, several nonlinear constraints to enforce feasibility (i.e. preventing the spacecraft from coming dangerously close to a planet) and many locally optimal solutions. The large number of locally optimal solutions makes finding the global optimum very difficult. The low-thrust trajectory optimization problem is characterized by a very large number of nonlinear decision variables and constraints. Problems which involve both planetary flybys and low-thrust propulsion suffer combine the two sets of challenges &amp;ndash; they have many locally optimal solutions and also many (hundreds to thousands) of decision variables and many (tens to hundreds) of nonlinear constraints. There are several methods that have been previously used to solve this type of problem. The most successful of these has been to search for combinations of planetary flybys using a grid search method or intuition and a highly simplified trajectory model, as in the case of Jet Propulsion Lab&amp;rsquo;s STOUR and STOUR-LTGA. A higher fidelity tool such as MALTO, GMAT, or Copernicus is then used to refine the solution. The main problem with traditional design techniques is the risk of never considering the combination of choices that produces the optimal solution. When one uses a low-fidelity grid search, it is possible that the globally optimal solution will not be captured in the grid. In turn the higher-fidelity local optimization tools like MALTO, GMAT, and Copernicus will only converge to a locally optimal solution in the neighborhood of the user-supplied initial guess. None of the existing methods allow for fully autonomous global optimization of missions that include flybys, low-thrust propulsion, or combinations of the two.&lt;br /&gt;&amp;nbsp;&lt;/p&gt;",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "issued",
+      "value": "2013-10-01T00:00:00Z"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://techport.nasa.gov/home",
+        "http://techport.nasa.gov/doc/home/TechPort_Advanced_Search.pdf",
+        "http://techport.nasa.gov/fetchFile?objectId=6561",
+        "http://techport.nasa.gov/fetchFile?objectId=3456",
+        "http://techport.nasa.gov/fetchFile?objectId=3447",
+        "http://techport.nasa.gov/fetchFile?objectId=6584",
+        "http://techport.nasa.gov/fetchFile?objectId=6560",
+        "http://techport.nasa.gov/fetchFile?objectId=3448"
+      ]
+    },
+    {
+      "key": "source_hash",
+      "value": "7b97664f8b75b1ebebf195627d68fbe83abe9ec2"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "temporal",
+      "value": "2013-10-01T00:00:00Z/2015-09-01T00:00:00Z"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://techport.nasa.gov/view/14761"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "81333fad-0c13-4a05-9202-9e78b75233cd"
+    },
+    {
+      "key": "publisher",
+      "value": "N/A"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "55942a89c63a7fe59b49833c"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "National Aeronautics and Space Administration > N/A"
+    },
+    {
+      "key": "modified",
+      "value": "2015-03-12"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "TECHPORT_14761"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "81333fad-0c13-4a05-9202-9e78b75233cd"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "Low Thrust Trajectory Design for GSFC Missions Project",
+  "revision_id": "41c31d53-e246-42b7-ba0e-282da1de9c6f"
+}

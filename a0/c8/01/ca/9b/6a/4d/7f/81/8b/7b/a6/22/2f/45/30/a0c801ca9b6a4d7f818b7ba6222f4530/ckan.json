@@ -1,0 +1,185 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Data Exchange Administrator",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "ORDP.Data.Exchange@ssa.gov",
+  "num_tags": 5,
+  "id": "a0c801ca-9b6a-4d7f-818b-7ba6222f4530",
+  "metadata_created": "2015-01-30T16:17:51.630971",
+  "metadata_modified": "2016-03-19T22:24:47.388112",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "aamva",
+      "id": "2be7b3f6-091f-431f-97f2-a174387c462b",
+      "name": "aamva"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "motor-vehicle-administration",
+      "id": "897bc47b-f536-4255-906f-5600386e5f7e",
+      "name": "motor-vehicle-administration"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "mva",
+      "id": "d5a45d7f-e860-45da-89d0-3435daf725f1",
+      "name": "mva"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ssn",
+      "id": "3902156b-fcd3-4a96-986f-0902cb5ab663",
+      "name": "ssn"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ssolv",
+      "id": "41167e87-2b46-4c2c-b9b1-5d03da9eaa98",
+      "name": "ssolv"
+    }
+  ],
+  "tracking_summary": {
+    "total": 101,
+    "recent": 6
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:35:25.934290",
+    "title": "Social Security Administration",
+    "name": "ssa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/ssa.png",
+    "revision_id": "1be01963-921d-432f-b56d-37fa76dfb0a1",
+    "type": "organization",
+    "id": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+    "approval_status": "approved"
+  },
+  "name": "aamva-ssolv",
+  "isopen": true,
+  "url": null,
+  "notes": "The American Association for Motor Vehicle Administrators (AAMVA), acting as an information conduit between state Motor Vehicle Administration (MVAs) amd SSA, submits a verification request electronically to SSOLV when a person applies for a driver's license. In response, SSA provides a verification response to AAMVA. AAMVA then forwards the results to the requesting MVAs. Verification requests include applicant's name, date of birth, and SSN. AAMVA reimburses SSA for the costs incurred for these services. In kind, AAMVA passes thess costs on to the individual state MVAs. DEB is responsible for technical and analytical support of the SSOLV application, as well as providing management information. The Office of Data Exchanges is responsible for agreement liaison support and billing services.",
+  "owner_org": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Social Security Administration"
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "license",
+      "value": "https://www.ssa.gov/open/data/Restricted-Public-Licensing-Information.html"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "rights",
+      "value": "The data contained in this data exchange is restricted due to sensitivity and/or privacy issues.  If you would like more information on a data exchange with SSA please visit the following web site https://www.ssa.gov/dataexchange/."
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "R/P1D"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "016:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "016:00"
+      ]
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1D"
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "US-GOV-SSA-663"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "fc29c867-d884-446c-9db8-bb5cf18eae24"
+    },
+    {
+      "key": "source_hash",
+      "value": "7738ab721e6c36a605c7ba869119e7d65405d2a7"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "fc29c867-d884-446c-9db8-bb5cf18eae24"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    }
+  ],
+  "title": "AAMVA  (SSOLV)",
+  "revision_id": "a9cae59c-303e-4ad8-8f1f-dcde1fa1581b"
+}

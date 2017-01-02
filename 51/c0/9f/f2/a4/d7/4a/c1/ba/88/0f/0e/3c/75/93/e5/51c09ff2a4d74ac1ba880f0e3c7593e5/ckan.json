@@ -1,0 +1,178 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Data Exchange Administrator",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "ORDP.Data.Exchange@ssa.gov",
+  "num_tags": 4,
+  "id": "51c09ff2-a4d7-4ac1-ba88-0f0e3c7593e5",
+  "metadata_created": "2015-01-30T16:17:55.265891",
+  "metadata_modified": "2016-02-27T17:19:12.614427",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "child-support",
+      "id": "ecf9f3bf-f2b6-4257-98bf-cac0833311a5",
+      "name": "child-support"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ocse",
+      "id": "a52997e4-d48d-402a-a374-14e8be6a831d",
+      "name": "ocse"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "office-of-child-support-enforcement",
+      "id": "c73b351f-4567-42fb-b558-707637c51ceb",
+      "name": "office-of-child-support-enforcement"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "title-ii",
+      "id": "5def9ded-048c-4f51-80e3-73fb19489ecd",
+      "name": "title-ii"
+    }
+  ],
+  "tracking_summary": {
+    "total": 30,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:35:25.934290",
+    "title": "Social Security Administration",
+    "name": "ssa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/ssa.png",
+    "revision_id": "1be01963-921d-432f-b56d-37fa76dfb0a1",
+    "type": "organization",
+    "id": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+    "approval_status": "approved"
+  },
+  "name": "office-of-child-support-enforcement-ocse-pending-file",
+  "isopen": true,
+  "url": null,
+  "notes": "A daily match between SSA's Modernized Claims System Title II pending file and OCSE's Federal Case Registry. For matched records, SSA releases basic Title II information to OCSE. This match supports OCSE's goal of increasing child support collections via Title II garnishments by providing potential leads for state submitted income withholding orders.",
+  "owner_org": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Social Security Administration"
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "license",
+      "value": "https://www.ssa.gov/open/data/Restricted-Public-Licensing-Information.html"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "rights",
+      "value": "The data contained in this data exchange is restricted due to sensitivity and/or privacy issues.  If you would like more information on a data exchange with SSA please visit the following web site https://www.ssa.gov/dataexchange/."
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "R/P1D"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "016:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "016:00"
+      ]
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1D"
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "US-GOV-SSA-678"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "85b10ecf-4b36-4df9-848c-2a949104c6a1"
+    },
+    {
+      "key": "source_hash",
+      "value": "472a7d07c80c28d37719d90bc70f965bcff9e364"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "85b10ecf-4b36-4df9-848c-2a949104c6a1"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    }
+  ],
+  "title": "Office of Child Support Enforcement (OCSE) Pending File",
+  "revision_id": "5fde71c0-0e41-4880-b942-df24039845f3"
+}

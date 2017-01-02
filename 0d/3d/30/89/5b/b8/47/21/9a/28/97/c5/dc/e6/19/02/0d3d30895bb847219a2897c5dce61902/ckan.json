@@ -1,0 +1,220 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "0d3d3089-5bb8-4721-9a28-97c5dce61902",
+  "metadata_created": "2016-05-06T17:20:12.470963",
+  "metadata_modified": "2016-05-06T17:20:12.470963",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "0d3d3089-5bb8-4721-9a28-97c5dce61902",
+      "webstore_last_updated": null,
+      "id": "c5d6eaae-39fe-4470-8a75-6a9777f63ede",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "cb_2015_us_zcta510_500k.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 29,
+        "recent": 3
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Shapefile Zip File",
+      "created": "2016-05-06T13:20:12.760285",
+      "url": "http://www2.census.gov/geo/tiger/GENZ2015/shp/cb_2015_us_zcta510_500k.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "09c6dfd7-a5ad-4b4b-aa8b-400f3d37bf66",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "0d3d3089-5bb8-4721-9a28-97c5dce61902",
+      "webstore_last_updated": null,
+      "id": "d6597d29-e7f2-4632-b165-52648d3cac1e",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "Simplified representations of selected geographic areas from the Census Bureau's MAF/TIGER geographic database",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 223,
+        "recent": 7
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Cartographic Boundary Shapefiles",
+      "created": "2016-05-06T13:20:12.760339",
+      "url": "http://www.census.gov/geo/maps-data/data/tiger-cart-boundary.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "09c6dfd7-a5ad-4b4b-aa8b-400f3d37bf66",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 73,
+    "recent": 7
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The Census Bureau's mission is to serve as the leading source of quality data about the nation's people and economy. We honor privacy, protect confidentiality, share our expertise globally, and conduct our work openly. We are guided on this mission by scientific objectivity, our strong and capable workforce, our devotion to research-based innovation, and our abiding commitment to our customers.",
+    "created": "2013-03-14T03:44:46.743070",
+    "title": "US Census Bureau, Department of Commerce",
+    "name": "census-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.census.gov/main/img/home/CensusLogo-white.png",
+    "revision_id": "0995f525-d563-4254-a535-af5b926fe663",
+    "type": "organization",
+    "id": "31c49abe-512a-412a-9cc7-5b2601325d6b",
+    "approval_status": "approved"
+  },
+  "name": "2015-cartographic-boundary-file-5-digit-zip-code-tabulation-area-for-united-states-1-500000",
+  "isopen": false,
+  "url": null,
+  "notes": "The 2015 cartographic boundary shapefiles are simplified representations of selected geographic areas from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). These boundary files are specifically designed for small-scale thematic mapping. When possible, generalization is performed with the intent to maintain the hierarchical relationships among geographies and to maintain the alignment of geographies within a file set for a given year. Geographic areas may not align with the same areas from another year. Some geographies are available as nation-based files while others are available only as state-based files.\n\nZIP Code Tabulation Areas (ZCTAs) are approximate area representations of U.S. Postal Service (USPS) ZIP Code service areas that the Census Bureau creates to present statistical data for each decennial census. The Census Bureau delineates ZCTA boundaries for the United States, Puerto Rico, American Samoa, Guam, the Commonwealth of the Northern Mariana Islands, and the U.S. Virgin Islands once each decade following the decennial census. Data users should not use ZCTAs to identify the official USPS ZIP Code for mail delivery. The USPS makes periodic changes to ZIP Codes to support more efficient mail delivery.\n\nThe Census Bureau uses tabulation blocks as the basis for defining each ZCTA. Tabulation blocks are assigned to a ZCTA based on the most frequently occurring ZIP Code for the addresses contained within that block. The most frequently occurring ZIP Code also becomes the five-digit numeric code of the ZCTA. These codes may contain leading zeros.\n\nBlocks that do not contain addresses but are surrounded by a single ZCTA (enclaves) are assigned to the surrounding ZCTA. Because the Census Bureau only uses the most frequently occurring ZIP Code to assign blocks, a ZCTA may not exist for every USPS ZIP Code. Some ZIP Codes may not have a matching ZCTA because too few addresses were associated with the specific ZIP Code or the ZIP Code was not the most frequently occurring ZIP Code within any of the blocks where it exists.\n\nThe generalized ZCTA boundaries in this file are based on those delineated following the 2010 Census.",
+  "owner_org": "31c49abe-512a-412a-9cc7-5b2601325d6b",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "179.77847"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "71.365162"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": "cb_2015_us_zcta510_500k.shp.iso.xml"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "-14.548699"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-179.148909, -14.548699], [179.77847, -14.548699], [179.77847, 71.365162], [-179.148909, 71.365162], [-179.148909, -14.548699]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\" Access Constraints: None\", \" Use Constraints:The intended display scale for this file is 1:500,000.  This file should not be displayed at scales larger than 1:500,000.\\n\\nThese products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as the source.  The boundary information is for visual display at appropriate small scales only.  Cartographic boundary files should not be used for geographic analysis including area or perimeter calculation.  Files should not be used for geocoding addresses.  Files should not be used for determining precise geographic area relationships.\\n\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2016-03"
+    },
+    {
+      "key": "contact-email",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-179.148909"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-03"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"201603\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2016-03"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "shp, zip code tabulation area, cartographic boundary, us, boundaries, generalized, 2015, zcta, united states"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "f8f4196a-f4ca-4d62-a5bb-c10d3885a081"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "a093f275-00b0-4209-9d87-fb939ffff26b"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "2016_zcta510_500"
+    }
+  ],
+  "title": "2015 Cartographic Boundary File, 5-Digit ZIP Code Tabulation Area for United States, 1:500,000",
+  "revision_id": "09c6dfd7-a5ad-4b4b-aa8b-400f3d37bf66"
+}

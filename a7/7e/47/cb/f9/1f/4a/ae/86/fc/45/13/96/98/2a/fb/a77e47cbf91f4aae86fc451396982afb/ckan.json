@@ -1,0 +1,200 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "Open Data (MGMT)",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "edmo@hq.dhs.gov",
+  "num_tags": 5,
+  "id": "a77e47cb-f91f-4aae-86fc-451396982afb",
+  "metadata_created": "2016-05-27T02:32:53.324314",
+  "metadata_modified": "2016-05-27T02:32:53.324314",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "a77e47cb-f91f-4aae-86fc-451396982afb",
+      "webstore_last_updated": null,
+      "id": "3b1ada56-5547-4e2b-916b-ca291724f1a7",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 574,
+        "recent": 47
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-05-26T22:32:53.589060",
+      "url": "https://hifld-dhs-gii.opendata.arcgis.com/",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "a4256b5f-5f6e-4ad0-98c3-15f1dfc8e3fa",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geospatial",
+      "id": "a4243fe5-7437-4077-a369-d17bb543e6f2",
+      "name": "geospatial"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "imagery",
+      "id": "97aa96c3-cc35-4805-919d-d8954bd222d6",
+      "name": "imagery"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "infrastructure",
+      "id": "23924944-4d8d-40de-ad57-58e2cceb86cc",
+      "name": "infrastructure"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "location",
+      "id": "cb9360ae-de97-4ea4-8906-3951aa79fe4b",
+      "name": "location"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "map",
+      "id": "4b25baf2-c254-4949-8996-e9c3895fa2b6",
+      "name": "map"
+    }
+  ],
+  "tracking_summary": {
+    "total": 12,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:49:45.283358",
+    "title": "Department of Homeland Security",
+    "name": "dhs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/dhs.png",
+    "revision_id": "fb44c14e-9b55-46b9-b355-d465242171bb",
+    "type": "organization",
+    "id": "05d603ec-9121-4f71-b09e-5d5b5a7efc64",
+    "approval_status": "approved"
+  },
+  "name": "mines-and-mineral-resources",
+  "isopen": false,
+  "url": null,
+  "notes": " Mines in the United States According to the Homeland Security Infrastructure Program Tiger Team Report Table E-2.V.1 Sub-Layer Geographic Names, a mine is defined as a 'place or area from which commercial minerals are or were removed from the Earth; not including oilfield (pit, quarry, shaft)'. This dataset excludes sand and gravel quarries. Only mines believed to be operational are included. The intention of TGS is to include only those entities that meet the above definition. TGS was not able to contact all of the entities in this layer to verify that they met this definition, therefore some entities may be included in this layer that do not meet the definition. If a mine is closely associated with a manufacturing plant, it was linked to the TGS Industrial PinPointer dataset via a common identifier. For a mine to be 'closely associated' with a manufacturing plant one or both of the following must be true' > 1) The mine supplies a large part of a critical raw material for the manufacturing plant. > 2) The manufacturing plant consumes a large part of the output of the mine. > > The mine and the manufacturing plant need not be located in close proximity to each other to be 'closely associated'. Also, it is possible for more than one mine to be associated with a particular manufacturing plant, and for more than one manufacturing plant to be associated with a particular mine. A mine associated with a manufacturing plant represents an potential additional point of vulnerability to the manufacturing plant, likewise, the manufacturing plant represents a potential additional point of vulnerability to the mine. Any relevant transportation links between the two represents a third potential vulnerability. The links between the mines and the manufacturing plants are contained in the Mines_linked_to_ManufacturingID_table.dbf table. The [MINEID] field corresponds to the [SRCLNKID] attribute in this dataset. The [MNFID] corresponds to the [SRCLNKID] in the manufacturing dataset. Mines are typically large facilities. To enable a first responder or law enforcement team to easily drive to the mine the point representing the mine has been placed at the place where the main 'haul road' meets the nearest public road. This location may be a considerable distance from the mine pit or shaft, but from this point on the ground it should be obvious how to drive to the mine itself. Text fields in this dataset have been set to all upper case to facilitate consistent database engine search results. All diacritics (e.g. the German umlaut or the Spanish tilde) have been replaced with their closest equivalent English character to facilitate use with database systems that may not support diacritics. The currentness of this dataset is indicated by the [CONTDATE] attribute. Based upon this attribute the oldest record dates from 06/06/2006 and the newest record dates from 10/12/2006. ",
+  "owner_org": "05d603ec-9121-4f71-b09e-5d5b5a7efc64",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Under Secretary / Management"
+    },
+    {
+      "key": "identifier",
+      "value": "2645"
+    },
+    {
+      "key": "accessLevelComment",
+      "value": "Continental United States, Alaska, Hawaii & Puerto Rico"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "bd9faa28-bbb6-45f3-a4f0-d302a4a61802"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2016-05-19"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "DHS datajson source"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "024:003"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "024:10"
+      ]
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "fe1476ef-9dfe-46fa-8b2c-5dc933b870d6"
+    },
+    {
+      "key": "source_hash",
+      "value": "86ea22dc92db4c0819b6b08c32e80f73152202e8"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "fe1476ef-9dfe-46fa-8b2c-5dc933b870d6"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "bd9faa28-bbb6-45f3-a4f0-d302a4a61802"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "DHS datajson source"
+    }
+  ],
+  "title": "Mines and Mineral Resources",
+  "revision_id": "a4256b5f-5f6e-4ad0-98c3-15f1dfc8e3fa"
+}

@@ -1,0 +1,188 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "d33c0ac7-d3f1-472c-9d2d-c307343f2cb9",
+  "metadata_created": "2015-04-25T12:20:02.769347",
+  "metadata_modified": "2015-04-25T12:20:02.769347",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "d33c0ac7-d3f1-472c-9d2d-c307343f2cb9",
+      "webstore_last_updated": null,
+      "id": "c91e9fea-9039-41ac-bb52-c2de845cec27",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 161,
+        "recent": 3
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "aee55822-fe43-47d7-80fb-51176e211ec4",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-04-25T08:20:02.880672",
+      "url": "http://bios.dfg.ca.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 37,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-19T14:05:26.054173",
+    "title": "State of California",
+    "name": "ca-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.ca.gov/images/template2012/header_ca.gov.png",
+    "revision_id": "ad94cda4-9394-44d0-9c37-573dc3c47c9a",
+    "type": "organization",
+    "id": "467d900f-8a42-452d-9906-6610dd1a767f",
+    "approval_status": "approved"
+  },
+  "name": "coastal-zone-boundary-ds990",
+  "isopen": false,
+  "url": null,
+  "notes": "Polygon versions of the terrestrial CZB with a generalized shoreline (USGS 1:24,000 Quadrangle shoreline heads up digitized at 1:3000) and with a more detailed shoreline that includes most bays and estuaries. It was digitized within AutoCAD from the Commission's certified Coastal Zone Boundary hard copy maps. The files were then imported into ArcView, and merged together following Commission jurisdictional boundaries (North Coast, North Central Coast, Central Coast, South Central Coast, South Coast, and San Diego). The line work was originally georeferenced to the USGS Digital Raster Graphics (DRG) in Teale Albers projection. The data was later refined to the DRGs in UTM, Zones 10 and 11, NAD 83 meters. This file is intended to be displayed upon the UTM DRGs as a base map. In addition, the data was later attributed to help explain the basis of the mapped Coastal Zone.",
+  "owner_org": "467d900f-8a42-452d-9906-6610dd1a767f",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"California Coastal Commission\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "greg.benoit@coastal.ca.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-124.633821"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2014-10-20"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2014-03-18\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-116.645110"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "42.073799"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "32.491491"
+    },
+    {
+      "key": "licence",
+      "value": "[\" \"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-124.633821, 32.491491], [-116.64511, 32.491491], [-116.64511, 42.073799], [-124.633821, 42.073799], [-124.633821, 32.491491]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: The State of California and the Coastal Commission make no representations or warranties regarding the accuracy or completeness of the data from which it was derived. Neither the State nor the Commission shall be liable under any circumstances for any direct, indirect, special, incidental or consequential damages with respect to any claim by any user or any third party on account of or arising from the use of these boundary files or the data from which it was derived. Because the files are merely representational, it and the data from which it was derived are not binding on the Commission and may be revised at any time in the future.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "tags",
+      "value": "california"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "9d43a6c5-2797-4a3b-aca8-55ffe8411c85"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "bf0e0f99-7417-42e4-a627-e94c49cb4159"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "State of California Geoportal"
+    }
+  ],
+  "title": "Coastal Zone Boundary [ds990]",
+  "revision_id": "aee55822-fe43-47d7-80fb-51176e211ec4"
+}

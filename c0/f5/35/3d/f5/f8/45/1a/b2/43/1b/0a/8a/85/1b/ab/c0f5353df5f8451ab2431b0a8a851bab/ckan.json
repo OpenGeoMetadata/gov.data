@@ -1,0 +1,215 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Karl Irikura",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "karl.irikura@nist.gov",
+  "num_tags": 8,
+  "id": "c0f5353d-f5f8-451a-b243-1b0a8a851bab",
+  "metadata_created": "2016-01-29T13:52:25.967108",
+  "metadata_modified": "2016-10-07T22:14:23.525634",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "beb",
+      "id": "6a631bc7-55bf-4be2-b78a-5301f8c1f2b9",
+      "name": "beb"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "bethe",
+      "id": "d999c49b-f067-4cb1-9c7f-8b4b11ecc37a",
+      "name": "bethe"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "binary-encounter-bethe",
+      "id": "5d303244-b72f-4fe9-96c8-7151206898e1",
+      "name": "binary-encounter-bethe"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "high-t",
+      "id": "79ba5565-eaa7-40d5-83e7-36c1fd6ea14d",
+      "name": "high-t"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "high-temperatures",
+      "id": "bdb7bd44-9041-4c37-87a4-3f2291dc1a82",
+      "name": "high-temperatures"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ionizations",
+      "id": "56f07b84-3bb7-4447-bfd3-1954cc5f802f",
+      "name": "ionizations"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "mott",
+      "id": "b0eaa443-2c1b-41f1-9985-a5dd294ffb0b",
+      "name": "mott"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "physics",
+      "id": "8e095917-58e6-4a8a-b347-d2e500aa5367",
+      "name": "physics"
+    }
+  ],
+  "tracking_summary": {
+    "total": 60,
+    "recent": 10
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:37:59.153068",
+    "title": "Department of Commerce",
+    "name": "doc-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.vos.noaa.gov/MWL/aug_10/Images/doc_logo_xparent.png",
+    "revision_id": "44c851b9-8872-497a-8a13-2f06740b7ffb",
+    "type": "organization",
+    "id": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+    "approval_status": "approved"
+  },
+  "name": "nist-electron-impact-ionization-cross-section-database-srd-107",
+  "isopen": true,
+  "url": null,
+  "notes": "This is a database of total ionization cross sections of atoms and molecules by electron impact. The cross sections were calculated using the Binary-Encounter-Bethe (BEB) model, which combines the Mott cross section with the high-incident energy behavior of the Bethe cross section. Selected experimental data are included. Singly differential cross sections are included for H, He, and H2. Electron-impact excitation cross sections are also included for selected atoms.",
+  "owner_org": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "National Institute of Standards and Technology"
+    },
+    {
+      "key": "landingPage",
+      "value": "http://www.nist.gov/pml/data/ionization/index.cfm"
+    },
+    {
+      "key": "license",
+      "value": "http://www.nist.gov/open/license.cfm"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2005-08-01"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "language",
+      "value": [
+        "en"
+      ]
+    },
+    {
+      "key": "identifier",
+      "value": "FDB5909746625200E043065706813E54106"
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "006:55"
+      ]
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://physics.nist.gov/PhysRefData/Ionization/intro.html",
+        "http://physics.nist.gov/PhysRefData/Ionization/ref.html"
+      ]
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "006:052"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c918806d-5365-4b46-90fe-d51e41fa0eba"
+    },
+    {
+      "key": "source_hash",
+      "value": "099060c44cc8110c586e3df14803d088ad96e676"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c918806d-5365-4b46-90fe-d51e41fa0eba"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    }
+  ],
+  "title": "NIST Electron-Impact Ionization Cross Section Database - SRD 107",
+  "revision_id": "f992e71e-f02a-41c0-9bce-7f87ca4b3310"
+}

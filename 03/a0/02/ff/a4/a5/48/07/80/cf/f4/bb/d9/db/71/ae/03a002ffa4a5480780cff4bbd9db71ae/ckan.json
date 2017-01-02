@@ -1,0 +1,163 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Scott Valentine",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "scott.valentine@dot.gov",
+  "num_tags": 9,
+  "id": "03a002ff-a4a5-4807-80cf-f4bbd9db71ae",
+  "metadata_created": "2016-05-26T09:47:27.286103",
+  "metadata_modified": "2016-05-26T09:47:27.286103",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "03a002ff-a4a5-4807-80cf-f4bbd9db71ae",
+      "webstore_last_updated": null,
+      "id": "8878c284-cffe-4842-b9d2-2f3f41f5a270",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "RoadsideInspections.aspx",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 77,
+        "recent": 3
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/html",
+      "cache_url": null,
+      "name": "Data Mining Tool",
+      "created": "2016-05-26T05:47:27.730251",
+      "url": "http://ai.fmcsa.dot.gov/SafetyProgram/RoadsideInspections.aspx",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "5e3ce78d-2ef4-4311-a6de-cb23fffde8c9",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "bus",
+      "id": "d7e6b84a-aaea-444c-99df-0eb0fd86927d",
+      "name": "bus"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "federal-motor-carrier-safety-administration",
+      "id": "11e61925-bbc8-48f9-9865-dd9451546479",
+      "name": "federal-motor-carrier-safety-administration"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "fmcsa",
+      "id": "6d1071f0-c838-49af-b14b-44da5376d325",
+      "name": "fmcsa"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "inspections",
+      "id": "03d418b4-e732-45af-99e2-582cd4f93fbb",
+      "name": "inspections"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "motorcoach",
+      "id": "bd4139a9-26ba-44cb-b401-4899c549fd3f",
+      "name": "motorcoach"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "oos",
+      "id": "cab7fa4b-1d19-411a-a221-09a4d1ad776e",
+      "name": "oos"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "out-of-service",
+      "id": "71930edb-a5c4-4212-82ed-c4dabbf025f5",
+      "name": "out-of-service"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "roadside-inspections",
+      "id": "b5fdbc13-27b2-49a5-afc3-38e0007ea111",
+      "name": "roadside-inspections"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "truck",
+      "id": "4a3b2786-ae67-4e3e-981c-b4685d08ed8e",
+      "name": "truck"
+    }
+  ],
+  "tracking_summary": {
+    "total": 16,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:46:56.521190",
+    "title": "Department of Transportation",
+    "name": "dot-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://upload.wikimedia.org/wikipedia/commons/8/81/US_DOT_Triskelion.png",
+    "revision_id": "684c8481-4ae2-46b0-a083-b392eea15130",
+    "type": "organization",
+    "id": "fc5cb2c1-d0b0-482a-8a52-7d42ea186ae1",
+    "approval_status": "approved"
+  },
+  "name": "motor-carrier-inspections-data-mining-tool-19325",
+  "isopen": true,
+  "url": null,
+  "notes": "Contains data on roadside inspections of large trucks and buses, including violations discovered. The majority of this information comes from state police jurisdictions to FMCSA, although some Federally-conducted inspections are also included.",
+  "owner_org": "fc5cb2c1-d0b0-482a-8a52-7d42ea186ae1",
+  "extras": [
+    {
+      "key": "extras_rollup",
+      "value": "{\"confidentiality\": true, \"harvest_source_id\": \"a400d398-0d24-4940-b8b3-6573a1670b01\", \"catalog_@context\": \"https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld\", \"issued\": \"2011-09-14\", \"resource-type\": \"Dataset\", \"analysisUnit\": \"Motor Carrier, Driver, Vehicle,\", \"references\": [\"http://ai.fmcsa.dot.gov/InfoCenter/Default.aspx#question402\"], \"source_hash\": \"058e9af1dabf9db44ca27a8d71ee6ff0810a52eb\", \"agencyDataSeriesURL\": \"http://ai.fmcsa.dot.gov/SafetyProgram/RoadsideInspections.aspx\", \"QualityResponsibleAgency\": \"Federal Motor Carrier Safety Administration\", \"collection_package_id\": \"5f3cdc39-44ec-4281-9c1f-a6286d68f405\", \"collectionInstrument\": \"Data are collected at the roadside, primarily through FMCSA-provided ASPEN software used to conduct roadside inspections.  The inspections are uploaded from State SAFETYNET systems into FMCSA's MCMIS database.\", \"bibliographicCitation\": \"http://ai.fmcsa.dot.gov/SafetyProgram/RoadsideInspections.aspx\", \"temporal\": \"2009-01-01/2013-12-31\", \"theme\": [\"Transportation\"], \"agencyProgramURL\": \"http://www.fmcsa.dot.gov/safety-security/grants/MCSAP-Basic-Incentive/index.aspx\", \"spatial\": \"National, State and county.\", \"programCode\": [\"021:000\"], \"subagency\": \"Federal Motor Carrier Safety Administration\", \"catalog_conformsTo\": \"https://project-open-data.cio.gov/v1.1/schema\", \"category\": \"Tool\", \"collectionMode\": \"Electronic\", \"catalog_describedBy\": \"https://project-open-data.cio.gov/v1.1/schema/catalog.json\", \"primaryITInvestmentUII\": \"021-155552608\", \"harvest_source_title\": \"DOT JSON\", \"source_schema_version\": \"1.1\", \"phone\": \"(202) 366-4869\", \"bureauCode\": [\"021:17\"], \"accessLevel\": \"public\", \"harvest_object_id\": \"5db3ebfe-1f78-4596-9704-c2b659e3af64\", \"publisher\": \"Federal Motor Carrier Safety Administration\", \"organizationName\": \"Department of Transportation / Federal Motor Carrier Safety Administration\", \"language\": [\"en-US\"], \"license\": \"https://project-open-data.cio.gov/unknown-license\", \"publisher_hierarchy\": \"U.S. Government > Department of Transportation > Federal Motor Carrier Safety Administration\", \"guidelineCompliance\": true, \"modified\": \"2014-12-12\", \"source_datajson_identifier\": true, \"catalog_@id\": \"https://www.dot.gov/data.json\", \"categoryDesignation\": \"Research\", \"accrualPeriodicity\": \"irregular\", \"numberOfDatasets\": 1, \"dataQuality\": true, \"additionalMetadata\": \"N/A\", \"identifier\": \"94.2\"}"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "5db3ebfe-1f78-4596-9704-c2b659e3af64"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "a400d398-0d24-4940-b8b3-6573a1670b01"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "DOT JSON"
+    }
+  ],
+  "title": "Motor Carrier Inspections - Data Mining Tool",
+  "revision_id": "5e3ce78d-2ef4-4311-a6de-cb23fffde8c9"
+}

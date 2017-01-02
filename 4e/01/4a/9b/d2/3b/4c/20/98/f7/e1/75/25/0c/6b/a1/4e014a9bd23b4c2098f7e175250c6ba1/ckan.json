@@ -1,0 +1,241 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "NSIDC User Services",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "support@earthdata.nasa.gov",
+  "num_tags": 3,
+  "id": "4e014a9b-d23b-4c20-98f7-e175250c6ba1",
+  "metadata_created": "2014-10-08T03:03:32.561454",
+  "metadata_modified": "2016-05-06T07:54:09.724548",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "4e014a9b-d23b-4c20-98f7-e175250c6ba1",
+      "webstore_last_updated": null,
+      "id": "7a76eee2-18c4-4c22-ba68-9e5fb24b3195",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "nsidc-0302.html",
+      "format": "BIN",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/octet-stream",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-11-26T13:35:02.299658",
+      "url": "http://nsidc.org/data/nsidc-0302.html",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "d16c15a7-2f53-42f2-81c1-b31c6d65b59e",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "earth-science",
+      "id": "f28006f8-df78-4700-b72f-f4a19628ba67",
+      "name": "earth-science"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "microwave",
+      "id": "311a21d3-5b4a-4520-ae6c-eea163651d25",
+      "name": "microwave"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "spectral-engineering",
+      "id": "8976b0b3-e423-440d-9ad4-ca2599152650",
+      "name": "spectral-engineering"
+    }
+  ],
+  "tracking_summary": {
+    "total": 9,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "amsr-e-aqua-daily-ease-grid-brightness-temperatures",
+  "isopen": true,
+  "url": null,
+  "notes": "This document pertains to two data sets: AMSR-E/Aqua Daily EASE-Grid Brightness Temperatures (NSIDC-0301) and AMSR-E/Aqua Daily Global Quarter-Degree Gridded Brightness Temperatures (NISDC-0302). \n\nThe Advanced Microwave Scanning Radiometer - Earth Observing System (AMSR-E) instrument on the NASA EOS Aqua satellite provides global passive microwave measurements of the Earth. NSIDC produces AMSR-E gridded brightness temperature data by interpolating AMSR-E data (6.9 GHz, 10.7 GHz, 18.7 GHz, 23.8 GHz, 36.5 GHz, and 89.0 GHz) to the output grids from swath space using an Inverse Distance Squared (ID2) method. AMSR-E/Aqua L2A Global Swath Spatially-Resampled Brightness Temperatures (AE_L2A) input source data are used.\n\nThese data are provided in three EASE-Grid projections (north and south Lambert azimuthal and global cylindrical) at 25 km resolution, and in one global cylindrical, equidistant latitude-longitude projection at 0.25 degree (quarter-degree) resolution. For both data sets, spatial coverage is global, data are daily, and coverage begins 19 June 2002 and ends 27 September 2011. \n\nData are provided via FTP. Brightness temperature data (in tenths of kelvins) are two-byte unsigned integers and time files are two-byte signed integers.",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "collection_metadata",
+      "value": "true"
+    },
+    {
+      "key": "issued",
+      "value": "2014-08-28T12:00:00.000Z"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "8db8f7629e887c75c96ca3f70883a3c475f273e6"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "temporal",
+      "value": "2002-06-19T01:00:00Z/2011-09-27T23:59:59Z"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "geospatial"
+      ]
+    },
+    {
+      "key": "spatial",
+      "value": "-180.0 -90.0 180.0 90.0"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:001"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "landingPage",
+      "value": "http://reverb.echo.nasa.gov/reverb?selected=C1122-NSIDCV0"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "e4c4b006-3cc7-4ec0-82cc-cd817d63b5b8"
+    },
+    {
+      "key": "publisher",
+      "value": "NSIDC"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "55942a59c63a7fe59b495b46"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "U.S. Government > National Aeronautics and Space Administration > NSIDC"
+    },
+    {
+      "key": "modified",
+      "value": "2014-08-28T12:00:00.000Z"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "irregular"
+    },
+    {
+      "key": "identifier",
+      "value": "C1122-NSIDCV0"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "e4c4b006-3cc7-4ec0-82cc-cd817d63b5b8"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "AMSR-E/Aqua Daily EASE-Grid Brightness Temperatures",
+  "revision_id": "d16c15a7-2f53-42f2-81c1-b31c6d65b59e"
+}

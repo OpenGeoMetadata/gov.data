@@ -1,0 +1,622 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Jeffrey D. Sisson",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "jeffrey.d.sisson@census.gov",
+  "num_tags": 56,
+  "id": "13519ff9-4e0f-457a-a779-f67e423c8741",
+  "metadata_created": "2015-05-20T21:03:35.270902",
+  "metadata_modified": "2015-09-17T06:58:26.637068",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "13519ff9-4e0f-457a-a779-f67e423c8741",
+      "webstore_last_updated": null,
+      "id": "0a818927-82a0-497a-8653-8fbbcfb7e547",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "CSV",
+      "tracking_summary": {
+        "total": 4224,
+        "recent": 117
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/csv",
+      "cache_url": null,
+      "name": "Comma Seperated Values File",
+      "created": "2015-05-20T17:03:36.577741",
+      "url": "http://factfinder2.census.gov",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "e6b93315-aef2-4ecd-b960-8edb1a12faaa",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "accommodation-and-food-services",
+      "id": "7b3db9ac-da0a-449d-8524-b02b72f65185",
+      "name": "accommodation-and-food-services"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "administrative-and-support-and-waste-management-and-remediation-services",
+      "id": "f4b8a90c-e4a2-4c87-97f6-616221a6f728",
+      "name": "administrative-and-support-and-waste-management-and-remediation-services"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "age",
+      "id": "ddf36e5c-29e7-48f6-a697-3af2ae33ded2",
+      "name": "age"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ancestry",
+      "id": "5481861b-7222-40b8-8455-7a52fe06acac",
+      "name": "ancestry"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "art-and-entertainment-and-recreation",
+      "id": "a3d8aae7-01d0-494d-b30a-6012333e41d8",
+      "name": "art-and-entertainment-and-recreation"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "business",
+      "id": "8db0c512-a345-4d67-a239-9c92e4b13432",
+      "name": "business"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "construction",
+      "id": "f90ccef4-b79b-4ee1-9521-fee634fbc18f",
+      "name": "construction"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "demographic",
+      "id": "ff1151c2-c5f0-4bea-98e1-e92aec259cc9",
+      "name": "demographic"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "disability",
+      "id": "80055016-9e0d-4502-8619-5d256a463ac8",
+      "name": "disability"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "economic",
+      "id": "fa154651-ad8a-49e7-a248-9630a00d1c15",
+      "name": "economic"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "education",
+      "id": "bba3d2e7-c98f-4112-9c09-ce0536729607",
+      "name": "education"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "educational-services",
+      "id": "6995528c-260d-45b7-ac5a-4938bddb5eb0",
+      "name": "educational-services"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "employment",
+      "id": "2b37f0ac-ef84-4308-9003-7bcb69474471",
+      "name": "employment"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "establishments",
+      "id": "bfb2bcb1-1f4e-4e0e-b6fa-c9e935d4381d",
+      "name": "establishments"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ethnicity",
+      "id": "bb53e753-ba10-4c8c-a4b2-0bd521cc48c2",
+      "name": "ethnicity"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "family-type",
+      "id": "9fb590f0-e08b-4afa-912e-ac1f9d5882ac",
+      "name": "family-type"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "fertility",
+      "id": "3b3ffca3-a3c9-4233-a08c-9e76524ee3f7",
+      "name": "fertility"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "finance-and-insurance",
+      "id": "3ef624fe-330c-402f-b4b7-c97c0543744c",
+      "name": "finance-and-insurance"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "financial-characteristics",
+      "id": "1dee46b0-9531-44c8-bf50-7b04ef885e08",
+      "name": "financial-characteristics"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "grandparents",
+      "id": "c4384f63-b6cc-49c3-be5e-76bc34e7cb06",
+      "name": "grandparents"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "health-care-and-social-assistance",
+      "id": "183fbd64-14e2-4ace-8f53-879f2dde81c3",
+      "name": "health-care-and-social-assistance"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "hispanic-origin",
+      "id": "d28a4d0c-1b68-4d7b-a9d4-d2d216b335a6",
+      "name": "hispanic-origin"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "household-size",
+      "id": "955dcf60-770c-4e0b-8411-27ae3c1ca94f",
+      "name": "household-size"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "housing",
+      "id": "cc2a8aab-2dfe-453c-927b-2c7669dad222",
+      "name": "housing"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "income",
+      "id": "a13ac49e-1d90-4a0b-af37-6bdb42b972d7",
+      "name": "income"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "industry",
+      "id": "de6ab91f-07b3-4685-98e4-856b3de254c5",
+      "name": "industry"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "information",
+      "id": "93be9e2f-071f-4edf-9999-cdd8b2a04957",
+      "name": "information"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "language",
+      "id": "59e5aa5b-31a6-48cf-9f64-c6a5615c9220",
+      "name": "language"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "management-of-companies-and-enterprises",
+      "id": "05fb2376-d60a-4db4-a5f7-bdd1dc4aaa34",
+      "name": "management-of-companies-and-enterprises"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "manufacturing",
+      "id": "caf6e2d2-9093-4514-b96a-464a93f405e3",
+      "name": "manufacturing"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "marital-status",
+      "id": "2686cd10-75f0-454a-ac97-84010c0126b6",
+      "name": "marital-status"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "mining",
+      "id": "e65fc81d-ed92-4ffc-b187-b0bb815f5596",
+      "name": "mining"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "number-of-employees",
+      "id": "cf32a1be-e635-4bb8-800d-a08a35110242",
+      "name": "number-of-employees"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "number-of-rooms",
+      "id": "be9f5627-5c79-4c13-b0c0-d59cabe5963c",
+      "name": "number-of-rooms"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "other-services",
+      "id": "fd0682e6-24cd-4d85-95c2-743da947b5f1",
+      "name": "other-services"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "owners",
+      "id": "6e9657c6-937a-46cc-9743-530f8d9ae627",
+      "name": "owners"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "payroll",
+      "id": "129ee736-592d-47d1-b630-e7d5cb524272",
+      "name": "payroll"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "physical-characteristics",
+      "id": "df49321e-d254-4d51-bb13-f5a230452b2e",
+      "name": "physical-characteristics"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "population",
+      "id": "1625477a-8d70-4daf-85f7-93bfcc500b0d",
+      "name": "population"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "poverty",
+      "id": "d3858484-b546-479f-82ec-76c2cbba16d4",
+      "name": "poverty"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "professional-and-scientific-and-technical-services",
+      "id": "2fc1e502-c456-4f04-9fc7-beff074c9306",
+      "name": "professional-and-scientific-and-technical-services"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "race",
+      "id": "68ca371d-76e4-4630-a9bf-8a7838b0b068",
+      "name": "race"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "real-estate-and-rental-and-leasing",
+      "id": "c858d13c-7761-4e87-ae95-2721cfc7601c",
+      "name": "real-estate-and-rental-and-leasing"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "receipts",
+      "id": "97aa60a8-095b-4c13-952e-c08791be5fe3",
+      "name": "receipts"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "relationships",
+      "id": "0d2244ae-9667-4377-b94d-9a347968aef2",
+      "name": "relationships"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "renters",
+      "id": "84774548-9eb7-4790-abce-f766ba13fcfa",
+      "name": "renters"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "retail-trade",
+      "id": "58b37e19-a2d9-4d56-9855-e1231530d65e",
+      "name": "retail-trade"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "sales",
+      "id": "8cad3f01-0f4c-42e8-9048-8adfaffd8c9f",
+      "name": "sales"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "school-enrollment",
+      "id": "507396a0-5c0a-404e-8237-102ac371a51c",
+      "name": "school-enrollment"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "sex",
+      "id": "cc83736c-6465-4d82-af4c-1dae3b7042b3",
+      "name": "sex"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "shipment",
+      "id": "fc57e060-119b-44d5-87e2-e51fbb15af0f",
+      "name": "shipment"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "tenure",
+      "id": "f852aad2-b998-4306-85c9-ee2d65430bb1",
+      "name": "tenure"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "transportation-and-warehousing",
+      "id": "8897f933-8f18-4817-9377-a51c1edb12ca",
+      "name": "transportation-and-warehousing"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "utilities",
+      "id": "8b88bee7-facb-4560-b38a-454fb9763d15",
+      "name": "utilities"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "veteran-status",
+      "id": "40fc96c5-5a79-4b6e-82ff-a53c725b70f6",
+      "name": "veteran-status"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "wholesale-trade",
+      "id": "97cde602-7933-46a2-972f-8383331b02bc",
+      "name": "wholesale-trade"
+    }
+  ],
+  "tracking_summary": {
+    "total": 9332,
+    "recent": 326
+  },
+  "groups": [
+    {
+      "display_name": "AAPI",
+      "description": "Asian Americans and Pacific Islanders",
+      "image_display_url": "",
+      "title": "AAPI",
+      "id": "9a350fa9-bc49-43d4-8e77-270b9714976d",
+      "name": "aapi0916"
+    },
+    {
+      "display_name": "Consumer",
+      "description": "",
+      "image_display_url": "",
+      "title": "Consumer",
+      "id": "3b4e71c5-3c3c-43af-a3ff-81694225e453",
+      "name": "consumer9350"
+    },
+    {
+      "display_name": "Finance",
+      "description": "",
+      "image_display_url": "",
+      "title": "Finance",
+      "id": "405b5dfb-24f8-4b77-9999-745076d64cb2",
+      "name": "finance3432"
+    }
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:37:59.153068",
+    "title": "Department of Commerce",
+    "name": "doc-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.vos.noaa.gov/MWL/aug_10/Images/doc_logo_xparent.png",
+    "revision_id": "44c851b9-8872-497a-8a13-2f06740b7ffb",
+    "type": "organization",
+    "id": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+    "approval_status": "approved"
+  },
+  "name": "american-factfinder-ii",
+  "isopen": true,
+  "url": null,
+  "notes": "American FactFinder is the Census Bureau's online, self-service tool designed to search a  variety of population, economic, geographic and housing information.",
+  "owner_org": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+  "extras": [
+    {
+      "key": "__category_tag_3b4e71c5-3c3c-43af-a3ff-81694225e453",
+      "value": "[\"Housing and Community\"]"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "issued",
+      "value": "2014-09-16"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "__category_tag_9a350fa9-bc49-43d4-8e77-270b9714976d",
+      "value": "[\"Immigration\",\"Country of Birth\",\"Education\",\"Asian\",\"Pacific Islander\",\"Languages\",\"Limited English Proficiency (LEP)\",\"Housing\",\"Employment/Labor\",\"Income\",\"Veterans\",\"Native Hawaiian\"]"
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://factfinder2.census.gov/faces/help/jsf/pages/metadata.xhtml?lang=en"
+      ]
+    },
+    {
+      "key": "source_hash",
+      "value": "d488f28352351e39a2b3329d0c66338de7a5b4b4"
+    },
+    {
+      "key": "__category_tag_aa0c01c9-d292-4dc1-8fec-b10c1bb629a9",
+      "value": null
+    },
+    {
+      "key": "spatial",
+      "value": "United States, Puerto Rico, U.S. Virgin Islands, Commonwealth of the Northern Mariana Islands, Guam, American Samoa"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "describedBy",
+      "value": "http://factfinder2.census.gov/help/en/american_factfinder_help.htm#glossary/glossary.htm"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "006:008"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "006:07"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "9c839a19-e596-498a-b095-74cfd962154b"
+    },
+    {
+      "key": "publisher",
+      "value": "US Census Bureau, Department of Commerce"
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "modified",
+      "value": "2014-09-16"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/PT1S"
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "DOC-5156"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "9c839a19-e596-498a-b095-74cfd962154b"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "American FactFinder II",
+  "revision_id": "496f79ea-529e-4a21-99f9-a06accbae185"
+}

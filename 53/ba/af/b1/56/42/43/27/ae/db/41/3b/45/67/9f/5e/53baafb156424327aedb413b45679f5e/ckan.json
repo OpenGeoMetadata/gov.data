@@ -1,0 +1,218 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "53baafb1-5642-4327-aedb-413b45679f5e",
+  "metadata_created": "2015-07-06T06:27:53.487415",
+  "metadata_modified": "2015-07-06T06:27:53.487415",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "53baafb1-5642-4327-aedb-413b45679f5e",
+      "webstore_last_updated": null,
+      "id": "5fe97dc7-a249-4173-a5f2-86ca04676378",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "FEMA_Terrain",
+      "tracking_summary": {
+        "total": 9191,
+        "recent": 278
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "3aa70b71-84d4-42d2-947b-0a8b56023f5f",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-07-06T02:27:53.828334",
+      "url": "http://hazards.fema.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "53baafb1-5642-4327-aedb-413b45679f5e",
+      "webstore_last_updated": null,
+      "id": "d0e5b365-d4de-4c25-a432-d60757ebe264",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 9191,
+        "recent": 278
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "3aa70b71-84d4-42d2-947b-0a8b56023f5f",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-07-06T02:27:53.828356",
+      "url": "http://hazards.fema.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 9,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:42.822878",
+    "title": "Federal Emergency Management Agency, Department of Homeland Security",
+    "name": "fema-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://ep4u.sm4.biz/communities/7/004/008/908/237/images/4543640096_pre.jpg",
+    "revision_id": "42c731d4-22ea-4393-b3b6-100cc50fc0bd",
+    "type": "organization",
+    "id": "ae816746-a815-4a3f-805d-2b51b561c626",
+    "approval_status": "approved"
+  },
+  "name": "dcs-terrain-submission-for-oneida-county-new-york-usacc21c",
+  "isopen": false,
+  "url": null,
+  "notes": "For Oneida County, NY, there were two types of elevation datasets. The first type is LiDAR and the second one is Auto-correlation DEM. Auto-correlation DEM data was developed wherever LiDAR data was not available. LiDAR data was made available to this project through two different initiatives. The first set of LiDAR data was made available through HMTAP-1650 project, which consisted of area of 3 miles buffers around Mohawk River. Though data was available for the whole length of Mohawk, only data that pertained to the county was used for this project.The second set of LiDAR data was made available for DFIRM. DFIRM data was delivered at two different times. The first delivery done in 2008 (covers middle part of the county) and the second delivery done in 2009 (covers a small area in the west, around Oneida lake). As the two coverages did not have issues dealing with overlaps, they were used as they are. For the auto correlated data, in an effort to provide an alternative to the collection of LiDAR data and utilization of the National Elevation Dataset (NED), Dewberry has tested the methodology for the generation of a photogrammetrically derived surface model appropriate for Hydrologic and Hydraulic modeling and conforming to FEMA standards.The autocorrelated surface was generated using imagery from the 2003 New York statewide collection along with the Aerial Triangulation (AT) solution provided with the source imagery. The surface was subsequently edited through manual processes and improved with breaklines in order to meet ASPRS Class 1 accuracy requirements for 4 foot contour mapping.The final terrain is named as Oneida_Terrain.gdb. Please check the image from the PDF report in the General folder of the MIP submitted data.",
+  "owner_org": "ae816746-a815-4a3f-805d-2b51b561c626",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Dewberry and Davis, LLC\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "mvalenzuela@dewberry.com"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-75.897"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2007-12-04"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2010-04-19\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-75.062"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "43.616"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "42.863"
+    },
+    {
+      "key": "licence",
+      "value": "[\"No warranty expressed or implied is made by FEMA regarding the utility of the data on any other system nor shall the act of distribution constitute any such warranty.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "underDevelopment"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-75.897, 42.863], [-75.062, 42.863], [-75.062, 43.616], [-75.897, 43.616], [-75.897, 42.863]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: For the Oneida County Lidar data 1.The NYS DEC asks to be credited in derived products. 2. Secondary Distribution of the data is not allowed. 3. Any documentation provided is an integral part of the data set. Failure to use the documentation in conjunction with the digital data constitutes misuse of the data.4. Although every effort has been made to ensure the accuracy of information, errors may be reflected in the data supplied. The user must be aware of data conditions and bear responsibility for the appropriate use of the information with respect to possible errors, original map scale, collection methodology, currency of data, and other condidions.For the HMTAP and Auto correlated data - Acknowledgement of FEMA would be appreciated in products derived from these data. This digital data is produced for the purposes of updating/creating a DFIRM database.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "unknown"
+    },
+    {
+      "key": "tags",
+      "value": "topography, digital terrain model, fema-cid 36065c, elevation data, state ny, lidar, land surface, county-fips 36065, relief, region 2, community oneida, county oneida"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "ee2ae2db-324c-4218-a2ef-5f4092b4b9b2"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "c7b5231e-d746-4dcc-9e98-8baf72a93ca9"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "FEMA-R02"
+    }
+  ],
+  "title": "DCS TERRAIN SUBMISSION for ONEIDA COUNTY, NEW York, USA",
+  "revision_id": "3aa70b71-84d4-42d2-947b-0a8b56023f5f"
+}

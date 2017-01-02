@@ -1,0 +1,192 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "<Nobody>",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 2,
+  "id": "73d8cef6-f179-417b-87d1-7ecd5a347e8f",
+  "metadata_created": "2016-01-28T07:19:33.203491",
+  "metadata_modified": "2016-08-25T08:22:14.581323",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "73d8cef6-f179-417b-87d1-7ecd5a347e8f",
+      "webstore_last_updated": null,
+      "id": "74381ab3-25b0-40fb-b571-a99ae3da2905",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2016-01-28T02:19:33.437970",
+      "url": "https://data.cityofchicago.org/download/6mep-ry2s/application/zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "fe9cc898-8293-4ad2-b58e-c8e7bab3e9a7",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "shapefiles",
+      "id": "e066ef05-f157-4e4f-a65a-cd4f3435bb6c",
+      "name": "shapefiles"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "sustainability",
+      "id": "9c9af354-e8b1-408c-acac-e041b458c47a",
+      "name": "sustainability"
+    }
+  ],
+  "tracking_summary": {
+    "total": 6,
+    "recent": 3
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2014-04-16T13:27:34.042027",
+    "title": "City of Chicago",
+    "name": "city-of-chicago",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "",
+    "revision_id": "2355fd63-2123-4dc7-b177-e959631cf360",
+    "type": "organization",
+    "id": "86c0c3d9-3826-47ab-a773-6924b858dd04",
+    "approval_status": "approved"
+  },
+  "name": "green-roofs-shapefile",
+  "isopen": false,
+  "url": null,
+  "notes": "This map and corresponding dataset provide the location, satellite images and square footage of existing green roofs within the City of Chicago.\r\n\r\nThis dataset is in ESRI shapefile format. To view or use these files, compression software and special GIS software, such as ESRI ArcGIS, is required. This information is derived from an analysis of high-spatial resolution (50cm), pan-sharpened, ortho-rectified, 8-band multi-spectral satellite images collected by Digital Globe’s Worldview-2 satellite. The City supplied the consultant with a 2009 City boundary shapefile to determine the required extent of the imagery. Acquisition of three different strips of imagery corresponding to the satellite’s paths was required. These strips of imagery spanned three consecutive months and were collected in August 2010 (90% coverage), September 2010 (5% coverage) and October 2010 (5% coverage). The results of the analysis include overall count of vegetated roofs, their total square footage, and the ratio of required to elective vegetated roofs. A total of 359 vegetated roofs were identified within the City of Chicago. The total square footage of these vegetated roofs was calculated to be approximately 5,469,463 square feet. The ratio of required vegetated roofs to elective vegetative roofs was 297:62 (~5:1). The median size of the vegetated roofs was calculated to be 5,234 square feet.",
+  "owner_org": "86c0c3d9-3826-47ab-a773-6924b858dd04",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "data.cityofchicago.org"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "added36a-9183-4385-a0e5-dd478946b24c"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "issued",
+      "value": "2012-10-04"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2013-02-06"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Chicago JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Environment & Sustainable Development"
+      ]
+    },
+    {
+      "key": "catalog_@id",
+      "value": "https://data.cityofchicago.org/data.json"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "https://data.cityofchicago.org/api/views/6mep-ry2s"
+    },
+    {
+      "key": "landingPage",
+      "value": "https://data.cityofchicago.org/d/6mep-ry2s"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d11db247-119f-4457-bfc7-72b6ac67b43d"
+    },
+    {
+      "key": "source_hash",
+      "value": "6af40b34a178ac5d200938ef6a37a0bf258dbe95"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d11db247-119f-4457-bfc7-72b6ac67b43d"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "added36a-9183-4385-a0e5-dd478946b24c"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Chicago JSON"
+    }
+  ],
+  "title": "Green Roofs - Shapefile",
+  "revision_id": "a55419ca-034f-4220-b351-8f2a636ad9ba"
+}

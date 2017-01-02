@@ -1,0 +1,237 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "3db91772-4898-4cd6-9531-ae6c5286ecb3",
+  "metadata_created": "2016-07-04T21:16:53.324430",
+  "metadata_modified": "2016-07-04T21:16:53.324430",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "3db91772-4898-4cd6-9531-ae6c5286ecb3",
+      "webstore_last_updated": null,
+      "id": "e7022a5d-bc4d-4d9f-b6a5-5edcc595efb2",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Information about the dataset",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Cite URL",
+      "created": "2016-07-04T17:16:53.932931",
+      "url": "http://www.esrl.noaa.gov/psd/data/gridded/data.gpcc.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "85d55e6f-e88a-40de-bd8e-bfc26b74208c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "3db91772-4898-4cd6-9531-ae6c5286ecb3",
+      "webstore_last_updated": null,
+      "id": "bdfb820b-d1d3-415b-bd5a-62c77d7f27f2",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Thredds Data server.  Allows http, opendap, and possibly WCS and WMS downaloads.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Thredds Server",
+      "created": "2016-07-04T17:16:53.932955",
+      "url": "http://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/gpcc/catalog.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "85d55e6f-e88a-40de-bd8e-bfc26b74208c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "3db91772-4898-4cd6-9531-ae6c5286ecb3",
+      "webstore_last_updated": null,
+      "id": "554ca0be-5829-4afb-a1a0-418bbc3cdbe8",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "FTP server.",
+      "format": "NETCDF3_CLASSIC",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FTP server",
+      "created": "2016-07-04T17:16:53.932964",
+      "url": "ftp://ftp.cdc.noaa.gov/Datasets/gpcc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "85d55e6f-e88a-40de-bd8e-bfc26b74208c",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 4,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "global-precipitation-climatology-centre-gpcc",
+  "isopen": false,
+  "url": null,
+  "notes": "First is the monitoring product for the period 2007 to present, based on quality-controlled data from 7,000 stations. The second is the Full Data Product (V7)for the period 1901 to 2010, based on quality-controlled data from from 67,200 stations world-wide that feature record durations of 10 years or longer. This product contains the monthly totals on a regular grid with a spatial resolution of 0.5� x 0.5�, 1.0� x 1.0�, and 2.5� x 2.5� latitude by longitude. Precipitation anomalies at the stations are interpolated and then superimposed on the GPCC Climatology V2011 in the corresponding resolution. \r\nThe third is the first guess (1x1) which is most up-to-date but which has limited analyzed stations. We start this is 2012.\r\nNote that the gridded gauge-analysis products provided by the GPCC are not yet bias corrected for systematic gauge measuring errors. However, the GPCC provides climatological estimates for that error as well as the number of gauges used on the grid.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "temporal-extent-begin",
+      "value": "1901-01-01"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2016-05-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "webmaster.psd@noaa.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-05-01"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"lastUpdate\", \"value\": \"2016-05-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"\", \"roles\": [\"custodian\"]}]"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://www.esrl.noaa.gov/psd/mddb2/browseGraphics/Global_Precipitation_Climatology_Centre_(GPCC).png"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "ongoing"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.esrl.psd.dataset.Global_Precipitation_Climatology_Centre_GPCC"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "tags",
+      "value": "gpcc precipitation: monitoring version, gpcc monthly total of precipitation: nobs"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "e61fd508-a181-4353-83ce-178bb7e9ee5f"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Global Precipitation Climatology Centre (GPCC)",
+  "revision_id": "85d55e6f-e88a-40de-bd8e-bfc26b74208c"
+}

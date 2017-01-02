@@ -1,0 +1,231 @@
+{
+  "license_title": "Creative Commons CCZero",
+  "maintainer": "Jørn Aabakken",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "jorn.aabakken@nrel.gov",
+  "num_tags": 6,
+  "id": "3b3720a1-d370-449c-9133-1abf394d77eb",
+  "metadata_created": "2015-02-23T20:20:09.183617",
+  "metadata_modified": "2015-08-21T22:38:58.287928",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "3b3720a1-d370-449c-9133-1abf394d77eb",
+      "webstore_last_updated": null,
+      "id": "b6a93305-09bd-4897-8d68-8122507c0c52",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "The data are compressed into a self-extracting (.exe) zip folder containing .xls data files and record layouts. The current file structure (starting with 2009 data) consists of a record layout, 8 data files, and a copy of the applicable version of the Form EIA-860 on which the data was collected, per year.",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 95,
+        "recent": 4
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "Self-extracting ZIP",
+      "created": "2015-02-23T15:20:09.396508",
+      "url": "http://en.openei.org/doe-opendata/dataset/1a24bae1-1a17-44bb-8c2c-8bad4667ad91/resource/1bade56d-bb5f-48ca-9cda-220ed9cbb810/download/f860y09.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "baf4b9d5-7cf7-4e0f-8095-7cd631658d6c",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "eia",
+      "id": "42a7e984-2e2b-4bb1-9373-e108e103a5b7",
+      "name": "eia"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "eia-860",
+      "id": "5e04c82b-0627-4c06-9adc-88367b164c66",
+      "name": "eia-860"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "electric-generator-report",
+      "id": "f0bba276-c400-4a97-aaff-2850c405eb61",
+      "name": "electric-generator-report"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "electric-power",
+      "id": "e983d8e3-a85a-441e-a4b9-3b231bc6c8ac",
+      "name": "electric-power"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "electricity-generation",
+      "id": "93f95463-6beb-4831-b480-20a3067aadfa",
+      "name": "electricity-generation"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "form-860",
+      "id": "076c9cbc-b38d-48d2-8fae-59d99a075da5",
+      "name": "form-860"
+    }
+  ],
+  "tracking_summary": {
+    "total": 670,
+    "recent": 18
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-zero",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "form-eia-860-annual-electric-generator-report-a3f6a",
+  "isopen": true,
+  "url": null,
+  "notes": "The Form EIA-860 is a generator-level \r\nsurvey that collects specific information about existing and planned \r\ngenerators and associated environmental equipment at electric power \r\nplants with 1 megawatt or greater of combined nameplate capacity. The \r\nsurvey data is summarized in reports such as the [Electric Power Annual](http://www.eia.doe.gov/cneaf/electricity/epa/epa_sum.html). The survey data is also available for download here.\r\n\r\n   The data are compressed into a \r\nself-extracting (.exe) zip folder containing .XLS data files and record \r\nlayouts. The current file structure (starting with 2009 data) consists \r\nof a record layout, 8 data files and a copy of the applicable version of\r\n the Form EIA-860 on which the data was collected.\r\n\r\nThe record layout provides a \r\ndirectory of all (published) data elements collected on the Form EIA-860\r\n together with the related description, specific file location(s), and, \r\nwhere appropriate, explanation of codes. The data files consist of the \r\nfollowing (substitute the applicable year for \"yy\" in the file name):\r\n   \r\n UtylityY*yy* - Contains respondent contact information and utility-level data for the surveyed generators.\r\n\r\nPlantY*yy* - Contains plant-level data for the surveyed generators.\r\n\r\nGeneratorY*yy* - Contains generator-level data for the surveyed generators, split into \r\nthree tabs. The \"Exist\" tab includes those generators which are \r\ncurrently operating, out of service or on standby; the \"Prop\" tab \r\nincludes those generators which are planned and not yet in operation; \r\nand the \"Ret_IP\" tab includes those generators which were cancelled \r\nprior to completion and operation and retired generators at existing \r\nplants (does not include data for retired generators at plants at which \r\nall generators have been retired).\r\n\r\nOwnerY*yy* - Contains data on the owner and/or operator of the surveyed generators.\r\n\r\nMultiFuelY*yy* - Contains data on fuel-switching and the use of multiple fuels by \r\nsurveyed generators, split into three tabs: \"Exist,\" \"Prop,\" and \r\n\"Ret_IP.\" See GeneratorsYyy above for a description of the tabs.\r\n\r\nInterconnectY*yy* - Contains interconnection data for the surveyed generators.\r\n\r\nEnviroAssocY*yy* - Contains boiler association data for the environmental equipment data \r\ncollected on the Form EIA-860. The \"Boiler_Gen\" identifies which boilers\r\n are associated with each generator; the \"Boiler_Cool\" tab shows which \r\ncooling systems are associated with each boiler; the \"Boiler_FGD\" tab \r\nshows which flue gas desulfurization (FGD) systems are associated with \r\neach boiler; the \"Boiler_FGP\" tab shows which flue gas particulate (FGP)\r\n collectors are associated with each boiler; and the \"Boiler_SF\" tab \r\nshows which stacks and flues are associated with each boiler.\r\n\r\nEnviroEquipY*yy* - Contains environmental equipment data for the surveyed generators. The \r\n\"Boiler\" tab collects boiler data as collected on Schedule 6, Parts B, \r\nand C of the Form EIA-860; \"Control\" tab contains emission data as \r\ncollected on Schedule 6, Parts D and E; the \"Cooling\" tab collects \r\ncooling system data as collected on Schedule 6, Part F; the \"FGD\" tab \r\ncollects FGD data as collected on Schedule 6, Part H; the \"FGP\" tab \r\ncollects FGP data as collected on Schedule 6, Part G; and the \r\n\"StackFlue\" tab collects stack and flue data as collected on Schedule 6,\r\n Part I.\r\n\r\n**EIA Contact**: Vlad Dorjets, phone: 202-586-3141, e-mail: [Vlad Dorjets](mailto:Vlad.Dorjets@eia.gov)",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "cf305cdca65643a1f45f15c6d127fd60dbf3245d"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-124.76249999999999,24.520843820799996],[-66.9323425079346,24.520843820799996],[-66.9323425079346,49.3845],[-124.76249999999999,49.3845],[-124.76249999999999,24.520843820799996]]]}"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "format",
+      "value": "application/unknown"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://www.eia.doe.gov/cneaf/electricity/page/eia860.html"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "da5fd2d3-d8f1-4e9a-a95e-98dec8afc2da"
+    },
+    {
+      "key": "accessURL",
+      "value": "http://en.openei.org/doe-opendata/dataset/1a24bae1-1a17-44bb-8c2c-8bad4667ad91/resource/1bade56d-bb5f-48ca-9cda-220ed9cbb810/download/f860y09.zip"
+    },
+    {
+      "key": "publisher",
+      "value": "National Renewable Energy Laboratory"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "key": "modified",
+      "value": "2015-07-16T05:29:29Z"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/1a24bae1-1a17-44bb-8c2c-8bad4667ad91"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "da5fd2d3-d8f1-4e9a-a95e-98dec8afc2da"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-zero",
+  "title": "Form EIA-860 Annual Electric Generator Report",
+  "revision_id": "8f232c80-5c0e-4b39-8cff-2b9807a1021e"
+}

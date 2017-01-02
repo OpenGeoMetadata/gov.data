@@ -1,0 +1,248 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "5a05fa54-28af-472d-8401-d4934127a8c5",
+  "metadata_created": "2016-12-05T16:58:41.297092",
+  "metadata_modified": "2016-12-05T16:58:41.297092",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "5a05fa54-28af-472d-8401-d4934127a8c5",
+      "webstore_last_updated": null,
+      "id": "5b26a311-6d01-4d74-b2fe-62d65ccc73a9",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "nps-dod-doe_sgca.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "2bad200e-d858-4a26-bab6-07538f2c5bf9",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2016-12-05T11:58:41.458661",
+      "url": "http://srfs.wr.usgs.gov/Fresc_ScienceData/nps-dod-doe_sgca.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "5a05fa54-28af-472d-8401-d4934127a8c5",
+      "webstore_last_updated": null,
+      "id": "c4a60da3-ad36-4697-8b80-89a89246f8e0",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "2bad200e-d858-4a26-bab6-07538f2c5bf9",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-12-05T11:58:41.458688",
+      "url": "https://www.sciencebase.gov/catalog/item/5436e5bce4b0a4f4b46a5b4d",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "5a05fa54-28af-472d-8401-d4934127a8c5",
+      "webstore_last_updated": null,
+      "id": "d66ec71c-f733-4c30-ad1b-142d2e2b679c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "2bad200e-d858-4a26-bab6-07538f2c5bf9",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-12-05T11:58:41.458698",
+      "url": "http://sagemap.wr.usgs.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 0,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "restricted-access-federal-lands-in-western-north-america",
+  "isopen": false,
+  "url": null,
+  "notes": "This data set depicts federal lands having restrictions on access or activities -- that is, lands mangaed by the National Park Service, Defense Department, or Energy Department -- in western North America. The data set was created by reformatting and merging state- and province-based ownership data layers originally acquired from diverse sources (including state GAP programs, USBLM state offices and other sources). For each original dataset 3 additional fields, \"Pub_Pvt\", \"CA_OWN\", and \"SOURCE\" were added and populated based on the specific ownership information contained in the source data. The original coverages were then merged based on the \"CA_OWN\" field. Finally, NPS, DOD, and DOE lands were selected out of the ownership layer. All work was completed in AcMap 8.3. This product and all source data are available online from SAGEMAP: <http://sagemap.wr.usgs.gov>.",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Geological Survey\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "sfinn@usgs.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-125.384199"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2011-10-03"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2004-01-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-93.850515"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "49.408982"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "30.203290"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data. It is strongly recommended that these data are directly acquired from a U.S. Geological Survey server, and not indirectly through other sources which may have changed the data in some way. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data. The U.S. Geological Survey shall not be held liable for improper or incorrect use of the data described and/or contained herein.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-125.384199, 30.20329], [-93.850515, 30.20329], [-93.850515, 49.408982], [-125.384199, 49.408982], [-125.384199, 30.20329]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: User must understand the limitations of each source data file and understand that those limitations apply to this coverage. Furthermore, this coverage may contain unknown errors due to secondary processing. The user assumes all responsibilities when employing this coverage.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "tags",
+      "value": "wyoming, colorado, north america, washington, cadastral, real property, nevada, north dakota, south dakota, agency, parks, federal government, base maps, western north america, military bases, conservation areas, idaho, public lands, arizona, utah, oregon, montana, california, administrative and political boundaries, ownership, western us, united states, public land, administrative agencies, government property, nebraska, property, land ownership, new mexico"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c0b2f5fe-5874-4c06-8525-eb75f1623324"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "148bba04-92ac-4fa1-8056-fdf8997261c7"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "USGS Forest and Rangeland Ecosystem Science Center"
+    }
+  ],
+  "title": "Restricted Access Federal Lands in Western North America",
+  "revision_id": "2bad200e-d858-4a26-bab6-07538f2c5bf9"
+}

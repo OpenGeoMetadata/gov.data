@@ -1,0 +1,249 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "57e27174-1119-43c1-a963-11688eea473b",
+  "metadata_created": "2016-04-18T19:42:40.564645",
+  "metadata_modified": "2016-04-18T19:42:40.564645",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "57e27174-1119-43c1-a963-11688eea473b",
+      "webstore_last_updated": null,
+      "id": "16c12d91-2da5-4d8c-8085-4652764974f6",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "FTP site for METAR observations",
+      "format": "IWXMM-US",
+      "tracking_summary": {
+        "total": 20,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NWS Telecommunication Operations Center (TOC) TGFTP Server",
+      "created": "2016-04-18T15:42:40.653281",
+      "url": "ftp://tgftp.nws.noaa.gov/data/observations/metar",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "aaf58bd0-1bba-4fea-9d62-0ebb5c9d14bb",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "57e27174-1119-43c1-a963-11688eea473b",
+      "webstore_last_updated": null,
+      "id": "0712da25-294e-4bd4-81bc-a6bcb7d3bb3e",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "The Office of Observations (OBS) serves as the primary office responsible for the collection of space, atmosphere, water, and climate observational data owned or leveraged by NWS.",
+      "format": "",
+      "tracking_summary": {
+        "total": 17,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Office of Observations",
+      "created": "2016-04-18T15:42:40.653321",
+      "url": "http://www.weather.gov/organization/obs",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "aaf58bd0-1bba-4fea-9d62-0ebb5c9d14bb",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "57e27174-1119-43c1-a963-11688eea473b",
+      "webstore_last_updated": null,
+      "id": "727cccc4-8dee-4402-bed3-727ae93e338e",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "IWXXM-US was developed to support the encoding of US products (specifically, METAR, SPECI, TAF, and SIGMET) in XML. IWXXM-US builds directly off the work of the World Meteorological Organization (WMO) and the International Civil Aviation Organization (ICAO) that created data models and schemas for Aviation XML (AvXML). One of the packages within AvXML is named IWXXM, and this package supports the four products mentioned above.",
+      "format": "",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "IWXXM-US Overview",
+      "created": "2016-04-18T15:42:40.653330",
+      "url": "http://nws.weather.gov/schemas/IWXXM-US/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "aaf58bd0-1bba-4fea-9d62-0ebb5c9d14bb",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 1,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "kpea-metar",
+  "isopen": false,
+  "url": null,
+  "notes": "METAR is a routine scheduled observation and is the primary observation code used in the United States to satisfy requirements for reporting surface meteorological data. METAR contains a report of wind, visibility, present weather, sky condition, temperature, dew point, and altimeter setting collectively referred to as the body of the report. In addition, information that elaborates on data in the body of the report may be appended to the METAR. This significant information can be found in the section referred to as Remarks.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-92.95"
+    },
+    {
+      "key": "resource-type",
+      "value": "feature"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "41.40"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": "urn:fdc:mdl-nextgen.nws.noaa.gov:Dataset:METAR-KPEA:metadata"
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "None"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "41.40"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Point\", \"coordinates\": [-92.95, 41.4]}"
+    },
+    {
+      "key": "progress",
+      "value": "onGoing"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "contact-email",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-92.95"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2015-01-23"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"creation\", \"value\": \"2015-01-23\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Disclaimer - While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"DOC/NOAA/National Weather Service (NWS), Office of Observations\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "metar, present weather, kpea, saus.. ...., hail, cloud_area_fraction, sleet, air_temperature, saus.., saus[0-9][0-9] ...., winds, cloud ceiling, cloud_base_height, saus[0-9][0-9] kwbc, asos, snow, wind speed/wind direction, cloud fraction, precipitation amount, fog, toc, altimeter setting, saus.. kwbc, dew_point_temperature, visibility_in_air, rain, saus, visibility, cloud height, wind_speed, dew point temperature, none, clouds, current weather, precipitation_amount, surface pressure, wind_from_direction, surface air temperature, surface winds"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "59406862-edd9-430a-ac76-c2b1661062b6"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "KPEA METAR",
+  "revision_id": "aaf58bd0-1bba-4fea-9d62-0ebb5c9d14bb"
+}

@@ -1,0 +1,238 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Ann Richard",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "richard.ann@epa.gov",
+  "num_tags": 9,
+  "id": "537a896f-6e30-43d3-a0ca-5b17342d92da",
+  "metadata_created": "2016-10-03T02:32:47.914545",
+  "metadata_modified": "2016-10-03T02:32:47.914545",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "537a896f-6e30-43d3-a0ca-5b17342d92da",
+      "webstore_last_updated": null,
+      "id": "45b447b7-a9b7-4ffa-907e-e5ce1aaf428e",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "ftp://newftp.epa.gov/COMPTOX/PUBLIC/NCCT_Publication_Data/ShahImran/Read_Across",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ftp://newftp.epa.gov/COMPTOX/PUBLIC/NCCT_Publication_Data/ShahImran/Read_Across",
+      "created": "2016-10-02T22:32:48.859485",
+      "url": "ftp://newftp.epa.gov/COMPTOX/PUBLIC/NCCT_Publication_Data/ShahImran/Read_Across",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "fd6c0501-e2c7-441c-82ed-849f28970a74",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "bioactivity",
+      "id": "f5de0036-a0d3-4c37-a494-720f73a850e7",
+      "name": "bioactivity"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "chemistry-dashboard",
+      "id": "191b7e40-7ec6-4836-ac49-f6858bb84ac2",
+      "name": "chemistry-dashboard"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "dsstox",
+      "id": "f7e0bed3-48f7-42c0-96a7-c91736f19fbf",
+      "name": "dsstox"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "human-health-risk-assessment",
+      "id": "d48cd041-bfa4-4dac-aaa6-c41eb44bfcb6",
+      "name": "human-health-risk-assessment"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "nearest-neighbors",
+      "id": "cbf25557-efe4-42af-9aad-2f8492737128",
+      "name": "nearest-neighbors"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "qsar",
+      "id": "ca0ce2db-9125-4b06-b169-b0db15f35d65",
+      "name": "qsar"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "read-across",
+      "id": "e11d137a-a24a-4da1-9f07-81a5e1bca2bd",
+      "name": "read-across"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "sustainable-chemistry",
+      "id": "57211e43-c4f7-4582-9bb3-c12a519500be",
+      "name": "sustainable-chemistry"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "toxcast",
+      "id": "69419417-2a9a-4b62-b6eb-7372f33a260b",
+      "name": "toxcast"
+    }
+  ],
+  "tracking_summary": {
+    "total": 1,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "Our mission is to protect human health and the environment. ",
+    "created": "2013-03-14T03:44:48.513616",
+    "title": "U.S. Environmental Protection Agency",
+    "name": "epa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://edg.epa.gov/EPALogo.svg",
+    "revision_id": "f0e4b475-7424-4ce0-9a22-412e7e595154",
+    "type": "organization",
+    "id": "6d90e48d-3076-4327-b2f4-c33919f374d5",
+    "approval_status": "approved"
+  },
+  "name": "systematically-evaluating-read-across-prediction-and-performance-using-a-local-validity-ap",
+  "isopen": true,
+  "url": null,
+  "notes": "Read-across is a popular data gap filling technique within category and analogue approaches for regulatory purposes. Acceptance of read-across remains an ongoing challenge with several efforts underway for identifying and addressing uncertainties. Here we demonstrate an algorithmic, automated approach to evaluate the utility of using in vitro bioactivity data (“bioactivity descriptors”, from EPA’s ToxCast program) in conjunction with chemical descriptor information to derive local validity domains (specific sets of nearest neighbors) to facilitate read-across for a number of in vivo repeated dose toxicity study types. Over 3400 different chemical structure descriptors were generated for a set of 976 chemicals and supplemented with the outcomes from 821 in vitro assays. The read-across prediction for a given chemical was based on the similarity weighted endpoint outcomes of its nearest neighbors. The approach enabled a performance baseline for read-across predictions of specific study outcomes to be established. Bioactivity descriptors were often found to be more predictive of in vivo toxicity outcomes than chemical descriptors or a combination of both. This generic read across (GenRA) is intended to form a first step in systemizing read-across prediction and serves as a useful tool as part of a screening level hazard assessment for new untested chemicals.\n\nThis dataset is associated with the following publication:\nShah , I., J. Liu , R.S. Judson , R.S. Thomas , and G. Patlewicz. (Reg. Tox. Pharm.) Systematically evaluating read-across prediction and performance using a local validity approach characterized by chemical structure and bioactivity information.   REGULATORY TOXICOLOGY AND PHARMACOLOGY. Elsevier Science Ltd, New York, NY, USA, 79: 12-24, (2016).",
+  "owner_org": "6d90e48d-3076-4327-b2f4-c33919f374d5",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "U.S. Environmental Protection Agency"
+    },
+    {
+      "key": "identifier",
+      "value": "A-6t1n-421"
+    },
+    {
+      "key": "license",
+      "value": "https://edg.epa.gov/EPA_Data_License.html"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "cf9b0004-f9fd-420e-bade-a86839e82acf"
+    },
+    {
+      "key": "rights",
+      "value": "https://pasteur.epa.gov/disclaimer/sciencehub-disclaimer-epa.html"
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "U.S. Government > U.S. Environmental Protection Agency"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2015-09-09"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "EPA ScienceHub"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "020:095"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "020:00"
+      ]
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://www.sciencedirect.com/science/article/pii/S0273230016301118",
+        "https://pasteur.epa.gov/uploads/A-6t1n/421/documents/RichardAnn_A-6t1n_QASum_20160929.docx"
+      ]
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "e828c873-c69a-4ea3-9cd7-ab854e7a6565"
+    },
+    {
+      "key": "source_hash",
+      "value": "50c7426c0982cc44a1275c22e85db3e7f01380ac"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "e828c873-c69a-4ea3-9cd7-ab854e7a6565"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "cf9b0004-f9fd-420e-bade-a86839e82acf"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "EPA ScienceHub"
+    }
+  ],
+  "title": "Systematically evaluating read-across prediction and performance using a local validity approach characterized by chemical structure and bioactivity information",
+  "revision_id": "fd6c0501-e2c7-441c-82ed-849f28970a74"
+}

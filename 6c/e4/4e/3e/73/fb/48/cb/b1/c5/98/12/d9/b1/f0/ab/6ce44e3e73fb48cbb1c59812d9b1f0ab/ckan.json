@@ -1,0 +1,210 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Health Data Initiative",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "MedicareProviderData@cms.hhs.gov",
+  "num_tags": 4,
+  "id": "6ce44e3e-73fb-48cb-b1c5-9812d9b1f0ab",
+  "metadata_created": "2016-01-23T14:26:37.182460",
+  "metadata_modified": "2016-10-07T14:54:33.385997",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "6ce44e3e-73fb-48cb-b1c5-9812d9b1f0ab",
+      "webstore_last_updated": null,
+      "id": "160ef798-3418-4ad3-bb02-74d2481c6eb2",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Part-D-Prescriber.html",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 7,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/unknown",
+      "cache_url": null,
+      "name": "html",
+      "created": "2016-08-19T04:21:54.277243",
+      "url": "http://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Part-D-Prescriber.html",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "c4384525-a954-4e14-bc30-161e240f16e1",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "covered-services",
+      "id": "059e5601-66fc-42cb-bd91-fcf1074a3861",
+      "name": "covered-services"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "medicare-advantage",
+      "id": "9ffc3c8d-2825-4ab1-8c2f-735a55f91773",
+      "name": "medicare-advantage"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "prescription-drug-plans",
+      "id": "533c380e-f395-4c8b-bd50-215dac8ac1f3",
+      "name": "prescription-drug-plans"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "publically-available-data-file--for-download",
+      "id": "41ba8100-745e-49cd-b46d-236ea0bb101f",
+      "name": "publically-available-data-file--for-download"
+    }
+  ],
+  "tracking_summary": {
+    "total": 52,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-08-26T15:35:30.958442",
+    "title": "U.S. Department of Health & Human Services",
+    "name": "hhs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.healthdata.gov/sites/all/themes/hdtheme/logo-dark.png",
+    "revision_id": "eff89d9e-dc00-4101-bbd4-750e1adcc5bb",
+    "type": "organization",
+    "id": "3609164c-4c49-4a44-9179-23163027dc0a",
+    "approval_status": "approved"
+  },
+  "name": "medicare-provider-data-part-d-prescriber-f4d4f",
+  "isopen": true,
+  "url": null,
+  "notes": "<p>As part of the Obama Administrations efforts to make our healthcare system more transparent, affordable, and accountable, the Centers for Medicare and Medicaid Services (CMS) has prepared a public data set, the Medicare Provider Utilization and Payment Data Part D Prescriber Public Use File (PUF), with information on prescription drugs prescribed by individual physicians and other health care providers and paid for under the Medicare Part D Prescription Drug Program. The Part D Prescriber PUF is based on information from CMSs Chronic Conditions Data Warehouse, which contains Prescription Drug Event records submitted by Medicare Advantage Prescription Drug (MAPD) plans and by stand-alone Prescription Drug Plans (PDP).  The dataset identifies providers by their National Provider Identifier (NPI) and the specific prescriptions that were dispensed at their direction, listed by brand name (if applicable) and generic name.  For each prescriber and drug, the dataset includes the total number of prescriptions that were dispensed, which include original prescriptions and any refills, and the total drug cost.  The total drug cost includes the ingredient cost of the medication, dispensing fees, sales tax, and any applicable administration fees and is based on the amount paid by the Part D plan, Medicare beneficiary, government subsidies, and any other third-party payers.</p>\n<p>Although the Part D Prescriber PUF has a wealth of information on payment and utilization for Medicare Part D prescriptions, the dataset has a number of limitations.  Of particular importance is the fact that the data may not be representative of a physicians entire practice or all of Medicare as it only includes information on beneficiaries enrolled in the Medicare Part D prescription drug program (i.e., approximately two-thirds of all Medicare beneficiaries).  In addition, the data are not intended to indicate the quality of care provided.  For additional limitations, please review the methodology document available below.</p>\n",
+  "owner_org": "3609164c-4c49-4a44-9179-23163027dc0a",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Centers for Medicare &amp; Medicaid Services"
+    },
+    {
+      "key": "identifier",
+      "value": "602"
+    },
+    {
+      "key": "license",
+      "value": "http://opendefinition.org/licenses/odc-odbl/"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "15c538b5-31a0-474e-8ba5-c85ee421cb4d"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "temporal",
+      "value": "2016-08-19T20:13:00-04:00/2016-08-19T20:14:00-04:00"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2016-08-19"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Healthdata.gov"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "language",
+      "value": [
+        "en"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "009:38"
+      ]
+    },
+    {
+      "key": "catalog_@id",
+      "value": "https://www.healthdata.gov/data.json"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "009:000"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "80990f9d-b97b-461e-ba93-8f46ca18f260"
+    },
+    {
+      "key": "source_hash",
+      "value": "3395e3b5e55ae2fec22ebb45579dc61e4c084153"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "80990f9d-b97b-461e-ba93-8f46ca18f260"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "15c538b5-31a0-474e-8ba5-c85ee421cb4d"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Healthdata.gov"
+    }
+  ],
+  "title": "Medicare Provider Data - Part D Prescriber",
+  "revision_id": "27b398fb-bd73-4674-9164-af28e398bbc1"
+}

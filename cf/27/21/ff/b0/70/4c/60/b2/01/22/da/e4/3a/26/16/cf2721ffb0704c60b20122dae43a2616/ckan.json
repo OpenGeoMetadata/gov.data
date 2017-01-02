@@ -1,0 +1,248 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "cf2721ff-b070-4c60-b201-22dae43a2616",
+  "metadata_created": "2016-10-15T18:08:05.038935",
+  "metadata_modified": "2016-10-15T18:08:05.038935",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "cf2721ff-b070-4c60-b201-22dae43a2616",
+      "webstore_last_updated": null,
+      "id": "27f78cc6-0210-4c7e-a4ff-586ba2508ebe",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "SLOSH_inundation.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "a5072363-124d-4b62-88d0-0fc4be2b18cd",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2016-10-15T14:08:05.445383",
+      "url": "https://edg.epa.gov/data/Public/R1/SLOSH_inundation.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "cf2721ff-b070-4c60-b201-22dae43a2616",
+      "webstore_last_updated": null,
+      "id": "d445c35a-efbc-4126-a167-f61f9aa6cf4b",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "a5072363-124d-4b62-88d0-0fc4be2b18cd",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Esri Rest API Endpoint",
+      "created": "2016-10-15T14:08:05.445425",
+      "url": "https://gispub.epa.gov/arcgis/rest/services/R1/SLOSH_NoSLR/MapServer",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "cf2721ff-b070-4c60-b201-22dae43a2616",
+      "webstore_last_updated": null,
+      "id": "9f8c31dc-d0cb-460a-8685-856db0cf7452",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "a5072363-124d-4b62-88d0-0fc4be2b18cd",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-15T14:08:05.445434",
+      "url": "https://epa.maps.arcgis.com/apps/MapJournal/index.html?appid=1ff4f1d28a254cb689334799d94b74e2",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 3,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "Our mission is to protect human health and the environment. ",
+    "created": "2013-03-14T03:44:48.513616",
+    "title": "U.S. Environmental Protection Agency",
+    "name": "epa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://edg.epa.gov/EPALogo.svg",
+    "revision_id": "f0e4b475-7424-4ce0-9a22-412e7e595154",
+    "type": "organization",
+    "id": "6d90e48d-3076-4327-b2f4-c33919f374d5",
+    "approval_status": "approved"
+  },
+  "name": "sea-lake-and-overland-surge-from-hurricanes-slosh-inundation-for-categories-2-and-4",
+  "isopen": false,
+  "url": null,
+  "notes": "The file geodatabase (fgdb) contains the Sea, Lake, and Overland Surge from Hurricanes (SLOSH) Maximum of Maximums (MOM) model for hurricane categories 2 and 4. The EPA Office of Research & Development (ORD) modified the original model from NOAA to fit the model parameters for the Buzzards Bay region. The models show storm surge extent for the Mattapoisett area and therefore the flooding area was reduced to the study area. Areas of flooding that were not connected to the main water body were removed. The files in the geodatabase are: Cat2_SLR0_Int_Feet_dissolve_Mattapoisett: Current Category 2 hurricane with 0 ft sea level rise Cat4_SLR0_Int_Feet_dissolve_Mattapoisett: Current Category 4 hurricane with 0 ft sea level rise Cat4_SLR4_Int_Feet_dissolve_Mattapoisett: Future Category 4 hurricane with 4 feet sea level rise The features support the Weather Ready Mattapoisett story map, which can be accessed via the following link: https://epa.maps.arcgis.com/apps/MapJournal/index.html?appid=1ff4f1d28a254cb689334799d94b74e2",
+  "owner_org": "6d90e48d-3076-4327-b2f4-c33919f374d5",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Environmental Protection Agency, Region 1\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "liponis.timothy@epa.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-70.847116"
+    },
+    {
+      "key": "metadata-date",
+      "value": "9999-01-01"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2016-10-13\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-70.785114"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "41.674610"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "41.633846"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although these data have been processed successfully on a computer system at the Environmental Protection Agency, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data to evaluate data set limitations, restrictions or intended use. The U.S. Environmental Protection Agency shall not be held liable for improper or incorrect use of the data described and/or contained herein.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-70.847116, 41.633846], [-70.785114, 41.633846], [-70.785114, 41.67461], [-70.847116, 41.67461], [-70.847116, 41.633846]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None. Please check sources, scale, accuracy, currency and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the EPA would be appreciated.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "ASNEEDED"
+    },
+    {
+      "key": "tags",
+      "value": "impact, water, climate, disaster, emergency, hazards, environment, drinking water, massachusetts, modeling, response, risk"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "4379e2fa-cf1e-4f95-b058-f904ff6ab4ae"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "d0d72986-7693-406b-b71d-840540909711"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Environmental Dataset Gateway FGDC CSDGM"
+    }
+  ],
+  "title": "Sea, Lake, and Overland Surge from Hurricanes (SLOSH) Inundation for Categories 2 and 4",
+  "revision_id": "a5072363-124d-4b62-88d0-0fc4be2b18cd"
+}

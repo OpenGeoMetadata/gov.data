@@ -1,0 +1,229 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "JOANNA JOINER, PH. D",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "Joanna.Joiner@nasa.gov",
+  "num_tags": 3,
+  "id": "6c1e8f0e-e048-4682-9f53-96074468a24d",
+  "metadata_created": "2015-07-08T20:52:35.318691",
+  "metadata_modified": "2016-05-06T08:08:02.641071",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "6c1e8f0e-e048-4682-9f53-96074468a24d",
+      "webstore_last_updated": null,
+      "id": "ff976b8b-e702-4dd2-923c-0e1005a17427",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "OMMYDCLD.003",
+      "format": "BIN",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/octet-stream",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-07-08T16:52:35.477129",
+      "url": "ftp://aurapar2u.ecs.nasa.gov/data/s4pa/Aura_OMI_Level2/OMMYDCLD.003/",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "74df28ba-a3f4-477e-820f-fc4ea2b82e96",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "atmosphere",
+      "id": "104e93c2-cbec-435b-b3ba-0d6385114d41",
+      "name": "atmosphere"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "clouds",
+      "id": "62fdab6c-a596-4390-8b5e-36252fa7921b",
+      "name": "clouds"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "earth-science",
+      "id": "f28006f8-df78-4700-b72f-f4a19628ba67",
+      "name": "earth-science"
+    }
+  ],
+  "tracking_summary": {
+    "total": 3,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "omi-aura-and-modis-aqua-merged-cloud-product-1-orbit-l2-swath-13x24-km-v003",
+  "isopen": true,
+  "url": null,
+  "notes": "The OMI/Aura and MODIS/Aqua Merged Cloud Product 1-Orbit L2 Swath 13x24 km\n(OMMYDCLD) is a Level-2 orbital product that combines cloud parameters retrieved by the Ozone Mapping Instrument (OMI) on the Aura satellite with collocated statistical information for cloud parameters retrieved by the Moderate Resolution Imaging Spectrometer (MODIS) on the Aqua spacecraft. This product is designed to take advantage of the synergy between OMI and MODIS, which both fly on satellites in the NASA A-Train constellation of Earth-observing satellites that follow similar orbital tracks and collect near-simultaneous observations. This product can be used for cloud-clearing, detection of multi-layered clouds, and other applications that may exploit these multi-spectral measurements.              \n\nThe algorithm for the OMMYDCLD product co-locates daytime cloud parameters from MODIS onto the OMI visible (VIS) pixel for a given OMI orbit and generates statistical information from the collocated MODIS pixels. For each OMI granule, the orbit start and end times are used to select the corresponding 5-minute MODIS granules for processing. A contiguous list of MODIS granules spanning the full duration of the OMI orbit are selected based on the relative time lag between Aqua and Aura. The algorithm lead for this product is NASA OMI scientist Dr. Joanna Joiner.\n\nOMMYDCLD data files are stored in the EOS Hierarchical Data Format (HDF-EOS5) using the swath model, and follows the same conventions used by the other OMI Level-2 data products. Each file contains data from the day lit portion of an orbit (about 53 minutes). There are approximately 14 orbits per day. The file size for the OMMYDCLD data product is about 8 Mbytes.\n\n\nData Category Parameters:\n      \nThe OMMYDCLD data file contains one swath which consists of two groups:\n      \nData fields:\n  Effective Cloud Fraction and Cloud Top Pressures and MODIS histogram statistics and many Auxiliary Algorithm Parameter and Quality Flags.\n      \n  Geolocation Fields:\n  Latitude, Longitude, Time, Solar Zenith Angle, Viewing\n  Zenith Angle, Relative Azimuth Angle, Terrain Height, and Ground Pixel\n  Quality Flags.",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "collection_metadata",
+      "value": "true"
+    },
+    {
+      "key": "issued",
+      "value": "2014-12-10T00:00:00.000Z"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "f26b170a87310f21c387af305fb94096e1a50510"
+    },
+    {
+      "key": "temporal",
+      "value": "R/2004-10-01T00:00:00Z/P1Y"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "geospatial"
+      ]
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:001"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "e9ecc781-2bdc-4240-a01d-0d92cfed3558"
+    },
+    {
+      "key": "publisher",
+      "value": "GESDISC"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "55942ab3c63a7fe59b49a561"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "U.S. Government > National Aeronautics and Space Administration > GESDISC"
+    },
+    {
+      "key": "modified",
+      "value": "2015-06-04T00:00:00.000Z"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "C215242136-GSFCS4PA"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "e9ecc781-2bdc-4240-a01d-0d92cfed3558"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "OMI/Aura and MODIS/Aqua Merged Cloud Product 1-Orbit L2 Swath 13x24 km V003",
+  "revision_id": "74df28ba-a3f4-477e-820f-fc4ea2b82e96"
+}

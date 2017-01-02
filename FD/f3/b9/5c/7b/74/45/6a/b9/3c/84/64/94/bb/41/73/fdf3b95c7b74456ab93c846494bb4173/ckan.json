@@ -1,0 +1,239 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Jonathan Kawamura",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "jonathan.h.kawamura@jpl.nasa.gov",
+  "num_tags": 4,
+  "id": "fdf3b95c-7b74-456a-b93c-846494bb4173",
+  "metadata_created": "2015-04-09T18:58:18.931584",
+  "metadata_modified": "2015-07-08T19:31:06.468271",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "fdf3b95c-7b74-456a-b93c-846494bb4173",
+      "webstore_last_updated": null,
+      "id": "6e401ffb-b73a-47c9-a2d8-c8529680a237",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "XML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/xml",
+      "cache_url": null,
+      "name": "XML File",
+      "created": "2015-04-09T14:58:19.090933",
+      "url": "http://techport.nasa.gov/xml-api/16828",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "a147d524-bf03-47d2-b1eb-2aa7e9adc9c1",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "active",
+      "id": "e48100ef-ebfc-4859-8e8a-91a0f5feaae6",
+      "name": "active"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "chai",
+      "id": "a6705a1a-983f-47c7-a8db-50fdff1a914d",
+      "name": "chai"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "jet-propulsion-laboratory",
+      "id": "90e37fea-eb8b-469e-a368-229c255aa44f",
+      "name": "jet-propulsion-laboratory"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "project",
+      "id": "24471320-3e5c-42b5-a078-8e48e70e2ac4",
+      "name": "project"
+    }
+  ],
+  "tracking_summary": {
+    "total": 10,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "ccat-heterodyne-instrument-development-project",
+  "isopen": true,
+  "url": null,
+  "notes": "&lt;p&gt;A key challenge in building a large pixel heterodyne array is efficiently and simultaneously delivering the astronomical signal and local oscillator power to each pixel and conveying the output signal from each pixel. When an array is conceived simply by tightly stacking individual receivers, which is the favored approach for high performance arrays, we soon encounter practical topological difficulties in getting the signals in and out: For CHAI there are 128 rf/local oscillator ports, IF signal outputs, mixer bias supply lines in a unit that is no bigger than 4 inches on a side. The key to our approach is to develop a highly integrated LO distribution network and build it into the array.&amp;nbsp; Many mixer elements are thus pumped by a single source, although the resistive losses in the waveguide hampers the approach for large number of pixels. Second, we will investigate the use of the microwave ribbon cables to draw the signal from the mixer block. Although coaxial cables are used in coherent receiver systems, even small diameter semirigid cables become unwieldy when a small number is involved. The ribbon will convey the signal to the low-noise amplifier array. Several variations of the overall architecture will be evaluated: the differences between single-ended and balanced mixer approaches for a practical instrument will be investigated. While the SUPERCAM instrument has a high degree of integration with the LNA array, the LO and rf beams are still diplexed using a beam splitter approach. Most of the volume of the instrument (~1 cu meter) is simply space occupied by the quasioptical coupling scheme. A more integrated LO subsubsystem could drastically reduce the required volume. In addition, SUPERCAM uses 64 stainless steel coaxial lines to convey the signal from the front-end to the outside. This adds substantial requirements on the cryogenic system and mechanically stresses the focal plane. A ribbon cable to convey the signal from the mixer array to the LNA array and from the LNA array to the outside world is thus a much more elegant approach for implementing a high-pixel count heterodyne array.&lt;br /&gt;&lt;br /&gt;After the overall concept design is complete, various subsystems will be evaluated in an affordable manner. (1) For the LO distribution network, the plan is to design, fabricate and evaluate small cells of the LO distribution network operating at various frequencies to establish their feasibility. For a THz distribution network, for example, the final diode would have to be placed next to the mixer, as the high waveguide losses will not allow any significant path lengths. (2) Depending on the application the LNA array may be incorporated into the mixer array (aircraft/ground-based instrument) or be kept at a different thermal environment from the mixer (balloon or space-based instrument). These two different configurations will obviously entail different designs for the integrated heterodyne array. CHAI can potentially use either approach, and for reasons of ease of testing the latter is currently preferred. Approaches to implementing both types will be developed and described. (3) The IF is conveyed from the IF amplifiers (and possibly to them as well) by microwave flexible cables, and although this technology is not novel, their use in an astronomical heterodyne receiver has not been demonstrated. Samples would be designed, procured, and measured in the relevant environment and evaluated for loss, cross talk and survivability through multiple deep cryogenic cycles.&lt;/p&gt;",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "issued",
+      "value": "2013-10-01T00:00:00Z"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://techport.nasa.gov/home",
+        "http://techport.nasa.gov/doc/home/TechPort_Advanced_Search.pdf",
+        "http://techport.nasa.gov/fetchFile?objectId=6561",
+        "http://techport.nasa.gov/fetchFile?objectId=3456",
+        "http://techport.nasa.gov/fetchFile?objectId=3447",
+        "http://techport.nasa.gov/fetchFile?objectId=6584",
+        "http://techport.nasa.gov/fetchFile?objectId=6560",
+        "http://techport.nasa.gov/fetchFile?objectId=3448"
+      ]
+    },
+    {
+      "key": "source_hash",
+      "value": "10a98e755efd5b123fb3aca62f8cf4fe364c1492"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "temporal",
+      "value": "2013-10-01T00:00:00Z/2014-10-01T00:00:00Z"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://techport.nasa.gov/view/16828"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "406d11e4-fac8-4ae5-8ced-be5acb571c18"
+    },
+    {
+      "key": "publisher",
+      "value": "N/A"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "55942a8bc63a7fe59b498498"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "National Aeronautics and Space Administration > N/A"
+    },
+    {
+      "key": "modified",
+      "value": "2015-03-12"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "TECHPORT_16828"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "406d11e4-fac8-4ae5-8ced-be5acb571c18"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "CCAT Heterodyne Instrument Development Project",
+  "revision_id": "ba91adc1-9660-4c0e-8687-2a67a8773fce"
+}

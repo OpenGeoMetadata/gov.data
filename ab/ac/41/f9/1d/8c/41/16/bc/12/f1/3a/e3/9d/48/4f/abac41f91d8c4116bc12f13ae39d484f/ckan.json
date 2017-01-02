@@ -1,0 +1,215 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "abac41f9-1d8c-4116-bc12-f13ae39d484f",
+  "metadata_created": "2013-03-15T23:37:43.512816",
+  "metadata_modified": "2015-04-09T21:50:24.415532",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "abac41f9-1d8c-4116-bc12-f13ae39d484f",
+      "webstore_last_updated": null,
+      "id": "092f9d92-045b-4fed-8e98-42f7f1e9c92b",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "375",
+      "hash": "",
+      "description": "geothermalfluidproductionobservation1.0.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Zipped Excel workbook for Geothermal Fluid Production Observation1.0",
+      "created": "2013-03-16T00:37:43.530775",
+      "url": "http://repository.stategeothermaldata.org/metadata/record/9e15e1a59b768b330d029e86dc0185fc/file/geothermalfluidproductionobservation1.0.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "8899017c-f591-49cb-b61d-28286c03085e",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "abac41f9-1d8c-4116-bc12-f13ae39d484f",
+      "webstore_last_updated": null,
+      "id": "81f4f9b4-bd13-40db-b547-f358c16d4b79",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "375",
+      "hash": "",
+      "description": "fluidproductionobservation0.1.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Zipped Excel workbook for Fluid Production Observation content model v0.1 (superseded )",
+      "created": "2013-03-16T00:37:43.530795",
+      "url": "http://repository.stategeothermaldata.org/metadata/record/9e15e1a59b768b330d029e86dc0185fc/file/fluidproductionobservation0.1.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "8899017c-f591-49cb-b61d-28286c03085e",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 13,
+    "recent": 1
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The Arizona Geological Survey collates and serves geological information for Arizona and other states through its partnership with other state geological surveys.",
+    "created": "2013-03-14T03:44:43.328493",
+    "title": "Arizona Geological Survey",
+    "name": "azgs-az-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.50states.com/flag/image/nunst004.gif",
+    "revision_id": "61be6428-4398-4199-a336-f3cd1e956f9b",
+    "type": "organization",
+    "id": "f3f6e1d4-64fb-4a2f-b32c-9ac0b76fe4de",
+    "approval_status": "approved"
+  },
+  "name": "aasg-geothermal-data-geothermal-fluid-production-observation-content-model",
+  "isopen": false,
+  "url": null,
+  "notes": "This workbook documents a content model for exchange of information about fluid fluxes into or out of a geothermal well. A generic  model is intended to allow for oil, gas, or water fluid transfer. Oil and gas facilities may include of-shore platforms, whereas water facilities may include geothermal power plants. Because of the wide variety of possible flow measurements (commodities, aggregation type), the model adopts a thin approach, which may result in many records being returned for a single well. Thus most data about the well is linked through the HeaderURI instead of included inline to keep the redundant data volume down.",
+  "owner_org": "f3f6e1d4-64fb-4a2f-b32c-9ac0b76fe4de",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"AZGS\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "christy.caudill@azgs.az.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-127.74526834488"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2013-02-27T16:42:22Z"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2012-10-17T00:00:00\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-69.034330844879"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "52.080442284176"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "21.331734200227"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-127.745268345, 21.3317342002], [-127.745268345, 52.0804422842], [-69.0343308449, 52.0804422842], [-69.0343308449, 21.3317342002], [-127.745268345, 21.3317342002]]]}"
+    },
+    {
+      "key": "guid",
+      "value": "9e15e1a59b768b330d029e86dc0185fc"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "Geothermal, Wells, AASG, North America, templates, content models, AASG Geothermal Data Project, Downloadable Files"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "a5e0765c-f240-41b5-9828-6f6b3f013ff0"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "f800beb8-4923-4e88-910f-1c6cf0078598"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "AASG geothermal data CSW"
+    }
+  ],
+  "title": "AASG Geothermal Data: Geothermal Fluid Production Observation Content Model",
+  "revision_id": "0fdf3965-6ae5-4642-974f-b9d60d92f1ff"
+}

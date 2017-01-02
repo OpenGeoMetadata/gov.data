@@ -1,0 +1,195 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "ff38a7e6-5eed-4c25-8ec8-e7345f675774",
+  "metadata_created": "2013-06-12T18:01:08.315831",
+  "metadata_modified": "2015-04-09T23:34:19.422364",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "ff38a7e6-5eed-4c25-8ec8-e7345f675774",
+      "webstore_last_updated": null,
+      "id": "6f60b8fe-a9f5-4392-b01a-a0d3438a54cb",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "index.html",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 38,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "d88889db-2e48-48bb-8a38-04f0539d3252",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-05-02T16:06:42.341701",
+      "url": "http://www.dnr.state.mn.us/maps/mntopo/index.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 13,
+    "recent": 0
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:47.372413",
+    "title": "State of Minnesota",
+    "name": "state-mn-us",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://mn.gov/portal/images/mn_header_mn-logo.png",
+    "revision_id": "018d8409-7698-467f-8dc2-c58188806480",
+    "type": "organization",
+    "id": "24298fe4-ee0d-43ae-af51-81ae5f5c6165",
+    "approval_status": "approved"
+  },
+  "name": "lidar-elevation-crow-wing-county-minnesota-2008",
+  "isopen": false,
+  "url": null,
+  "notes": "The LiDAR data for Crow Wing County was collected under contract by the county. Thus, the data format is not entirely consistent with some of the other LiDAR data collected by the State of Minnesota. Specifically, the Crow Wing County collect required classification of only Bare Earth in the LiDAR LAS files, so there is no information on buildings, vegetation, or model key points. Breaklines captured as part of this effort are also a bit different. In Crow Wing County the breaklines are 3D Polyline features rather than 3D Polygon features. They also include road centerlines, stream courses and other features that are not part of the Statewide collect specifications. However, the breaklines do not have z-values associated with them so the DEMs have not been hydro-flattened. Note: This metadata record was created at the Minnesota Geospatial Information Office by combining information supplied by Merrick & Company, Crow Wing County, and the Minnesota Department of Natural Resources.",
+  "owner_org": "24298fe4-ee0d-43ae-af51-81ae5f5c6165",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Merrick & Company\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "doug.jacoby@merrick.com"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-94.396394"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2014-04-29"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2008-02-05\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-93.794358"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "46.350879"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "46.153896"
+    },
+    {
+      "key": "licence",
+      "value": "[\"1. Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html\\n\\n2. MnGeo's data disclaimer is online: http://www.mngeo.state.mn.us/chouse/disclaimer.html\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-94.396394, 46.153896], [-93.794358, 46.153896], [-93.794358, 46.350879], [-94.396394, 46.350879], [-94.396394, 46.153896]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: See Disclaimer field for complete use conditions.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "unknown"
+    },
+    {
+      "key": "tags",
+      "value": ""
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "7c9b7d3d-f2be-4423-98ba-c348d8b74535"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "526b774b-2dbe-4b61-91f5-8e3e020b9bce"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Minnesota Geospatial Information Office"
+    }
+  ],
+  "title": "LiDAR Elevation, Crow Wing County, Minnesota, 2008",
+  "revision_id": "1eeda35b-b378-42c9-b907-6b1ca2485692"
+}

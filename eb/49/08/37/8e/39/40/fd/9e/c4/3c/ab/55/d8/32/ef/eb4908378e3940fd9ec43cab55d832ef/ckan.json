@@ -1,0 +1,787 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "eb490837-8e39-40fd-9ec4-3cab55d832ef",
+  "metadata_created": "2015-09-26T22:11:53.377240",
+  "metadata_modified": "2016-09-12T23:18:12.081474",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "eb490837-8e39-40fd-9ec4-3cab55d832ef",
+      "webstore_last_updated": null,
+      "id": "bf405964-ecfe-4e49-b9c7-5f5f2ef3b31a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Navigate directly to the URL for data access and direct download.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "HTTP",
+      "created": "2016-09-12T19:18:12.444792",
+      "url": "https://data.nodc.noaa.gov/ndbc/tao-buoy/2013/10/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "ba4506ea-8931-4422-93d9-a07eb2fb751c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "eb490837-8e39-40fd-9ec4-3cab55d832ef",
+      "webstore_last_updated": null,
+      "id": "e05e5b0b-bec0-4c2e-b3cc-7ccd549da501",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Navigate directly to the URL for a descriptive web page with download links.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Descriptive Information",
+      "created": "2016-09-12T19:18:12.444816",
+      "url": "https://accession.nodc.noaa.gov/0114238",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "ba4506ea-8931-4422-93d9-a07eb2fb751c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "eb490837-8e39-40fd-9ec4-3cab55d832ef",
+      "webstore_last_updated": null,
+      "id": "21c78920-9d2d-476a-ae69-25da4d8b93ab",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "These data are available through a variety of services via a THREDDS (Thematic Real-time Environmental Distributed Data Services) Data Server (TDS). Depending on the dataset, the TDS can provide WMS, WCS, DAP, HTTP, and other data access and metadata services as well. For more information on the TDS, see http://www.unidata.ucar.edu/software/thredds/current/tds/.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "THREDDS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "THREDDS",
+      "created": "2016-09-12T19:18:12.444825",
+      "url": "https://data.nodc.noaa.gov/thredds/catalog/ndbc/tao-buoy/2013/10/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "ba4506ea-8931-4422-93d9-a07eb2fb751c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "eb490837-8e39-40fd-9ec4-3cab55d832ef",
+      "webstore_last_updated": null,
+      "id": "ffc166f1-6033-46a3-acae-1aee72f54448",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "These data are available through the Data Access Protocol (DAP) via an OPeNDAP Hyrax server. For a listing of OPeNDAP clients which may be used to access OPeNDAP-enabled data sets, please see the OPeNDAP website at http://opendap.org/.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "DAP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OPeNDAP",
+      "created": "2016-09-12T19:18:12.444833",
+      "url": "https://data.nodc.noaa.gov/opendap/ndbc/tao-buoy/2013/10/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 3,
+      "revision_id": "ba4506ea-8931-4422-93d9-a07eb2fb751c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "eb490837-8e39-40fd-9ec4-3cab55d832ef",
+      "webstore_last_updated": null,
+      "id": "35d97d64-d3d2-4b31-a928-eae46ebff26e",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Navigate directly to the URL for a descriptive web page with download links.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Descriptive Information",
+      "created": "2016-09-12T19:18:12.444840",
+      "url": "https://accession.nodc.noaa.gov/oas/114238",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 4,
+      "revision_id": "ba4506ea-8931-4422-93d9-a07eb2fb751c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "eb490837-8e39-40fd-9ec4-3cab55d832ef",
+      "webstore_last_updated": null,
+      "id": "0bd33257-93ec-45f0-936b-ac48ca98363b",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Navigate directly to the URL for data access and direct download.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "HTTP",
+      "created": "2016-09-12T19:18:12.444848",
+      "url": "https://accession.nodc.noaa.gov/download/114238",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 5,
+      "revision_id": "ba4506ea-8931-4422-93d9-a07eb2fb751c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "eb490837-8e39-40fd-9ec4-3cab55d832ef",
+      "webstore_last_updated": null,
+      "id": "01db12e0-13bb-41f1-9adf-778ca889ee07",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "These data are available through the File Transfer Protocol (FTP). You may use any FTP client to download these data.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "FTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FTP",
+      "created": "2016-09-12T19:18:12.444855",
+      "url": "ftp://ftp.nodc.noaa.gov/nodc/archive/arc0062/0114238/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 6,
+      "revision_id": "ba4506ea-8931-4422-93d9-a07eb2fb751c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "eb490837-8e39-40fd-9ec4-3cab55d832ef",
+      "webstore_last_updated": null,
+      "id": "12b8ed00-67ef-4620-86f0-806f6607bdea",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Main NCEI website providing links to access data and data services.",
+      "format": "",
+      "tracking_summary": {
+        "total": 51,
+        "recent": 8
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA National Centers for Environmental Information website",
+      "created": "2016-09-12T19:18:12.444863",
+      "url": "https://www.ncei.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 7,
+      "revision_id": "ba4506ea-8931-4422-93d9-a07eb2fb751c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "eb490837-8e39-40fd-9ec4-3cab55d832ef",
+      "webstore_last_updated": null,
+      "id": "6a8ee6a8-547b-4467-92d4-4abce12f837d",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Main NODC website providing links to access data and data services.",
+      "format": "",
+      "tracking_summary": {
+        "total": 7,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA National Oceanographic Data Center website",
+      "created": "2016-09-12T19:18:12.444871",
+      "url": "https://www.nodc.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 8,
+      "revision_id": "ba4506ea-8931-4422-93d9-a07eb2fb751c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "eb490837-8e39-40fd-9ec4-3cab55d832ef",
+      "webstore_last_updated": null,
+      "id": "7453e773-1be1-45e9-b9ad-6e0c8d7e1d91",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Institution web page",
+      "format": "",
+      "tracking_summary": {
+        "total": 5,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "US DOC; NOAA; NWS; National Data Buoy Center (NDBC) website",
+      "created": "2016-09-12T19:18:12.444878",
+      "url": "http://www.ndbc.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 9,
+      "revision_id": "ba4506ea-8931-4422-93d9-a07eb2fb751c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "eb490837-8e39-40fd-9ec4-3cab55d832ef",
+      "webstore_last_updated": null,
+      "id": "7e53541c-92c3-487f-95eb-283390c0b65d",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Institution web page",
+      "format": "",
+      "tracking_summary": {
+        "total": 5,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "US DOC; NOAA; NWS; National Data Buoy Center (NDBC) website",
+      "created": "2016-09-12T19:18:12.444885",
+      "url": "http://www.ndbc.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 10,
+      "revision_id": "ba4506ea-8931-4422-93d9-a07eb2fb751c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "eb490837-8e39-40fd-9ec4-3cab55d832ef",
+      "webstore_last_updated": null,
+      "id": "2e946d8e-1c73-4e7b-b144-940b83a3f5dd",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Main NCEI website providing links to access data and data services.",
+      "format": "",
+      "tracking_summary": {
+        "total": 51,
+        "recent": 8
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA National Centers for Environmental Information website",
+      "created": "2016-09-12T19:18:12.444893",
+      "url": "https://www.ncei.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 11,
+      "revision_id": "ba4506ea-8931-4422-93d9-a07eb2fb751c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "eb490837-8e39-40fd-9ec4-3cab55d832ef",
+      "webstore_last_updated": null,
+      "id": "d06f80c1-74e1-47f9-aad7-1915aa0daff4",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-09-12T19:18:12.444900",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 12,
+      "revision_id": "ba4506ea-8931-4422-93d9-a07eb2fb751c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "eb490837-8e39-40fd-9ec4-3cab55d832ef",
+      "webstore_last_updated": null,
+      "id": "0c356da4-1ed2-4795-8a2c-dd40f8506b63",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-09-12T19:18:12.444907",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 13,
+      "revision_id": "ba4506ea-8931-4422-93d9-a07eb2fb751c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "eb490837-8e39-40fd-9ec4-3cab55d832ef",
+      "webstore_last_updated": null,
+      "id": "789d4346-8801-4dcc-92e9-41c8a41bb488",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-09-12T19:18:12.444915",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 14,
+      "revision_id": "ba4506ea-8931-4422-93d9-a07eb2fb751c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "eb490837-8e39-40fd-9ec4-3cab55d832ef",
+      "webstore_last_updated": null,
+      "id": "10967eae-1ba8-4a81-ac18-c96698091dff",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-09-12T19:18:12.444922",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 15,
+      "revision_id": "ba4506ea-8931-4422-93d9-a07eb2fb751c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "eb490837-8e39-40fd-9ec4-3cab55d832ef",
+      "webstore_last_updated": null,
+      "id": "0868860a-c284-4128-80fe-7b3a172cb068",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-09-12T19:18:12.444930",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 16,
+      "revision_id": "ba4506ea-8931-4422-93d9-a07eb2fb751c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "eb490837-8e39-40fd-9ec4-3cab55d832ef",
+      "webstore_last_updated": null,
+      "id": "7cd628a9-76eb-4121-8334-4c0f9835dd1c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "NCEI Accession 0088104",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NCEI Accession 0088104",
+      "created": "2016-09-12T19:18:12.444937",
+      "url": "https://accession.nodc.noaa.gov/0088104",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 17,
+      "revision_id": "ba4506ea-8931-4422-93d9-a07eb2fb751c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "eb490837-8e39-40fd-9ec4-3cab55d832ef",
+      "webstore_last_updated": null,
+      "id": "7cfac0e7-2a91-44da-a651-ee3cf1186b08",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Institution web page",
+      "format": "",
+      "tracking_summary": {
+        "total": 5,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "US DOC; NOAA; NWS; National Data Buoy Center (NDBC) website",
+      "created": "2016-09-12T19:18:12.444962",
+      "url": "http://www.ndbc.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 18,
+      "revision_id": "ba4506ea-8931-4422-93d9-a07eb2fb751c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "eb490837-8e39-40fd-9ec4-3cab55d832ef",
+      "webstore_last_updated": null,
+      "id": "17956dfd-aed4-4791-ad7a-514ba1a64539",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "NODC Accession 0088104",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NODC Accession 0088104",
+      "created": "2016-09-12T19:18:12.444973",
+      "url": "https://accession.nodc.noaa.gov/0088104",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 19,
+      "revision_id": "ba4506ea-8931-4422-93d9-a07eb2fb751c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "eb490837-8e39-40fd-9ec4-3cab55d832ef",
+      "webstore_last_updated": null,
+      "id": "515e936b-f113-41b7-9bb7-a97b60f125f0",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Institution web page",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OceanSITES website",
+      "created": "2016-09-12T19:18:12.444980",
+      "url": "http://www.oceansites.org/index.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 20,
+      "revision_id": "ba4506ea-8931-4422-93d9-a07eb2fb751c",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 21,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 2,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "physical-and-meteorological-data-from-the-tropical-atmosphere-ocean-tao-array-in-the-tropical-pcdd3d",
+  "isopen": false,
+  "url": null,
+  "notes": "The Tropical Atmosphere Ocean (TAO) Array of 55 moored buoys spans the tropical Pacific from longitudes 165Â°E to 95Â°W between latitudes of approximately 8Â°S and 9Â°N. Moorings within the array measure surface meteorological and upper-ocean parameters and transmit most data in real time to shore via Service Argos. The array was part of the in-situ measurement portion of the Tropical Ocean-Global Atmosphere (TOGA) Program, a 10-year (1985 - 1994) study of climate variability on seasonal to interannual time scales, the most pronounced mode of which is the El NiÃ±o/Southern Oscillation (ENSO) phenomenon (McPhaden, 1993).",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-94.898"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "8.058"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "PNG"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.nodc:0114238"
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "https://data.nodc.noaa.gov/cgi-bin/gfx?id=gov.noaa.nodc:0114238"
+    },
+    {
+      "key": "metadata-language",
+      "value": "eng"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[165.0, -8.0], [-94.898, -8.0], [-94.898, 8.058], [165.0, 8.058], [165.0, -8.0]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Cite as: Petraitis, D. and US DOC; NOAA; NWS; National Data Buoy Center (2014). Physical and meteorological data from the Tropical Atmosphere Ocean (TAO) array in the tropical Pacific Ocean during October 2013 (NODC Accession 0114238). Version 2.2. National Oceanographic Data Center, NOAA. Dataset. [access date]\", \"NOAA and NCEI cannot provide any warranty as to the accuracy, reliability, or completeness of furnished data. Users assume responsibility to determine the usability of these data. The user is responsible for the results of any application of this data for other than its intended purpose.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2013-10-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "NCEI.Info@noaa.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "165"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-08-31T18:37:07"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2013-11-06\"}, {\"type\": \"revision\", \"value\": \"2014-02-07\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "Preview graphic"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"accessLevel: Public\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2013-10-31"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "-8"
+    },
+    {
+      "key": "tags",
+      "value": "atmosphere, south pacific ocean, pacific ocean, noaa, ocean circulation, shortwave pyranometer [eppley laboratory/psp], t2s140w, atmospheric radiation, wind_to_direction, eastward_sea_water_velocity, latitude, humidity-temperature capacitance [rotronics/mp100], oceans, t8n110w, surface winds, adcp, argos transmitter, precipitation, wind_speed, upward_sea_water_velocity, t8n95w, pressure transducer [paroscientific/met1-2], humidity, atmospheric water vapor, t5n170w, t5n125w, conductivity, temperature, depth, air_temperature, conductivity, profilers/sounders, earth remote sensing instruments, surface_downwelling_longwave_flux_in_air, thermal/radiation detectors, doc/noaa/nws/ndbc, acoustic sounders, rainfall_rate, humidity-temperature pt100 rtd [rotronics/mp100], water temperature, t8n125w, atmospheric winds, longwave pyrgeometer [eppley laboratory/pir], ctd, relative_humidity, t2s95w, ocean temperature, thermistor conductivity cell [seabird/sbe 37], doc/noaa/nesdis/ncei, wind propeller [r.m. young/05103], national oceanographic data center, nesdis, noaa, u.s. department of commerce, earth science, oceanography, atmospheric pressure, in situ/laboratory instruments, precipitation rate, wind speed/wind direction, government agencies-u.s. federal agencies, atmospheric temperature, rainfall capacitance [r. m. young/50203], national data buoy center, national weather service, noaa, u.s. department of commerce, t8s110w, sea_water_salinity, sea_water_pressure, ocean currents, northward_sea_water_velocity, acoustic doppler current profiler, dopper current meter [sontek/argonaut-md], t0n110w, passive remote sensing, salinity/density, doc/noaa/nesdis/nodc, longitude, north pacific ocean, hydrostatic pressure, sea_water_electrical_conductivity, surface_downwelling_shortwave_flux_in_air, http://www.ndbc.noaa.gov/, t8s165e, t5s165e, ocean, wind vane [r.m. young/05103], air_pressure_at_sea_level, thermistor [seabird/sbe 37/39im], national centers for environmental information, nesdis, noaa, u.s. department of commerce, incoming solar radiation, pressure transducer [paine 211-30-660-01], doc, salinity, depth, time, sea_water_temperature, pyranometers"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "189d51eb-f333-4be2-bf7b-fe7c2db47286"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Physical and meteorological data from the Tropical Atmosphere Ocean (TAO) array in the tropical Pacific Ocean during October 2013 (NODC Accession 0114238)",
+  "revision_id": "3b5eac0b-4951-4c8b-9371-7a482fecc674"
+}

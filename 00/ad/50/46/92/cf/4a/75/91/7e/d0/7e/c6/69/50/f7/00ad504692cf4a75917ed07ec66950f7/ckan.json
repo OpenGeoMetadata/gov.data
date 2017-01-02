@@ -1,0 +1,248 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Thomas O'Brian",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "thomas.obrian@nist.gov",
+  "num_tags": 5,
+  "id": "00ad5046-92cf-4a75-917e-d07ec66950f7",
+  "metadata_created": "2016-02-26T14:16:55.382568",
+  "metadata_modified": "2016-02-26T18:44:13.659272",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "describedByType": "text/plain",
+      "package_id": "00ad5046-92cf-4a75-917e-d07ec66950f7",
+      "webstore_last_updated": null,
+      "id": "23493810-9707-4e4d-9e15-daa9c31b6c6e",
+      "size": null,
+      "state": "active",
+      "describedBy": "http://www.nist.gov/pml/div688/grp40/its.cfm",
+      "accessURL": "http://www.nist.gov/pml/div688/grp40/its.cfm",
+      "hash": "",
+      "description": "Estimate of current NIST official time, UTC (NIST), distributed freely and anonymously over the Internet using NTP and other data protocols",
+      "format": "Data packet using IP",
+      "tracking_summary": {
+        "total": 21,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "mimetype": "text/plain",
+      "cache_url": null,
+      "name": "NIST Internet Time Service",
+      "created": "2016-02-26T09:16:55.689000",
+      "url": "http://www.nist.gov/pml/div688/grp40/upload/nistime-32bit.exe",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "cd975059-8a99-4902-8013-1154d085d568",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "coordinated-universal-time",
+      "id": "fa618dd3-3ca3-4306-8148-14b27683e994",
+      "name": "coordinated-universal-time"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "internet",
+      "id": "ea790846-ba2b-456d-b58d-726463e6565a",
+      "name": "internet"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "internet-time-service",
+      "id": "063b84fa-ef13-4e8c-ad7f-f2d27a529361",
+      "name": "internet-time-service"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "time",
+      "id": "a55864a0-a635-4e98-b655-33f13fe1831c",
+      "name": "time"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "utc",
+      "id": "67363665-e230-4cf3-bc30-ad3bfba76ee4",
+      "name": "utc"
+    }
+  ],
+  "tracking_summary": {
+    "total": 157,
+    "recent": 9
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:37:59.153068",
+    "title": "Department of Commerce",
+    "name": "doc-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.vos.noaa.gov/MWL/aug_10/Images/doc_logo_xparent.png",
+    "revision_id": "44c851b9-8872-497a-8a13-2f06740b7ffb",
+    "type": "organization",
+    "id": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+    "approval_status": "approved"
+  },
+  "name": "nist-internet-time-service",
+  "isopen": true,
+  "url": null,
+  "notes": "Distributes NIST estimate of official U.S. time over the Internet in real time, using Network Time Protocol (NTP) and other time data formats to automatically synchronize clocks in computers and network devices to official U.S. time as realized by NIST several billions of times per day. This official U.S. time is the NIST estimate of Coordinated Universal Time (UTC), and called UTC(NIST). The accuracy of UTC(NIST) as distributed through the Internet Time Service (ITS) is on the order of 0.001 seconds (one millisecond), although accuracy can vary depending on network conditions and other parameters. \r\n\r\n Note that unlike most traditional datasets, time is intrinsically a transient, ever-changing quantity. As soon as UTC(NIST) is transmitted to a client, that particular value of UTC(NIST) no longer reflects the current time, which is constantly changing. There is thus no static storage of any time data, apart from internal diagnostic information not released to the public which ensures that UTC(NIST) as disseminated through the Internet Time Service (ITS) is commensurate with the official UTC(NIST) realization within the uncertainties of the system. \r\n\r\n  The vast majority of UTC(NIST) information distributed through ITS is provided freely, anonymously and automatically to the public. Any IP address can request UTC(NIST) through the ITS and the information is automatically and anonymously provided at no cost to the user. Full documentation of the ITS including all the source code is available to the public through the web site http://www.nist.gov/pml/div688/. \r\n\r\n NIST provides an authenticated version of ITS to a limited number of users (approximately 500 users near the end of calendar year 2015) who for various reasons want to ensure they are receiving UTC(NIST) without spoofing or interference with the information. This service uses public key encryption for the set of registered users to provide authenticated UTC(NIST). ",
+  "owner_org": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "describedByType",
+      "value": "text/plain"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://www.nist.gov/pml/div688/grp40/its.cfm"
+      ]
+    },
+    {
+      "key": "source_hash",
+      "value": "ccead5ef6ba3168dfd50352038cb385259b8d7cd"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Time & frequency"
+      ]
+    },
+    {
+      "key": "spatial",
+      "value": "Applicable across the world."
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "describedBy",
+      "value": "http://www.nist.gov/pml/div688/grp40/its.cfm"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "006:045"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "006:55"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://www.nist.gov/pml/div688/grp40/its.cfm"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "6ca44803-fd6f-4bd0-9958-aee4079a3f5b"
+    },
+    {
+      "key": "publisher",
+      "value": "National Institute of Standards and Technology"
+    },
+    {
+      "key": "license",
+      "value": "http://www.nist.gov/open/license.cfm"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en"
+      ]
+    },
+    {
+      "key": "modified",
+      "value": "2015-11-30"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/PT1S"
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "25C39B1D2C1549AFE0531A5706812CBC1445"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "6ca44803-fd6f-4bd0-9958-aee4079a3f5b"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    }
+  ],
+  "title": "NIST Internet Time Service",
+  "revision_id": "f8c884bd-b735-498b-bcc1-d141377ec13a"
+}

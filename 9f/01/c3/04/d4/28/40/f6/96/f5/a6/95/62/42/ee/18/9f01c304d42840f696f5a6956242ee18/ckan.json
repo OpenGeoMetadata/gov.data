@@ -1,0 +1,217 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "9f01c304-d428-40f6-96f5-a6956242ee18",
+  "metadata_created": "2016-12-06T08:58:03.732831",
+  "metadata_modified": "2016-12-06T08:58:03.732831",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "9f01c304-d428-40f6-96f5-a6956242ee18",
+      "webstore_last_updated": null,
+      "id": "44233d46-9b28-458f-a76d-465907cb83e2",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "TIFF",
+      "tracking_summary": {
+        "total": 850,
+        "recent": 28
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "TIFF",
+      "created": "2016-12-06T03:58:03.876987",
+      "url": "http://earthexplorer.usgs.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "8f56833b-c918-45e4-87f7-d6759bdf10bf",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9f01c304-d428-40f6-96f5-a6956242ee18",
+      "webstore_last_updated": null,
+      "id": "6e6448b8-3111-43ae-840a-75045570c6f8",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 9,
+        "recent": 4
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "8f56833b-c918-45e4-87f7-d6759bdf10bf",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-12-06T03:58:03.877013",
+      "url": "https://lta.cr.usgs.gov/GMTED2010",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 3,
+    "recent": 3
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "global-multi-resolution-terrain-elevation-data-national-geospatial-data-asset-ngda",
+  "isopen": false,
+  "url": null,
+  "notes": "The USGS and the NGA have collaborated on the development of a notably enhanced global elevation model named the GMTED2010 that replaces GTOPO30 as the elevation dataset of choice for global and continental scale applications. The new model has been generated at three separate resolutions (horizontal post spacing) of 30 arc-seconds (about 1 kilometer), 15 arc-seconds (about 500 meters), and 7.5 arc-seconds (about 250 meters). This new product suite provides global coverage of all land areas from latitude 84 degrees N to 56 degrees S for most products, and coverage from 84 degrees N to 90 degrees S for several products. Some areas, namely Greenland and Antarctica, do not have data available at the 15- and 7.5-arc-second resolutions because the input source data do not support that level of detail. An additional advantage of the new multi-resolution global model over GTOPO30 is that seven new raster elevation products are available at each resolution. The new elevation products have been produced using the following aggregation methods: minimum elevation, maximum elevation, mean elevation, median elevation, standard deviation of elevation, systematic subsample, and breakline emphasis. The systematic subsample product is defined using a nearest neighbor resampling function, whereby an actual elevation value is extracted from the input source at the center of a processing window. Most vertical heights in GMTED2010 are referenced to the Earth Gravitational Model 1996 (EGM 96) geoid (NGA, 2010). In addition to the elevation products, detailed spatially referenced metadata containing attribute fields such as coordinates, projection information, and raw source elevation statistics have been generated on a tile-by-tile basis for all the input datasets that constitute the global elevation model. GMTED2010 is based on data derived from 11 raster-based elevation sources.",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Geological Survey Earth Resources Observation and Science (EROS) Center\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "custserv@usgs.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-180"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-12-01"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2016-12-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "180"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "90"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "-90"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty, expressed or implied, is made by the USGS regarding the use of the data on any other system, nor does the act of distribution constitute any such warranty.  \"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "underDevelopment"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-180.0, -90.0], [180.0, -90.0], [180.0, 90.0], [-180.0, 90.0], [-180.0, -90.0]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: There is no guarantee of warranty concerning the accuracy of these data. Users should be aware that temporal changes may have occurred since the data was collected and that some parts of these data may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of their limitations. Acknowledgement of the originating agencies would be appreciated in products derived from these data. Any user who modifies the data set is obligated to describe the types of modifications they perform. User specifically agrees not to misrepresent the data set, nor to imply that changes made were approved or endorsed by the U.S. Geological Survey. Please refer to http://www.usgs.gov/privacy.html for the USGS disclaimer.\", \"Access Constraints: Any downloading and use of these data signifies a user's agreement to comprehension and compliance of the USGS Standard Disclaimer. Insure all portions of metadata are read and clearly understood before using these data in order to protect both user and USGS interests.\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "tags",
+      "value": "imagery, image map, digital elevation model, ngda, u.s. geological survey, national geospatial data asset, dem, srtm, elevation theme, usgs"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "7239be66-7a26-4500-bd9f-febb5fb59bed"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "9f092989-2f6c-4e4b-a5eb-a9c8261a27e6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "USGS Earth Resources Observation and Science (EROS)"
+    }
+  ],
+  "title": "Global Multi-Resolution Terrain Elevation Data - National Geospatial Data Asset (NGDA)",
+  "revision_id": "8f56833b-c918-45e4-87f7-d6759bdf10bf"
+}

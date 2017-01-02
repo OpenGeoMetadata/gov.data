@@ -1,0 +1,203 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "Lee Burke",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "lee.burke@fiscal.treasury.gov",
+  "num_tags": 1,
+  "id": "ac4d4448-30a4-40c2-badc-04d5fef77c71",
+  "metadata_created": "2015-03-03T17:25:50.460051",
+  "metadata_modified": "2016-11-17T19:58:12.295693",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "describedByType": "text/html",
+      "package_id": "ac4d4448-30a4-40c2-badc-04d5fef77c71",
+      "webstore_last_updated": null,
+      "id": "1a97b527-4714-4a1f-bf11-d999b8e3af84",
+      "size": null,
+      "state": "active",
+      "describedBy": "http://www.treasurydirect.gov/instit/annceresult/annceresult_query.htm",
+      "accessURL": "https://transparency.treasury.gov/dataset/auction-query-page",
+      "hash": "",
+      "description": "",
+      "format": "application/vnd.api+json",
+      "tracking_summary": {
+        "total": 7,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "revision_id": "f9036ed9-8916-4833-bd90-db11e8b4e146",
+      "mimetype": "application/vnd.api+json",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-05-28T19:54:45.769843",
+      "url": "http://www.treasurydirect.gov/TA_WS/securities/search?startdate=2014-01-01&enddate=2014-02-01&format=json",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "auction--marketable-securities--bill--note--bond",
+      "id": "bce4ca75-cec5-4d56-bb36-d52cf1be2004",
+      "name": "auction--marketable-securities--bill--note--bond"
+    }
+  ],
+  "tracking_summary": {
+    "total": 41,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:49:27.440302",
+    "title": "Department of the Treasury",
+    "name": "treasury-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/US-DeptOfTheTreasury-Seal.svg/200px-US-DeptOfTheTreasury-Seal.svg.png",
+    "revision_id": "ef51490d-b4af-4f85-b229-3136099b1b8a",
+    "type": "organization",
+    "id": "5a2fc6dd-f2cc-4bae-878b-c70576a26757",
+    "approval_status": "approved"
+  },
+  "name": "auction-query-page",
+  "isopen": false,
+  "url": null,
+  "notes": "Query for U.S. Treasury marketable securities data.",
+  "owner_org": "5a2fc6dd-f2cc-4bae-878b-c70576a26757",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "de90314a-7c7d-4aff-bd84-87b134bba13d"
+    },
+    {
+      "key": "issued",
+      "value": "2014-08-22T00:00:00"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "d6e5e9279704e0157fd55fb8d9c6e83aa0fb1219"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "describedBy",
+      "value": "http://www.treasurydirect.gov/instit/annceresult/annceresult_query.htm"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "primaryITInvestmentUII",
+      "value": "015-000000061"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Treasury JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "015:035"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "015:12"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "https://transparency.treasury.gov/dataset/auction-query-page"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "5a8b5faf-c923-44d4-af20-fd66e8a95cba"
+    },
+    {
+      "key": "publisher",
+      "value": "Bureau of the Fiscal Service"
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "Department of the Treasury > Fiscal Service > Bureau of the Fiscal Service"
+    },
+    {
+      "key": "modified",
+      "value": "2015-05-04"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "catalog_@id",
+      "value": "https://www.treasury.gov/data.json"
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1D"
+    },
+    {
+      "key": "identifier",
+      "value": "015-BFS-2014Q4-004"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "5a8b5faf-c923-44d4-af20-fd66e8a95cba"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "de90314a-7c7d-4aff-bd84-87b134bba13d"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Treasury JSON"
+    }
+  ],
+  "title": "Auction Query Page",
+  "revision_id": "f763627c-0f45-4254-8813-54e87ae76722"
+}

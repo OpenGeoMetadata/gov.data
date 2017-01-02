@@ -1,0 +1,809 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "9eb66634-2964-4f06-b654-61f4f7e1fd45",
+  "metadata_created": "2015-09-26T19:43:18.229023",
+  "metadata_modified": "2016-10-19T19:55:37.140520",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "9eb66634-2964-4f06-b654-61f4f7e1fd45",
+      "webstore_last_updated": null,
+      "id": "77941c87-10b9-41ab-8a87-e2e02dc9741b",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard LAS html interface for selecting data from this dataset. ",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "LAS",
+      "created": "2016-10-19T15:55:38.901002",
+      "url": "http://ferret.pmel.noaa.gov/geoideLAS/getUI.do?data_url=http://oos.soest.hawaii.edu/thredds/dodsC/hioos/roms_forec/hiig/ROMS_Hawaii_Regional_Ocean_Model_best.ncd",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "c9c5a0be-a30b-486e-a97d-8f26ed81a2fe",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9eb66634-2964-4f06-b654-61f4f7e1fd45",
+      "webstore_last_updated": null,
+      "id": "727082e2-aa65-4724-8b44-814885539c0a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard ERDDAP html interface for selecting data from this dataset. ",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ERDDAP",
+      "created": "2016-10-19T15:55:38.901045",
+      "url": "http://upwell.pfeg.noaa.gov/erddap/search/index.html?searchFor=http://oos.soest.hawaii.edu/thredds/dodsC/hioos/roms_forec/hiig/ROMS_Hawaii_Regional_Ocean_Model_best.ncd",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "c9c5a0be-a30b-486e-a97d-8f26ed81a2fe",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9eb66634-2964-4f06-b654-61f4f7e1fd45",
+      "webstore_last_updated": null,
+      "id": "09bd0307-d054-46f5-8ad4-7f652dfe4b9c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard OPeNDAP html interface for selecting data from this dataset. Change the extension to .info for a description of the dataset.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "File Information",
+      "created": "2016-10-19T15:55:38.901055",
+      "url": "http://oos.soest.hawaii.edu/thredds/dodsC/hioos/roms_forec/hiig/ROMS_Hawaii_Regional_Ocean_Model_best.ncd.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "c9c5a0be-a30b-486e-a97d-8f26ed81a2fe",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9eb66634-2964-4f06-b654-61f4f7e1fd45",
+      "webstore_last_updated": null,
+      "id": "fec43456-3e4f-4d2c-ac25-1ab67aebf0be",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "mapDigital",
+      "hash": "",
+      "description": "This URL provides an NCDC climate and weather toolkit view of an OPeNDAP resource.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Viewer Information",
+      "created": "2016-10-19T15:55:38.901064",
+      "url": "http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://oos.soest.hawaii.edu/thredds/dodsC/hioos/roms_forec/hiig/ROMS_Hawaii_Regional_Ocean_Model_best.ncd",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 3,
+      "revision_id": "c9c5a0be-a30b-486e-a97d-8f26ed81a2fe",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9eb66634-2964-4f06-b654-61f4f7e1fd45",
+      "webstore_last_updated": null,
+      "id": "f376005e-baf9-4b93-b2f8-38d71b8f8776",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": " Visualize with Live Access Server",
+      "created": "2016-10-19T15:55:38.901072",
+      "url": "http://ferret.pmel.noaa.gov/geoideLAS/getUI.do?data_url=http://oos.soest.hawaii.edu/thredds/dodsC/hioos/roms_forec/hiig/ROMS_Hawaii_Regional_Ocean_Model_best.ncd",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 4,
+      "revision_id": "c9c5a0be-a30b-486e-a97d-8f26ed81a2fe",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9eb66634-2964-4f06-b654-61f4f7e1fd45",
+      "webstore_last_updated": null,
+      "id": "841fad0b-3f2b-4e80-ab9d-bf61d56b84c7",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": " Visualize with ERDDAP",
+      "created": "2016-10-19T15:55:38.901079",
+      "url": "http://upwell.pfeg.noaa.gov/erddap/search/index.html?searchFor=http://oos.soest.hawaii.edu/thredds/dodsC/hioos/roms_forec/hiig/ROMS_Hawaii_Regional_Ocean_Model_best.ncd",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 5,
+      "revision_id": "c9c5a0be-a30b-486e-a97d-8f26ed81a2fe",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9eb66634-2964-4f06-b654-61f4f7e1fd45",
+      "webstore_last_updated": null,
+      "id": "9e93dc34-d4f0-41bf-898c-2d2ee934337a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": " Weather and Climate Toolkit",
+      "created": "2016-10-19T15:55:38.901087",
+      "url": "http://www.ncdc.noaa.gov/oa/wct/wct-jnlp.php?singlefile=http://oos.soest.hawaii.edu/thredds/dodsC/hioos/roms_forec/hiig/ROMS_Hawaii_Regional_Ocean_Model_best.ncd",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 6,
+      "revision_id": "c9c5a0be-a30b-486e-a97d-8f26ed81a2fe",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9eb66634-2964-4f06-b654-61f4f7e1fd45",
+      "webstore_last_updated": null,
+      "id": "b1ed30d6-449c-4ed9-9c76-4d754230bba9",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "PacIOOS Voyager (Google Maps API)",
+      "created": "2016-10-19T15:55:38.901095",
+      "url": "http://pacioos.org/voyager/index.html?b=15.093339%2C-167.519531%2C25.720735%2C-148.787842&t=h&o=ofore:1:f:d2",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 7,
+      "revision_id": "c9c5a0be-a30b-486e-a97d-8f26ed81a2fe",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9eb66634-2964-4f06-b654-61f4f7e1fd45",
+      "webstore_last_updated": null,
+      "id": "e9749321-32d0-462f-b97b-fb28208e8ba8",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "PacIOOS ROMS Model",
+      "created": "2016-10-19T15:55:38.901103",
+      "url": "http://pacioos.org/focus/modeling/ROMS_compare_variable.php",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 8,
+      "revision_id": "c9c5a0be-a30b-486e-a97d-8f26ed81a2fe",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9eb66634-2964-4f06-b654-61f4f7e1fd45",
+      "webstore_last_updated": null,
+      "id": "bc21e561-fde1-41b5-bdb0-917a2fbbc0e4",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Live Access Server (LAS)",
+      "created": "2016-10-19T15:55:38.901111",
+      "url": "http://oos.soest.hawaii.edu/las/getUI.do?dsid=hiroms_hiig&varid=temp-hiroms_hiig&auto=true",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 9,
+      "revision_id": "c9c5a0be-a30b-486e-a97d-8f26ed81a2fe",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9eb66634-2964-4f06-b654-61f4f7e1fd45",
+      "webstore_last_updated": null,
+      "id": "46a34a6e-abc3-4425-b2f5-fe54a530fd50",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ERDDAP (3-D Variables)",
+      "created": "2016-10-19T15:55:38.901119",
+      "url": "http://oos.soest.hawaii.edu/erddap/griddap/ROMS_HIIG_Best.graph",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 10,
+      "revision_id": "c9c5a0be-a30b-486e-a97d-8f26ed81a2fe",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9eb66634-2964-4f06-b654-61f4f7e1fd45",
+      "webstore_last_updated": null,
+      "id": "6f6f66ae-69fc-4b3f-bda6-7964073a5266",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ERDDAP (Sea Surface Height)",
+      "created": "2016-10-19T15:55:38.901127",
+      "url": "http://oos.soest.hawaii.edu/erddap/griddap/ROMS_HIIG_SSH_Best.graph",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 11,
+      "revision_id": "c9c5a0be-a30b-486e-a97d-8f26ed81a2fe",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9eb66634-2964-4f06-b654-61f4f7e1fd45",
+      "webstore_last_updated": null,
+      "id": "c03a8652-2c19-49c7-9604-1a7e36b794ed",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "DChart",
+      "created": "2016-10-19T15:55:38.901134",
+      "url": "http://oos.soest.hawaii.edu/dchart/index.html?dsetid=fd18e7a6df7a74b176f35a7c9a18253",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 12,
+      "revision_id": "c9c5a0be-a30b-486e-a97d-8f26ed81a2fe",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9eb66634-2964-4f06-b654-61f4f7e1fd45",
+      "webstore_last_updated": null,
+      "id": "96583f8c-b1d2-4fab-b2b7-ea97b526145c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "powell.html",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "revision_id": "c9c5a0be-a30b-486e-a97d-8f26ed81a2fe",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T15:55:38.901142",
+      "url": "http://www.soest.hawaii.edu/oceanography/faculty/powell.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 13,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9eb66634-2964-4f06-b654-61f4f7e1fd45",
+      "webstore_last_updated": null,
+      "id": "2286a310-4a6a-4ef6-907b-df97c52486f8",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "The UAF project is providing this catalog as a public service to aid in the discovery and access of scientific data.  The UAF is not responsible for the content of the data and all questions regarding the data should be directed to the office where the data reside.",
+      "format": "",
+      "tracking_summary": {
+        "total": 18,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTPS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA GEO-IDE",
+      "created": "2016-10-19T15:55:38.901150",
+      "url": "https://geo-ide.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 14,
+      "revision_id": "c9c5a0be-a30b-486e-a97d-8f26ed81a2fe",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9eb66634-2964-4f06-b654-61f4f7e1fd45",
+      "webstore_last_updated": null,
+      "id": "b374bbf9-78c3-4931-9241-6c50daa46c99",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "powell.html",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "revision_id": "c9c5a0be-a30b-486e-a97d-8f26ed81a2fe",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T15:55:38.901158",
+      "url": "http://www.soest.hawaii.edu/oceanography/faculty/powell.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 15,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9eb66634-2964-4f06-b654-61f4f7e1fd45",
+      "webstore_last_updated": null,
+      "id": "93e33afe-5f11-4386-b81e-a8ce0949aeae",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "powell.html",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "revision_id": "c9c5a0be-a30b-486e-a97d-8f26ed81a2fe",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T15:55:38.901166",
+      "url": "http://www.soest.hawaii.edu/oceanography/faculty/powell.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 16,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9eb66634-2964-4f06-b654-61f4f7e1fd45",
+      "webstore_last_updated": null,
+      "id": "585d653b-0a6f-4a57-a905-db083fb61559",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "THREDDS OPeNDAP",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OPeNDAP:OPeNDAP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OPeNDAP",
+      "created": "2016-10-19T15:55:38.901174",
+      "url": "http://oos.soest.hawaii.edu/thredds/dodsC/hioos/roms_forec/hiig/ROMS_Hawaii_Regional_Ocean_Model_best.ncd",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 17,
+      "revision_id": "c9c5a0be-a30b-486e-a97d-8f26ed81a2fe",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9eb66634-2964-4f06-b654-61f4f7e1fd45",
+      "webstore_last_updated": null,
+      "id": "6717bb13-16b2-4dcc-bb88-d06237daba88",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "powell.html",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "revision_id": "c9c5a0be-a30b-486e-a97d-8f26ed81a2fe",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T15:55:38.901181",
+      "url": "http://www.soest.hawaii.edu/oceanography/faculty/powell.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 18,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9eb66634-2964-4f06-b654-61f4f7e1fd45",
+      "webstore_last_updated": null,
+      "id": "9ae57d71-84af-468e-8357-5c3d1bee43d5",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Open Geospatial Consortium Web Coverage Service (WCS)",
+      "format": "WCS",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WCS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OGC-WCS",
+      "created": "2016-10-19T15:55:38.901189",
+      "url": "http://oos.soest.hawaii.edu/thredds/wcs/hioos/roms_forec/hiig/ROMS_Hawaii_Regional_Ocean_Model_best.ncd?service=WCS&version=1.0.0&request=GetCapabilities",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 19,
+      "revision_id": "c9c5a0be-a30b-486e-a97d-8f26ed81a2fe",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9eb66634-2964-4f06-b654-61f4f7e1fd45",
+      "webstore_last_updated": null,
+      "id": "29e1416b-d6de-4f45-ace5-654fe337470a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "powell.html",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "revision_id": "c9c5a0be-a30b-486e-a97d-8f26ed81a2fe",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T15:55:38.901197",
+      "url": "http://www.soest.hawaii.edu/oceanography/faculty/powell.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 20,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9eb66634-2964-4f06-b654-61f4f7e1fd45",
+      "webstore_last_updated": null,
+      "id": "c1dbecfd-acba-4d83-a61d-c8cc859e4d58",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Open Geospatial Consortium Web Map Service (WMS)",
+      "format": "WMS",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WMS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OGC-WMS",
+      "created": "2016-10-19T15:55:38.901204",
+      "url": "http://oos.soest.hawaii.edu/thredds/wms/hioos/roms_forec/hiig/ROMS_Hawaii_Regional_Ocean_Model_best.ncd?service=WMS&version=1.3.0&request=GetCapabilities",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 21,
+      "revision_id": "c9c5a0be-a30b-486e-a97d-8f26ed81a2fe",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 22,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 19,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "regional-ocean-modeling-system-roms-main-hawaiian-islands",
+  "isopen": false,
+  "url": null,
+  "notes": "Regional Ocean Modeling System (ROMS) 7-day, 3-hourly forecast for the region surrounding the main Hawaiian islands at approximately 4-km resolution. While considerable effort has been made to implement all model components in a thorough, correct, and accurate manner, numerous sources of error are possible. As such, please use these data with the caution appropriate for any ocean related activity.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-152.51930236816406"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "23.982389450073242"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[{\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}, {\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}, {\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}]"
+    },
+    {
+      "key": "guid",
+      "value": "org.pacioos:roms_hiig_forecast"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "17.0184326171875"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-163.830703735, 17.0184326172], [-152.519302368, 17.0184326172], [-152.519302368, 23.9823894501], [-163.830703735, 23.9823894501], [-163.830703735, 17.0184326172]]]}"
+    },
+    {
+      "key": "progress",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2015-04-15T00:00:00Z"
+    },
+    {
+      "key": "contact-email",
+      "value": "powellb@hawaii.edu"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-163.83070373535156"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-10-13"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"creation\", \"value\": \"2010-06-01\"}, {\"type\": \"issued\", \"value\": \"2010-06-01\"}, {\"type\": \"revision\", \"value\": \"2015-05-28\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"University of Hawaii\", \"roles\": [\"pointOfContact\"]}, {\"name\": \"The Unified Access Framework (UAF)\", \"roles\": [\"custodian\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2015-10-12T00:00:00Z"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": "THREDDS OPeNDAP"
+    },
+    {
+      "key": "metadata-language",
+      "value": "eng"
+    },
+    {
+      "key": "tags",
+      "value": "ocean temperature, weather research/forecast models, ocean circulation, forecast_reference_time, earth science services, earth science, the unified access framework: a geo-ide project to integrate scientific data management and access, ocean general circulation models (ogcm)/regional ocean models, forecast_period, sea_binary_mask, eastward_sea_water_velocity, time, pacific islands ocean observing system (pacioos), sea_water_salinity, ocean currents, models, sea_water_potential_temperature, oceans, latitude, northward_sea_water_velocity, sea surface height, salinity/density, sea surface topography, longitude, salinity, depth, unified access framework (uaf), potential temperature, sea_surface_height"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "431bc835-2fa6-4273-a959-e5f338089e81"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Regional Ocean Modeling System (ROMS): Main Hawaiian Islands",
+  "revision_id": "47d04434-f2fd-4a9c-977c-c6c5fb25b2e4"
+}

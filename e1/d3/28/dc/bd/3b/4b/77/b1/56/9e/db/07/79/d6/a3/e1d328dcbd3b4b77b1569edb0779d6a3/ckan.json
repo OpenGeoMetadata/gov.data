@@ -1,0 +1,255 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "e1d328dc-bd3b-4b77-b156-9edb0779d6a3",
+  "metadata_created": "2016-12-07T22:13:22.471860",
+  "metadata_modified": "2016-12-07T22:13:22.471860",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "e1d328dc-bd3b-4b77-b156-9edb0779d6a3",
+      "webstore_last_updated": null,
+      "id": "dc14c9a3-864d-4677-b977-019c83478b83",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Vector Digital Data Set (Polygon)",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Vector Digital Data Set (Polygon)",
+      "created": "2016-12-07T17:13:22.627779",
+      "url": "http://dx.doi.org/10.5066/F7CC0XRV",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "18dedb4d-d4d1-4e79-9306-8fd90c4c7411",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "e1d328dc-bd3b-4b77-b156-9edb0779d6a3",
+      "webstore_last_updated": null,
+      "id": "d041c5f0-85d3-46c0-bcc2-aa301d0d003d",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "18dedb4d-d4d1-4e79-9306-8fd90c4c7411",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-12-07T17:13:22.627806",
+      "url": "http://dx.doi.org/10.5066/F7CC0XRV",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "e1d328dc-bd3b-4b77-b156-9edb0779d6a3",
+      "webstore_last_updated": null,
+      "id": "4cd02891-9b35-4750-96a0-2f9b174bda51",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "18dedb4d-d4d1-4e79-9306-8fd90c4c7411",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-12-07T17:13:22.627815",
+      "url": "http://dx.doi.org/10.3133/ofr20141163",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 0,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "composite-habitat-categories-for-greater-sage-grouse-in-nevada-and-northeastern-californiabdc1a",
+  "isopen": false,
+  "url": null,
+  "notes": "This shapefile represents habitat suitability categories (High, Moderate, Low, and Non-Habitat) derived from a composite, continuous surface of sage-grouse habitat suitability index (HSI) values for Nevada and northeastern California formed from the multiplicative product of the spring, summer, and winter HSI surfaces. Summary of steps to create Habitat Categories: HABITAT SUITABILITY INDEX: The HSI was derived from a generalized linear mixed model (specified by binomial distribution and created using ArcGIS 10.2.2) that contrasted data from multiple environmental factors at used sites (telemetry locations) and available sites (random locations). Predictor variables for the model represented vegetation communities at multiple spatial scales, water resources, habitat configuration, urbanization, roads, elevation, ruggedness, and slope. Vegetation data was derived from various mapping products, which included NV SynthMap (Petersen 2008, SageStitch (Comer et al. 2002, LANDFIRE (Landfire 2010), and the CA Fire and Resource Assessment Program (CFRAP 2006). The analysis was updated to include high resolution percent cover within 30 x 30 m pixels for Sagebrush, non-sagebrush, herbaceous vegetation, and bare ground (C. Homer, unpublished; based on the methods of Homer et al. 2014, Xian et al. 2015 ) and conifer (primarily pinyon-juniper, P. Coates, unpublished). The pool of telemetry data included the same data from 1998 - 2013 used by Coates et al. (2014) as well as additional telemetry location data from field sites in 2014. The dataset was then split according to calendar date into three seasons. Spring included telemetry locations (n = 14,058) from mid-March to June; summer included locations (n = 11,743) from July to mid-October; winter included locations (n = 4862) from November to March. All age and sex classes of marked grouse were used in the analysis. Sufficient data (i.e., a minimum of 100 locations from at least 20 marked Sage-grouse) for modeling existed in 10 subregions for spring and summer, and seven subregions in winter, using all age and sex classes of marked grouse. It is important to note that although this map is composed of HSI values derived from the seasonal data, it does not explicitly represent habitat suitability for reproductive females (i.e., nesting and with broods). Insufficient data were available to allow for estimation of this habitat type for all seasons throughout the study area extent. A Resource Selection Function (RSF) was calculated for each subregion using R software (v 3.13) and season using generalized linear models to derive model-averaged parameter estimates for each covariate across a set of additive models. For each season, subregional RSFs were transformed into Habitat Suitability Indices, and averaged together to produce an overall statewide HSI whereby a relative probability of occurrence was calculated for each raster cell. The three seasonal HSI rasters were then multiplied to create a composite HSI. In order to account for discrepancies in HSI values caused by varying ecoregions within Nevada, the HSI was divided into north and south extents using a slightly modified flood region boundary (Mason 1999) that was designed to represent respective mesic and xeric regions of the state. North and south HSI rasters were each relativized according to their maximum value to rescale between zero and one, then mosaicked once more into a state-wide extent. HABITAT CATEGORIZATION: Using the same ecoregion boundaries described above, the habitat classification dataset (an independent data set comprising 10% of the total telemetry location sample) was split into locations falling within respective north and south regions. HSI values from the composite and relativized statewide HSI surface were then extracted to each classification dataset location within the north and south region. The distribution of these values were used to identify class break values corresponding to 0.5 (high), 1.0 (moderate), and 1.5 (low) standard deviations (SD) from the mean HSI. These class breaks were used to classify the HSI surface into four discrete categories of habitat suitability: High, Moderate, Low, and Non-Habitat. In terms of percentiles, High habitat comprised greater than 30.9 % of the HSI values, Moderate comprised 15 â 30.9%, Low comprised 6.7 â 15%, and Non-Habitat comprised less than 6.7%.The classified north and south regions were then clipped by the boundary layer and mosaicked to create a statewide categorical surface for habitat selection. Each habitat suitability category was converted to a vector output where gaps within polygons less than 1.2 million square meters were eliminated, polygons within 500 meters of each other were connected to create corridors and polygons less than 1.2 million square meters in one category were incorporated to the adjacent category. The final step was to mask major roads that were buffered by 50m (Census, 2014), lakes (Peterson, 2008) and urban areas, and place those masked areas into the non-habitat category. The existing urban layer (Census 2010) was not sufficient for our needs because it excluded towns with a population lower than 1,500. Hence, we masked smaller towns (populations of 100 to 1500) and development with Census Block polygons (Census 2015) that had at least 50% urban development within their boundaries when viewed with reference imagery (ArcGIS World Imagery Service Layer). REFERENCES: California Forest and Resource Assessment Program (CFRAP). 2006. Statewide Land Use / Land Cover Mosaic. [Geospatial data.] California Department of Forestry and Fire Protection, http://frap.cdf.ca.gov/data/frapgisdata-sw-rangeland-assessment_data.php Census 2010. TIGER/Line Shapefiles. Urban Areas [Geospatial data.] U.S. Census Bureau, Washington D.C., https://www.census.gov/geo/maps-data/data/tiger-line.html Census 2014. TIGER/Line Shapefiles. Roads [Geospatial data.] U.S. Census Bureau, Washington D.C., https://www.census.gov/geo/maps-data/data/tiger-line.html Census 2015. TIGER/Line Shapefiles. Blocks [Geospatial data.] U.S. Census Bureau, Washington D.C., https://www.census.gov/geo/maps-data/data/tiger-line.html Coates, P.S., Casazza, M.L., Brussee, B.E., Ricca, M.A., Gustafson, K.B., Overton, C.T., Sanchez-Chopitea, E., Kroger, T., Mauch, K., Niell, L., Howe, K., Gardner, S., Espinosa, S., and Delehanty, D.J. 2014, Spatially explicit modeling of greater sage-grouse (Centrocercus urophasianus) habitat in Nevada and northeastern CaliforniaâA decision-support tool for management: U.S. Geological Survey Open-File Report 2014-1163, 83 p., http://dx.doi.org/10.3133/ofr20141163. ISSN 2331-1258 (online) Comer, P., Kagen, J., Heiner, M., and Tobalske, C. 2002. Current distribution of sagebrush and associated vegetation in the western United States (excluding NM). [Geospatial data.] Interagency Sagebrush Working Group, http://sagemap.wr.usgs.gov Homer, C.G., Aldridge, C.L., Meyer, D.K., and Schell, S.J. 2014. Multi-Scale Remote Sensing Sagebrush Characterization with Regression Trees over Wyoming, USA; Laying a Foundation for Monitoring. International Journal of Applied Earth Observation and Geoinformation 14, Elsevier, US. LANDFIRE. 2010. 1.2.0 Existing Vegetation Type Layer. [Geospatial data.] U.S. Department of the Interior, Geological Survey, http://landfire.cr.usgs.gov/viewer/ Mason, R.R. 1999. The National Flood-Frequency ProgramâMethods For Estimating Flood Magnitude And Frequency In Rural Areas In Nevada U.S. Geological Survey Fact Sheet 123-98 September, 1999, Prepared by Robert R. Mason, Jr. and Kernell G. Ries III, of the U.S. Geological Survey; and Jeffrey N. King and Wilbert O. Thomas, Jr., of Michael Baker, Jr., Inc. http://pubs.usgs.gov/fs/fs-123-98/ Peterson, E. B. 2008. A Synthesis of Vegetation Maps for Nevada (Initiating a 'Living' Vegetation Map). Documentation and geospatial data, Nevada Natural Heritage Program, Carson City, Nevada, http://www.heritage.nv.gov/gis Xian, G., Homer, C., Rigge, M., Shi, H., and Meyer, D. 2015. Characterization of shrubland ecosystem components as continuous fields in the northwest United States. Remote Sensing of Environment 168:286-300. NOTE: This file does not include habitat areas for the Bi-State management area and the spatial extent is modified in comparison to Coates et al. 2014",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-113.762591355"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "42.114352348"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "37.536720971"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-121.11494925, 37.536720971], [-113.762591355, 37.536720971], [-113.762591355, 42.114352348], [-121.11494925, 42.114352348], [-121.11494925, 37.536720971]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: The authors of these data require that users direct any questions pertaining to appropriate use or assistance with understanding limitations and interpretation of the data to the individuals/organization listed in the Point of Contact section.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "1999-05-22"
+    },
+    {
+      "key": "contact-email",
+      "value": "pcoates@usgs.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-121.11494925"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-02-11"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2016-02-11\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Geological Survey, Western Ecological Research Center\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2013-10-31"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "united states, sagebrush ecosystem council, great basin, habitat, greater sage-grouse, north america, california, 2015, nevada"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "b2032c09-820a-4c23-a60a-9f8dc7ef15da"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "b0262658-011b-4558-9cfa-1b5a276def01"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Western Ecological Research Center (WERC), USGS"
+    }
+  ],
+  "title": "Composite Habitat Categories for Greater Sage-grouse in Nevada and northeastern California",
+  "revision_id": "18dedb4d-d4d1-4e79-9306-8fd90c4c7411"
+}

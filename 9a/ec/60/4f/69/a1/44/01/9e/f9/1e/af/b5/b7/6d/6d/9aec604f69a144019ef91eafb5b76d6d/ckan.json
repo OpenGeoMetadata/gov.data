@@ -1,0 +1,244 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "9aec604f-69a1-4401-9ef9-1eafb5b76d6d",
+  "metadata_created": "2013-03-15T22:54:16.456401",
+  "metadata_modified": "2015-04-10T02:36:47.205489",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "9aec604f-69a1-4401-9ef9-1eafb5b76d6d",
+      "webstore_last_updated": null,
+      "id": "a3613cf8-6024-4091-8078-08d97820c3df",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "381",
+      "hash": "",
+      "description": "",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 4,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "ESRI",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Service Description",
+      "created": "2013-03-15T23:54:16.475280",
+      "url": "http://atlas.wvgs.wvnet.edu/arcgis/rest/services/aasg/Faults/MapServer",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "a2e727eb-433a-426f-a354-fbb7104a8c79",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9aec604f-69a1-4401-9ef9-1eafb5b76d6d",
+      "webstore_last_updated": null,
+      "id": "d8b27c27-0454-4186-b1ab-5042dbb69274",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "375",
+      "hash": "",
+      "description": "",
+      "format": "WMS",
+      "tracking_summary": {
+        "total": 12,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Downloadable File",
+      "created": "2013-03-15T23:54:16.475300",
+      "url": "http://atlas.wvgs.wvnet.edu/arcgis/services/aasg/Faults/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "a2e727eb-433a-426f-a354-fbb7104a8c79",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "9aec604f-69a1-4401-9ef9-1eafb5b76d6d",
+      "webstore_last_updated": null,
+      "id": "97c706d8-a4ff-40e9-8a27-5e16bd185adb",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "381",
+      "hash": "",
+      "description": "",
+      "format": "WFS",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WFS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Service Description",
+      "created": "2013-03-15T23:54:16.475307",
+      "url": "http://atlas.wvgs.wvnet.edu/arcgis/services/aasg/Faults/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "a2e727eb-433a-426f-a354-fbb7104a8c79",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 158,
+    "recent": 1
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The Arizona Geological Survey collates and serves geological information for Arizona and other states through its partnership with other state geological surveys.",
+    "created": "2013-03-14T03:44:43.328493",
+    "title": "Arizona Geological Survey",
+    "name": "azgs-az-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.50states.com/flag/image/nunst004.gif",
+    "revision_id": "61be6428-4398-4199-a336-f3cd1e956f9b",
+    "type": "organization",
+    "id": "f3f6e1d4-64fb-4a2f-b32c-9ac0b76fe4de",
+    "approval_status": "approved"
+  },
+  "name": "west-virginia-faults",
+  "isopen": false,
+  "url": null,
+  "notes": "This dataset is a compilation of Fault features compiled by the West Virginia Geological and Economic Survey (WVGES), published as a Web feature service, a web map service, an ESRI service and as a downloadable document for the National Geothermal Data System. Each feature in an faults data set (row in this spreadsheet) should be characterized by a unique combination of name, URI, geologic history, slip, locatability and orientation properties, as well as being physically connected or inferred to be connected in the Earth. For mapped active faults, which are the scope of this scheme, the deformation style is assumed to be brittle (as opposed to ductile). ",
+  "owner_org": "f3f6e1d4-64fb-4a2f-b32c-9ac0b76fe4de",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"AZGS\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "christy.caudill@azgs.az.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-83.437278270722"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2013-01-31T22:58:48Z"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2013-01-03T00:00:00\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-76.977317333222"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "40.863858170586"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "36.932518734356"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-83.4372782707, 36.9325187344], [-83.4372782707, 40.8638581706], [-76.9773173332, 40.8638581706], [-76.9773173332, 36.9325187344], [-83.4372782707, 36.9325187344]]]}"
+    },
+    {
+      "key": "guid",
+      "value": "9e15e1a59b768b330d029e86dc120a93"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "West Virginia, geologic history, fault zones, faults, West Virginia Geological and Economic Survey, WFS Services, WMS Services, ESRI Services, Fault Features"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "ffb237dc-de5d-475e-b096-040b1d628d3b"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "f800beb8-4923-4e88-910f-1c6cf0078598"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "AASG geothermal data CSW"
+    }
+  ],
+  "title": "West Virginia Faults",
+  "revision_id": "beeaaffc-4c0b-4756-aaf6-d0f4e61d0b7f"
+}

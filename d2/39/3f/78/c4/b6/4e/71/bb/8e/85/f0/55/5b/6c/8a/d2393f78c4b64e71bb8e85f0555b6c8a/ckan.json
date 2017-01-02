@@ -1,0 +1,241 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Edward Armstrong",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "edward.m.armstrong@jpl.nasa.gov",
+  "num_tags": 3,
+  "id": "d2393f78-c4b6-4e71-bb8e-85f0555b6c8a",
+  "metadata_created": "2014-10-08T03:05:59.672552",
+  "metadata_modified": "2016-05-06T07:55:43.912309",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "d2393f78-c4b6-4e71-bb8e-85f0555b6c8a",
+      "webstore_last_updated": null,
+      "id": "0afef85b-6626-4b52-b95c-930c9b7f14dc",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "BIN",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/octet-stream",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-10-07T23:05:59.818794",
+      "url": "http://data.nodc.noaa.gov/cgi-bin/nph-dods/ghrsst/L2P/NAR17_SST/EUR",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "66cfa88e-2d1d-467c-9ffa-bbcdc79515df",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "earth-science",
+      "id": "f28006f8-df78-4700-b72f-f4a19628ba67",
+      "name": "earth-science"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ocean-temperature",
+      "id": "72bd768c-6b19-4b2a-8d59-3672401eab7c",
+      "name": "ocean-temperature"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "oceans",
+      "id": "8d023641-0bbb-4e3d-be89-d9c47eaabaa6",
+      "name": "oceans"
+    }
+  ],
+  "tracking_summary": {
+    "total": 10,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "ghrsst-level-2p-european-medspiration-nar17-sst-1",
+  "isopen": true,
+  "url": null,
+  "notes": "The EUMETSAT OSI-SAF NAR SST products are SST fields derived from NOAA/AVHRR data and available over 6 pre-defined zones, 4 times per day.  After acquisition and calibration at CMS, the NOAA/AVHRR data are re-mapped onto a stereopolar grid to produce mosaics of consecutive orbits over Europe and the Near Atlantic at a 2 km resolution. Mosaics are made over a \"Rectification Grand Domaine\" area (RGD). For re-mapped grid points observed by more than one overpass, the smallest satellite zenith angle data are selected. In the normal conditions when two satellites are operational, four mosaics per day are produced for all the AVHRR channels. SSTs are then calculated from these data. Six zones are then extracted . They are 1024 * 1024 pixels in size to offer the users (presumably interested by local phenomena) the possibility of handling a restricted volume of data. Note that SSTs are calculated over the entire RGD, but only the predefined zones are delivered as NAR products.The operational CMS AVHRR cloud mask in use is based on a multi-spectral thresholding algorithm (Derrien and Le Gleau 1999). Some refinements specific to the marine conditions have been introduced including Use of fine scale climatology and a fine gradiant climatology to assist in the detection of clouds in areas characterised by strong thermal gradients. SSTs are derived from the 11 and 12 micron brightness temperatures (T11 and T12) . The NOAA /AVHRR has three IR channels : channel 3 (3.6-3.8 micron), channel 4 (10.2-11.2 micron) and channel 5 (11.5-12.5 micron) which provide IR data at 1-km spatial resolution at the satellite subpoint (Kidwell, 1997). NOAA-14 and NOAA-16 have similar characteristics, but with distinct radiometer filter functions that necessitate distinct algorithm coefficients. The algorithms coefficients are derived from multilinear regression on a simulation database . At night the use of the 3.7 channel in a triple window algorithm improves the SST retrieval performances under high water vapor content conditions.  The expected accuracy is defined as the expected bias and standard deviation of the primary calculations against drifting buoy measurements determined on a monthly or yearly basis. The following performance evaluation was derived from a detailed validation of NOAA/AVHRR derived SSTs (Brisson et al 2001). Bias: Apart for the first 2 months after the launch of a new satellite, the monthly biases should remain within +/-0.4 K by night. By day local biases of several K are possible because of shallow diurnal heating. \nStandard deviation: see table below: low-cloud cases (cloud coverage less than 10% of the validation box) have been separated from all cases (cloud coverage less than 60%). The \"expected maximum standard deviation\" or the expected maximum biases are the maximum values that can be observed under normal conditions. When these values are overpassed, some anomaly may have occurred and the problem must be identified. Standard deviation Table Yearly, all Monthly, all Yearly, low-cloud Monthly, lowcloud 0.7 0.8 0.6 0.7 \nPhysical definition \nsubskin SST : Comparable to in situ (buoy) measurements at night. \nRelation to bulk SST: equivalent to bulk SST by night. By day, a bias of several Kelvin may be found under favorable diurnal heating conditions, \nRelation to skin SST: By day and by night the subskin SST is convertible to skin temperature by subtracting 0.2K. \nUnits and range \nUnits: Centi-Kelvins \nWhen using GRIB format, a scaling factor of 100 must be applied. \nNo lower limit is imposed on the SST calculations, providing the sea is ice free. The expected range is thus from about -3 degC till 35 degC, corresponding to actual values of 27000 to 30800. \nUnprocessed data (for whatever reason) show a negative value (-32768) in HDF format, or is flagged as missing in GRIB section3. \nOrigin \nSST calculated from the IR channel data of the NOAA/AVHRR re-mapped onto a stereopolar grid at 2 km resolution. SST are extracted over 6 pre-",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "collection_metadata",
+      "value": "true"
+    },
+    {
+      "key": "issued",
+      "value": "2004-12-24T15:00:00.000Z"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "e6ad2264f399c30be56783214957aa6c011885fb"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "temporal",
+      "value": "2005-01-31T21:09:00Z/2010-03-22T11:09:00Z"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "geospatial"
+      ]
+    },
+    {
+      "key": "spatial",
+      "value": "-45.0 20.0 45.0 79.0"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:001"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "landingPage",
+      "value": "http://reverb.echo.nasa.gov/reverb?selected=C66300-PODAAC"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "f8b7506e-9c73-4e76-a67a-8a72e8b276b1"
+    },
+    {
+      "key": "publisher",
+      "value": "PO.DAAC"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "55942a61c63a7fe59b49624a"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "U.S. Government > National Aeronautics and Space Administration > PO.DAAC"
+    },
+    {
+      "key": "modified",
+      "value": "2011-01-21T17:10:13.000Z"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "irregular"
+    },
+    {
+      "key": "identifier",
+      "value": "C66300-PODAAC"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "f8b7506e-9c73-4e76-a67a-8a72e8b276b1"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "GHRSST Level 2P European Medspiration NAR17 SST:1",
+  "revision_id": "66cfa88e-2d1d-467c-9ffa-bbcdc79515df"
+}

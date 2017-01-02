@@ -1,0 +1,259 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "306d4517-9001-4785-86a3-af0eedd1a6c1",
+  "metadata_created": "2014-09-02T23:00:42.236677",
+  "metadata_modified": "2014-11-17T21:14:04.579512",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "306d4517-9001-4785-86a3-af0eedd1a6c1",
+      "webstore_last_updated": null,
+      "id": "1ed5b5c8-b3cb-46ba-ba55-cd46bc972744",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "Spatial and tabular information",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Personal geodatabase",
+      "created": "2014-11-17T16:14:04.734646",
+      "url": "http://water.usgs.gov/GIS/dsdl/ds777_northern_High_Plains_groundwater_flow_model_base_data.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "ac5264da-3f36-4ed2-b702-806e64198ade",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "306d4517-9001-4785-86a3-af0eedd1a6c1",
+      "webstore_last_updated": null,
+      "id": "a2b358cb-492e-4f9f-a729-2563fed5816d",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Personal geodatabase",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "ac5264da-3f36-4ed2-b702-806e64198ade",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-11-17T16:14:04.734670",
+      "url": "http://water.usgs.gov/lookup/getspatial?ds777_northern_High_Plains_groundwater_flow_model_base_data-ply_NHP_ModelCells",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "306d4517-9001-4785-86a3-af0eedd1a6c1",
+      "webstore_last_updated": null,
+      "id": "a7982556-314e-4552-ba68-b77de27cb206",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Personal geodatabase",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "ac5264da-3f36-4ed2-b702-806e64198ade",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-11-17T16:14:04.734678",
+      "url": "http://pubs.usgs.gov/ds/777",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 17,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "ds-777-spatial-location-the-model-cell-boundaries-for-the-northern-high-plains-groundwater-flow",
+  "isopen": false,
+  "url": null,
+  "notes": "This data set is one of many developed in support of The High Plains Groundwater Availability Project and the U.S. Geological Survey Data Series Report: Geodatabase Compilation of Hydrogeologic, Remote Sensing, and Water-Budget-Component data for the High Plains aquifer, 2011 (DS 777). The creation of the model grid is an important first step in developing a groundwater-flow model, because all model inputs including properties, wells, and boundary conditions are assigned to the model cells. The northern High Plains groundwater-flow model boundary feature dataset contains three feature classes; the model grid cells for the northern High Plains groundwater-flow model in both polygon (cell) and point (centroid) format and the external boundary of the model. The model grid contains 449,175 cells, 565 rows and 795 columns. Each cell is 1,000 feet per side. The model grid is not rotated. The external boundary includes the active and inactive areas of the model. The projection for the model grid and all feature classes in all geodatabases for this study are Albers Equal-Area Conic coordinate system, North American Datum1983.",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-96.174395"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "43.871475"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "GIF"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://water.usgs.gov/GIS/browse/ds777_ply_NHP_ModelCells.gif"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "38.465178"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-106.078685, 38.465178], [-96.174395, 38.465178], [-96.174395, 43.871475], [-106.078685, 43.871475], [-106.078685, 38.465178]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: This data set is not intended for use at larger scales than the resolution of the data set.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "contact-email",
+      "value": "gs-w-txpublic-info@usgs.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-106.078685"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2012-08-01"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2013-06-26\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "Illustration of the dataset"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although this data set has been used by the U.S. Geological Survey, U.S. Department of the Interior, no warranty expressed or implied is made by the U.S. Geological Survey as to the accuracy of the data and related materials. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the U.S. Geological Survey in the use of this data, software, or related materials. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government. Although this Federal Geographic Data Committee-compliant metadata file is intended to document the data set in nonproprietary form, this metadata file may include some vendor-specific terminology.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S.Geological Survey\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "inlandwaters, model grid, nebraska, colorado, ground water, northern high plains, kansas, groundwater-flow model, high plains aquifer, wyoming, ogallala aquifer, model cell, groundwater, south dakota, model boundary, aquifers"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "ef25cbc6-7d7a-4a4a-b7fe-e7ede880817f"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "e11eb0c1-b794-4812-9369-1bd7306336cd"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Water NSDI Node Spatial Datasets"
+    }
+  ],
+  "title": "DS-777 Spatial Location the Model Cell Boundaries for the Northern High Plains Groundwater-Flow Model in Parts of Colorado, Kansas, Nebraska, South Dakota, and Wyoming",
+  "revision_id": "2655d4fa-6d50-4500-9008-52b24c2c2067"
+}

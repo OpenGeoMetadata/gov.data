@@ -1,0 +1,248 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "COREY BETTENHAUSEN",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "corey.bettenhausen@nasa.gov",
+  "num_tags": 4,
+  "id": "07d369c9-3f08-4f68-a9db-daadfc5dd211",
+  "metadata_created": "2014-10-08T03:13:00.801822",
+  "metadata_modified": "2016-05-06T08:05:17.600803",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "07d369c9-3f08-4f68-a9db-daadfc5dd211",
+      "webstore_last_updated": null,
+      "id": "aae89952-ade8-41e4-9bfb-337ede74663e",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "SWDB_L3M05.004",
+      "format": "BIN",
+      "tracking_summary": {
+        "total": 4,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/octet-stream",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-07-08T15:21:48.583976",
+      "url": "ftp://measures.gsfc.nasa.gov/data/s4pa/DeepBlueSeaWiFS_Level3/SWDB_L3M05.004/",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "c1ce4415-90d2-40dd-96e0-a657e02d72a3",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "aerosols",
+      "id": "fd243f2a-f363-47a9-acd7-02f71055db7c",
+      "name": "aerosols"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "atmosphere",
+      "id": "104e93c2-cbec-435b-b3ba-0d6385114d41",
+      "name": "atmosphere"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "atmospheric-radiation",
+      "id": "01c7a3ac-d116-4ff3-ae9f-0b8cbec245fa",
+      "name": "atmospheric-radiation"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "earth-science",
+      "id": "f28006f8-df78-4700-b72f-f4a19628ba67",
+      "name": "earth-science"
+    }
+  ],
+  "tracking_summary": {
+    "total": 72,
+    "recent": 9
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "seawifs-deep-blue-aerosol-optical-depth-and-angstrom-exponent-monthly-level-3-data-gridded",
+  "isopen": true,
+  "url": null,
+  "notes": "The SeaWiFS Deep Blue Level 3 Monthly Product contains monthly global gridded (0.5 x 0.5 deg) data derived from SeaWiFS Deep Blue Level 3 daily gridded data. \n\nThe primary data parameters are aerosol optical thickness, Angstrom exponent, and single scattering albedo.\n\n(The Shortname for this product is SWDB_L3M05).\n\nParameters contained in the SeaWiFS Deep Blue (SWDB) data files include the following:\n\naerosol_optical_thickness_550_land | aerosol optical thickness estimated at 550 nm over land | (unitless)\naerosol_optical_thickness_550_land_ocean | aerosol optical thickness estimated at 550 nm over land and ocean | (unitless)\naerosol_optical_thickness_550_ocean | aerosol optical thickness estimated at 550 nm over ocean | (unitless)\naerosol_optical_thickness_land | aerosol optical thickness at 412 nm, 490 nm, and 670 nm over land  | (unitless)\naerosol_optical_thickness_ocean | aerosol optical thickness at 412 nm, 490 nm, and 670 nm over ocean | (unitless)\nangstrom_exponent_land | angstrom exponent over land as derived from aerosol optical thickness at 412 nm and 490 nm  | (unitless)\nangstrom_exponent_land_ocean | angstrom exponent over land and ocean as derived from aerosol optical thickness at 412 nm and 490 nm  | (unitless)\nangstrom_exponent_ocean | angstrom exponent over ocean as derived from aerosol optical thickness at 412 nm and 490 nm  | (unitless)\n\nEnd of parameter information",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "collection_metadata",
+      "value": "true"
+    },
+    {
+      "key": "issued",
+      "value": "2011-12-14T00:00:00.000Z"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "8358ea41273798922a9cee1e33589338e32089c5"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "temporal",
+      "value": "1997-09-01T00:00:00Z/2010-12-31T23:59:59Z"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "geospatial"
+      ]
+    },
+    {
+      "key": "spatial",
+      "value": "-180.0 -90.0 180.0 90.0"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:001"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "landingPage",
+      "value": "http://reverb.echo.nasa.gov/reverb?selected=C203692847-GSFCS4PA"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "e35e62c6-1101-470b-8e6a-0cd8ff159fa8"
+    },
+    {
+      "key": "publisher",
+      "value": "GESDISC"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "55942a75c63a7fe59b4971a1"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "U.S. Government > National Aeronautics and Space Administration > GESDISC"
+    },
+    {
+      "key": "modified",
+      "value": "2014-08-20T00:00:00.000Z"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "irregular"
+    },
+    {
+      "key": "identifier",
+      "value": "C203692847-GSFCS4PA"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "e35e62c6-1101-470b-8e6a-0cd8ff159fa8"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "SeaWiFS Deep Blue Aerosol Optical Depth and Angstrom Exponent Monthly Level 3 Data Gridded at 0.5 Degrees V004",
+  "revision_id": "fb7e201e-b645-4a89-8d93-122480c03602"
+}

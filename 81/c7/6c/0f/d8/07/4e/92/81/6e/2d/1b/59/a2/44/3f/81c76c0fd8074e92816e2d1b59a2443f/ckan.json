@@ -1,0 +1,163 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "81c76c0f-d807-4e92-816e-2d1b59a2443f",
+  "metadata_created": "2015-11-20T22:40:21.367512",
+  "metadata_modified": "2016-03-31T23:55:18.633508",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 36,
+    "recent": 8
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "Our mission is to protect human health and the environment. ",
+    "created": "2013-03-14T03:44:48.513616",
+    "title": "U.S. Environmental Protection Agency",
+    "name": "epa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://edg.epa.gov/EPALogo.svg",
+    "revision_id": "f0e4b475-7424-4ce0-9a22-412e7e595154",
+    "type": "organization",
+    "id": "6d90e48d-3076-4327-b2f4-c33919f374d5",
+    "approval_status": "approved"
+  },
+  "name": "epa-office-of-water-ow-sdwis-huc12-densities-for-public-surface-water-and-groundwater-sources",
+  "isopen": false,
+  "url": null,
+  "notes": "Public Water System location points, based on information from the Safe Drinking Water Act Information System (SDWIS/Federal) for a 2010 third quarter (SDWIS_2010Q3) baseline period, were applied to relate system latitude and longitude coordinates (LatLongs) to Watershed Boundary Dataset subwatershed polygons (HUC12s). This HUC12 table can be mapped through setting up appropriate table relationships on the attribute \"HUC_12\" with the HUC12 GIS layer that is part of EPA's Reach Address Database (RAD) Version 3. At the present time, the RAD Version 3 contains HUC12 polygons for the conterminous United States (CONUS), Hawaii, Puerto Rico, and the U.S. Virgin Islands (materials for Alaska or for other territories and dependencies are not available as of February, 2010). The records in this table are based on a special QUERY created by the EPA Office of Ground Water and Drinking Water (OGWDW) from the primary SDWIS/FED information to provide a robust point representation for a PWS system. PWS points are selected based on the following prioritization: 1. If the system has a treatment plant with LatLongs and MAD codes; 2. If the system has a treatment plant with LatLongs but without MAD codes; 3. If the system has a well with LatLongs and MAD codes; 4. If the system has a well with LatLongs but without MAD codes; 5. If the system has an intake with LatLongs and MAD codes; 6. If the system has an intake with LatLongs but without MAD codes; 7. If the system has any source with LatLongs and MAD codes; 8. If the system has any source with LatLongs but without MAD codes. Note: Public water systems and the populations served by the systems may not be located within the same HUC12 as the sources of drinking water.",
+  "owner_org": "6d90e48d-3076-4327-b2f4-c33919f374d5",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-64"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "50"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "17"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-160.0, 17.0], [-64.0, 17.0], [-64.0, 50.0], [-160.0, 50.0], [-160.0, 17.0]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "underDevelopment"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the EPA would be appreciated.\", \"Access Constraints: None.\"]"
+    },
+    {
+      "key": "licence_url",
+      "value": "https://edg.epa.gov/EPA_Data_License.htm"
+    },
+    {
+      "key": "contact-email",
+      "value": "morris.renee@epa.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-160"
+    },
+    {
+      "key": "metadata-date",
+      "value": "9999-01-01"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2011-01-01\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"https://edg.epa.gov/EPA_Data_License.htm\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \">U.S. EPA Office of Water (OW) - Office of Ground Water and Drinking Water (OGWDW)\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "ground water, drinking water, surface water"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "46f48269-5931-4f87-9f06-c43dcedef866"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "d0d72986-7693-406b-b71d-840540909711"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Environmental Dataset Gateway FGDC CSDGM"
+    }
+  ],
+  "title": "EPA Office of Water (OW): SDWIS - HUC12 Densities for Public Surface Water and Groundwater Sources",
+  "revision_id": "af6e741e-5b55-405a-a5f8-55ef213c4d07"
+}

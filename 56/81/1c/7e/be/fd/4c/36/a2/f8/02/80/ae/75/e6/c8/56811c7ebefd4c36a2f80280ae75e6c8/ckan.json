@@ -1,0 +1,238 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "56811c7e-befd-4c36-a2f8-0280ae75e6c8",
+  "metadata_created": "2015-09-26T22:42:50.024434",
+  "metadata_modified": "2015-09-26T22:42:50.024434",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "56811c7e-befd-4c36-a2f8-0280ae75e6c8",
+      "webstore_last_updated": null,
+      "id": "dec21069-bd24-4c67-8865-9e1f99e5d1f5",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 1068,
+        "recent": 15
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "7637fad9-74d3-47ef-a54a-4a6f65a6a4b0",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-09-26T18:42:50.056480",
+      "url": "http://coast.noaa.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "56811c7e-befd-4c36-a2f8-0280ae75e6c8",
+      "webstore_last_updated": null,
+      "id": "ceab24c7-46b0-47dc-92be-c332fb4078fc",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 1068,
+        "recent": 15
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "7637fad9-74d3-47ef-a54a-4a6f65a6a4b0",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-09-26T18:42:50.056501",
+      "url": "http://coast.noaa.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 6,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "2010-us-army-corps-of-engineers-usace-portland-district-columbia-river-lidar3d028",
+  "isopen": false,
+  "url": null,
+  "notes": "The Columbia River Light Detection and Ranging (LiDAR) survey project was a collaborative effort to develop detailed high density LiDAR terrain data for the US Army Corps of Engineers (USACE). The LiDAR will be used to support hydraulic modeling work associated with proposed 2014 Columbia River treaty negotiations. The dataset encompasses approximately 2836 square miles of territory in portions of Oregon, Washington, Idaho and Montana within the Columbia River drainage. This survey was under the jurisdiction of three Corps districts: Portland (CENWP), Seattle (CENWS), and Walla Walla (CENWW). CENWP was the project lead and primary contracting organization. Bare earth point data are classified as either ground (2), model key point (8) or water (9) and represent the earth's surface with all vegetation and human-made structures removed. Model key points were generated to represent the bare earth surface within a 0.07 m tolerance. Ground points (class 2) are the remaining ground points not classed as model key. Both ground and model key classes are needed for display of all bare earth points. Water classification was used for those bare earth/ground classified points that fell inside a water boundary as determined using softcopy photogrammetry with stereograms generated from LiDAR intensities. All remaining points received the default classification (1). In some areas of heavy vegetation or forest cover, there may be relatively few ground points in the LiDAR data. The RMSE of the data for open, hard-packed surfaces is 0.046 meters as assessed from 40,266 ground survey (real time kinematic) points taken on hard-packed road surfaces. This value is representative of anticipated accuracies in open, evenly sloped or flat terrain where maximum point densities were achieved. The project was completed for the US Army Corps of Engineers, Portland District, to support hydraulic modeling related to the ACOE Columbia River Treaty project. Data acquisition, bare earth processing, and development of final tiled LiDAR deliverables and DEM's was performed by Watershed Sciences, Inc. Overall project management, photogrammetric quality control review using LiDAR stereograms, water delineation and breakline development was performed by David C. Smith & Associates, Inc. Professional Surveyor oversight of ground control data, ground control data processing and ground control publication was performed by David Evans and Associates, Inc. Final quality control review in ArcGIS of all final deliverables, including preparation of point density rasters and reach based geo-databases incorporating all deliverables, was performed by CC Patterson and Associates. NOTE ON DATUM ISSUES: All ground control and subsequent LiDAR data deliverables were developed and delivered at NAD '83 CORS 96 horizontal and NAVD '88 Geoid '09 vertical datums as processed in OPUS-DB. Due to limitations in the transformations supported by ESRI, NAD '83 and NAVD '88 datums were temporarily assigned to the ESRI deliverables and ESRI .prj file even though the actual coordinate values in the data files are at the original NAD '83 CORS 96 and NAVD '88 Geoid '09 datums. In many instances, a temporary assignment of NAD '83 HARN or HPGN may better approximate local conditions. Plain NAD '83 was used for the primary deliverable in order to avoid any implication of higher precision; however, the user may want to evaluate other approximations for specific applications. At such time as ESRI includes support for NAD '83 CORS '96, the temporary NAD '83 assignment in the .prj file should be replaced with NAD '83 CORS '96 without further reprojection. The NOAA Coastal Services Center has converted the data to ellipsoid heights (using Geoid09) and NAD 83 geographic coordinates for data storage and Digital Coast provisioning purposes.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-113.941400"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "49.004158"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "kmz"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.csc.maps:2010_OR_USACE_Columbia_River_m1122"
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "ftp://ftp.csc.noaa.gov/pub/crs/beachmap/qa_docs/or/usace_columbia_river/USACE_2010_Columbia_River_Lidar.kmz"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": "urn:ogc:def:crs:EPSG::4269"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-124.125759, 44.77523], [-113.9414, 44.77523], [-113.9414, 49.004158], [-124.125759, 49.004158], [-124.125759, 44.77523]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2009-11-16"
+    },
+    {
+      "key": "contact-email",
+      "value": "jacob.macdonald@usace.army.mil"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-124.125759"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2013-01-22"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2012-03-01\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "This kmz file shows the extent of coverage for the 2010 USACE Columbia River lidar data set."
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "licence",
+      "value": "[\"These data depict the elevations at the time of the survey and are only accurate for that time. Users should be aware that\\n            temporal changes may have occurred since this data set was collected and some parts of this data may no longer represent actual surface\\n            conditions. Users should not use this data for critical applications without a full awareness of its limitations. Any conclusions drawn\\n            from analysis of this information are not the responsibility of NOAA or any of its partners. These data are NOT to be used for navigational purposes.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"US Army Corps of Engineers, Portland District\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2010-07-02"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "44.775230"
+    },
+    {
+      "key": "tags",
+      "value": "bare ground, u.s. army corps of engineers, columbia river, digital terrain model, bare earth, montana, topography, elevation data, washington, pacific northwest, lidar, united states, light detection and ranging, bathymetry/topography, dem, dtm, oregon, high-resolution, utm zones 10n and 11n, idaho"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "33f2cd8f-0787-4d24-8fff-d8d9614bc9d5"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "2010 US Army Corps of Engineers (USACE) Portland District Columbia River Lidar",
+  "revision_id": "7637fad9-74d3-47ef-a54a-4a6f65a6a4b0"
+}

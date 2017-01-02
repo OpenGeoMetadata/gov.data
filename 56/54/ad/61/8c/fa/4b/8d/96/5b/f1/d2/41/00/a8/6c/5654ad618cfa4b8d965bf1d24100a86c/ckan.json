@@ -1,0 +1,214 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Tom Grohowski",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "Thomas.Grohowski2@va.gov",
+  "num_tags": 7,
+  "id": "5654ad61-8cfa-4b8d-965b-f1d24100a86c",
+  "metadata_created": "2015-03-11T17:52:01.538216",
+  "metadata_modified": "2015-10-08T21:49:56.441208",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "archive",
+      "id": "b9a18f3c-9406-4dcd-b502-eb6fc34ff58a",
+      "name": "archive"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "capacity",
+      "id": "5b7c51b7-6182-4ee7-9067-9bc76ac52a9b",
+      "name": "capacity"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "computer",
+      "id": "fbfbef89-5053-4c11-93c0-b8221680505f",
+      "name": "computer"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "purge",
+      "id": "53f66fbc-e82e-4611-813c-67c05a14063a",
+      "name": "purge"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "va",
+      "id": "5c740e0c-4cbe-421a-a4d4-b0c59ba3986b",
+      "name": "va"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "veteran",
+      "id": "7561bea1-6f6c-4e42-96cc-7a5271ea4f8c",
+      "name": "veteran"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "vista",
+      "id": "9690af20-f679-4c43-98a7-22d2c39c7b5d",
+      "name": "vista"
+    }
+  ],
+  "tracking_summary": {
+    "total": 49,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:11.529883",
+    "title": "Department of Veterans Affairs",
+    "name": "va-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/va.png",
+    "revision_id": "7c651ccc-eb67-439e-82dd-1ae7fff33f63",
+    "type": "organization",
+    "id": "ff9ae098-eccc-41d8-bfcd-5e8ed047db05",
+    "approval_status": "approved"
+  },
+  "name": "capacity-management-database-cmd-9405b",
+  "isopen": true,
+  "url": null,
+  "notes": "The Capacity Management Database (CMD) is designed to track computer resource usage of the computer hardware running Veterans Health Information Systems and Technology Architecture (VistA). Information derived from CMD is used to assess the impact of planned new software products, identify the ramifications of archiving and purging of existing data, recognize emerging problems through database analysis, and validate sizing model expectations. Data for CMD is captured from all VistA systems in real time. Accumulated data is processed at each site and the results are transmitted to CMD using MailMan messages. Data can be added to CMD daily, along with the monthly updates. On a monthly basis, reports are sent to the Chief Information Officers (CIOs) of the Veterans Integrated Service Networks (VISNs) and Veterans Affairs Medical Center (VAMC) CIOs to allow review of the system's performance and identify future problems (e.g., lack of available disk space). IT personnel can access the database through the VA's intranet (http://vaww.oed.portal.va.gov/engineering/testing/CP/default.aspx) for comparison of their system with other sites. The users of CMD include the VA Office of Information & Technology, VISN CIOs, and facility CIO staff.",
+  "owner_org": "ff9ae098-eccc-41d8-bfcd-5e8ed047db05",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "e868f753-9395-4666-a30c-219334a64c6b"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "7ba0361c65545bb80e941eba74890b128fd2d4a0"
+    },
+    {
+      "key": "temporal",
+      "value": "1992-01-01/2013-12-31"
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "VA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "029:078"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "029:40"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "non-public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "92d4f3e5-5f45-4bb4-9413-d52058bb3323"
+    },
+    {
+      "key": "publisher",
+      "value": "Department of Veterans Affairs"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "rights",
+      "value": "Contains only VA statistical computer system operational data.  Contains no Health Insurance Portability and Accountability Act or protected health information."
+    },
+    {
+      "key": "modified",
+      "value": "2015-05-06"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "VA-OIT-SDE-09"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "92d4f3e5-5f45-4bb4-9413-d52058bb3323"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "e868f753-9395-4666-a30c-219334a64c6b"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "VA JSON"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "Capacity Management Database (CMD)",
+  "revision_id": "a86a4779-c03c-4d97-a642-1d1f43fb6c17"
+}

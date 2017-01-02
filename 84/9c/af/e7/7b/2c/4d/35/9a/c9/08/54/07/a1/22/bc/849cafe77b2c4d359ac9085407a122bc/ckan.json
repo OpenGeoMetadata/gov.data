@@ -1,0 +1,225 @@
+{
+  "license_title": "Creative Commons CCZero",
+  "maintainer": "Loretta Simbartl",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "loretta.simbartl2@va.gov",
+  "num_tags": 8,
+  "id": "849cafe7-7b2c-4d35-9ac9-085407a122bc",
+  "metadata_created": "2015-02-26T17:04:38.519108",
+  "metadata_modified": "2015-10-08T21:50:01.927331",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "disease",
+      "id": "349da0a6-402d-464c-a59a-9438ed389825",
+      "name": "disease"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "emerging",
+      "id": "d418f89a-ef80-459e-be1b-b96a66005388",
+      "name": "emerging"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "infectious",
+      "id": "06e7a2a9-db54-42e7-a5fb-ec9681f2e63b",
+      "name": "infectious"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "pathogen",
+      "id": "b40e0e76-f89c-4242-925e-aa04ac3a6168",
+      "name": "pathogen"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "patient",
+      "id": "84651278-c505-44da-a3b6-6115676c70ff",
+      "name": "patient"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "sas",
+      "id": "370edeff-4eae-4875-aa76-420203783c14",
+      "name": "sas"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "va",
+      "id": "5c740e0c-4cbe-421a-a4d4-b0c59ba3986b",
+      "name": "va"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "veteran",
+      "id": "7561bea1-6f6c-4e42-96cc-7a5271ea4f8c",
+      "name": "veteran"
+    }
+  ],
+  "tracking_summary": {
+    "total": 79,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-zero",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:11.529883",
+    "title": "Department of Veterans Affairs",
+    "name": "va-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/va.png",
+    "revision_id": "7c651ccc-eb67-439e-82dd-1ae7fff33f63",
+    "type": "organization",
+    "id": "ff9ae098-eccc-41d8-bfcd-5e8ed047db05",
+    "approval_status": "approved"
+  },
+  "name": "emerging-pathogens-initiative-epi",
+  "isopen": true,
+  "url": null,
+  "notes": "The Emerging Pathogens Initiative (EPI) database contains emerging pathogens information from the local Veterans Affairs Medical Centers (VAMCs). The EPI software package allows the VA to track emerging pathogens on the national level without additional data entry at the local level. The results from aggregation of data can be shared with the appropriate public health authorities including non-VA and the private health care sector allowing national planning, formulation of intervention strategies, and resource allocations. EPI is designed to automatically collect data on emerging diseases for Veterans Affairs Central Office (VACO) to analyze. The data is sent to the Austin Information Technology Center (AITC) from all Veterans Health Information Systems and Technology Architecture (VistA) systems for initial processing and combination with related workload data. VACO data retrieval and analysis is then carried out. The AITC creates two file structures both in Statistical Analysis Software (SAS) file format, which are used as a source of data for the Veterans Affairs Headquarters (VAHQ) Infectious Diseases Program Office. These files are manipulated and used for analysis and reporting by the National Infectious Diseases Service. Emerging Pathogens (as characterized by VACO) act as triggers for data acquisition activities in the automated program. The system retrieves relevant, predetermined, patient-specific information in the form of a Health Level Seven (HL7) message that is transmitted to the central data repository at the AITC. Once at that location, the data is converted to a SAS dataset for analysis by the VACO National Infectious Diseases Service. Before data transmission an Emerging Pathogens Verification Report is produced for the local sites to review, verify, and make corrections as needed. After data transmission to the AITC it is added to the EPI database.",
+  "owner_org": "ff9ae098-eccc-41d8-bfcd-5e8ed047db05",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "e868f753-9395-4666-a30c-219334a64c6b"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2013-12-30"
+    },
+    {
+      "key": "source_hash",
+      "value": "c3086076531d9ed285391af50898515cf986839f"
+    },
+    {
+      "key": "temporal",
+      "value": "1998-01-01/2014-12-31"
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "VA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "029:041"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "029:15"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "non-public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d6d3bdd4-8fa9-4744-ab8a-9000809b895e"
+    },
+    {
+      "key": "publisher",
+      "value": "Department of Veterans Affairs"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "key": "rights",
+      "value": "Health Insurance Portability and Accountability Act, protected health information."
+    },
+    {
+      "key": "systemOfRecords",
+      "value": "http://www.gpo.gov/fdsys/pkg/FR-2012-05-11/pdf/2012-11487.pdf"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "VA-VHA-PCS-007"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d6d3bdd4-8fa9-4744-ab8a-9000809b895e"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "e868f753-9395-4666-a30c-219334a64c6b"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "VA JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-zero",
+  "title": "Emerging Pathogens Initiative (EPI)",
+  "revision_id": "d55e6baa-1410-4f26-b583-b802de6bacfd"
+}

@@ -1,0 +1,205 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "Derek Parks",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "Derek.Parks@noaa.gov",
+  "num_tags": 8,
+  "id": "7813c8c8-a7b9-4b1c-bb64-cdc0702541a1",
+  "metadata_created": "2014-08-28T20:21:31.713774",
+  "metadata_modified": "2014-08-28T20:21:31.713774",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "7813c8c8-a7b9-4b1c-bb64-cdc0702541a1",
+      "webstore_last_updated": null,
+      "id": "d6e25b15-caf3-4745-9faa-4395a4ebf8cd",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 4,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-08-28T16:21:32.148210",
+      "url": "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=3&p=1&f=G&l=50&d=PTXT&S1=6753807&OS=6753807&RS=6753807",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "7686e614-48c4-4d2a-ae45-ab61b17a62ac",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "channel",
+      "id": "a6a953d9-adc0-4b24-9ccb-ff8ddd10fdbe",
+      "name": "channel"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "combiner",
+      "id": "794cd298-6c92-47a6-8539-2fbb09d5235a",
+      "name": "combiner"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "divider",
+      "id": "57a5afd0-6ccb-46e4-9780-2bfc2a80566e",
+      "name": "divider"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "gysel",
+      "id": "2b6b8cec-35f8-4f9c-88a4-7b3f8eb6283f",
+      "name": "gysel"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "microwave",
+      "id": "311a21d3-5b4a-4520-ae6c-eea163651d25",
+      "name": "microwave"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "power",
+      "id": "eb008bfb-077a-445c-b461-3f704b8e22b1",
+      "name": "power"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "rf",
+      "id": "aeed78eb-792d-4049-b63a-a7f98262480c",
+      "name": "rf"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "temperature",
+      "id": "43703fee-ad58-4a94-aef7-4e903e93eb62",
+      "name": "temperature"
+    }
+  ],
+  "tracking_summary": {
+    "total": 23,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "combination-n-way-power-divider-combiner-and-noninvasive-reflected-power-detection",
+  "isopen": false,
+  "url": null,
+  "notes": "An N-way RF/microwave power divider/combiner utilizes one input and N outputs, or conversely N inputs and one output to divide (or combine) RF/microwave power while simultaneously and non-invasively measuring reflected power present due to mismatched loads or other failed components. The Gysel divider/combiner technique is used with the addition of N temperature measuring devices placed directly on the N isolation loads separated from the main divider/combiner lines. Because of high isolation between the N channels of the divider/combiner, the temperature above ambient of each isolation load is strongly correlated to the amount of power reflected back to an output port. The temperature is sensed external to the RF circuit whereby a measure of reflected power can be made without the use of invasive directional-coupler techniques. This is highly advantageous since directional-coupler techniques would increase the insertion-loss, cost, and complexity of the divider/combiner.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Department of Commerce"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "32bb7250-22a0-47b3-97f2-bc8ac2fcd631"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2014-06-24"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA json"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "006:48"
+      ]
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "006:000"
+      ]
+    },
+    {
+      "key": "identifier",
+      "value": "TT-000046"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "4960eda9-fbd2-4b59-b88a-4f4556544614"
+    },
+    {
+      "key": "source_hash",
+      "value": "0e499165679eafcaa310ae0b4fa43fb872564c2a"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "4960eda9-fbd2-4b59-b88a-4f4556544614"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "32bb7250-22a0-47b3-97f2-bc8ac2fcd631"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA Patents Json"
+    }
+  ],
+  "title": "Combination N-Way Power Divider/Combiner and Noninvasive Reflected Power Detection",
+  "revision_id": "7686e614-48c4-4d2a-ae45-ab61b17a62ac"
+}

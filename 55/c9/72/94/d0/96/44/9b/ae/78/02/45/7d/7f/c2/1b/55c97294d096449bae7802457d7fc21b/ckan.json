@@ -1,0 +1,230 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "55c97294-d096-449b-ae78-02457d7fc21b",
+  "metadata_created": "2014-09-16T23:48:16.323880",
+  "metadata_modified": "2014-11-17T21:12:06.188802",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "55c97294-d096-449b-ae78-02457d7fc21b",
+      "webstore_last_updated": null,
+      "id": "444ed22b-fb72-46fe-8903-1525548f995d",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "PhosphorusMap.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 4,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "ca304a71-c8b7-4fcf-879e-3b94224eff3d",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2014-11-17T16:12:06.307965",
+      "url": "http://water.usgs.gov/GIS/dsdl/PhosphorusMap.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "55c97294-d096-449b-ae78-02457d7fc21b",
+      "webstore_last_updated": null,
+      "id": "b2c32971-7132-4083-ba47-1e3ea03aa5e2",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Raster Digital Data Set",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "ca304a71-c8b7-4fcf-879e-3b94224eff3d",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-11-17T16:12:06.307985",
+      "url": "http://water.usgs.gov/lookup/getspatial?pmapnatl",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 33,
+    "recent": 4
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "watershed-potential-to-contribute-phosphorus-from-geologic-materials-to-receiving-streams-conte",
+  "isopen": false,
+  "url": null,
+  "notes": "This spatial data layer is a cell-based Raster model characterizing the contribution of phosphorus (P) to streams from weathering and erosion of surficial geologic materials for the conterminous United States, and has been created as part of the SPARROW (Spatially Referenced Regressions on Watershed Attributes) water-quality model implementation. SPARROW provides estimates of total nitrogen and phosphorus load in surface waters from point and non-point sources. This data set represents only potential for P contributions, and does not include N. The characterization of contribution of P from geologic materials will help separate the effects of natural or background sources from anthropogenic sources of P, such as from municipal wastewater or agricultural practices. The potential of a watershed to contribute P from naturally occurring geologic materials in the watershed to the adjacent receiving stream is characterized using geochemical data from bed-sediment samples (USGS National Geochemical Survey, National Uranium Resource Evaluation (NURE), Smith 1979) collected from first-order streams in relatively undisturbed watersheds. Bed sediment samples were collected from 1975 through 1980. The bed-sediment phosphorus concentrations (BSPconc) in this data set represent BSPconc in the absence of anthropogenic sources and therefore spatial variation in BSPconc can be used to indicate spatial variation in the potential to contribute naturally occurring P from the geologic materials in the watershed to the stream. A continuous mapped distribution of BSPconc in headwater streams for the conterminous U.S. was prepared by summarizing BSPconc from 50,740 bed-sediment samples by geologic unit using regional-scale geologic map units (GMU's). The GMU's delineate areas with similar lithochemistry based on geologic age as well as ecoregion units. GMUâs were created by combining surficial geology (Hunt, Charles D., 1979) with Level IV Ecoregion units (U.S. Environmental Protection Agency 2011). This data set represents the mean BSPconc value for each GMU. The spatial pattern of BSPconc in headwater streams is offered as a data layer, representing best available information at the regional scale, with the caveat that its performance as a surrogate for contribution of P from watershed geologic materials to in-stream levels of P is weakened by not accounting for variability across headwater streams in the rates of net deposition and processing of P in the streambed.",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-65.334157352"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "50.591453065"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "jpg"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://water.usgs.gov/GIS/browse/PMapThumb.jpg"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "22.894343093"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-127.900289121, 22.894343093], [-65.334157352, 22.894343093], [-65.334157352, 50.591453065], [-127.900289121, 50.591453065], [-127.900289121, 22.894343093]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "contact-email",
+      "value": "mrnardi@usgs.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-127.900289121"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2014-09-09"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2014-09-30\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "Illustration of data set"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although these data have been processed successfully on a computer system at the USGS, no warranty expressed or implied is made by the USGS regarding the use of the data on any other system, nor does the act of distribution constitute any such warranty. Data may have been compiled from various outside sources. Spatial information may not meet National Map Accuracy Standards. This information may be updated without notification. The USGS shall not be liable for any activity involving these data, installation, fitness of the data for a particular purpose, its use, or analyses results. \\nAny use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.\\nAlthough this Federal Geographic Data Committee-compliant metadata file is intended to document the data set in nonproprietary form, as well as in ArcInfo format, this metadata file may include some ArcInfo-specific terminology.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Geological Survey\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "conterminous united states, surficial geology, sparrow model, eco regions, streams, bed sediment, phosphorus"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "cfa35a4e-ea27-40ef-b693-e3dcf0d897a5"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "e11eb0c1-b794-4812-9369-1bd7306336cd"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Water NSDI Node Spatial Datasets"
+    }
+  ],
+  "title": "Watershed Potential to Contribute Phosphorus from Geologic Materials to Receiving Streams, Conterminous United States",
+  "revision_id": "0b71af29-1222-476d-b31b-a04967823d93"
+}

@@ -1,0 +1,233 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Jack Bates",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "Jack.Bates@va.gov",
+  "num_tags": 8,
+  "id": "7330dafc-6f58-4c1f-986b-61e0f54c2542",
+  "metadata_created": "2016-02-20T15:07:50.861641",
+  "metadata_modified": "2016-02-20T15:07:50.861641",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "assets",
+      "id": "d6ab7346-a59f-48e7-af6b-6ecfa5a84317",
+      "name": "assets"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "category-stock-number",
+      "id": "d560f646-65e9-41f9-aa38-21418b0215c5",
+      "name": "category-stock-number"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "csn",
+      "id": "d99535e4-845e-45ee-aa5a-1ac36fa1590e",
+      "name": "csn"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "debt-score",
+      "id": "f7772dc3-5d9d-4a61-9293-73090fa52ff8",
+      "name": "debt-score"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "equipment",
+      "id": "4099899d-cab2-49b6-8f20-b4e2e056167d",
+      "name": "equipment"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "it",
+      "id": "7efc4e73-4491-4e62-836b-238a23d3c11f",
+      "name": "it"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "it-dashboard",
+      "id": "7b4f6ed1-b4ee-42c7-98c6-776448afa06d",
+      "name": "it-dashboard"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "va",
+      "id": "5c740e0c-4cbe-421a-a4d4-b0c59ba3986b",
+      "name": "va"
+    }
+  ],
+  "tracking_summary": {
+    "total": 17,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:11.529883",
+    "title": "Department of Veterans Affairs",
+    "name": "va-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/va.png",
+    "revision_id": "7c651ccc-eb67-439e-82dd-1ae7fff33f63",
+    "type": "organization",
+    "id": "ff9ae098-eccc-41d8-bfcd-5e8ed047db05",
+    "approval_status": "approved"
+  },
+  "name": "it-performance-dashboard-it-assets-and-debt-score-dashboard",
+  "isopen": true,
+  "url": null,
+  "notes": "The IT Performance Dashboard is a trusted source for IT performance information across VA. This is available only on the VA intranet.  The dashboard is a collection of information from Regions, VISNs, Facilities, and other VA offices across a range of departments within the Office of Information & Technology (OIT)ï¿½from Product Development and Information Security to Human Resources to Finance. It presents often-complex information in easy-to-understand dashboard reports.\r\nCurrently, you can see performance reports relating to Customer Service, Service Level Agreements (SLAs), Systems, Monthly Performance Reports (MPR), IT Assets and Debt Score, Human Resources, and Network/Security. There is also a Facility CIO Center tab where you can see Quarterly Performance Reviews, an OIT Daily Brief tab where you can access OIT Daily Brief Reports, and a Product Delivery tab that takes you to the PMAS Dashboard. As the IT Performance Dashboard continues to evolve, you will be able to see a broader range of performance information ï¿½ including custom reports, upon request.\r\nThis page displays the IT Assets and Debt Score Dashboard.\r\nIT Debt Score by Region:  This report displays the amount of funding required (debt) to replace aged assets displayed by Region and provides a way to identify upcoming assets approaching the end of their useful life expectancy for upcoming Fiscal Years. The debt is equal to the amount of forecasted funding that will be required to replace the assets within the new Fiscal Year. The system shall present a running cumulative total of asset debt when presenting the debt score totals from Fiscal Year to Fiscal Year. Clicking on any of the bars on the chart denoting Regions will enable the user to drill down and view the Network and Facility level data.\r\nIT Debt Score by Equipment Type:  This report displays the amount of funding required (debt) to replace aged assets displayed by Equipment Type and provides a way to identify upcoming assets approaching the end of their useful life expectancy for upcoming Fiscal Years. The debt is equal to the amount of forecasted funding that will be required to replace the assets within the new Fiscal Year. The system shall present a running cumulative total of asset debt when presenting the debt score totals from Fiscal Year to Fiscal Year. Clicking on any of the bars on the chart denoting Equipment Types will enable the user to drill down and view the Category Stock Number (CSN) level data.\r\nIT Debt Score by Fiscal Year:  This report displays the amount of funding required (debt) to replace aged assets displayed by Fiscal Year and provides a way to identify upcoming assets approaching the end of their useful life expectancy for upcoming Fiscal Years. The debt is equal to the amount of forecasted funding that will be required to replace the assets within the new Fiscal Year. The system shall present a running cumulative total of asset debt when presenting the debt score totals from Fiscal Year to Fiscal Year.\r\nCSN Validation:  This report displays a comparison of the 70 Federal Grouping (Discontinued) Category Stock Numbers (CSNs) against the newer replacement CSNs into which assets have been moved. The data displayed is based on the last 8 data loads from the current system date. Clicking on any of the bars on the chart denoting Regions will enable the user to drill down and view the Network and Facility level data.\r\nRecatalogued CSNs: This report displays a comparison of recatalogued Category Stock Numbers (CSNs) against one another over time by viewing data according to the last 8 data loads from the current system date. Clicking on any of the bars on the chart denoting Regions will enable the user to drill down and view the Network and Facility level data. For more information about how data is collected and forecasted for each quarter, please click the ï¿½Learn More About This Reportï¿½ icon on the report title bar.",
+  "owner_org": "ff9ae098-eccc-41d8-bfcd-5e8ed047db05",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "e868f753-9395-4666-a30c-219334a64c6b"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "bb81b64441e369ce8e719fcd42ea2e93d96f62a5"
+    },
+    {
+      "key": "accessLevel",
+      "value": "non-public"
+    },
+    {
+      "key": "temporal",
+      "value": "2013-08-01/2020-08-31"
+    },
+    {
+      "key": "spatial",
+      "value": "VA Enterprise Wide"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "describedBy",
+      "value": "http://vaww.itdashboard.cdw.portal.va.gov/Pages/newGlossary.aspx?link=Glossary"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "VA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "029:078"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "029:40"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://vaww.itdashboard.cdw.portal.va.gov/Pages/"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "ccda7438-a1a5-4aa8-8b7d-17b6145d20e5"
+    },
+    {
+      "key": "publisher",
+      "value": "Department of Veterans Affairs"
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "rights",
+      "value": "The IT Dashboard is only available on the VA Intranet site and  is only accessible by VA employees who have a LAN account."
+    },
+    {
+      "key": "modified",
+      "value": "2015-05-06"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/PT1S"
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "VA-OIT-SDE-05"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "ccda7438-a1a5-4aa8-8b7d-17b6145d20e5"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "e868f753-9395-4666-a30c-219334a64c6b"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "VA JSON"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "IT Performance Dashboard:  IT Assets and Debt Score Dashboard",
+  "revision_id": "60154a2b-a5df-43d4-8662-173277a42dca"
+}

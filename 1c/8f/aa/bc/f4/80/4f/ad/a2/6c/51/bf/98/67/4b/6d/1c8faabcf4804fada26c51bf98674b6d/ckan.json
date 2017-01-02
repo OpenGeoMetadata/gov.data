@@ -1,0 +1,244 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "PLEASE CONTACT GES DISC HELP DESK SUPPORT GROUP",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "help-disc@listserv.gsfc.nasa.gov",
+  "num_tags": 4,
+  "id": "1c8faabc-f480-4fad-a26c-51bf98674b6d",
+  "metadata_created": "2014-10-08T03:08:43.532508",
+  "metadata_modified": "2016-05-06T07:59:24.057659",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "1c8faabc-f480-4fad-a26c-51bf98674b6d",
+      "webstore_last_updated": null,
+      "id": "d86a84d6-98ea-456e-b1c6-45b49d642575",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "README.MERRA.pdf",
+      "format": "BIN",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/octet-stream",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-07-08T15:17:36.370590",
+      "url": "ftp://goldsmr2.sci.gsfc.nasa.gov/data/s4pa/AtrainMERRA/MAT1NXRAD_CPR.5.2.0/doc/README.MERRA.pdf",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "4b0158ea-2539-40a8-9462-059cd73f192a",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "atmosphere",
+      "id": "104e93c2-cbec-435b-b3ba-0d6385114d41",
+      "name": "atmosphere"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "atmospheric-radiation",
+      "id": "01c7a3ac-d116-4ff3-ae9f-0b8cbec245fa",
+      "name": "atmospheric-radiation"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "clouds",
+      "id": "62fdab6c-a596-4390-8b5e-36252fa7921b",
+      "name": "clouds"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "earth-science",
+      "id": "f28006f8-df78-4700-b72f-f4a19628ba67",
+      "name": "earth-science"
+    }
+  ],
+  "tracking_summary": {
+    "total": 4,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "merra-iau-2d-surface-and-toa-radiation-fluxes-subsetted-along-cloudsat-track-v5-2-0",
+  "isopen": true,
+  "url": null,
+  "notes": "This is the MERRA IAU 2d surface and TOA radiation fluxes subset, collocated with the CloudSat track. The subset is processed at the Modeling and Assimilation Data and Information Services Center (MDISC) of the GES DISC, NASA. The algorithm first calculates coordinates along the CloudSat ground track as well as coordinates orthogonal to the CloudSat ground track to produce a swath co-instantiated with actual CloudSat coverage. The algorithm proceeds to extract the closest MERRA grid cell at each point within the co-instantiated swath and writes the output subset in HDF-EOS swath-format, one subset for each time stride for 24 subsets per day. The swath has an along-track temporal resolution of 10 seconds and an across-track spatial resolution of 0.25 degrees. With 9 across-track bins, the resulting coverage is about 200km wide.\n\nAll original parameters are preserved in the subset. As it is collocated with CloudSat, the subset is automatically collocated with CALIPSO as well.",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "collection_metadata",
+      "value": "true"
+    },
+    {
+      "key": "issued",
+      "value": "2009-11-13T00:00:00.000Z"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "bda520e413b56df65145c0c54243af485aeb9013"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "temporal",
+      "value": "R/2006-06-02T00:00:00Z/P1Y"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "geospatial"
+      ]
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:001"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "landingPage",
+      "value": "http://reverb.echo.nasa.gov/reverb?selected=C183276807-GSFCS4PA"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "7cd787c2-6d25-494d-9b66-58998021cb17"
+    },
+    {
+      "key": "publisher",
+      "value": "GESDISC"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "55942a6bc63a7fe59b496a41"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "U.S. Government > National Aeronautics and Space Administration > GESDISC"
+    },
+    {
+      "key": "modified",
+      "value": "2011-05-13T00:00:00.000Z"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "irregular"
+    },
+    {
+      "key": "identifier",
+      "value": "C183276807-GSFCS4PA"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "7cd787c2-6d25-494d-9b66-58998021cb17"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "MERRA IAU 2d surface and TOA radiation fluxes subsetted along CloudSat track V5.2.0",
+  "revision_id": "928adee3-8e39-4d46-9e59-0cc4fcb36eb5"
+}

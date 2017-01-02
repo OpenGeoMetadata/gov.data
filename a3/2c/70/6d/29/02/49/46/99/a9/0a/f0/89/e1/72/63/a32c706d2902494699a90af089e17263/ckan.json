@@ -1,0 +1,200 @@
+{
+  "license_title": "License not specified",
+  "maintainer": "Open Data (MGMT)",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "edmo@hq.dhs.gov",
+  "num_tags": 5,
+  "id": "a32c706d-2902-4946-99a9-0af089e17263",
+  "metadata_created": "2016-05-27T02:33:00.370876",
+  "metadata_modified": "2016-05-27T02:33:00.370876",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "a32c706d-2902-4946-99a9-0af089e17263",
+      "webstore_last_updated": null,
+      "id": "84e0fc0f-4be2-4f26-8461-c3ef21cafa1d",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 574,
+        "recent": 47
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-05-26T22:33:00.659189",
+      "url": "https://hifld-dhs-gii.opendata.arcgis.com/",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "a276900d-1dd1-4e27-8c54-b2161282903b",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geospatial",
+      "id": "a4243fe5-7437-4077-a369-d17bb543e6f2",
+      "name": "geospatial"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "imagery",
+      "id": "97aa96c3-cc35-4805-919d-d8954bd222d6",
+      "name": "imagery"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "infrastructure",
+      "id": "23924944-4d8d-40de-ad57-58e2cceb86cc",
+      "name": "infrastructure"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "location",
+      "id": "cb9360ae-de97-4ea4-8906-3951aa79fe4b",
+      "name": "location"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "map",
+      "id": "4b25baf2-c254-4949-8996-e9c3895fa2b6",
+      "name": "map"
+    }
+  ],
+  "tracking_summary": {
+    "total": 36,
+    "recent": 5
+  },
+  "groups": [
+
+  ],
+  "license_id": "notspecified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:49:45.283358",
+    "title": "Department of Homeland Security",
+    "name": "dhs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/dhs.png",
+    "revision_id": "fb44c14e-9b55-46b9-b355-d465242171bb",
+    "type": "organization",
+    "id": "05d603ec-9121-4f71-b09e-5d5b5a7efc64",
+    "approval_status": "approved"
+  },
+  "name": "private-non-retail-shipping-facilities",
+  "isopen": false,
+  "url": null,
+  "notes": "Private Non-Retail Shipping in the United States. The Private Non-Retail Shipping layer contains motor carrier freight terminals for some of largest trucking companies in the U.S. (as measured by revenue reported by the Bureau of Transportation Statistics). Entities from the following companies are included> United Parcel Service (UPS) > Yellow Freight System > Schneider > Roadway Express > FedEx > Con-Way Transportation > ABF Freight System > DHL > Corporate headquarters and other locations that do not actually handle freight are not included. No data could be obtained for Consolidated Freightways, Ryder Integrated Logistics, RPS and J.B. Hunt Transport Services. Facilities associated with these companies are not included in this dataset even though these companies have more annual revenue that some of the companies that are represented in this dataset. Many smaller, but still significant, companies have been excluded due to resource constraints. Examples include United Van Lines, Overnite Transportation, and American Freightways. Rail, air, sea, pipeline and inter-modal terminals are not included unless they are operated by one of the companies represented in this dataset. Facilities associated with the United States Postal Service (USPS) are not included. This dataset does not include retail shipping stores, drop boxes, and transportation operations that are not operated for hire. No entities located in American Samoa, The Northern Mariana Islands or the Virgin Islands are included in this dataset. The companies represented in this dataset are involved in the parcel delivery / courier service business or the freight service provider business. Parcel delivery / courier services deliver parcels, packages and other small shipments that typically weight less than 100 pounds according to the Bureau of Transportation Statistics. A freight service provider can include motor carriers, for-hire carriers and freight forwarders. According to the United Shippers Corporation, a motor carrier is defined as a company that provides truck transportation. A for-hire carrier is defined as a company that provides truck transportation of cargo belonging to others and is paid for doing so. A freight forwarder is defined as a company that arranges for truck transportation of cargo belonging to others, utilizing for-hire carriers to provide the actual truck transportation. The forwarder does assume the responsibility for the cargo from origin to destination and usually does take possession of the cargo at some point during the transportation. Forwarders typically assemble and consolidate less-than-truckload shipments into truckload shipments at origin and disassemble and deliver less-than-truckload shipments at destination. The intention of TGS is to include only those entities that meet the above definition. TGS was not able to contact all of the entities in this layer to verify that they met this definition, therefore some entities may be included in this layer that do not meet the definition. Text fields in this dataset have been set to all upper case to facilitate consistent database engine search results. All diacritics (e.g. the German umlaut or the Spanish tilde) have been replaced with their closest equivalent English character to facilitate use with database systems that may not support diacritics. The currentness of this dataset is indicated by the [CONTDATE] attribute. Based upon this attribute the oldest record dates from 09/08/2006 and the newest record dates from 10/03/2006.",
+  "owner_org": "05d603ec-9121-4f71-b09e-5d5b5a7efc64",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Under Secretary / Management"
+    },
+    {
+      "key": "identifier",
+      "value": "2664"
+    },
+    {
+      "key": "accessLevelComment",
+      "value": "United States, Puerto Rico, Guam"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "bd9faa28-bbb6-45f3-a4f0-d302a4a61802"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2016-05-19"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "DHS datajson source"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "024:003"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "024:10"
+      ]
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "645df6e8-cfad-4717-ae1d-a355189e5ba7"
+    },
+    {
+      "key": "source_hash",
+      "value": "899ecb16a46f23af6259afb09ba89d9dbddd7b8a"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "645df6e8-cfad-4717-ae1d-a355189e5ba7"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "bd9faa28-bbb6-45f3-a4f0-d302a4a61802"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "DHS datajson source"
+    }
+  ],
+  "title": "Private Non-Retail Shipping Facilities",
+  "revision_id": "a276900d-1dd1-4e27-8c54-b2161282903b"
+}

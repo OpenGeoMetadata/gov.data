@@ -1,0 +1,246 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "68243156-41d2-4afd-ba45-a6c65e75a1d9",
+  "metadata_created": "2016-09-27T11:42:13.211786",
+  "metadata_modified": "2016-09-27T11:42:13.211786",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "68243156-41d2-4afd-ba45-a6c65e75a1d9",
+      "webstore_last_updated": null,
+      "id": "ae04da47-5400-418c-a179-2c41f79a89ad",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "HydroNHD Large-scale Map Service (ArcGIS)",
+      "created": "2016-09-27T07:42:13.816823",
+      "url": "http://services.nationalmap.gov/arcgis/rest/services/USGSHydroNHDLarge/MapServer",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "338e5626-5c0b-425e-b901-30eb66849c0a",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "68243156-41d2-4afd-ba45-a6c65e75a1d9",
+      "webstore_last_updated": null,
+      "id": "3fe9a41c-fee4-4846-bec5-8e60c8bdf146",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "WMS",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "HydroNHD Large-scale Map Service (OGC WMS)",
+      "created": "2016-09-27T07:42:13.816864",
+      "url": "http://services.nationalmap.gov/arcgis/services/USGSHydroNHDLarge/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "338e5626-5c0b-425e-b901-30eb66849c0a",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "68243156-41d2-4afd-ba45-a6c65e75a1d9",
+      "webstore_last_updated": null,
+      "id": "2a8c0056-ef72-4575-a8fa-59b86bd221ce",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 145,
+        "recent": 24
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "338e5626-5c0b-425e-b901-30eb66849c0a",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-09-27T07:42:13.816873",
+      "url": "http://viewer.nationalmap.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 3,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "usgs-hydronhd-large-scale-base-map-service-from-the-national-map",
+  "isopen": false,
+  "url": null,
+  "notes": "The National Hydrography Dataset (NHD) is a comprehensive set of digital spatial data that encodes information about naturally occurring and constructed bodies of surface water (lakes, ponds, and reservoirs), paths through which water flows (canals, ditches, streams, and rivers), and related entities such as point features (springs, wells, stream gages, and dams). The information encoded about these features includes classification and other characteristics, delineation, geographic name, position and related measures, a \"reach code\" through which other information can be related to the NHD, and the direction of water flow. The network of reach codes delineating water and transported material flow allows users to trace movement in upstream and downstream directions. In addition to this geographic information, the dataset contains metadata that supports the exchange of future updates and improvements to the data. The NHD is available nationwide in two seamless datasets, one based on 1:24,000-scale maps and referred to as high resolution NHD, and the other based on 1:100,000-scale maps and referred to as medium resolution NHD. Additional selected areas in the United States are available based on larger scales, such as 1:5,000-scale or greater, and referred to as local resolution NHD. The NHD supports many applications, such as making maps, geocoding observations, flow modeling, data maintenance, and stewardship. For additional information, go to http://nhd.usgs.gov.",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Geological Survey, National Geospatial Technical Operations Center\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "tnm_help@usgs.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-179.1666667"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-09-26"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2016-01-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "180"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "71.5"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "17.625"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although these data have been processed successfully on a computer system at the\\n            U.S. Geological Survey, no warranty expressed or implied is made regarding the accuracy\\n            or utility of the data on any other system or for general or scientific purposes, nor\\n            shall the act of distribution constitute any such warranty. This disclaimer applies both\\n            to individual use of the data and aggregate use with other data. It is strongly\\n            recommended that these data are directly acquired from a U.S. Geological Survey server,\\n            and not indirectly through other sources which may have changed the data in some way. It\\n            is also strongly recommended that careful attention be paid to the contents of the\\n            metadata file associated with these data. The U.S. Geological Survey shall not be held\\n            liable for improper or incorrect use of the data described and/or contained\\n            herein.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-179.1666667, 17.625], [180.0, 17.625], [180.0, 71.5], [-179.1666667, 71.5], [-179.1666667, 17.625]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None. Acknowledgement of the originating agencies would be appreciated in products derived from these data.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "tags",
+      "value": "nhd, united states, streams, map, national hydrography dataset, ngda, lakes, us, rivers, water, wbd, national geospatial data asset, water inland theme, watershed boundary dataset, the national map, base map service, usgs"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "dc50d7df-a394-4e9e-9df7-bcd24607a91b"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "bdd6b833-e5ff-4c23-9991-daadaec906e0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Base Map Services in The National Map"
+    }
+  ],
+  "title": "USGS HydroNHD Large-scale Base Map Service from The National Map",
+  "revision_id": "338e5626-5c0b-425e-b901-30eb66849c0a"
+}

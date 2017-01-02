@@ -1,0 +1,682 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "0ac6f1b8-0261-4d0c-bf2c-563a3eddb33d",
+  "metadata_created": "2015-09-27T02:59:49.933200",
+  "metadata_modified": "2016-05-31T08:33:56.811029",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "0ac6f1b8-0261-4d0c-bf2c-563a3eddb33d",
+      "webstore_last_updated": null,
+      "id": "b5c91fb4-3f16-44e5-afe5-b6015b56b5c9",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "This dataset provides a high quality Climate Data Record (CDR) of aerosol optical thickness (AOT). As a high quality climate data record, this dataset can be used for climate model evaluation as well as air pollution and climate assessment.",
+      "format": "XML",
+      "tracking_summary": {
+        "total": 4,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "AVHRR Aerosol Optical Thickness Landing Page",
+      "created": "2016-05-31T04:33:57.275765",
+      "url": "http://dx.doi.org/10.7289/V5SB43PD",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "23d41fa6-94c3-4632-9d69-cbc738bb5e5c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "0ac6f1b8-0261-4d0c-bf2c-563a3eddb33d",
+      "webstore_last_updated": null,
+      "id": "91bf134b-11ff-4802-9b07-1fa3488a3787",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Direct FTP download of NetCDF files",
+      "format": "XML",
+      "tracking_summary": {
+        "total": 23,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "FTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FTP Download for AVHRR-AOT data",
+      "created": "2016-05-31T04:33:57.275813",
+      "url": "ftp://eclipse.ncdc.noaa.gov/pub/cdr/avhrr-aot-v2/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "23d41fa6-94c3-4632-9d69-cbc738bb5e5c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "0ac6f1b8-0261-4d0c-bf2c-563a3eddb33d",
+      "webstore_last_updated": null,
+      "id": "dd6f845a-b991-4146-a1a6-a8bde9312199",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Information on the NOAA CDR Program and data.",
+      "format": "",
+      "tracking_summary": {
+        "total": 36,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA Climate Data Record Program",
+      "created": "2016-05-31T04:33:57.275839",
+      "url": "http://www.ncdc.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "23d41fa6-94c3-4632-9d69-cbc738bb5e5c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "0ac6f1b8-0261-4d0c-bf2c-563a3eddb33d",
+      "webstore_last_updated": null,
+      "id": "30001936-8cc3-44b9-8353-07df72726a88",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Access to the published CDR data, source code, and documentation",
+      "format": "",
+      "tracking_summary": {
+        "total": 23,
+        "recent": 3
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Operational Climate Data Records in the NOAA CDR Program",
+      "created": "2016-05-31T04:33:57.275858",
+      "url": "https://www.ncdc.noaa.gov/cdr",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 3,
+      "revision_id": "23d41fa6-94c3-4632-9d69-cbc738bb5e5c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "0ac6f1b8-0261-4d0c-bf2c-563a3eddb33d",
+      "webstore_last_updated": null,
+      "id": "b33e32db-3591-4a32-a2d3-3391fd380959",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-05-31T04:33:57.275868",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 4,
+      "revision_id": "23d41fa6-94c3-4632-9d69-cbc738bb5e5c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "0ac6f1b8-0261-4d0c-bf2c-563a3eddb33d",
+      "webstore_last_updated": null,
+      "id": "9b4aca8f-3394-46f7-bf77-b96c3e0acd34",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "GCOS Essential Climate Variables",
+      "format": "",
+      "tracking_summary": {
+        "total": 146,
+        "recent": 3
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "GCOS Essential Climate Variables",
+      "created": "2016-05-31T04:33:57.275876",
+      "url": "http://www.wmo.int/pages/prog/gcos/index.php?name=EssentialClimateVariables",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 5,
+      "revision_id": "23d41fa6-94c3-4632-9d69-cbc738bb5e5c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "0ac6f1b8-0261-4d0c-bf2c-563a3eddb33d",
+      "webstore_last_updated": null,
+      "id": "b982244a-ef5d-42ef-ae16-c957aabad133",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Instructions and examples for ISO keywords.",
+      "format": "",
+      "tracking_summary": {
+        "total": 64,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA NOAA Environmental Data Management Wiki: MD Keywords",
+      "created": "2016-05-31T04:33:57.275884",
+      "url": "https://geo-ide.noaa.gov/wiki/index.php?title=MD_Keywords",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 6,
+      "revision_id": "23d41fa6-94c3-4632-9d69-cbc738bb5e5c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "0ac6f1b8-0261-4d0c-bf2c-563a3eddb33d",
+      "webstore_last_updated": null,
+      "id": "9ab0636e-8647-43f3-8dbd-9d3e11ed7ac8",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Instructions and examples for ISO keywords.",
+      "format": "",
+      "tracking_summary": {
+        "total": 64,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA NOAA Environmental Data Management Wiki: MD Keywords",
+      "created": "2016-05-31T04:33:57.275892",
+      "url": "https://geo-ide.noaa.gov/wiki/index.php?title=MD_Keywords",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 7,
+      "revision_id": "23d41fa6-94c3-4632-9d69-cbc738bb5e5c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "0ac6f1b8-0261-4d0c-bf2c-563a3eddb33d",
+      "webstore_last_updated": null,
+      "id": "a783e282-e791-4178-87a1-2d17b676e552",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-05-31T04:33:57.275900",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 8,
+      "revision_id": "23d41fa6-94c3-4632-9d69-cbc738bb5e5c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "0ac6f1b8-0261-4d0c-bf2c-563a3eddb33d",
+      "webstore_last_updated": null,
+      "id": "a785f548-317c-4f98-a6be-732411584058",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-05-31T04:33:57.275908",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 9,
+      "revision_id": "23d41fa6-94c3-4632-9d69-cbc738bb5e5c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "0ac6f1b8-0261-4d0c-bf2c-563a3eddb33d",
+      "webstore_last_updated": null,
+      "id": "027bd9b4-6798-4fe8-877c-b88e3d2768ba",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-05-31T04:33:57.275916",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 10,
+      "revision_id": "23d41fa6-94c3-4632-9d69-cbc738bb5e5c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "0ac6f1b8-0261-4d0c-bf2c-563a3eddb33d",
+      "webstore_last_updated": null,
+      "id": "c4ef7a40-06d4-4fe3-9d4d-767bfac01f3e",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-05-31T04:33:57.275924",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 11,
+      "revision_id": "23d41fa6-94c3-4632-9d69-cbc738bb5e5c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "0ac6f1b8-0261-4d0c-bf2c-563a3eddb33d",
+      "webstore_last_updated": null,
+      "id": "75ff24a2-625a-4626-ab90-926bd1314c85",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-05-31T04:33:57.275933",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 12,
+      "revision_id": "23d41fa6-94c3-4632-9d69-cbc738bb5e5c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "0ac6f1b8-0261-4d0c-bf2c-563a3eddb33d",
+      "webstore_last_updated": null,
+      "id": "f29212e7-74e5-4804-a9be-f08242bd5076",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Zhao, T. X.-P., P. K. Chan, and A. K. Heidinger (2013), A global survey of the effect of cloud contamination on the aerosol optical thickness and its long-term trend derived from operational AVHRR satellite observations, J. Geophys. Res. Atmos., 118, 2849-2857, doi:10.1002/jgrd.50278.",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "A global survey of the effect of cloud contamination on the aerosol optical thickness and its long-term trend derived from operational AVHRR satellite observations (Science Paper)",
+      "created": "2016-05-31T04:33:57.275941",
+      "url": "http://dx.doi.org/DOI:10.1002/jgrd.50278",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 13,
+      "revision_id": "23d41fa6-94c3-4632-9d69-cbc738bb5e5c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "0ac6f1b8-0261-4d0c-bf2c-563a3eddb33d",
+      "webstore_last_updated": null,
+      "id": "c611060f-37bf-4cc1-8e5e-f01dbad1d3d9",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "P. K. Chan, X.-P. Zhao, and A. K. Heidinger, \"Long-Term Aerosol Climate Data Record Derived from Operational AVHRR Satellite Observations,\" Dataset Papers in Geosciences, vol. 2013, Article ID 140791, 5 pages, 2013. doi:10.7167/2013/140791",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Long-Term Aerosol Climate Data Record Derived from Operational AVHRR Satellite Observations (Science Paper)",
+      "created": "2016-05-31T04:33:57.275949",
+      "url": "http://dx.doi.org/10.7167/2013/140791",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 14,
+      "revision_id": "23d41fa6-94c3-4632-9d69-cbc738bb5e5c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "0ac6f1b8-0261-4d0c-bf2c-563a3eddb33d",
+      "webstore_last_updated": null,
+      "id": "6ee2ecb2-d066-4ce1-a657-48b709c17473",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "A brief description of the dataset is available.",
+      "format": "PDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Overview of the AVHRR Aerosol Optical Thickness CDR",
+      "created": "2016-05-31T04:33:57.275957",
+      "url": "http://www1.ncdc.noaa.gov/pub/data/sds/cdr/flyers/CDR_Flyer_Aerosol_Optical_Thickness.pdf",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 15,
+      "revision_id": "23d41fa6-94c3-4632-9d69-cbc738bb5e5c",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "0ac6f1b8-0261-4d0c-bf2c-563a3eddb33d",
+      "webstore_last_updated": null,
+      "id": "4558731e-a966-46ee-bd48-92a303a98a9b",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "Version 1 of the dataset has been superseded by a newer version. Users should not use version 1 except in rare cases (e.g., when reproducing previous studies that used version 1).",
+      "format": "",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA Climate Data Record (CDR) of AVHRR Daily and Monthly Aerosol Optical Thickness over Global Oceans, Version 1.0 Landing Page",
+      "created": "2016-05-31T04:33:57.275965",
+      "url": "http://gis.ncdc.noaa.gov/all-records/catalog/search/resource/details.page?id=gov.noaa.ncdc:C00802",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 16,
+      "revision_id": "23d41fa6-94c3-4632-9d69-cbc738bb5e5c",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 17,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 79,
+    "recent": 6
+  },
+  "groups": [
+    {
+      "display_name": "Climate",
+      "description": "",
+      "image_display_url": "",
+      "title": "Climate",
+      "id": "aa0c01c9-d292-4dc1-8fec-b10c1bb629a9",
+      "name": "climate5434"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "noaa-climate-data-record-cdr-of-avhrr-daily-and-monthly-aerosol-optical-thickness-over-global-o",
+  "isopen": false,
+  "url": null,
+  "notes": "This NOAA Climate Data Record (CDR) of Aerosol Optical Thickness (AOT) is derived from data taken over global oceans from the PATMOS-x AVHRR level-2b channel 1 (0.63 micron) orbital clear-sky radiance. The retrieval is performed for selected spatial (8-km) and temporal (1 time per day) resolution in cloud free condition during daytime over global oceans. The AVHRR AOT CDR version 2 extends from 1981 to 2009 and includes both daily and monthly data in an equal angle grid (0.1x0.1 degree). Version 2 has improved cloud screening and data processing from version 1. Due to the relatively large uncertainties associated with surface reflectance over water glint area and land surface as well as limited AVHRR retrieval channels, the current algorithm only performs retrieval over non-glint water surface (specifically at the anti-solar side of the orbit and viewing angle is larger than 40 degree away from the specular ray).",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "180.0"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "90.0"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "PNG"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.ncdc:C00858"
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://www1.ncdc.noaa.gov/pub/data/metadata/images/C00858.PNG"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "__category_tag_aa0c01c9-d292-4dc1-8fec-b10c1bb629a9",
+      "value": "[\"Transportation\",\"Physical Data\"]"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-180.0, -90.0], [180.0, -90.0], [180.0, 90.0], [-180.0, 90.0], [-180.0, -90.0]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Users must cite this dataset as: Xuepeng Zhao, Pui Chan, and NOAA CDR Program (2014): NOAA Climate Data Record (CDR) of AVHRR Daily and Monthly Aerosol Optical Thickness over Global Oceans, Version 2.0. [indicate subset used]. NOAA National Centers for Environmental Information. doi:10.7289/V5SB43PD [access date].\", \"NCEI cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NCEI makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty. NCEI can only certify that the data it distributes are an authentic copy of the records that were accepted for inclusion in the NCEI archives.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "1981-01-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "avhrr_aot_contacts@noaa.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-180.0"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-05-05"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2014-05-19\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "AVHRR AOT monthly file example"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"For a complete description of use limitations for this CDR, see Section 6, Assumptions and Limitations, in the respective Algorithm Theoretical Basis Document.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2009-12-31"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "-90.0"
+    },
+    {
+      "key": "tags",
+      "value": "advanced very high resolution radiometer, noaa-18, atmosphere, noaa-19, noaa-11, noaa-12, avhrr-3, avhrr-2, noaa-16, noaa-17, doc/noaa/nesdis/ncei, h : 50 km - < 100 km or approximately .5 degree - < 1 degree, global ocean, national oceanic & atmospheric administration-9, advanced very high resolution radiometer-3, advanced very high resolution radiometer-2, doc/noaa/nesdis/ncdc, national oceanic & atmospheric administration-7, noaa poes, national climatic data center, nesdis, noaa, u.s. department of commerce, satellite, national centers for environmental information, nesdis, noaa, u.s. department of commerce, aerosol optical depth/thickness, noaa-14, noaa-15, national oceanic & atmospheric administration-15, national oceanic & atmospheric administration-14, avhrr, national oceanic & atmospheric administration-16, national oceanic & atmospheric administration-11, noaa-7, national oceanic & atmospheric administration-12, geographic region, noaa-9, national oceanic & atmospheric administration-19, national oceanic & atmospheric administration-18, aerosols, national oceanic & atmospheric administration-17, noaa polar orbiting environmental satellites, atmospheric - composition - aerosol properties, noaa climate data record (cdr) program"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "773c4f83-fdbf-4316-a2a5-f7bef699ddb3"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "NOAA Climate Data Record (CDR) of AVHRR Daily and Monthly Aerosol Optical Thickness over Global Oceans, Version 2.0",
+  "revision_id": "bde4d7a0-4640-4844-b4b8-cd68b60bbb29"
+}

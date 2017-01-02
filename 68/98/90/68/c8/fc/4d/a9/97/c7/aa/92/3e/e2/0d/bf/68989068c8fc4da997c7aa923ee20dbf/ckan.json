@@ -1,0 +1,238 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "68989068-c8fc-4da9-97c7-aa923ee20dbf",
+  "metadata_created": "2015-09-26T23:01:56.310430",
+  "metadata_modified": "2015-09-26T23:01:56.310430",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "68989068-c8fc-4da9-97c7-aa923ee20dbf",
+      "webstore_last_updated": null,
+      "id": "070f0d87-3bd1-4b89-babb-37ddd0c495a9",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 1068,
+        "recent": 15
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "7571dd55-0afe-4731-b260-a10ca29b3b0d",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-09-26T19:01:56.355192",
+      "url": "http://coast.noaa.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "68989068-c8fc-4da9-97c7-aa923ee20dbf",
+      "webstore_last_updated": null,
+      "id": "69e78266-346e-4eb1-a8af-caafd1271f6c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 1068,
+        "recent": 15
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "7571dd55-0afe-4731-b260-a10ca29b3b0d",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-09-26T19:01:56.355220",
+      "url": "http://coast.noaa.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 3,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "2010-2011-us-army-corps-of-engineers-usace-joint-airborne-lidar-bathymetry-technical-center-of-f5788",
+  "isopen": false,
+  "url": null,
+  "notes": "These files contain topographic and bathymetric lidar data collected with the Leica ALS60 (topo) and SHOALS-1000T (bathy) systems along the coasts of Oregon and Washington. Data coverage generally extends along the coastline from the waterline inland 500 meters and offshore 1000 meters or to laser extinction. The ALS60 topographic lidar sensor has a pulse repetition rate of 200 kHz at 1064 nm. The bathymetric lidar was collected by the SHOALS-1000T system along the coast. The SHOALS system has a pulse repetition rate of 1 kHz at 532 nm (green wavelength). Native lidar data is not generally in a format accessible to most Geographical Information Systems (GIS). Specialized in-house and commercial software packages are used to process the native lidar data into 3-dimensional positions that can be imported into GIS software for visualization and further analysis. Horizontal positions, provided in decimal degrees of latitude and longitude, were referenced to the North American Datum of 1983 (NAD83). Vertical positions were referenced to the NAD83 ellipsoid and provided in meters. The National Geodetic Survey's (NGS) GEOID09 model was used to transform the vertical positions from ellipsoid to orthometric heights referenced to the North American Vertical Datum of 1988 (NAVD88). The NOAA Coastal Services Center received the data and converted the topo and hydro files from orthometric heights to ellipsoid heights using GEOID09. These files were converted for data storage and Digital Coast provisioning purposes. The data are classified and available from the NOAA Digital Coast as follows: Unclassified = -1 Ground = 2 Water = 9 Bathymetry = 11 Overlap = 12 Listed below are the specific dates of collection for different parts of this data set: 2010 Oregon (Coos, Curry, and Douglas Counties) Bathymetry: Date of collection: 20100618-20100702 2010-2011 Oregon (Curry County) Bathymetry: Date of collection: 20100702-20110608 2010 Oregon (Coos, Douglas, and Lane Counties) Bathymetry Date of collection: 20100618-20100705 2010 Oregon (Coos and Curry Counties) Topography: Date of collection: 20100713 2010 Oregon (Coos and Douglas Counties) Topography: Date of collection: 20100714 2010 Washington Topography: Date of collection: 20100813 2011 Oregon (Curry County) Topography: Date of collection: 20110610",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-123.928959"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "48.402893"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "kmz"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.csc.maps:file:2009_11_USACE_OR_WA_m1381"
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "ftp://csc.noaa.gov/pub/DigitalCoast/lidar1_z/geoid12a/data/1381/supplemental/2010-2011_USACE_Topobathy_Lidar_Washington_and_Oregon_Coasts.kmz"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": "urn:ogc:def:crs:EPSG::4269"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-124.766602, 41.999017], [-123.928959, 41.999017], [-123.928959, 48.402893], [-124.766602, 48.402893], [-124.766602, 41.999017]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2010-06-18"
+    },
+    {
+      "key": "contact-email",
+      "value": "JALBTCX@usace.army.mil"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-124.766602"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2014-03-14"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2012-09-01\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "This graphic shows the lidar coverage for the coasts of Oregon and Washington."
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"These data depict the elevations at the time of the survey and are only accurate for that time. Users should be aware that\\n            temporal changes may have occurred since this data set was collected and some parts of this data may no longer represent actual surface\\n            conditions. Users should not use this data for critical applications without a full awareness of its limitations. Any conclusions drawn\\n            from analysis of this information are not the responsibility of NOAA or any of its partners. These data are NOT to be used for navigational purposes.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"US Army Corps of Engineers (USACE) Joint Airborne Lidar Bathymetry Technical Center of eXpertise (JALBTCX)\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2011-06-10"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "41.999017"
+    },
+    {
+      "key": "tags",
+      "value": "united states, topography, topography/bathymetry, 2011, land use, oceans, washington, oregon, lidar, unclassified las, als60, pacific, 2010, u.s. army corps of engineers, mobile district, jalbtcx"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "56b593b6-0972-47e9-ad9c-f26a9ba0eb53"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "2010-2011 US Army Corps of Engineers (USACE) Joint Airborne Lidar Bathymetry Technical Center of Expertise (JALBTCX) Topobathy Lidar: Oregon and Washington",
+  "revision_id": "7571dd55-0afe-4731-b260-a10ca29b3b0d"
+}

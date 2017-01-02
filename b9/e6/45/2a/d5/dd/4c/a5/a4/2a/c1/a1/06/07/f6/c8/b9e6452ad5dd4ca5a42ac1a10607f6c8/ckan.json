@@ -1,0 +1,398 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "b9e6452a-d5dd-4ca5-a42a-c1a10607f6c8",
+  "metadata_created": "2016-07-25T21:02:16.259043",
+  "metadata_modified": "2016-10-19T20:28:28.840032",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "b9e6452a-d5dd-4ca5-a42a-c1a10607f6c8",
+      "webstore_last_updated": null,
+      "id": "e384d552-67be-458b-ae8f-bfab2da016c1",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard LAS html interface for selecting data from this dataset. ",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "LAS",
+      "created": "2016-10-19T16:28:29.109633",
+      "url": "http://ferret.pmel.noaa.gov/geoideLAS/getUI.do?data_url=http://www.esrl.noaa.gov/psd/thredds/dodsC/Datasets/coads/1degree/equatorial/enh/uspeh.mean_day.nc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "a6312c6e-15be-4e98-ac28-b10f69744f21",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9e6452a-d5dd-4ca5-a42a-c1a10607f6c8",
+      "webstore_last_updated": null,
+      "id": "4f1382ad-4238-410a-9f46-0d6f1ca2d894",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard ERDDAP html interface for selecting data from this dataset. ",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ERDDAP",
+      "created": "2016-10-19T16:28:29.109658",
+      "url": "http://upwell.pfeg.noaa.gov/erddap/search/index.html?searchFor=http://www.esrl.noaa.gov/psd/thredds/dodsC/Datasets/coads/1degree/equatorial/enh/uspeh.mean_day.nc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "a6312c6e-15be-4e98-ac28-b10f69744f21",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9e6452a-d5dd-4ca5-a42a-c1a10607f6c8",
+      "webstore_last_updated": null,
+      "id": "2c31f8b3-aac6-4610-bf6c-357e144c6a9b",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard OPeNDAP html interface for selecting data from this dataset. Change the extension to .info for a description of the dataset.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "File Information",
+      "created": "2016-10-19T16:28:29.109668",
+      "url": "http://www.esrl.noaa.gov/psd/thredds/dodsC/Datasets/coads/1degree/equatorial/enh/uspeh.mean_day.nc.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "a6312c6e-15be-4e98-ac28-b10f69744f21",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9e6452a-d5dd-4ca5-a42a-c1a10607f6c8",
+      "webstore_last_updated": null,
+      "id": "ea9ffd6c-f744-40e1-84a3-7ee7cfec660e",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "mapDigital",
+      "hash": "",
+      "description": "This URL provides an NCDC climate and weather toolkit view of an OPeNDAP resource.",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Viewer Information",
+      "created": "2016-10-19T16:28:29.109675",
+      "url": "http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://www.esrl.noaa.gov/psd/thredds/dodsC/Datasets/coads/1degree/equatorial/enh/uspeh.mean_day.nc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 3,
+      "revision_id": "a6312c6e-15be-4e98-ac28-b10f69744f21",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9e6452a-d5dd-4ca5-a42a-c1a10607f6c8",
+      "webstore_last_updated": null,
+      "id": "96819117-b252-4f94-9586-e4e616a6b350",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "The UAF project is providing this catalog as a public service to aid in the discovery and access of scientific data.  The UAF is not responsible for the content of the data and all questions regarding the data should be directed to the office where the data reside.",
+      "format": "",
+      "tracking_summary": {
+        "total": 18,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTPS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA GEO-IDE",
+      "created": "2016-10-19T16:28:29.109683",
+      "url": "https://geo-ide.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 4,
+      "revision_id": "a6312c6e-15be-4e98-ac28-b10f69744f21",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9e6452a-d5dd-4ca5-a42a-c1a10607f6c8",
+      "webstore_last_updated": null,
+      "id": "0d6a7501-b84f-4cda-af34-ed8a5458bda0",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "THREDDS OPeNDAP",
+      "format": "NetCDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OPeNDAP",
+      "created": "2016-10-19T16:28:29.109690",
+      "url": "http://www.esrl.noaa.gov/psd/thredds/dodsC/Datasets/coads/1degree/equatorial/enh/uspeh.mean_day.nc",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 5,
+      "revision_id": "a6312c6e-15be-4e98-ac28-b10f69744f21",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9e6452a-d5dd-4ca5-a42a-c1a10607f6c8",
+      "webstore_last_updated": null,
+      "id": "f0fa591d-0a31-42ba-a0d6-212d488cfd89",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Open Geospatial Consortium Web Coverage Service (WCS)",
+      "format": "WCS",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OGC-WCS",
+      "created": "2016-10-19T16:28:29.109697",
+      "url": "http://www.esrl.noaa.gov/psd/thredds/wcs/Datasets/coads/1degree/equatorial/enh/uspeh.mean_day.nc?service=WCS&version=1.0.0&request=GetCapabilities",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 6,
+      "revision_id": "a6312c6e-15be-4e98-ac28-b10f69744f21",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9e6452a-d5dd-4ca5-a42a-c1a10607f6c8",
+      "webstore_last_updated": null,
+      "id": "4a5ae442-19c9-4bd2-9a01-aa30ae77969b",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Open Geospatial Consortium Web Map Service (WMS)",
+      "format": "WMS",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OGC-WMS",
+      "created": "2016-10-19T16:28:29.109704",
+      "url": "http://www.esrl.noaa.gov/psd/thredds/wms/Datasets/coads/1degree/equatorial/enh/uspeh.mean_day.nc?service=WMS&version=1.3.0&request=GetCapabilities",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 7,
+      "revision_id": "a6312c6e-15be-4e98-ac28-b10f69744f21",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 8,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 0,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "icoads-1-degree-equatorial-enhancedb087b",
+  "isopen": false,
+  "url": null,
+  "notes": "",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "359.5"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "10.0"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[{\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}, {\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}, {\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}]"
+    },
+    {
+      "key": "guid",
+      "value": "Datasets.coads.1degree.equatorial.enh.uspeh.mean_day.nc"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "-10.0"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[0.5, -10.0], [359.5, -10.0], [359.5, 10.0], [0.5, 10.0], [0.5, -10.0]]]}"
+    },
+    {
+      "key": "progress",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "1960-01-01T00:00:00Z"
+    },
+    {
+      "key": "contact-email",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "0.5"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-10-13"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"revision\", \"value\": \"2014-09-02T17:08:26Z\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"\", \"roles\": [\"pointOfContact\"]}, {\"name\": \"The Unified Access Framework (UAF)\", \"roles\": [\"custodian\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2014-10-01T00:00:00Z"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": "THREDDS OPeNDAP"
+    },
+    {
+      "key": "metadata-language",
+      "value": "eng"
+    },
+    {
+      "key": "tags",
+      "value": "latitude, the unified access framework: a geo-ide project to integrate scientific data management and access, unified access framework (uaf), longitude, time"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "77b3bb5a-04f4-4bf2-b86f-10af61f8aff2"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "ICOADS 1-degree Equatorial Enhanced",
+  "revision_id": "46d1517e-f615-4fde-9777-3cd3ddb7f095"
+}

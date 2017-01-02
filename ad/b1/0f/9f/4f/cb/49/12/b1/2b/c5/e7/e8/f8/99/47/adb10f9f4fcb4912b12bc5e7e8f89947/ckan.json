@@ -1,0 +1,195 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "adb10f9f-4fcb-4912-b12b-c5e7e8f89947",
+  "metadata_created": "2013-03-14T19:21:58.525874",
+  "metadata_modified": "2015-04-09T22:40:34.725026",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "adb10f9f-4fcb-4912-b12b-c5e7e8f89947",
+      "webstore_last_updated": null,
+      "id": "f2ea4ab4-7965-43b6-b2bb-c538ab88abca",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 33,
+        "recent": 3
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "ab12832d-97db-47ae-a041-1bdecfc3b4f1",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2013-03-14T20:21:58.544749",
+      "url": "http://www.ehib.org/page.jsp?page_key=20",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 73,
+    "recent": 1
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "Dedicated to optimizing the health and well-being of the people in California.",
+    "created": "2013-03-14T03:44:40.684995",
+    "title": "California Environmental Health Tracking Program",
+    "name": "cdph-ca-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.cdph.ca.gov/Style%20Library/images/heading_department.gif",
+    "revision_id": "2e6d9df7-d76d-49fe-9ae7-a29b5858a6ec",
+    "type": "organization",
+    "id": "4336fab3-e059-47af-aebe-f02711676b7b",
+    "approval_status": "approved"
+  },
+  "name": "epht-air-quality-county-pm2-5-and-ozone-indicators-2001-2006",
+  "isopen": false,
+  "url": null,
+  "notes": "The EPHT air quality indicator files are from a SAS program which calculates the air indicators as developed by CDC's Environmental Public Health Tracking (EPHT) Air Team and approved by the Content Working Group (CWG) steering committee. The indicators use EPA air quality data (from ambient air monitors) and the methodology described in the air team's indicator report. Each file contains, for each county having complete monitoring data: the year, state FIPS code (individually and combined with county FIPS), county name, county population, number of days by county above O3 benchmark (default federal NAAQS), the person-days by county above O3 benchmark (default federal NAAQS), county PM2.5 annual avarage, percent of monitored days above benchmark (default: US Federal NAAQS), and the number of person-days above benchmark (default: Federal NAAQS).",
+  "owner_org": "4336fab3-e059-47af-aebe-f02711676b7b",
+  "extras": [
+    {
+      "key": "temporal-extent-begin",
+      "value": "2001-01-01T"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2006-01-01T"
+    },
+    {
+      "key": "contact-email",
+      "value": "trackingsupport@cdc.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-124.409721"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2008-09-25"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2008-09-25\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-114.131208"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "42.009521999999997"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "32.53416"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although these data have been processed successfully on a computer system at the CDC, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data to evaluate data set limitations, restrictions or intended use. The U.S. CDC shall not be held liable for improper or incorrect use of the data described and/or contained herein.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Environmental Health Tracking Branch, CDC\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-124.409721, 32.53416], [-124.409721, 42.009522], [-114.131208, 42.009522], [-114.131208, 32.53416], [-124.409721, 32.53416]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: As general indicators of air quality over space and time. These indicators are not intended for use in performing health assessments or otherwise being directly linked (related) with health data. Acknowledgement of the EPA would be appreciated.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "tags",
+      "value": "environment, Air"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d623ad4c-00cc-4b54-aacf-3202df8f1e04"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "d8a7c4e9-17a8-402b-9a3f-7fc39f54c301"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "CEHTP Metadata Repository"
+    }
+  ],
+  "title": "EPHT air quality (county PM2.5 and Ozone) indicators, 2001-2006",
+  "revision_id": "c960e8b9-8673-4673-bb7d-96dc9786e5a4"
+}

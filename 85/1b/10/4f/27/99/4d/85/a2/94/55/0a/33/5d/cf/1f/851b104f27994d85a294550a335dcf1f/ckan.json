@@ -1,0 +1,230 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "851b104f-2799-4d85-a294-550a335dcf1f",
+  "metadata_created": "2014-09-02T23:00:43.757483",
+  "metadata_modified": "2014-11-17T21:14:28.912900",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "851b104f-2799-4d85-a294-550a335dcf1f",
+      "webstore_last_updated": null,
+      "id": "650f554b-7af8-4142-b717-0536e2049e59",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "nri_cp449.tgz",
+      "format": "TAR",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "806d96aa-0c3f-4961-9655-86527c76488b",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "TAR Compressed File",
+      "created": "2014-11-17T16:14:29.022282",
+      "url": "http://water.usgs.gov/GIS/dsdl/nri_cp449.tgz",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "851b104f-2799-4d85-a294-550a335dcf1f",
+      "webstore_last_updated": null,
+      "id": "1fbf9cef-df9d-4236-b028-23f9beef1e7b",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "806d96aa-0c3f-4961-9655-86527c76488b",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-11-17T16:14:29.022306",
+      "url": "http://water.usgs.gov/lookup/getspatial?nri92_cp449",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 6,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "irrigation-water-management-recovery-on-agricultural-land-in-the-conterminous-united-states-449",
+  "isopen": false,
+  "url": null,
+  "notes": "This data set represents the estimated percentage of the 1-km grid cell that is covered by or subject to the agricultural conservation practice (CP449), Irrigation Water Management Recovery (IWM) on agricultural land by county. Irrigation Water Management Recovery is described as \"the process of determining and controlling the volume, frequency, and application rate of irrigation water in a planned, efficient manner...to promote [a] desired crop response.\" (U.S. Department of Agriculture, 1995) This data set was created with geographic information systems (GIS) and database management tools. The acres on which IWM's are applied were totaled at the county level in the tabular NRI database and then apportioned to a raster coverage of agricultural land within the county based on the Enhanced National Land Cover Dataset (NLCDe) 1-kilometer resolution land cover grids (Nakagaki, 2003). Federal land is not considered in this analysis because NRI does not record information on those lands.",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-65.346810"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "51.608770"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "jpg"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://water.usgs.gov/GIS/browse/cp449.jpg"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "22.860749"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-127.887748, 22.860749], [-65.34681, 22.860749], [-65.34681, 51.60877], [-127.887748, 51.60877], [-127.887748, 22.860749]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: The NRI dataset is tabulated at the county level only and deemed accurate for this analysis (Nusser and Goebel, 1997). The spatial distribution of this data also assumes the NLCDe has an acceptable accuracy for this analysis (Nakagaki, 2003). Therefore this data set does not provide specific locations of a particular NRI code but the percent of county agricultural land that practices NRI code 607 over the total agricultural land in a particular county.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "contact-email",
+      "value": "mewieczo@usgs.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-127.887748"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2005-02-11"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2004-01-01\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "Illustration of data set"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although these data have been used by the U.S. Geological Survey, U.S. Department of the Interior, no warranty expressed or implied is made by the U.S. Geological Survey as to the accuracy of the data.  The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the U.S. Geological Survey in the use of these data, software, or related materials.\\nThe use of firm, trade, or brand names in this report is for identification purposes only and does not constitute endorsement by the U.S. Geological Survey.  The names mentioned in this document may be trademarks or registered trademarks of their respective trademark owners.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Geological Survey\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "inlandwaters, 1992, conterminous united states, agricultural practices, irrigation water management recovery, national resources inventory"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d27ab03e-f73e-46ac-b0e3-fc49aa650528"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "e11eb0c1-b794-4812-9369-1bd7306336cd"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Water NSDI Node Spatial Datasets"
+    }
+  ],
+  "title": "Irrigation Water Management Recovery on Agricultural Land in the Conterminous United States, 1992: National Resource Inventory Conservation Practice 449",
+  "revision_id": "02f9ad79-70dd-43cf-8208-c383d6d7188b"
+}

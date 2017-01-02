@@ -1,0 +1,202 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "56e102e5-69c4-4d3c-b325-37a5b8b9de82",
+  "metadata_created": "2016-09-03T03:41:49.163604",
+  "metadata_modified": "2016-09-03T03:41:49.163604",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "56e102e5-69c4-4d3c-b325-37a5b8b9de82",
+      "webstore_last_updated": null,
+      "id": "1331475f-56e2-4c0d-b2cd-9bfd69fc30a9",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "geospatial data",
+      "format": "ERDAS Imagine *.img format",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ERDAS Imagine *.img format",
+      "created": "2016-09-02T23:41:49.294440",
+      "url": "http://maps.vcgi.vermont.gov/gisdata/vcgi/lidar/1M/2010/DEM/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "b0597b7c-0919-4f9c-b04f-dcf52d16b1c1",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 3,
+    "recent": 2
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:41.302957",
+    "title": "Vermont Center for Geographic Information",
+    "name": "vcgi-org",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://vcgi.vermont.gov/sites/all/themes/vt_template/logo.png",
+    "revision_id": "c5dfbbb0-f1e0-4db6-b566-e932e1520060",
+    "type": "organization",
+    "id": "0c3a4ebc-9929-4f21-bdd0-76a35d52f57d",
+    "approval_status": "approved"
+  },
+  "name": "elevationdem-dem1m2010",
+  "isopen": false,
+  "url": null,
+  "notes": "This metadata applies to the following collection area(s): Essex County 2005 1m and Digital Elevation Model (DEM) datasets of various \"hydro-treatments\": *DEM, *DEMHF & *DEMHE. This metadata complies with the VT Geodata Portal format and applies to thematic layers with the same resolution (RESCLASS), e.g., 0p7m, 1m etc., and may include multiple data \"collection\" efforts. For the original vendor metadata containing specific details on each collections \"point cloud\" such as flight dates, nominal pulse spacing and RMSEz etc., see the \"All Available LiDAR\" Product page: (http://vcgi.vermont.gov/warehouse/products/ALL-LDR_MIX_LIDAR_STATE_ALL). Available DEMs vary by collection and can include the following 'hydro treatment' DEMs: 1) Elevation*_DEM_*: (\"pure\" Bare Earth) - no treatments, i.e., a bare ground surface without objects like vegetation and buildings; 2) Elevation*_DEMHF_*: (DEM Hydro-Flattened)- Cartographic/Aesthetic enhancement of (topographic) surface by removal of LiDAR artifacts in water. Constant elevation for waterbodies and suitable for contouring. Building voids remain due to cost; and 3) Elevation*_DEMHE_*: (DEM Hydro-Enforced): A (hydrologic) surface with drain connectivity used by engineers in Hydraulic and Hydrologic (H&H) modeling. NOT for traditional mapping (contours, etc.). Like DEM_HF but added Single Line Breaklines: Pipelines, Culverts, Underground Streams, etc. For an overview of the \"Vermont LiDAR Initiative\" please see \"http://vcgi.vermont.gov/lidar\".",
+  "owner_org": "0c3a4ebc-9929-4f21-bdd0-76a35d52f57d",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-71.465281"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "45.018361"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "42.722789"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-73.454162, 42.722789], [-71.465281, 42.722789], [-71.465281, 45.018361], [-73.454162, 45.018361], [-73.454162, 42.722789]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "underDevelopment"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None. No assessment of the accuracy of DEM data or data products has been made by VCGI. Data users should assess DEM data products for appropriate use in a given project.\", \"Access Constraints: VCGI and the State of VT make no representations of any kind, including but not limited to the warranties of merchantability or fitness for a particular use, nor are any such warranties to be implied with respect to the data.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2005-11-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "accd.vcgiinfo@vermont.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-73.454162"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-05-16"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2016-05-16TAs Updated.\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "unknown"
+    },
+    {
+      "key": "licence",
+      "value": "[\"VCGI and the State of Vermont make no representations of any kind, including but not limited to the warranties of merchantability or fitness for a particular use, nor are any such warranties to be implied with respect to the data.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"VT Center for Geographic Information\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2009-05-17"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "vermont, national standards for spatial digital accuracy (nssda), usa, u.s., us, united states, vt, 2016"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "674031eb-3d52-4c36-9d78-bd841d0e1f9f"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "a0d2a02b-5473-48ce-816c-8c6c6f8fabdb"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "VT Center for Geographic Information, Inc."
+    }
+  ],
+  "title": "ElevationDEM_DEM1M2010",
+  "revision_id": "b0597b7c-0919-4f9c-b04f-dcf52d16b1c1"
+}

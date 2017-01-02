@@ -1,0 +1,215 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "13a568f2-0570-427e-a969-3be70d85ba3d",
+  "metadata_created": "2013-03-15T23:01:07.743038",
+  "metadata_modified": "2015-04-09T22:03:30.217411",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "13a568f2-0570-427e-a969-3be70d85ba3d",
+      "webstore_last_updated": null,
+      "id": "aab399ec-12e8-487e-99c9-3e8dc7c1d7db",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "375",
+      "hash": "",
+      "description": "CGI_1987_Bedrock_Geology_8X11_128879_7.pdf",
+      "format": "PDF",
+      "tracking_summary": {
+        "total": 23,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Downloadable File - Michigan Bedrock Geology Map",
+      "created": "2013-03-16T00:01:07.761431",
+      "url": "http://www.michigan.gov/documents/CGI_1987_Bedrock_Geology_8X11_128879_7.pdf",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "bc3b6ec3-408d-4f28-8b99-b09c8d7d6257",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "13a568f2-0570-427e-a969-3be70d85ba3d",
+      "webstore_last_updated": null,
+      "id": "f65995c1-6b29-4893-94b3-a04105f12f48",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "375",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "More Information on Downloadable Metadata and Shapefiles",
+      "created": "2013-03-16T00:01:07.761453",
+      "url": "http://www.mcgi.state.mi.us/mgdl/?rel=ext&action=sext",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "133cf70e-1695-4a5c-8365-a5f5b4050552",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 156,
+    "recent": 1
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The Arizona Geological Survey collates and serves geological information for Arizona and other states through its partnership with other state geological surveys.",
+    "created": "2013-03-14T03:44:43.328493",
+    "title": "Arizona Geological Survey",
+    "name": "azgs-az-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.50states.com/flag/image/nunst004.gif",
+    "revision_id": "61be6428-4398-4199-a336-f3cd1e956f9b",
+    "type": "organization",
+    "id": "f3f6e1d4-64fb-4a2f-b32c-9ac0b76fe4de",
+    "approval_status": "approved"
+  },
+  "name": "bedrock-geology-of-michigan-1-500000-scale",
+  "isopen": false,
+  "url": null,
+  "notes": "Michigan Bedrock Geology. Hard copy maps of a scale 1\" = 5280' (1:63360) were digitized by the Michigan Resource Information System (MIRIS) using Microstation software. These files were cataloged by county then merged into regional files based on State Plane zones. Edge matching took place along county boundaries. Microstation design files were converted to Arc/Info coverages using the IGDS command. Coverages were cleaned and built into polygons. Arc/Info data was cross referenced with original design files using ArcView software, and check plots were produced at a scale of 1:500000. Errors were corrected using ArcTools. Coverages were re-projected to the Michigan Georef coordinate system (Oblique Mercator) using the Arc/Info PROJECT command. All three zonal coverages were combined using the UNION command, then the attribution was combined into the respective common fields. Corrections made along state plane line for zones 2 and 3 in the Lower Peninsula using ArcTools. Michigan statewide bedrock geology maps shapefiles and metadata are publically available online for download through links provided or through the Michigan Geographic Data Library at http://www.mcgi.state.mi.us/mgdl/. ",
+  "owner_org": "f3f6e1d4-64fb-4a2f-b32c-9ac0b76fe4de",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Arizona Geological Survey\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "metadata@usgin.org"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-90.38603812"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2012-05-02T17:42:59Z"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"1987-01-01T12:00:00\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-82.38965295"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "48.27935311"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "41.69331783"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-90.38603812, 41.69331783], [-90.38603812, 48.27935311], [-82.38965295, 48.27935311], [-82.38965295, 41.69331783], [-90.38603812, 41.69331783]]]}"
+    },
+    {
+      "key": "guid",
+      "value": "66bb6bbde013946035700d274f0feea7"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "Bedrock Geology, Michigan , Unit Features, Polygon, United States, Geology, GIS Data, Michigan, Geologic Unit Features, Downloadable Files"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "5d675bbd-e5ef-4b32-8268-d966156983af"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "f800beb8-4923-4e88-910f-1c6cf0078598"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "AASG geothermal data CSW"
+    }
+  ],
+  "title": "Bedrock Geology of Michigan 1:500,000-Scale",
+  "revision_id": "133cf70e-1695-4a5c-8365-a5f5b4050552"
+}

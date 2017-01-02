@@ -1,0 +1,237 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "1019d3e2-4ea7-4059-bf39-62d1e95a6fe9",
+  "metadata_created": "2016-07-04T21:18:05.114513",
+  "metadata_modified": "2016-07-04T21:18:05.114513",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "1019d3e2-4ea7-4059-bf39-62d1e95a6fe9",
+      "webstore_last_updated": null,
+      "id": "f1ce10ed-1f23-437f-93a8-4027561def1a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Information about the dataset",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Cite URL",
+      "created": "2016-07-04T17:18:05.282066",
+      "url": "http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "06a12a42-a6fd-41a8-ad75-713eac640b3f",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "1019d3e2-4ea7-4059-bf39-62d1e95a6fe9",
+      "webstore_last_updated": null,
+      "id": "f13db853-43ab-43c9-bc12-1e2c910d8933",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Thredds Data server.  Allows http, opendap, and possibly WCS and WMS downaloads.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Thredds Server",
+      "created": "2016-07-04T17:18:05.282109",
+      "url": "http://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/ncep.reanalysis/catalog.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "06a12a42-a6fd-41a8-ad75-713eac640b3f",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "1019d3e2-4ea7-4059-bf39-62d1e95a6fe9",
+      "webstore_last_updated": null,
+      "id": "1da6e97d-5055-4ef3-bf35-a2026245f594",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "FTP server.",
+      "format": "NETCDF4_CLASSIC",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FTP server",
+      "created": "2016-07-04T17:18:05.282119",
+      "url": "ftp://ftp.cdc.noaa.gov/Datasets/ncep.reanalysis",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "06a12a42-a6fd-41a8-ad75-713eac640b3f",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 4,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "ncep-ncar-reanalysis-1",
+  "isopen": false,
+  "url": null,
+  "notes": "Data is from NMC initialized reanalysis\r\n(4x/day).  It consists of most variables interpolated to\r\npressure surfaces from model (sigma) surfaces.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "temporal-extent-begin",
+      "value": "1948-01-01"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2016-06-20"
+    },
+    {
+      "key": "contact-email",
+      "value": "webmaster.psd@noaa.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-06-20"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"lastUpdate\", \"value\": \"2016-06-20\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"\", \"roles\": [\"custodian\"]}]"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://www.esrl.noaa.gov/psd/mddb2/browseGraphics/NCEP-NCAR_Reanalysis_1.png"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "ongoing"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.esrl.psd.dataset.NCEP-NCAR_Reanalysis_1"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "tags",
+      "value": "4xdaily best (4-layer) lifted index, spectral coefficients for vorticity on mulitple levels, total standard deviation of u-wind by month, monthly mean of clear sky upward shortwave flux, interannual standard deviation of water runoff by month, interannual standard deviation of v-wind by month, clear sky upward solar flux, diurnal cycle anomaly of u-wind for july, low cloud bottom pressure, 4xdaily v wind, mean daily omega, monthly mean wind speed at sigma level 0.995 from daily wind speed (from daily vector winds), daily mean total cloud cover, 4xdaily air temperature at 2 m, 4xdaily air temperature at sigma level 995, mean daily ice concentration at surface, diurnal cycle anomaly of air temperature for april, monthly mean of divergence, total interannual stardard deviation of omega, mean daily volumetric soil moisture between 0-10 cm below ground level, 4xdaily specific humidity, 4xdaily temperature between 10-200 cm below ground level, total interannual standard deviation of precipitation rate by month, 4xdaily v wind at sigma level 995, 4xdaily sensible heat net flux at surface, 4xdaily precipitation rate at surface, downward solar radiation flux, interannual stardard deviation of omega by month, mean daily sea level pressure, diurnal cycle anomaly of surface pressure for april, 4xdaily volumetric soil moisture between 0-10 cm below ground level, mean daily u-wind at 10 m, interannual standard deviation of upward solar radiation flux by month, 4xdaily u-wind, monthly mean of thickness, interannual standard deviation of specific humidity by month, 4xdaily ground heat flux at surface, total interannual standard deviation of geopotential height by month, mean daily temperature between 0-10 cm below ground level, mean daily air temperature, middle cloud bottom pressure, interannual standard deviation of skin temperature by month, 4xdaily air temperature at tropopause, diurnal cycle anomaly of geopotential height for april, interannual standard deviation of sea level pressure by month, 4xdaily clear sky upward solar flux at surface, spectral coefficients for divergence on mulitple levels, monthly mean of 10m wind speed from daily wind speed (from daily vector winds), daily mean low cloud top pressure, mean daily sst/land skin temperature, 2nd interannual eof by month of air temperature, 4xdaily u-wind at 10 m, spectral coefficients for natural log of pressure at the surface, 4xdaily minimum temperature at 2 m, mean daily v wind at sigma level 995, 4xdaily clear sky downward solar flux at surface, monthly mean of surface pressure, 4xdaily pressure at tropopause, 4xdaily volumetric soil moisture between 10-200 cm below ground level, daily mean middle cloud top pressure, accumulated daily water runoff at surface, 4xdaily maximum temperature at 2 m, interannual standard deviation of upward longwave radiation flux by month, 4xdaily momentum flux, v-component at surface, mean daily specific humidity, mean daily potential temperature at sigma level 995, 4xdaily latent heat net flux at surface, interannual standard deviation of downward solar radiation flux by month, daily mean high cloud bottom pressure, 4xdaily upward longwave radiation flux at surface, 4xdaily temperature between 0-10 cm below ground level, 4xdaily water equiv. of accum. snow depth at surface, 4xdaily sst/land skin temperature, 4xdaily geopotential height, 4xdaily u-wind at sigma level 995, mean daily air temperature at tropopause, 4xdaily downward longwave radiation flux at surface, spectral coefficients for vorticity on multiple levels, mean daily temperature at 300 cm below ground level, 4xdaily convective precipitation rate at surface, 4xdaily upward solar radiation flux at surface, 1st interannual eof by month of geopotential height, high cloud top pressure, mean daily best (4-layer) lifted index, total interannual standard deviation of relative humidity by month, total interannual standard deviation of water runoff by month, interannual standard deviation of latent heat net flux by month, monthly mean wind speed from daily wind speed (from daily vector winds), daily minimum temperature at 2 m, monthly mean of streamfunction, mean daily water equiv. of accum. snow depth at surface, total cloud cover, 4xdaily clear sky downward longwave flux at surface, 4xdaily specific humidity at 2 m, 4xdaily cloud forcing net longwave flux at surface, 4xdaily zonal gravity wave stress at surface, upward solar radiation flux, 4xdaily surface lifted index, 4xdaily v-wind at 10 m, interannual standard deviation of air temperature by month, 4xdaily water runoff at surface, mean daily specific humidity at 2 m, total interannual stardard deviation of air temperature by month, mean daily temperature between 10-200 cm below ground level, interannual standard deviation of pressure by month, mean daily pressure at tropopause, monthly intraseasonal standard deviation, monthly mean of velocity potential, high cloud bottom pressure, 1st interannual eof by month of u-wind, middle cloud top pressure, 4xdaily momentum flux, u-component at surface, 4xdaily near ir beam downward solar flux at surface, mean daily v wind, low cloud top pressure, mean daily precipitable water for entire atmosphere, total interannual standard deviation of potential evaporation rate by month, interannual standard deviation of sensible heat net flux by month, monthly mean of vorticity, 4xdaily near ir diffuse downward solar flux at surface, 4xdaily visible diffuse downward solar flux at surface, total interannual standard deviation of v-wind by month, interannual standard deviation of potential evaporation rate by month, mean daily v-wind at 10 m, 4xdaily potential evaporation rate at surface, 4xdaily potential temperature at sigma level 995, interannual standard deviation of u-wind by month, 4xdaily relative humidity at sigma level 995, 4xdaily meridional gravity wave stress at surface, monthly interannual standard deviation of geopotential height, 4xdaily cloud forcing net solar flux at surface, 4xdaily ice concentration at surface, 4xdaily relative humidity, 4xdaily air temperature, mean daily relative humidity, mean daily u-wind, interannual standard deviation of precipitation rate by month, 4xdaily surface roughness, mean daily potential evaporation rate at surface, 4xdaily omega, 4xdaily net longwave radiation flux at surface, daily mean high cloud top pressure, monthly mean of precipitable water content, clear sky upward longwave flux, 4xdaily precipitable water for entire atmosphere, 4xdaily visible beam downward solar flux at surface, interannual standard deviation of clear sky upward longwave flux by month, upward longwave radiation flux, mean daily pressure at surface, 4xdaily sea level pressure, mean daily relative humidity at sigma level 995, monthly mean of water runoff, 4xdaily downward solar radiation flux at surface, daily mean middle cloud bottom pressure, mean daily omega at sigma level 0.995, mean daily air temperature at sigma level 995, mean daily geopotential height, diurnal cycle anomaly of v-wind for april, mean daily u-wind at sigma level 995, mean daily surface lifted index, spectral coefficients for virtual temperature on multiple levels, daily maximum temperature at 2 m, 4xdaily net shortwave radiation flux at surface, monthly mean of potential temperature, diurnal cycle anomaly of precipitation rate for july, daily mean low cloud bottom pressure, land-sea mask, 4xdaily omega at sigma level 0.995, mean daily surface roughness, mean daily volumetric soil moisture between 10-200 cm below ground level, 4xdaily temperature at 300 cm below ground level, interannual standard deviation of clear sky upward shortwave flux by month"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c526702f-0a13-408c-831f-d006fc809203"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "NCEP-NCAR Reanalysis 1",
+  "revision_id": "06a12a42-a6fd-41a8-ad75-713eac640b3f"
+}

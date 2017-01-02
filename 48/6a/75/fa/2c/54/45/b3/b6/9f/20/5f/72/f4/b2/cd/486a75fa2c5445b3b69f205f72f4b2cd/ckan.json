@@ -1,0 +1,233 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "GREG KOPP",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "Greg.Kopp@lasp.colorado.edu",
+  "num_tags": 3,
+  "id": "486a75fa-2c54-45b3-b69f-205f72f4b2cd",
+  "metadata_created": "2015-07-08T20:58:42.922120",
+  "metadata_modified": "2016-05-06T08:08:05.357157",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "486a75fa-2c54-45b3-b69f-205f72f4b2cd",
+      "webstore_last_updated": null,
+      "id": "c2da2719-c5db-40e3-b82e-5bd99d3e0f7f",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "TCTE3TSI6.002",
+      "format": "BIN",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/octet-stream",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-07-08T16:58:43.051192",
+      "url": "ftp://acdisc.gsfc.nasa.gov/data/s4pa/TCTE_Level3/TCTE3TSI6.002/",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "be5b9aa9-92ae-460e-acff-c3f67ea8011f",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "earth-science",
+      "id": "f28006f8-df78-4700-b72f-f4a19628ba67",
+      "name": "earth-science"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "solar-activity",
+      "id": "05fe75b0-a0a9-4c46-b63e-45fe3f40cc6d",
+      "name": "solar-activity"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "sun-earth-interactions",
+      "id": "31819c5b-93a6-4149-bebe-a8c9d6021519",
+      "name": "sun-earth-interactions"
+    }
+  ],
+  "tracking_summary": {
+    "total": 2,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "tcte-level-3-total-solar-irradiance-6-hour-means-v002",
+  "isopen": true,
+  "url": null,
+  "notes": "The Total Solar Irradiance (TSI) Calibration Transfer Experiment (TCTE) data set TCTE3TSI6 contains 6-hour averaged total solar irradiance (a.k.a solar constant) data collected by the Total Irradiance Monitor (TIM) instrument covering the full wavelength spectrum. The data are normalized to one astronomical unit (1 AU).\n\nThe TCTE/TIM instrument measures the Total Solar Irradiance (TSI), monitoring changes in incident sunlight to the Earth's atmosphere using an ambient temperature active cavity radiometer to a designed absolute accuracy of 350 parts per million (ppm, 1 ppm=0.0001% at 1-sigma), and a precision and long-term relative accuracy of 10 ppm per year. Due to the small size of these data and to maximize ease of use to end-users, each delivered TSI product contains science results for the entire mission in an ASCII column formatted file.\n\nEarly in the mission, between Dec 2013 and May 2014, TCTE acquired daily measurements to establish good overlap with the SORCE TIM. From May 2014 to Dec 2014, the TCTE measurements were reduced to weekly, which greatly subsample the true solar variability, and thus have little value for solar research. Beginning in Jan 2015, daily obervations were resumed.\n\nRelease Notes:\n2015-04-21: Version 2 applies dark and degradation corrections to the data.\n\n2015-01-20: Version 1 is the first public release of TCTE TIM data. The Version 1 estimated absolute accuracies are 0.1% (1000 ppm) and will be improved in future versions as additional corrections are applied.",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "collection_metadata",
+      "value": "true"
+    },
+    {
+      "key": "issued",
+      "value": "2015-04-21T00:00:00.000Z"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "49824ccae552808654e21971639a021588bf596f"
+    },
+    {
+      "key": "temporal",
+      "value": "R/2013-12-13T00:00:00Z/P1Y"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "geospatial"
+      ]
+    },
+    {
+      "key": "spatial",
+      "value": "-180.0 -90.0 180.0 90.0"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:001"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "23cd22fa-06cb-4cce-b855-4ed4efaa9953"
+    },
+    {
+      "key": "publisher",
+      "value": "GESDISC"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "55942ab7c63a7fe59b49a84e"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "U.S. Government > National Aeronautics and Space Administration > GESDISC"
+    },
+    {
+      "key": "modified",
+      "value": "2015-06-11T00:00:00.000Z"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "C215611091-GSFCS4PA"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "23cd22fa-06cb-4cce-b855-4ed4efaa9953"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "TCTE Level 3 Total Solar Irradiance 6-Hour Means V002",
+  "revision_id": "be5b9aa9-92ae-460e-acff-c3f67ea8011f"
+}

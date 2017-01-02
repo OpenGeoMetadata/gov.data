@@ -1,0 +1,226 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "64460b1f-fe16-4d3a-a56c-b889719d7da9",
+  "metadata_created": "2015-09-26T23:50:52.423427",
+  "metadata_modified": "2016-05-31T07:06:33.523520",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "64460b1f-fe16-4d3a-a56c-b889719d7da9",
+      "webstore_last_updated": null,
+      "id": "60ec1959-27b7-4a4b-b3da-c00f2149ed0f",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "DE_DelawareBay.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 5,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "820f730a-5e50-4876-adab-81d31fba8b77",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2016-05-31T03:06:33.647140",
+      "url": "ftp://ftp.coast.noaa.gov/pub/benthic/Benthic_Cover_Data/DE_DelawareBay.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "64460b1f-fe16-4d3a-a56c-b889719d7da9",
+      "webstore_last_updated": null,
+      "id": "9fb79f57-556d-4ffe-af55-47bc278538cc",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 145,
+        "recent": 11
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "820f730a-5e50-4876-adab-81d31fba8b77",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-05-31T03:06:33.647165",
+      "url": "https://coast.noaa.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 14,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "delaware-river-and-upper-bay-sediment-data",
+  "isopen": false,
+  "url": null,
+  "notes": "The area of coverage consists of 192 square miles of benthic habitat mapped from 2005 to 2007 in the Delaware River and Upper Delaware Bay. The bottom sediment map was constructed by the utilization of a Roxann Seabed Classification System and extensive sediment grab samples. Data was collected in a gridded trackline configuration, with tracklines spacing of 100 meters parallel to the shoreline and 200 meters perpendicular to the shoreline.This project is an extension of the work currently being performed in Delaware waters by DNREC's Delaware Coastal Program's Delaware Bay Benthic Mapping Project.The bottom sediment point data, which has been classified according to the existing benthic mapping Roxann box plot, are converted from a number that categorizes the point according to its corresponding box (in the Roxann) into a number which reflects the sediment properties of each box in relation to one another. A ranking scale is used to allow a statistical griding scheme to interpolate between sediment data points, while minimizing erroneous sediment classifications and allowing gradational sediment deposits to be gridded. A ranking scale from 0 to 28 was used for this project, with 0 representing the finest grained classifications (fluidized clay) and 28 representing the coarsest grained classifications (dense shell material). Table 1 illustrates the distribution of sediment classifications along the ranking scale, which takes into account the relation of sediment types and grain sizes to one another using both the Wentworth Scale and Shepard's classification system. Finer grains are more similar in their deposition environments, such as clay and silts, because they reflect similar current regimes, sorting, and reworking patterns (Poppe et al., 2003). While coarse sediments are much more dissimilar to finer grains, with respect to current velocities, sorting, and winnowing, the finer grains are much more closely related in their sediment diameters that the coarser grains as you increase in Phi size and/or diameter. These account for the close clustering of coarse grained deposit descriptions at the upper end of the ranking scale, while the finer grained sediments show a gradation as you increase in the rating scale.The bottom sediment data is gridded in Surfer 8, a surface and terrain modeling program, using block kriging and a nugget effect. This statistical griding technique estimates the average value of a variable within a prescribed local area (Isaaks and Srivastava, 1989). Block kriging utilizes the existing point data values, weights the values of the data depending upon the proximity to the point being estimated, to discretize the local area into an array of estimated data value points and then averaging those individual point estimates together to get an average estimated value over the area of interest (Isaaks and Srivastava, 1989). A variogram is constructed for the data, and the resultant spatial model that is developed from the variogram is used in the block kriging surface model to more accurately interpolate the sediment data . The fitted model was a nugget effect (with an error variance of 21.8%) and a linear model (with a slope of 0.00286 and an anisotropy of 1, which represents a complete lack of spatial correlation).The accuracy of the estimation is dependent upon the grid size of the area of interpolation, the size of each cell within the grid, and the number of discretized data points that are necessary to estimate the cells within that grid spacing. The grid size that was used to interpolate the bottom sediment maps was 442 lines x 454 lines, with a cell size of 44.93 m2. The nugget effect is added to allow the griding to assume there is very little, if any, lateral correlation or trends within the bottom sediment (Isaaks and Srivastava, 1989). The nugget effect model entails a complete lack of spatial correlation; the point data values at any particular location bear no similarity even to adjacent data values (Isaaks and Srivastava, 1989). Without the nugget effect the griding would assume that you could only have a linear progression of sediment types and would insert all the sediment types along the scale between two sediment types (i.e. silty fine to medium sands and fine to medium sand with varying amounts of pebbles would be inserted between fine sand and coarse sand even though that is not what is occurring along the bottom. The sediment data is gridded with no drift for the data interpolation, also helping to minimize erroneous classifications. Sediment Classification Ranking Sediment Description 0-11-2 Clay, 2-33-44-55-66-7 Silt, 7-88-9 Sandy Silts, 9-1010-11 Fine Sand, 11-1212-13 Silty Fine to Medium Sands, 13-14 Silty Medium Sand, 14-1515-16 Fine to Medium Sand, 16-1717-18 Fine to Medium Sand with abundant shell material and/or pebbles, 18-1919-20 Coarse Sand with varying amounts of pebbles, 20-2121-2222-23 Moderate Shell Material/Sandy Pebbles, 23-2424-2525-26 Abundant Shell Material/Gravel, 26-2727-28 Dense Oyster Shell",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-75.209328"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "39.833043"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "39.154930"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-75.613208, 39.15493], [-75.209328, 39.15493], [-75.209328, 39.833043], [-75.613208, 39.833043], [-75.613208, 39.15493]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: Public Information.This data should be used for resource mapping and comparison purposes only. While every effort has been made to ensure that these data are accurate and reliable within limits of the state of the art, the State of Delaware and the Delaware Coastal program will not assume any liability for damages caused by any inaccuracies in these data, or failure in their use.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2005-01-01"
+    },
+    {
+      "key": "contact-email",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-75.613208"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-05-23"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2007-01-01\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "licence",
+      "value": "[\"NOAA manages much of the data to users of digital geographic data.NOAA is in no way condoning or endorsing the application of this data for any given purpose.It is the sole responsibility of the user to determine whether or not the data is suitable for the intended purpose.It is also the obligation of the user to apply the data in an appropriate and conscientious manner. NOAA provides no warranty,nor accepts any liability occurring from any incomplete,incorrect, or misleading data, or from any incorrect,incomplete, or misleading use of the data. Much of the data is based on and maintained with ARC/GIS software developed by the Environmental Systems Research Institute (ESRI). In addition, much of the information presented uses conventions and terms popularized by ARC/GISand its user community. NOAA in no way represents the interests of ESRI,nor acts as agents for them.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Delaware DNREC Coastal Programs\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2007-01-01"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "sediment water interface, delaware, bottom sediments, environmental monitoring, delaware river, benthic habitat, delaware river/bay, surface sediment mapping"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "20291c83-c1b2-4899-8673-6e9d5cd23a70"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Delaware River and Upper Bay Sediment Data",
+  "revision_id": "413bf66a-9fd5-43a1-bad0-85d7a0b09899"
+}

@@ -1,0 +1,218 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "ad095e3f-6839-4208-8913-15b9641997ba",
+  "metadata_created": "2015-04-25T12:21:18.998483",
+  "metadata_modified": "2016-09-09T22:59:18.784377",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "ad095e3f-6839-4208-8913-15b9641997ba",
+      "webstore_last_updated": null,
+      "id": "37599b40-81d9-400c-b401-c397aaf4af7f",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 202,
+        "recent": 5
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "eae28f28-eafd-4eab-8b54-444ff0fe0579",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-09-09T18:59:18.977945",
+      "url": "http://bios.dfg.ca.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "ad095e3f-6839-4208-8913-15b9641997ba",
+      "webstore_last_updated": null,
+      "id": "c3110339-47ec-40da-a1ea-33a2f256061a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "ds1046.zip",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "eae28f28-eafd-4eab-8b54-444ff0fe0579",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Zip File",
+      "created": "2016-09-09T18:59:18.978067",
+      "url": "ftp://ftp.dfg.ca.gov/BDB/GIS/BIOS/Public_Datasets/1000_1099/ds1046.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 5,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-19T14:05:26.054173",
+    "title": "State of California",
+    "name": "ca-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.ca.gov/images/template2012/header_ca.gov.png",
+    "revision_id": "ad94cda4-9394-44d0-9c37-573dc3c47c9a",
+    "type": "organization",
+    "id": "467d900f-8a42-452d-9906-6610dd1a767f",
+    "approval_status": "approved"
+  },
+  "name": "mountain-quail-habitat-model-for-nsnf-connectivity-cdfw-ds1046",
+  "isopen": false,
+  "url": null,
+  "notes": "The Maxent modeling algorithm was used to build the species distribution model at 270 m spatial resolution using species occurrence points and environmental layers as predictors (Phillips et al. 2006). Species occurrence points were primarily obtained from CNDDB (California Natural Diversity Database) and other CDFW sources, GBIF (Global Biodiversity Information Facility), PRBO (Point Blue Conservation Science) and Arctos museum databases. Vegetation, distance to water, elevation, and bioclimatic variables (Franklin et al. 2013) were used as predictor variables. The models were run at 270 m spatial resolution with five replications using cross-validation as a method of sample evaluation. Cross-validation involved the partitioning of the sample data into n subsets, fitting the models to n-1subsets, and testing the model on the one subset not used in fitting the model. Initial model runs showed that our models converged around 2,000 iterations and for this reason we ran all models with 2,500 maximum iterations. Maxent was implemented in R using the ‘dismo’package (Hijmans et al. 2011). Model evaluation was carried out using the ‘PresenceAbsence’package in R (Freeman and Moisen 2008). We used AUC as a metric to evaluate model performance. The package also computes threshold values using several accuracy metrics to translate predicted probability maps into binary suitable and unsuitable habitats. We selected the MeanProb, a threshold set based on the mean predicted probability of species occurrences. The output from Maxent are grid datasets in a multiband ‘tif’format with one band for each replication. We averaged the five replicated maps and created a mean grid for each species. The grid was then symbolized to represent low (threshold-50), medium (50-75) and high (75-100) habitat suitability, with pixel values that are below the threshold excluded. Models were reviewed by CDFW species experts; please review the use limitations.For more information see the project report at [https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=85358].",
+  "owner_org": "467d900f-8a42-452d-9906-6610dd1a767f",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"California Department of Fish and Wildlife, Data and Technology Division, Biogeographic Data Branch\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "Melanie.Gogol-Prokurat@Wildlife.ca.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-122.597105"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-09-02"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2014-06-17\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-119.538262"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "40.993112"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "36.781182"
+    },
+    {
+      "key": "licence",
+      "value": "[\" \"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-122.597105, 36.781182], [-119.538262, 36.781182], [-119.538262, 40.993112], [-122.597105, 40.993112], [-122.597105, 36.781182]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: The user accepts sole responsibility for the correct interpretation of this report and the correct use of its accompanying data sets in environmental documents. The northern Sierra Nevada foothills wildlife connectivity project habitat data delineates area likely important to the selected focal species. It is a decision-support tool to be refined by field work and expert knowledge. DO NOT assume that areas predicted as low, medium or high habitat represents the likelihood of the focal species being present or that areas below the predicted threshold are unimportant to wildlife populations or movements.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "tags",
+      "value": "northern sierra nevada foothills, california, oreortyx pictus, habitat modeling, connectivity modeling, mountain quail"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c88d46db-fdc6-468b-a0fd-6d5156a4a71e"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "bf0e0f99-7417-42e4-a627-e94c49cb4159"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "State of California Geoportal"
+    }
+  ],
+  "title": "Mountain Quail Habitat Model for NSNF Connectivity - CDFW [ds1046]",
+  "revision_id": "eae28f28-eafd-4eab-8b54-444ff0fe0579"
+}

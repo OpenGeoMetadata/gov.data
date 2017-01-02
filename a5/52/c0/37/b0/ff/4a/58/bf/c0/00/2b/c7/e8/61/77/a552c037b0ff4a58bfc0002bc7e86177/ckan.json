@@ -1,0 +1,266 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "a552c037-b0ff-4a58-bfc0-002bc7e86177",
+  "metadata_created": "2013-03-15T21:09:28.454900",
+  "metadata_modified": "2014-11-17T21:09:20.448466",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "a552c037-b0ff-4a58-bfc0-002bc7e86177",
+      "webstore_last_updated": null,
+      "id": "7e764ad4-7d28-4c30-a4f5-0153d75a43d1",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "Full coverage",
+      "format": "Export",
+      "tracking_summary": {
+        "total": 17,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Export",
+      "created": "2014-11-17T16:09:20.630230",
+      "url": "http://water.usgs.gov/GIS/dsdl/wrir_03-4164.e00.gz",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "82587f2f-1cab-4a98-8b3b-1abf75f6254e",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "a552c037-b0ff-4a58-bfc0-002bc7e86177",
+      "webstore_last_updated": null,
+      "id": "39cb069e-f6d0-4b84-b99b-79564e2b8bfe",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "ascii grid format",
+      "format": "TAR",
+      "tracking_summary": {
+        "total": 9,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Other",
+      "created": "2014-11-17T16:09:20.630261",
+      "url": "http://water.usgs.gov/GIS/dsdl/wrir_03-4164.ascii.tar.gz",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "82587f2f-1cab-4a98-8b3b-1abf75f6254e",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "a552c037-b0ff-4a58-bfc0-002bc7e86177",
+      "webstore_last_updated": null,
+      "id": "330cedc3-89b0-4739-9c91-6ea0c69e2a85",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Export",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "82587f2f-1cab-4a98-8b3b-1abf75f6254e",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2014-11-17T16:09:20.630275",
+      "url": "http://water.usgs.gov/lookup/getspatial?wrir_03-4164",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 139,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "ohio-drainage-land-use-land-cover-data-for-use-with-water-resources-investigations-repo-03-4164",
+  "isopen": false,
+  "url": null,
+  "notes": "This coverage contains land-cover information for all of Ohio and portions of Indiana, Michigan, Kentucky, West Virginia, Pennsylvania, and New York. This dataset was derived from the U.S. Geological Survey's National Land Cover Dataset (NLCD). NLCD raster grids were downloaded from the USGS EROS Data Center web server at http://landcover.usgs.gov/natllandcover.html, by state. These grids were then reprojected, mosaiced and clipped against a polygon coverage representing the study area. Grid cell resolution is approximately 30 meters or 1 arc-second.",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-79.44462225"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "42.30414059"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "GIF"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://water.usgs.gov/GIS/browse/wrir_03-4164.jpg"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-85.45648283, 37.73147487], [-79.44462225, 37.73147487], [-79.44462225, 42.30414059], [-85.45648283, 42.30414059], [-85.45648283, 37.73147487]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: This coverage is intended for use with regression equations given in Koltun (2003). Suitability for other uses has not been determined.\", \"Access Constraints: NONE\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "1988-01-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "squigley@usgs.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-85.45648283"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2004-11-08"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "Illlustration of data set"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although this data set has been used by the U.S. Geological\\nSurvey, U.S. Department of the Interior, no warranty expressed or\\nimplied is made by the U.S. Geological Survey as to the accuracy\\nof the data and related materials. The act of distribution shall not \\nconstitute any such warranty, and no responsibility is assumed by \\nthe U.S. Geological Survey in the use of this data, software, or \\nrelated materials.\\n\\nAny use of trade, product, or firm names is for descriptive\\npurposes only and does not imply endorsement by the U.S.\\nGovernment.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"United States Geological Survey, WRD\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "1993-01-01"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "37.73147487"
+    },
+    {
+      "key": "tags",
+      "value": "raster, satellite, imagery, pennsylvania, remote sensing, land cover, land use, west virginia, new york, inlandwaters, kentucky, landsat, nlcd, grid, indiana, ohio, land characterization, michigan, 30 meter, epa"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "ec84f8e8-3b92-4624-ad61-88820f4a3426"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "e11eb0c1-b794-4812-9369-1bd7306336cd"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Water NSDI Node Spatial Datasets"
+    }
+  ],
+  "title": "Ohio-drainage land-use/land-cover data for use with Water Resources Investigations Report 03-4164",
+  "revision_id": "f544cdc6-b674-4158-83d8-23fd2cbe19fd"
+}

@@ -1,0 +1,192 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "37117737-26df-43ee-affd-633eb93a2252",
+  "metadata_created": "2016-12-05T17:19:33.817356",
+  "metadata_modified": "2016-12-05T17:19:33.817356",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "37117737-26df-43ee-affd-633eb93a2252",
+      "webstore_last_updated": null,
+      "id": "cdc8549d-7915-4dd8-9479-d32c509d289d",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "52e84c23-1ea3-4f46-b643-602b90ac83c7",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-12-05T12:19:34.017230",
+      "url": "http://dx.doi.org/10.5066/F7PG1PT2",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 0,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "part-1-gps-telemetry-detection-rates-positive-openness-gcs-nad83-2015",
+  "isopen": false,
+  "url": null,
+  "notes": "Openness is an angular measure of the relationship between surface relief and horizontal distance. For angles less than 90 degrees it is equivalent to the internal angle of a cone with its apex at a DEM location, and is constrained by neighboring elevations within a specified radial distance. 480 meter search radius was used for this calculation of positive openness. Openness incorporates the terrain line-of-sight or viewshed concept and is calculated from multiple zenith and nadir angles-here along eight azimuths. Positive openness measures openness above the surface, with high values for convex forms and low values for concave forms (Yokoyama et al 2002). We calculated positive openness using a custom python script, following the methods of Yokoyama et. al (2002)using the USGS National Elevation Dataset as input.",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-108.967916"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "41.023519"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "31.978202"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-117.001831, 31.978202], [-108.967916, 31.978202], [-108.967916, 41.023519], [-117.001831, 41.023519], [-117.001831, 31.978202]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None. Acknowledgement of the U.S. Geological Survey would be appreciated in products derived from this dataset.\", \"Access Constraints: none\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2002-01-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "kironside@usgs.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-117.001831"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2015-03-23"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2015-01-01\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. Although these data have been processed successfully on a computer system at the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. The USGS or the U.S. Government shall not be held liable for improper or incorrect use of the data described and/or contained herein.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Geological Survey, Southwest Biological Science Center\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "viewshed, arizona, usa, utah, terrain measure, landforms, positive openness, nevada, california, topographic exposure, united states"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "97cec297-f977-40f1-a85e-4f83d55df3ca"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "62c89085-2d62-48f5-8dd7-2b2ce1615ef0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "USGS Southwest Biological Science Center"
+    }
+  ],
+  "title": "Part 1: GPS Telemetry Detection Rates (Positive Openness), GCS NAD83 (2015)",
+  "revision_id": "52e84c23-1ea3-4f46-b643-602b90ac83c7"
+}

@@ -1,0 +1,227 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Data Exchange Administrator",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "ORDP.Data.Exchange@ssa.gov",
+  "num_tags": 11,
+  "id": "7e0373ba-ab7c-4d71-a994-89680ba7b8a8",
+  "metadata_created": "2015-01-30T16:17:32.784046",
+  "metadata_modified": "2016-10-29T19:05:38.080003",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "chip",
+      "id": "d558e2cd-e371-4a50-9e07-cc1a0f684cbb",
+      "name": "chip"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "customer-service-record-query-csrq",
+      "id": "a818ed74-cf12-4bcd-8352-b7ec1925ea85",
+      "name": "customer-service-record-query-csrq"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "disability-insurance-benefit-dib",
+      "id": "20671067-8163-4029-bfa5-d1a3123e8e3f",
+      "name": "disability-insurance-benefit-dib"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "division-of-client-services-application-development-dcsdad",
+      "id": "c4347cea-a384-4bc2-9df3-88fff2bdb50b",
+      "name": "division-of-client-services-application-development-dcsdad"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "division-of-electronic-processing-support-deps-and-personal-earnings-benefits-estimate-statemen",
+      "id": "4aabcaa6-2bc3-472d-ba8c-c174aee55f6c",
+      "name": "division-of-electronic-processing-support-deps-and-personal-earnings-benefits-estimate-statemen"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "foreign-birth-indicator-and-special-indicators",
+      "id": "3865d093-0f0f-4ddb-9d6e-8c5745c2f26a",
+      "name": "foreign-birth-indicator-and-special-indicators"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "gunpuc03",
+      "id": "a785eecf-f2f6-4468-8305-6f70ed16be43",
+      "name": "gunpuc03"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "gunschip",
+      "id": "c3a70345-eced-48b5-abfd-89b20b0ff207",
+      "name": "gunschip"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "numident",
+      "id": "e683a205-f54c-4455-b3a8-407f28574671",
+      "name": "numident"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "spins",
+      "id": "cd62405e-559e-4244-a9cc-05a2bce67f29",
+      "name": "spins"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ssn",
+      "id": "3902156b-fcd3-4a96-986f-0902cb5ab663",
+      "name": "ssn"
+    }
+  ],
+  "tracking_summary": {
+    "total": 29,
+    "recent": 4
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:35:25.934290",
+    "title": "Social Security Administration",
+    "name": "ssa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/ssa.png",
+    "revision_id": "1be01963-921d-432f-b56d-37fa76dfb0a1",
+    "type": "organization",
+    "id": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+    "approval_status": "approved"
+  },
+  "name": "gunschip-gunpuc03",
+  "isopen": true,
+  "url": null,
+  "notes": "GUNSCHIP and GUNPUC03 are general utility programs that read and retrieve NUMIDENT data. Many Social Security Administration on-line applications use these utilities to obtain number holder information from the NUMIDENT. The on-line applications pass a Social Security Number (SSN) to the GUNSCHIP or GUNPUC03 utility that reads the NUMIDENT and if the SSN IS found, returns selected data elements to the on-line application. The returned data includes Number Holder Name, Other Name, Date of Birth, Birth City, Birth State, Birth Country, Mother's Name, and Father's Name. The GUNSCHIP utility additionally provides the Citizenship Code, Form Code, Interview Code, Foreign Birth Indicator and Special Indicators (SPINs). Some of the applications that use the utilities are Customer Help and Information Program (CHIP), Customer Service Record Query (CSRQ), Disability Insurance Benefit (DIB), Division of Client Services Application Development (DCSDAD), Division of Electronic Processing Support (DEPS) and Personal Earnings Benefits Estimate Statements (PEBES).",
+  "owner_org": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Social Security Administration"
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "license",
+      "value": "https://www.ssa.gov/open/data/Restricted-Public-Licensing-Information.html"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "rights",
+      "value": "The data contained in this data exchange is restricted due to sensitivity and/or privacy issues.  If you would like more information on a data exchange with SSA please visit the following web site https://www.ssa.gov/dataexchange/."
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "R/P1D"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "016:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "016:00"
+      ]
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1D"
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "US-GOV-SSA-600"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "27e057ab-3e2d-4d1a-b11a-df4129fa9fd2"
+    },
+    {
+      "key": "source_hash",
+      "value": "d351bab9e22d827fda3944bc0cf941569d501b96"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "27e057ab-3e2d-4d1a-b11a-df4129fa9fd2"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    }
+  ],
+  "title": "GUNSCHIP/GUNPUC03",
+  "revision_id": "937fc049-83d6-479e-9a5b-d432db94a9f9"
+}

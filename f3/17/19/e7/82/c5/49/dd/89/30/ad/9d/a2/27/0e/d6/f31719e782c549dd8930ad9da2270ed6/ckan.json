@@ -1,0 +1,232 @@
+{
+  "license_title": "Creative Commons CCZero",
+  "maintainer": "Dorothea Garrett",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "Dorothea.Garrett@va.gov",
+  "num_tags": 9,
+  "id": "f31719e7-82c5-49dd-8930-ad9da2270ed6",
+  "metadata_created": "2015-02-26T17:06:13.581746",
+  "metadata_modified": "2015-10-08T21:50:17.173627",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "assessment",
+      "id": "705512c8-6154-4ec1-a7cb-3a7e9422822c",
+      "name": "assessment"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "file",
+      "id": "d1fdc4fa-55cf-452b-902e-3e74a8e3b942",
+      "name": "file"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "instrument",
+      "id": "470c0bae-8d47-4116-a1de-30eed12067c3",
+      "name": "instrument"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "patient",
+      "id": "84651278-c505-44da-a3b6-6115676c70ff",
+      "name": "patient"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "resource",
+      "id": "a01945b1-7ea0-413d-b74f-533aaf7ab5bd",
+      "name": "resource"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "rug",
+      "id": "fa10f6ba-14f9-4e29-9b5f-eda19b673a18",
+      "name": "rug"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "utilization",
+      "id": "9dbbdd58-187c-4455-b4a1-4907b34097ac",
+      "name": "utilization"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "va",
+      "id": "5c740e0c-4cbe-421a-a4d4-b0c59ba3986b",
+      "name": "va"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "veteran",
+      "id": "7561bea1-6f6c-4e42-96cc-7a5271ea4f8c",
+      "name": "veteran"
+    }
+  ],
+  "tracking_summary": {
+    "total": 112,
+    "recent": 10
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-zero",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:11.529883",
+    "title": "Department of Veterans Affairs",
+    "name": "va-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/va.png",
+    "revision_id": "7c651ccc-eb67-439e-82dd-1ae7fff33f63",
+    "type": "organization",
+    "id": "ff9ae098-eccc-41d8-bfcd-5e8ed047db05",
+    "approval_status": "approved"
+  },
+  "name": "patient-assessment-file-paf",
+  "isopen": true,
+  "url": null,
+  "notes": "The Patient Assessment File (PAF) database compiles the results of the Patient Assessment Instrument (PAI) questionnaire filled out for intermediate care Veterans Health Administration (VHA) patients. The PAI is filled out within two weeks of admission. It is also completed semi-annually on April 1st and October 1st for each patient by a registered nurse familiar with the patient. The PAI questions cover medical treatments, conditions, selected diagnoses, activities of daily living, behaviors, some rehabilitation therapies, and chronic respiratory support. The database is managed by the Geriatrics & Extended Care Strategic Health Care Group in the Office of Patient Care Services. It is currently running at the Austin Information Technology Center (AITC) and is stored in flat files. PAF's primary customer is the Allocation Resource Center (ARC) in Braintree MA. The ARC receives the data from AITC and combines it with data from the Patient Treatment File (PTF) which contains more detailed demographic and treatment information. The ARC builds ORACLE tables, assigning RUG II (Resource Utilization Group II) scores and weighted work units reflecting the level and type of care needed. The 16 different weighted work units, ranging from 479 to 1800, are a factor in the resource allocation and budget decisions on long-term care, and are used to measure efficiency. The data is also used in other reports to Central Office, the Veterans Integrated Service Networks, and the facilities. Several other units also use PAF information including the Decision Support System (DSS). Currently, PAF is in the process of being replaced by the Resident Assessment Instrument/Minimum Data Set (RAI/MDS). RAI/MDS uses a much more extensive questionnaire as its source of information. The RAI/MDS provides clinical data and care protocols in addition to the newer RUG III scores, and is required by the Centers for Medicare and Medicaid Service funded hospitals.",
+  "owner_org": "ff9ae098-eccc-41d8-bfcd-5e8ed047db05",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "e868f753-9395-4666-a30c-219334a64c6b"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2013-12-30"
+    },
+    {
+      "key": "source_hash",
+      "value": "6155bc42bacd35c3de8ceb5f992b6096f601b14f"
+    },
+    {
+      "key": "temporal",
+      "value": "1987-01-01/2014-12-31"
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "VA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "029:054"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "029:15"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "non-public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "28c1465f-f8c1-4361-9ebe-b3ac7634b47a"
+    },
+    {
+      "key": "publisher",
+      "value": "Department of Veterans Affairs"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "key": "rights",
+      "value": "Health Insurance Portability and Accountability Act, protected health information."
+    },
+    {
+      "key": "systemOfRecords",
+      "value": "http://www.gpo.gov/fdsys/pkg/FR-2012-05-11/pdf/2012-11487.pdf"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "VA-VHA-OIA-016"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "28c1465f-f8c1-4361-9ebe-b3ac7634b47a"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "e868f753-9395-4666-a30c-219334a64c6b"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "VA JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-zero",
+  "title": "Patient Assessment File (PAF)",
+  "revision_id": "21cfa2f0-29e0-4f0c-ad76-e2c860887504"
+}

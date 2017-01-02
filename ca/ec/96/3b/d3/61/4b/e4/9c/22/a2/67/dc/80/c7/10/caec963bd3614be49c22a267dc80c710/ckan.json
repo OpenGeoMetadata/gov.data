@@ -1,0 +1,170 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Health Data Initiative",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "datanavigator@cms.hhs.gov",
+  "num_tags": 2,
+  "id": "caec963b-d361-4be4-9c22-a267dc80c710",
+  "metadata_created": "2016-01-23T14:26:36.787926",
+  "metadata_modified": "2016-10-07T14:54:30.448258",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "interactive-tools",
+      "id": "9d92979f-fbba-4e83-96c9-39dd494b5760",
+      "name": "interactive-tools"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "prescription-drug-plans",
+      "id": "533c380e-f395-4c8b-bd50-215dac8ac1f3",
+      "name": "prescription-drug-plans"
+    }
+  ],
+  "tracking_summary": {
+    "total": 25,
+    "recent": 3
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-08-26T15:35:30.958442",
+    "title": "U.S. Department of Health & Human Services",
+    "name": "hhs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.healthdata.gov/sites/all/themes/hdtheme/logo-dark.png",
+    "revision_id": "eff89d9e-dc00-4101-bbd4-750e1adcc5bb",
+    "type": "organization",
+    "id": "3609164c-4c49-4a44-9179-23163027dc0a",
+    "approval_status": "approved"
+  },
+  "name": "medicare-part-d-prescriber-look-up-tool",
+  "isopen": true,
+  "url": null,
+  "notes": "<p>This look-up tool is a searchable database that allows you to look up a Medicare Part D prescriber by National Provider Identifier (NPI), or by name and location. The look-up tool will return information on prescriptions provided to and filled by Medicare beneficiaries, including drug name, total number of prescriptions dispensed (including original prescriptions and refills) and total drug cost. The data covers calendar year 2013 and is based on final-action Part D claims for the entire Medicare Part D population. Information is redacted where necessary to protect beneficiary privacy.</p>\n<p>The database is populated from the Medicare Part D Prescriber Public Use File (PUF). Although the Part D Prescriber PUF has a wealth of information on payment and utilization for Medicare Part D claims, the dataset has a number of limitations. Of particular importance is the fact that the data may not be representative of a physicians entire practice as it only includes information on beneficiaries enrolled in Medicare Part D prescription drug program. In addition, the data are not intended to indicate the quality of care provided. To review more information about the Part D Prescriber PUF, please refer to the Methodology document.</p>\n",
+  "owner_org": "3609164c-4c49-4a44-9179-23163027dc0a",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Centers for Medicare &amp; Medicaid Services"
+    },
+    {
+      "key": "identifier",
+      "value": "616"
+    },
+    {
+      "key": "license",
+      "value": "http://opendefinition.org/licenses/odc-odbl/"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "15c538b5-31a0-474e-8ba5-c85ee421cb4d"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "temporal",
+      "value": "2013-01-01T00:00:00-05:00/2014-01-01T00:00:00-05:00"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2016-08-04"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Healthdata.gov"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "language",
+      "value": [
+        "en"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "009:38"
+      ]
+    },
+    {
+      "key": "catalog_@id",
+      "value": "https://www.healthdata.gov/data.json"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "009:000"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c704d050-56ef-46c6-9886-7a6431d83b58"
+    },
+    {
+      "key": "source_hash",
+      "value": "fee267d18357e2cd2f1b87af03eb2081630c0179"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c704d050-56ef-46c6-9886-7a6431d83b58"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "15c538b5-31a0-474e-8ba5-c85ee421cb4d"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Healthdata.gov"
+    }
+  ],
+  "title": "Medicare Part D Prescriber Look-up Tool",
+  "revision_id": "8c0d60e9-f227-44ac-9366-a3ce644909c3"
+}

@@ -1,0 +1,267 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "a9926924-4602-4b03-a93e-1e3695b0fbd1",
+  "metadata_created": "2015-03-04T00:04:00.830399",
+  "metadata_modified": "2015-03-04T00:04:00.830399",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "a9926924-4602-4b03-a93e-1e3695b0fbd1",
+      "webstore_last_updated": null,
+      "id": "fae0bf12-ec4f-4d66-bb87-36b5a4bd2023",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "Online accessible data",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Shape",
+      "created": "2015-03-03T19:04:01.587987",
+      "url": "http://water.usgs.gov/GIS/dsdl/SIR_2015-5010_Oahu_WB_components_avg_climate.zip",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "f117f8d4-581c-4130-8616-1a53604ebcb2",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "a9926924-4602-4b03-a93e-1e3695b0fbd1",
+      "webstore_last_updated": null,
+      "id": "e7e21741-6da9-4839-a1c7-2e0497bf76e0",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Shape",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "f117f8d4-581c-4130-8616-1a53604ebcb2",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-03-03T19:04:01.588005",
+      "url": "http://water.usgs.gov/lookup/getspatial?sir2015-5010_Oahu_WB_components_avg_climate",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "a9926924-4602-4b03-a93e-1e3695b0fbd1",
+      "webstore_last_updated": null,
+      "id": "f983fff7-1ebb-4efb-aeab-e2e5bf1abc80",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Shape",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "f117f8d4-581c-4130-8616-1a53604ebcb2",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-03-03T19:04:01.588014",
+      "url": "http://pubs.usgs.gov/sir/2015/5010/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 23,
+    "recent": 3
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "mean-annual-water-budget-components-for-the-island-of-oahu-hawaii-for-average-climate-condition",
+  "isopen": false,
+  "url": null,
+  "notes": "The shapefile associated with this metadata file represents the spatial distribution of mean annual water-budget components, in inches, for the Island of Oahu, Hawaii. The water-budget components in the shapefile were computed by a water-budget model for a scenario representative of average climate conditions (1978â2007 rainfall) and 2010 land cover, as described in USGS Scientific Investigations Report (SIR) 2015-5010. The model was developed for estimating groundwater recharge and other water-budget components for each subarea of the model. The model subareas were generated using Esri ArcGIS software by intersecting (merging) multiple spatial data sets that characterize the spatial distribution of rainfall, fog interception, irrigation, reference evapotranspiration, direct runoff, soil type, and land cover. These spatial data sets characterize the spatial distribution of hydrologic and physical conditions that the model uses to compute groundwater recharge and other water-budget components.The model-subarea data set (387,533 polygons) was subsequently intersected with the 0-ft elevation contour of the top of the basalt aquifer to produce the 395,955 polygons in this shapefile. This metadata file describes the process of merging these spatial data sets, The shapefile attribute information associated with each polygon present an estimate of mean annual rainfall, fog interception, irrigation, septic-system leachate, runoff, canopy evaporation, actual evapotranspiration, storm-drain capture, net precipitation, total evapotranspiration, recharge, and seepage from reservoirs and cesspools. This shapefile also includes select geographic and land-cover attributes of the polygons. Brief descriptions of the water-budget components and attributes are included in this metadata file. Refer to USGS SIR 2015-5010 for further details of the methods and sources used to determine these components and attributes.",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-157.644933809"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "21.714009852"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "png"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://water.usgs.gov/GIS/browse/SIR_2015-5010_climate.png"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-158.282291463, 21.253656969], [-157.644933809, 21.253656969], [-157.644933809, 21.714009852], [-158.282291463, 21.714009852], [-158.282291463, 21.253656969]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: Users are advised to read the data set's metadata and USGS SIR 2015-5010 thoroughly to understand appropriate use and data limitations. The land-cover attributes of this data set are not intended to be used for any purposes other than analyzing and interpreting the water-budget components included in this data set.\", \"Access Constraints: None. Please see 'Distribution Info' for details.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "1978-01-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "jaengott@usgs.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-158.282291463"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2015-02-17"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2015-02-17\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "Image represents the spatial distribution of mean annual water-budget components, in inches, for the Island of Oahu, Hawaii"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although this dataset has been used by the U.S. Geological Survey, U.S. Department of the Interior, no warranty expressed or implied is made by the U.S. Geological Survey as to the accuracy of the data and related materials. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the U.S. Geological Survey in the use of these data, software, or related materials.\\n\\nAny use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Geological Survey, Pacific Islands Water Science Center\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2010-12-31"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "21.253656969"
+    },
+    {
+      "key": "tags",
+      "value": "fog interception, rainfall, inlandwaters, storm-drain capture, groundwater recharge, soil-water balance, irrigation, hawaii, water-budget model, oahu, runoff, pacific islands, canopy evaporation, evapotranspiration"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "7b9152b6-c064-4f7a-9f9c-cfb42575346c"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "e11eb0c1-b794-4812-9369-1bd7306336cd"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Water NSDI Node Spatial Datasets"
+    }
+  ],
+  "title": "Mean annual water-budget components for the Island of Oahu, Hawaii, for average climate conditions, 1978-2007 rainfall and 2010 land cover",
+  "revision_id": "f117f8d4-581c-4130-8616-1a53604ebcb2"
+}

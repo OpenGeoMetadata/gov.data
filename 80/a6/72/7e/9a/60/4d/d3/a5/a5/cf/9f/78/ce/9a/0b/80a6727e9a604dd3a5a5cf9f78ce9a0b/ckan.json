@@ -1,0 +1,187 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "80a6727e-9a60-4dd3-a5a5-cf9f78ce9a0b",
+  "metadata_created": "2013-03-14T19:26:36.359782",
+  "metadata_modified": "2015-04-09T22:17:48.918593",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "80a6727e-9a60-4dd3-a5a5-cf9f78ce9a0b",
+      "webstore_last_updated": null,
+      "id": "809ad484-fa74-4831-a7cd-123e4211824d",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "f38ef486-8928-4a65-81c6-c72eeb0b7391",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Esri Rest API Endpoint",
+      "created": "2013-03-14T20:26:36.380792",
+      "url": "http://projects.atlas.ca.gov/frs/download.php/11717/http://arcserve.lawr.ucdavis.edu/arcgis/rest/services/CSMW/Coastal_Conditions/MapServer",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 6,
+    "recent": 0
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:48.765146",
+    "title": "California Department of Resources",
+    "name": "resources-ca-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.resources.ca.gov/images/ca_department/natural_resources_logo.jpg",
+    "revision_id": "e7aa4350-6f5c-4214-9dff-498e9ff147b1",
+    "type": "organization",
+    "id": "5c6ed61e-7555-4e3c-bf86-f079cffd5587",
+    "approval_status": "approved"
+  },
+  "name": "coastal-conditions-20009a32d",
+  "isopen": false,
+  "url": null,
+  "notes": "Dataset developed by California Coastal Commission's Melanie Coyne by attaching names to a dynamically segmented coastline using the Department of Navigation and Ocean Development (DNOD) (now Department of Boating and Waterways) 1977 'Assessment and Atlas of Shoreline Erosion along the California Coast' by the State of California Resources Agency. The resulting shapefile only contained starting and ending reference units, coastal type, and common feature names, the following were recently appended: Ownership, Nearshore Description, Shoreline Description, Backshore Description, Development, Role in Littoral Cell, Orientation, Sediment Source, Current Beach Width (FT), Historical Beach Width (FT).",
+  "owner_org": "5c6ed61e-7555-4e3c-bf86-f079cffd5587",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "metadata@gis.resources.ca.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-124.409725"
+    },
+    {
+      "key": "metadata-date",
+      "value": "9999-01-01"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"9999-01-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-117.093358"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "41.999827"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "32.534295"
+    },
+    {
+      "key": "licence",
+      "value": "[\" \"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-124.409725, 32.534295], [-124.409725, 41.999827], [-117.093358, 41.999827], [-117.093358, 32.534295], [-124.409725, 32.534295]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints:\", \"Access Constraints:\"]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "tags",
+      "value": "Oceans & Estuaries, oceans, coastal feature type, coastal name, littoral cell, sediment sources, jurisdiction, beach, backshore, nearshore, development, erosion, beach width, shoreline, coastline"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "b48f3bbe-5585-422b-aadc-f4276b8fbdde"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "ac9a5a12-0348-49fc-ac7a-cc3aee201b04"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "California Environmental Information Catalog"
+    }
+  ],
+  "title": "Coastal Conditions 2000",
+  "revision_id": "73abebcd-9112-4a05-aef6-a0e6cdb745c0"
+}

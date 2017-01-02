@@ -1,0 +1,228 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "Sara Bredin",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "sbredin@sandia.gov",
+  "num_tags": 5,
+  "id": "479710db-2dfb-4904-9c71-09a87b65bf1e",
+  "metadata_created": "2016-11-30T21:28:04.187191",
+  "metadata_modified": "2016-11-30T21:28:04.187191",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "479710db-2dfb-4904-9c71-09a87b65bf1e",
+      "webstore_last_updated": null,
+      "id": "e79ce3ac-0079-467e-b936-d67b8a37312d",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Extreme significant wave heights for 5,10,25,50, and 100 year return periods computed using NOAA 30-year WWIII hindcast. Corresponding site lat/long coordinates and identifiers included.",
+      "format": "CSV",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/csv",
+      "cache_url": null,
+      "name": "extreme-hs-30ywwiii.csv",
+      "created": "2016-11-30T16:28:04.505303",
+      "url": "http://mhkdr.openei.org/files/150/WWIII_Hsreturnperiod_upload%20%282%29.csv",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "de239a5b-64a1-4b52-92ae-72f4473bac33",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "energy",
+      "id": "b778e6f8-a8f8-4ad6-968b-e9789c6afe2d",
+      "name": "energy"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "hydrokinetic",
+      "id": "87031483-72d6-457d-9dd2-3e403f2849aa",
+      "name": "hydrokinetic"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "marine",
+      "id": "f2ee2106-f44e-4421-ac64-6ed0f2451d6c",
+      "name": "marine"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "mhk",
+      "id": "a4efdc0e-8038-4a07-a08f-df8d5df9657c",
+      "name": "mhk"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "power",
+      "id": "eb008bfb-077a-445c-b461-3f704b8e22b1",
+      "name": "power"
+    }
+  ],
+  "tracking_summary": {
+    "total": 2,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "extreme-significant-wave-heights-for-us-coastal-waters",
+  "isopen": true,
+  "url": null,
+  "notes": "Includes extreme significant wave heights, in meters, computed using peaks over threshold method on NOAA 30-year WWIII hindcast data. Extreme values for 5, 10, 25, 50, and 100 year return periods were computed. Sites cover US coastlines.\nColumn 1: Site identifier/name\nColumn 2: Site latitude\nColumn 3: Site longitude\nColumn 4: 5-year extreme Hs, in meters\nColumn 5: 10-year extreme Hs, in meters\nColumn 6: 25-year extreme Hs, in meters\nColumn 7: 50-year extreme Hs, in meters\nColumn 8: 100-year extreme Hs, in meters\n",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "issued",
+      "value": "2016-09-01"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "2b88e755749f09770562451d115eb76d7aba4276"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-126.76973125,23.946350709302],[-65.96050625,23.946350709302],[-65.96050625,49.148841792743],[-126.76973125,49.148841792743],[-126.76973125,23.946350709302]]]}"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "format",
+      "value": "text/csv"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:009"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://mhkdr.openei.org/submissions/150"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "ab0afbfb-f22c-4339-82b2-b49a940a2c85"
+    },
+    {
+      "key": "accessURL",
+      "value": "http://mhkdr.openei.org/files/150/WWIII_Hsreturnperiod_upload%20%282%29.csv"
+    },
+    {
+      "key": "publisher",
+      "value": "Sandia National Laboratories"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "key": "modified",
+      "value": "2016-09-01"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/f0000000-e214-4a72-acd2-000000000150"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "ab0afbfb-f22c-4339-82b2-b49a940a2c85"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "Extreme significant wave heights for US coastal waters",
+  "revision_id": "de239a5b-64a1-4b52-92ae-72f4473bac33"
+}

@@ -1,0 +1,222 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Natalie Soroka",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "natalie.soroka@trade.gov",
+  "num_tags": 5,
+  "id": "9cc93990-e0a9-40ae-95bb-2790ae5417e3",
+  "metadata_created": "2015-05-20T21:04:07.841333",
+  "metadata_modified": "2015-09-17T06:58:40.953901",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "9cc93990-e0a9-40ae-95bb-2790ae5417e3",
+      "webstore_last_updated": null,
+      "id": "4ab7cc37-118b-40ba-a884-54e1bae236cb",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 22,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "text/html",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-05-20T17:04:08.041194",
+      "url": "http://tse.export.gov/METRO",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "7939cddf-7117-45f2-9417-0f7d8d1b64ce",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "cities",
+      "id": "989143cf-d64f-48f0-a277-935fe2b2de98",
+      "name": "cities"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "exports",
+      "id": "089aaa3f-b4ad-4ee2-9608-2c7fa3757fc9",
+      "name": "exports"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "metropolitan-area",
+      "id": "647573b8-1f48-4074-b6b8-4682a08e8060",
+      "name": "metropolitan-area"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "naics",
+      "id": "12152126-9741-47b1-8ae1-9bcb1198797a",
+      "name": "naics"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "top-markets",
+      "id": "4ca20e35-23fc-48ef-ad9a-eb134244457f",
+      "name": "top-markets"
+    }
+  ],
+  "tracking_summary": {
+    "total": 67,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:37:59.153068",
+    "title": "Department of Commerce",
+    "name": "doc-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.vos.noaa.gov/MWL/aug_10/Images/doc_logo_xparent.png",
+    "revision_id": "44c851b9-8872-497a-8a13-2f06740b7ffb",
+    "type": "organization",
+    "id": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+    "approval_status": "approved"
+  },
+  "name": "metropolitan-export-series",
+  "isopen": true,
+  "url": null,
+  "notes": "This tool provides data on exports of goods from major U.S. metropolitan areas, as defined by the Bureau of the Census. These data are based on an Origin of Movement (OM) Zip-code-based series, and are therefore not comparable with an OM state-based series, like that available from TradeStats Express.",
+  "owner_org": "9cda5205-d632-4814-96e7-a4ab5e0dce85",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "International Trade Administration, Department of Commerce"
+    },
+    {
+      "key": "identifier",
+      "value": "DOC-4517"
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "issued",
+      "value": "2008-01"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2008"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "006:002"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "006:25"
+      ]
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://www.census.gov/foreign-trade/aip/elom.html"
+      ]
+    },
+    {
+      "key": "spatial",
+      "value": "Export markets and U.S. metropolitan areas"
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "1a5502f4-b776-471b-ad14-3bb4603c5ea0"
+    },
+    {
+      "key": "source_hash",
+      "value": "54975a17151cc21adaeeccab232896eee2902c3f"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "1a5502f4-b776-471b-ad14-3bb4603c5ea0"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "0836a94a-b3c8-4190-a145-bddc06458b2c"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Commerce Non Spatial Data.json Harvest Source"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "Metropolitan Export Series",
+  "revision_id": "fb4d9489-81a3-430f-ae73-56f5a9c47ba3"
+}

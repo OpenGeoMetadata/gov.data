@@ -1,0 +1,218 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "Ole Mengshoel",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "ole.j.mengshoel@nasa.gov",
+  "num_tags": 3,
+  "id": "56aacfb1-6df1-4e90-99ac-7f13813247c9",
+  "metadata_created": "2016-02-26T21:46:16.086928",
+  "metadata_modified": "2016-05-06T08:18:39.488790",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "56aacfb1-6df1-4e90-99ac-7f13813247c9",
+      "webstore_last_updated": null,
+      "id": "eddd96fd-1749-4a54-acf3-432d18a094de",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "DX-2009 Paper",
+      "format": "PDF",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/pdf",
+      "cache_url": null,
+      "name": "ProDiagnoseDX09.pdf",
+      "created": "2016-02-26T16:46:16.338082",
+      "url": "https://c3.nasa.gov/dashlink/static/media/publication/ProDiagnoseDX09.pdf",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "bacbf774-6027-40db-99c1-16fb0dd83211",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "ames",
+      "id": "26409e70-decd-4cc6-9beb-904602430852",
+      "name": "ames"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "dashlink",
+      "id": "4377f23e-7f40-493e-82fd-834ccb75e9ba",
+      "name": "dashlink"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "nasa",
+      "id": "34817959-c506-4bfe-b8fd-330f550970e4",
+      "name": "nasa"
+    }
+  ],
+  "tracking_summary": {
+    "total": 2,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "the-proadapt-system-in-the-2009-diagnostic-challenge-competition",
+  "isopen": true,
+  "url": null,
+  "notes": "Reliable systems health management is an important research area of NASA. A health management system that can accurately and quickly diagnose faults in various on-board systems of a vehicle will play a key role in the success of current and future NASA missions. We introduce in this paper the ProDiagnose algorithm, a diagnostic algorithm that uses a probabilistic approach, accomplished with Bayesian Network models compiled to Arithmetic Circuits, to diagnose these systems. We describe the ProDiagnose algorithm, how it works, and the probabilistic models involved. We show by experimentation on two Electrical Power Systems based on the ADAPT testbed, used in the Diagnostic Challenge Competition (DX-09), that ProDiagnose can produce results with over 96% accuracy and < 1 second mean diagnostic time.\r\n\r\n**Reference:**\r\n\r\nB. W. Ricks, and O. J. Mengshoel. \"The Diagnostic Challenge Competition: Probabilistic Techniques for Fault Diagnosis in Electrical Power Systems.\" Proc. of the 20th International workshop on Principles of Diagnosis (DX-09) Stockholm, Sweden, 2009\r\n\r\n**BibTex Reference:**\r\n\r\n@inproceedings{ricks09diagnostic,\r\n  author    = {Ricks, B. W. and Mengshoel, O. J.},\r\n  title     = {The Diagnostic Challenge Competition: Probabilistic Techniques for Fault Diagnosis in Electrical Power Systems},\r\n  booktitle     = {Proc. of the 20th International Workshop on Principles of Diagnosis (DX-09)},\r\n  address = {Stockholm, Sweden},\r\n  year      = {2009}\r\n}",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "issued",
+      "value": "2010-09-10T14:49:37"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "0504371463cedce3c920c9668116e3fa34fd548a"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:029"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "https://c3.nasa.gov/dashlink/resources/65/"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "576d4c26-5caa-4e70-bc15-800af1b8ed94"
+    },
+    {
+      "key": "publisher",
+      "value": "Dashlink"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "56cf5b00a759fdadc44e55e6"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "U.S. Government > National Aeronautics and Space Administration > Dashlink"
+    },
+    {
+      "key": "modified",
+      "value": "2010-09-30T09:00:35"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "irregular"
+    },
+    {
+      "key": "identifier",
+      "value": "DASHLINK_65"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "576d4c26-5caa-4e70-bc15-800af1b8ed94"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "The ProADAPT System in the 2009 Diagnostic Challenge Competition",
+  "revision_id": "bacbf774-6027-40db-99c1-16fb0dd83211"
+}

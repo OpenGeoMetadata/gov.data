@@ -1,0 +1,199 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Data Exchange Administrator",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "ORDP.Data.Exchange@ssa.gov",
+  "num_tags": 7,
+  "id": "51e871b2-e67a-4044-a35a-00469fcdef97",
+  "metadata_created": "2015-01-30T16:17:50.360101",
+  "metadata_modified": "2016-02-27T17:19:10.879412",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "health-insurance",
+      "id": "e6c9074f-8b5a-4202-8520-067e83bd19c9",
+      "name": "health-insurance"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "income-tax-return",
+      "id": "0771ba58-3905-43e2-8984-a72ccad1353d",
+      "name": "income-tax-return"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "va",
+      "id": "5c740e0c-4cbe-421a-a4d4-b0c59ba3986b",
+      "name": "va"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "va-ssa-irs",
+      "id": "e218a837-9ecf-4a94-926f-49c708c2ebd4",
+      "name": "va-ssa-irs"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "vba",
+      "id": "09fa52e3-6cbd-4d08-bdda-b33e72b4ac04",
+      "name": "vba"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "vha",
+      "id": "cd585a48-8fd9-49cb-b78f-2a1a15e60028",
+      "name": "vha"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "white-house-data-sharing",
+      "id": "73fb54fb-c344-4a67-8220-ace48cc32d17",
+      "name": "white-house-data-sharing"
+    }
+  ],
+  "tracking_summary": {
+    "total": 31,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:35:25.934290",
+    "title": "Social Security Administration",
+    "name": "ssa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/ssa.png",
+    "revision_id": "1be01963-921d-432f-b56d-37fa76dfb0a1",
+    "type": "organization",
+    "id": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+    "approval_status": "approved"
+  },
+  "name": "va-use-of-ssa-earnings-data-va-earn",
+  "isopen": true,
+  "url": null,
+  "notes": "The purpose of this matching program is to provide the Department of Veterans Affairs (VA), both the Veterans Benefit Administration (VBA) and Veterans Health Administration (VHA), with data from income tax return information disclosed to SSA to verify eligibility for VA health benefit programs. The SSA data is used to verify earnings information. VHA will also use SSA's records of wage and self-employment income to verify the veterans' employment status. Health insurance information (obtained from veteran, spouse and/or employer during employment verification) and/or income data (verification of which changes eligibility for medical care) may be forwarded to VHA medical center facilities for eligibility category changes and potential billing activities.  VA also submits a weekly file through this exchange to support the VA/SSA/IRS White House Data Sharing initiative to reduce the VA backlog.",
+  "owner_org": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Social Security Administration"
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "license",
+      "value": "https://www.ssa.gov/open/data/Restricted-Public-Licensing-Information.html"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "rights",
+      "value": "The data contained in this data exchange is restricted due to sensitivity and/or privacy issues.  If you would like more information on a data exchange with SSA please visit the following web site https://www.ssa.gov/dataexchange/."
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "R/P1W"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "016:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "016:00"
+      ]
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1W"
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "US-GOV-SSA-660"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c18e4498-afef-4ee2-a1af-73386f09750b"
+    },
+    {
+      "key": "source_hash",
+      "value": "d525396447d32b314e75d3646354c61d4344519f"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c18e4498-afef-4ee2-a1af-73386f09750b"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    }
+  ],
+  "title": "VA Use Of SSA Earnings Data (VA-EARN)",
+  "revision_id": "3ae2104a-f6c1-411e-81ff-908e5e116519"
+}

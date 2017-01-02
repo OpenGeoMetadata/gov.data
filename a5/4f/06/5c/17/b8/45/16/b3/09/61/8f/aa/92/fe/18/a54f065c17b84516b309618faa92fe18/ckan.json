@@ -1,0 +1,188 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "a54f065c-17b8-4516-b309-618faa92fe18",
+  "metadata_created": "2015-02-18T20:02:51.788733",
+  "metadata_modified": "2015-02-18T20:02:51.788733",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "a54f065c-17b8-4516-b309-618faa92fe18",
+      "webstore_last_updated": null,
+      "id": "6ba00d9e-bdb5-412f-b64c-ea4a6a8af9da",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 1063,
+        "recent": 21
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "29d509b0-51a7-4ce4-889a-568dcda89eb1",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-02-18T15:02:52.096430",
+      "url": "http://nassgeodata.gmu.edu/CropScape/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 1235,
+    "recent": 41
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.nass.usda.gov/",
+    "created": "2013-05-18T11:39:00.999133",
+    "title": "National Agricultural Statistics Service, Department of Agriculture",
+    "name": "nass-usda-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.data.gov/app/uploads/2014/07/USDA_logo.png",
+    "revision_id": "890552f7-1105-41db-b814-364da2f40db9",
+    "type": "organization",
+    "id": "5c9259b2-cfb5-44d5-a92b-008ca8c8f182",
+    "approval_status": "approved"
+  },
+  "name": "cropscape-cropland-data-layer02c7b",
+  "isopen": false,
+  "url": null,
+  "notes": "The USDA National Agricultural Statistics Service (NASS) releases the annual Cropland Data Layer (CDL) via the NASS CropScape geospatial portal <http://nassgeodata.gmu.edu/CropScape/>. The CDL product depicts agricultural land cover over the Continental United States at 30 meters resolution. CropScape includes historical data dating back to 1997 for some locales. The CDL is an annual raster, geo-referenced, crop-specific land cover data layer produced using satellite imagery and extensive agricultural ground truth collected during the current growing season. The strength and emphasis of CropScape and the CDL is agricultural land cover. Please note that no farmer reported data are derivable from CropScape or the Cropland Data Layer. Please reference CropScape (http://nassgeodata.gmu.edu/CropScape/) or the official CDL website (http://www.nass.usda.gov/research/Cropland/SARS1a.htm) for a list of the available states and years of data and the individual metadata files that contain the technical details. NASS developed both the CropScape and VegScape web services in cooperation with the Center for Spatial Information Science and Systems, George Mason University, Fairfax, VA.",
+  "owner_org": "5c9259b2-cfb5-44d5-a92b-008ca8c8f182",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"USDA, NASS, Spatial Analysis Research Section\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "HQ_RDD_GIB@nass.usda.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-127.8873"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2015-02-02"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2015-02-02\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-74.1585"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "47.9580"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "23.1496"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Disclaimer: Users of the CropScape and the Cropland Data Layer (CDL) are solely responsible for interpretations made from these products. The CDL is provided 'as is' and the USDA, NASS does not warrant results you may obtain using the Cropland Data Layer. Contact our staff at (HQ_RDD_GIB@nass.usda.gov) if technical questions arise in the use of the CDL. NASS does maintain a Frequently Asked Questions (FAQ's) section on the CDL website at <http://www.nass.usda.gov/research/Cropland/SARS1a.htm>.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-127.8873, 23.1496], [-74.1585, 23.1496], [-74.1585, 47.958], [-127.8873, 47.958], [-127.8873, 23.1496]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: The USDA, NASS Cropland Data Layer and the data offered on the CropScape website is provided to the public as is and is considered public domain and free to redistribute. The USDA, NASS does not warrant any conclusions drawn from these data.\", \"Access Constraints: none\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "annually"
+    },
+    {
+      "key": "tags",
+      "value": "wyoming, colorado, uk-dmc 2, washington, cropland, rhode island, united states, tennessee, kentucky, wisconsin, nevada, agriculture, maine, montana, earth science, mississippi, south dakota, gis, pennsylvania, land cover, cropscape, oklahoma, delaware, minnesota, north carolina, illinois, land surface, nebraska, arkansas, north dakota, crop cover, maryland, louisiana, michigan, idaho, arizona, iowa, agricultural lands, west virginia, ngda, u.s., kansas, digital spatial data, virginia, oregon, connecticut, national geospatial data asset, california, massachusetts, indiana, new york, new jersey, utah, vermont, georgia, biosphere, landsat, florida, us, missouri, terrestrial ecosystems, land use land cover theme, geospatial, new hampshire, texas, land use/land cover, south carolina, ohio, alabama, deimos-1, new mexico"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "98180e0c-9043-41c5-8369-903ce9666b80"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "b98ff6db-7314-4579-b7c9-6abfe395f086"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "CropScape"
+    }
+  ],
+  "title": "CropScape - Cropland Data Layer",
+  "revision_id": "29d509b0-51a7-4ce4-889a-568dcda89eb1"
+}

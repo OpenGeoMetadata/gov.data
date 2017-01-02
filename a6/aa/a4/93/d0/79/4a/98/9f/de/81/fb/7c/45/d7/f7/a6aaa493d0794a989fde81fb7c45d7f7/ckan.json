@@ -1,0 +1,635 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "a6aaa493-d079-4a98-9fde-81fb7c45d7f7",
+  "metadata_created": "2015-09-27T01:54:14.244371",
+  "metadata_modified": "2016-10-19T23:08:49.792103",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "a6aaa493-d079-4a98-9fde-81fb7c45d7f7",
+      "webstore_last_updated": null,
+      "id": "394a5a4f-4179-4a05-a77d-1640cc779e45",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard LAS html interface for selecting data from this dataset. ",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "LAS",
+      "created": "2016-10-19T19:08:50.829266",
+      "url": "http://ferret.pmel.noaa.gov/geoideLAS/getUI.do?data_url=http://oceanwatch.pfeg.noaa.gov/thredds/dodsC/satellite/TG/ssta/1day",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "06fa392f-0767-49ca-b492-b060b112258b",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "a6aaa493-d079-4a98-9fde-81fb7c45d7f7",
+      "webstore_last_updated": null,
+      "id": "f108aac2-b217-4d4c-b576-a022a525c165",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard ERDDAP html interface for selecting data from this dataset. ",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ERDDAP",
+      "created": "2016-10-19T19:08:50.829296",
+      "url": "http://upwell.pfeg.noaa.gov/erddap/search/index.html?searchFor=http://oceanwatch.pfeg.noaa.gov/thredds/dodsC/satellite/TG/ssta/1day",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "06fa392f-0767-49ca-b492-b060b112258b",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "a6aaa493-d079-4a98-9fde-81fb7c45d7f7",
+      "webstore_last_updated": null,
+      "id": "bddbf670-d454-470a-a465-fd90211390bc",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a standard OPeNDAP html interface for selecting data from this dataset. Change the extension to .info for a description of the dataset.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "File Information",
+      "created": "2016-10-19T19:08:50.829305",
+      "url": "http://oceanwatch.pfeg.noaa.gov/thredds/dodsC/satellite/TG/ssta/1day.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "06fa392f-0767-49ca-b492-b060b112258b",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "a6aaa493-d079-4a98-9fde-81fb7c45d7f7",
+      "webstore_last_updated": null,
+      "id": "44a40646-f74f-4335-8f54-afad1fc0f45a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "mapDigital",
+      "hash": "",
+      "description": "This URL provides an NCDC climate and weather toolkit view of an OPeNDAP resource.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Viewer Information",
+      "created": "2016-10-19T19:08:50.829313",
+      "url": "http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://oceanwatch.pfeg.noaa.gov/thredds/dodsC/satellite/TG/ssta/1day",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 3,
+      "revision_id": "06fa392f-0767-49ca-b492-b060b112258b",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "a6aaa493-d079-4a98-9fde-81fb7c45d7f7",
+      "webstore_last_updated": null,
+      "id": "543f4c81-8b5b-47ee-b0ec-35fe422ea787",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": " Visualize with Live Access Server",
+      "created": "2016-10-19T19:08:50.829320",
+      "url": "http://ferret.pmel.noaa.gov/geoideLAS/getUI.do?data_url=http://oceanwatch.pfeg.noaa.gov/thredds/dodsC/satellite/TG/ssta/1day",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 4,
+      "revision_id": "06fa392f-0767-49ca-b492-b060b112258b",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "a6aaa493-d079-4a98-9fde-81fb7c45d7f7",
+      "webstore_last_updated": null,
+      "id": "754815c8-1354-4fc8-858e-1cbe01d6dd4f",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": " Visualize with ERDDAP",
+      "created": "2016-10-19T19:08:50.829328",
+      "url": "http://upwell.pfeg.noaa.gov/erddap/search/index.html?searchFor=http://oceanwatch.pfeg.noaa.gov/thredds/dodsC/satellite/TG/ssta/1day",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 5,
+      "revision_id": "06fa392f-0767-49ca-b492-b060b112258b",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "a6aaa493-d079-4a98-9fde-81fb7c45d7f7",
+      "webstore_last_updated": null,
+      "id": "c4420017-1d08-4eb7-946f-c0c3fc7f81e7",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This URL provides a viewer for this dataset.",
+      "format": "OPeNDAP",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "mimetype": null,
+      "cache_url": null,
+      "name": " Weather and Climate Toolkit",
+      "created": "2016-10-19T19:08:50.829335",
+      "url": "http://www.ncdc.noaa.gov/oa/wct/wct-jnlp.php?singlefile=http://oceanwatch.pfeg.noaa.gov/thredds/dodsC/satellite/TG/ssta/1day",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 6,
+      "revision_id": "06fa392f-0767-49ca-b492-b060b112258b",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "a6aaa493-d079-4a98-9fde-81fb7c45d7f7",
+      "webstore_last_updated": null,
+      "id": "726a9885-b251-40b7-ae2d-b2d8e9a896d8",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 21,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "revision_id": "06fa392f-0767-49ca-b492-b060b112258b",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T19:08:50.829342",
+      "url": "http://coastwatch.pfel.noaa.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 7,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "a6aaa493-d079-4a98-9fde-81fb7c45d7f7",
+      "webstore_last_updated": null,
+      "id": "c0641533-96d5-4e7d-870d-69d48349eed3",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "The UAF project is providing this catalog as a public service to aid in the discovery and access of scientific data.  The UAF is not responsible for the content of the data and all questions regarding the data should be directed to the office where the data reside.",
+      "format": "",
+      "tracking_summary": {
+        "total": 18,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTPS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA GEO-IDE",
+      "created": "2016-10-19T19:08:50.829349",
+      "url": "https://geo-ide.noaa.gov/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 8,
+      "revision_id": "06fa392f-0767-49ca-b492-b060b112258b",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "a6aaa493-d079-4a98-9fde-81fb7c45d7f7",
+      "webstore_last_updated": null,
+      "id": "5880807d-c9c0-45eb-92de-5333a195a83c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 21,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "revision_id": "06fa392f-0767-49ca-b492-b060b112258b",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T19:08:50.829357",
+      "url": "http://coastwatch.pfel.noaa.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 9,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "a6aaa493-d079-4a98-9fde-81fb7c45d7f7",
+      "webstore_last_updated": null,
+      "id": "e9dccc44-1c48-4a68-9073-75557ef78b4c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 21,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "revision_id": "06fa392f-0767-49ca-b492-b060b112258b",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T19:08:50.829364",
+      "url": "http://coastwatch.pfel.noaa.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 10,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "a6aaa493-d079-4a98-9fde-81fb7c45d7f7",
+      "webstore_last_updated": null,
+      "id": "02fbc213-5eda-4932-816d-8a78241cc31e",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "THREDDS OPeNDAP",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OPeNDAP:OPeNDAP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OPeNDAP",
+      "created": "2016-10-19T19:08:50.829384",
+      "url": "http://oceanwatch.pfeg.noaa.gov/thredds/dodsC/satellite/TG/ssta/1day",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 11,
+      "revision_id": "06fa392f-0767-49ca-b492-b060b112258b",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "a6aaa493-d079-4a98-9fde-81fb7c45d7f7",
+      "webstore_last_updated": null,
+      "id": "acc3f0a5-53a5-4bab-bcdd-ebddb1fb506a",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 21,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "revision_id": "06fa392f-0767-49ca-b492-b060b112258b",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T19:08:50.829413",
+      "url": "http://coastwatch.pfel.noaa.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 12,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "a6aaa493-d079-4a98-9fde-81fb7c45d7f7",
+      "webstore_last_updated": null,
+      "id": "1205df7d-78e7-4abc-a82f-146cf196e979",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Open Geospatial Consortium Web Coverage Service (WCS)",
+      "format": "WCS",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WCS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OGC-WCS",
+      "created": "2016-10-19T19:08:50.829427",
+      "url": "http://oceanwatch.pfeg.noaa.gov/thredds/wcs/satellite/TG/ssta/1day?service=WCS&version=1.0.0&request=GetCapabilities",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 13,
+      "revision_id": "06fa392f-0767-49ca-b492-b060b112258b",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "a6aaa493-d079-4a98-9fde-81fb7c45d7f7",
+      "webstore_last_updated": null,
+      "id": "c73cd122-5cb9-4462-820f-32370c6a2d69",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 21,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "WWW:LINK",
+      "revision_id": "06fa392f-0767-49ca-b492-b060b112258b",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-10-19T19:08:50.829435",
+      "url": "http://coastwatch.pfel.noaa.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 14,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "a6aaa493-d079-4a98-9fde-81fb7c45d7f7",
+      "webstore_last_updated": null,
+      "id": "1cfc13da-3df1-4663-b21e-c657fe08c7f3",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Open Geospatial Consortium Web Map Service (WMS)",
+      "format": "WMS",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "OGC:WMS",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "OGC-WMS",
+      "created": "2016-10-19T19:08:50.829442",
+      "url": "http://oceanwatch.pfeg.noaa.gov/thredds/wms/satellite/TG/ssta/1day?service=WMS&version=1.3.0&request=GetCapabilities",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 15,
+      "revision_id": "06fa392f-0767-49ca-b492-b060b112258b",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 16,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 2,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "sst-aqua-modis-npp-0-0125-degrees-gulf-of-mexico-day-and-night2de2f",
+  "isopen": false,
+  "url": null,
+  "notes": "NOAA CoastWatch provides SST data from NASA's Terra Spacecraft.  Measurements are gathered by the Moderate Resolution Imaging Spectroradiometer (MODIS) carried aboard the spacecraft.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-75.0"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "33.0"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[{\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}, {\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}, {\"href\": [\"#DataIdentification\"], \"uuid\": [], \"title\": []}]"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.pfel.coastwatch:LTGsstaS1day_20120226120000"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "18.0"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-100.0, 18.0], [-75.0, 18.0], [-75.0, 33.0], [-100.0, 33.0], [-100.0, 18.0]]]}"
+    },
+    {
+      "key": "progress",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "2000-02-24T12:00:00Z"
+    },
+    {
+      "key": "contact-email",
+      "value": "dave.foley@noaa.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-100.0"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-10-13"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"creation\", \"value\": \"2012-04-25Z\"}, {\"type\": \"issued\", \"value\": \"2012-04-25Z\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"The Unified Access Framework (UAF)\", \"roles\": [\"custodian\"]}, {\"name\": \"NOAA CoastWatch, West Coast Node\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2012-02-27T12:00:00Z"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": "THREDDS OPeNDAP"
+    },
+    {
+      "key": "metadata-language",
+      "value": "eng"
+    },
+    {
+      "key": "tags",
+      "value": "ocean temperature, sea_surface_temperature, noaa coastwatch, west coast node, coastwatch (http://coastwatch.noaa.gov/), the unified access framework: a geo-ide project to integrate scientific data management and access, oceans, longitude, unified access framework (uaf), sea surface temperature, time, latitude, altitude, earth science"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "d9db59c7-1664-474f-84ca-14870130bd7b"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "SST, Aqua MODIS, NPP, 0.0125 degrees, Gulf of Mexico, Day and Night",
+  "revision_id": "c0a7b107-cca6-4444-aac1-dbcb4c152db8"
+}

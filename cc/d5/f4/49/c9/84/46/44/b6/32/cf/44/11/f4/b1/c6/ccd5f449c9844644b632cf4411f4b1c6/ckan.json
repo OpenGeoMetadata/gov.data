@@ -1,0 +1,192 @@
+{
+  "license_title": "Other License Specified",
+  "maintainer": "Data Exchange Administrator",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "ORDP.Data.Exchange@ssa.gov",
+  "num_tags": 6,
+  "id": "ccd5f449-c984-4644-b632-cf4411f4b1c6",
+  "metadata_created": "2015-01-30T16:17:57.518822",
+  "metadata_modified": "2016-03-19T22:24:47.697368",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "department-of-defense",
+      "id": "39394b85-221a-4ccb-8131-cad84d78e6bd",
+      "name": "department-of-defense"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "dod",
+      "id": "1d6329bb-03fa-4627-aefa-1e7899100eb6",
+      "name": "dod"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "expedited",
+      "id": "e71d5d33-9ed7-4391-b0f0-0e6fcf1ce623",
+      "name": "expedited"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "military-casualty",
+      "id": "661d404f-d87f-4a08-ab52-2898cb327e20",
+      "name": "military-casualty"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "operation-enduring-freedom",
+      "id": "533cff69-519f-4a9e-be9f-a84d2dae5775",
+      "name": "operation-enduring-freedom"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "operation-iraqi-freedom",
+      "id": "3a5a5735-84eb-4df9-a218-06050fd4dc7e",
+      "name": "operation-iraqi-freedom"
+    }
+  ],
+  "tracking_summary": {
+    "total": 53,
+    "recent": 2
+  },
+  "groups": [
+
+  ],
+  "license_id": "other-license-specified",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:35:25.934290",
+    "title": "Social Security Administration",
+    "name": "ssa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/ssa.png",
+    "revision_id": "1be01963-921d-432f-b56d-37fa76dfb0a1",
+    "type": "organization",
+    "id": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+    "approval_status": "approved"
+  },
+  "name": "department-of-defense-dod-military-casualty-wounded-warrier",
+  "isopen": true,
+  "url": null,
+  "notes": "SSA initiated this agreement with the Department of Defense (DOD) to transmit to SSA information that will identify military personnel injured or taken ill while in support of Operations Enduring Freedom and Iraqi Freedom before an SSA application is filed.  When an SSN is requested, the response will include an indication that the SSN belongs to an individual that the DOD has idenfied as a Military Casualty.  the following alert will then be generated: \"Military Casualty Alert - Use Expedited Procedures\".  Expedited services will then be provided to these military personnel.",
+  "owner_org": "149dc403-f16f-4e9d-a9c9-39babf7e98bf",
+  "extras": [
+    {
+      "key": "publisher",
+      "value": "Social Security Administration"
+    },
+    {
+      "key": "accessLevel",
+      "value": "restricted public"
+    },
+    {
+      "key": "license",
+      "value": "https://www.ssa.gov/open/data/Restricted-Public-Licensing-Information.html"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "rights",
+      "value": "The data contained in this data exchange is restricted due to sensitivity and/or privacy issues.  If you would like more information on a data exchange with SSA please visit the following web site https://www.ssa.gov/dataexchange/."
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "R/P1W"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "016:000"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "016:00"
+      ]
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "R/P1W"
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "identifier",
+      "value": "US-GOV-SSA-687"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "407ed061-dceb-44be-bc6e-1b20763def5d"
+    },
+    {
+      "key": "source_hash",
+      "value": "7ea4dcbfbfaaaf4b78c766fd188cac71aa1531f0"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "407ed061-dceb-44be-bc6e-1b20763def5d"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "3ab711e9-e33a-4f1e-a524-30be635dbce0"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "SSA JSON"
+    }
+  ],
+  "title": "Department of Defense (DOD) Military Casualty/Wounded Warrior",
+  "revision_id": "2568d1c8-266e-4bf5-a875-a5f3cf5a66a0"
+}

@@ -1,0 +1,247 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "95cfd86d-57a1-4332-a3cf-9f62cb5d31c5",
+  "metadata_created": "2016-12-05T16:58:54.397925",
+  "metadata_modified": "2016-12-05T16:58:54.397925",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "95cfd86d-57a1-4332-a3cf-9f62cb5d31c5",
+      "webstore_last_updated": null,
+      "id": "ae681ab8-f2ad-48a3-995c-3ba62f592bb3",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Vector Digital Data Set (Polygon)",
+      "created": "2016-12-05T11:58:54.565275",
+      "url": "http://gis.wim.usgs.gov/arcgis/rest/services/GLCWRA/WLERA_hydroCondition/MapServer/2",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "8f4a6bd7-0e3c-41c0-8fcf-f0504851dd36",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "95cfd86d-57a1-4332-a3cf-9f62cb5d31c5",
+      "webstore_last_updated": null,
+      "id": "caf487d5-c315-4010-ae00-2626ab371f75",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "8f4a6bd7-0e3c-41c0-8fcf-f0504851dd36",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-12-05T11:58:54.565302",
+      "url": "http://dx.doi.org/10.5066/F7W9579M",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "95cfd86d-57a1-4332-a3cf-9f62cb5d31c5",
+      "webstore_last_updated": null,
+      "id": "218d18f3-204a-4348-82c5-c0b62349f363",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "8f4a6bd7-0e3c-41c0-8fcf-f0504851dd36",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Esri Rest API Endpoint",
+      "created": "2016-12-05T11:58:54.565312",
+      "url": "http://gis.wim.usgs.gov/arcgis/rest/services/GLCWRA/WLERA_hydroCondition/MapServer/2",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 0,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "western-lake-erie-restoration-assessment-dikes",
+  "isopen": false,
+  "url": null,
+  "notes": "This dataset is the output of a python script/ArcGIS model that identifes dikes as having a difference in elevation above a certain threshold. If the elevation difference was below a certain threshold the area was not considered a dike; however, if the difference in elevation between two points was significantly high then the area was marked as a dike. Areas continuous with eachother were considered part of the same dike. Post processing occured. Users examined the data output, comparing the proposed dike locations to aerial imagery, flowline data, and the DEM. Dikes that appeared to be false positives were deleted from the data set.",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"NewGAM Lab\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": "ian.mcnair12@ncf.edu"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-83.605585115"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-10-04"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2016-10-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-82.038073246"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "42.085172318"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "41.358969774"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.  Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-83.605585115, 41.358969774], [-82.038073246, 41.358969774], [-82.038073246, 42.085172318], [-83.605585115, 42.085172318], [-83.605585115, 41.358969774]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: For informational use only\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "tags",
+      "value": "biogeography, lake erie, ecological processes, estuarine processes, decision support methods, geography, estuarine ecosystems, geodesign, environmental assessment, coastal processes, lidar, water resources, interagency programs, geospatial analysis, habitats, freshwater ecosystems, surface-water level, connectivity, restoration, wetland ecosystems, geospatial datasets, wetland functions, great lakes, land use change, coastal ecosystems, geographic information systems, hydrographic datasets, dikes, digital elevation models, drainage"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "cdbb8b38-b66e-439d-8e26-69ed3be74c7b"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "f2797c4e-c02f-4a44-a6c2-760f3b70c03e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "USGS Great Lakes Science Center"
+    }
+  ],
+  "title": "Western Lake Erie Restoration Assessment Dikes",
+  "revision_id": "8f4a6bd7-0e3c-41c0-8fcf-f0504851dd36"
+}

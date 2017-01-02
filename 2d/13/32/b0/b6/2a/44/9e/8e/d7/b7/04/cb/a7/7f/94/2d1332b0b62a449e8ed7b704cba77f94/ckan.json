@@ -1,0 +1,54 @@
+{
+  "collection_metadata_url": "http://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2013/SeriesCollection/SeriesCollection_tl_2013_addr.dbf.iso.xml",
+  "private": false,
+  "revision_timestamp": null,
+  "frequency": "MANUAL",
+  "id": "2d1332b0-b62a-449e-8ed7-b704cba77f94",
+  "metadata_created": "2013-09-06T17:27:21.881065",
+  "metadata_modified": "2014-01-23T14:53:40.666740",
+  "title": "Current Address Ranges Relationship File",
+  "state": "active",
+  "relationships_as_object": [
+
+  ],
+  "creator_user_id": "65349",
+  "config": "{\"collection_metadata_url\": \"http://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2013/SeriesCollection/SeriesCollection_tl_2013_addr.dbf.iso.xml\", \"validator_profiles\": [\"iso19139ngdc\"], \"private_datasets\": false}",
+  "resources": [
+
+  ],
+  "tags": [
+
+  ],
+  "source_type": "waf-collection",
+  "tracking_summary": {
+    "total": 14,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "relationships_as_subject": [
+
+  ],
+  "name": "current-address-ranges-relationship-file",
+  "url": "http://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2013/addr/",
+  "type": "harvest",
+  "notes": "The Address Ranges Relationship File (ADDR.dbf) contains the attributes of each address range. Each address range applies to a single edge and has a unique address range identifier (ARID) value. The edge to which an address range applies can be determined by linking the address range to the All Lines Shapefile (EDGES.shp) using the permanent topological edge identifier (TLID) attribute. Multiple address ranges can apply to the same edge since an edge can have multiple address ranges. Note that the most inclusive address range associated with each side of a street edge already appears in the All Lines Shapefile (EDGES.shp). The TIGER/Line Shapefiles contain potential address ranges, not individual addresses. The term \"address range\" refers to the collection of all possible structure numbers from the first structure number to the last structure number and all numbers of a specified parity in between along an edge side relative to the direction in which the edge is coded. The address ranges in the TIGER/Line Shapefiles are potential ranges that include the full range of possible structure numbers even though the actual structures may not exist.",
+  "owner_org": "31c49abe-512a-412a-9cc7-5b2601325d6b",
+  "private_datasets": false,
+  "organization": {
+    "description": "The Census Bureau's mission is to serve as the leading source of quality data about the nation's people and economy. We honor privacy, protect confidentiality, share our expertise globally, and conduct our work openly. We are guided on this mission by scientific objectivity, our strong and capable workforce, our devotion to research-based innovation, and our abiding commitment to our customers.",
+    "created": "2013-03-14T03:44:46.743070",
+    "title": "US Census Bureau, Department of Commerce",
+    "name": "census-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://www.census.gov/main/img/home/CensusLogo-white.png",
+    "revision_id": "0995f525-d563-4254-a535-af5b926fe663",
+    "type": "organization",
+    "id": "31c49abe-512a-412a-9cc7-5b2601325d6b",
+    "approval_status": "approved"
+  },
+  "revision_id": "75454471-9e06-4bc4-8c6b-43765bb3d7d9",
+  "validator_profiles": "iso19139ngdc"
+}

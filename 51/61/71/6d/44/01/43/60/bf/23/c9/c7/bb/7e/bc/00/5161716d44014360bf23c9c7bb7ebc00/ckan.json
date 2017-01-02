@@ -1,0 +1,237 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "5161716d-4401-4360-bf23-c9c7bb7ebc00",
+  "metadata_created": "2016-07-04T21:16:52.068136",
+  "metadata_modified": "2016-07-04T21:16:52.068136",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "5161716d-4401-4360-bf23-c9c7bb7ebc00",
+      "webstore_last_updated": null,
+      "id": "20b5aaa3-d46a-451e-b73d-d859216d4d29",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Information about the dataset",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Cite URL",
+      "created": "2016-07-04T17:16:52.319094",
+      "url": "http://www.esrl.noaa.gov/psd/data/gridded/data.pdsi.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "6c4e4358-655f-4aea-953c-be87adebdf59",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "5161716d-4401-4360-bf23-c9c7bb7ebc00",
+      "webstore_last_updated": null,
+      "id": "7bd63b9f-80a4-448f-9907-240fba703237",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Thredds Data server.  Allows http, opendap, and possibly WCS and WMS downaloads.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Thredds Server",
+      "created": "2016-07-04T17:16:52.319118",
+      "url": "http://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/dai_pdsi//catalog.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "6c4e4358-655f-4aea-953c-be87adebdf59",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "5161716d-4401-4360-bf23-c9c7bb7ebc00",
+      "webstore_last_updated": null,
+      "id": "af748632-69dd-430f-8bb8-8eb6a2388c7e",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "FTP server.",
+      "format": "NETCDF3_CLASSIC",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "FTP server",
+      "created": "2016-07-04T17:16:52.319127",
+      "url": "ftp://ftp.cdc.noaa.gov/Datasets/dai_pdsi/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "6c4e4358-655f-4aea-953c-be87adebdf59",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 7,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "palmer-drought-severity-index",
+  "isopen": false,
+  "url": null,
+  "notes": "PDSI from the Dai dataset. The Palmer Drought Severity Index (PDSI) is devised by Palmer (1965) to represent the severity of dry and wet spells over the U.S. based on monthly temperature and precipitation data as well as the soil-water holding capacity at that location. These data consist of the monthly PDSI over global land areas from 1850 to 2010. Different precipitation/temperature datasets are used in the different files. Update and more information are available at CGD (Climate and Global Dynamics Division). ",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "temporal-extent-begin",
+      "value": "1850-01-01"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "2014-12-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "webmaster.psd@noaa.gov"
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "metadata-date",
+      "value": "2014-12-01"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"lastUpdate\", \"value\": \"2014-12-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"\", \"roles\": [\"custodian\"]}]"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://www.esrl.noaa.gov/psd/mddb2/browseGraphics/Palmer_Drought_Severity_Index.png"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": ""
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "ongoing"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.esrl.psd.dataset.Palmer_Drought_Severity_Index"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "tags",
+      "value": "monthly global palmer drought severity index: v2"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "1045b514-4d0a-4c33-a476-a32a722f4614"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Palmer Drought Severity Index",
+  "revision_id": "6c4e4358-655f-4aea-953c-be87adebdf59"
+}

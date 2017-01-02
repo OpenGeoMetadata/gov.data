@@ -1,0 +1,562 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "b9227bff-a7c7-4760-bb06-68e3e33d8bc9",
+  "metadata_created": "2015-09-26T23:07:26.977540",
+  "metadata_modified": "2016-05-31T04:42:03.160025",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "b9227bff-a7c7-4760-bb06-68e3e33d8bc9",
+      "webstore_last_updated": null,
+      "id": "c707317e-117f-4828-8ff8-9b8f812f5bc2",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Global summary of the day is comprised of a dozen daily averages computed from global hourly station data. Daily weather elements include mean values of: temperature, dew point temperature, sea level pressure, station pressure, visibility, and wind speed plus maximum and minimum temperature, maximum sustained wind speed and maximum gust, precipitation amount, snow depth, and weather indicators. With the exception of U.S. stations, 24-hour periods are based upon UTC times. Values are usually delayed 24-48 hours from the time of observation.",
+      "format": "",
+      "tracking_summary": {
+        "total": 61,
+        "recent": 8
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Global Summary of the Day Landing Page",
+      "created": "2016-05-31T00:42:04.505732",
+      "url": "http://gis.ncdc.noaa.gov/all-records/catalog/search/resource/details.page?id=gov.noaa.ncdc:C00516",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "79a13497-96a8-4ed3-8a72-685d194fbffb",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9227bff-a7c7-4760-bb06-68e3e33d8bc9",
+      "webstore_last_updated": null,
+      "id": "d1d68213-1bb0-452a-b38b-a2ce9807ef59",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "search",
+      "hash": "",
+      "description": "Dataset files available for download via FTP.",
+      "format": "",
+      "tracking_summary": {
+        "total": 94,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "FTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NCEI FTP Server",
+      "created": "2016-05-31T00:42:04.505757",
+      "url": "ftp://ftp.ncdc.noaa.gov/pub/data/gsod/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "79a13497-96a8-4ed3-8a72-685d194fbffb",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9227bff-a7c7-4760-bb06-68e3e33d8bc9",
+      "webstore_last_updated": null,
+      "id": "70d01e8e-0637-42cb-bc65-1c56b0418016",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "search",
+      "hash": "",
+      "description": "Search for the dataset via a text-based interface.",
+      "format": "",
+      "tracking_summary": {
+        "total": 76,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NCEI Climate Data Online Data Search",
+      "created": "2016-05-31T00:42:04.505766",
+      "url": "http://www7.ncdc.noaa.gov/CDO/cdoselect.cmd?datasetabbv=GSOD&resolution=40",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "revision_id": "79a13497-96a8-4ed3-8a72-685d194fbffb",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9227bff-a7c7-4760-bb06-68e3e33d8bc9",
+      "webstore_last_updated": null,
+      "id": "59dc38d9-bb09-48b5-99cd-20f7101bc9df",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "search",
+      "hash": "",
+      "description": "Dynamic GIS mapping application to locate stations and data for selected layers.",
+      "format": "",
+      "tracking_summary": {
+        "total": 9,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NCEI Climate Data Online Map Server",
+      "created": "2016-05-31T00:42:04.505773",
+      "url": "https://gis.ncdc.noaa.gov/maps/ncei/cdo/daily",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 3,
+      "revision_id": "79a13497-96a8-4ed3-8a72-685d194fbffb",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9227bff-a7c7-4760-bb06-68e3e33d8bc9",
+      "webstore_last_updated": null,
+      "id": "8ec8c052-f594-4195-b0a0-a293f2861039",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "ArcGIS Server REST API for the dataset.",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 24,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NCEI ArcGIS REST Services Directory",
+      "created": "2016-05-31T00:42:04.505780",
+      "url": "http://gis.ncdc.noaa.gov/arcgis/rest/services/cdo/gsod/MapServer/",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 4,
+      "revision_id": "79a13497-96a8-4ed3-8a72-685d194fbffb",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9227bff-a7c7-4760-bb06-68e3e33d8bc9",
+      "webstore_last_updated": null,
+      "id": "bc9d039f-5c55-44db-ba30-4c4be98be3b2",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Direct download link for KMZ file.",
+      "format": "KMZ",
+      "tracking_summary": {
+        "total": 9,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "KMZ file for dataset",
+      "created": "2016-05-31T00:42:04.505787",
+      "url": "http://gis.ncdc.noaa.gov/kml/gsod.kmz",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 5,
+      "revision_id": "79a13497-96a8-4ed3-8a72-685d194fbffb",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9227bff-a7c7-4760-bb06-68e3e33d8bc9",
+      "webstore_last_updated": null,
+      "id": "00d2bd4a-e163-47af-91c8-62774b29e858",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "Documentation of the dataset including a data description, format layout and definitions.",
+      "format": "TXT",
+      "tracking_summary": {
+        "total": 18,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NCEI Dataset Documentation",
+      "created": "2016-05-31T00:42:04.505794",
+      "url": "http://www1.ncdc.noaa.gov/pub/data/gsod/readme.txt",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 6,
+      "revision_id": "79a13497-96a8-4ed3-8a72-685d194fbffb",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9227bff-a7c7-4760-bb06-68e3e33d8bc9",
+      "webstore_last_updated": null,
+      "id": "847dd964-f393-4321-b97e-2a61e5f21497",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "download",
+      "hash": "",
+      "description": "This sample data file shows how the data are formatted and is for example purposes only.",
+      "format": "TXT",
+      "tracking_summary": {
+        "total": 28,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "GSOD Sample Data",
+      "created": "2016-05-31T00:42:04.505801",
+      "url": "http://www7.ncdc.noaa.gov/CDO/GSOD_COMMADEL.txt",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 7,
+      "revision_id": "79a13497-96a8-4ed3-8a72-685d194fbffb",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9227bff-a7c7-4760-bb06-68e3e33d8bc9",
+      "webstore_last_updated": null,
+      "id": "a714dad8-1abe-4955-80d9-7f57493e083f",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-05-31T00:42:04.505808",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 8,
+      "revision_id": "79a13497-96a8-4ed3-8a72-685d194fbffb",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9227bff-a7c7-4760-bb06-68e3e33d8bc9",
+      "webstore_last_updated": null,
+      "id": "d11af380-af7f-4f43-aa73-3e0fae18ed11",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Instructions and examples for ISO keywords.",
+      "format": "",
+      "tracking_summary": {
+        "total": 64,
+        "recent": 2
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NOAA NOAA Environmental Data Management Wiki: MD Keywords",
+      "created": "2016-05-31T00:42:04.505814",
+      "url": "https://geo-ide.noaa.gov/wiki/index.php?title=MD_Keywords",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 9,
+      "revision_id": "79a13497-96a8-4ed3-8a72-685d194fbffb",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9227bff-a7c7-4760-bb06-68e3e33d8bc9",
+      "webstore_last_updated": null,
+      "id": "458e1160-ef83-4c90-a816-726e33789331",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-05-31T00:42:04.505821",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 10,
+      "revision_id": "79a13497-96a8-4ed3-8a72-685d194fbffb",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9227bff-a7c7-4760-bb06-68e3e33d8bc9",
+      "webstore_last_updated": null,
+      "id": "0d54353c-f93d-420b-b019-e155a45276cc",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-05-31T00:42:04.505828",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 11,
+      "revision_id": "79a13497-96a8-4ed3-8a72-685d194fbffb",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "b9227bff-a7c7-4760-bb06-68e3e33d8bc9",
+      "webstore_last_updated": null,
+      "id": "ba46d125-e825-4bc6-be2a-de2ae96967e1",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "information",
+      "hash": "",
+      "description": "Overview of the NASA GCMD Keywords.",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 163,
+        "recent": 14
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "HTTP",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "NASA GCMD Keyword Community Page",
+      "created": "2016-05-31T00:42:04.505835",
+      "url": "http://gcmd.gsfc.nasa.gov/learn/keywords.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 12,
+      "revision_id": "79a13497-96a8-4ed3-8a72-685d194fbffb",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 13,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 516,
+    "recent": 28
+  },
+  "groups": [
+    {
+      "display_name": "Climate",
+      "description": "",
+      "image_display_url": "",
+      "title": "Climate",
+      "id": "aa0c01c9-d292-4dc1-8fec-b10c1bb629a9",
+      "name": "climate5434"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "global-surface-summary-of-the-day-gsod",
+  "isopen": false,
+  "url": null,
+  "notes": "Global Surface Summary of the Day is derived from The Integrated Surface Hourly (ISH) dataset. The ISH dataset includes global data obtained from the USAF Climatology Center, located in the Federal Climate Complex with NCDC. The latest daily summary data are normally available 1-2 days after the date-time of the observations used in the daily summaries. The online data files begin with 1929 and are at the time of this writing at the Version 8 software level. Over 9000 stations' data are typically available. The daily elements included in the dataset (as available from each station) are: Mean temperature (.1 Fahrenheit) Mean dew point (.1 Fahrenheit) Mean sea level pressure (.1 mb) Mean station pressure (.1 mb) Mean visibility (.1 miles) Mean wind speed (.1 knots) Maximum sustained wind speed (.1 knots) Maximum wind gust (.1 knots) Maximum temperature (.1 Fahrenheit) Minimum temperature (.1 Fahrenheit) Precipitation amount (.01 inches) Snow depth (.1 inches) Indicator for occurrence of: Fog, Rain or Drizzle, Snow or Ice Pellets, Hail, Thunder, Tornado/Funnel Cloud Global summary of day data for 18 surface meteorological elements are derived from the synoptic/hourly observations contained in USAF DATSAV3 Surface data and Federal Climate Complex Integrated Surface Hourly (ISH). Historical data are generally available for 1929 to the present, with data from 1973 to the present being the most complete. For some periods, one or more countries' data may not be available due to data restrictions or communications problems. In deriving the summary of day data, a minimum of 4 observations for the day must be present (allows for stations which report 4 synoptic observations/day). Since the data are converted to constant units (e.g, knots), slight rounding error from the originally reported values may occur (e.g, 9.9 instead of 10.0). The mean daily values described below are based on the hours of operation for the station. For some stations/countries, the visibility will sometimes 'cluster' around a value (such as 10 miles) due to the practice of not reporting visibilities greater than certain distances. The daily extremes and totals--maximum wind gust, precipitation amount, and snow depth--will only appear if the station reports the data sufficiently to provide a valid value. Therefore, these three elements will appear less frequently than other values. Also, these elements are derived from the stations' reports during the day, and may comprise a 24-hour period which includes a portion of the previous day. The data are reported and summarized based on Greenwich Mean Time (GMT, 0000Z - 2359Z) since the original synoptic/hourly data are reported and based on GMT.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "180.0"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "90.0"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "PNG"
+    },
+    {
+      "key": "guid",
+      "value": "gov.noaa.ncdc:C00516"
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://www1.ncdc.noaa.gov/pub/data/metadata/images/C00516_global-day-summary.png"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "-90.0"
+    },
+    {
+      "key": "__category_tag_aa0c01c9-d292-4dc1-8fec-b10c1bb629a9",
+      "value": "[\"Melting Glaciers, Snow and Ice\",\"Arctic Weather and Extreme Events\",\"Arctic\",\"Atmospheric, Earth and Ocean Sciences\",\"Transportation\",\"Physical Data\",\"Coastal Flooding\",\"Water\",\"Human Health\",\"Ecosystem Vulnerability\"]"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-180.0, -90.0], [180.0, -90.0], [180.0, 90.0], [-180.0, 90.0], [-180.0, -90.0]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Cite this dataset when used as a source.\", \"NCEI cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NCEI makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty. NCEI can only certify that the data it distributes are an authentic copy of the records that were accepted for inclusion in the NCEI archives.\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "1929-01-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "ncei.orders@noaa.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-180.0"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-05-05"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "Global Surface Summary of the Day GIS map"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "atmosphere, cyclones, cryosphere, hail, sleet, national centers for environmental information, nesdis, noaa, u.s. department of commerce, doc/noaa/nesdis/ncei, sea level pressure, earth science, tornadoes, air quality, vertical location, atmospheric pressure, doc/noaa/nesdis/ncdc, storms, snow, maximum/minimum temperature, fog, precipitation amount, atmospheric temperature, terrestrial hydrosphere, freezing rain, liquid precipitation, atmospheric electricity, national climatic data center, nesdis, noaa, u.s. department of commerce, visibility, surface winds, rain, geographic region, land surface, precipitation, atmospheric phenomena, dew point temperature, atmospheric winds, ice pellets, surface temperature, atmospheric pressure measurements, air temperature, lightning, snow depth, surface pressure, solid precipitation, snow/ice, global land"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "897cbc6a-5153-4238-a9ba-1f30eace53a2"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Global Surface Summary of the Day - GSOD",
+  "revision_id": "75ff9322-83fb-489e-a7e2-c8105c3f4a37"
+}

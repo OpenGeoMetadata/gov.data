@@ -1,0 +1,258 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "2d65af04-6996-40a5-a818-9ef59d75fb26",
+  "metadata_created": "2014-10-01T14:30:22.273097",
+  "metadata_modified": "2016-09-27T08:31:09.833796",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "2d65af04-6996-40a5-a818-9ef59d75fb26",
+      "webstore_last_updated": null,
+      "id": "79f30635-2a67-4258-8d35-d2d6548baf4c",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "Esri REST",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "USTopo Index Map Service (ArcGIS)",
+      "created": "2016-09-27T04:31:10.369552",
+      "url": "http://services.nationalmap.gov/arcgis/rest/services/US_Topo_Availability/MapServer",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "4965eb40-c7b6-4d41-b019-25cdfcbb5ce5",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2d65af04-6996-40a5-a818-9ef59d75fb26",
+      "webstore_last_updated": null,
+      "id": "a22bf3fd-8910-4ca4-8417-dff702126349",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "WMS",
+      "tracking_summary": {
+        "total": 5,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "USTopo Index Map Service (WMS)",
+      "created": "2016-09-27T04:31:10.369574",
+      "url": "http://services.nationalmap.gov/arcgis/services/US_Topo_Availability/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "revision_id": "4965eb40-c7b6-4d41-b019-25cdfcbb5ce5",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "2d65af04-6996-40a5-a818-9ef59d75fb26",
+      "webstore_last_updated": null,
+      "id": "67d33bc5-de1d-446d-81b8-1ca2aad1ddb3",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 145,
+        "recent": 24
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "4965eb40-c7b6-4d41-b019-25cdfcbb5ce5",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-09-27T04:31:10.369582",
+      "url": "http://viewer.nationalmap.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 2,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 3,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 64,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "http://www.usgs.gov/\r\nThe USGS is a federal science agency that provides impartial information on the health of our ecosystems and environment, the natural hazards that threaten us, the natural resources we rely on, the impacts of climate and land-use change, and the core science systems that help us provide timely, relevant, and useable information.",
+    "created": "2013-03-14T03:44:38.263357",
+    "title": "U.S. Geological Survey, Department of the Interior",
+    "name": "usgs-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://pubs.usgs.gov/sir/2004/5296/04-5296_confluence_park/usgs_logo.gif",
+    "revision_id": "2858aa99-9501-4f96-82e5-9647b968ed66",
+    "type": "organization",
+    "id": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+    "approval_status": "approved"
+  },
+  "name": "usgs-us-topo-availability-overlay-map-service-from-the-national-map",
+  "isopen": false,
+  "url": null,
+  "notes": "The USGS US Topo Availability service from The National Map consists of footprints where US Topo products are currently available. Various green tints are used to reflect the year in which US Topo map products have been published. The service is updated daily and contains the same data used in footprints in the Map Locator & Downloader application program interface used in the USGS Store (http://store.usgs.gov). In addition to access through The National Map download client (http://viewer.nationalmap.gov/basic), US Topo products and other USGS publications are available through the USGS Store. For additional information, go to http://nationalmap.gov/ustopo",
+  "owner_org": "bd2cdd5a-4d65-46c0-9937-c8381175f104",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "180"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "71.5"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "graphic-preview-type",
+      "value": "JPG"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": "http://thor-f5.er.usgs.gov/ngtoc/metadata/waf/services/overlays/browse/ustopo_availability.jpg"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "17.625"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-179.1666667, 17.625], [180.0, 17.625], [180.0, 71.5], [-179.1666667, 71.5], [-179.1666667, 17.625]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None. Acknowledgement of the originating agencies would be appreciated in products derived from these data.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "contact-email",
+      "value": "tnm_help@usgs.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-179.1666667"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2016-09-26"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2016-01-01\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "Browse graphic showing US Topo availability by state to include publishing year legend."
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although these data have been processed successfully on a computer system at the\\n         U.S. Geological Survey, no warranty expressed or implied is made regarding the accuracy or\\n         utility of the data on any other system or for general or scientific purposes, nor shall\\n         the act of distribution constitute any such warranty. This disclaimer applies both to\\n         individual use of the data and aggregate use with other data. It is strongly recommended\\n         that these data are directly acquired from a U.S. Geological Survey server, and not\\n         indirectly through other sources which may have changed the data in some way. It is also\\n         strongly recommended that careful attention be paid to the contents of the metadata file\\n         associated with these data. The U.S. Geological Survey shall not be held liable for\\n         improper or incorrect use of the data described and/or contained herein.\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U.S. Geological Survey, National Geospatial Technical Operations Center\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "map, topographic, us topo, quadrangle, geopdf, rest, contour, overlay map service, wms, ngp-tnm, us, 7.5 minute, download, availability, united states"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "28ab88cf-bc01-480f-b97c-310662d5b619"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "36576f3b-f5e0-417c-a606-ceac6be7408b"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Overlay Map Services in The National Map"
+    }
+  ],
+  "title": "USGS US Topo Availability Overlay Map Service from The National Map",
+  "revision_id": "4965eb40-c7b6-4d41-b019-25cdfcbb5ce5"
+}

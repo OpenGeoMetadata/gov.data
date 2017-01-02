@@ -1,0 +1,241 @@
+{
+  "license_title": "U.S. Government Work",
+  "maintainer": "PLEASE CONTACT MLS SCIENCE TEAM",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "data@mls.jpl.nasa.gov",
+  "num_tags": 3,
+  "id": "9dcbb9d7-0918-48c8-b43b-d41e69d7eb70",
+  "metadata_created": "2014-10-08T03:09:08.419258",
+  "metadata_modified": "2016-05-06T08:00:00.167883",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "9dcbb9d7-0918-48c8-b43b-d41e69d7eb70",
+      "webstore_last_updated": null,
+      "id": "41d09fc5-00fc-4fe7-8715-dc0bac45e7b9",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "",
+      "format": "BIN",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "last_modified": null,
+      "url_type": null,
+      "no_real_name": "True",
+      "mimetype": "application/octet-stream",
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-07-08T15:17:52.190956",
+      "url": "http://mirador.gsfc.nasa.gov/cgi-bin/mirador/presentNavigation.pl?tree=project&dataset=ML2DGM.002&project=MLS&dataGroup=L2_V002&version=002",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "abbcf986-9764-44f8-8003-9cb4e13ea7dc",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "earth-science",
+      "id": "f28006f8-df78-4700-b72f-f4a19628ba67",
+      "name": "earth-science"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "microwave",
+      "id": "311a21d3-5b4a-4520-ae6c-eea163651d25",
+      "name": "microwave"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "spectral-engineering",
+      "id": "8976b0b3-e423-440d-9ad4-ca2599152650",
+      "name": "spectral-engineering"
+    }
+  ],
+  "tracking_summary": {
+    "total": 2,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "us-pd",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "NASA's vision: To reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.\r\n\r\nTo do that, thousands of people have been working around the world -- and off of it -- for 50 years, trying to answer some basic questions. What's out there in space? How do we get there? What will we find? What can we learn there, or learn just by trying to get there, that will make life better here on Earth?\r\n\r\nNASA conducts its work in four principal organizations, called mission directorates:\r\n \r\nAeronautics: works to solve the challenges that still exist in our nation's air transportation system: air traffic congestion, safety and environmental impacts.\r\n\r\nHuman Exploration and Operations: focuses on International Space Station operations, development of commercial spaceflight opportunities and human exploration beyond low Earth orbit.\r\n\r\nScience: explores the Earth, solar system and universe beyond; charts the best route of discovery; and reaps the benefits of Earth and space exploration for society.\r\n\r\nSpace Technology: rapidly develops, demonstrates, and infuses revolutionary, high-payoff technologies, expanding the boundaries of the aerospace enterprise.\r\n\r\nIn the early 21st century, NASA's reach spans the universe. The Mars rover Curiosity is still exploring Mars to see if it might once have had environments suitable for life. Cassini is in orbit around Saturn, as Juno makes its way to Jupiter. The restored Hubble Space Telescope continues to explore the deepest reaches of the cosmos as NASA developes the James Webb Space Telescope.\r\n\r\nCloser to home, the latest crew of the International Space Station is extending the permanent human presence in space. With commercial partners such as SpaceX, NASA is helping to foster the development of private-sector aerospace.\r\n\r\nEarth science satellites are sending back unprecedented data on Earth's oceans, climate and other features. NASA's aeronautics team is working with other government organizations, universities, and industry to fundamentally improve the air transportation experience and retain our nation's leadership in global aviation.",
+    "created": "2013-03-14T03:44:44.467521",
+    "title": "National Aeronautics and Space Administration",
+    "name": "nasa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://polargateways2008.gsfc.nasa.gov/images/LOGO_2in/NASA_2.jpg",
+    "revision_id": "7f05110b-681a-402c-a372-74500dc583dd",
+    "type": "organization",
+    "id": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+    "approval_status": "approved"
+  },
+  "name": "mls-aura-l2-diagnostics-miscellaneous-grid-v002",
+  "isopen": true,
+  "url": null,
+  "notes": "ML2DGM is the EOS Aura Microwave Limb Sounder (MLS) product containing the minor frame diagnostic quantities on a miscellaneous grid. These include items such as tangent pressure, chi-square describing various fits to the measured radiances, number of radiances used in variious retrieval phases, etc. This product contains a second auxillary file which includes cloud-induced radiances inferred for selected spectral channels. The current version is 2.2. Data coverage is complete from August 8, 2004 to current. Spatial coverage is near-global (-82¬∞ to +82¬∞ latitude), with each profile spaced 1.5¬∞ or ~165 km along the orbit track (roughly 15 orbits per day). Vertical resolution varies between species and typically ranges from 3 - 6 km. Users of the ML2DGM data product should read the Supplement to Version 1.5 Level 2 Data Quality and Description Document for more information (http://mls.jpl.nasa.gov/data/v1-5-supplement-29jul05b.pdf).\n\n      Users are encouraged to register with the MLS science team at https://mls.jpl.nasa.gov/forms/reguser.php to obtain updates and information about this data product.\n\n      The data are stored in the version 5 Hierarchical Data Format, or HDF5. Each file contains sets of HDF5 dataset objects (n-dimensional arrays) for each diagnostics measurement. The dataset objects represent data and geolocation fields; included in the file are file attributes and metadata. There are two files per day (MLS-Aura_L2AUX-DGM* and MLS-Aura_L2AUX-Cloud*).",
+  "owner_org": "d8a6202b-c0c3-463d-88a0-3bc021a178ed",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "collection_metadata",
+      "value": "true"
+    },
+    {
+      "key": "issued",
+      "value": "2006-09-25T00:00:00.000Z"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "10a3015c7bab1a18d5940f8518d9df82709e5f7a"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "temporal",
+      "value": "R/2004-08-08T00:00:00Z/P1Y"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "geospatial"
+      ]
+    },
+    {
+      "key": "spatial",
+      "value": "-180.0 -82.0 180.0 82.0"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "026:001"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "026:00"
+      ]
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "landingPage",
+      "value": "http://reverb.echo.nasa.gov/reverb?selected=C179124726-GSFCS4PA"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "b56c9840-fd4f-4f2c-9a11-c6b8c814ba95"
+    },
+    {
+      "key": "publisher",
+      "value": "GESDISC"
+    },
+    {
+      "key": "_id",
+      "value": {
+        "$oid": "55942a6cc63a7fe59b496ac7"
+      }
+    },
+    {
+      "key": "license",
+      "value": "http://www.usa.gov/publicdomain/label/1.0/"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "publisher_hierarchy",
+      "value": "U.S. Government > National Aeronautics and Space Administration > GESDISC"
+    },
+    {
+      "key": "modified",
+      "value": "2011-02-10T00:00:00.000Z"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "accrualPeriodicity",
+      "value": "irregular"
+    },
+    {
+      "key": "identifier",
+      "value": "C179124726-GSFCS4PA"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "b56c9840-fd4f-4f2c-9a11-c6b8c814ba95"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "39e4ad2a-47ca-4507-8258-852babd0fd99"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NASA Data.json"
+    }
+  ],
+  "license_url": "http://www.usa.gov/publicdomain/label/1.0/",
+  "title": "MLS/Aura L2 Diagnostics, Miscellaneous Grid V002",
+  "revision_id": "51ab8ff8-5860-46f7-be47-1120044f3484"
+}

@@ -1,0 +1,203 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "08b7636d-ea4c-44cc-904e-774860789d7d",
+  "metadata_created": "2013-06-12T18:00:35.108156",
+  "metadata_modified": "2015-04-09T22:33:01.658704",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "08b7636d-ea4c-44cc-904e-774860789d7d",
+      "webstore_last_updated": null,
+      "id": "16459925-d293-4ce5-9e5e-1e0e7cbd2c9b",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "geo_image_server.html",
+      "format": "HTML",
+      "tracking_summary": {
+        "total": 50,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "50febe3e-64a3-44e8-b74b-ea0b39b720b5",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-01-09T15:42:54.405875",
+      "url": "http://www.mngeo.state.mn.us/chouse/wms/geo_image_server.html",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 9,
+    "recent": 1
+  },
+  "groups": [
+    {
+      "display_name": "Local Government",
+      "description": "Local Government Topic - for all datasets with state, local, county organizations",
+      "image_display_url": "",
+      "title": "Local Government",
+      "id": "ccc6c266-eee8-44bd-89aa-7cd8c4c6bf46",
+      "name": "local"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:47.372413",
+    "title": "State of Minnesota",
+    "name": "state-mn-us",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://mn.gov/portal/images/mn_header_mn-logo.png",
+    "revision_id": "018d8409-7698-467f-8dc2-c58188806480",
+    "type": "organization",
+    "id": "24298fe4-ee0d-43ae-af51-81ae5f5c6165",
+    "approval_status": "approved"
+  },
+  "name": "digital-orthophoto-quadrangles-doqs-minnesota-1991-928cf44",
+  "isopen": false,
+  "url": null,
+  "notes": "This dataset contains rectified air photos flown during the spring of 1991 and 1992. They show ground conditions at the times they were collected. A digital orthophoto is a raster image of remotely sensed data in which displacement in the image due to sensor orientation and terrain relief have been removed. Orthophotos combine the image characteristics of a photograph with the geometric qualities of a map. The primary digital orthophotoquad (DOQ) is a 1-meter ground resolution, quarter-quadrangle (3.75-minutes of latitude by 3.75-minutes of longitude) image cast on the Universal Transverse Mercator Projection (UTM) on the North American Datum of 1983 (NAD83). The geographic extent of the DOQ is equivalent to a quarter-quad plus overedge. The overedge ranges a minimum of 50 meters to a maximum of 300 meters beyond the extremes of the primary and secondary corner points. The overedge is included to facilitate tonal matching for mosaicking and for the placement of the NAD83 and secondary datum corner ticks. The normal orientation of data is by lines (rows) and samples (columns). Each line contains a series of pixels ordered from west to east with the order of the lines from north to south. The standard, archived digital orthophoto is formatted as four ASCII header records, followed by a series of 8-bit binary image data records. The radiometric image brightness values are stored as 256 gray levels ranging from 0 to 255. The metadata provided in the digital orthophoto contain a wide range of descriptive information including format source information, production instrumentation and dates, and data to assist with displaying and georeferencing the image. The standard distribution format of DOQs will be JPEG compressed images on CD by counties or special regions. The reconstituted image from the CD will exhibit some radiometric differences when compared to its uncompressed original but will retain the geometry of the uncompressed DOQ.",
+  "owner_org": "24298fe4-ee0d-43ae-af51-81ae5f5c6165",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "-89"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "49.5"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "graphic-preview-file",
+      "value": ""
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "43"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-97.5, 43.0], [-89.0, 43.0], [-89.0, 49.5], [-97.5, 49.5], [-97.5, 43.0]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: None. Acknowledgment of the U.S. Geological Survey would be appreciated in products derived from these data.\", \"Access Constraints: None\"]"
+    },
+    {
+      "key": "contact-email",
+      "value": "mcmcesic@usgs.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-97.5"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2015-01-08"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"\"}]"
+    },
+    {
+      "key": "graphic-preview-description",
+      "value": "Thumbnail image of northern portion of Como Lake and golf course in St. Paul."
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "asNeeded"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty, expressed or implied, is made by the USGS regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty. The USGS will warrant the delivery of this product in computer-readable format and will offer appropriate adjustment of credit when the product is determined unreadable by correctly adjusted computer input peripherals, or when the physical medium is delivered in damaged condition. Requests for adjustments of credit must be made within 90 days from the date of this shipment from the ordering site.\\n\\nMnGeo's data disclaimer is online: http://www.mngeo.state.mn.us/chouse/disclaimer.html\"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"U. S. Geological Survey\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": ""
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "8b5ca245-8cc4-4e72-932e-0f0568dfe3fd"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "526b774b-2dbe-4b61-91f5-8e3e020b9bce"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Minnesota Geospatial Information Office"
+    }
+  ],
+  "title": "Digital Orthophoto Quadrangles (DOQs), Minnesota, 1991-92",
+  "revision_id": "fe05345f-7206-43e8-83d3-1e66d2b914f6"
+}

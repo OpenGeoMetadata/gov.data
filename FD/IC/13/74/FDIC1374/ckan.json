@@ -1,0 +1,166 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "FDIC-1374",
+  "metadata_created": "2013-05-18T09:55:37.333842",
+  "metadata_modified": "2014-01-12T07:33:05.083648",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": null,
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "FDIC-1374",
+      "webstore_last_updated": null,
+      "id": "608b288c-46bb-493c-a8ff-a2a0d05b51a0",
+      "size": null,
+      "size_text": "11.5KB",
+      "state": "active",
+      "hash": "",
+      "description": "banklist.csv",
+      "format": "CSV",
+      "tracking_summary": {
+        "total": 2635,
+        "recent": 56
+      },
+      "last_modified": null,
+      "url_type": null,
+      "revision_id": "e07aec64-8525-41f2-8ae9-25ca36797017",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Comma Separated Values File",
+      "created": "2013-05-18T11:55:37.364021",
+      "url": "http://www.fdic.gov/bank/individual/failed/banklist.csv",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 8709,
+    "recent": 184
+  },
+  "groups": [
+    {
+      "display_name": "Consumer",
+      "description": "",
+      "image_display_url": "",
+      "title": "Consumer",
+      "id": "3b4e71c5-3c3c-43af-a3ff-81694225e453",
+      "name": "consumer9350"
+    },
+    {
+      "display_name": "Finance",
+      "description": "",
+      "image_display_url": "",
+      "title": "Finance",
+      "id": "405b5dfb-24f8-4b77-9999-745076d64cb2",
+      "name": "finance3432"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:55:36.991279",
+    "title": "Federal Deposit Insurance Corporation",
+    "name": "fdic-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://gsa.github.io/logo/fdic.png",
+    "revision_id": "f012babb-e564-4516-9abc-495cc4498bee",
+    "type": "organization",
+    "id": "5021090a-be95-4013-946d-5ab92bac68ff",
+    "approval_status": "approved"
+  },
+  "name": "fdic-failed-bank-list",
+  "isopen": false,
+  "url": null,
+  "notes": "The FDIC is often appointed as receiver for failed banks. This list includes banks which have failed since October 1, 2000.",
+  "owner_org": "5021090a-be95-4013-946d-5ab92bac68ff",
+  "extras": [
+    {
+      "key": "data-quality",
+      "value": "TRUE"
+    },
+    {
+      "key": "__category_tag_3b4e71c5-3c3c-43af-a3ff-81694225e453",
+      "value": "[\"Housing and Community\"]"
+    },
+    {
+      "key": "contact-email",
+      "value": "CServiceFDICDAL@FDIC.gov"
+    },
+    {
+      "key": "issued",
+      "value": "01-Oct-2000"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "10/1/2000 to present"
+    },
+    {
+      "key": "spatial-text",
+      "value": "United States and Territories"
+    },
+    {
+      "key": "theme",
+      "value": [
+        "Section 25. Banking, Finance, and Insurance"
+      ]
+    },
+    {
+      "key": "references",
+      "value": [
+        "http://www.fdic.gov/bank/individual/failed/index.html"
+      ]
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "Weekly"
+    },
+    {
+      "key": "metadata-date",
+      "value": "Ongoing as banks are closed"
+    },
+    {
+      "key": "access-level",
+      "value": "public"
+    },
+    {
+      "key": "granularity",
+      "value": "City, State"
+    },
+    {
+      "key": "metadata-source",
+      "value": "dms"
+    },
+    {
+      "key": "tags",
+      "value": "{banks,\"financial institutions\",failed,failure,closing,deposits,\"depositors,\"}"
+    }
+  ],
+  "title": "FDIC Failed Bank List",
+  "revision_id": "7f9ea8db-953d-4be6-9f54-363320db3210"
+}

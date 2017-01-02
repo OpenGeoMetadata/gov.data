@@ -1,0 +1,217 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "640c8dae-3884-4c9b-95f0-5b927a4548dd",
+  "metadata_created": "2016-07-16T01:34:26.502072",
+  "metadata_modified": "2016-07-16T01:34:26.502072",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "640c8dae-3884-4c9b-95f0-5b927a4548dd",
+      "webstore_last_updated": null,
+      "id": "141f6bad-5f9e-42ae-8747-efeffd4275cb",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "ESRI Shapefile (.shp)",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "ESRI Shapefile (.shp)",
+      "created": "2016-07-15T21:34:26.605057",
+      "url": "http://cloud.insideidaho.org/webApps/util/zip.ashx?fn=http://cloud.insideidaho.org/data/blm/fireHazardRisk/RelFireRiskCommunities_id_blm.shp",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "revision_id": "5aa998a3-94c3-4b79-9b19-a852a4021a37",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "640c8dae-3884-4c9b-95f0-5b927a4548dd",
+      "webstore_last_updated": null,
+      "id": "5ec3f7a2-2b7e-4dcd-8c03-56226c08b213",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "5aa998a3-94c3-4b79-9b19-a852a4021a37",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2016-07-15T21:34:26.605092",
+      "url": "http://cloud.insideidaho.org/webApps/util/zip.ashx?fn=http://cloud.insideidaho.org/data/blm/fireHazardRisk/RelFireRiskCommunities_id_blm.shp",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 2,
+    "recent": 0
+  },
+  "groups": [
+
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "The University of Idaho is a nationally-recognized research institution committed to student success and academic excellence that delivers one of the best educational values in the Pacific Northwest.",
+    "created": "2013-03-14T03:44:41.687651",
+    "title": "University of Idaho",
+    "name": "uidaho-edu",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://upload.wikimedia.org/wikipedia/en/thumb/4/44/University_of_Idaho_seal.svg/300px-University_of_Idaho_seal.svg.png",
+    "revision_id": "761955d7-9530-4622-8609-d0b01c78e177",
+    "type": "organization",
+    "id": "75e22a8a-da5f-46f3-93d8-924063a3703d",
+    "approval_status": "approved"
+  },
+  "name": "wildland-fire-communities-at-relative-risk-polygon",
+  "isopen": false,
+  "url": null,
+  "notes": "For this analysis, it was assumed that a relative measure of the risks to communities from wildland fire could be characterized by integrating relative wildland fire risk, relative wildland fire hazard, and wildland urban interface. That is, within the wildland urban interface, risks are directly associated with the probability that an area will burn, as well as the likely fire behavior that would occur if that area did in fact burn. It was assumed that burn probability and likely fire behavior would contribute equally to the risks to communities. Agriculture, rock, urban, and water were not assigned a burn probability or relative fire behavior. Consequently, by definition, communities within these cover classes would not be at risk from wildland fires. For those communities occurring within burnable areas, a communityâs risk to wildland fire could be characterized as follows: CAR = (WUI + Relative WildlandFireRiskstd + Relative WildlandFireHazardstd)/3 Using the three components mentioned above, RelFireRiskCommunities_ID_BLM, \"Relative Risk to Communities from Wildland Fire in Idaho\" was derived.",
+  "owner_org": "75e22a8a-da5f-46f3-93d8-924063a3703d",
+  "extras": [
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"Bureau of Land Management, Idaho State Office\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "contact-email",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "-117.530658"
+    },
+    {
+      "key": "metadata-date",
+      "value": "2013-01-06"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"2007-01-01\"}]"
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-east-long",
+      "value": "-110.656329"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "49.039048"
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "41.945767"
+    },
+    {
+      "key": "licence",
+      "value": "[\"Although these data have been processed successfully on a computer system at the Idaho Geospatial Data Clearinghouse, no warranty, expressed or implied, is made regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty. \"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-117.530658, 41.945767], [-110.656329, 41.945767], [-110.656329, 49.039048], [-117.530658, 49.039048], [-117.530658, 41.945767]]]}"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: No warranty is made by the Bureau of Land Management as to the accuracy, reliability, or completeness of these data for individual use or aggregate use with other data. These data were designed to characterize mid-scale patterns across the state of Idaho at a scale of approximately 1:100,000. The use of these data at scales less than 1:100,000 is not recommended without field verification. This data set is provided \\\"as-is\\\" without warranty of any kind, including, but not limited to, the implied warranties of merchantability and fitness or a particular purpose. The user assumes all responsibility for the accuracy and suitability of this dataset for a specific application. In no event will the creators or USDA Forest Service be liable for any damages, including lost profits, lost savings, or other incidental or consequential damages arising from the use of or inability to use this data set. Use of these data may require the ability to read ArcInfo Grid datasets. The expected accuracy of this data set does not warrant its use for geographic extents smaller than approximately 10,000 acres. That is, these data were not designed to be used for \\\"project level\\\" assessments that typically require 1:24,000 scale data.\", \"Access Constraints: Public\"]"
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "notPlanned"
+    },
+    {
+      "key": "tags",
+      "value": "idaho state fire plan, wildland urban interface, wildland fire, relative risk to communities from wildland fire, communities at risk, wui, fire risk, idaho, fire hazard"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "c38d3efc-628b-4469-849f-af845091557c"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "6d1998c4-ba28-47a6-9395-7413c0cc32ac"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Idaho Geospatial Data Clearinghouse"
+    }
+  ],
+  "title": "Wildland Fire Communities at Relative Risk (Polygon)",
+  "revision_id": "5aa998a3-94c3-4b79-9b19-a852a4021a37"
+}

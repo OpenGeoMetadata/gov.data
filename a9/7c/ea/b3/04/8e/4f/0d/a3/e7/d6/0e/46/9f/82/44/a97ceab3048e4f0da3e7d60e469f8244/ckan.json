@@ -1,0 +1,249 @@
+{
+  "license_title": "Creative Commons Attribution",
+  "maintainer": "James E. Faulds",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "jfaulds@unr.edu",
+  "num_tags": 8,
+  "id": "a97ceab3-048e-4f0d-a3e7-d60e469f8244",
+  "metadata_created": "2016-11-30T21:30:00.201397",
+  "metadata_modified": "2016-11-30T21:30:00.201397",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "a97ceab3-048e-4f0d-a3e7-d60e469f8244",
+      "webstore_last_updated": null,
+      "id": "7e08cad3-31af-4b64-8920-030ddef5a4d2",
+      "size": null,
+      "state": "active",
+      "hash": "",
+      "description": "Slip and dilation tendency on the Great Basin fault surfaces (from the USGS Quaternary Fault\nDatabase) were calculated using 3DStress (software produced by Southwest Research Institute).\n Slip and dilation tendency are both unitless ratios of the resolved stresses applied to the fault\nplane by the measured ambient stress field.\no Values range from a maximum of 1 (a fault plane ideally oriented to slip or dilate under\nambient stress conditions) to zero (a fault plane with no potential to slip or dilate).\no Slip and dilation tendency values were calculated for each fault in the Great Basin. As\ndip is unknown for many faults in the USGS Quaternary Fault Database, we made these\ncalculations using the dip for each fault that would yield the maximum slip or dilation\ntendency. As such, these results should be viewed as maximum slip and dilation\ntendency.\no The resulting along‐fault and fault‐to‐fault variation in slip or dilation potential is a proxy\nfor along fault and fault‐to‐fault variation in fluid flow conduit potential.\n Stress Magnitudes and directions were calculated across the entire Great Basin. Stress field\nvariation within each focus area was approximated based on regional published data and the\nworld stress database (Hickman et al., 2000; Hickman et al., 1998 Robertson‐Tait et al., 2004;\nHickman and Davatzes, 2010; Davatzes and Hickman, 2006; Blake and Davatzes 2011; Blake and\nDavatzes, 2012; Moeck et al., 2010; Moos and Ronne, 2010 and Reinecker et al., 2005).\n The minimum horizontal stress direction (Shmin) was contoured, and spatial bins with common\nShmin directions were calculated. Based on this technique, we subdivided the Great Basin into\nnine regions (Shmin <070, 070<Shmin<080, 080<Shmin<090, 090<Shmin<100, 100<Shmin<110,\n110<Shmin<120, 120<Shmin<130, 130<Shmin<140, Shmin>140). Slip and dilation tendency\nwere calculated using 3DStress for the faults within each region using the mean Shmin for the\nregion. Shmin variation throughout Great Basin are shown on Figure 3.\n For faults within the Great Basin proper, we applied a normal faulting stress regime, where the\nvertical stress (sv) is larger than the maximum horizontal stress (shmax), which is larger than the\nminimum horizontal stress (sv>shmax>shmin). Based on visual inspection of the limited stress\nmagnitude data in the Great Basin, we used magnitudes such that shmin/shmax = .527 and\nshmin/sv= .46. These values are consistent with stress magnitude data at both Dixie Valley\n(Hickman et al., 2000) and Yucca Mountain (Stock et al., 1985).\n For faults within the Walker Lane/Eastern California Shear Zone, we applied a strike‐slip faulting\nstress, where shmax > sv > shmin. Upon visual inspection of limited stress magnitude data from\nthe Walker Lane and Eastern California Shear zone, we chose values such that SHmin/SHmax =\n.46 and Shmin/Sv= .527 representative of the region.\n Results: The results of our slip and dilation tendency analysis are shown in Figures 4 (dilation\ntendency), 5 (slip tendency) and 6 (slip tendency + dilation tendency). Shmin varies from\nnorthwest to east‐west trending throughout much of the Great Basin. As such, north‐ to\nnortheast‐striking faults have the highest tendency to slip and to dilate, depending on the local\ntrend of shmin. These results provide a first order filter on faults and fault systems in the Great\nBasin, affording focusing of local‐scale exploration efforts for blind or hidden geothermal\nresources.",
+      "format": "ZIP",
+      "tracking_summary": {
+        "total": 6,
+        "recent": 1
+      },
+      "last_modified": null,
+      "url_type": null,
+      "mimetype": "application/zip",
+      "cache_url": null,
+      "name": "finalgreatbasinslipanddilationtendency.zip",
+      "created": "2016-11-30T16:30:00.412736",
+      "url": "http://gdr.openei.org/files/353/FinalGreatBasinSlipandDilationTendency%20%286%29.zip",
+      "webstore_url": null,
+      "mimetype_inner": null,
+      "position": 0,
+      "revision_id": "4e0bf1b2-cf98-479c-9d72-4685dcc0e8a6",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 1,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "basin-and-range",
+      "id": "c428238d-baab-48a4-9ec6-e6b47abfd68e",
+      "name": "basin-and-range"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "dilation-tendency",
+      "id": "72c42cdd-b3e8-486b-954d-a5d4e232b15f",
+      "name": "dilation-tendency"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "geothermal",
+      "id": "3f323051-fbd3-4715-bc13-e2fa5e65d369",
+      "name": "geothermal"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "great-basin",
+      "id": "eb6cdbbe-93d4-4737-94c9-6cdae508354d",
+      "name": "great-basin"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "quaternary-faults",
+      "id": "d791c43b-c920-4e31-9df7-c711720e6339",
+      "name": "quaternary-faults"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "slip-tendency",
+      "id": "7d67413a-5d16-4eb3-96f6-d199aa534f86",
+      "name": "slip-tendency"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "stress-fields",
+      "id": "bb3163bd-088d-4e23-8c46-a3a3e5c0d813",
+      "name": "stress-fields"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "walker-lane",
+      "id": "101dd3cd-edbb-43f0-bd3a-ddf1a66e649c",
+      "name": "walker-lane"
+    }
+  ],
+  "tracking_summary": {
+    "total": 1,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-by",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:21.471948",
+    "title": "Department of Energy",
+    "name": "doe-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "http://energy.gov/sites/prod/files/styles/imagelink/public/DoE-Logo.jpeg",
+    "revision_id": "14e1d3c1-4cc7-460c-bf1c-b10e3429b4b0",
+    "type": "organization",
+    "id": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+    "approval_status": "approved"
+  },
+  "name": "regional-slip-tendency-analysis-of-the-great-basin-region-1faf3",
+  "isopen": true,
+  "url": null,
+  "notes": "Slip and dilation tendency on the Great Basin fault surfaces (from the USGS Quaternary Fault Database) were calculated using 3DStress (software produced by Southwest Research Institute).\n\nSlip and dilation tendency are both unitless ratios of the resolved stresses applied to the fault plane by the measured ambient stress field.\n- Values range from a maximum of 1 (a fault plane ideally oriented to slip or dilate under ambient stress conditions) to zero (a fault plane with no potential to slip or dilate).\n- Slip and dilation tendency values were calculated for each fault in the Great Basin. As dip is unknown for many faults in the USGS Quaternary Fault Database, we made these calculations using the dip for each fault that would yield the maximum slip or dilation tendency. As such, these results should be viewed as maximum slip and dilation tendency.\n- The resulting along‐fault and fault‐to‐fault variation in slip or dilation potential is a proxy for along fault and fault‐to‐fault variation in fluid flow conduit potential.\n\nStress Magnitudes and directions were calculated across the entire Great Basin. Stress field variation within each focus area was approximated based on regional published data and the world stress database (Hickman et al., 2000; Hickman et al., 1998 Robertson‐Tait et al., 2004; Hickman and Davatzes, 2010; Davatzes and Hickman, 2006; Blake and Davatzes 2011; Blake and Davatzes, 2012; Moeck et al., 2010; Moos and Ronne, 2010 and Reinecker et al., 2005).\n\nThe minimum horizontal stress direction (Shmin) was contoured, and spatial bins with common Shmin directions were calculated. Based on this technique, we subdivided the Great Basin into nine regions (Shmin <070, 070<Shmin<080, 080<Shmin<090, 090<Shmin<100, 100<Shmin<110, 110<Shmin<120, 120<Shmin<130, 130<Shmin<140, Shmin>140). Slip and dilation tendency were calculated using 3DStress for the faults within each region using the mean Shmin for the region. Shmin variation throughout Great Basin are shown on Figure 3.\n\nFor faults within the Great Basin proper, we applied a normal faulting stress regime, where the vertical stress (sv) is larger than the maximum horizontal stress (shmax), which is larger than the minimum horizontal stress (sv>shmax>shmin). Based on visual inspection of the limited stress magnitude data in the Great Basin, we used magnitudes such that shmin/shmax = .527 and shmin/sv= .46. These values are consistent with stress magnitude data at both Dixie Valley (Hickman et al., 2000) and Yucca Mountain (Stock et al., 1985).\n\nFor faults within the Walker Lane/Eastern California Shear Zone, we applied a strike‐slip faulting stress, where shmax > sv > shmin. Upon visual inspection of limited stress magnitude data from the Walker Lane and Eastern California Shear zone, we chose values such that SHmin/SHmax = .46 and Shmin/Sv= .527 representative of the region. \n\nResults: The results of our slip and dilation tendency analysis are shown in Figures 4 (dilation tendency), 5 (slip tendency) and 6 (slip tendency + dilation tendency). Shmin varies from northwest to east‐west trending throughout much of the Great Basin. As such, north‐ to northeast‐striking faults have the highest tendency to slip and to dilate, depending on the local trend of shmin. These results provide a first order filter on faults and fault systems in the Great Basin, affording focusing of local‐scale exploration efforts for blind or hidden geothermal resources.\n",
+  "owner_org": "735d0118-b2a7-4246-a0e3-608b0fa8d1ec",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "issued",
+      "value": "2013-09-30"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "source_hash",
+      "value": "5128a8001d662996fee1c1abcad7b7778d63ef9d"
+    },
+    {
+      "key": "accessLevel",
+      "value": "public"
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-122.287309375,35.2279],[-111.048396875,35.2279],[-111.048396875,44.773455872601],[-122.287309375,44.773455872601],[-122.287309375,35.2279]]]}"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "format",
+      "value": "application/unknown"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "019:006"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "019:20"
+      ]
+    },
+    {
+      "key": "landingPage",
+      "value": "http://gdr.openei.org/submissions/353"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "73c0ebbe-1a1e-450a-bf98-321c991471ab"
+    },
+    {
+      "key": "accessURL",
+      "value": "http://gdr.openei.org/files/353/FinalGreatBasinSlipandDilationTendency%20%286%29.zip"
+    },
+    {
+      "key": "publisher",
+      "value": "University of Nevada Reno"
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "key": "modified",
+      "value": "2013-09-30"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "http://en.openei.org/doe-opendata/dataset/f0000000-e214-4c72-acd2-000000000353"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "73c0ebbe-1a1e-450a-bf98-321c991471ab"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "8d4de31c-979c-4b50-be6b-ea3c72453ff6"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "Energy JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-by",
+  "title": "Regional Slip Tendency Analysis of the Great Basin Region",
+  "revision_id": "4e0bf1b2-cf98-479c-9d72-4685dcc0e8a6"
+}

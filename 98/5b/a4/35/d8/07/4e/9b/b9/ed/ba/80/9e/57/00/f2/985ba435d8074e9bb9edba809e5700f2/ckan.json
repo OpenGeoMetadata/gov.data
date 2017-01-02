@@ -1,0 +1,257 @@
+{
+  "license_title": null,
+  "maintainer": null,
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": null,
+  "num_tags": 0,
+  "id": "985ba435-d807-4e9b-b9ed-ba809e5700f2",
+  "metadata_created": "2015-09-27T00:18:44.294495",
+  "metadata_modified": "2015-11-10T07:48:17.856843",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "package_id": "985ba435-d807-4e9b-b9ed-ba809e5700f2",
+      "webstore_last_updated": null,
+      "id": "ecc75cec-f299-4008-a460-48cf847b092b",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "DEM",
+      "tracking_summary": {
+        "total": 271,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "65c0b454-43b4-466b-b599-2da5c6005f05",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-11-10T02:48:18.033201",
+      "url": "http://estuarinebathymetry.noaa.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 0,
+      "no_real_name": "True",
+      "resource_type": null
+    },
+    {
+      "cache_last_updated": null,
+      "package_id": "985ba435-d807-4e9b-b9ed-ba809e5700f2",
+      "webstore_last_updated": null,
+      "id": "e24026cd-ad1e-4117-bab1-54899d233f07",
+      "size": null,
+      "state": "active",
+      "resource_locator_function": "",
+      "hash": "",
+      "description": "",
+      "format": "",
+      "tracking_summary": {
+        "total": 271,
+        "recent": 1
+      },
+      "mimetype_inner": null,
+      "url_type": null,
+      "resource_locator_protocol": "",
+      "revision_id": "65c0b454-43b4-466b-b599-2da5c6005f05",
+      "mimetype": null,
+      "cache_url": null,
+      "name": "Web Page",
+      "created": "2015-11-10T02:48:18.033249",
+      "url": "http://estuarinebathymetry.noaa.gov",
+      "webstore_url": null,
+      "last_modified": null,
+      "position": 1,
+      "no_real_name": "True",
+      "resource_type": null
+    }
+  ],
+  "num_resources": 2,
+  "tags": [
+
+  ],
+  "tracking_summary": {
+    "total": 49,
+    "recent": 4
+  },
+  "groups": [
+    {
+      "display_name": "Climate",
+      "description": "",
+      "image_display_url": "",
+      "title": "Climate",
+      "id": "aa0c01c9-d292-4dc1-8fec-b10c1bb629a9",
+      "name": "climate5434"
+    },
+    {
+      "display_name": "Disasters",
+      "description": "Disaster Topic for Data.gov",
+      "image_display_url": "",
+      "title": "Disasters",
+      "id": "72886f47-5994-4ca9-82ba-4a75987250a9",
+      "name": "disasters"
+    },
+    {
+      "display_name": "Ocean",
+      "description": "",
+      "image_display_url": "",
+      "title": "Ocean",
+      "id": "f700e408-3bf4-4e8f-9499-b0ab0e2fec3c",
+      "name": "ocean9585"
+    }
+  ],
+  "license_id": null,
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-03-14T03:44:40.434269",
+    "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "name": "noaa-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+    "revision_id": "c6d43080-22e1-405e-a83d-f2a512d9e867",
+    "type": "organization",
+    "id": "e811f0b4-451f-4896-9e8f-fc6802837819",
+    "approval_status": "approved"
+  },
+  "name": "estuarine-bathymetric-digital-elevation-models-30-meter-and-3-arc-second-resolution-derived-fro",
+  "isopen": false,
+  "url": null,
+  "notes": "These Bathymetric Digital Elevation Models (DEM) were generated from original point soundings collected during hydrographic surveys conducted by the National Ocean Service and its predecessors. Mean High Water shoreline was used as a constraining boundary and assigned its local elevation relative to the local datum (typically Mean Low Water). DEM grid values outside the shoreline (on land) were assigned null values (-32676). In the event of multiple surveys in a region, the most recent survey soundings were retained. Both 7.5 minute and 1 degree DEMs are available. The 1 degree DEMs were generated from the higher resolution 7.5 minute DEMs which covered the estuary. These DEMs are available as either Untiled (large grids) or sets of Tiled DEMs (at 7.5 degree minute size). A Digital Elevation Model (DEM) contains a series of elevations ordered from south to north with the order of the columns from west to east. The DEM is formatted as one ASCII header record (A- record), followed by a series of profile records (B- records) each of which include a short B-record header followed by a series of ASCII integer elevations (typically in units of 1 centimeter {0.01 meter]) per each profile. The last physical record of the DEM is an accuracy record (C-record). The 1 degree (60-minute) DEMs (3 arc second x 3 arc second data spacing) is cast on the geographic coordinate system (no projection). It provides coverage in 1 degree square blocks. Each product contains over edge data. Coverage is available for the many estuaries of the conterminous United States, but is not complete. The 7.5-minute DEM (30- by 30-m data spacing) is cast on the Universal Transverse Mercator (UTM) projection. It provides coverage in 7.5- by 7.5-minute blocks. Each product provides the same coverage as a standard USGS 7.5-minute quadrangle but the DEM contains over edge data. Coverage is available for many estuaries of the contiguous United States but is not complete.",
+  "owner_org": "e811f0b4-451f-4896-9e8f-fc6802837819",
+  "extras": [
+    {
+      "key": "bbox-east-long",
+      "value": "\n          -65.00\n        "
+    },
+    {
+      "key": "resource-type",
+      "value": "dataset"
+    },
+    {
+      "key": "bbox-north-lat",
+      "value": "\n          50.00\n        "
+    },
+    {
+      "key": "coupled-resource",
+      "value": "[]"
+    },
+    {
+      "key": "guid",
+      "value": ""
+    },
+    {
+      "key": "spatial_harvester",
+      "value": true
+    },
+    {
+      "key": "bbox-south-lat",
+      "value": "\n          24.00\n        "
+    },
+    {
+      "key": "__category_tag_aa0c01c9-d292-4dc1-8fec-b10c1bb629a9",
+      "value": "[\"Coastal Flooding\"]"
+    },
+    {
+      "key": "spatial-reference-system",
+      "value": ""
+    },
+    {
+      "key": "spatial",
+      "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-125.0, 24.0], [-65.0, 24.0], [-65.0, 50.0], [-125.0, 50.0], [-125.0, 24.0]]]}"
+    },
+    {
+      "key": "progress",
+      "value": "completed"
+    },
+    {
+      "key": "access_constraints",
+      "value": "[\"Use Constraints: Not to be used for Navigation. Acknowledgment of the National Oceanic and Atmospheric Administration- Nation Ocean Service would be appreciated in products derived from these data. The datum for these bathymetric DEMs (Mean Low Water) is not the same as that used by the US Geological survey (USGS) for land based DEMs (NAV29) which results in a discontinuity of about 1/2 the tidal range. Moreover, the shoreline for the USGS DEMs is indeterminate and not the same as that used for the Bathymetric DEMs. Furthermore, the vertical resolution is smaller and accuracy of the Bathymetric DEMs is better than USGS DEMs. Because of these differences, extreme care should be used in merging NOAA and USGS DEM data.\", \"Access Constraints: none\"]"
+    },
+    {
+      "key": "temporal-extent-begin",
+      "value": "1839-01-01"
+    },
+    {
+      "key": "contact-email",
+      "value": "special.projects@noaa.gov"
+    },
+    {
+      "key": "bbox-west-long",
+      "value": "\n          -125.00\n        "
+    },
+    {
+      "key": "metadata-date",
+      "value": "2015-10-17"
+    },
+    {
+      "key": "dataset-reference-date",
+      "value": "[{\"type\": \"publication\", \"value\": \"1998-06-06\"}]"
+    },
+    {
+      "key": "frequency-of-update",
+      "value": "irregular"
+    },
+    {
+      "key": "licence",
+      "value": "[\"\\n      Not to be used for navigation.  Although these data have been processed successfully on a computer system at the National Oceanic and Atmospheric Administration, no warranty expressed or implied is made by NOAA regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty. The National Oceanic and Atmospheric Administration will warrant the delivery of this product in computer-readable format and will offer appropriate adjustment of credit when the product is determined unreadable by correctly adjusted computer input peripherals, or when the physical medium is delivered in damaged condition.  Requests for adjustment of credit must be made within 90 days from the date of this shipment from the ordering site.\\n    \"]"
+    },
+    {
+      "key": "metadata_type",
+      "value": "geospatial"
+    },
+    {
+      "key": "__category_tag_f700e408-3bf4-4e8f-9499-b0ab0e2fec3c",
+      "value": "[\"Elevation and Bathymetry\"]"
+    },
+    {
+      "key": "responsible-party",
+      "value": "[{\"name\": \"National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Special Projects (SP)\", \"roles\": [\"pointOfContact\"]}]"
+    },
+    {
+      "key": "temporal-extent-end",
+      "value": "1989-01-01"
+    },
+    {
+      "key": "spatial-data-service-type",
+      "value": ""
+    },
+    {
+      "key": "metadata-language",
+      "value": ""
+    },
+    {
+      "key": "tags",
+      "value": "digital bathymetric model, geographic information, digital elevation model, oceans, water depth, marine navigation, depth, dem, digital terrain model, bathymetry, bathymetry/seafloor topography, u.s. exclusive economic zone, pacific ocean, earth science"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "4a0d5ff2-d77c-454d-b1b2-87ed6a0013d8"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "2aed8e29-fc5b-4cde-aa66-fb1118fd705e"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "NOAA CSW Harvest Source"
+    }
+  ],
+  "title": "Estuarine Bathymetric Digital Elevation Models (30 meter and 3 arc second resolution) Derived From Source Hydrographic Survey Soundings Collected by NOAA",
+  "revision_id": "52e77559-ff5c-4491-945d-aa22c7fd421d"
+}

@@ -1,0 +1,246 @@
+{
+  "license_title": "Creative Commons CCZero",
+  "maintainer": "Joseph Enderle",
+  "relationships_as_object": [
+
+  ],
+  "private": false,
+  "maintainer_email": "joseph.enderle@va.gov",
+  "num_tags": 11,
+  "id": "d9ec017f-019c-4b7e-90c1-acb24324a09e",
+  "metadata_created": "2015-02-26T17:06:03.739636",
+  "metadata_modified": "2015-10-08T21:50:16.144317",
+  "author": null,
+  "author_email": null,
+  "state": "active",
+  "version": null,
+  "creator_user_id": "47303a9e-1187-4290-85a3-1fc02dc49e4a",
+  "type": "dataset",
+  "resources": [
+
+  ],
+  "num_resources": 0,
+  "tags": [
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "basis",
+      "id": "2959ea87-726b-4888-86f0-bb9731e3dc71",
+      "name": "basis"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "drg",
+      "id": "d7a42b93-3ef1-42ed-bfa0-b32306769520",
+      "name": "drg"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "fee",
+      "id": "f17368b2-da29-4f19-b5a5-14202e82f6ab",
+      "name": "fee"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "inpatient",
+      "id": "8962f0b9-7328-406b-be68-50151ba7c24c",
+      "name": "inpatient"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "medicare",
+      "id": "74b5e161-50ea-4ed3-a1a3-583caaccae4d",
+      "name": "medicare"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "npi",
+      "id": "6691d9e1-ac8c-45c8-9484-0445a81a3e5a",
+      "name": "npi"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "nva",
+      "id": "b0f8a942-81d9-49ac-a9f0-d5dacbbfd38d",
+      "name": "nva"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "patient",
+      "id": "84651278-c505-44da-a3b6-6115676c70ff",
+      "name": "patient"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "provider",
+      "id": "dbdb211d-4c2d-44a2-b583-b49a77f663a8",
+      "name": "provider"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "va",
+      "id": "5c740e0c-4cbe-421a-a4d4-b0c59ba3986b",
+      "name": "va"
+    },
+    {
+      "vocabulary_id": null,
+      "state": "active",
+      "display_name": "veteran",
+      "id": "7561bea1-6f6c-4e42-96cc-7a5271ea4f8c",
+      "name": "veteran"
+    }
+  ],
+  "tracking_summary": {
+    "total": 69,
+    "recent": 1
+  },
+  "groups": [
+
+  ],
+  "license_id": "cc-zero",
+  "relationships_as_subject": [
+
+  ],
+  "organization": {
+    "description": "",
+    "created": "2013-05-18T11:31:11.529883",
+    "title": "Department of Veterans Affairs",
+    "name": "va-gov",
+    "is_organization": true,
+    "state": "active",
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/va.png",
+    "revision_id": "7c651ccc-eb67-439e-82dd-1ae7fff33f63",
+    "type": "organization",
+    "id": "ff9ae098-eccc-41d8-bfcd-5e8ed047db05",
+    "approval_status": "approved"
+  },
+  "name": "non-va-hospital-system-nvh",
+  "isopen": true,
+  "url": null,
+  "notes": "The Veterans Health Administration (VHA) pays for care provided to VA beneficiaries in non-VA hospitals through its contract hospitalization program as mandated by Congress in the late 1980s. The Non-VA Hospital System (NVH) software captures the patient's Demographics, Provider, Hospital Name and Location, Medicare Provider Number, Diagnoses and Procedures for which the patient received care during his/her inpatient stay. The data is received from either the patient or the medical center providing the care (normally on a UB-92 form). The billing office employee enters the information into Veterans Health Information Systems and Technology Architecture and sends information to the Austin Information Technology Center (AITC). The non-VA hospitals are reimbursed at Medicare rates based on the Prospective System (PPS). PPS uses the appropriate Diagnostic Related Groups (DRGs). Each DRG has a different rate-adjusted reimbursement based on the regional and urban/rural designation of the provider non-VA Hospitals. NVH is housed at the AITC and uses software developed by the AITC in conjunction with 3M and the Center for Medicare and Medicaid Services (CMS). It is a batch system written in Common Business Oriented Language, ALC, and Statistical Analysis Software. Processing occurs daily.",
+  "owner_org": "ff9ae098-eccc-41d8-bfcd-5e8ed047db05",
+  "extras": [
+    {
+      "key": "harvest_source_id",
+      "value": "e868f753-9395-4666-a30c-219334a64c6b"
+    },
+    {
+      "key": "resource-type",
+      "value": "Dataset"
+    },
+    {
+      "key": "modified",
+      "value": "2013-12-30"
+    },
+    {
+      "key": "source_hash",
+      "value": "4ae91185fc3fbc9745ca2630c6ba4ccd82539323"
+    },
+    {
+      "key": "temporal",
+      "value": "1975-01-01/2014-12-31"
+    },
+    {
+      "key": "spatial",
+      "value": "United States"
+    },
+    {
+      "key": "catalog_conformsTo",
+      "value": "https://project-open-data.cio.gov/v1.1/schema"
+    },
+    {
+      "key": "catalog_@context",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld"
+    },
+    {
+      "key": "catalog_describedBy",
+      "value": "https://project-open-data.cio.gov/v1.1/schema/catalog.json"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "VA JSON"
+    },
+    {
+      "key": "source_schema_version",
+      "value": "1.1"
+    },
+    {
+      "key": "programCode",
+      "value": [
+        "029:040"
+      ]
+    },
+    {
+      "key": "bureauCode",
+      "value": [
+        "029:15"
+      ]
+    },
+    {
+      "key": "accessLevel",
+      "value": "non-public"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "34681cae-0c22-447c-bc06-7af17c896ac5"
+    },
+    {
+      "key": "publisher",
+      "value": "Department of Veterans Affairs"
+    },
+    {
+      "key": "language",
+      "value": [
+        "en-US"
+      ]
+    },
+    {
+      "key": "license",
+      "value": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "key": "rights",
+      "value": "Health Insurance Portability and Accountability Act, protected health information."
+    },
+    {
+      "key": "systemOfRecords",
+      "value": "http://www.gpo.gov/fdsys/pkg/FR-2012-05-11/pdf/2012-11487.pdf"
+    },
+    {
+      "key": "source_datajson_identifier",
+      "value": true
+    },
+    {
+      "key": "dataQuality",
+      "value": true
+    },
+    {
+      "key": "identifier",
+      "value": "VA-VHA-CBO-008"
+    },
+    {
+      "key": "harvest_object_id",
+      "value": "34681cae-0c22-447c-bc06-7af17c896ac5"
+    },
+    {
+      "key": "harvest_source_id",
+      "value": "e868f753-9395-4666-a30c-219334a64c6b"
+    },
+    {
+      "key": "harvest_source_title",
+      "value": "VA JSON"
+    }
+  ],
+  "license_url": "http://www.opendefinition.org/licenses/cc-zero",
+  "title": "Non-VA Hospital System (NVH)",
+  "revision_id": "6ec91d55-6881-444a-827c-2d1701c35fe3"
+}
